@@ -15,8 +15,7 @@ Contents
 The Fire Emblem: Heroes Combat Simulator runs mass matchups for a selected character against a selected subset
 of the Fire Emblem: Heroes cast.
 
-The simulator uses a web interface and runs on HTML and JavaScript. No internet connection is required for
-operation.
+The simulator uses a web interface and runs on HTML and JavaScript.
 
 ====================================
 -----------2. How to Use------------
