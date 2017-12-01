@@ -182,7 +182,6 @@ class Fighter {
     // Set up the unit's special cooldown.
     this.cooldown = 0;
     this.reset_cooldown();
-    //this.cooldown -= this.seal.cd_reduce;
 
     // damage_dealt is a logging variable, used to report amount of damage dealt
     // by the unit during combat (for % HP calculations).
