@@ -328,7 +328,7 @@ function execute_phase(attacker, defender) {
     if (attacker.get_cooldown() == 0) {
       combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
       var precombat_dmg = defender.apply_precombat_dmg(attacker, defender, attacker.get_precombat_atk_mult_proc());
-      combat_log += (defender.get_name() + " takes non-lethal damage up to " + precombat_dmg + ", and has " + defender.get_HP() + " remaining.<br>" );
+      combat_log += (defender.get_name() + " takes non-lethal damage up to " + precombat_dmg + ", and has " + defender.get_HP() + " HP remaining.<br>" );
       attacker.reset_cooldown();
     }
   }
@@ -363,7 +363,7 @@ function execute_phase(attacker, defender) {
 
   // The defender gets the first strike if vantage applies.
   if (can_counter && vantage_flag) {
-    combat_log += (defender.get_name() + "'s Vantage allows the first strike!<br>");
+    combat_log += (defender.get_name() + "'s " + defender.get_vantage_source() + " allows the first strike!<br>");
     // See calculate_damage in this file for more details about the arguments and algorithm for
     // this function.
     calculate_damage(defender, attacker, false, false, true);
@@ -389,7 +389,7 @@ function execute_phase(attacker, defender) {
 
   // If attacker can double, and has desperation active, perform the 2nd attack.
   if (attacker_follow_up == 1 && desperation_flag) {
-    combat_log += (attacker.get_name() + "'s follow up occurs immediately due to Desperation!<br>");
+    combat_log += (attacker.get_name() + "'s follow up occurs immediately due to " + attacker.get_desperation_source() + "!<br>");
     calculate_damage(attacker, defender, true, true, false);
     if (defender.get_HP() == 0) {
       return combat_log;
@@ -507,24 +507,32 @@ function check_counter(attacker, defender) {
   // negation if the enemy would perform a counterattack.
   if (result) {
     // Check weapon, movement, and self counterattack negation.
-    if (attacker.negates_counter(defender)) {
-      combat_log += (attacker.get_name() + "'s Firesweep effect prevents " + defender.get_name() + " from counterattacking this round.<br>");
+    if (attacker.negates_counter(defender) != "") {
+      combat_log += (attacker.get_name() + "'s " + attacker.negates_counter(defender) + " prevents " + defender.get_name() + " from counterattacking this round.<br>");
       return false;
     }
-    if (defender.get_negate_self_counter()) {
-      combat_log += (defender.get_name() + "'s Firesweep effect prevents him/her from counterattacking this round.<br>");
+    if (defender.get_negate_self_counter() != "") {
+      combat_log += (defender.get_name() + "'s " + defender.get_negate_self_counter() + " prevents him/her from counterattacking this round.<br>");
       return false;
     }
 
     // Variables to factor in any phantom spd effects that are relevant for wind & watersweep.
     var phantom_spd_attacker = attacker.get_skl_compare_spd_boost();
+    var phantom_spd_msg_atk = attacker.get_name() + "'s " + attacker.get_skl_compare_spd_boost_source() + " adds " + phantom_spd_attacker + " Spd for ";
     var phantom_spd_defender = defender.get_skl_compare_spd_boost();
+    var phantom_spd_msg_def = defender.get_name() + "'s " + defender.get_skl_compare_spd_boost_source()  + " adds " + phantom_spd_defender + " Spd for ";
 
     // Windsweep handling.
     if (attacker.get_windsweep_threshold() > 0 && (defender.get_weap() == "S" || defender.get_weap() == "L" || defender.get_weap() == "A" || defender.get_weap() == "B" || defender.get_weap() == "K")) {
       if (((attacker.calculate_spd(true, defender, true) + phantom_spd_attacker) - (defender.calculate_spd(false, attacker, true) + phantom_spd_defender)) >= attacker.get_windsweep_threshold()) {
         if (result) {
-          combat_log += (attacker.get_name() + "'s Windsweep prevents " + defender.get_name() + " from counterattacking this round.<br>");
+          if (phantom_spd_attacker > 0) {
+            combat_log += phantom_spd_msg_atk + attacker.get_name() + "'s " + attacker.get_windsweep_source() + " Spd comparison.<br>";
+          }
+          if (phantom_spd_defender > 0) {
+            combat_log += phantom_spd_msg_def + attacker.get_name() + "'s " + attacker.get_windsweep_source() + " Spd comparison.<br>";
+          }
+          combat_log += (attacker.get_name() + "'s " + attacker.get_windsweep_source() + " prevents " + defender.get_name() + " from counterattacking this round.<br>");
         }
         return false;
       }
@@ -534,7 +542,13 @@ function check_counter(attacker, defender) {
     if (attacker.get_watersweep_threshold() > 0 && (defender.get_weap() == "GT" || defender.get_weap() == "RT" || defender.get_weap() == "BT" || defender.get_weap() == "ST" || defender.get_weap() == "D")) {
       if (((attacker.calculate_spd(true, defender, true) + phantom_spd_attacker) - (defender.calculate_spd(false, attacker, true) + phantom_spd_defender)) >= attacker.get_watersweep_threshold()) {
         if (result) {
-          combat_log += attacker.get_name() + "'s Watersweep prevents " + defender.get_name() + " from counterattacking this round.<br>";
+          if (phantom_spd_attacker > 0) {
+            combat_log += phantom_spd_msg_atk + attacker.get_name() + "'s " + attacker.get_watersweep_source() + " Spd comparison.<br>";
+          }
+          if (phantom_spd_defender > 0) {
+            combat_log += phantom_spd_msg_def + attacker.get_name() + "'s " + attacker.get_watersweep_source() + " Spd comparison.<br>";
+          }
+          combat_log += attacker.get_name() + "'s " + attacker.get_watersweep_source() + " prevents " + defender.get_name() + " from counterattacking this round.<br>";
         }
         return false;
       }
@@ -542,7 +556,7 @@ function check_counter(attacker, defender) {
 
     // Dazzling Staff handling.
     if (attacker.dazzling_staff_applies()) {
-      combat_log += attacker.get_name() + "'s Dazzling staff prevents " + defender.get_name() + " from counterattacking this round.<br>";
+      combat_log += attacker.get_name() + "'s " + attacker.get_dazzling_staff_source() + " prevents " + defender.get_name() + " from counterattacking this round.<br>";
       return false;
     }
   }
@@ -659,18 +673,28 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   var raw_atk = attacker.calculate_atk(attacker_active, defender, true);
   var atk = attacker.calculate_effective_atk(raw_atk, defender);
   var def = 0;
+  var defense_stat = "";
 
   if (attacker.get_hit_2rng_weaker_def_stat() && defender.get_range() == 2) {
-    combat_log += attacker.get_name() + " hits " + defender.get_name() + "'s weaker defensive stat!<br>";
-    def = Math.min(defender.calculate_def(!attacker_active, attacker, true), defender.calculate_res(!attacker_active, attacker, true));
+    if (defender.calculate_def(!attacker_active, attacker, true) < defender.calculate_res(!attacker_active, attacker, true)) {
+      def = defender.calculate_def(!attacker_active, attacker, true);
+      defense_stat = "Def";
+    }
+    else {
+      def = defender.calculate_res(!attacker_active, attacker, true);
+      defense_stat = "Res";
+    }
+    combat_log += attacker.get_name() + " hits " + defender.get_name() + "'s weaker defensive stat (" + defense_stat + ")!<br>";
   }
   else {
     // Load in the defensive stat that corresponds to the enemy's weapon damage type.
     if (attacker.get_weap() == "ST" || attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "D") {
       def = defender.calculate_res(!attacker_active, attacker, true);
+      defense_stat = "Res";
     }
     else {
       def = defender.calculate_def(!attacker_active, attacker, true);
+      defense_stat = "Def";
     }
   }
 
@@ -685,7 +709,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
 
   // Handling for enemy def/res reduction procs (Luna, etc).
   if (attacker.get_def_reduce_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates! " + defender.get_name() + " suffers a -" + Math.floor(def * attacker.get_def_reduce_proc()) + " " + defense_stat + " penalty.<br>");
     def -= Math.floor(def * attacker.get_def_reduce_proc());
     attacker_skill_procced = true;
   }
@@ -697,7 +721,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       dmg = Math.floor(dmg / 2);
     }
     else {
-      combat_log += attacker.get_name() + "'s Wrathful Staff negates the staff damage penalty!<br>";
+      combat_log += attacker.get_name() + "'s " + attacker.get_wrathful_staff_source() + " negates the staff damage penalty!<br>";
     }
   }
 
@@ -710,45 +734,45 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
 
   // Handling for atk to damage conversion procs (Draconic Aura, etc).
   if (attacker.get_atk_mult_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
     if (attacker.get_blade() == 1) {
       raw_atk += attacker.get_atk_buff() + attacker.get_spd_buff() + attacker.get_def_buff() + attacker.get_res_buff();
     }
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(raw_atk * attacker.get_atk_mult_proc()) + " damage!<br>");
     dmg += Math.floor(raw_atk * attacker.get_atk_mult_proc());
     attacker_skill_procced = true;
   }
 
   // Handling for damage dealt to damage dealt conversion procs (Glimmer, etc.)
   if (attacker.get_dmg_mult_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(dmg * attacker.get_dmg_mult_proc()) + " damage!<br>");
     dmg += Math.floor(dmg * attacker.get_dmg_mult_proc());
     attacker_skill_procced = true;
   }
 
   // Handling for damage taken to damage dealt conversion procs.
   if (attacker.get_dmg_taken_mult_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor((attacker.get_HP_max() - attacker.get_HP()) * attacker.get_dmg_taken_mult_proc()) + " damage!<br>");
     dmg += Math.floor((attacker.get_HP_max() - attacker.get_HP()) * attacker.get_dmg_taken_mult_proc());
     attacker_skill_procced = true;
   }
 
   // Handling for spd to damage conversion procs.
   if (attacker.get_spd_as_dmg_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(attacker.calculate_spd(attacker_active, defender, true) * attacker.get_spd_as_dmg_proc()) + " damage!<br>");
     dmg += Math.floor(attacker.calculate_spd(attacker_active, defender, true) * attacker.get_spd_as_dmg_proc());
     attacker_skill_procced = true;
   }
 
   // Handling for res to damage conversion procs.
   if (attacker.get_res_as_dmg_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(attacker.calculate_res(attacker_active, defender, true) * attacker.get_res_as_dmg_proc()) + " damage!<br>");
     dmg += Math.floor(attacker.calculate_res(attacker_active, defender, true) * attacker.get_res_as_dmg_proc());
     attacker_skill_procced = true;
   }
 
   // Handling for def to damage conversion procs.
   if (attacker.get_def_as_dmg_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates!<br>");
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(attacker.calculate_def(true, defender, true) * attacker.get_def_as_dmg_proc()) + " damage!<br>");
     dmg += Math.floor(attacker.calculate_def(true, defender, true) * attacker.get_def_as_dmg_proc());
     attacker_skill_procced = true;
   }
@@ -900,7 +924,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   else {
     // Guard cuts the cooldown charge rate by 1, if applicable.
     if (defender.guard_applies() && attacker.get_proc_name() != "(None)") {
-      combat_log += defender.get_name() + "'s Guard reduces the charge rate on " + attacker.get_name() + "'s " + attacker.get_proc_name() + " by 1!<br>";
+      combat_log += defender.get_name() + "'s " + defender.get_guard_source() + " reduces the charge rate on " + attacker.get_name() + "'s " + attacker.get_proc_name() + " by 1!<br>";
     }
     // The normal cooldown decrementation.
     else {
@@ -923,6 +947,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
     defender.reset_cooldown();
 
     if (defender.get_mitig_to_dmg_proc() > 0) {
+      combat_log += defender.get_name() + "'s " + defender.proc.name + " will add " + mitigated_dmg + " damage to his/her next attack this combat.<br>";
       defender.next_atk_bonus_dmg += mitigated_dmg;
     }
   }
@@ -930,7 +955,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   else {
     // Guard cuts the cooldown charge rate by 1, if applicable.
     if (attacker.guard_applies() && defender.get_proc_name() != "(None)") {
-      combat_log += attacker.get_name() + "'s Guard reduces the charge rate on " + defender.get_name() + "'s " + defender.get_proc_name() + " by 1!<br>";
+      combat_log += attacker.get_name() + "'s " + attacker.get_guard_source() + " reduces the charge rate on " + defender.get_name() + "'s " + defender.get_proc_name() + " by 1!<br>";
     }
     // The normal cooldown decrementation.
     else {

@@ -785,31 +785,69 @@ Fighter.prototype.hardy_bearing_applies = function () {
   var hp_thresh = this.get_hardy_bearing_thresh();
   return (hp_thresh >= 0) && ((this.start_HP / this.hp_max) >= hp_thresh);
 };
+// Gets the source of the unit's Hardy Bearing effect.
+Fighter.prototype.get_hardy_bearing_source = function () {
+  return this.seal.name;
+};
 // Checks to see if the unit meets the HP requirement for Desperation, and Desperation is not
 // negated by a Hardy Bearing effect.
 Fighter.prototype.desperation_applies = function(enemy) {
   var desperation_thresh = Math.max(this.weapon.desperation_thresh, this.b_skill.desperation_thresh);
   var result = ((this.start_HP / this.hp_max) <= desperation_thresh);
-  if (result && (this.get_hardy_bearing_thresh() >= 0 || enemy.hardy_bearing_applies())) {
-    combat_log += "Hardy Bearing negates " + this.get_name() + "'s Desperation!<br>";
-    return false;
+  if (result) {
+    if (this.get_hardy_bearing_thresh() >= 0) {
+      combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_desperation_source() + ")!<br>";
+      return false;
+    }
+    if (enemy.hardy_bearing_applies()) {
+      combat_log += enemy.get_name() + "'s " + enemy.get_hardy_bearing_source() + " negates " + this.get_name() + "'s order-of-combat altering effects (" + this.get_desperation_source() + ")!<br>";
+      return false;
+    }
   }
   return result;
+};
+Fighter.prototype.get_desperation_source = function () {
+  var source = "", thresh = 0;
+  if (this.weapon.desperation_thresh > 0) {
+    thresh = this.weapon.desperation_thresh;
+    source = this.weapon.name;
+  }
+  if (this.b_skill.desperation_thresh > 0) {
+    if (this.b_skill.desperation_thresh > thresh) {
+      thresh = this.b_skill.desperation_thresh;
+      source = this.b_skill.name;
+    }
+  }
+  return source;
 };
 // Checks to see if the unit meets the HP requirement for Vantage, and Vantage is not negated
 // by a Hardy Bearing effect.
 Fighter.prototype.vantage_applies = function(enemy) {
   var vantage_thresh = this.b_skill.vantage_thresh;
   var result = ((this.hp / this.hp_max) <= vantage_thresh);
-  if (result && (this.get_hardy_bearing_thresh() >= 0 || enemy.hardy_bearing_applies())) {
-    combat_log += "Hardy Bearing negates " + this.get_name() + "'s Vantage!<br>";
-    return false;
+  if (result) {
+    if (this.get_hardy_bearing_thresh() >= 0) {
+      combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_vantage_source() + ")!<br>";
+      return false;
+    }
+    if (enemy.hardy_bearing_applies()) {
+      combat_log += enemy.get_name() + "'s " + enemy.get_hardy_bearing_source() + " negates " + this.get_name() + "'s order-of-combat altering effects (" + this.get_vantage_source() + ")!<br>";
+      return false;
+    }
   }
+
   return result;
+};
+// Gets the source of the unit's Vantage effect.
+Fighter.prototype.get_vantage_source = function () {
+  return this.b_skill.name;
 };
 // Checks to see if the unit meets the HP requirement for Guard.
 Fighter.prototype.guard_applies = function () {
   return ((this.start_HP >= (this.hp_max * this.get_guard_threshold())) && this.get_guard_threshold() > 0);
+};
+Fighter.prototype.get_guard_source = function () {
+  return this.b_skill.name;
 };
 // Checks to see if the unit meets the HP requirement for Wrathful Staff.
 Fighter.prototype.wrathful_staff_applies = function () {
@@ -817,11 +855,27 @@ Fighter.prototype.wrathful_staff_applies = function () {
          ||
          ((this.start_HP >= (this.hp_max * (1 - this.b_skill.wrathful_staff_threshold))) && this.b_skill.wrathful_staff_effect);
 };
+Fighter.prototype.get_wrathful_staff_source = function () {
+  if ((this.start_HP >= (this.hp_max * (1 - this.weapon.wrathful_staff_threshold))) && this.weapon.wrathful_staff_effect) {
+    return this.weapon.name;
+  }
+  if ((this.start_HP >= (this.hp_max * (1 - this.b_skill.wrathful_staff_threshold))) && this.b_skill.wrathful_staff_effect) {
+    return this.b_skill.name;
+  }
+};
 // Checks to see if the unit meets the HP requirement for Dazzling Staff.
 Fighter.prototype.dazzling_staff_applies = function () {
   return ((this.start_HP >= (this.hp_max * (1 - this.weapon.dazzling_staff_threshold))) && this.weapon.dazzling_staff_effect)
          ||
          ((this.start_HP >= (this.hp_max * (1 - this.b_skill.dazzling_staff_threshold))) && this.b_skill.dazzling_staff_effect);
+};
+Fighter.prototype.get_dazzling_staff_source = function () {
+  if ((this.start_HP >= (this.hp_max * (1 - this.weapon.dazzling_staff_threshold))) && this.weapon.dazzling_staff_effect) {
+    return this.weapon.name;
+  }
+  if ((this.start_HP >= (this.hp_max * (1 - this.b_skill.dazzling_staff_threshold))) && this.b_skill.dazzling_staff_effect) {
+    return this.b_skill.name;
+  }
 };
 // Checks to see if the unit meets the HP requirement for Wary Fighter.
 Fighter.prototype.wary_fighter_applies = function() {
@@ -882,6 +936,7 @@ Fighter.prototype.apply_precombat_dmg = function(attacker, defender, mult) {
   if (dmg < 0) {
     dmg = 0;
   }
+  dmg += attacker.get_skill_dmg_bonus();
   defender.reduce_HP(dmg);
 
   return dmg;
@@ -1089,8 +1144,12 @@ Fighter.prototype.get_buff_reverse_on_hit = function() {
 };
 Fighter.prototype.get_skill_dmg_bonus = function() {
   var dmg = this.weapon.skill_dmg_bonus;
-  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold) {
+  if (dmg > 0) {
+    combat_log += this.name + "'s " + this.weapon.name + " adds +" + dmg + " damage to his/her attack.<br>";
+  }
+  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.proc.activates_on_hit) {
     dmg += this.b_skill.wrath_skill_dmg_bonus;
+    combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
   }
   return dmg;
 };
@@ -1099,7 +1158,7 @@ Fighter.prototype.get_heal_after_attack = function() {
 };
 // Checks to see if the unit negates the enemy's counterattack.
 Fighter.prototype.negates_counter = function (enemy) {
-  var weap_type_negate = false, mov_type_negate = false;
+  var weap_type_negate = "", mov_type_negate = "";
   switch (enemy.get_weap()) {
     case "S":
       weap_type_negate = this.get_negate_srd_counter();
@@ -1158,195 +1217,175 @@ Fighter.prototype.negates_counter = function (enemy) {
       break;
   }
 
-  return weap_type_negate || mov_type_negate;
+  if (weap_type_negate != "") {
+    return weap_type_negate;
+  }
+  if (mov_type_negate != "") {
+    return mov_type_negate;
+  }
+  return "";
 };
 Fighter.prototype.get_negate_self_counter = function() {
-  //this.effect_source = this.weapon.name;
-  return this.weapon.negate_self_counter;
+  if (this.weapon.negate_self_counter) {
+    return this.weapon.name;
+  }
+  return "";
 };
 Fighter.prototype.get_negate_srd_counter = function () {
   if (this.weapon.negate_srd_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_srd_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_lnc_counter = function () {
   if (this.weapon.negate_lnc_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_lnc_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_axe_counter = function () {
   if (this.weapon.negate_axe_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_axe_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_rt_counter = function () {
   if (this.weapon.negate_rt_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_rt_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_bt_counter = function () {
   if (this.weapon.negate_bt_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_bt_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_gt_counter = function () {
   if (this.weapon.negate_gt_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_gt_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_bow_counter = function () {
   if (this.weapon.negate_bow_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_bow_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_dgr_counter = function () {
   if (this.weapon.negate_dgr_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_dgr_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_stf_counter = function () {
   if (this.weapon.negate_stf_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_stf_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_rbrth_counter = function () {
   if (this.weapon.negate_rbrth_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_rbrth_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_bbrth_counter = function () {
   if (this.weapon.negate_bbrth_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_bbrth_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_gbrth_counter = function () {
   if (this.weapon.negate_gbrth_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_gbrth_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_inf_counter = function () {
   if (this.weapon.negate_inf_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_inf_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_fly_counter = function () {
   if (this.weapon.negate_fly_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_fly_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_cav_counter = function () {
   if (this.weapon.negate_cav_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_cav_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_negate_arm_counter = function () {
   if (this.weapon.negate_arm_counter) {
-    //this.effect_source = this.weapon.name;
-    return true;
+    return this.weapon.name;
   }
   if (this.b_skill.negate_arm_counter) {
-    //this.effect_source = this.b_skill.name;
-    return true;
+    return this.b_skill.name;
   }
-  return false;
+  return "";
 };
 Fighter.prototype.get_windsweep_threshold = function() {
-  //this.effect_source = this.b_skill.name;
   return this.b_skill.windsweep_threshold;
 };
+Fighter.prototype.get_windsweep_source = function () {
+  return this.b_skill.name;
+};
 Fighter.prototype.get_watersweep_threshold = function () {
-  //this.effect_source = this.b_skill.name;
-  return this.b_skill.watersweep_threshold ;
+  return this.b_skill.watersweep_threshold;
+};
+Fighter.prototype.get_watersweep_source = function () {
+  return this.b_skill.name;
 };
 Fighter.prototype.get_guard_threshold = function () {
   return this.b_skill.guard_threshold;
@@ -1469,8 +1508,10 @@ Fighter.prototype.get_wind_boost_bonus = function () {
   return this.a_skill.wind_boost_bonus;
 };
 Fighter.prototype.get_skl_compare_spd_boost = function() {
-  //this.effect_source = this.seal.name;
   return this.seal.skl_compare_spd_boost;
+};
+Fighter.prototype.get_skl_compare_spd_boost_source = function () {
+  return this.seal.name;
 };
 Fighter.prototype.get_def_spec_cd_reduce = function () {
   return this.b_skill.def_spec_cd_reduce;
