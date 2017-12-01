@@ -77,616 +77,618 @@ $(document).ready(function() {
   });
 });
 </script>
-<div id="UI">
-  <div id="MenuBar1">
-    <h3 id="CharacterCustomizationsHeader">
-      Character Customization
-    </h3>
-    <div id="CharacterCustomizations">
-      <table>
-        <tr>
-          <td>
-            Character:
-          </td>
-          <td>
-            <select id='Character' class='Customizer' onChange='reload_options()'></select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Boon:
-          </td>
-          <td>
-            <select class='Customizer' id='Boon'>
-              <option value='None'>None</option>
-              <option value='HP'>HP</option>
-              <option value='Atk'>Atk</option>
-              <option value='Spd'>Spd</option>
-              <option value='Def'>Def</option>
-              <option value='Res'>Res</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Bane:
-          </td>
-          <td>
-            <select class='Customizer' id='Bane'>
-              <option value='None'>None</option>
-              <option value='HP'>HP</option>
-              <option value='Atk'>Atk</option>
-              <option value='Spd'>Spd</option>
-              <option value='Def'>Def</option>
-              <option value='Res'>Res</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Weapon:
-          </td>
-          <td>
-            <select class='Customizer' id='Weapon'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Weap. Upgrade:
-          </td>
-          <td>
-            <select class='Customizer' id='WeaponUpgrade'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Special:
-          </td>
-          <td>
-            <select class='Customizer' id='Special'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            A Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='A'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            B Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='B'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            C Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='C'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Sacred Seal:
-          </td>
-          <td>
-            <select class='Customizer' id='Seal'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Simulation type:
-          </td>
-          <td>
-            <select class='Customizer' id='SimType'>
-              <option value='Offense'>Attacking</option>
-              <option value='Defense'>Defending</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-      <br>
-      <div id="CharacterStats">
-        Character Stats (including skills):
+<div id="PageContent">
+  <div id="UI">
+    <div id="MenuBar1">
+      <h3 id="CharacterCustomizationsHeader">
+        Character Customization
+      </h3>
+      <div id="CharacterCustomizations">
         <table>
           <tr>
-            <th class="Extras">
-              HP
+            <td>
+              Character:
+            </td>
+            <td>
+              <select id='Character' class='Customizer' onChange='reload_options()'></select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Boon:
+            </td>
+            <td>
+              <select class='Customizer' id='Boon'>
+                <option value='None'>None</option>
+                <option value='HP'>HP</option>
+                <option value='Atk'>Atk</option>
+                <option value='Spd'>Spd</option>
+                <option value='Def'>Def</option>
+                <option value='Res'>Res</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Bane:
+            </td>
+            <td>
+              <select class='Customizer' id='Bane'>
+                <option value='None'>None</option>
+                <option value='HP'>HP</option>
+                <option value='Atk'>Atk</option>
+                <option value='Spd'>Spd</option>
+                <option value='Def'>Def</option>
+                <option value='Res'>Res</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Weapon:
+            </td>
+            <td>
+              <select class='Customizer' id='Weapon'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Weap. Upgrade:
+            </td>
+            <td>
+              <select class='Customizer' id='WeaponUpgrade'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Special:
+            </td>
+            <td>
+              <select class='Customizer' id='Special'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              A Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='A'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              B Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='B'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              C Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='C'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Sacred Seal:
+            </td>
+            <td>
+              <select class='Customizer' id='Seal'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Simulation type:
+            </td>
+            <td>
+              <select class='Customizer' id='SimType'>
+                <option value='Offense'>Attacking</option>
+                <option value='Defense'>Defending</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <div id="CharacterStats">
+          Character Stats (including skills):
+          <table>
+            <tr>
+              <th class="Extras">
+                HP
+              </th>
+              <th class="Extras">
+                Atk
+              </th>
+              <th class="Extras">
+                Spd
+              </th>
+              <th class="Extras">
+                Def
+              </th>
+              <th class="Extras">
+                Res
+              </th>
+            </tr>
+            <tr>
+              <td id="CharHP" class="Extras">
+              </td>
+              <td id="CharAtk" class="Extras">
+              </td>
+              <td id="CharSpd" class="Extras">
+              </td>
+              <td id="CharDef" class="Extras">
+              </td>
+              <td id="CharRes" class="Extras">
+              </td>
+            </tr>
+          </table>
+        </div>
+        <h3 class="Clickable" id="FiltersHeader">Enemy Filters</h3>
+        <div id="FiltersOptions">
+          Color:
+          <br>
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Red" checked="true" />
+                <label for="Red">
+                  Red
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Blue" checked="true" />
+                <label for="Blue">
+                  Blue
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Green" checked="true" />
+                <label for="Green">
+                  Green
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Colorless" checked="true" />
+                <label for="Colorless">
+                  Colorless
+                </label>
+              </td>
+            </tr>
+          </table>
+          <button id="SelectColor" class="SelectionButton">
+            Select All
+          </button>
+          <button id="DeselectColor" class="SelectionButton">
+            Deselect All
+          </button>
+          <br>
+          <br>
+          Weapon Type:
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Sword" checked="true" />
+                <label for="Sword">
+                  Sword
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Lance" checked="true" />
+                <label for="Lance">
+                  Lance
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Axe" checked="true" />
+                <label for="Axe">
+                  Axe
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Tome" checked="true" />
+                <label for="R Tome">
+                  R Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Tome" checked="true" />
+                <label for="B Tome">
+                  B Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Tome" checked="true" />
+                <label for="G Tome">
+                  G Tome
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Breath" checked="true" />
+                <label for="R Breath">
+                  R Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Breath" checked="true" />
+                <label for="B Breath">
+                  B Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Breath" checked="true" />
+                <label for="G Breath">
+                  G Breath
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Bow" checked="true" />
+                <label for="Bow">
+                  Bow
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Dagger" checked="true" />
+                <label for="Dagger">
+                  Dagger
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Staff" checked="true" />
+                <label for="Staff">
+                  Staff
+                </label>
+              </td>
+            </tr>
+          </table>
+          <button id="SelectWeapType" class="SelectionButton">
+            Select All
+          </button>
+          <button id="DeselectWeapType" class="SelectionButton">
+            Deselect All
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="MenuBar2">
+      <h3 id="PlayerOptionsHeader" class="Clickable">
+        Other Settings
+      </h3>
+      <div id="PlayerOptions">
+        <table>
+          <tr>
+            <th>
+              Modifier Type
             </th>
-            <th class="Extras">
+            <th>
               Atk
             </th>
-            <th class="Extras">
+            <th>
               Spd
             </th>
-            <th class="Extras">
+            <th>
               Def
             </th>
-            <th class="Extras">
+            <th>
               Res
             </th>
           </tr>
           <tr>
-            <td id="CharHP" class="Extras">
+            <td>
+              Buff:
             </td>
-            <td id="CharAtk" class="Extras">
+            <td>
+              <input type="number" id="AtkBuff" class="Extras" value="0" />
             </td>
-            <td id="CharSpd" class="Extras">
+            <td>
+              <input type="number" id="SpdBuff" class="Extras" value="0" />
             </td>
-            <td id="CharDef" class="Extras">
+            <td>
+              <input type="number" id="DefBuff" class="Extras" value="0" />
             </td>
-            <td id="CharRes" class="Extras">
+            <td>
+              <input type="number" id="ResBuff" class="Extras" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Bonus (Aura, Ally Support):
+            </td>
+            <td>
+              <input type="number" id="AtkBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="SpdBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="DefBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="ResBonus" class="Extras" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Debuff:
+            </td>
+            <td>
+              <input type="number" id="AtkDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="SpdDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="DefDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="ResDebuff" class="Extras" value="0" />
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <td>
+              Merge Level:
+            </td>
+            <td>
+              <input type="number" id="MergeLv" value="0" class="Extras" min="0" max="10" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Reduce HP by:
+            </td>
+            <td>
+              <input type='text' id='HPCut' class='ShortBox' />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Set Special Charge:
+            </td>
+            <td>
+              <input type='text' id='SpecCharge' class='ShortBox' />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Adjacent Allies:
+            </td>
+            <td>
+              <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="3" />
+            </td>
+          </tr>
+        </table>
+        <input type="checkbox" id="summoner_support" name="summoner_support" />
+        <label for="summoner_support">Summoner Support</label>
+      </div>
+    </div>
+    <div id="MenuBar3">
+      <h3 id="EnemyOptionsHeader" class="Clickable">
+        Enemy Overrides
+      </h3>
+      <div id="EnemyOptions">
+        <table>
+          <tr>
+            <td>
+              Boon:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyBoon'>
+                <option value='None'>None</option>
+                <option value='HP'>HP</option>
+                <option value='Atk'>Atk</option>
+                <option value='Spd'>Spd</option>
+                <option value='Def'>Def</option>
+                <option value='Res'>Res</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Bane:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyBane'>
+                <option value='None'>None</option>
+                <option value='HP'>HP</option>
+                <option value='Atk'>Atk</option>
+                <option value='Spd'>Spd</option>
+                <option value='Def'>Def</option>
+                <option value='Res'>Res</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Weapon:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyWeapon'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Special:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemySpecial'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              A Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyA'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              B Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyB'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              C Passive:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyC'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Sacred Seal:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemySeal'>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <th>
+              Modifier Type
+            </th>
+            <th>
+              Atk
+            </th>
+            <th>
+              Spd
+            </th>
+            <th>
+              Def
+            </th>
+            <th>
+              Res
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Buff:
+            </td>
+            <td>
+              <input type="number" id="EnemyAtkBuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemySpdBuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyDefBuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyResBuff" class="Extras" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Bonus (Aura):
+            </td>
+            <td>
+              <input type="number" id="EnemyAtkBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemySpdBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyDefBonus" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyResBonus" class="Extras" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Debuff:
+            </td>
+            <td>
+              <input type="number" id="EnemyAtkDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemySpdDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyDefDebuff" class="Extras" value="0" />
+            </td>
+            <td>
+              <input type="number" id="EnemyResDebuff" class="Extras" value="0" />
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>
+              Merge Level:
+            </td>
+            <td>
+              <input type="number" id="EnemyMergeLv" value="0" class="Extras" min="0" max="10" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Reduce HP by:
+            </td>
+            <td>
+              <input type='text' id='EnemyHPCut' class='ShortBox' />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Set Special Charge:
+            </td>
+            <td>
+              <input type='text' id='EnemySpecCharge' class='ShortBox' />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Adjacent Allies:
+            </td>
+            <td>
+              <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="3" />
             </td>
           </tr>
         </table>
       </div>
-      <h3 class="Clickable" id="FiltersHeader">Enemy Filters</h3>
-      <div id="FiltersOptions">
-        Color:
-        <br>
-        <table>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Red" checked="true" />
-              <label for="Red">
-                Red
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Blue" checked="true" />
-              <label for="Blue">
-                Blue
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Green" checked="true" />
-              <label for="Green">
-                Green
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Colorless" checked="true" />
-              <label for="Colorless">
-                Colorless
-              </label>
-            </td>
-          </tr>
-        </table>
-        <button id="SelectColor" class="SelectionButton">
-          Select All
-        </button>
-        <button id="DeselectColor" class="SelectionButton">
-          Deselect All
-        </button>
-        <br>
-        <br>
-        Weapon Type:
-        <table>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Sword" checked="true" />
-              <label for="Sword">
-                Sword
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Lance" checked="true" />
-              <label for="Lance">
-                Lance
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Axe" checked="true" />
-              <label for="Axe">
-                Axe
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Tome" checked="true" />
-              <label for="R Tome">
-                R Tome
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="B Tome" checked="true" />
-              <label for="B Tome">
-                B Tome
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="G Tome" checked="true" />
-              <label for="G Tome">
-                G Tome
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Breath" checked="true" />
-              <label for="R Breath">
-                R Breath
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="B Breath" checked="true" />
-              <label for="B Breath">
-                B Breath
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="G Breath" checked="true" />
-              <label for="G Breath">
-                G Breath
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Bow" checked="true" />
-              <label for="Bow">
-                Bow
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Dagger" checked="true" />
-              <label for="Dagger">
-                Dagger
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Staff" checked="true" />
-              <label for="Staff">
-                Staff
-              </label>
-            </td>
-          </tr>
-        </table>
-        <button id="SelectWeapType" class="SelectionButton">
-          Select All
-        </button>
-        <button id="DeselectWeapType" class="SelectionButton">
-          Deselect All
-        </button>
+      <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
+      <div id="SpecialOptions">
+        <input type="checkbox" id="RuleBreaker" />
+        <label for="RuleBreaker">
+          Break Inheritance Restrictions
+        </label>
       </div>
     </div>
   </div>
-  <div id="MenuBar2">
-    <h3 id="PlayerOptionsHeader" class="Clickable">
-      Other Settings
-    </h3>
-    <div id="PlayerOptions">
-      <table>
-        <tr>
-          <th>
-            Modifier Type
-          </th>
-          <th>
-            Atk
-          </th>
-          <th>
-            Spd
-          </th>
-          <th>
-            Def
-          </th>
-          <th>
-            Res
-          </th>
-        </tr>
-        <tr>
-          <td>
-            Buff:
-          </td>
-          <td>
-            <input type="number" id="AtkBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="SpdBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="DefBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="ResBuff" class="Extras" value="0" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Bonus (Aura, Ally Support):
-          </td>
-          <td>
-            <input type="number" id="AtkBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="SpdBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="DefBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="ResBonus" class="Extras" value="0" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Debuff:
-          </td>
-          <td>
-            <input type="number" id="AtkDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="SpdDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="DefDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="ResDebuff" class="Extras" value="0" />
-          </td>
-        </tr>
-      </table>
-      <br>
-      <table>
-        <tr>
-          <td>
-            Merge Level:
-          </td>
-          <td>
-            <input type="number" id="MergeLv" value="0" class="Extras" min="0" max="10" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Reduce HP by:
-          </td>
-          <td>
-            <input type='text' id='HPCut' class='ShortBox' />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Set Special Charge:
-          </td>
-          <td>
-            <input type='text' id='SpecCharge' class='ShortBox' />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Adjacent Allies:
-          </td>
-          <td>
-            <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="3" />
-          </td>
-        </tr>
-      </table>
-      <input type="checkbox" id="summoner_support" name="summoner_support" />
-      <label for="summoner_support">Summoner Support</label>
-    </div>
-    <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
-    <div id="SpecialOptions">
-      <input type="checkbox" id="RuleBreaker" />
-      <label for="RuleBreaker">
-        Break Inheritance Restrictions
-      </label>
-    </div>
+  <div id="divider">
+    <hr />
   </div>
-  <div id="MenuBar3">
-    <h3 id="EnemyOptionsHeader" class="Clickable">
-      Enemy Overrides
-    </h3>
-    <div id="EnemyOptions">
-      <table>
-        <tr>
-          <td>
-            Boon:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyBoon'>
-              <option value='None'>None</option>
-              <option value='HP'>HP</option>
-              <option value='Atk'>Atk</option>
-              <option value='Spd'>Spd</option>
-              <option value='Def'>Def</option>
-              <option value='Res'>Res</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Bane:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyBane'>
-              <option value='None'>None</option>
-              <option value='HP'>HP</option>
-              <option value='Atk'>Atk</option>
-              <option value='Spd'>Spd</option>
-              <option value='Def'>Def</option>
-              <option value='Res'>Res</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Weapon:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyWeapon'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Special:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemySpecial'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            A Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyA'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            B Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyB'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            C Passive:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemyC'>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Sacred Seal:
-          </td>
-          <td>
-            <select class='Customizer' id='EnemySeal'>
-            </select>
-          </td>
-        </tr>
-      </table>
-      <br>
-      <table>
-        <tr>
-          <th>
-            Modifier Type
-          </th>
-          <th>
-            Atk
-          </th>
-          <th>
-            Spd
-          </th>
-          <th>
-            Def
-          </th>
-          <th>
-            Res
-          </th>
-        </tr>
-        <tr>
-          <td>
-            Buff:
-          </td>
-          <td>
-            <input type="number" id="EnemyAtkBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemySpdBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyDefBuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyResBuff" class="Extras" value="0" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Bonus (Aura):
-          </td>
-          <td>
-            <input type="number" id="EnemyAtkBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemySpdBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyDefBonus" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyResBonus" class="Extras" value="0" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Debuff:
-          </td>
-          <td>
-            <input type="number" id="EnemyAtkDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemySpdDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyDefDebuff" class="Extras" value="0" />
-          </td>
-          <td>
-            <input type="number" id="EnemyResDebuff" class="Extras" value="0" />
-          </td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <td>
-            Merge Level:
-          </td>
-          <td>
-            <input type="number" id="EnemyMergeLv" value="0" class="Extras" min="0" max="10" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Reduce HP by:
-          </td>
-          <td>
-            <input type='text' id='EnemyHPCut' class='ShortBox' />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Set Special Charge:
-          </td>
-          <td>
-            <input type='text' id='EnemySpecCharge' class='ShortBox' />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Adjacent Allies:
-          </td>
-          <td>
-            <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="3" />
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
+  <div id="results"></div>
 </div>
-<div id="divider">
-  <hr />
-</div>
-<div id="results"></div>
 </body>
 </html>

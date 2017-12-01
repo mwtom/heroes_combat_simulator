@@ -43,24 +43,54 @@ input, select {
 body {
   background-color: aliceblue;
 }
+#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
+  text-align: center;
+}
 div {
   display: block;
 }
-#UI {
-  height: 700px;
+
+@media screen and (min-width: 800px) {
+  #UI {
+    width: 1135px;
+  }
+  #MenuBar1 {
+    width: 375px;
+    height: 680px;
+  }
+  #MenuBar2 {
+    width: 375px;
+    margin-left: 380px;
+    margin-top: -695px;
+    height: 680px;
+  }
+  #MenuBar3 {
+    width: 375px;
+    margin-left: 760px;
+    margin-top: -699px;
+    height: 700px;
+  }
 }
-#MenuBar1 {
-  width: 375px;
-  height: 680px;
-}
-#MenuBar2 {
-  width: 375px;
-  height: 680px;
-  margin-left: 380px;
-  margin-top: -695px;
-}
-#MenuBar3 {
-  width: 375px;
-  margin-left:760px;
-  margin-top: -699px;
+
+@media screen and (max-width: 800px) {
+  #UI {
+    width: 375px;
+    height: 1500px;
+  }
+  #MenuBar1 {
+    width: 375px;
+  }
+  #MenuBar2 {
+    width: 375px;
+  }
+  #MenuBar3 {
+    width: 375px;
+  }
+  #results {
+    margin-left: 380px;
+    margin-top: -1495px;
+  }
+  #divider {
+    display: none;
+  }
 }
