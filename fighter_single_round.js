@@ -882,6 +882,7 @@ Fighter.prototype.apply_precombat_dmg = function(attacker, defender, mult) {
   if (dmg < 0) {
     dmg = 0;
   }
+  dmg += attacker.get_skill_dmg_bonus();
   defender.reduce_HP(dmg);
 
   return dmg;
@@ -1089,7 +1090,7 @@ Fighter.prototype.get_buff_reverse_on_hit = function() {
 };
 Fighter.prototype.get_skill_dmg_bonus = function() {
   var dmg = this.weapon.skill_dmg_bonus;
-  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold) {
+  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.proc.activates_on_hit) {
     dmg += this.b_skill.wrath_skill_dmg_bonus;
   }
   return dmg;
