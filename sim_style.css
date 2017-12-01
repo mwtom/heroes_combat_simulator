@@ -50,6 +50,9 @@ body {
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }
+#FiltersHeader {
+  margin-top: 30px;
+}
 #FiltersHeader, #FiltersOptions  {
   position: relative;
   width: 375px;
