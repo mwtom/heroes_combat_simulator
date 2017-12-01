@@ -43,6 +43,9 @@ input, select {
 body {
   background-color: aliceblue;
 }
+#Character_Stats {
+  width: 375px;
+}
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }
