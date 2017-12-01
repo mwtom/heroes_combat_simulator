@@ -43,42 +43,24 @@ input, select {
 body {
   background-color: aliceblue;
 }
-#Character_Stats {
-  position: relative;
-  width: 375px;
-}
-#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
-  text-align: center;
-}
-#FiltersHeader {
-  margin-top: 30px;
-}
-#FiltersHeader, #FiltersOptions  {
-  position: relative;
-  width: 375px;
+div {
+  display: block;
 }
 #UI {
-  position: relative;
+  height: 700px;
+}
+#MenuBar1 {
+  width: 375px;
+  height: 680px;
 }
 #MenuBar2 {
   width: 375px;
-  position: absolute;
-  left: 400px;
-  top: -19px;
-}
-#EnemyOptionsHeader, #EnemyOptions, #PlayerOptionsHeader, #PlayerOptions, #CharacterCustomizationsHeader, #CharacterCustomizations, #SpecialOptionsHeader, #SpecialOptions {
-  width: 375px;
-}
-#CharacterCustomizationsHeader {
-  position: relative;
-}
-#CharacterCustomizations {
-  position: relative;
-  height: 300px;
+  height: 680px;
+  margin-left: 380px;
+  margin-top: -695px;
 }
 #MenuBar3 {
   width: 375px;
-  position: absolute;
-  left: 800px;
-  top: -19px;
+  margin-left:760px;
+  margin-top: -699px;
 }
