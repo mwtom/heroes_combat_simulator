@@ -44,12 +44,14 @@ body {
   background-color: aliceblue;
 }
 #Character_Stats {
+  position: relative;
   width: 375px;
 }
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }
 #FiltersHeader, #FiltersOptions  {
+  position: relative;
   width: 375px;
 }
 #UI {
