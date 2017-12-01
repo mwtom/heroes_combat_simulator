@@ -70,6 +70,9 @@ div {
     margin-top: -699px;
     height: 700px;
   }
+  #results {
+    width: 750px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -89,6 +92,7 @@ div {
   #results {
     margin-left: 380px;
     margin-top: -1495px;
+    width: 500px;
   }
   #divider {
     display: none;
