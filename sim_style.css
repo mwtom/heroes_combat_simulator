@@ -1,0 +1,76 @@
+.results_table {
+  width: 750px;
+}
+.log {
+  position: relative;
+  left: 25px;
+}
+.attacker_dmg {
+  color: blue;
+}
+.defender_dmg {
+  color: red;
+}
+.Customizer {
+  width: 215px;
+}
+.Extras {
+  width: 40px;
+}
+.ShortBox {
+  width: 40px;
+}
+.Clickable {
+  border-style: outset;
+  border-color: darkblue;
+  background-color: aliceblue;
+}
+.FilterCell {
+  width: 100px;
+}
+.SelectionButton {
+  width: 90px;
+}
+input, select {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  background-color: aliceblue;
+  text-align: left;
+}
+body {
+  background-color: aliceblue;
+}
+#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
+  text-align: center;
+}
+#FiltersHeader, #FiltersOptions  {
+  width: 375px;
+}
+#UI {
+  position: relative;
+}
+#MenuBar2 {
+  width: 375px;
+  position: absolute;
+  left: 400px;
+  top: -19px;
+}
+#EnemyOptionsHeader, #EnemyOptions, #PlayerOptionsHeader, #PlayerOptions, #CharacterCustomizationsHeader, #CharacterCustomizations, #SpecialOptionsHeader, #SpecialOptions {
+  width: 375px;
+}
+#CharacterCustomizationsHeader {
+  position: relative;
+}
+#CharacterCustomizations {
+  position: relative;
+  height: 300px;
+}
+#MenuBar3 {
+  width: 375px;
+  position: absolute;
+  left: 800px;
+  top: -19px;
+}
