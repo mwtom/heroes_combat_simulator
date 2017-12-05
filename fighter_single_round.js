@@ -1519,6 +1519,9 @@ Fighter.prototype.get_def_spec_cd_reduce = function () {
 Fighter.prototype.get_def_spec_dmg_reduce = function () {
   return this.b_skill.def_spec_dmg_reduce;
 };
+Fighter.prototype.get_def_spec_dmg_reduce_source = function () {
+  return this.b_skill.name;
+};
 Fighter.prototype.get_self_affinity_cancel = function () {
   return this.b_skill.self_affinity_cancel;
 };

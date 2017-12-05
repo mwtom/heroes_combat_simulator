@@ -801,43 +801,18 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   // If the unit has a damage reduction skill compatible with the current
   // combat range off cooldown, activate and apply it.
   if (combat_range == 1 && defender.get_one_rng_reduce_proc() > 0 && defender.get_cooldown() == 0) {
-    combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates!<br>");
+    combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates, reducing damage by " + (defender.get_one_rng_reduce_proc() * 100) + "%!<br>");
     mitigated_temp = Math.floor(dmg * defender.get_one_rng_reduce_proc());
     mitigated_dmg += mitigated_temp;
     dmg -= mitigated_temp;
-
-    mitigated_temp = defender.get_def_spec_dmg_reduce();
-    if (mitigated_temp > dmg) {
-      mitigated_dmg += dmg;
-      dmg = 0;
-    }
-    else {
-      mitigated_dmg += mitigated_temp;
-      dmg -= mitigated_temp;
-    }
     defender_skill_procced = true;
   }
   else if (combat_range == 2 && defender.get_two_rng_reduce_proc() > 0 && defender.get_cooldown() == 0) {
-      combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates!<br>");
+      combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates, reducing damage by " + (defender.get_two_rng_reduce_proc() * 100) + "%!<br>");
       mitigated_temp = Math.floor(dmg * defender.get_two_rng_reduce_proc());
       mitigated_dmg += mitigated_temp;
       dmg -= mitigated_temp;
-
-      mitigated_temp = defender.get_def_spec_dmg_reduce();
-      if (mitigated_temp > dmg) {
-        mitigated_dmg += dmg;
-        dmg = 0;
-      }
-      else {
-        mitigated_dmg += mitigated_temp;
-        dmg -= mitigated_temp;
-      }
       defender_skill_procced = true;
-  }
-  else if (dmg >= defender.get_HP() && defender.get_miracle_proc() == 1 && defender.get_HP() > 1 && defender.get_cooldown() == 0) {
-    combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates!<br>");
-    dmg = defender.get_HP() - 1;
-    defender_skill_procced = true;
   }
 
   // Apply damage mitigation if necessary.
@@ -886,6 +861,30 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       mitigated_dmg += mitigated_temp;
       dmg -= mitigated_temp;
     }
+  }
+
+  // Apply flat damage mitigation, if applicable.
+  if (defender_skill_procced && !defender.get_miracle_proc()) {
+    mitigated_temp = defender.get_def_spec_dmg_reduce();
+    if (mitigated_temp > 0) {
+      combat_log += defender.get_name() + "'s " + defender.get_def_spec_dmg_reduce_source() + " reduces damage by up to " + mitigated_temp + "!<br>";
+    }
+    if (mitigated_temp > dmg) {
+      mitigated_dmg += dmg;
+      dmg = 0;
+    }
+    else {
+      mitigated_dmg += mitigated_temp;
+      dmg -= mitigated_temp;
+    }
+  }
+
+  // If, after all factors are calculated, the defender would still die,
+  // but has Miracle charged and has more than 1 HP, activate it.
+  if (dmg >= defender.get_HP() && defender.get_miracle_proc() == 1 && defender.get_HP() > 1 && defender.get_cooldown() == 0) {
+    combat_log += (defender.get_name() + "'s " + defender.get_proc_name() + " activates!<br>");
+    dmg = defender.get_HP() - 1;
+    defender_skill_procced = true;
   }
 
   attacker.add_dmg_value(dmg);
