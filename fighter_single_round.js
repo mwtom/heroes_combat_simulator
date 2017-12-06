@@ -220,7 +220,7 @@ Fighter.prototype.two_array_sort = function (arr1, arr2) {
 // Function for boon/bane stat calculations
 Fighter.prototype.calculate_stat = function(stat_base, stat_40, case_type) {
   // growth tiers
-  var growth_tiers = new Array(8, 10, 13, 15, 17, 19, 22, 24, 26, 28, 30, 33);
+  var growth_tiers = new Array(8, 10, 13, 15, 17, 19, 22, 24, 26, 28, 30, 33, 35, 37);
 
   var i = 0;
   for (i = 0; (stat_40 - stat_base) != growth_tiers[i] && i < growth_tiers.length; i++);
