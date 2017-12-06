@@ -38,10 +38,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 119,
+      "base_weap": 121,
       "base_a": 12,
       "base_b": 0,
-      "base_c": 39,
+      "base_c": 41,
       "base_proc": 47
     },
     "Alm (Hero of Prophecy)": {
@@ -60,7 +60,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 120,
+      "base_weap": 122,
       "base_a": 6,
       "base_b": 48,
       "base_c": 0,
@@ -82,7 +82,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 336,
+      "base_weap": 339,
       "base_a": 20,
       "base_b": 0,
       "base_c": 1,
@@ -104,10 +104,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "A",
-      "base_weap": 246,
+      "base_weap": 249,
       "base_a": 0,
       "base_b": 45,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 3
     },
     "Arden (Strong and Tough)": {
@@ -129,7 +129,7 @@ var data = {
       "base_weap": 52,
       "base_a": 0,
       "base_b": 17,
-      "base_c": 13,
+      "base_c": 15,
       "base_proc": 38
     },
     "Arthur (Hapless Hero)": {
@@ -148,7 +148,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 117,
+      "base_weap": 119,
       "base_a": 29,
       "base_b": 24,
       "base_c": 0,
@@ -170,10 +170,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "RT",
-      "base_weap": 396,
+      "base_weap": 399,
       "base_a": 0,
       "base_b": 34,
-      "base_c": 11,
+      "base_c": 12,
       "base_proc": 21
     },
     "Athena (Borderland Sword)": {
@@ -192,10 +192,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 399,
+      "base_weap": 402,
       "base_a": 44,
       "base_b": 0,
-      "base_c": 45,
+      "base_c": 47,
       "base_proc": 34
     },
     "Ayra (Astra's Wielder)": {
@@ -236,10 +236,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 249,
+      "base_weap": 252,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 48
     },
     "Azura (Lady of Ballads)": {
@@ -258,10 +258,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 394,
+      "base_weap": 397,
       "base_a": 48,
       "base_b": 0,
-      "base_c": 14,
+      "base_c": 16,
       "base_proc": 0
     },
     "Azura (Lady of the Lake)": {
@@ -280,10 +280,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 292,
+      "base_weap": 295,
       "base_a": 40,
       "base_b": 0,
-      "base_c": 21,
+      "base_c": 23,
       "base_proc": 0
     },
     "Barst (The Hatchet)": {
@@ -305,7 +305,7 @@ var data = {
       "base_weap": 49,
       "base_a": 0,
       "base_b": 23,
-      "base_c": 39,
+      "base_c": 41,
       "base_proc": 0
     },
     "Bartre (Fearless Warrior)": {
@@ -324,7 +324,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 172,
+      "base_weap": 175,
       "base_a": 26,
       "base_b": 6,
       "base_c": 0,
@@ -349,7 +349,7 @@ var data = {
       "base_weap": 19,
       "base_a": 51,
       "base_b": 0,
-      "base_c": 17,
+      "base_c": 19,
       "base_proc": 5
     },
     "Beruka (Quiet Assassin)": {
@@ -368,7 +368,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 203,
+      "base_weap": 206,
       "base_a": 15,
       "base_b": 28,
       "base_c": 0,
@@ -412,7 +412,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 160,
+      "base_weap": 163,
       "base_a": 20,
       "base_b": 35,
       "base_c": 0,
@@ -437,7 +437,7 @@ var data = {
       "base_weap": 34,
       "base_a": 3,
       "base_b": 0,
-      "base_c": 31,
+      "base_c": 33,
       "base_proc": 28
     },
     "Caeda (Talys' Heart)": {
@@ -459,7 +459,7 @@ var data = {
       "base_weap": 7,
       "base_a": 11,
       "base_b": 0,
-      "base_c": 20,
+      "base_c": 22,
       "base_proc": 0
     },
     "Cain (The Bull)": {
@@ -481,7 +481,7 @@ var data = {
       "base_weap": 52,
       "base_a": 0,
       "base_b": 49,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 16
     },
     "Camilla (Bewitching Beauty)": {
@@ -503,7 +503,7 @@ var data = {
       "base_weap": 49,
       "base_a": 11,
       "base_b": 0,
-      "base_c": 36,
+      "base_c": 38,
       "base_proc": 13
     },
     "Camilla (Spring Princess)": {
@@ -522,7 +522,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "GT",
-      "base_weap": 153,
+      "base_weap": 156,
       "base_a": 17,
       "base_b": 25,
       "base_c": 0,
@@ -544,10 +544,10 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "L",
-      "base_weap": 149,
+      "base_weap": 152,
       "base_a": 27,
       "base_b": 0,
-      "base_c": 24,
+      "base_c": 26,
       "base_proc": 23
     },
     "Catria (Middle Whitewing)": {
@@ -566,7 +566,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 205,
+      "base_weap": 208,
       "base_a": 1,
       "base_b": 37,
       "base_c": 0,
@@ -588,7 +588,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "GT",
-      "base_weap": 165,
+      "base_weap": 168,
       "base_a": 6,
       "base_b": 15,
       "base_c": 0,
@@ -610,10 +610,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 257,
+      "base_weap": 260,
       "base_a": 19,
       "base_b": 0,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 6
     },
     "Charlotte (Money Maiden)": {
@@ -632,10 +632,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 132,
+      "base_weap": 135,
       "base_a": 52,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 0
     },
     "Cherche (Wyvern Friend)": {
@@ -654,10 +654,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 172,
+      "base_weap": 175,
       "base_a": 6,
       "base_b": 0,
-      "base_c": 18,
+      "base_c": 20,
       "base_proc": 0
     },
     "Chrom (Exalted Prince)": {
@@ -676,10 +676,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 120,
+      "base_weap": 122,
       "base_a": 15,
       "base_b": 0,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 2
     },
     "Chrom (Spring Exalt)": {
@@ -698,10 +698,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 57,
+      "base_weap": 58,
       "base_a": 7,
       "base_b": 0,
-      "base_c": 4,
+      "base_c": 5,
       "base_proc": 0
     },
     "Clair (Highborn Flier)": {
@@ -720,10 +720,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 326,
+      "base_weap": 329,
       "base_a": 0,
       "base_b": 22,
-      "base_c": 43,
+      "base_c": 45,
       "base_proc": 0
     },
     "Clarine (Refined Noble)": {
@@ -742,7 +742,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 121,
+      "base_weap": 123,
       "base_a": 37,
       "base_b": 0,
       "base_c": 0,
@@ -764,10 +764,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "B",
-      "base_weap": 67,
+      "base_weap": 68,
       "base_a": 0,
       "base_b": 31,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 19
     },
     "Clive (Idealistic Knight)": {
@@ -786,7 +786,7 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "L",
-      "base_weap": 326,
+      "base_weap": 329,
       "base_a": 13,
       "base_b": 22,
       "base_c": 0,
@@ -830,10 +830,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 72,
+      "base_weap": 73,
       "base_a": 0,
       "base_b": 15,
-      "base_c": 9,
+      "base_c": 10,
       "base_proc": 0
     },
     "Corrin (Fateful Prince)": {
@@ -852,7 +852,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 404,
+      "base_weap": 407,
       "base_a": 13,
       "base_b": 29,
       "base_c": 0,
@@ -874,10 +874,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 95,
+      "base_weap": 96,
       "base_a": 0,
       "base_b": 41,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 13
     },
     "Corrin (Novice Vacationer)": {
@@ -896,10 +896,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "BT",
-      "base_weap": 293,
+      "base_weap": 296,
       "base_a": 47,
       "base_b": 0,
-      "base_c": 20,
+      "base_c": 22,
       "base_proc": 14
     },
     "Deirdre (Lady of the Forest)": {
@@ -918,10 +918,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 113,
+      "base_weap": 115,
       "base_a": 0,
       "base_b": 32,
-      "base_c": 37,
+      "base_c": 39,
       "base_proc": 0
     },
     "Delthea (Free Spirit)": {
@@ -940,10 +940,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 94,
+      "base_weap": 95,
       "base_a": 12,
       "base_b": 0,
-      "base_c": 12,
+      "base_c": 14,
       "base_proc": 33
     },
     "Donnel (Village Hero)": {
@@ -984,10 +984,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 387,
+      "base_weap": 390,
       "base_a": 21,
       "base_b": 32,
-      "base_c": 32,
+      "base_c": 34,
       "base_proc": 13
     },
     "Draug (Gentle Giant)": {
@@ -1009,7 +1009,7 @@ var data = {
       "base_weap": 52,
       "base_a": 0,
       "base_b": 28,
-      "base_c": 51,
+      "base_c": 53,
       "base_proc": 38
     },
     "Effie (Army of One)": {
@@ -1028,7 +1028,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "L",
-      "base_weap": 326,
+      "base_weap": 329,
       "base_a": 12,
       "base_b": 46,
       "base_c": 0,
@@ -1050,10 +1050,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 304,
+      "base_weap": 307,
       "base_a": 0,
       "base_b": 14,
-      "base_c": 31,
+      "base_c": 33,
       "base_proc": 0
     },
     "Eldigan (Lionheart)": {
@@ -1072,7 +1072,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 240,
+      "base_weap": 243,
       "base_a": 26,
       "base_b": 28,
       "base_c": 0,
@@ -1116,7 +1116,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 150,
+      "base_weap": 153,
       "base_a": 0,
       "base_b": 27,
       "base_c": 0,
@@ -1138,10 +1138,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 180,
+      "base_weap": 183,
       "base_a": 39,
       "base_b": 0,
-      "base_c": 22,
+      "base_c": 24,
       "base_proc": 0
     },
     "Eliwood (Knight of Lycia)": {
@@ -1160,10 +1160,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 115,
+      "base_weap": 117,
       "base_a": 0,
       "base_b": 1,
-      "base_c": 52,
+      "base_c": 54,
       "base_proc": 46
     },
     "Ephraim (Restoration Lord)": {
@@ -1182,10 +1182,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 305,
+      "base_weap": 308,
       "base_a": 0,
       "base_b": 40,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 34
     },
     "Est (Junior Whitewing)": {
@@ -1204,7 +1204,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 179,
+      "base_weap": 182,
       "base_a": 16,
       "base_b": 42,
       "base_c": 0,
@@ -1226,10 +1226,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 214,
+      "base_weap": 217,
       "base_a": 0,
       "base_b": 35,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 0
     },
     "Faye (Devoted Heart)": {
@@ -1248,10 +1248,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 130,
+      "base_weap": 132,
       "base_a": 0,
       "base_b": 49,
-      "base_c": 8,
+      "base_c": 9,
       "base_proc": 37
     },
     "Felicia (Maid Mayhem)": {
@@ -1270,10 +1270,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 321,
+      "base_weap": 324,
       "base_a": 37,
       "base_b": 0,
-      "base_c": 9,
+      "base_c": 10,
       "base_proc": 18
     },
     "Fir (Sword Student)": {
@@ -1292,7 +1292,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 206,
+      "base_weap": 209,
       "base_a": 40,
       "base_b": 30,
       "base_c": 0,
@@ -1314,10 +1314,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 213,
+      "base_weap": 216,
       "base_a": 2,
       "base_b": 43,
-      "base_c": 12,
+      "base_c": 14,
       "base_proc": 27
     },
     "Florina (Lovely Flier)": {
@@ -1336,10 +1336,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 179,
+      "base_weap": 182,
       "base_a": 11,
       "base_b": 0,
-      "base_c": 9,
+      "base_c": 10,
       "base_proc": 0
     },
     "Frederick (H. Watcher)": {
@@ -1358,7 +1358,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 298,
+      "base_weap": 301,
       "base_a": 1,
       "base_b": 39,
       "base_c": 0,
@@ -1380,10 +1380,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 172,
+      "base_weap": 175,
       "base_a": 0,
       "base_b": 49,
-      "base_c": 18,
+      "base_c": 20,
       "base_proc": 32
     },
     "Gaius (Candy Stealer)": {
@@ -1402,7 +1402,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 286,
+      "base_weap": 289,
       "base_a": 14,
       "base_b": 30,
       "base_c": 0,
@@ -1424,10 +1424,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 268,
+      "base_weap": 271,
       "base_a": 0,
       "base_b": 45,
-      "base_c": 11,
+      "base_c": 12,
       "base_proc": 3
     },
     "Genny (Endearing Ally)": {
@@ -1446,7 +1446,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 150,
+      "base_weap": 153,
       "base_a": 0,
       "base_b": 53,
       "base_c": 0,
@@ -1490,10 +1490,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 405,
+      "base_weap": 408,
       "base_a": 52,
       "base_b": 0,
-      "base_c": 46,
+      "base_c": 48,
       "base_proc": 0
     },
     "Gunter (Inveterate Soldier)": {
@@ -1512,10 +1512,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 311,
+      "base_weap": 314,
       "base_a": 1,
       "base_b": 0,
-      "base_c": 29,
+      "base_c": 31,
       "base_proc": 0
     },
     "Gwendolyn (Adorable Knight)": {
@@ -1534,10 +1534,10 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "L",
-      "base_weap": 205,
+      "base_weap": 208,
       "base_a": 0,
       "base_b": 14,
-      "base_c": 27,
+      "base_c": 29,
       "base_proc": 16
     },
     "Hana (Focused Samurai)": {
@@ -1578,10 +1578,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 203,
+      "base_weap": 206,
       "base_a": 12,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 22
     },
     "Hector (General of Ostia)": {
@@ -1603,7 +1603,7 @@ var data = {
       "base_weap": 6,
       "base_a": 18,
       "base_b": 0,
-      "base_c": 23,
+      "base_c": 25,
       "base_proc": 38
     },
     "Henry (Happy Vampire)": {
@@ -1622,7 +1622,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "GT",
-      "base_weap": 382,
+      "base_weap": 385,
       "base_a": 0,
       "base_b": 26,
       "base_c": 1,
@@ -1644,7 +1644,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 266,
+      "base_weap": 269,
       "base_a": 15,
       "base_b": 18,
       "base_c": 0,
@@ -1666,7 +1666,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 291,
+      "base_weap": 294,
       "base_a": 26,
       "base_b": 6,
       "base_c": 0,
@@ -1691,7 +1691,7 @@ var data = {
       "base_weap": 51,
       "base_a": 15,
       "base_b": 0,
-      "base_c": 30,
+      "base_c": 32,
       "base_proc": 8
     },
     "Ike (Brave Mercenary)": {
@@ -1710,10 +1710,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 395,
+      "base_weap": 398,
       "base_a": 42,
       "base_b": 3,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 2
     },
     "Ike (Young Mercenary)": {
@@ -1732,7 +1732,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 258,
+      "base_weap": 261,
       "base_a": 28,
       "base_b": 44,
       "base_c": 0,
@@ -1754,10 +1754,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 84,
+      "base_weap": 85,
       "base_a": 0,
       "base_b": 19,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 0
     },
     "Innes (Regal Strategician)": {
@@ -1776,7 +1776,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 248,
+      "base_weap": 251,
       "base_a": 25,
       "base_b": 9,
       "base_c": 0,
@@ -1798,10 +1798,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 101,
+      "base_weap": 103,
       "base_a": 35,
       "base_b": 0,
-      "base_c": 50,
+      "base_c": 52,
       "base_proc": 19
     },
     "Jagen (Veteran Knight)": {
@@ -1820,10 +1820,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 326,
+      "base_weap": 329,
       "base_a": 26,
       "base_b": 0,
-      "base_c": 17,
+      "base_c": 19,
       "base_proc": 1
     },
     "Jakob (Devoted Monster)": {
@@ -1842,7 +1842,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "B",
-      "base_weap": 234,
+      "base_weap": 237,
       "base_a": 8,
       "base_b": 46,
       "base_c": 0,
@@ -1864,7 +1864,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 321,
+      "base_weap": 324,
       "base_a": 13,
       "base_b": 35,
       "base_c": 0,
@@ -1886,10 +1886,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 255,
+      "base_weap": 258,
       "base_a": 0,
       "base_b": 37,
-      "base_c": 43,
+      "base_c": 45,
       "base_proc": 5
     },
     "Joshua (Tempest King)": {
@@ -1930,10 +1930,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 247,
+      "base_weap": 250,
       "base_a": 37,
       "base_b": 0,
-      "base_c": 9,
+      "base_c": 10,
       "base_proc": 14
     },
     "Kagero (Honorable Ninja)": {
@@ -1952,7 +1952,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 256,
+      "base_weap": 259,
       "base_a": 49,
       "base_b": 11,
       "base_c": 0,
@@ -1974,7 +1974,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 399,
+      "base_weap": 402,
       "base_a": 14,
       "base_b": 13,
       "base_c": 0,
@@ -1996,7 +1996,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 261,
+      "base_weap": 264,
       "base_a": 46,
       "base_b": 0,
       "base_c": 2,
@@ -2043,7 +2043,7 @@ var data = {
       "base_weap": 1,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 48
     },
     "Laslow (Dancing Duelist)": {
@@ -2062,10 +2062,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 331,
+      "base_weap": 334,
       "base_a": 0,
       "base_b": 1,
-      "base_c": 31,
+      "base_c": 33,
       "base_proc": 37
     },
     "Legion (Masked Maniac)": {
@@ -2084,7 +2084,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 208,
+      "base_weap": 211,
       "base_a": 26,
       "base_b": 29,
       "base_c": 0,
@@ -2106,7 +2106,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 388,
+      "base_weap": 391,
       "base_a": 0,
       "base_b": 41,
       "base_c": 2,
@@ -2128,10 +2128,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "RT",
-      "base_weap": 53,
+      "base_weap": 54,
       "base_a": 0,
       "base_b": 32,
-      "base_c": 36,
+      "base_c": 38,
       "base_proc": 6
     },
     "Leon (True of Heart)": {
@@ -2150,7 +2150,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 341,
+      "base_weap": 344,
       "base_a": 40,
       "base_b": 21,
       "base_c": 0,
@@ -2175,7 +2175,7 @@ var data = {
       "base_weap": 44,
       "base_a": 6,
       "base_b": 0,
-      "base_c": 39,
+      "base_c": 41,
       "base_proc": 21
     },
     "Linde (Light Mage)": {
@@ -2197,7 +2197,7 @@ var data = {
       "base_weap": 17,
       "base_a": 40,
       "base_b": 0,
-      "base_c": 21,
+      "base_c": 23,
       "base_proc": 0
     },
     "Lissa (Sprightly Cleric)": {
@@ -2216,7 +2216,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 150,
+      "base_weap": 153,
       "base_a": 0,
       "base_b": 35,
       "base_c": 0,
@@ -2238,10 +2238,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 273,
+      "base_weap": 276,
       "base_a": 0,
       "base_b": 30,
-      "base_c": 47,
+      "base_c": 49,
       "base_proc": 28
     },
     "Lon'qu (Solitary Blade)": {
@@ -2260,7 +2260,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 206,
+      "base_weap": 209,
       "base_a": 40,
       "base_b": 45,
       "base_c": 0,
@@ -2282,10 +2282,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 148,
+      "base_weap": 151,
       "base_a": 44,
       "base_b": 0,
-      "base_c": 15,
+      "base_c": 17,
       "base_proc": 2
     },
     "Lucina (Future Witness)": {
@@ -2304,10 +2304,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 120,
+      "base_weap": 122,
       "base_a": 17,
       "base_b": 0,
-      "base_c": 39,
+      "base_c": 41,
       "base_proc": 32
     },
     "Lucina (Spring Exalt)": {
@@ -2348,7 +2348,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 249,
+      "base_weap": 252,
       "base_a": 29,
       "base_b": 0,
       "base_c": 0,
@@ -2370,7 +2370,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 205,
+      "base_weap": 208,
       "base_a": 24,
       "base_b": 29,
       "base_c": 0,
@@ -2395,7 +2395,7 @@ var data = {
       "base_weap": 52,
       "base_a": 22,
       "base_b": 0,
-      "base_c": 34,
+      "base_c": 36,
       "base_proc": 9
     },
     "Lute (Prodigy)": {
@@ -2414,10 +2414,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 398,
+      "base_weap": 401,
       "base_a": 31,
       "base_b": 0,
-      "base_c": 35,
+      "base_c": 37,
       "base_proc": 0
     },
     "Lyn (Brave Lady)": {
@@ -2436,7 +2436,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "B",
-      "base_weap": 239,
+      "base_weap": 242,
       "base_a": 46,
       "base_b": 36,
       "base_c": 3,
@@ -2458,7 +2458,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 54,
+      "base_weap": 55,
       "base_a": 0,
       "base_b": 12,
       "base_c": 0,
@@ -2480,10 +2480,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 376,
+      "base_weap": 379,
       "base_a": 14,
       "base_b": 0,
-      "base_c": 43,
+      "base_c": 45,
       "base_proc": 17
     },
     "Mae (Bundle of Energy)": {
@@ -2505,7 +2505,7 @@ var data = {
       "base_weap": 26,
       "base_a": 0,
       "base_b": 13,
-      "base_c": 6,
+      "base_c": 7,
       "base_proc": 0
     },
     "Maria (Minerva's Sister)": {
@@ -2524,10 +2524,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 252,
+      "base_weap": 255,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 21,
+      "base_c": 23,
       "base_proc": 33
     },
     "Marth (Altean Prince)": {
@@ -2546,10 +2546,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 120,
+      "base_weap": 122,
       "base_a": 0,
       "base_b": 15,
-      "base_c": 43,
+      "base_c": 45,
       "base_proc": 0
     },
     "Marth (Enigmatic Blade)": {
@@ -2568,7 +2568,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 120,
+      "base_weap": 122,
       "base_a": 0,
       "base_b": 0,
       "base_c": 0,
@@ -2590,10 +2590,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 280,
+      "base_weap": 283,
       "base_a": 0,
       "base_b": 9,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 0
     },
     "Matthew (Faithful Spy)": {
@@ -2612,10 +2612,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 286,
+      "base_weap": 289,
       "base_a": 0,
       "base_b": 31,
-      "base_c": 31,
+      "base_c": 33,
       "base_proc": 0
     },
     "Merric (Wind Mage)": {
@@ -2634,10 +2634,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 118,
+      "base_weap": 120,
       "base_a": 29,
       "base_b": 0,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 24
     },
     "Mia (Lady of Blades)": {
@@ -2656,7 +2656,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 274,
+      "base_weap": 277,
       "base_a": 23,
       "base_b": 45,
       "base_c": 0,
@@ -2678,10 +2678,10 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "A",
-      "base_weap": 173,
+      "base_weap": 176,
       "base_a": 33,
       "base_b": 0,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 7
     },
     "Minerva (Red Dragoon)": {
@@ -2700,10 +2700,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 173,
+      "base_weap": 176,
       "base_a": 35,
       "base_b": 0,
-      "base_c": 53,
+      "base_c": 55,
       "base_proc": 46
     },
     "Mist (Helpful Sister)": {
@@ -2722,10 +2722,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 368,
+      "base_weap": 371,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 41,
+      "base_c": 43,
       "base_proc": 33
     },
     "Narcian (Wyvern General)": {
@@ -2744,10 +2744,10 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "A",
-      "base_weap": 117,
+      "base_weap": 119,
       "base_a": 0,
       "base_b": 24,
-      "base_c": 36,
+      "base_c": 38,
       "base_proc": 51
     },
     "Navarre (Scarlet Sword)": {
@@ -2766,10 +2766,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 206,
+      "base_weap": 209,
       "base_a": 0,
       "base_b": 13,
-      "base_c": 50,
+      "base_c": 52,
       "base_proc": 8
     },
     "Nephenee (Fierce Halberdier)": {
@@ -2788,7 +2788,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 357,
+      "base_weap": 360,
       "base_a": 5,
       "base_b": 50,
       "base_c": 0,
@@ -2810,10 +2810,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 204,
+      "base_weap": 207,
       "base_a": 49,
       "base_b": 0,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 28
     },
     "Ninian (Oracle of Destiny)": {
@@ -2832,10 +2832,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 214,
+      "base_weap": 217,
       "base_a": 0,
       "base_b": 15,
-      "base_c": 19,
+      "base_c": 21,
       "base_proc": 0
     },
     "Nino (Pious Mage)": {
@@ -2854,10 +2854,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 159,
+      "base_weap": 162,
       "base_a": 37,
       "base_b": 0,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 0
     },
     "Nowi (Eternal Witch)": {
@@ -2876,10 +2876,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "RT",
-      "base_weap": 158,
+      "base_weap": 161,
       "base_a": 4,
       "base_b": 25,
-      "base_c": 30,
+      "base_c": 32,
       "base_proc": 0
     },
     "Nowi (Eternal Youth)": {
@@ -2898,10 +2898,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 219,
+      "base_weap": 222,
       "base_a": 13,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 51,
       "base_proc": 0
     },
     "Oboro (Fierce Fighter)": {
@@ -2920,10 +2920,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 179,
+      "base_weap": 182,
       "base_a": 0,
       "base_b": 40,
-      "base_c": 49,
+      "base_c": 51,
       "base_proc": 0
     },
     "Odin (Potent Force)": {
@@ -2967,7 +2967,7 @@ var data = {
       "base_weap": 52,
       "base_a": 14,
       "base_b": 0,
-      "base_c": 39,
+      "base_c": 41,
       "base_proc": 37
     },
     "Olivia (Blushing Beauty)": {
@@ -2986,10 +2986,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 331,
+      "base_weap": 334,
       "base_a": 0,
       "base_b": 23,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 0
     },
     "Olivia (Festival Dancer)": {
@@ -3008,7 +3008,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 79,
+      "base_weap": 80,
       "base_a": 19,
       "base_b": 4,
       "base_c": 0,
@@ -3030,10 +3030,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "BT",
-      "base_weap": 112,
+      "base_weap": 114,
       "base_a": 49,
       "base_b": 0,
-      "base_c": 52,
+      "base_c": 54,
       "base_proc": 0
     },
     "Oscar (Agile Horseman)": {
@@ -3052,10 +3052,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 292,
+      "base_weap": 295,
       "base_a": 0,
       "base_b": 24,
-      "base_c": 44,
+      "base_c": 46,
       "base_proc": 0
     },
     "Palla (Eldest Whitewing)": {
@@ -3074,10 +3074,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "S",
-      "base_weap": 291,
+      "base_weap": 294,
       "base_a": 0,
       "base_b": 49,
-      "base_c": 25,
+      "base_c": 27,
       "base_proc": 34
     },
     "Peri (Playful Slayer)": {
@@ -3096,10 +3096,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 205,
+      "base_weap": 208,
       "base_a": 37,
       "base_b": 0,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 19
     },
     "Priscilla (Delicate Princess)": {
@@ -3118,10 +3118,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 252,
+      "base_weap": 255,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 49
     },
     "Raigh (Dark Child)": {
@@ -3140,7 +3140,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 267,
+      "base_weap": 270,
       "base_a": 29,
       "base_b": 41,
       "base_c": 0,
@@ -3165,7 +3165,7 @@ var data = {
       "base_weap": 49,
       "base_a": 17,
       "base_b": 0,
-      "base_c": 48,
+      "base_c": 50,
       "base_proc": 47
     },
     "Rebecca (Wildflower)": {
@@ -3184,7 +3184,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 316,
+      "base_weap": 319,
       "base_a": 11,
       "base_b": 37,
       "base_c": 0,
@@ -3206,11 +3206,33 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "BT",
-      "base_weap": 112,
+      "base_weap": 114,
       "base_a": 0,
       "base_b": 45,
-      "base_c": 24,
+      "base_c": 26,
       "base_proc": 7
+    },
+    "Rhajat (Black Magician)": {
+      "name": "Rhajat (Black Magician)",
+      "color": "G",
+      "hp_base": 17,
+      "atk_base": 9,
+      "spd_base": 8,
+      "def_base": 4,
+      "res_base": 7,
+      "hp40": 36,
+      "atk40": 35,
+      "spd40": 34,
+      "def40": 21,
+      "res40": 24,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "GT",
+      "base_weap": 194,
+      "base_a": 19,
+      "base_b": 0,
+      "base_c": 38,
+      "base_proc": 0
     },
     "Robin (High Deliverer)": {
       "name": "Robin (High Deliverer)",
@@ -3231,7 +3253,7 @@ var data = {
       "base_weap": 31,
       "base_a": 17,
       "base_b": 0,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 9
     },
     "Robin (Mystery Tactician)": {
@@ -3250,7 +3272,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "GT",
-      "base_weap": 166,
+      "base_weap": 169,
       "base_a": 16,
       "base_b": 2,
       "base_c": 0,
@@ -3272,10 +3294,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 107,
+      "base_weap": 109,
       "base_a": 30,
       "base_b": 0,
-      "base_c": 33,
+      "base_c": 35,
       "base_proc": 0
     },
     "Roderick (Steady Squire)": {
@@ -3294,10 +3316,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 131,
+      "base_weap": 133,
       "base_a": 0,
       "base_b": 14,
-      "base_c": 13,
+      "base_c": 15,
       "base_proc": 0
     },
     "Roy (Brave Lion)": {
@@ -3360,10 +3382,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 259,
+      "base_weap": 262,
       "base_a": 14,
       "base_b": 0,
-      "base_c": 31,
+      "base_c": 33,
       "base_proc": 3
     },
     "Saber (Driven Mercenary)": {
@@ -3382,7 +3404,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 346,
+      "base_weap": 349,
       "base_a": 32,
       "base_b": 43,
       "base_c": 0,
@@ -3404,10 +3426,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 371,
+      "base_weap": 374,
       "base_a": 0,
       "base_b": 31,
-      "base_c": 43,
+      "base_c": 45,
       "base_proc": 0
     },
     "Sakura (Gentle Nekomata)": {
@@ -3426,10 +3448,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 207,
+      "base_weap": 210,
       "base_a": 50,
       "base_b": 21,
-      "base_c": 10,
+      "base_c": 11,
       "base_proc": 18
     },
     "Sakura (Loving Priestess)": {
@@ -3448,10 +3470,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 121,
+      "base_weap": 123,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 18,
+      "base_c": 20,
       "base_proc": 49
     },
     "Sanaki (Begnion's Apostle)": {
@@ -3470,10 +3492,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 78,
+      "base_weap": 79,
       "base_a": 48,
       "base_b": 0,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 0
     },
     "Selena (Cutting Wit)": {
@@ -3495,7 +3517,7 @@ var data = {
       "base_weap": 7,
       "base_a": 48,
       "base_b": 0,
-      "base_c": 50,
+      "base_c": 52,
       "base_proc": 0
     },
     "Seliph (Heir of Light)": {
@@ -3514,7 +3536,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 393,
+      "base_weap": 396,
       "base_a": 29,
       "base_b": 6,
       "base_c": 0,
@@ -3539,7 +3561,7 @@ var data = {
       "base_weap": 1,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 28,
+      "base_c": 30,
       "base_proc": 50
     },
     "Seth (Silver Knight)": {
@@ -3558,7 +3580,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 291,
+      "base_weap": 294,
       "base_a": 24,
       "base_b": 38,
       "base_c": 0,
@@ -3602,10 +3624,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 205,
+      "base_weap": 208,
       "base_a": 0,
       "base_b": 13,
-      "base_c": 50,
+      "base_c": 52,
       "base_proc": 28
     },
     "Sharena (Princess of Askr)": {
@@ -3624,10 +3646,10 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "L",
-      "base_weap": 129,
+      "base_weap": 131,
       "base_a": 40,
       "base_b": 0,
-      "base_c": 18,
+      "base_c": 20,
       "base_proc": 0
     },
     "Sheena (Princess of Gra)": {
@@ -3646,10 +3668,10 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 203,
+      "base_weap": 206,
       "base_a": 45,
       "base_b": 0,
-      "base_c": 16,
+      "base_c": 18,
       "base_proc": 16
     },
     "Shigure (Dark Sky Singer)": {
@@ -3668,11 +3690,55 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 89,
+      "base_weap": 90,
       "base_a": 0,
       "base_b": 20,
-      "base_c": 7,
+      "base_c": 8,
       "base_proc": 0
+    },
+    "Shiro (Raw Talent)": {
+      "name": "Shiro (Raw Talent)",
+      "color": "B",
+      "hp_base": 19,
+      "atk_base": 9,
+      "spd_base": 6,
+      "def_base": 9,
+      "res_base": 5,
+      "hp40": 41,
+      "atk40": 35,
+      "spd40": 30,
+      "def40": 35,
+      "res40": 22,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "L",
+      "base_weap": 53,
+      "base_a": 43,
+      "base_b": 0,
+      "base_c": 13,
+      "base_proc": 0
+    },
+    "Siegbert (Future King)": {
+      "name": "Siegbert (Future King)",
+      "color": "R",
+      "hp_base": 19,
+      "atk_base": 8,
+      "spd_base": 9,
+      "def_base": 7,
+      "res_base": 3,
+      "hp40": 41,
+      "atk40": 34,
+      "spd40": 35,
+      "def40": 31,
+      "res40": 16,
+      "n_lock": 0,
+      "type": "C",
+      "weap": "S",
+      "base_weap": 102,
+      "base_a": 12,
+      "base_b": 0,
+      "base_c": 4,
+      "base_proc": 14
     },
     "Sigurd (Holy Knight)": {
       "name": "Sigurd (Holy Knight)",
@@ -3690,11 +3756,33 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 114,
+      "base_weap": 116,
       "base_a": 10,
       "base_b": 10,
-      "base_c": 38,
+      "base_c": 40,
       "base_proc": 33
+    },
+    "Soleil (Adorable Adorer)": {
+      "name": "Soleil (Adorable Adorer)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 10,
+      "spd_base": 9,
+      "def_base": 6,
+      "res_base": 5,
+      "hp40": 37,
+      "atk40": 38,
+      "spd40": 35,
+      "def40": 28,
+      "res40": 24,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "S",
+      "base_weap": 134,
+      "base_a": 11,
+      "base_b": 0,
+      "base_c": 16,
+      "base_proc": 8
     },
     "Sonya (Vengeful Mage)": {
       "name": "Sonya (Vengeful Mage)",
@@ -3712,10 +3800,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 100,
+      "base_weap": 101,
       "base_a": 36,
       "base_b": 0,
-      "base_c": 35,
+      "base_c": 37,
       "base_proc": 34
     },
     "Sophia (Nabata Prophet)": {
@@ -3734,10 +3822,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 124,
+      "base_weap": 126,
       "base_a": 49,
       "base_b": 0,
-      "base_c": 21,
+      "base_c": 23,
       "base_proc": 14
     },
     "Soren (Shrewd Strategist)": {
@@ -3756,10 +3844,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 275,
+      "base_weap": 278,
       "base_a": 0,
       "base_b": 47,
-      "base_c": 21,
+      "base_c": 23,
       "base_proc": 24
     },
     "Stahl (Viridian Knight)": {
@@ -3778,7 +3866,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 291,
+      "base_weap": 294,
       "base_a": 13,
       "base_b": 29,
       "base_c": 0,
@@ -3800,7 +3888,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 292,
+      "base_weap": 295,
       "base_a": 37,
       "base_b": 32,
       "base_c": 0,
@@ -3822,10 +3910,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 292,
+      "base_weap": 295,
       "base_a": 0,
       "base_b": 44,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 0
     },
     "Tailtiu (Thunder Noble)": {
@@ -3847,7 +3935,7 @@ var data = {
       "base_weap": 25,
       "base_a": 3,
       "base_b": 0,
-      "base_c": 15,
+      "base_c": 17,
       "base_proc": 0
     },
     "Takumi (Wild Card)": {
@@ -3866,10 +3954,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 142,
+      "base_weap": 145,
       "base_a": 9,
       "base_b": 0,
-      "base_c": 50,
+      "base_c": 52,
       "base_proc": 51
     },
     "Tana (Winged Princess)": {
@@ -3888,10 +3976,10 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 397,
+      "base_weap": 400,
       "base_a": 38,
       "base_b": 0,
-      "base_c": 26,
+      "base_c": 28,
       "base_proc": 34
     },
     "Tharja (Dark Shadow)": {
@@ -3910,10 +3998,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 260,
+      "base_weap": 263,
       "base_a": 11,
       "base_b": 0,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 51
     },
     "Tiki (Dragon Scion)": {
@@ -3932,10 +4020,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 137,
+      "base_weap": 140,
       "base_a": 1,
       "base_b": 0,
-      "base_c": 9,
+      "base_c": 10,
       "base_proc": 21
     },
     "Tiki (Naga's Voice)": {
@@ -3954,10 +4042,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 219,
+      "base_weap": 222,
       "base_a": 14,
       "base_b": 0,
-      "base_c": 42,
+      "base_c": 44,
       "base_proc": 9
     },
     "Tiki (Summer Scion)": {
@@ -3976,10 +4064,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 229,
+      "base_weap": 232,
       "base_a": 10,
       "base_b": 0,
-      "base_c": 5,
+      "base_c": 6,
       "base_proc": 47
     },
     "Titania (Mighty Mercenary)": {
@@ -3998,7 +4086,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 117,
+      "base_weap": 119,
       "base_a": 1,
       "base_b": 21,
       "base_c": 0,
@@ -4045,7 +4133,7 @@ var data = {
       "base_weap": 32,
       "base_a": 12,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 51,
       "base_proc": 23
     },
     "Valter (Dark Moonstone)": {
@@ -4064,10 +4152,10 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "L",
-      "base_weap": 77,
+      "base_weap": 78,
       "base_a": 11,
       "base_b": 0,
-      "base_c": 34,
+      "base_c": 36,
       "base_proc": 32
     },
     "Virion (Elite Archer)": {
@@ -4086,7 +4174,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 316,
+      "base_weap": 319,
       "base_a": 16,
       "base_b": 42,
       "base_c": 0,
@@ -4108,7 +4196,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 368,
+      "base_weap": 371,
       "base_a": 0,
       "base_b": 27,
       "base_c": 0,
@@ -4130,10 +4218,10 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "S",
-      "base_weap": 303,
+      "base_weap": 306,
       "base_a": 1,
       "base_b": 0,
-      "base_c": 40,
+      "base_c": 42,
       "base_proc": 6
     },
     "Xander (Spring Prince)": {
@@ -4152,10 +4240,10 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 62,
+      "base_weap": 63,
       "base_a": 0,
       "base_b": 26,
-      "base_c": 18,
+      "base_c": 20,
       "base_proc": 0
     },
     "Xander (Student Swimmer)": {
@@ -4174,10 +4262,10 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 224,
+      "base_weap": 227,
       "base_a": 22,
       "base_b": 0,
-      "base_c": 32,
+      "base_c": 34,
       "base_proc": 9
     },
     "Zephiel (The Liberator)": {
@@ -4196,7 +4284,7 @@ var data = {
       "n_lock": 1,
       "type": "A",
       "weap": "S",
-      "base_weap": 116,
+      "base_weap": 118,
       "base_a": 35,
       "base_b": 46,
       "base_c": 0,
@@ -4223,7 +4311,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4343,7 +4434,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4463,7 +4557,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4583,7 +4680,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4703,7 +4803,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4823,7 +4926,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -4943,7 +5049,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5063,7 +5172,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5183,7 +5295,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5303,7 +5418,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5423,7 +5541,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5543,7 +5664,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5663,7 +5787,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5783,7 +5910,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -5903,7 +6033,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -6000,7 +6133,7 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 167,
+      "evolves_into": 170,
       "evolved_from": 0,
       "upgraded_from": 0
     },
@@ -6023,7 +6156,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -6143,7 +6279,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -6263,7 +6402,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -6360,7 +6502,7 @@ var data = {
       "range": 2,
       "type": "BT",
       "char_lock": 1,
-      "evolves_into": 94,
+      "evolves_into": 95,
       "evolved_from": 0,
       "upgraded_from": 0
     },
@@ -6383,7 +6525,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -6503,7 +6648,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 4,
       "hp_inflict_on_hit": 0,
@@ -6623,7 +6771,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 7,
       "hp_inflict_on_hit": 0,
@@ -6743,7 +6894,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 7,
       "hp_inflict_on_hit": 0,
@@ -6863,7 +7017,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 7,
       "hp_inflict_on_hit": 0,
@@ -6983,7 +7140,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 7,
       "hp_inflict_on_hit": 0,
@@ -7103,7 +7263,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 2,
       "res_boost_def": 2,
       "hp_inflict_on_hit": 0,
@@ -7223,7 +7386,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7343,7 +7509,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7463,7 +7632,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7583,7 +7755,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7703,7 +7878,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7823,7 +8001,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -7943,7 +8124,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8063,7 +8247,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8183,7 +8370,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8281,7 +8471,7 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 115,
+      "evolved_from": 117,
       "upgraded_from": 0
     },
     "34": {
@@ -8303,7 +8493,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8423,7 +8616,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8543,7 +8739,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8663,7 +8862,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8783,7 +8985,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -8903,7 +9108,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9023,7 +9231,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9143,7 +9354,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9263,7 +9477,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9383,7 +9600,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9503,7 +9723,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9623,7 +9846,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9743,7 +9969,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9863,7 +10092,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -9983,7 +10215,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10103,7 +10338,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10223,7 +10461,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10343,7 +10584,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10463,7 +10707,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10566,6 +10813,129 @@ var data = {
     },
     "53": {
       "index": 53,
+      "name": "Bright Naginata",
+      "atk_boost_perm": 16,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 4,
+      "spd_boost_def": 0,
+      "def_boost_def": 4,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_effect": 0,
+      "dazzling_staff_threshold": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "L",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0
+    },
+    "54": {
+      "index": 54,
       "name": "Brynhildr",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -10583,7 +10953,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10684,8 +11057,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Candlelight+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -10703,7 +11076,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10804,8 +11180,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Candlelight+ (Dazzling)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -10823,7 +11199,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -10922,10 +11301,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 54
+      "upgraded_from": 55
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Candlelight+ (Wrathful)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -10943,7 +11322,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11042,10 +11424,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 54
+      "upgraded_from": 55
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Carrot Axe+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -11063,7 +11445,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11164,8 +11549,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Carrot Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -11183,7 +11568,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11282,10 +11670,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57
+      "upgraded_from": 58
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Carrot Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -11303,7 +11691,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11402,10 +11793,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57
+      "upgraded_from": 58
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Carrot Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -11423,7 +11814,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11522,10 +11916,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57
+      "upgraded_from": 58
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Carrot Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -11543,7 +11937,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11642,10 +12039,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57
+      "upgraded_from": 58
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Carrot Lance+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -11663,7 +12060,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11764,8 +12164,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "name": "Carrot Lance+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -11783,7 +12183,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -11882,10 +12285,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 62
+      "upgraded_from": 63
     },
-    "64": {
-      "index": 64,
+    "65": {
+      "index": 65,
       "name": "Carrot Lance+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -11903,7 +12306,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12002,10 +12408,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 62
+      "upgraded_from": 63
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "name": "Carrot Lance+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -12023,7 +12429,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12122,10 +12531,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 62
+      "upgraded_from": 63
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "name": "Carrot Lance+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -12143,7 +12552,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12242,10 +12654,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 62
+      "upgraded_from": 63
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "name": "Clarisse's Bow+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -12263,7 +12675,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12364,8 +12779,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "name": "Clarisse's Bow+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -12383,7 +12798,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12482,10 +12900,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 67
+      "upgraded_from": 68
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "name": "Clarisse's Bow+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -12503,7 +12921,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12602,10 +13023,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 67
+      "upgraded_from": 68
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "name": "Clarisse's Bow+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -12623,7 +13044,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12722,10 +13146,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 67
+      "upgraded_from": 68
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "name": "Clarisse's Bow+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -12743,7 +13167,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12842,10 +13269,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 67
+      "upgraded_from": 68
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "name": "Cupid Arrow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -12863,7 +13290,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -12964,8 +13394,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "name": "Cupid Arrow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -12983,7 +13413,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13082,10 +13515,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 72
+      "upgraded_from": 73
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "name": "Cupid Arrow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -13103,7 +13536,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13202,10 +13638,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 72
+      "upgraded_from": 73
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "name": "Cupid Arrow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -13223,7 +13659,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13322,10 +13761,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 72
+      "upgraded_from": 73
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "name": "Cupid Arrow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -13343,7 +13782,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13442,10 +13884,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 72
+      "upgraded_from": 73
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "name": "Cursed Lance",
       "atk_boost_perm": 18,
       "spd_boost_perm": 2,
@@ -13463,7 +13905,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13564,8 +14009,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
       "name": "Cymbeline",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -13583,7 +14028,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13684,8 +14132,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "79": {
-      "index": 79,
+    "80": {
+      "index": 80,
       "name": "Dancer's Fan+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -13703,7 +14151,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13804,8 +14255,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "80": {
-      "index": 80,
+    "81": {
+      "index": 81,
       "name": "Dancer's Fan+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -13823,7 +14274,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -13922,10 +14376,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 79
+      "upgraded_from": 80
     },
-    "81": {
-      "index": 81,
+    "82": {
+      "index": 82,
       "name": "Dancer's Fan+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -13943,7 +14397,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14042,10 +14499,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 79
+      "upgraded_from": 80
     },
-    "82": {
-      "index": 82,
+    "83": {
+      "index": 83,
       "name": "Dancer's Fan+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14063,7 +14520,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14162,10 +14622,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 79
+      "upgraded_from": 80
     },
-    "83": {
-      "index": 83,
+    "84": {
+      "index": 84,
       "name": "Dancer's Fan+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -14183,7 +14643,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14282,10 +14745,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 79
+      "upgraded_from": 80
     },
-    "84": {
-      "index": 84,
+    "85": {
+      "index": 85,
       "name": "Dancer's Ring+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14303,7 +14766,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14404,8 +14870,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "name": "Dancer's Ring+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -14423,7 +14889,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14522,10 +14991,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 84
+      "upgraded_from": 85
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "name": "Dancer's Ring+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14543,7 +15012,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14642,10 +15114,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 84
+      "upgraded_from": 85
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "name": "Dancer's Ring+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14663,7 +15135,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14762,10 +15237,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 84
+      "upgraded_from": 85
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "name": "Dancer's Ring+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -14783,7 +15258,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -14882,10 +15360,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 84
+      "upgraded_from": 85
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "name": "Dancer's Score+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14903,7 +15381,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15004,8 +15485,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "name": "Dancer's Score+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -15023,7 +15504,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15122,10 +15606,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 89
+      "upgraded_from": 90
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "name": "Dancer's Score+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15143,7 +15627,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15242,10 +15729,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 89
+      "upgraded_from": 90
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "name": "Dancer's Score+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15263,7 +15750,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15362,10 +15852,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 89
+      "upgraded_from": 90
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "name": "Dancer's Score+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -15383,7 +15873,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15482,10 +15975,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 89
+      "upgraded_from": 90
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "name": "Dark Aura",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -15503,7 +15996,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15601,11 +16097,11 @@ var data = {
       "type": "BT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 94,
+      "evolved_from": 95,
       "upgraded_from": 0
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "name": "Dark Breath+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -15623,7 +16119,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15724,8 +16223,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "name": "Dark Breath+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -15743,7 +16242,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15842,10 +16344,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "name": "Dark Breath+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -15863,7 +16365,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -15962,10 +16467,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "name": "Dark Breath+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -15983,7 +16488,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16082,10 +16590,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "name": "Dark Breath+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -16103,7 +16611,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16202,10 +16713,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "name": "Dark Excalibur",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -16223,7 +16734,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16321,11 +16835,134 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 118,
+      "evolved_from": 120,
       "upgraded_from": 0
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
+      "name": "Dark Greatsword",
+      "atk_boost_perm": 16,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 4,
+      "spd_boost_off": 4,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_effect": 0,
+      "dazzling_staff_threshold": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0
+    },
+    "103": {
+      "index": 103,
       "name": "Deathly Dagger",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -16343,7 +16980,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16444,8 +17084,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "102": {
-      "index": 102,
+    "104": {
+      "index": 104,
       "name": "Deathly Dagger (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -16463,7 +17103,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16562,10 +17205,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 103
     },
-    "103": {
-      "index": 103,
+    "105": {
+      "index": 105,
       "name": "Deathly Dagger (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -16583,7 +17226,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16682,10 +17328,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 103
     },
-    "104": {
-      "index": 104,
+    "106": {
+      "index": 106,
       "name": "Deathly Dagger (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -16703,7 +17349,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16802,10 +17451,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 103
     },
-    "105": {
-      "index": 105,
+    "107": {
+      "index": 107,
       "name": "Deathly Dagger (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -16823,7 +17472,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -16922,10 +17574,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 103
     },
-    "106": {
-      "index": 106,
+    "108": {
+      "index": 108,
       "name": "Deathly Dagger (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -16943,7 +17595,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17042,10 +17697,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 103
     },
-    "107": {
-      "index": 107,
+    "109": {
+      "index": 109,
       "name": "Deft Harpoon+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17063,7 +17718,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17164,8 +17822,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "108": {
-      "index": 108,
+    "110": {
+      "index": 110,
       "name": "Deft Harpoon+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -17183,7 +17841,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17282,10 +17943,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 107
+      "upgraded_from": 109
     },
-    "109": {
-      "index": 109,
+    "111": {
+      "index": 111,
       "name": "Deft Harpoon+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17303,7 +17964,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17402,10 +18066,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 107
+      "upgraded_from": 109
     },
-    "110": {
-      "index": 110,
+    "112": {
+      "index": 112,
       "name": "Deft Harpoon+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17423,7 +18087,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17522,10 +18189,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 107
+      "upgraded_from": 109
     },
-    "111": {
-      "index": 111,
+    "113": {
+      "index": 113,
       "name": "Deft Harpoon+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -17543,7 +18210,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17642,10 +18312,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 107
+      "upgraded_from": 109
     },
-    "112": {
-      "index": 112,
+    "114": {
+      "index": 114,
       "name": "Dire Thunder",
       "atk_boost_perm": 9,
       "spd_boost_perm": -5,
@@ -17663,7 +18333,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17764,8 +18437,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "113": {
-      "index": 113,
+    "115": {
+      "index": 115,
       "name": "Divine Naga",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17783,7 +18456,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -17881,11 +18557,11 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 247,
+      "evolved_from": 250,
       "upgraded_from": 0
     },
-    "114": {
-      "index": 114,
+    "116": {
+      "index": 116,
       "name": "Divine Tyrfing",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -17903,7 +18579,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18001,11 +18680,11 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 393,
+      "evolved_from": 396,
       "upgraded_from": 0
     },
-    "115": {
-      "index": 115,
+    "117": {
+      "index": 117,
       "name": "Durandal",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -18023,7 +18702,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 4,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18124,8 +18806,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "116": {
-      "index": 116,
+    "118": {
+      "index": 118,
       "name": "Eckesachs",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -18143,7 +18825,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18244,8 +18929,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "117": {
-      "index": 117,
+    "119": {
+      "index": 119,
       "name": "Emerald Axe+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -18263,7 +18948,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18364,8 +19052,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "118": {
-      "index": 118,
+    "120": {
+      "index": 120,
       "name": "Excalibur",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -18383,7 +19071,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18480,12 +19171,12 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 100,
+      "evolves_into": 101,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "119": {
-      "index": 119,
+    "121": {
+      "index": 121,
       "name": "F\xF3lkvangr",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -18503,7 +19194,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18604,8 +19298,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "120": {
-      "index": 120,
+    "122": {
+      "index": 122,
       "name": "Falchion",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -18623,7 +19317,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18724,8 +19421,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "121": {
-      "index": 121,
+    "123": {
+      "index": 123,
       "name": "Fear+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -18743,7 +19440,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18844,8 +19544,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "122": {
-      "index": 122,
+    "124": {
+      "index": 124,
       "name": "Fear+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -18863,7 +19563,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -18962,10 +19665,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 121
+      "upgraded_from": 123
     },
-    "123": {
-      "index": 123,
+    "125": {
+      "index": 125,
       "name": "Fear+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -18983,7 +19686,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19082,10 +19788,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 121
+      "upgraded_from": 123
     },
-    "124": {
-      "index": 124,
+    "126": {
+      "index": 126,
       "name": "Fenrir+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -19103,7 +19809,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19204,8 +19913,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "125": {
-      "index": 125,
+    "127": {
+      "index": 127,
       "name": "Fenrir+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -19223,7 +19932,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19322,10 +20034,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124
+      "upgraded_from": 126
     },
-    "126": {
-      "index": 126,
+    "128": {
+      "index": 128,
       "name": "Fenrir+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -19343,7 +20055,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19442,10 +20157,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124
+      "upgraded_from": 126
     },
-    "127": {
-      "index": 127,
+    "129": {
+      "index": 129,
       "name": "Fenrir+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -19463,7 +20178,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19562,10 +20280,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124
+      "upgraded_from": 126
     },
-    "128": {
-      "index": 128,
+    "130": {
+      "index": 130,
       "name": "Fenrir+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -19583,7 +20301,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19682,10 +20403,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124
+      "upgraded_from": 126
     },
-    "129": {
-      "index": 129,
+    "131": {
+      "index": 131,
       "name": "Fensalir",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19703,7 +20424,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19804,8 +20528,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "130": {
-      "index": 130,
+    "132": {
+      "index": 132,
       "name": "Firesweep Bow+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -19823,7 +20547,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -19924,8 +20651,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "131": {
-      "index": 131,
+    "133": {
+      "index": 133,
       "name": "Firesweep L+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -19943,7 +20670,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20044,8 +20774,131 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "132": {
-      "index": 132,
+    "134": {
+      "index": 134,
+      "name": "Firesweep S+",
+      "atk_boost_perm": 15,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_effect": 0,
+      "dazzling_staff_threshold": 0,
+      "negate_self_counter": 1,
+      "negate_srd_counter": 1,
+      "negate_lnc_counter": 1,
+      "negate_axe_counter": 1,
+      "negate_rt_counter": 1,
+      "negate_bt_counter": 1,
+      "negate_gt_counter": 1,
+      "negate_bow_counter": 1,
+      "negate_dgr_counter": 1,
+      "negate_stf_counter": 1,
+      "negate_rbrth_counter": 1,
+      "negate_bbrth_counter": 1,
+      "negate_gbrth_counter": 1,
+      "negate_inf_counter": 1,
+      "negate_cav_counter": 1,
+      "negate_fly_counter": 1,
+      "negate_arm_counter": 1,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0
+    },
+    "135": {
+      "index": 135,
       "name": "First Bite+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -20063,7 +20916,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20164,8 +21020,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "133": {
-      "index": 133,
+    "136": {
+      "index": 136,
       "name": "First Bite+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -20183,7 +21039,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20282,10 +21141,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 132
+      "upgraded_from": 135
     },
-    "134": {
-      "index": 134,
+    "137": {
+      "index": 137,
       "name": "First Bite+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -20303,7 +21162,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20402,10 +21264,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 132
+      "upgraded_from": 135
     },
-    "135": {
-      "index": 135,
+    "138": {
+      "index": 138,
       "name": "First Bite+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -20423,7 +21285,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20522,10 +21387,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 132
+      "upgraded_from": 135
     },
-    "136": {
-      "index": 136,
+    "139": {
+      "index": 139,
       "name": "First Bite+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -20543,7 +21408,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20642,10 +21510,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 132
+      "upgraded_from": 135
     },
-    "137": {
-      "index": 137,
+    "140": {
+      "index": 140,
       "name": "Flametongue+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -20663,7 +21531,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20764,8 +21635,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "138": {
-      "index": 138,
+    "141": {
+      "index": 141,
       "name": "Flametongue+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -20783,7 +21654,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -20882,10 +21756,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137
+      "upgraded_from": 140
     },
-    "139": {
-      "index": 139,
+    "142": {
+      "index": 142,
       "name": "Flametongue+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -20903,7 +21777,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21002,10 +21879,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137
+      "upgraded_from": 140
     },
-    "140": {
-      "index": 140,
+    "143": {
+      "index": 143,
       "name": "Flametongue+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -21023,7 +21900,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21122,10 +22002,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137
+      "upgraded_from": 140
     },
-    "141": {
-      "index": 141,
+    "144": {
+      "index": 144,
       "name": "Flametongue+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -21143,7 +22023,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21242,10 +22125,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137
+      "upgraded_from": 140
     },
-    "142": {
-      "index": 142,
+    "145": {
+      "index": 145,
       "name": "Fujin Yumi",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21263,7 +22146,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21364,8 +22250,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "143": {
-      "index": 143,
+    "146": {
+      "index": 146,
       "name": "Fujin Yumi (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -21383,7 +22269,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21482,10 +22371,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 142
+      "upgraded_from": 145
     },
-    "144": {
-      "index": 144,
+    "147": {
+      "index": 147,
       "name": "Fujin Yumi (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21503,7 +22392,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21602,10 +22494,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 142
+      "upgraded_from": 145
     },
-    "145": {
-      "index": 145,
+    "148": {
+      "index": 148,
       "name": "Fujin Yumi (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21623,7 +22515,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21722,10 +22617,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 142
+      "upgraded_from": 145
     },
-    "146": {
-      "index": 146,
+    "149": {
+      "index": 149,
       "name": "Fujin Yumi (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21743,7 +22638,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21842,10 +22740,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 142
+      "upgraded_from": 145
     },
-    "147": {
-      "index": 147,
+    "150": {
+      "index": 150,
       "name": "Fujin Yumi (Spd)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 2,
@@ -21863,7 +22761,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -21962,10 +22863,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 142
+      "upgraded_from": 145
     },
-    "148": {
-      "index": 148,
+    "151": {
+      "index": 151,
       "name": "Geirsk\xF6gul",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -21983,7 +22884,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22084,8 +22988,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "149": {
-      "index": 149,
+    "152": {
+      "index": 152,
       "name": "Gradivus",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -22103,7 +23007,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22204,8 +23111,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "150": {
-      "index": 150,
+    "153": {
+      "index": 153,
       "name": "Gravity+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -22223,7 +23130,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22324,8 +23234,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "151": {
-      "index": 151,
+    "154": {
+      "index": 154,
       "name": "Gravity+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -22343,7 +23253,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22442,10 +23355,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 153
     },
-    "152": {
-      "index": 152,
+    "155": {
+      "index": 155,
       "name": "Gravity+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -22463,7 +23376,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22562,10 +23478,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 153
     },
-    "153": {
-      "index": 153,
+    "156": {
+      "index": 156,
       "name": "Green Egg+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -22583,7 +23499,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22684,8 +23603,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "154": {
-      "index": 154,
+    "157": {
+      "index": 157,
       "name": "Green Egg+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -22703,7 +23622,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22802,10 +23724,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 153
+      "upgraded_from": 156
     },
-    "155": {
-      "index": 155,
+    "158": {
+      "index": 158,
       "name": "Green Egg+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -22823,7 +23745,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -22922,10 +23847,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 153
+      "upgraded_from": 156
     },
-    "156": {
-      "index": 156,
+    "159": {
+      "index": 159,
       "name": "Green Egg+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -22943,7 +23868,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23042,10 +23970,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 153
+      "upgraded_from": 156
     },
-    "157": {
-      "index": 157,
+    "160": {
+      "index": 160,
       "name": "Green Egg+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -23063,7 +23991,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23162,10 +24093,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 153
+      "upgraded_from": 156
     },
-    "158": {
-      "index": 158,
+    "161": {
+      "index": 161,
       "name": "Grimoire",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -23183,7 +24114,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23284,8 +24218,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "159": {
-      "index": 159,
+    "162": {
+      "index": 162,
       "name": "Gronnblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -23303,7 +24237,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23404,8 +24341,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "160": {
-      "index": 160,
+    "163": {
+      "index": 163,
       "name": "Gronnowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -23423,7 +24360,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23524,8 +24464,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "161": {
-      "index": 161,
+    "164": {
+      "index": 164,
       "name": "Gronnowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -23543,7 +24483,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23642,10 +24585,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 160
+      "upgraded_from": 163
     },
-    "162": {
-      "index": 162,
+    "165": {
+      "index": 165,
       "name": "Gronnowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -23663,7 +24606,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23762,10 +24708,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 160
+      "upgraded_from": 163
     },
-    "163": {
-      "index": 163,
+    "166": {
+      "index": 166,
       "name": "Gronnowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -23783,7 +24729,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -23882,10 +24831,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 160
+      "upgraded_from": 163
     },
-    "164": {
-      "index": 164,
+    "167": {
+      "index": 167,
       "name": "Gronnowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -23903,7 +24852,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24002,10 +24954,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 160
+      "upgraded_from": 163
     },
-    "165": {
-      "index": 165,
+    "168": {
+      "index": 168,
       "name": "Gronnraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -24023,7 +24975,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24124,8 +25079,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "166": {
-      "index": 166,
+    "169": {
+      "index": 169,
       "name": "Gronnwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -24143,7 +25098,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24244,8 +25202,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "167": {
-      "index": 167,
+    "170": {
+      "index": 170,
       "name": "Guard Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24263,7 +25221,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24364,8 +25325,8 @@ var data = {
       "evolved_from": 14,
       "upgraded_from": 0
     },
-    "168": {
-      "index": 168,
+    "171": {
+      "index": 171,
       "name": "Guard Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -24383,7 +25344,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24482,10 +25446,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167
+      "upgraded_from": 170
     },
-    "169": {
-      "index": 169,
+    "172": {
+      "index": 172,
       "name": "Guard Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24503,7 +25467,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24602,10 +25569,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167
+      "upgraded_from": 170
     },
-    "170": {
-      "index": 170,
+    "173": {
+      "index": 173,
       "name": "Guard Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24623,7 +25590,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24722,10 +25692,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167
+      "upgraded_from": 170
     },
-    "171": {
-      "index": 171,
+    "174": {
+      "index": 174,
       "name": "Guard Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -24743,7 +25713,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24842,10 +25815,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167
+      "upgraded_from": 170
     },
-    "172": {
-      "index": 172,
+    "175": {
+      "index": 175,
       "name": "Hammer+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24863,7 +25836,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -24960,12 +25936,12 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 351,
+      "evolves_into": 354,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "173": {
-      "index": 173,
+    "176": {
+      "index": 176,
       "name": "Hauteclere",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -24983,7 +25959,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25084,8 +26063,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "174": {
-      "index": 174,
+    "177": {
+      "index": 177,
       "name": "Hauteclere (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -25103,7 +26082,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25202,10 +26184,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173
+      "upgraded_from": 176
     },
-    "175": {
-      "index": 175,
+    "178": {
+      "index": 178,
       "name": "Hauteclere (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -25223,7 +26205,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25322,10 +26307,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173
+      "upgraded_from": 176
     },
-    "176": {
-      "index": 176,
+    "179": {
+      "index": 179,
       "name": "Hauteclere (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -25343,7 +26328,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25442,10 +26430,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173
+      "upgraded_from": 176
     },
-    "177": {
-      "index": 177,
+    "180": {
+      "index": 180,
       "name": "Hauteclere (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -25463,7 +26451,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25562,10 +26553,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173
+      "upgraded_from": 176
     },
-    "178": {
-      "index": 178,
+    "181": {
+      "index": 181,
       "name": "Hauteclere (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -25583,7 +26574,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25682,10 +26676,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173
+      "upgraded_from": 176
     },
-    "179": {
-      "index": 179,
+    "182": {
+      "index": 182,
       "name": "Heavy Spear+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -25703,7 +26697,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25800,12 +26797,12 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 362,
+      "evolves_into": 365,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "180": {
-      "index": 180,
+    "183": {
+      "index": 183,
       "name": "Hibiscus Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -25823,7 +26820,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -25924,8 +26924,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "181": {
-      "index": 181,
+    "184": {
+      "index": 184,
       "name": "Hibiscus Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -25943,7 +26943,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26042,10 +27045,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 180
+      "upgraded_from": 183
     },
-    "182": {
-      "index": 182,
+    "185": {
+      "index": 185,
       "name": "Hibiscus Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26063,7 +27066,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26162,10 +27168,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 180
+      "upgraded_from": 183
     },
-    "183": {
-      "index": 183,
+    "186": {
+      "index": 186,
       "name": "Hibiscus Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26183,7 +27189,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26282,10 +27291,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 180
+      "upgraded_from": 183
     },
-    "184": {
-      "index": 184,
+    "187": {
+      "index": 187,
       "name": "Hibiscus Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -26303,7 +27312,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26402,10 +27414,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 180
+      "upgraded_from": 183
     },
-    "185": {
-      "index": 185,
+    "188": {
+      "index": 188,
       "name": "Keen Bl\xE1rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26423,7 +27435,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26524,8 +27539,8 @@ var data = {
       "evolved_from": 32,
       "upgraded_from": 0
     },
-    "186": {
-      "index": 186,
+    "189": {
+      "index": 189,
       "name": "Keen Bl\xE1rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -26543,7 +27558,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26642,10 +27660,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 185
+      "upgraded_from": 188
     },
-    "187": {
-      "index": 187,
+    "190": {
+      "index": 190,
       "name": "Keen Bl\xE1rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26663,7 +27681,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26762,10 +27783,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 185
+      "upgraded_from": 188
     },
-    "188": {
-      "index": 188,
+    "191": {
+      "index": 191,
       "name": "Keen Bl\xE1rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26783,7 +27804,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -26882,10 +27906,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 185
+      "upgraded_from": 188
     },
-    "189": {
-      "index": 189,
+    "192": {
+      "index": 192,
       "name": "Keen Bl\xE1rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26903,7 +27927,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27002,10 +28029,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 185
+      "upgraded_from": 188
     },
-    "190": {
-      "index": 190,
+    "193": {
+      "index": 193,
       "name": "Keen Bl\xE1rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -27023,7 +28050,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27122,10 +28152,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 185
+      "upgraded_from": 188
     },
-    "191": {
-      "index": 191,
+    "194": {
+      "index": 194,
       "name": "Keen Gronnwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27143,7 +28173,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27241,11 +28274,11 @@ var data = {
       "type": "GT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 166,
+      "evolved_from": 169,
       "upgraded_from": 0
     },
-    "192": {
-      "index": 192,
+    "195": {
+      "index": 195,
       "name": "Keen Gronnwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -27263,7 +28296,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27362,10 +28398,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191
+      "upgraded_from": 194
     },
-    "193": {
-      "index": 193,
+    "196": {
+      "index": 196,
       "name": "Keen Gronnwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27383,7 +28419,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27482,10 +28521,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191
+      "upgraded_from": 194
     },
-    "194": {
-      "index": 194,
+    "197": {
+      "index": 197,
       "name": "Keen Gronnwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27503,7 +28542,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27602,10 +28644,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191
+      "upgraded_from": 194
     },
-    "195": {
-      "index": 195,
+    "198": {
+      "index": 198,
       "name": "Keen Gronnwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27623,7 +28665,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27722,10 +28767,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191
+      "upgraded_from": 194
     },
-    "196": {
-      "index": 196,
+    "199": {
+      "index": 199,
       "name": "Keen Gronnwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -27743,7 +28788,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27842,10 +28890,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191
+      "upgraded_from": 194
     },
-    "197": {
-      "index": 197,
+    "200": {
+      "index": 200,
       "name": "Keen Rau\xF0rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27863,7 +28911,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -27961,11 +29012,11 @@ var data = {
       "type": "RT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 267,
+      "evolved_from": 270,
       "upgraded_from": 0
     },
-    "198": {
-      "index": 198,
+    "201": {
+      "index": 201,
       "name": "Keen Rau\xF0rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -27983,7 +29034,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28082,10 +29136,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 197
+      "upgraded_from": 200
     },
-    "199": {
-      "index": 199,
+    "202": {
+      "index": 202,
       "name": "Keen Rau\xF0rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28103,7 +29157,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28202,10 +29259,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 197
+      "upgraded_from": 200
     },
-    "200": {
-      "index": 200,
+    "203": {
+      "index": 203,
       "name": "Keen Rau\xF0rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28223,7 +29280,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28322,10 +29382,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 197
+      "upgraded_from": 200
     },
-    "201": {
-      "index": 201,
+    "204": {
+      "index": 204,
       "name": "Keen Rau\xF0rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28343,7 +29403,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28442,10 +29505,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 197
+      "upgraded_from": 200
     },
-    "202": {
-      "index": 202,
+    "205": {
+      "index": 205,
       "name": "Keen Rau\xF0rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -28463,7 +29526,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28562,10 +29628,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 197
+      "upgraded_from": 200
     },
-    "203": {
-      "index": 203,
+    "206": {
+      "index": 206,
       "name": "Killer Axe+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -28583,7 +29649,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28680,12 +29749,12 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 336,
+      "evolves_into": 339,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "204": {
-      "index": 204,
+    "207": {
+      "index": 207,
       "name": "Killer Bow+",
       "atk_boost_perm": 9,
       "spd_boost_perm": 0,
@@ -28703,7 +29772,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28800,12 +29872,12 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 341,
+      "evolves_into": 344,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "205": {
-      "index": 205,
+    "208": {
+      "index": 208,
       "name": "Killer Lance+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -28823,7 +29895,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -28920,12 +29995,12 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 357,
+      "evolves_into": 360,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "206": {
-      "index": 206,
+    "209": {
+      "index": 209,
       "name": "Killing Edge+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -28943,7 +30018,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29040,12 +30118,12 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 0,
-      "evolves_into": 346,
+      "evolves_into": 349,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "207": {
-      "index": 207,
+    "210": {
+      "index": 210,
       "name": "Kitty Paddle+",
       "atk_boost_perm": 8,
       "spd_boost_perm": 0,
@@ -29063,7 +30141,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29164,8 +30245,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "208": {
-      "index": 208,
+    "211": {
+      "index": 211,
       "name": "Legion's Axe+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -29183,7 +30264,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29284,8 +30368,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "209": {
-      "index": 209,
+    "212": {
+      "index": 212,
       "name": "Legion's Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -29303,7 +30387,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29402,10 +30489,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 208
+      "upgraded_from": 211
     },
-    "210": {
-      "index": 210,
+    "213": {
+      "index": 213,
       "name": "Legion's Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -29423,7 +30510,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29522,10 +30612,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 208
+      "upgraded_from": 211
     },
-    "211": {
-      "index": 211,
+    "214": {
+      "index": 214,
       "name": "Legion's Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -29543,7 +30633,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29642,10 +30735,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 208
+      "upgraded_from": 211
     },
-    "212": {
-      "index": 212,
+    "215": {
+      "index": 215,
       "name": "Legion's Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -29663,7 +30756,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29762,10 +30858,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 208
+      "upgraded_from": 211
     },
-    "213": {
-      "index": 213,
+    "216": {
+      "index": 216,
       "name": "Leiptr",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -29783,7 +30879,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -29884,8 +30983,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "214": {
-      "index": 214,
+    "217": {
+      "index": 217,
       "name": "Light Breath+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -29903,7 +31002,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30004,8 +31106,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "215": {
-      "index": 215,
+    "218": {
+      "index": 218,
       "name": "Light Breath+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -30023,7 +31125,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30122,10 +31227,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 214
+      "upgraded_from": 217
     },
-    "216": {
-      "index": 216,
+    "219": {
+      "index": 219,
       "name": "Light Breath+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -30143,7 +31248,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30242,10 +31350,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 214
+      "upgraded_from": 217
     },
-    "217": {
-      "index": 217,
+    "220": {
+      "index": 220,
       "name": "Light Breath+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -30263,7 +31371,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30362,10 +31473,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 214
+      "upgraded_from": 217
     },
-    "218": {
-      "index": 218,
+    "221": {
+      "index": 221,
       "name": "Light Breath+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -30383,7 +31494,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30482,10 +31596,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 214
+      "upgraded_from": 217
     },
-    "219": {
-      "index": 219,
+    "222": {
+      "index": 222,
       "name": "Lightning Breath+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -30503,7 +31617,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30604,8 +31721,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "220": {
-      "index": 220,
+    "223": {
+      "index": 223,
       "name": "Lightning Breath+ (Atk)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -30623,7 +31740,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30722,10 +31842,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219
+      "upgraded_from": 222
     },
-    "221": {
-      "index": 221,
+    "224": {
+      "index": 224,
       "name": "Lightning Breath+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30743,7 +31863,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30842,10 +31965,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219
+      "upgraded_from": 222
     },
-    "222": {
-      "index": 222,
+    "225": {
+      "index": 225,
       "name": "Lightning Breath+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30863,7 +31986,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -30962,10 +32088,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219
+      "upgraded_from": 222
     },
-    "223": {
-      "index": 223,
+    "226": {
+      "index": 226,
       "name": "Lightning Breath+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 3,
@@ -30983,7 +32109,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31082,10 +32211,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219
+      "upgraded_from": 222
     },
-    "224": {
-      "index": 224,
+    "227": {
+      "index": 227,
       "name": "Lilith Floatie+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31103,7 +32232,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31204,8 +32336,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "225": {
-      "index": 225,
+    "228": {
+      "index": 228,
       "name": "Lilith Floatie+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -31223,7 +32355,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31322,10 +32457,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224
+      "upgraded_from": 227
     },
-    "226": {
-      "index": 226,
+    "229": {
+      "index": 229,
       "name": "Lilith Floatie+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31343,7 +32478,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31442,10 +32580,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224
+      "upgraded_from": 227
     },
-    "227": {
-      "index": 227,
+    "230": {
+      "index": 230,
       "name": "Lilith Floatie+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31463,7 +32601,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31562,10 +32703,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224
+      "upgraded_from": 227
     },
-    "228": {
-      "index": 228,
+    "231": {
+      "index": 231,
       "name": "Lilith Floatie+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -31583,7 +32724,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31682,10 +32826,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224
+      "upgraded_from": 227
     },
-    "229": {
-      "index": 229,
+    "232": {
+      "index": 232,
       "name": "Melon Crusher+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31703,7 +32847,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31804,8 +32951,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "230": {
-      "index": 230,
+    "233": {
+      "index": 233,
       "name": "Melon Crusher+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -31823,7 +32970,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -31922,10 +33072,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 229
+      "upgraded_from": 232
     },
-    "231": {
-      "index": 231,
+    "234": {
+      "index": 234,
       "name": "Melon Crusher+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31943,7 +33093,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32042,10 +33195,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 229
+      "upgraded_from": 232
     },
-    "232": {
-      "index": 232,
+    "235": {
+      "index": 235,
       "name": "Melon Crusher+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -32063,7 +33216,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32162,10 +33318,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 229
+      "upgraded_from": 232
     },
-    "233": {
-      "index": 233,
+    "236": {
+      "index": 236,
       "name": "Melon Crusher+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -32183,7 +33339,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32282,10 +33441,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 229
+      "upgraded_from": 232
     },
-    "234": {
-      "index": 234,
+    "237": {
+      "index": 237,
       "name": "Monstrous Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -32303,7 +33462,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32404,8 +33566,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "235": {
-      "index": 235,
+    "238": {
+      "index": 238,
       "name": "Monstrous Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -32423,7 +33585,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32522,10 +33687,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 234
+      "upgraded_from": 237
     },
-    "236": {
-      "index": 236,
+    "239": {
+      "index": 239,
       "name": "Monstrous Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -32543,7 +33708,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32642,10 +33810,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 234
+      "upgraded_from": 237
     },
-    "237": {
-      "index": 237,
+    "240": {
+      "index": 240,
       "name": "Monstrous Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -32663,7 +33831,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32762,10 +33933,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 234
+      "upgraded_from": 237
     },
-    "238": {
-      "index": 238,
+    "241": {
+      "index": 241,
       "name": "Monstrous Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -32783,7 +33954,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -32882,10 +34056,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 234
+      "upgraded_from": 237
     },
-    "239": {
-      "index": 239,
+    "242": {
+      "index": 242,
       "name": "Mulagir",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -32903,7 +34077,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33004,8 +34181,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "240": {
-      "index": 240,
+    "243": {
+      "index": 243,
       "name": "Mystletainn",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -33023,7 +34200,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33124,8 +34304,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "241": {
-      "index": 241,
+    "244": {
+      "index": 244,
       "name": "Mystletainn (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -33143,7 +34323,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33242,10 +34425,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 240
+      "upgraded_from": 243
     },
-    "242": {
-      "index": 242,
+    "245": {
+      "index": 245,
       "name": "Mystletainn (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -33263,7 +34446,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33362,10 +34548,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 240
+      "upgraded_from": 243
     },
-    "243": {
-      "index": 243,
+    "246": {
+      "index": 246,
       "name": "Mystletainn (Eff)",
       "atk_boost_perm": 19,
       "spd_boost_perm": 3,
@@ -33383,7 +34569,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33482,10 +34671,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 240
+      "upgraded_from": 243
     },
-    "244": {
-      "index": 244,
+    "247": {
+      "index": 247,
       "name": "Mystletainn (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -33503,7 +34692,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33602,10 +34794,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 240
+      "upgraded_from": 243
     },
-    "245": {
-      "index": 245,
+    "248": {
+      "index": 248,
       "name": "Mystletainn (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -33623,7 +34815,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33722,10 +34917,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 240
+      "upgraded_from": 243
     },
-    "246": {
-      "index": 246,
+    "249": {
+      "index": 249,
       "name": "N\xF3at\xFAn",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -33743,7 +34938,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -33844,8 +35042,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "247": {
-      "index": 247,
+    "250": {
+      "index": 250,
       "name": "Naga",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33863,7 +35061,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 2,
       "res_boost_def": 2,
       "hp_inflict_on_hit": 0,
@@ -33960,12 +35161,12 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 113,
+      "evolves_into": 115,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "248": {
-      "index": 248,
+    "251": {
+      "index": 251,
       "name": "Nidhogg",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33983,7 +35184,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -34084,8 +35288,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "249": {
-      "index": 249,
+    "252": {
+      "index": 252,
       "name": "Pain+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -34103,7 +35307,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 10,
@@ -34204,8 +35411,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "250": {
-      "index": 250,
+    "253": {
+      "index": 253,
       "name": "Pain+ (Dazzling)",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -34223,367 +35430,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
-      "def_boost_def": 0,
-      "res_boost_def": 0,
-      "hp_inflict_on_hit": 0,
-      "atk_inflict_on_hit": 0,
-      "spd_inflict_on_hit": 0,
-      "def_inflict_on_hit": 0,
-      "res_inflict_on_hit": 0,
-      "def_buff_on_hit": 0,
-      "res_buff_on_hit": 0,
-      "inf_def_inflict_on_hit": 0,
-      "inf_res_inflict_on_hit": 0,
-      "defiant_atk": 0,
-      "atk_start_inflict": 0,
-      "buff_reverse_on_hit": 0,
-      "any_range_counter": 0,
-      "wt_amp": 0,
-      "skill_cd_reduction": 0,
-      "skill_cd_increase": 0,
-      "skill_dmg_bonus": 0,
-      "heal_on_hit": 0,
-      "heal_after_attack": 0,
-      "atk_boost_full_hp": 0,
-      "spd_boost_full_hp": 0,
-      "def_boost_full_hp": 0,
-      "res_boost_full_hp": 0,
-      "burn_full_hp": 0,
-      "inverse_spur": 0,
-      "atk_boost_enemy_full_hp": 0,
-      "spd_boost_enemy_full_hp": 0,
-      "def_boost_def_vs_ALS": 0,
-      "burn": 0,
-      "consec_hit_mitig": 0,
-      "atk_bonus_cd_thresh": 0,
-      "spd_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "first_tome_hit_mitig": 0,
-      "calculated_assault_thresh": 0,
-      "distant_def_bonus": 0,
-      "distant_res_bonus": 0,
-      "hit_2rng_weaker_def_stat": 0,
-      "wrathful_staff_effect": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_effect": 1,
-      "dazzling_staff_threshold": 1,
-      "negate_self_counter": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_eff": 0,
-      "lnc_eff": 0,
-      "axe_eff": 0,
-      "rt_eff": 0,
-      "bt_eff": 0,
-      "gt_eff": 0,
-      "bow_eff": 0,
-      "dgr_eff": 0,
-      "stf_eff": 0,
-      "rbrth_eff": 0,
-      "bbrth_eff": 0,
-      "gbrth_eff": 0,
-      "inf_eff": 0,
-      "cav_eff": 0,
-      "fly_eff": 0,
-      "arm_eff": 0,
-      "range": 2,
-      "type": "ST",
-      "char_lock": 0,
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 249
-    },
-    "251": {
-      "index": 251,
-      "name": "Pain+ (Wrathful)",
-      "atk_boost_perm": 10,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "hp_boost_perm": 0,
-      "quick_riposte_thresh": 0,
-      "desperation_thresh": 0,
-      "brash_assault_thresh": 0,
-      "full_breaker": 0,
-      "blade": 0,
-      "colorless_wta": 0,
-      "brave": 0,
-      "renewal_lv_weap": 0,
-      "def_boost_below50": 0,
-      "atk_boost_off": 0,
-      "spd_boost_off": 0,
-      "res_boost_off": 0,
-      "def_boost_def": 0,
-      "res_boost_def": 0,
-      "hp_inflict_on_hit": 0,
-      "atk_inflict_on_hit": 0,
-      "spd_inflict_on_hit": 0,
-      "def_inflict_on_hit": 0,
-      "res_inflict_on_hit": 0,
-      "def_buff_on_hit": 0,
-      "res_buff_on_hit": 0,
-      "inf_def_inflict_on_hit": 0,
-      "inf_res_inflict_on_hit": 0,
-      "defiant_atk": 0,
-      "atk_start_inflict": 0,
-      "buff_reverse_on_hit": 0,
-      "any_range_counter": 0,
-      "wt_amp": 0,
-      "skill_cd_reduction": 0,
-      "skill_cd_increase": 0,
-      "skill_dmg_bonus": 0,
-      "heal_on_hit": 0,
-      "heal_after_attack": 0,
-      "atk_boost_full_hp": 0,
-      "spd_boost_full_hp": 0,
-      "def_boost_full_hp": 0,
-      "res_boost_full_hp": 0,
-      "burn_full_hp": 0,
-      "inverse_spur": 0,
-      "atk_boost_enemy_full_hp": 0,
-      "spd_boost_enemy_full_hp": 0,
-      "def_boost_def_vs_ALS": 0,
-      "burn": 0,
-      "consec_hit_mitig": 0,
-      "atk_bonus_cd_thresh": 0,
-      "spd_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "first_tome_hit_mitig": 0,
-      "calculated_assault_thresh": 0,
-      "distant_def_bonus": 0,
-      "distant_res_bonus": 0,
-      "hit_2rng_weaker_def_stat": 0,
-      "wrathful_staff_effect": 1,
-      "wrathful_staff_threshold": 1,
-      "dazzling_staff_effect": 0,
-      "dazzling_staff_threshold": 0,
-      "negate_self_counter": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_eff": 0,
-      "lnc_eff": 0,
-      "axe_eff": 0,
-      "rt_eff": 0,
-      "bt_eff": 0,
-      "gt_eff": 0,
-      "bow_eff": 0,
-      "dgr_eff": 0,
-      "stf_eff": 0,
-      "rbrth_eff": 0,
-      "bbrth_eff": 0,
-      "gbrth_eff": 0,
-      "inf_eff": 0,
-      "cav_eff": 0,
-      "fly_eff": 0,
-      "arm_eff": 0,
-      "range": 2,
-      "type": "ST",
-      "char_lock": 0,
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 249
-    },
-    "252": {
-      "index": 252,
-      "name": "Panic+",
-      "atk_boost_perm": 11,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "hp_boost_perm": 0,
-      "quick_riposte_thresh": 0,
-      "desperation_thresh": 0,
-      "brash_assault_thresh": 0,
-      "full_breaker": 0,
-      "blade": 0,
-      "colorless_wta": 0,
-      "brave": 0,
-      "renewal_lv_weap": 0,
-      "def_boost_below50": 0,
-      "atk_boost_off": 0,
-      "spd_boost_off": 0,
-      "res_boost_off": 0,
-      "def_boost_def": 0,
-      "res_boost_def": 0,
-      "hp_inflict_on_hit": 0,
-      "atk_inflict_on_hit": 0,
-      "spd_inflict_on_hit": 0,
-      "def_inflict_on_hit": 0,
-      "res_inflict_on_hit": 0,
-      "def_buff_on_hit": 0,
-      "res_buff_on_hit": 0,
-      "inf_def_inflict_on_hit": 0,
-      "inf_res_inflict_on_hit": 0,
-      "defiant_atk": 0,
-      "atk_start_inflict": 0,
-      "buff_reverse_on_hit": 1,
-      "any_range_counter": 0,
-      "wt_amp": 0,
-      "skill_cd_reduction": 0,
-      "skill_cd_increase": 0,
-      "skill_dmg_bonus": 0,
-      "heal_on_hit": 0,
-      "heal_after_attack": 0,
-      "atk_boost_full_hp": 0,
-      "spd_boost_full_hp": 0,
-      "def_boost_full_hp": 0,
-      "res_boost_full_hp": 0,
-      "burn_full_hp": 0,
-      "inverse_spur": 0,
-      "atk_boost_enemy_full_hp": 0,
-      "spd_boost_enemy_full_hp": 0,
-      "def_boost_def_vs_ALS": 0,
-      "burn": 0,
-      "consec_hit_mitig": 0,
-      "atk_bonus_cd_thresh": 0,
-      "spd_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "first_tome_hit_mitig": 0,
-      "calculated_assault_thresh": 0,
-      "distant_def_bonus": 0,
-      "distant_res_bonus": 0,
-      "hit_2rng_weaker_def_stat": 0,
-      "wrathful_staff_effect": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_effect": 0,
-      "dazzling_staff_threshold": 0,
-      "negate_self_counter": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_eff": 0,
-      "lnc_eff": 0,
-      "axe_eff": 0,
-      "rt_eff": 0,
-      "bt_eff": 0,
-      "gt_eff": 0,
-      "bow_eff": 0,
-      "dgr_eff": 0,
-      "stf_eff": 0,
-      "rbrth_eff": 0,
-      "bbrth_eff": 0,
-      "gbrth_eff": 0,
-      "inf_eff": 0,
-      "cav_eff": 0,
-      "fly_eff": 0,
-      "arm_eff": 0,
-      "range": 2,
-      "type": "ST",
-      "char_lock": 0,
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0
-    },
-    "253": {
-      "index": 253,
-      "name": "Panic+ (Dazzling)",
-      "atk_boost_perm": 11,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "hp_boost_perm": 0,
-      "quick_riposte_thresh": 0,
-      "desperation_thresh": 0,
-      "brash_assault_thresh": 0,
-      "full_breaker": 0,
-      "blade": 0,
-      "colorless_wta": 0,
-      "brave": 0,
-      "renewal_lv_weap": 0,
-      "def_boost_below50": 0,
-      "atk_boost_off": 0,
-      "spd_boost_off": 0,
-      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -34686,8 +35536,8 @@ var data = {
     },
     "254": {
       "index": 254,
-      "name": "Panic+ (Wrathful)",
-      "atk_boost_perm": 11,
+      "name": "Pain+ (Wrathful)",
+      "atk_boost_perm": 10,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
       "res_boost_perm": 0,
@@ -34703,7 +35553,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -34806,6 +35659,375 @@ var data = {
     },
     "255": {
       "index": 255,
+      "name": "Panic+",
+      "atk_boost_perm": 11,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 1,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_effect": 0,
+      "dazzling_staff_threshold": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 2,
+      "type": "ST",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0
+    },
+    "256": {
+      "index": 256,
+      "name": "Panic+ (Dazzling)",
+      "atk_boost_perm": 11,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_effect": 1,
+      "dazzling_staff_threshold": 1,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 2,
+      "type": "ST",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 255
+    },
+    "257": {
+      "index": 257,
+      "name": "Panic+ (Wrathful)",
+      "atk_boost_perm": 11,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "quick_riposte_thresh": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "calculated_assault_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_effect": 1,
+      "wrathful_staff_threshold": 1,
+      "dazzling_staff_effect": 0,
+      "dazzling_staff_threshold": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 2,
+      "type": "ST",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 255
+    },
+    "258": {
+      "index": 258,
       "name": "Parthia",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -34823,7 +36045,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 4,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -34924,8 +36149,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "256": {
-      "index": 256,
+    "259": {
+      "index": 259,
       "name": "Poison Dagger+",
       "atk_boost_perm": 5,
       "spd_boost_perm": 0,
@@ -34943,7 +36168,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35044,8 +36272,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "257": {
-      "index": 257,
+    "260": {
+      "index": 260,
       "name": "Ragnarok",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -35063,7 +36291,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35164,8 +36395,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "258": {
-      "index": 258,
+    "261": {
+      "index": 261,
       "name": "Ragnell",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -35183,7 +36414,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35284,8 +36518,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "259": {
-      "index": 259,
+    "262": {
+      "index": 262,
       "name": "Raijinto",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -35303,7 +36537,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35404,8 +36641,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "260": {
-      "index": 260,
+    "263": {
+      "index": 263,
       "name": "Rau\xF0rblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -35423,7 +36660,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35524,8 +36764,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "261": {
-      "index": 261,
+    "264": {
+      "index": 264,
       "name": "Rau\xF0rowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -35543,7 +36783,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35644,8 +36887,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "262": {
-      "index": 262,
+    "265": {
+      "index": 265,
       "name": "Rau\xF0rowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -35663,7 +36906,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35762,10 +37008,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 261
+      "upgraded_from": 264
     },
-    "263": {
-      "index": 263,
+    "266": {
+      "index": 266,
       "name": "Rau\xF0rowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -35783,7 +37029,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -35882,10 +37131,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 261
+      "upgraded_from": 264
     },
-    "264": {
-      "index": 264,
+    "267": {
+      "index": 267,
       "name": "Rau\xF0rowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -35903,7 +37152,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36002,10 +37254,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 261
+      "upgraded_from": 264
     },
-    "265": {
-      "index": 265,
+    "268": {
+      "index": 268,
       "name": "Rau\xF0rowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -36023,7 +37275,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36122,10 +37377,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 261
+      "upgraded_from": 264
     },
-    "266": {
-      "index": 266,
+    "269": {
+      "index": 269,
       "name": "Rau\xF0rraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -36143,7 +37398,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36244,8 +37502,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "267": {
-      "index": 267,
+    "270": {
+      "index": 270,
       "name": "Rau\xF0rwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -36263,7 +37521,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36360,12 +37621,12 @@ var data = {
       "range": 2,
       "type": "RT",
       "char_lock": 0,
-      "evolves_into": 197,
+      "evolves_into": 200,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "268": {
-      "index": 268,
+    "271": {
+      "index": 271,
       "name": "Refreshing Bolt+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -36383,7 +37644,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36484,8 +37748,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "269": {
-      "index": 269,
+    "272": {
+      "index": 272,
       "name": "Refreshing Bolt+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -36503,7 +37767,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36602,10 +37869,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 268
+      "upgraded_from": 271
     },
-    "270": {
-      "index": 270,
+    "273": {
+      "index": 273,
       "name": "Refreshing Bolt+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -36623,7 +37890,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36722,10 +37992,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 268
+      "upgraded_from": 271
     },
-    "271": {
-      "index": 271,
+    "274": {
+      "index": 274,
       "name": "Refreshing Bolt+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -36743,7 +38013,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36842,10 +38115,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 268
+      "upgraded_from": 271
     },
-    "272": {
-      "index": 272,
+    "275": {
+      "index": 275,
       "name": "Refreshing Bolt+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -36863,7 +38136,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -36962,10 +38238,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 268
+      "upgraded_from": 271
     },
-    "273": {
-      "index": 273,
+    "276": {
+      "index": 276,
       "name": "Regal Blade",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -36983,7 +38259,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37084,8 +38363,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "274": {
-      "index": 274,
+    "277": {
+      "index": 277,
       "name": "Resolute Blade",
       "atk_boost_perm": 19,
       "spd_boost_perm": 0,
@@ -37103,7 +38382,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37204,8 +38486,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "275": {
-      "index": 275,
+    "278": {
+      "index": 278,
       "name": "Rexcalibur+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -37223,7 +38505,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37324,8 +38609,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "276": {
-      "index": 276,
+    "279": {
+      "index": 279,
       "name": "Rexcalibur+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -37343,7 +38628,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37442,10 +38730,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 275
+      "upgraded_from": 278
     },
-    "277": {
-      "index": 277,
+    "280": {
+      "index": 280,
       "name": "Rexcalibur+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -37463,7 +38751,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37562,10 +38853,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 275
+      "upgraded_from": 278
     },
-    "278": {
-      "index": 278,
+    "281": {
+      "index": 281,
       "name": "Rexcalibur+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -37583,7 +38874,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37682,10 +38976,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 275
+      "upgraded_from": 278
     },
-    "279": {
-      "index": 279,
+    "282": {
+      "index": 282,
       "name": "Rexcalibur+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -37703,7 +38997,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37802,10 +39099,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 275
+      "upgraded_from": 278
     },
-    "280": {
-      "index": 280,
+    "283": {
+      "index": 283,
       "name": "Ridersbane+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -37823,7 +39120,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -37924,8 +39224,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "281": {
-      "index": 281,
+    "284": {
+      "index": 284,
       "name": "Ridersbane+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -37943,7 +39243,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38042,10 +39345,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 280
+      "upgraded_from": 283
     },
-    "282": {
-      "index": 282,
+    "285": {
+      "index": 285,
       "name": "Ridersbane+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -38063,7 +39366,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38162,10 +39468,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 280
+      "upgraded_from": 283
     },
-    "283": {
-      "index": 283,
+    "286": {
+      "index": 286,
       "name": "Ridersbane+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -38183,7 +39489,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38282,10 +39591,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 280
+      "upgraded_from": 283
     },
-    "284": {
-      "index": 284,
+    "287": {
+      "index": 287,
       "name": "Ridersbane+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -38303,7 +39612,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38402,10 +39714,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 280
+      "upgraded_from": 283
     },
-    "285": {
-      "index": 285,
+    "288": {
+      "index": 288,
       "name": "Ridersbane+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -38423,7 +39735,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38522,10 +39837,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 280
+      "upgraded_from": 283
     },
-    "286": {
-      "index": 286,
+    "289": {
+      "index": 289,
       "name": "Rogue Dagger+",
       "atk_boost_perm": 7,
       "spd_boost_perm": 0,
@@ -38543,7 +39858,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38644,8 +39962,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "287": {
-      "index": 287,
+    "290": {
+      "index": 290,
       "name": "Rogue Dagger+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -38663,7 +39981,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38762,10 +40083,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 286
+      "upgraded_from": 289
     },
-    "288": {
-      "index": 288,
+    "291": {
+      "index": 291,
       "name": "Rogue Dagger+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -38783,7 +40104,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -38882,10 +40206,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 286
+      "upgraded_from": 289
     },
-    "289": {
-      "index": 289,
+    "292": {
+      "index": 292,
       "name": "Rogue Dagger+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -38903,7 +40227,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39002,10 +40329,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 286
+      "upgraded_from": 289
     },
-    "290": {
-      "index": 290,
+    "293": {
+      "index": 293,
       "name": "Rogue Dagger+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -39023,7 +40350,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39122,10 +40452,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 286
+      "upgraded_from": 289
     },
-    "291": {
-      "index": 291,
+    "294": {
+      "index": 294,
       "name": "Ruby Sword+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39143,7 +40473,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39244,8 +40577,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "292": {
-      "index": 292,
+    "295": {
+      "index": 295,
       "name": "Sapphire Lance+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39263,7 +40596,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39364,8 +40700,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "293": {
-      "index": 293,
+    "296": {
+      "index": 296,
       "name": "Sealife Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39383,7 +40719,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39484,8 +40823,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "294": {
-      "index": 294,
+    "297": {
+      "index": 297,
       "name": "Sealife Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -39503,7 +40842,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39602,10 +40944,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 296
     },
-    "295": {
-      "index": 295,
+    "298": {
+      "index": 298,
       "name": "Sealife Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39623,7 +40965,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39722,10 +41067,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 296
     },
-    "296": {
-      "index": 296,
+    "299": {
+      "index": 299,
       "name": "Sealife Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39743,7 +41088,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39842,10 +41190,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 296
     },
-    "297": {
-      "index": 297,
+    "300": {
+      "index": 300,
       "name": "Sealife Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -39863,7 +41211,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -39962,10 +41313,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 296
     },
-    "298": {
-      "index": 298,
+    "301": {
+      "index": 301,
       "name": "Seashell+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -39983,7 +41334,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40084,8 +41438,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "299": {
-      "index": 299,
+    "302": {
+      "index": 302,
       "name": "Seashell+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -40103,7 +41457,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40202,10 +41559,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 298
+      "upgraded_from": 301
     },
-    "300": {
-      "index": 300,
+    "303": {
+      "index": 303,
       "name": "Seashell+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -40223,7 +41580,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40322,10 +41682,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 298
+      "upgraded_from": 301
     },
-    "301": {
-      "index": 301,
+    "304": {
+      "index": 304,
       "name": "Seashell+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -40343,7 +41703,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40442,10 +41805,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 298
+      "upgraded_from": 301
     },
-    "302": {
-      "index": 302,
+    "305": {
+      "index": 305,
       "name": "Seashell+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -40463,7 +41826,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40562,10 +41928,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 298
+      "upgraded_from": 301
     },
-    "303": {
-      "index": 303,
+    "306": {
+      "index": 306,
       "name": "Siegfried",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -40583,7 +41949,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40684,8 +42053,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "304": {
-      "index": 304,
+    "307": {
+      "index": 307,
       "name": "Sieglinde",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -40703,7 +42072,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40804,8 +42176,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "305": {
-      "index": 305,
+    "308": {
+      "index": 308,
       "name": "Siegmund",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -40823,7 +42195,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -40924,8 +42299,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "306": {
-      "index": 306,
+    "309": {
+      "index": 309,
       "name": "Siegmund (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -40943,7 +42318,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41042,10 +42420,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 305
+      "upgraded_from": 308
     },
-    "307": {
-      "index": 307,
+    "310": {
+      "index": 310,
       "name": "Siegmund (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -41063,7 +42441,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41162,10 +42543,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 305
+      "upgraded_from": 308
     },
-    "308": {
-      "index": 308,
+    "311": {
+      "index": 311,
       "name": "Siegmund (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -41183,7 +42564,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41282,10 +42666,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 305
+      "upgraded_from": 308
     },
-    "309": {
-      "index": 309,
+    "312": {
+      "index": 312,
       "name": "Siegmund (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -41303,7 +42687,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41402,10 +42789,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 305
+      "upgraded_from": 308
     },
-    "310": {
-      "index": 310,
+    "313": {
+      "index": 313,
       "name": "Siegmund (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -41423,7 +42810,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41522,10 +42912,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 305
+      "upgraded_from": 308
     },
-    "311": {
-      "index": 311,
+    "314": {
+      "index": 314,
       "name": "Silver Axe+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -41543,7 +42933,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41644,8 +43037,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "312": {
-      "index": 312,
+    "315": {
+      "index": 315,
       "name": "Silver Axe+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -41663,7 +43056,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41762,10 +43158,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 314
     },
-    "313": {
-      "index": 313,
+    "316": {
+      "index": 316,
       "name": "Silver Axe+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -41783,7 +43179,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -41882,10 +43281,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 314
     },
-    "314": {
-      "index": 314,
+    "317": {
+      "index": 317,
       "name": "Silver Axe+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -41903,7 +43302,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42002,10 +43404,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 314
     },
-    "315": {
-      "index": 315,
+    "318": {
+      "index": 318,
       "name": "Silver Axe+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -42023,7 +43425,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42122,10 +43527,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 314
     },
-    "316": {
-      "index": 316,
+    "319": {
+      "index": 319,
       "name": "Silver Bow+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -42143,7 +43548,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42244,8 +43652,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "317": {
-      "index": 317,
+    "320": {
+      "index": 320,
       "name": "Silver Bow+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -42263,7 +43671,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42362,10 +43773,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 319
     },
-    "318": {
-      "index": 318,
+    "321": {
+      "index": 321,
       "name": "Silver Bow+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -42383,7 +43794,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42482,10 +43896,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 319
     },
-    "319": {
-      "index": 319,
+    "322": {
+      "index": 322,
       "name": "Silver Bow+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -42503,7 +43917,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42602,10 +44019,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 319
     },
-    "320": {
-      "index": 320,
+    "323": {
+      "index": 323,
       "name": "Silver Bow+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -42623,7 +44040,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42722,10 +44142,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 319
     },
-    "321": {
-      "index": 321,
+    "324": {
+      "index": 324,
       "name": "Silver Dagger+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -42743,7 +44163,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42844,8 +44267,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "322": {
-      "index": 322,
+    "325": {
+      "index": 325,
       "name": "Silver Dagger+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -42863,7 +44286,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -42962,10 +44388,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 321
+      "upgraded_from": 324
     },
-    "323": {
-      "index": 323,
+    "326": {
+      "index": 326,
       "name": "Silver Dagger+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -42983,7 +44409,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43082,10 +44511,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 321
+      "upgraded_from": 324
     },
-    "324": {
-      "index": 324,
+    "327": {
+      "index": 327,
       "name": "Silver Dagger+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -43103,7 +44532,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43202,10 +44634,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 321
+      "upgraded_from": 324
     },
-    "325": {
-      "index": 325,
+    "328": {
+      "index": 328,
       "name": "Silver Dagger+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -43223,7 +44655,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43322,10 +44757,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 321
+      "upgraded_from": 324
     },
-    "326": {
-      "index": 326,
+    "329": {
+      "index": 329,
       "name": "Silver Lance+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -43343,7 +44778,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43444,8 +44882,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "327": {
-      "index": 327,
+    "330": {
+      "index": 330,
       "name": "Silver Lance+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -43463,7 +44901,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43562,10 +45003,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 326
+      "upgraded_from": 329
     },
-    "328": {
-      "index": 328,
+    "331": {
+      "index": 331,
       "name": "Silver Lance+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -43583,7 +45024,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43682,10 +45126,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 326
+      "upgraded_from": 329
     },
-    "329": {
-      "index": 329,
+    "332": {
+      "index": 332,
       "name": "Silver Lance+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -43703,7 +45147,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43802,10 +45249,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 326
+      "upgraded_from": 329
     },
-    "330": {
-      "index": 330,
+    "333": {
+      "index": 333,
       "name": "Silver Lance+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -43823,7 +45270,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -43922,10 +45372,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 326
+      "upgraded_from": 329
     },
-    "331": {
-      "index": 331,
+    "334": {
+      "index": 334,
       "name": "Silver Sword+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -43943,7 +45393,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44044,8 +45497,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "332": {
-      "index": 332,
+    "335": {
+      "index": 335,
       "name": "Silver Sword+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -44063,7 +45516,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44162,10 +45618,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 331
+      "upgraded_from": 334
     },
-    "333": {
-      "index": 333,
+    "336": {
+      "index": 336,
       "name": "Silver Sword+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44183,7 +45639,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44282,10 +45741,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 331
+      "upgraded_from": 334
     },
-    "334": {
-      "index": 334,
+    "337": {
+      "index": 337,
       "name": "Silver Sword+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44303,7 +45762,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44402,10 +45864,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 331
+      "upgraded_from": 334
     },
-    "335": {
-      "index": 335,
+    "338": {
+      "index": 338,
       "name": "Silver Sword+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -44423,7 +45885,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44522,10 +45987,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 331
+      "upgraded_from": 334
     },
-    "336": {
-      "index": 336,
+    "339": {
+      "index": 339,
       "name": "Slaying Axe+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -44543,7 +46008,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44641,11 +46109,11 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 203,
+      "evolved_from": 206,
       "upgraded_from": 0
     },
-    "337": {
-      "index": 337,
+    "340": {
+      "index": 340,
       "name": "Slaying Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44663,7 +46131,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44762,10 +46233,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 336
+      "upgraded_from": 339
     },
-    "338": {
-      "index": 338,
+    "341": {
+      "index": 341,
       "name": "Slaying Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -44783,7 +46254,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -44882,10 +46356,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 336
+      "upgraded_from": 339
     },
-    "339": {
-      "index": 339,
+    "342": {
+      "index": 342,
       "name": "Slaying Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -44903,7 +46377,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45002,10 +46479,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 336
+      "upgraded_from": 339
     },
-    "340": {
-      "index": 340,
+    "343": {
+      "index": 343,
       "name": "Slaying Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -45023,7 +46500,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45122,10 +46602,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 336
+      "upgraded_from": 339
     },
-    "341": {
-      "index": 341,
+    "344": {
+      "index": 344,
       "name": "Slaying Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -45143,7 +46623,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45241,11 +46724,11 @@ var data = {
       "type": "B",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 204,
+      "evolved_from": 207,
       "upgraded_from": 0
     },
-    "342": {
-      "index": 342,
+    "345": {
+      "index": 345,
       "name": "Slaying Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -45263,7 +46746,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45362,10 +46848,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 341
+      "upgraded_from": 344
     },
-    "343": {
-      "index": 343,
+    "346": {
+      "index": 346,
       "name": "Slaying Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -45383,7 +46869,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45482,10 +46971,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 341
+      "upgraded_from": 344
     },
-    "344": {
-      "index": 344,
+    "347": {
+      "index": 347,
       "name": "Slaying Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -45503,7 +46992,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45602,10 +47094,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 341
+      "upgraded_from": 344
     },
-    "345": {
-      "index": 345,
+    "348": {
+      "index": 348,
       "name": "Slaying Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -45623,7 +47115,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45722,10 +47217,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 341
+      "upgraded_from": 344
     },
-    "346": {
-      "index": 346,
+    "349": {
+      "index": 349,
       "name": "Slaying Edge+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -45743,7 +47238,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45841,11 +47339,11 @@ var data = {
       "type": "S",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 206,
+      "evolved_from": 209,
       "upgraded_from": 0
     },
-    "347": {
-      "index": 347,
+    "350": {
+      "index": 350,
       "name": "Slaying Edge+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -45863,7 +47361,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -45962,10 +47463,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 346
+      "upgraded_from": 349
     },
-    "348": {
-      "index": 348,
+    "351": {
+      "index": 351,
       "name": "Slaying Edge+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -45983,7 +47484,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46082,10 +47586,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 346
+      "upgraded_from": 349
     },
-    "349": {
-      "index": 349,
+    "352": {
+      "index": 352,
       "name": "Slaying Edge+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46103,7 +47607,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46202,10 +47709,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 346
+      "upgraded_from": 349
     },
-    "350": {
-      "index": 350,
+    "353": {
+      "index": 353,
       "name": "Slaying Edge+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -46223,7 +47730,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46322,10 +47832,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 346
+      "upgraded_from": 349
     },
-    "351": {
-      "index": 351,
+    "354": {
+      "index": 354,
       "name": "Slaying Hammer+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46343,7 +47853,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46441,11 +47954,11 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 172,
+      "evolved_from": 175,
       "upgraded_from": 0
     },
-    "352": {
-      "index": 352,
+    "355": {
+      "index": 355,
       "name": "Slaying Hammer+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -46463,7 +47976,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46562,10 +48078,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 351
+      "upgraded_from": 354
     },
-    "353": {
-      "index": 353,
+    "356": {
+      "index": 356,
       "name": "Slaying Hammer+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46583,7 +48099,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46682,10 +48201,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 351
+      "upgraded_from": 354
     },
-    "354": {
-      "index": 354,
+    "357": {
+      "index": 357,
       "name": "Slaying Hammer+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46703,7 +48222,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46802,10 +48324,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 351
+      "upgraded_from": 354
     },
-    "355": {
-      "index": 355,
+    "358": {
+      "index": 358,
       "name": "Slaying Hammer+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46823,7 +48345,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -46922,10 +48447,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 351
+      "upgraded_from": 354
     },
-    "356": {
-      "index": 356,
+    "359": {
+      "index": 359,
       "name": "Slaying Hammer+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -46943,7 +48468,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47042,10 +48570,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 351
+      "upgraded_from": 354
     },
-    "357": {
-      "index": 357,
+    "360": {
+      "index": 360,
       "name": "Slaying Lance+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47063,7 +48591,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47161,11 +48692,11 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 205,
+      "evolved_from": 208,
       "upgraded_from": 0
     },
-    "358": {
-      "index": 358,
+    "361": {
+      "index": 361,
       "name": "Slaying Lance+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -47183,7 +48714,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47282,10 +48816,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 357
+      "upgraded_from": 360
     },
-    "359": {
-      "index": 359,
+    "362": {
+      "index": 362,
       "name": "Slaying Lance+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47303,7 +48837,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47402,10 +48939,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 357
+      "upgraded_from": 360
     },
-    "360": {
-      "index": 360,
+    "363": {
+      "index": 363,
       "name": "Slaying Lance+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47423,7 +48960,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47522,10 +49062,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 357
+      "upgraded_from": 360
     },
-    "361": {
-      "index": 361,
+    "364": {
+      "index": 364,
       "name": "Slaying Lance+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -47543,7 +49083,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47642,10 +49185,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 357
+      "upgraded_from": 360
     },
-    "362": {
-      "index": 362,
+    "365": {
+      "index": 365,
       "name": "Slaying Spear+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47663,7 +49206,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47761,11 +49307,11 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 179,
+      "evolved_from": 182,
       "upgraded_from": 0
     },
-    "363": {
-      "index": 363,
+    "366": {
+      "index": 366,
       "name": "Slaying Spear+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -47783,7 +49329,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -47882,10 +49431,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 362
+      "upgraded_from": 365
     },
-    "364": {
-      "index": 364,
+    "367": {
+      "index": 367,
       "name": "Slaying Spear+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47903,7 +49452,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48002,10 +49554,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 362
+      "upgraded_from": 365
     },
-    "365": {
-      "index": 365,
+    "368": {
+      "index": 368,
       "name": "Slaying Spear+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -48023,7 +49575,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48122,10 +49677,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 362
+      "upgraded_from": 365
     },
-    "366": {
-      "index": 366,
+    "369": {
+      "index": 369,
       "name": "Slaying Spear+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -48143,7 +49698,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48242,10 +49800,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 362
+      "upgraded_from": 365
     },
-    "367": {
-      "index": 367,
+    "370": {
+      "index": 370,
       "name": "Slaying Spear+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -48263,7 +49821,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48362,10 +49923,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 362
+      "upgraded_from": 365
     },
-    "368": {
-      "index": 368,
+    "371": {
+      "index": 371,
       "name": "Slow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48383,7 +49944,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48484,8 +50048,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "369": {
-      "index": 369,
+    "372": {
+      "index": 372,
       "name": "Slow+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48503,7 +50067,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48602,10 +50169,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 368
+      "upgraded_from": 371
     },
-    "370": {
-      "index": 370,
+    "373": {
+      "index": 373,
       "name": "Slow+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48623,7 +50190,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48722,10 +50292,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 368
+      "upgraded_from": 371
     },
-    "371": {
-      "index": 371,
+    "374": {
+      "index": 374,
       "name": "Smoke Dagger+",
       "atk_boost_perm": 9,
       "spd_boost_perm": 0,
@@ -48743,7 +50313,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48844,8 +50417,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "372": {
-      "index": 372,
+    "375": {
+      "index": 375,
       "name": "Smoke Dagger+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -48863,7 +50436,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -48962,10 +50538,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371
+      "upgraded_from": 374
     },
-    "373": {
-      "index": 373,
+    "376": {
+      "index": 376,
       "name": "Smoke Dagger+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48983,7 +50559,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49082,10 +50661,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371
+      "upgraded_from": 374
     },
-    "374": {
-      "index": 374,
+    "377": {
+      "index": 377,
       "name": "Smoke Dagger+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -49103,7 +50682,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49202,10 +50784,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371
+      "upgraded_from": 374
     },
-    "375": {
-      "index": 375,
+    "378": {
+      "index": 378,
       "name": "Smoke Dagger+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -49223,7 +50805,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49322,10 +50907,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371
+      "upgraded_from": 374
     },
-    "376": {
-      "index": 376,
+    "379": {
+      "index": 379,
       "name": "Sol Katti",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -49343,7 +50928,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49444,8 +51032,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "377": {
-      "index": 377,
+    "380": {
+      "index": 380,
       "name": "Sol Katti (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -49463,7 +51051,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49562,10 +51153,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 376
+      "upgraded_from": 379
     },
-    "378": {
-      "index": 378,
+    "381": {
+      "index": 381,
       "name": "Sol Katti (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -49583,7 +51174,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49682,10 +51276,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 376
+      "upgraded_from": 379
     },
-    "379": {
-      "index": 379,
+    "382": {
+      "index": 382,
       "name": "Sol Katti (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -49703,7 +51297,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49802,10 +51399,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 376
+      "upgraded_from": 379
     },
-    "380": {
-      "index": 380,
+    "383": {
+      "index": 383,
       "name": "Sol Katti (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -49823,7 +51420,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -49922,10 +51522,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 376
+      "upgraded_from": 379
     },
-    "381": {
-      "index": 381,
+    "384": {
+      "index": 384,
       "name": "Sol Katti (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -49943,7 +51543,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50042,10 +51645,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 376
+      "upgraded_from": 379
     },
-    "382": {
-      "index": 382,
+    "385": {
+      "index": 385,
       "name": "Spectral Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -50063,7 +51666,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50164,8 +51770,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "383": {
-      "index": 383,
+    "386": {
+      "index": 386,
       "name": "Spectral Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -50183,7 +51789,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50282,10 +51891,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 382
+      "upgraded_from": 385
     },
-    "384": {
-      "index": 384,
+    "387": {
+      "index": 387,
       "name": "Spectral Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -50303,7 +51912,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50402,10 +52014,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 382
+      "upgraded_from": 385
     },
-    "385": {
-      "index": 385,
+    "388": {
+      "index": 388,
       "name": "Spectral Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -50423,7 +52035,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50522,10 +52137,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 382
+      "upgraded_from": 385
     },
-    "386": {
-      "index": 386,
+    "389": {
+      "index": 389,
       "name": "Spectral Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -50543,7 +52158,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50642,10 +52260,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 382
+      "upgraded_from": 385
     },
-    "387": {
-      "index": 387,
+    "390": {
+      "index": 390,
       "name": "Stout Tomahawk",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -50663,7 +52281,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50764,8 +52385,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "388": {
-      "index": 388,
+    "391": {
+      "index": 391,
       "name": "Tomato Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -50783,7 +52404,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -50884,8 +52508,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "389": {
-      "index": 389,
+    "392": {
+      "index": 392,
       "name": "Tomato Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -50903,7 +52527,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51002,10 +52629,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 388
+      "upgraded_from": 391
     },
-    "390": {
-      "index": 390,
+    "393": {
+      "index": 393,
       "name": "Tomato Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -51023,7 +52650,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51122,10 +52752,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 388
+      "upgraded_from": 391
     },
-    "391": {
-      "index": 391,
+    "394": {
+      "index": 394,
       "name": "Tomato Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -51143,7 +52773,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51242,10 +52875,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 388
+      "upgraded_from": 391
     },
-    "392": {
-      "index": 392,
+    "395": {
+      "index": 395,
       "name": "Tomato Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -51263,7 +52896,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51362,10 +52998,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 388
+      "upgraded_from": 391
     },
-    "393": {
-      "index": 393,
+    "396": {
+      "index": 396,
       "name": "Tyrfing",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -51383,7 +53019,10 @@ var data = {
       "def_boost_below50": 4,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51480,12 +53119,12 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 1,
-      "evolves_into": 114,
+      "evolves_into": 116,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "394": {
-      "index": 394,
+    "397": {
+      "index": 397,
       "name": "Ur\xF0r",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -51503,7 +53142,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51604,8 +53246,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "395": {
-      "index": 395,
+    "398": {
+      "index": 398,
       "name": "Urvan",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -51623,7 +53265,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51724,8 +53369,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "396": {
-      "index": 396,
+    "399": {
+      "index": 399,
       "name": "Valflame",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -51743,7 +53388,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51844,8 +53492,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "397": {
-      "index": 397,
+    "400": {
+      "index": 400,
       "name": "Vidofnir",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -51863,7 +53511,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -51964,8 +53615,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "398": {
-      "index": 398,
+    "401": {
+      "index": 401,
       "name": "Weirding Tome",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -51983,7 +53634,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52084,8 +53738,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "399": {
-      "index": 399,
+    "402": {
+      "index": 402,
       "name": "Wo Dao+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -52103,7 +53757,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52204,8 +53861,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "400": {
-      "index": 400,
+    "403": {
+      "index": 403,
       "name": "Wo Dao+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52223,7 +53880,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52322,10 +53982,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 399
+      "upgraded_from": 402
     },
-    "401": {
-      "index": 401,
+    "404": {
+      "index": 404,
       "name": "Wo Dao+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -52343,7 +54003,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52442,10 +54105,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 399
+      "upgraded_from": 402
     },
-    "402": {
-      "index": 402,
+    "405": {
+      "index": 405,
       "name": "Wo Dao+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -52463,7 +54126,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52562,10 +54228,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 399
+      "upgraded_from": 402
     },
-    "403": {
-      "index": 403,
+    "406": {
+      "index": 406,
       "name": "Wo Dao+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -52583,7 +54249,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52682,10 +54351,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 399
+      "upgraded_from": 402
     },
-    "404": {
-      "index": 404,
+    "407": {
+      "index": 407,
       "name": "Yato",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52703,7 +54372,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 4,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52804,8 +54476,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "405": {
-      "index": 405,
+    "408": {
+      "index": 408,
       "name": "Zanbato+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -52823,7 +54495,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -52924,8 +54599,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "406": {
-      "index": 406,
+    "409": {
+      "index": 409,
       "name": "Zanbato+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52943,7 +54618,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -53042,10 +54720,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 405
+      "upgraded_from": 408
     },
-    "407": {
-      "index": 407,
+    "410": {
+      "index": 410,
       "name": "Zanbato+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -53063,7 +54741,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -53162,10 +54843,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 405
+      "upgraded_from": 408
     },
-    "408": {
-      "index": 408,
+    "411": {
+      "index": 411,
       "name": "Zanbato+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -53183,7 +54864,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -53282,10 +54966,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 405
+      "upgraded_from": 408
     },
-    "409": {
-      "index": 409,
+    "412": {
+      "index": 412,
       "name": "Zanbato+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -53303,7 +54987,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -53402,10 +55089,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 405
+      "upgraded_from": 408
     },
-    "410": {
-      "index": 410,
+    "413": {
+      "index": 413,
       "name": "Zanbato+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -53423,7 +55110,10 @@ var data = {
       "def_boost_below50": 0,
       "atk_boost_off": 0,
       "spd_boost_off": 0,
+      "def_boost_off": 0,
       "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
       "def_boost_def": 0,
       "res_boost_def": 0,
       "hp_inflict_on_hit": 0,
@@ -53522,7 +55212,7 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 405
+      "upgraded_from": 408
     }
   },
   "Specials": {
@@ -62897,23 +64587,23 @@ var data = {
     },
     "4": {
       "index": 4,
-      "name": "Axe Experience 3",
+      "name": "Atk Tactic 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
       "res_start_inflict": 0,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
       "axe_can_inherit": 1,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "bow_can_inherit": 0,
-      "dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
@@ -62921,7 +64611,7 @@ var data = {
     },
     "5": {
       "index": 5,
-      "name": "Axe Valor 3",
+      "name": "Axe Experience 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -62945,16 +64635,16 @@ var data = {
     },
     "6": {
       "index": 6,
-      "name": "B Tome Exp 3",
+      "name": "Axe Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
       "res_start_inflict": 0,
       "srd_can_inherit": 0,
       "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
+      "axe_can_inherit": 1,
       "rt_can_inherit": 0,
-      "bt_can_inherit": 1,
+      "bt_can_inherit": 0,
       "gt_can_inherit": 0,
       "bow_can_inherit": 0,
       "dgr_can_inherit": 0,
@@ -62969,7 +64659,7 @@ var data = {
     },
     "7": {
       "index": 7,
-      "name": "B Tome Valor 3",
+      "name": "B Tome Exp 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -62993,6 +64683,30 @@ var data = {
     },
     "8": {
       "index": 8,
+      "name": "B Tome Valor 3",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "9": {
+      "index": 9,
       "name": "Bow Experience 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63015,8 +64729,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "9": {
-      "index": 9,
+    "10": {
+      "index": 10,
       "name": "Breath of Life 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63039,8 +64753,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "10": {
-      "index": 10,
+    "11": {
+      "index": 11,
       "name": "Dagger Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63063,33 +64777,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "11": {
-      "index": 11,
-      "name": "Def Ploy 3",
-      "atk_start_inflict": 0,
-      "spd_start_inflict": 0,
-      "def_start_inflict": 0,
-      "res_start_inflict": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "12": {
       "index": 12,
-      "name": "Drive Atk 2",
+      "name": "Def Ploy 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63113,7 +64803,7 @@ var data = {
     },
     "13": {
       "index": 13,
-      "name": "Drive Def 2",
+      "name": "Def Tactic 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63137,7 +64827,7 @@ var data = {
     },
     "14": {
       "index": 14,
-      "name": "Drive Res 2",
+      "name": "Drive Atk 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63161,7 +64851,7 @@ var data = {
     },
     "15": {
       "index": 15,
-      "name": "Drive Spd 2",
+      "name": "Drive Def 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63185,6 +64875,54 @@ var data = {
     },
     "16": {
       "index": 16,
+      "name": "Drive Res 2",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "17": {
+      "index": 17,
+      "name": "Drive Spd 2",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "18": {
+      "index": 18,
       "name": "Fortify Armor",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63207,8 +64945,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "17": {
-      "index": 17,
+    "19": {
+      "index": 19,
       "name": "Fortify Cavalry",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63231,8 +64969,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "18": {
-      "index": 18,
+    "20": {
+      "index": 20,
       "name": "Fortify Def 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63255,8 +64993,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "19": {
-      "index": 19,
+    "21": {
+      "index": 21,
       "name": "Fortify Dragons",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63279,8 +65017,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "20": {
-      "index": 20,
+    "22": {
+      "index": 22,
       "name": "Fortify Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63303,8 +65041,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "21": {
-      "index": 21,
+    "23": {
+      "index": 23,
       "name": "Fortify Res 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63327,8 +65065,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "22": {
-      "index": 22,
+    "24": {
+      "index": 24,
       "name": "G Tome Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63351,8 +65089,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "23": {
-      "index": 23,
+    "25": {
+      "index": 25,
       "name": "Goad Armor",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63375,8 +65113,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "24": {
-      "index": 24,
+    "26": {
+      "index": 26,
       "name": "Goad Cavalry",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63399,8 +65137,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "25": {
-      "index": 25,
+    "27": {
+      "index": 27,
       "name": "Goad Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63423,8 +65161,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "26": {
-      "index": 26,
+    "28": {
+      "index": 28,
       "name": "Guidance 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63447,8 +65185,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "27": {
-      "index": 27,
+    "29": {
+      "index": 29,
       "name": "Hone Armor",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63471,8 +65209,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "28": {
-      "index": 28,
+    "30": {
+      "index": 30,
       "name": "Hone Atk 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63495,8 +65233,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "29": {
-      "index": 29,
+    "31": {
+      "index": 31,
       "name": "Hone Cavalry",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63519,8 +65257,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "30": {
-      "index": 30,
+    "32": {
+      "index": 32,
       "name": "Hone Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63543,8 +65281,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "31": {
-      "index": 31,
+    "33": {
+      "index": 33,
       "name": "Hone Spd 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63567,8 +65305,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "32": {
-      "index": 32,
+    "34": {
+      "index": 34,
       "name": "Infantry Pulse 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63591,8 +65329,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "33": {
-      "index": 33,
+    "35": {
+      "index": 35,
       "name": "Lance Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63615,57 +65353,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "34": {
-      "index": 34,
-      "name": "Panic Ploy 3",
-      "atk_start_inflict": 0,
-      "spd_start_inflict": 0,
-      "def_start_inflict": 0,
-      "res_start_inflict": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "35": {
-      "index": 35,
-      "name": "Res Ploy 3",
-      "atk_start_inflict": 0,
-      "spd_start_inflict": 0,
-      "def_start_inflict": 0,
-      "res_start_inflict": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "36": {
       "index": 36,
-      "name": "Savage Blow 3",
+      "name": "Panic Ploy 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63689,7 +65379,7 @@ var data = {
     },
     "37": {
       "index": 37,
-      "name": "Spd Ploy 3",
+      "name": "Res Ploy 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63713,7 +65403,7 @@ var data = {
     },
     "38": {
       "index": 38,
-      "name": "Spd Smoke 3",
+      "name": "Savage Blow 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63726,7 +65416,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 0,
+      "stf_can_inherit": 1,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -63737,7 +65427,7 @@ var data = {
     },
     "39": {
       "index": 39,
-      "name": "Spur Atk 3",
+      "name": "Spd Ploy 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63761,7 +65451,7 @@ var data = {
     },
     "40": {
       "index": 40,
-      "name": "Spur Def 3",
+      "name": "Spd Smoke 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63774,7 +65464,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -63785,7 +65475,7 @@ var data = {
     },
     "41": {
       "index": 41,
-      "name": "Spur Def/Res 2",
+      "name": "Spur Atk 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63809,7 +65499,7 @@ var data = {
     },
     "42": {
       "index": 42,
-      "name": "Spur Res 3",
+      "name": "Spur Def 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63833,7 +65523,7 @@ var data = {
     },
     "43": {
       "index": 43,
-      "name": "Spur Spd 3",
+      "name": "Spur Def/Res 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63857,7 +65547,7 @@ var data = {
     },
     "44": {
       "index": 44,
-      "name": "Spur Spd/Def 2",
+      "name": "Spur Res 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
       "def_start_inflict": 0,
@@ -63881,6 +65571,54 @@ var data = {
     },
     "45": {
       "index": 45,
+      "name": "Spur Spd 3",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "46": {
+      "index": 46,
+      "name": "Spur Spd/Def 2",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "47": {
+      "index": 47,
       "name": "Sword Exp 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63903,8 +65641,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "46": {
-      "index": 46,
+    "48": {
+      "index": 48,
       "name": "Sword Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63927,8 +65665,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "47": {
-      "index": 47,
+    "49": {
+      "index": 49,
       "name": "Threaten Atk 3",
       "atk_start_inflict": 5,
       "spd_start_inflict": 0,
@@ -63951,8 +65689,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "48": {
-      "index": 48,
+    "50": {
+      "index": 50,
       "name": "Threaten Def 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63975,8 +65713,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "49": {
-      "index": 49,
+    "51": {
+      "index": 51,
       "name": "Threaten Res 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -63999,8 +65737,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "50": {
-      "index": 50,
+    "52": {
+      "index": 52,
       "name": "Threaten Spd 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 5,
@@ -64023,8 +65761,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "51": {
-      "index": 51,
+    "53": {
+      "index": 53,
       "name": "Ward Armor",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -64047,8 +65785,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "52": {
-      "index": 52,
+    "54": {
+      "index": 54,
       "name": "Ward Cavalry",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -64071,8 +65809,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "53": {
-      "index": 53,
+    "55": {
+      "index": 55,
       "name": "Ward Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,

@@ -1014,16 +1014,16 @@ Fighter.prototype.get_spd_boost_off = function () {
   return this.weapon.spd_boost_off + this.a_skill.spd_boost_off;
 };
 Fighter.prototype.get_def_boost_off = function () {
-  return this.a_skill.def_boost_off;
+  return this.weapon.def_boost_off + this.a_skill.def_boost_off;
 };
 Fighter.prototype.get_res_boost_off = function () {
   return this.weapon.res_boost_off + this.a_skill.res_boost_off;
 };
 Fighter.prototype.get_atk_boost_def = function () {
-  return this.a_skill.atk_boost_def;
+  return this.weapon.atk_boost_def + this.a_skill.atk_boost_def;
 };
 Fighter.prototype.get_spd_boost_def = function () {
-  return this.a_skill.spd_boost_def;
+  return this.weapon.spd_boost_def + this.a_skill.spd_boost_def;
 };
 Fighter.prototype.get_def_boost_def = function () {
   return this.weapon.def_boost_def + this.a_skill.def_boost_def;
