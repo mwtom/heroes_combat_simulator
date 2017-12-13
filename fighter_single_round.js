@@ -754,8 +754,18 @@ Fighter.prototype.check_buff_negate = function (enemy) {
 Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
   return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active));
 };
-Fighter.prototype.follow_up_ring_applies = function () {
-  var hp_thresh = this.b_skill.follow_up_thresh;
+Fighter.prototype.follow_up_thresh_applies = function () {
+  // -Instantiate the HP threshold at something that cannot possibly be met.
+  // -Then, as sources of automatic follow up are detected, change hp_thresh to the
+  //   lowest value between the current hp_thresh and the detected source.
+  // -Finally, check to see if the unit meets the HP threshold.
+  var hp_thresh = 2;
+  if (this.b_skill.follow_up_thresh > 0) {
+    hp_thresh = this.b_skill.follow_up_thresh;
+  }
+  if (this.weapon.follow_up_thresh > 0) {
+    hp_thresh = Math.min(hp_thresh, this.weapon.follow_up_thresh);
+  }
   return (hp_thresh > 0 && (this.start_HP / this.hp_max) >= hp_thresh);
 };
 // Checks to see if the unit meets the HP requirement for Brash Assault.

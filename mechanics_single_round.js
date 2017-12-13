@@ -596,7 +596,7 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit1.breaker_applies(unit2.get_weap())) {
     inhibitor -= 1;
   }
-  if (unit1.follow_up_ring_applies()) {
+  if (unit1.follow_up_thresh_applies()) {
     inhibitor -= 1;
   }
   if (unit1.brash_assault_applies(can_counter) && unit1_active) {
