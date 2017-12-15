@@ -312,6 +312,11 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     if (enemy.get_start_HP() == enemy.get_HP_max()) {
       atk += this.get_atk_boost_enemy_full_hp();
     }
+
+    // If the unit gets an Atk bonus when above a certain HP threshold, apply it.
+    if (this.start_HP / this.hp_max >= this.a_skill.brazen_atk_thresh) {
+      atk += this.a_skill.brazen_atk_boost;
+    }
   }
 
   // If the atk value is negative, and the unit does not have a -blade tome,
@@ -504,6 +509,12 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     else {
       e_spd += this.get_spd_boost_def();
     }
+
+
+    // If the unit gets a Spd bonus when above a certain HP threshold, apply it.
+    if (this.start_HP / this.hp_max >= this.a_skill.brazen_spd_thresh) {
+      e_spd += this.a_skill.brazen_spd_boost;
+    }
   }
 
   // If the effective spd is negative, set it to 0.
@@ -575,6 +586,11 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     if (this.hp < Math.floor(this.hp/2)) {
       e_def += this.weapon.def_boost_under50();
     }
+
+    // If the unit gets a Def bonus when above a certain HP threshold, apply it.
+    if (this.start_HP / this.hp_max >= this.a_skill.brazen_def_thresh) {
+      e_def += this.a_skill.brazen_def_boost;
+    }
   }
 
   // If the effective def is negative, set it to 0.
@@ -631,6 +647,11 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       }
       if (combat_range == 1) {
         e_res += this.get_close_res_bonus();
+      }
+
+      // If the unit gets a Res bonus when above a certain HP threshold, apply it.
+      if (this.start_HP / this.hp_max >= this.a_skill.brazen_res_thresh) {
+        e_res += this.a_skill.brazen_res_boost;
       }
     }
 
@@ -752,7 +773,7 @@ Fighter.prototype.check_buff_negate = function (enemy) {
  *  -The highest bonus cooldown value out of all applicable factors.
  */
 Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
-  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active));
+  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking));
 };
 Fighter.prototype.follow_up_thresh_applies = function (is_active) {
   // -Instantiate the HP threshold at something that cannot possibly be met.
@@ -760,11 +781,11 @@ Fighter.prototype.follow_up_thresh_applies = function (is_active) {
   //   the lowest value between the current hp_thresh and the detected source.
   // -Finally, check to see if the unit meets the HP threshold.
   var hp_thresh = 2;
-  if (this.b_skill.follow_up_thresh > 0) {
+  if (this.b_skill.follow_up_thresh > 0 && ((is_active && this.b_skill.follow_up_off) || (!is_active && this.b_skill.follow_up_def))) {
     hp_thresh = this.b_skill.follow_up_thresh;
   }
-  if (this.weapon.follow_up_thresh_off > 0 && is_active) {
-    hp_thresh = Math.min(hp_thresh, this.weapon.follow_up_thresh_off);
+  if (this.weapon.follow_up_thresh > 0 && ((is_active && this.weapon.follow_up_off) || (!is_active && this.weapon.follow_up_def))) {
+    hp_thresh = Math.min(hp_thresh, this.weapon.follow_up_thresh);
   }
   return (hp_thresh > 0 && (this.start_HP / this.hp_max) >= hp_thresh);
 };
@@ -793,7 +814,7 @@ Fighter.prototype.quick_riposte_applies = function() {
 // Checks to see if the unit meets the HP requirement for Hardy Bearing.
 Fighter.prototype.hardy_bearing_applies = function () {
   var hp_thresh = this.get_hardy_bearing_thresh();
-  return (hp_thresh >= 0) && ((this.start_HP / this.hp_max) >= hp_thresh);
+  return (hp_thresh != 0) && ((this.start_HP / this.hp_max) >= hp_thresh);
 };
 // Gets the source of the unit's Hardy Bearing effect.
 Fighter.prototype.get_hardy_bearing_source = function () {
@@ -861,29 +882,39 @@ Fighter.prototype.get_guard_source = function () {
 };
 // Checks to see if the unit meets the HP requirement for Wrathful Staff.
 Fighter.prototype.wrathful_staff_applies = function () {
-  return ((this.start_HP >= (this.hp_max * (1 - this.weapon.wrathful_staff_threshold))) && this.weapon.wrathful_staff_effect)
-         ||
-         ((this.start_HP >= (this.hp_max * (1 - this.b_skill.wrathful_staff_threshold))) && this.b_skill.wrathful_staff_effect);
+  if (this.weapon.wrathful_staff_threshold != 0 || this.b_skill.wrathful_staff_threshold != 0) {
+    return ((this.start_HP / this.hp_max) >= this.weapon.wrathful_staff_threshold)
+           ||
+           ((this.start_HP / this.hp_max) >= this.b_skill.wrathful_staff_threshold);
+  }
+  else {
+    return false;
+  }
 };
 Fighter.prototype.get_wrathful_staff_source = function () {
-  if ((this.start_HP >= (this.hp_max * (1 - this.weapon.wrathful_staff_threshold))) && this.weapon.wrathful_staff_effect) {
+  if ((this.start_HP / this.hp_max) >= this.weapon.wrathful_staff_threshold && this.weapon.wrathful_staff_threshold != 0) {
     return this.weapon.name;
   }
-  if ((this.start_HP >= (this.hp_max * (1 - this.b_skill.wrathful_staff_threshold))) && this.b_skill.wrathful_staff_effect) {
+  if ((this.start_HP / this.hp_max) >= this.b_skill.wrathful_staff_threshold && this.b_skill.wrathful_staff_threshold != 0) {
     return this.b_skill.name;
   }
 };
 // Checks to see if the unit meets the HP requirement for Dazzling Staff.
 Fighter.prototype.dazzling_staff_applies = function () {
-  return ((this.start_HP >= (this.hp_max * (1 - this.weapon.dazzling_staff_threshold))) && this.weapon.dazzling_staff_effect)
-         ||
-         ((this.start_HP >= (this.hp_max * (1 - this.b_skill.dazzling_staff_threshold))) && this.b_skill.dazzling_staff_effect);
+  if (this.weapon.dazzling_staff_threshold != 0 || this.b_skill.dazzling_staff_threshold != 0) {
+    return ((this.start_HP / this.hp_max) >= this.weapon.dazzling_staff_threshold)
+           ||
+           ((this.start_HP / this.hp_max) >= this.b_skill.dazzling_staff_threshold);
+  }
+  else {
+    return false;
+  }
 };
 Fighter.prototype.get_dazzling_staff_source = function () {
-  if ((this.start_HP >= (this.hp_max * (1 - this.weapon.dazzling_staff_threshold))) && this.weapon.dazzling_staff_effect) {
+  if ((this.start_HP / this.hp_max) >= this.weapon.dazzling_staff_threshold && this.weapon.dazzling_staff_threshold != 0) {
     return this.weapon.name;
   }
-  if ((this.start_HP >= (this.hp_max * (1 - this.b_skill.dazzling_staff_threshold))) && this.b_skill.dazzling_staff_effect) {
+  if ((this.start_HP / this.hp_max) >= this.b_skill.dazzling_staff_threshold && this.b_skill.dazzling_staff_threshold != 0) {
     return this.b_skill.name;
   }
 };
@@ -1451,14 +1482,49 @@ Fighter.prototype.get_spd_bonus_cd = function (enemy, attacker_flag, is_attackin
   }
   return bonus_cd;
 };
-Fighter.prototype.get_defending_bonus_cd = function (attacker_flag) {
-  if (this.get_cd_charge_def() > 0 && !attacker_flag) {
-    return this.get_cd_charge_def();
+Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking) {
+  var bonus_cd = 0;
+
+  if (this.get_cd_charge_off_per_atk() > 0 && attacker_flag && is_attacking) {
+    bonus_cd = this.get_cd_charge_off_per_atk();
   }
-  return 0;
+
+  return bonus_cd;
+};
+Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking) {
+  var bonus_cd = 0;
+  // Steady Breath
+  if (this.get_cd_charge_def() > 0 && !attacker_flag) {
+    bonus_cd = this.get_cd_charge_def();
+  }
+  if (this.get_cd_charge_def_per_atk() > 0 && !attacker_flag && is_attacking) {
+    bonus_cd = Math.max(bonus_cd, this.get_cd_charge_def_per_atk());
+  }
+  return bonus_cd;
 };
 Fighter.prototype.get_bonus_cd_amt = function (skill) {
   return skill.bonus_cd_amt;
+};
+Fighter.prototype.get_cd_charge_off_per_atk = function () {
+  var charge = 0;
+
+  if (this.b_skill.cd_charge_off_per_atk > 0 && (this.start_HP / this.hp_max >= this.get_cd_charge_hp_thresh(this.b_skill))) {
+    charge = this.b_skill.cd_charge_off_per_atk;
+  }
+
+  return charge;
+};
+Fighter.prototype.get_cd_charge_def_per_atk = function () {
+  var charge = 0;
+
+  if (this.b_skill.cd_charge_def_per_atk > 0 && (this.start_HP / this.hp_max >= this.get_cd_charge_hp_thresh(this.b_skill))) {
+    charge = this.b_skill.cd_charge_def_per_atk;
+  }
+
+  return charge;
+};
+Fighter.prototype.get_cd_charge_hp_thresh = function (skill) {
+  return skill.cd_charge_hp_thresh;
 };
 Fighter.prototype.get_atk_boost_full_hp = function () {
   return this.weapon.atk_boost_full_hp;
