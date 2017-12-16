@@ -314,7 +314,7 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets an Atk bonus when above a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max >= this.a_skill.brazen_atk_thresh) {
+    if (this.start_HP / this.hp_max <= this.a_skill.brazen_atk_thresh) {
       atk += this.a_skill.brazen_atk_boost;
     }
   }
@@ -512,7 +512,7 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
 
 
     // If the unit gets a Spd bonus when above a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max >= this.a_skill.brazen_spd_thresh) {
+    if (this.start_HP / this.hp_max <= this.a_skill.brazen_spd_thresh) {
       e_spd += this.a_skill.brazen_spd_boost;
     }
   }
@@ -588,7 +588,7 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets a Def bonus when above a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max >= this.a_skill.brazen_def_thresh) {
+    if (this.start_HP / this.hp_max <= this.a_skill.brazen_def_thresh) {
       e_def += this.a_skill.brazen_def_boost;
     }
   }
@@ -650,7 +650,7 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       }
 
       // If the unit gets a Res bonus when above a certain HP threshold, apply it.
-      if (this.start_HP / this.hp_max >= this.a_skill.brazen_res_thresh) {
+      if (this.start_HP / this.hp_max <= this.a_skill.brazen_res_thresh) {
         e_res += this.a_skill.brazen_res_boost;
       }
     }
@@ -799,17 +799,6 @@ Fighter.prototype.brash_assault_applies = function(can_counter) {
 Fighter.prototype.calculated_assault_applies = function (can_counter) {
   var hp_thresh = this.weapon.calculated_assault_thresh;
   return (hp_thresh > 0 && (this.start_HP / this.hp_max >= hp_thresh) && can_counter);
-};
-// Checks to see if the unit meets the HP requirement for Quick Riposte.
-Fighter.prototype.quick_riposte_applies = function() {
-  var quick_riposte_thresh;
-  if (this.weapon.quick_riposte_thresh > 0 && this.b_skill.quick_riposte_thresh > 0) {
-    quick_riposte_thresh = Math.min(this.weapon.quick_riposte_thresh, this.b_skill.quick_riposte_thresh);
-  }
-  else {
-    quick_riposte_thresh = Math.max(this.weapon.quick_riposte_thresh, this.b_skill.quick_riposte_thresh);
-  }
-  return ((this.start_HP / this.hp_max >= quick_riposte_thresh) && quick_riposte_thresh > 0);
 };
 // Checks to see if the unit meets the HP requirement for Hardy Bearing.
 Fighter.prototype.hardy_bearing_applies = function () {
