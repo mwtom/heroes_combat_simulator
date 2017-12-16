@@ -602,9 +602,6 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit1.brash_assault_applies(can_counter) && unit1_active) {
     inhibitor -= 1;
   }
-  if (unit1.calculated_assault_applies(can_counter) && unit1_active) {
-    inhibitor -= 1;
-  }
 
   // If the inhibitor is positive, no follow up occurs (return false).
   // If inhibitor is 0, follow up occurs ONLY if unit1 is fast enough.

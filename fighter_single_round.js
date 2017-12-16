@@ -794,12 +794,6 @@ Fighter.prototype.brash_assault_applies = function(can_counter) {
   var hp_thresh = Math.max(this.weapon.brash_assault_thresh, this.b_skill.brash_assault_thresh, this.seal.brash_assault_thresh);
   return (hp_thresh > 0 && (this.start_HP / this.hp_max <= hp_thresh) && can_counter);
 };
-// Checks to see if the unit meets the HP requirement for "Calculated Assault"
-// (Brash Assault, but active when the unit has high HP).
-Fighter.prototype.calculated_assault_applies = function (can_counter) {
-  var hp_thresh = this.weapon.calculated_assault_thresh;
-  return (hp_thresh > 0 && (this.start_HP / this.hp_max >= hp_thresh) && can_counter);
-};
 // Checks to see if the unit meets the HP requirement for Hardy Bearing.
 Fighter.prototype.hardy_bearing_applies = function () {
   var hp_thresh = this.get_hardy_bearing_thresh();
@@ -815,7 +809,7 @@ Fighter.prototype.desperation_applies = function(enemy) {
   var desperation_thresh = Math.max(this.weapon.desperation_thresh, this.b_skill.desperation_thresh);
   var result = ((this.start_HP / this.hp_max) <= desperation_thresh);
   if (result) {
-    if (this.get_hardy_bearing_thresh() >= 0) {
+    if (this.get_hardy_bearing_thresh() != 0) {
       combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_desperation_source() + ")!<br>";
       return false;
     }
