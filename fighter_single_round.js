@@ -840,7 +840,7 @@ Fighter.prototype.vantage_applies = function(enemy) {
   var vantage_thresh = this.b_skill.vantage_thresh;
   var result = ((this.hp / this.hp_max) <= vantage_thresh);
   if (result) {
-    if (this.get_hardy_bearing_thresh() >= 0) {
+    if (this.get_hardy_bearing_thresh() != 0) {
       combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_vantage_source() + ")!<br>";
       return false;
     }
