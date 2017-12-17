@@ -766,8 +766,8 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
 
   // Handling for def to damage conversion procs.
   if (attacker.get_def_as_dmg_proc() > 0 && attacker.get_cooldown() == 0) {
-    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(attacker.calculate_def(true, defender, true) * attacker.get_def_as_dmg_proc()) + " damage!<br>");
-    dmg += Math.floor(attacker.calculate_def(true, defender, true) * attacker.get_def_as_dmg_proc());
+    combat_log += (attacker.get_name() + "'s " + attacker.get_proc_name() + " activates, dealing +" + Math.floor(attacker.calculate_def(attacker_active, defender, true) * attacker.get_def_as_dmg_proc()) + " damage!<br>");
+    dmg += Math.floor(attacker.calculate_def(attacker_active, defender, true) * attacker.get_def_as_dmg_proc());
     attacker_skill_procced = true;
   }
 
