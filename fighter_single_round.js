@@ -1447,6 +1447,12 @@ Fighter.prototype.get_atk_bonus_cd = function (enemy, attacker_flag, is_attackin
     bonus_cd = Math.max(bonus_cd, this.weapon.bonus_cd_amt);
   }
 
+  // Evaluate whether the Seal Heavy Blade effect 1) exists and 2) applies. If so, set
+  // bonus_cd to the max of the current value and the weapon's bonus_cd_amt value.
+  if (this.seal.atk_bonus_cd_thresh > 0 && ((this.calculate_atk(attacker_flag, enemy, true) - enemy.calculate_atk(!attacker_flag, this, true)) >= this.seal.atk_bonus_cd_thresh)) {
+    bonus_cd = Math.max(bonus_cd, this.seal.bonus_cd_amt);
+  }
+
   return bonus_cd;
 };
 // Gets the applicable cd bonus from Ayra's Blade & similar effects.
@@ -1468,8 +1474,8 @@ Fighter.prototype.get_spd_bonus_cd = function (enemy, attacker_flag, is_attackin
 Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking) {
   var bonus_cd = 0;
 
-  if (this.get_cd_charge_off_per_atk() > 0 && attacker_flag && is_attacking) {
-    bonus_cd = this.get_cd_charge_off_per_atk();
+  if (this.b_skill.cd_charge_off_per_atk > 0 && attacker_flag && is_attacking) {
+    bonus_cd = this.b_skill.cd_charge_off_per_atk;
   }
 
   return bonus_cd;
@@ -1480,22 +1486,13 @@ Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking
   if (this.get_cd_charge_def() > 0 && !attacker_flag) {
     bonus_cd = this.get_cd_charge_def();
   }
-  if (this.get_cd_charge_def_per_atk() > 0 && !attacker_flag && is_attacking) {
-    bonus_cd = Math.max(bonus_cd, this.get_cd_charge_def_per_atk());
+  if (this.b_skill.cd_charge_def_per_atk > 0 && !attacker_flag && is_attacking) {
+    bonus_cd = Math.max(bonus_cd, this.b_skill.cd_charge_def_per_atk);
   }
   return bonus_cd;
 };
 Fighter.prototype.get_bonus_cd_amt = function (skill) {
   return skill.bonus_cd_amt;
-};
-Fighter.prototype.get_cd_charge_off_per_atk = function () {
-  var charge = 0;
-
-  if (this.b_skill.cd_charge_off_per_atk > 0 && (this.start_HP / this.hp_max >= this.get_cd_charge_hp_thresh(this.b_skill))) {
-    charge = this.b_skill.cd_charge_off_per_atk;
-  }
-
-  return charge;
 };
 Fighter.prototype.get_cd_charge_def_per_atk = function () {
   var charge = 0;
