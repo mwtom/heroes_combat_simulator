@@ -7432,7 +7432,7 @@ var data = {
     },
     "25": {
       "index": 25,
-      "name": "BlxE1rblade+",
+      "name": "Bl\xE1rblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -7554,7 +7554,7 @@ var data = {
     },
     "26": {
       "index": 26,
-      "name": "BlxE1rowl+",
+      "name": "Bl\xE1rowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -7676,7 +7676,7 @@ var data = {
     },
     "27": {
       "index": 27,
-      "name": "BlxE1rowl+ (Atk)",
+      "name": "Bl\xE1rowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -7798,7 +7798,7 @@ var data = {
     },
     "28": {
       "index": 28,
-      "name": "BlxE1rowl+ (Def)",
+      "name": "Bl\xE1rowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 3,
@@ -7920,7 +7920,7 @@ var data = {
     },
     "29": {
       "index": 29,
-      "name": "BlxE1rowl+ (Res)",
+      "name": "Bl\xE1rowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -8042,7 +8042,7 @@ var data = {
     },
     "30": {
       "index": 30,
-      "name": "BlxE1rowl+ (Spd)",
+      "name": "Bl\xE1rowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
       "def_boost_perm": 0,
@@ -8164,7 +8164,7 @@ var data = {
     },
     "31": {
       "index": 31,
-      "name": "BlxE1rraven+",
+      "name": "Bl\xE1rraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -8286,7 +8286,7 @@ var data = {
     },
     "32": {
       "index": 32,
-      "name": "BlxE1rwolf+",
+      "name": "Bl\xE1rwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -19754,7 +19754,7 @@ var data = {
     },
     "126": {
       "index": 126,
-      "name": "FxF3lkvangr",
+      "name": "F\xF3lkvangr",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -23414,7 +23414,7 @@ var data = {
     },
     "156": {
       "index": 156,
-      "name": "GeirskxF6gul",
+      "name": "Geirsk\xF6gul",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
       "def_boost_perm": 3,
@@ -28538,7 +28538,7 @@ var data = {
     },
     "198": {
       "index": 198,
-      "name": "Keen BlxE1rwolf+",
+      "name": "Keen Bl\xE1rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -28660,7 +28660,7 @@ var data = {
     },
     "199": {
       "index": 199,
-      "name": "Keen BlxE1rwolf+ (Atk)",
+      "name": "Keen Bl\xE1rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -28782,7 +28782,7 @@ var data = {
     },
     "200": {
       "index": 200,
-      "name": "Keen BlxE1rwolf+ (Def)",
+      "name": "Keen Bl\xE1rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 3,
@@ -28904,7 +28904,7 @@ var data = {
     },
     "201": {
       "index": 201,
-      "name": "Keen BlxE1rwolf+ (Eff)",
+      "name": "Keen Bl\xE1rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -29026,7 +29026,7 @@ var data = {
     },
     "202": {
       "index": 202,
-      "name": "Keen BlxE1rwolf+ (Res)",
+      "name": "Keen Bl\xE1rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -29148,7 +29148,7 @@ var data = {
     },
     "203": {
       "index": 203,
-      "name": "Keen BlxE1rwolf+ (Spd)",
+      "name": "Keen Bl\xE1rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
       "def_boost_perm": 0,
@@ -30002,7 +30002,7 @@ var data = {
     },
     "210": {
       "index": 210,
-      "name": "Keen RauxF0rwolf+",
+      "name": "Keen Rau\xF0rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -30124,7 +30124,7 @@ var data = {
     },
     "211": {
       "index": 211,
-      "name": "Keen RauxF0rwolf+ (Atk)",
+      "name": "Keen Rau\xF0rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -30246,7 +30246,7 @@ var data = {
     },
     "212": {
       "index": 212,
-      "name": "Keen RauxF0rwolf+ (Def)",
+      "name": "Keen Rau\xF0rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 3,
@@ -30368,7 +30368,7 @@ var data = {
     },
     "213": {
       "index": 213,
-      "name": "Keen RauxF0rwolf+ (Eff)",
+      "name": "Keen Rau\xF0rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -30490,7 +30490,7 @@ var data = {
     },
     "214": {
       "index": 214,
-      "name": "Keen RauxF0rwolf+ (Res)",
+      "name": "Keen Rau\xF0rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -30612,7 +30612,7 @@ var data = {
     },
     "215": {
       "index": 215,
-      "name": "Keen RauxF0rwolf+ (Spd)",
+      "name": "Keen Rau\xF0rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
       "def_boost_perm": 0,
@@ -35980,7 +35980,7 @@ var data = {
     },
     "259": {
       "index": 259,
-      "name": "NxF3atxFAn",
+      "name": "N\xF3at\xFAn",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -37688,7 +37688,7 @@ var data = {
     },
     "273": {
       "index": 273,
-      "name": "RauxF0rblade+",
+      "name": "Rau\xF0rblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -37810,7 +37810,7 @@ var data = {
     },
     "274": {
       "index": 274,
-      "name": "RauxF0rowl+",
+      "name": "Rau\xF0rowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -37932,7 +37932,7 @@ var data = {
     },
     "275": {
       "index": 275,
-      "name": "RauxF0rowl+ (Atk)",
+      "name": "Rau\xF0rowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -38054,7 +38054,7 @@ var data = {
     },
     "276": {
       "index": 276,
-      "name": "RauxF0rowl+ (Def)",
+      "name": "Rau\xF0rowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 3,
@@ -38176,7 +38176,7 @@ var data = {
     },
     "277": {
       "index": 277,
-      "name": "RauxF0rowl+ (Res)",
+      "name": "Rau\xF0rowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -38298,7 +38298,7 @@ var data = {
     },
     "278": {
       "index": 278,
-      "name": "RauxF0rowl+ (Spd)",
+      "name": "Rau\xF0rowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
       "def_boost_perm": 0,
@@ -38420,7 +38420,7 @@ var data = {
     },
     "279": {
       "index": 279,
-      "name": "RauxF0rraven+",
+      "name": "Rau\xF0rraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -38542,7 +38542,7 @@ var data = {
     },
     "280": {
       "index": 280,
-      "name": "RauxF0rwolf+",
+      "name": "Rau\xF0rwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
