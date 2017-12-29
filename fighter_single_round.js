@@ -313,9 +313,24 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       atk += this.get_atk_boost_enemy_full_hp();
     }
 
-    // If the unit gets an Atk bonus when above a certain HP threshold, apply it.
+    // If the unit gets an Atk bonus when below a certain HP threshold, apply it.
     if (this.start_HP / this.hp_max <= this.a_skill.brazen_atk_thresh) {
       atk += this.a_skill.brazen_atk_boost;
+    }
+
+    if (this.weapon.enemy_debuffs_to_atk) {
+      if (enemy.get_atk_debuff() > 0) {
+        atk += enemy.get_atk_debuff();
+      }
+      if (enemy.get_spd_debuff() > 0) {
+        atk += enemy.get_spd_debuff();
+      }
+      if (enemy.get_def_debuff() > 0) {
+        atk += enemy.get_spd_debuff();
+      }
+      if (enemy.get_res_debuff() > 0) {
+        atk += enemy.get_res_debuff();
+      }
     }
   }
 
@@ -511,7 +526,7 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     }
 
 
-    // If the unit gets a Spd bonus when above a certain HP threshold, apply it.
+    // If the unit gets a Spd bonus when below a certain HP threshold, apply it.
     if (this.start_HP / this.hp_max <= this.a_skill.brazen_spd_thresh) {
       e_spd += this.a_skill.brazen_spd_boost;
     }
@@ -587,7 +602,7 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       e_def += this.weapon.def_boost_under50();
     }
 
-    // If the unit gets a Def bonus when above a certain HP threshold, apply it.
+    // If the unit gets a Def bonus when below a certain HP threshold, apply it.
     if (this.start_HP / this.hp_max <= this.a_skill.brazen_def_thresh) {
       e_def += this.a_skill.brazen_def_boost;
     }
@@ -649,7 +664,7 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
         e_res += this.get_close_res_bonus();
       }
 
-      // If the unit gets a Res bonus when above a certain HP threshold, apply it.
+      // If the unit gets a Res bonus when below a certain HP threshold, apply it.
       if (this.start_HP / this.hp_max <= this.a_skill.brazen_res_thresh) {
         e_res += this.a_skill.brazen_res_boost;
       }

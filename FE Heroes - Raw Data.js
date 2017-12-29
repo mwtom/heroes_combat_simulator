@@ -16,9 +16,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 51,
+      "base_weap": 52,
       "base_a": 31,
-      "base_b": 45,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 1
     },
@@ -38,7 +38,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 126,
+      "base_weap": 127,
       "base_a": 14,
       "base_b": 0,
       "base_c": 42,
@@ -60,9 +60,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 127,
+      "base_weap": 128,
       "base_a": 6,
-      "base_b": 50,
+      "base_b": 51,
       "base_c": 0,
       "base_proc": 13
     },
@@ -82,7 +82,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 354,
+      "base_weap": 355,
       "base_a": 22,
       "base_b": 0,
       "base_c": 1,
@@ -104,9 +104,9 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "A",
-      "base_weap": 259,
+      "base_weap": 260,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 45,
       "base_proc": 3
     },
@@ -126,9 +126,9 @@ var data = {
       "n_lock": 1,
       "type": "A",
       "weap": "S",
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 0,
-      "base_b": 18,
+      "base_b": 19,
       "base_c": 15,
       "base_proc": 38
     },
@@ -148,9 +148,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 124,
+      "base_weap": 125,
       "base_a": 31,
-      "base_b": 25,
+      "base_b": 26,
       "base_c": 0,
       "base_proc": 0
     },
@@ -170,9 +170,9 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "RT",
-      "base_weap": 419,
+      "base_weap": 420,
       "base_a": 0,
-      "base_b": 35,
+      "base_b": 36,
       "base_c": 12,
       "base_proc": 21
     },
@@ -192,7 +192,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 422,
+      "base_weap": 423,
       "base_a": 46,
       "base_b": 0,
       "base_c": 48,
@@ -216,7 +216,7 @@ var data = {
       "weap": "S",
       "base_weap": 18,
       "base_a": 48,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 0,
       "base_proc": 39
     },
@@ -236,7 +236,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 262,
+      "base_weap": 263,
       "base_a": 0,
       "base_b": 0,
       "base_c": 50,
@@ -258,7 +258,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 417,
+      "base_weap": 418,
       "base_a": 50,
       "base_b": 0,
       "base_c": 16,
@@ -280,7 +280,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 310,
+      "base_weap": 311,
       "base_a": 42,
       "base_b": 0,
       "base_c": 23,
@@ -302,9 +302,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 49,
+      "base_weap": 50,
       "base_a": 0,
-      "base_b": 24,
+      "base_b": 25,
       "base_c": 42,
       "base_proc": 0
     },
@@ -324,7 +324,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 180,
+      "base_weap": 181,
       "base_a": 28,
       "base_b": 7,
       "base_c": 0,
@@ -368,9 +368,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 216,
+      "base_weap": 217,
       "base_a": 17,
-      "base_b": 29,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 19
     },
@@ -392,7 +392,7 @@ var data = {
       "weap": "S",
       "base_weap": 4,
       "base_a": 45,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 0,
       "base_proc": 4
     },
@@ -412,9 +412,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 168,
+      "base_weap": 169,
       "base_a": 22,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 29
     },
@@ -478,9 +478,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 0,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 50,
       "base_proc": 16
     },
@@ -500,7 +500,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 49,
+      "base_weap": 50,
       "base_a": 13,
       "base_b": 0,
       "base_c": 39,
@@ -522,9 +522,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "GT",
-      "base_weap": 161,
+      "base_weap": 162,
       "base_a": 19,
-      "base_b": 26,
+      "base_b": 27,
       "base_c": 0,
       "base_proc": 0
     },
@@ -544,7 +544,7 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "L",
-      "base_weap": 157,
+      "base_weap": 158,
       "base_a": 29,
       "base_b": 0,
       "base_c": 26,
@@ -566,9 +566,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 218,
+      "base_weap": 219,
       "base_a": 1,
-      "base_b": 38,
+      "base_b": 39,
       "base_c": 0,
       "base_proc": 32
     },
@@ -588,9 +588,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "GT",
-      "base_weap": 173,
+      "base_weap": 174,
       "base_a": 6,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 0,
       "base_proc": 0
     },
@@ -610,7 +610,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 270,
+      "base_weap": 271,
       "base_a": 21,
       "base_b": 0,
       "base_c": 43,
@@ -632,7 +632,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 140,
+      "base_weap": 141,
       "base_a": 54,
       "base_b": 0,
       "base_c": 50,
@@ -654,7 +654,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 180,
+      "base_weap": 181,
       "base_a": 6,
       "base_b": 0,
       "base_c": 20,
@@ -676,7 +676,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 127,
+      "base_weap": 128,
       "base_a": 17,
       "base_b": 0,
       "base_c": 43,
@@ -698,9 +698,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 307,
+      "base_weap": 308,
       "base_a": 9,
-      "base_b": 48,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 0
     },
@@ -720,7 +720,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 63,
+      "base_weap": 64,
       "base_a": 7,
       "base_b": 0,
       "base_c": 5,
@@ -742,9 +742,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 344,
+      "base_weap": 345,
       "base_a": 0,
-      "base_b": 23,
+      "base_b": 24,
       "base_c": 46,
       "base_proc": 0
     },
@@ -764,7 +764,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 128,
+      "base_weap": 129,
       "base_a": 39,
       "base_b": 0,
       "base_c": 0,
@@ -786,9 +786,9 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "B",
-      "base_weap": 73,
+      "base_weap": 74,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 51,
       "base_proc": 19
     },
@@ -808,9 +808,9 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "L",
-      "base_weap": 344,
+      "base_weap": 345,
       "base_a": 15,
-      "base_b": 23,
+      "base_b": 24,
       "base_c": 0,
       "base_proc": 16
     },
@@ -830,9 +830,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 51,
+      "base_weap": 52,
       "base_a": 50,
-      "base_b": 31,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 17
     },
@@ -852,9 +852,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 78,
+      "base_weap": 79,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 10,
       "base_proc": 0
     },
@@ -874,9 +874,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 427,
+      "base_weap": 428,
       "base_a": 15,
-      "base_b": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 14
     },
@@ -896,9 +896,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 101,
+      "base_weap": 102,
       "base_a": 0,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 30,
       "base_proc": 13
     },
@@ -918,7 +918,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "BT",
-      "base_weap": 311,
+      "base_weap": 312,
       "base_a": 49,
       "base_b": 0,
       "base_c": 22,
@@ -940,9 +940,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 120,
+      "base_weap": 121,
       "base_a": 0,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 40,
       "base_proc": 0
     },
@@ -962,7 +962,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 100,
+      "base_weap": 101,
       "base_a": 14,
       "base_b": 0,
       "base_c": 14,
@@ -984,9 +984,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 51,
+      "base_weap": 52,
       "base_a": 31,
-      "base_b": 15,
+      "base_b": 16,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1006,9 +1006,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 405,
+      "base_weap": 406,
       "base_a": 23,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 34,
       "base_proc": 13
     },
@@ -1028,9 +1028,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "S",
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 0,
-      "base_b": 29,
+      "base_b": 30,
       "base_c": 54,
       "base_proc": 38
     },
@@ -1050,9 +1050,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "L",
-      "base_weap": 344,
+      "base_weap": 345,
       "base_a": 14,
-      "base_b": 48,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1072,9 +1072,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 322,
+      "base_weap": 323,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 16,
       "base_c": 33,
       "base_proc": 0
     },
@@ -1094,9 +1094,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 253,
+      "base_weap": 254,
       "base_a": 28,
-      "base_b": 29,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 22
     },
@@ -1118,7 +1118,7 @@ var data = {
       "weap": "S",
       "base_weap": 5,
       "base_a": 14,
-      "base_b": 17,
+      "base_b": 18,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1138,9 +1138,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 158,
+      "base_weap": 159,
       "base_a": 0,
-      "base_b": 28,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 31
     },
@@ -1160,7 +1160,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 193,
+      "base_weap": 194,
       "base_a": 41,
       "base_b": 0,
       "base_c": 24,
@@ -1182,7 +1182,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 122,
+      "base_weap": 123,
       "base_a": 0,
       "base_b": 1,
       "base_c": 55,
@@ -1204,9 +1204,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 323,
+      "base_weap": 324,
       "base_a": 0,
-      "base_b": 41,
+      "base_b": 42,
       "base_c": 51,
       "base_proc": 34
     },
@@ -1226,9 +1226,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 192,
+      "base_weap": 193,
       "base_a": 18,
-      "base_b": 43,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1248,9 +1248,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 227,
+      "base_weap": 228,
       "base_a": 0,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 50,
       "base_proc": 0
     },
@@ -1270,9 +1270,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 137,
+      "base_weap": 138,
       "base_a": 0,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 9,
       "base_proc": 37
     },
@@ -1292,7 +1292,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 339,
+      "base_weap": 340,
       "base_a": 39,
       "base_b": 0,
       "base_c": 10,
@@ -1314,9 +1314,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 219,
+      "base_weap": 220,
       "base_a": 42,
-      "base_b": 31,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 18
     },
@@ -1336,9 +1336,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 226,
+      "base_weap": 227,
       "base_a": 2,
-      "base_b": 44,
+      "base_b": 45,
       "base_c": 14,
       "base_proc": 27
     },
@@ -1358,7 +1358,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 192,
+      "base_weap": 193,
       "base_a": 13,
       "base_b": 0,
       "base_c": 10,
@@ -1380,9 +1380,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 316,
+      "base_weap": 317,
       "base_a": 1,
-      "base_b": 40,
+      "base_b": 41,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1402,9 +1402,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 180,
+      "base_weap": 181,
       "base_a": 0,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 20,
       "base_proc": 32
     },
@@ -1424,9 +1424,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 299,
+      "base_weap": 300,
       "base_a": 16,
-      "base_b": 31,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1446,9 +1446,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 281,
+      "base_weap": 282,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 12,
       "base_proc": 3
     },
@@ -1468,9 +1468,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 158,
+      "base_weap": 159,
       "base_a": 0,
-      "base_b": 55,
+      "base_b": 56,
       "base_c": 0,
       "base_proc": 25
     },
@@ -1490,9 +1490,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 50,
+      "base_weap": 51,
       "base_a": 6,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1512,11 +1512,33 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 428,
+      "base_weap": 429,
       "base_a": 54,
       "base_b": 0,
       "base_c": 49,
       "base_proc": 0
+    },
+    "Gunnthr\xE1 (Voice of Dreams)": {
+      "name": "Gunnthr\xE1 (Voice of Dreams)",
+      "color": "G",
+      "hp_base": 15,
+      "atk_base": 7,
+      "spd_base": 9,
+      "def_base": 6,
+      "res_base": 6,
+      "hp40": 37,
+      "atk40": 31,
+      "spd40": 33,
+      "def40": 19,
+      "res40": 25,
+      "n_lock": 0,
+      "type": "C",
+      "weap": "GT",
+      "base_weap": 39,
+      "base_a": 27,
+      "base_b": 11,
+      "base_c": 38,
+      "base_proc": 18
     },
     "Gunter (Inveterate Soldier)": {
       "name": "Gunter (Inveterate Soldier)",
@@ -1534,7 +1556,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 329,
+      "base_weap": 330,
       "base_a": 1,
       "base_b": 0,
       "base_c": 31,
@@ -1556,9 +1578,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "L",
-      "base_weap": 218,
+      "base_weap": 219,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 16,
       "base_c": 29,
       "base_proc": 16
     },
@@ -1580,7 +1602,7 @@ var data = {
       "weap": "S",
       "base_weap": 7,
       "base_a": 37,
-      "base_b": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1600,7 +1622,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 216,
+      "base_weap": 217,
       "base_a": 14,
       "base_b": 0,
       "base_c": 50,
@@ -1644,9 +1666,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "GT",
-      "base_weap": 400,
+      "base_weap": 401,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 28,
       "base_c": 1,
       "base_proc": 40
     },
@@ -1666,9 +1688,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 279,
+      "base_weap": 280,
       "base_a": 17,
-      "base_b": 19,
+      "base_b": 20,
       "base_c": 0,
       "base_proc": 29
     },
@@ -1688,7 +1710,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 304,
+      "base_weap": 305,
       "base_a": 28,
       "base_b": 7,
       "base_c": 0,
@@ -1710,7 +1732,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 51,
+      "base_weap": 52,
       "base_a": 17,
       "base_b": 0,
       "base_c": 32,
@@ -1732,7 +1754,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 418,
+      "base_weap": 419,
       "base_a": 44,
       "base_b": 3,
       "base_c": 51,
@@ -1754,9 +1776,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 271,
+      "base_weap": 272,
       "base_a": 30,
-      "base_b": 45,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 2
     },
@@ -1776,9 +1798,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 90,
+      "base_weap": 91,
       "base_a": 0,
-      "base_b": 20,
+      "base_b": 21,
       "base_c": 30,
       "base_proc": 0
     },
@@ -1798,7 +1820,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 261,
+      "base_weap": 262,
       "base_a": 27,
       "base_b": 10,
       "base_c": 0,
@@ -1820,7 +1842,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 108,
+      "base_weap": 109,
       "base_a": 37,
       "base_b": 0,
       "base_c": 53,
@@ -1842,7 +1864,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 344,
+      "base_weap": 345,
       "base_a": 28,
       "base_b": 0,
       "base_c": 19,
@@ -1864,9 +1886,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "B",
-      "base_weap": 247,
+      "base_weap": 248,
       "base_a": 8,
-      "base_b": 48,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 29
     },
@@ -1886,9 +1908,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 339,
+      "base_weap": 340,
       "base_a": 15,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1908,9 +1930,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 268,
+      "base_weap": 269,
       "base_a": 0,
-      "base_b": 38,
+      "base_b": 39,
       "base_c": 46,
       "base_proc": 5
     },
@@ -1932,7 +1954,7 @@ var data = {
       "weap": "S",
       "base_weap": 16,
       "base_a": 12,
-      "base_b": 50,
+      "base_b": 51,
       "base_c": 0,
       "base_proc": 34
     },
@@ -1952,7 +1974,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 260,
+      "base_weap": 261,
       "base_a": 39,
       "base_b": 0,
       "base_c": 10,
@@ -1974,9 +1996,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 269,
+      "base_weap": 270,
       "base_a": 51,
-      "base_b": 12,
+      "base_b": 13,
       "base_c": 0,
       "base_proc": 40
     },
@@ -1996,9 +2018,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 422,
+      "base_weap": 423,
       "base_a": 16,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 0,
       "base_proc": 40
     },
@@ -2018,7 +2040,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 274,
+      "base_weap": 275,
       "base_a": 48,
       "base_b": 0,
       "base_c": 2,
@@ -2040,9 +2062,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 50,
+      "base_weap": 51,
       "base_a": 14,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 0,
       "base_proc": 18
     },
@@ -2084,7 +2106,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 349,
+      "base_weap": 350,
       "base_a": 0,
       "base_b": 1,
       "base_c": 33,
@@ -2106,9 +2128,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 221,
+      "base_weap": 222,
       "base_a": 28,
-      "base_b": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 40
     },
@@ -2128,9 +2150,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 411,
+      "base_weap": 412,
       "base_a": 0,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 2,
       "base_proc": 28
     },
@@ -2150,9 +2172,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "RT",
-      "base_weap": 54,
+      "base_weap": 55,
       "base_a": 0,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 39,
       "base_proc": 6
     },
@@ -2172,9 +2194,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 359,
+      "base_weap": 360,
       "base_a": 42,
-      "base_b": 22,
+      "base_b": 23,
       "base_c": 0,
       "base_proc": 29
     },
@@ -2194,7 +2216,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 44,
+      "base_weap": 45,
       "base_a": 6,
       "base_b": 0,
       "base_c": 42,
@@ -2238,7 +2260,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 181,
+      "base_weap": 182,
       "base_a": 0,
       "base_b": 5,
       "base_c": 18,
@@ -2260,9 +2282,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 158,
+      "base_weap": 159,
       "base_a": 0,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 31
     },
@@ -2282,9 +2304,9 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 286,
+      "base_weap": 287,
       "base_a": 0,
-      "base_b": 31,
+      "base_b": 32,
       "base_c": 50,
       "base_proc": 28
     },
@@ -2304,9 +2326,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 219,
+      "base_weap": 220,
       "base_a": 42,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 19
     },
@@ -2326,7 +2348,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 156,
+      "base_weap": 157,
       "base_a": 46,
       "base_b": 0,
       "base_c": 17,
@@ -2348,7 +2370,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 127,
+      "base_weap": 128,
       "base_a": 19,
       "base_b": 0,
       "base_c": 42,
@@ -2370,9 +2392,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 39,
+      "base_weap": 40,
       "base_a": 48,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
@@ -2392,7 +2414,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 262,
+      "base_weap": 263,
       "base_a": 31,
       "base_b": 0,
       "base_c": 0,
@@ -2414,9 +2436,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 218,
+      "base_weap": 219,
       "base_a": 26,
-      "base_b": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 46
     },
@@ -2436,7 +2458,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 24,
       "base_b": 0,
       "base_c": 36,
@@ -2458,7 +2480,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 421,
+      "base_weap": 422,
       "base_a": 33,
       "base_b": 0,
       "base_c": 38,
@@ -2480,9 +2502,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "B",
-      "base_weap": 252,
+      "base_weap": 253,
       "base_a": 48,
-      "base_b": 37,
+      "base_b": 38,
       "base_c": 3,
       "base_proc": 13
     },
@@ -2502,9 +2524,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 60,
+      "base_weap": 61,
       "base_a": 0,
-      "base_b": 13,
+      "base_b": 14,
       "base_c": 0,
       "base_proc": 50
     },
@@ -2524,7 +2546,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 394,
+      "base_weap": 395,
       "base_a": 16,
       "base_b": 0,
       "base_c": 46,
@@ -2548,7 +2570,7 @@ var data = {
       "weap": "BT",
       "base_weap": 26,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 7,
       "base_proc": 0
     },
@@ -2568,7 +2590,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 265,
+      "base_weap": 266,
       "base_a": 0,
       "base_b": 0,
       "base_c": 23,
@@ -2590,9 +2612,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 127,
+      "base_weap": 128,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 46,
       "base_proc": 0
     },
@@ -2612,7 +2634,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 127,
+      "base_weap": 128,
       "base_a": 0,
       "base_b": 0,
       "base_c": 0,
@@ -2634,7 +2656,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 293,
+      "base_weap": 294,
       "base_a": 0,
       "base_b": 10,
       "base_c": 30,
@@ -2656,9 +2678,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 299,
+      "base_weap": 300,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 33,
       "base_proc": 0
     },
@@ -2678,7 +2700,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 125,
+      "base_weap": 126,
       "base_a": 31,
       "base_b": 0,
       "base_c": 45,
@@ -2700,9 +2722,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 287,
+      "base_weap": 288,
       "base_a": 25,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 32
     },
@@ -2722,7 +2744,7 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "A",
-      "base_weap": 186,
+      "base_weap": 187,
       "base_a": 35,
       "base_b": 0,
       "base_c": 51,
@@ -2744,7 +2766,7 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "A",
-      "base_weap": 186,
+      "base_weap": 187,
       "base_a": 37,
       "base_b": 0,
       "base_c": 56,
@@ -2766,7 +2788,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 386,
+      "base_weap": 387,
       "base_a": 0,
       "base_b": 0,
       "base_c": 44,
@@ -2788,9 +2810,9 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "A",
-      "base_weap": 124,
+      "base_weap": 125,
       "base_a": 0,
-      "base_b": 25,
+      "base_b": 26,
       "base_c": 39,
       "base_proc": 51
     },
@@ -2810,9 +2832,9 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "S",
-      "base_weap": 219,
+      "base_weap": 220,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 53,
       "base_proc": 8
     },
@@ -2832,9 +2854,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 375,
+      "base_weap": 376,
       "base_a": 5,
-      "base_b": 52,
+      "base_b": 53,
       "base_c": 0,
       "base_proc": 34
     },
@@ -2854,7 +2876,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 217,
+      "base_weap": 218,
       "base_a": 51,
       "base_b": 0,
       "base_c": 45,
@@ -2876,9 +2898,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 227,
+      "base_weap": 228,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 21,
       "base_proc": 0
     },
@@ -2898,7 +2920,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 167,
+      "base_weap": 168,
       "base_a": 39,
       "base_b": 0,
       "base_c": 30,
@@ -2920,9 +2942,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "RT",
-      "base_weap": 166,
+      "base_weap": 167,
       "base_a": 4,
-      "base_b": 26,
+      "base_b": 27,
       "base_c": 32,
       "base_proc": 0
     },
@@ -2942,7 +2964,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 232,
+      "base_weap": 233,
       "base_a": 15,
       "base_b": 0,
       "base_c": 52,
@@ -2964,9 +2986,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 192,
+      "base_weap": 193,
       "base_a": 0,
-      "base_b": 41,
+      "base_b": 42,
       "base_c": 52,
       "base_proc": 0
     },
@@ -2988,7 +3010,7 @@ var data = {
       "weap": "BT",
       "base_weap": 25,
       "base_a": 16,
-      "base_b": 34,
+      "base_b": 35,
       "base_c": 0,
       "base_proc": 34
     },
@@ -3008,7 +3030,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 16,
       "base_b": 0,
       "base_c": 42,
@@ -3030,9 +3052,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 349,
+      "base_weap": 350,
       "base_a": 0,
-      "base_b": 24,
+      "base_b": 25,
       "base_c": 30,
       "base_proc": 0
     },
@@ -3052,7 +3074,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 85,
+      "base_weap": 86,
       "base_a": 21,
       "base_b": 4,
       "base_c": 0,
@@ -3074,7 +3096,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "BT",
-      "base_weap": 119,
+      "base_weap": 120,
       "base_a": 51,
       "base_b": 0,
       "base_c": 55,
@@ -3096,9 +3118,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 310,
+      "base_weap": 311,
       "base_a": 0,
-      "base_b": 25,
+      "base_b": 26,
       "base_c": 47,
       "base_proc": 0
     },
@@ -3118,9 +3140,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "S",
-      "base_weap": 304,
+      "base_weap": 305,
       "base_a": 0,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 27,
       "base_proc": 34
     },
@@ -3140,7 +3162,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 218,
+      "base_weap": 219,
       "base_a": 39,
       "base_b": 0,
       "base_c": 51,
@@ -3162,7 +3184,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "ST",
-      "base_weap": 265,
+      "base_weap": 266,
       "base_a": 0,
       "base_b": 0,
       "base_c": 43,
@@ -3184,9 +3206,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 280,
+      "base_weap": 281,
       "base_a": 31,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3206,7 +3228,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 49,
+      "base_weap": 50,
       "base_a": 19,
       "base_b": 0,
       "base_c": 51,
@@ -3228,9 +3250,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 334,
+      "base_weap": 335,
       "base_a": 13,
-      "base_b": 38,
+      "base_b": 39,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3250,9 +3272,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "BT",
-      "base_weap": 119,
+      "base_weap": 120,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 26,
       "base_proc": 7
     },
@@ -3272,7 +3294,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 204,
+      "base_weap": 205,
       "base_a": 21,
       "base_b": 0,
       "base_c": 39,
@@ -3294,7 +3316,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "L",
-      "base_weap": 410,
+      "base_weap": 411,
       "base_a": 10,
       "base_b": 0,
       "base_c": 1,
@@ -3338,7 +3360,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "GT",
-      "base_weap": 174,
+      "base_weap": 175,
       "base_a": 18,
       "base_b": 2,
       "base_c": 0,
@@ -3360,7 +3382,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 114,
+      "base_weap": 115,
       "base_a": 32,
       "base_b": 0,
       "base_c": 35,
@@ -3382,9 +3404,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 138,
+      "base_weap": 139,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 16,
       "base_c": 15,
       "base_proc": 0
     },
@@ -3406,7 +3428,7 @@ var data = {
       "weap": "S",
       "base_weap": 33,
       "base_a": 43,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 0,
       "base_proc": 17
     },
@@ -3428,7 +3450,7 @@ var data = {
       "weap": "S",
       "base_weap": 24,
       "base_a": 50,
-      "base_b": 41,
+      "base_b": 42,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3448,7 +3470,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 272,
+      "base_weap": 273,
       "base_a": 16,
       "base_b": 0,
       "base_c": 33,
@@ -3470,9 +3492,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 364,
+      "base_weap": 365,
       "base_a": 34,
-      "base_b": 44,
+      "base_b": 45,
       "base_c": 0,
       "base_proc": 1
     },
@@ -3492,9 +3514,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 389,
+      "base_weap": 390,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 46,
       "base_proc": 0
     },
@@ -3514,9 +3536,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "K",
-      "base_weap": 220,
+      "base_weap": 221,
       "base_a": 52,
-      "base_b": 22,
+      "base_b": 23,
       "base_c": 11,
       "base_proc": 18
     },
@@ -3536,7 +3558,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 128,
+      "base_weap": 129,
       "base_a": 0,
       "base_b": 0,
       "base_c": 20,
@@ -3558,7 +3580,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 84,
+      "base_weap": 85,
       "base_a": 50,
       "base_b": 0,
       "base_c": 30,
@@ -3602,7 +3624,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 416,
+      "base_weap": 417,
       "base_a": 31,
       "base_b": 7,
       "base_c": 0,
@@ -3646,9 +3668,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 304,
+      "base_weap": 305,
       "base_a": 26,
-      "base_b": 39,
+      "base_b": 40,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3690,9 +3712,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 218,
+      "base_weap": 219,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 53,
       "base_proc": 28
     },
@@ -3712,7 +3734,7 @@ var data = {
       "n_lock": 1,
       "type": "I",
       "weap": "L",
-      "base_weap": 136,
+      "base_weap": 137,
       "base_a": 42,
       "base_b": 0,
       "base_c": 20,
@@ -3734,7 +3756,7 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 216,
+      "base_weap": 217,
       "base_a": 47,
       "base_b": 0,
       "base_c": 18,
@@ -3756,9 +3778,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "BT",
-      "base_weap": 95,
+      "base_weap": 96,
       "base_a": 0,
-      "base_b": 21,
+      "base_b": 22,
       "base_c": 8,
       "base_proc": 0
     },
@@ -3778,7 +3800,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "L",
-      "base_weap": 53,
+      "base_weap": 54,
       "base_a": 45,
       "base_b": 0,
       "base_c": 13,
@@ -3800,7 +3822,7 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 107,
+      "base_weap": 108,
       "base_a": 14,
       "base_b": 0,
       "base_c": 4,
@@ -3822,9 +3844,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 121,
+      "base_weap": 122,
       "base_a": 12,
-      "base_b": 11,
+      "base_b": 12,
       "base_c": 41,
       "base_proc": 33
     },
@@ -3844,7 +3866,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "S",
-      "base_weap": 139,
+      "base_weap": 140,
       "base_a": 13,
       "base_b": 0,
       "base_c": 16,
@@ -3866,7 +3888,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 106,
+      "base_weap": 107,
       "base_a": 38,
       "base_b": 0,
       "base_c": 38,
@@ -3888,7 +3910,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "RT",
-      "base_weap": 131,
+      "base_weap": 132,
       "base_a": 51,
       "base_b": 0,
       "base_c": 23,
@@ -3910,9 +3932,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "GT",
-      "base_weap": 288,
+      "base_weap": 289,
       "base_a": 0,
-      "base_b": 49,
+      "base_b": 50,
       "base_c": 23,
       "base_proc": 24
     },
@@ -3932,9 +3954,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "S",
-      "base_weap": 304,
+      "base_weap": 305,
       "base_a": 15,
-      "base_b": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3954,9 +3976,9 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 310,
+      "base_weap": 311,
       "base_a": 39,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 0,
       "base_proc": 0
     },
@@ -3976,9 +3998,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 310,
+      "base_weap": 311,
       "base_a": 0,
-      "base_b": 45,
+      "base_b": 46,
       "base_c": 43,
       "base_proc": 0
     },
@@ -4020,7 +4042,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 150,
+      "base_weap": 151,
       "base_a": 11,
       "base_b": 0,
       "base_c": 53,
@@ -4042,33 +4064,11 @@ var data = {
       "n_lock": 0,
       "type": "F",
       "weap": "L",
-      "base_weap": 420,
+      "base_weap": 421,
       "base_a": 40,
       "base_b": 0,
       "base_c": 28,
       "base_proc": 34
-    },
-    "Tharja (Dark Shadow)": {
-      "name": "Tharja (Dark Shadow)",
-      "color": "R",
-      "hp_base": 17,
-      "atk_base": 8,
-      "spd_base": 8,
-      "def_base": 6,
-      "res_base": 5,
-      "hp40": 39,
-      "atk40": 32,
-      "spd40": 34,
-      "def40": 23,
-      "res40": 20,
-      "n_lock": 0,
-      "type": "I",
-      "weap": "RT",
-      "base_weap": 273,
-      "base_a": 13,
-      "base_b": 0,
-      "base_c": 45,
-      "base_proc": 51
     },
     "Tharja (\"Normal Girl\")": {
       "name": "Tharja (\"Normal Girl\")",
@@ -4086,11 +4086,33 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "RT",
-      "base_weap": 55,
+      "base_weap": 56,
       "base_a": 11,
-      "base_b": 47,
+      "base_b": 48,
       "base_c": 37,
       "base_proc": 28
+    },
+    "Tharja (Dark Shadow)": {
+      "name": "Tharja (Dark Shadow)",
+      "color": "R",
+      "hp_base": 17,
+      "atk_base": 8,
+      "spd_base": 8,
+      "def_base": 6,
+      "res_base": 5,
+      "hp40": 39,
+      "atk40": 32,
+      "spd40": 34,
+      "def40": 23,
+      "res40": 20,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "RT",
+      "base_weap": 274,
+      "base_a": 13,
+      "base_b": 0,
+      "base_c": 45,
+      "base_proc": 51
     },
     "Tiki (Dragon Scion)": {
       "name": "Tiki (Dragon Scion)",
@@ -4108,7 +4130,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 145,
+      "base_weap": 146,
       "base_a": 1,
       "base_b": 0,
       "base_c": 10,
@@ -4130,7 +4152,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "D",
-      "base_weap": 232,
+      "base_weap": 233,
       "base_a": 16,
       "base_b": 0,
       "base_c": 45,
@@ -4152,7 +4174,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 242,
+      "base_weap": 243,
       "base_a": 12,
       "base_b": 0,
       "base_c": 6,
@@ -4174,9 +4196,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "A",
-      "base_weap": 124,
+      "base_weap": 125,
       "base_a": 1,
-      "base_b": 22,
+      "base_b": 23,
       "base_c": 0,
       "base_proc": 0
     },
@@ -4198,7 +4220,7 @@ var data = {
       "weap": "S",
       "base_weap": 7,
       "base_a": 6,
-      "base_b": 43,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 0
     },
@@ -4240,7 +4262,7 @@ var data = {
       "n_lock": 1,
       "type": "F",
       "weap": "L",
-      "base_weap": 83,
+      "base_weap": 84,
       "base_a": 13,
       "base_b": 0,
       "base_c": 36,
@@ -4262,9 +4284,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "B",
-      "base_weap": 334,
+      "base_weap": 335,
       "base_a": 18,
-      "base_b": 43,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 3
     },
@@ -4284,9 +4306,9 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "ST",
-      "base_weap": 386,
+      "base_weap": 387,
       "base_a": 0,
-      "base_b": 28,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 25
     },
@@ -4306,7 +4328,7 @@ var data = {
       "n_lock": 1,
       "type": "C",
       "weap": "S",
-      "base_weap": 321,
+      "base_weap": 322,
       "base_a": 1,
       "base_b": 0,
       "base_c": 43,
@@ -4328,9 +4350,9 @@ var data = {
       "n_lock": 0,
       "type": "C",
       "weap": "L",
-      "base_weap": 68,
+      "base_weap": 69,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 28,
       "base_c": 20,
       "base_proc": 0
     },
@@ -4350,7 +4372,7 @@ var data = {
       "n_lock": 0,
       "type": "I",
       "weap": "A",
-      "base_weap": 237,
+      "base_weap": 238,
       "base_a": 24,
       "base_b": 0,
       "base_c": 34,
@@ -4372,9 +4394,9 @@ var data = {
       "n_lock": 1,
       "type": "A",
       "weap": "S",
-      "base_weap": 123,
+      "base_weap": 124,
       "base_a": 37,
-      "base_b": 48,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 40
     }
@@ -4446,6 +4468,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -4568,6 +4591,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -4690,6 +4714,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -4812,6 +4837,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -4934,6 +4960,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5056,6 +5083,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5178,6 +5206,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5300,6 +5329,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5422,6 +5452,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5544,6 +5575,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5666,6 +5698,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5788,6 +5821,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -5910,6 +5944,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6032,6 +6067,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6154,6 +6190,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6206,7 +6243,7 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 175,
+      "evolves_into": 176,
       "evolved_from": 0,
       "upgraded_from": 0
     },
@@ -6276,6 +6313,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6398,6 +6436,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6520,6 +6559,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6572,7 +6612,7 @@ var data = {
       "range": 2,
       "type": "BT",
       "char_lock": 1,
-      "evolves_into": 100,
+      "evolves_into": 101,
       "evolved_from": 0,
       "upgraded_from": 0
     },
@@ -6642,6 +6682,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6764,6 +6805,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -6886,6 +6928,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7008,6 +7051,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7130,6 +7174,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7252,6 +7297,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7374,6 +7420,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7496,6 +7543,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7618,6 +7666,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7740,6 +7789,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7862,6 +7912,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -7984,6 +8035,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8106,6 +8158,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8228,6 +8281,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8350,6 +8404,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8472,6 +8527,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8525,7 +8581,7 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 122,
+      "evolved_from": 123,
       "upgraded_from": 0
     },
     "34": {
@@ -8594,6 +8650,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8716,6 +8773,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8838,6 +8896,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -8960,6 +9019,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9082,6 +9142,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9140,6 +9201,129 @@ var data = {
     },
     "39": {
       "index": 39,
+      "name": "Blizzard",
+      "atk_boost_perm": 14,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 3,
+      "hp_boost_perm": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "full_breaker": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_def_bonus": 0,
+      "distant_res_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 1,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 2,
+      "type": "GT",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0
+    },
+    "40": {
+      "index": 40,
       "name": "Blue Egg+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -9204,6 +9388,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9260,8 +9445,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Blue Egg+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -9326,6 +9511,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9380,10 +9566,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 39
+      "upgraded_from": 40
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Blue Egg+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -9448,6 +9634,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9502,10 +9689,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 39
+      "upgraded_from": 40
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Blue Egg+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -9570,6 +9757,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9624,10 +9812,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 39
+      "upgraded_from": 40
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Blue Egg+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -9692,6 +9880,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9746,10 +9935,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 39
+      "upgraded_from": 40
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Bolganone+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -9814,6 +10003,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9870,8 +10060,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Bolganone+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -9936,6 +10126,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -9990,10 +10181,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 44
+      "upgraded_from": 45
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Bolganone+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -10058,6 +10249,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10112,10 +10304,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 44
+      "upgraded_from": 45
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Bolganone+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -10180,6 +10372,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10234,10 +10427,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 44
+      "upgraded_from": 45
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Bolganone+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -10302,6 +10495,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10356,10 +10550,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 44
+      "upgraded_from": 45
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Brave Axe+",
       "atk_boost_perm": 8,
       "spd_boost_perm": -5,
@@ -10424,6 +10618,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10480,8 +10675,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Brave Bow+",
       "atk_boost_perm": 7,
       "spd_boost_perm": -5,
@@ -10546,6 +10741,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10602,8 +10798,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Brave Lance+",
       "atk_boost_perm": 8,
       "spd_boost_perm": -5,
@@ -10668,6 +10864,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10724,8 +10921,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Brave Sword+",
       "atk_boost_perm": 8,
       "spd_boost_perm": -5,
@@ -10790,6 +10987,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10846,8 +11044,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Bright Naginata",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -10912,6 +11110,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -10968,8 +11167,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Brynhildr",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -11034,6 +11233,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11090,8 +11290,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Candelabra+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -11156,6 +11356,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11212,8 +11413,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Candelabra+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -11278,6 +11479,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11332,10 +11534,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 55
+      "upgraded_from": 56
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Candelabra+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -11400,6 +11602,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11454,10 +11657,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 55
+      "upgraded_from": 56
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Candelabra+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -11522,6 +11725,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11576,10 +11780,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 55
+      "upgraded_from": 56
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Candelabra+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -11644,6 +11848,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11698,10 +11903,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 55
+      "upgraded_from": 56
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Candlelight+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -11766,6 +11971,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11822,8 +12028,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Candlelight+ (Dazzling)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -11888,6 +12094,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -11942,10 +12149,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 60
+      "upgraded_from": 61
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Candlelight+ (Wrathful)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -12010,6 +12217,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12064,10 +12272,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 60
+      "upgraded_from": 61
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "name": "Carrot Axe+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -12132,6 +12340,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12188,8 +12397,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "64": {
-      "index": 64,
+    "65": {
+      "index": 65,
       "name": "Carrot Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -12254,6 +12463,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12308,10 +12518,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 63
+      "upgraded_from": 64
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "name": "Carrot Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -12376,6 +12586,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12430,10 +12641,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 63
+      "upgraded_from": 64
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "name": "Carrot Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -12498,6 +12709,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12552,10 +12764,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 63
+      "upgraded_from": 64
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "name": "Carrot Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -12620,6 +12832,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12674,10 +12887,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 63
+      "upgraded_from": 64
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "name": "Carrot Lance+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -12742,6 +12955,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12798,8 +13012,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "name": "Carrot Lance+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -12864,6 +13078,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -12918,10 +13133,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68
+      "upgraded_from": 69
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "name": "Carrot Lance+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -12986,6 +13201,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13040,10 +13256,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68
+      "upgraded_from": 69
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "name": "Carrot Lance+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -13108,6 +13324,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13162,10 +13379,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68
+      "upgraded_from": 69
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "name": "Carrot Lance+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -13230,6 +13447,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13284,10 +13502,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68
+      "upgraded_from": 69
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "name": "Clarisse's Bow+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -13352,6 +13570,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13408,8 +13627,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "name": "Clarisse's Bow+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -13474,6 +13693,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13528,10 +13748,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73
+      "upgraded_from": 74
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "name": "Clarisse's Bow+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -13596,6 +13816,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13650,10 +13871,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73
+      "upgraded_from": 74
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "name": "Clarisse's Bow+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -13718,6 +13939,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13772,10 +13994,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73
+      "upgraded_from": 74
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "name": "Clarisse's Bow+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -13840,6 +14062,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -13894,10 +14117,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73
+      "upgraded_from": 74
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
       "name": "Cupid Arrow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -13962,6 +14185,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14018,8 +14242,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "79": {
-      "index": 79,
+    "80": {
+      "index": 80,
       "name": "Cupid Arrow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -14084,6 +14308,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14138,10 +14363,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 78
+      "upgraded_from": 79
     },
-    "80": {
-      "index": 80,
+    "81": {
+      "index": 81,
       "name": "Cupid Arrow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14206,6 +14431,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14260,10 +14486,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 78
+      "upgraded_from": 79
     },
-    "81": {
-      "index": 81,
+    "82": {
+      "index": 82,
       "name": "Cupid Arrow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -14328,6 +14554,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14382,10 +14609,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 78
+      "upgraded_from": 79
     },
-    "82": {
-      "index": 82,
+    "83": {
+      "index": 83,
       "name": "Cupid Arrow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -14450,6 +14677,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14504,10 +14732,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 78
+      "upgraded_from": 79
     },
-    "83": {
-      "index": 83,
+    "84": {
+      "index": 84,
       "name": "Cursed Lance",
       "atk_boost_perm": 18,
       "spd_boost_perm": 2,
@@ -14572,6 +14800,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14628,8 +14857,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "84": {
-      "index": 84,
+    "85": {
+      "index": 85,
       "name": "Cymbeline",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -14694,6 +14923,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14750,8 +14980,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "name": "Dancer's Fan+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -14816,6 +15046,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14872,8 +15103,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "name": "Dancer's Fan+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -14938,6 +15169,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -14992,10 +15224,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 85
+      "upgraded_from": 86
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "name": "Dancer's Fan+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15060,6 +15292,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15114,10 +15347,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 85
+      "upgraded_from": 86
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "name": "Dancer's Fan+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15182,6 +15415,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15236,10 +15470,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 85
+      "upgraded_from": 86
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "name": "Dancer's Fan+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -15304,6 +15538,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15358,10 +15593,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 85
+      "upgraded_from": 86
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "name": "Dancer's Ring+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15426,6 +15661,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15482,8 +15718,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "name": "Dancer's Ring+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -15548,6 +15784,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15602,10 +15839,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 90
+      "upgraded_from": 91
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "name": "Dancer's Ring+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15670,6 +15907,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15724,10 +15962,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 90
+      "upgraded_from": 91
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "name": "Dancer's Ring+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -15792,6 +16030,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15846,10 +16085,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 90
+      "upgraded_from": 91
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "name": "Dancer's Ring+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -15914,6 +16153,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -15968,10 +16208,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 90
+      "upgraded_from": 91
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "name": "Dancer's Score+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -16036,6 +16276,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16092,8 +16333,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "name": "Dancer's Score+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -16158,6 +16399,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16212,10 +16454,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "name": "Dancer's Score+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -16280,6 +16522,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16334,10 +16577,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "name": "Dancer's Score+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -16402,6 +16645,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16456,10 +16700,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "name": "Dancer's Score+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -16524,6 +16768,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16578,10 +16823,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 95
+      "upgraded_from": 96
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "name": "Dark Aura",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -16646,6 +16891,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16699,11 +16945,11 @@ var data = {
       "type": "BT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 100,
+      "evolved_from": 101,
       "upgraded_from": 0
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
       "name": "Dark Breath+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -16768,6 +17014,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16824,8 +17071,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "102": {
-      "index": 102,
+    "103": {
+      "index": 103,
       "name": "Dark Breath+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -16890,6 +17137,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -16944,10 +17192,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 102
     },
-    "103": {
-      "index": 103,
+    "104": {
+      "index": 104,
       "name": "Dark Breath+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17012,6 +17260,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17066,10 +17315,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 102
     },
-    "104": {
-      "index": 104,
+    "105": {
+      "index": 105,
       "name": "Dark Breath+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17134,6 +17383,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17188,10 +17438,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 102
     },
-    "105": {
-      "index": 105,
+    "106": {
+      "index": 106,
       "name": "Dark Breath+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -17256,6 +17506,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17310,10 +17561,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 101
+      "upgraded_from": 102
     },
-    "106": {
-      "index": 106,
+    "107": {
+      "index": 107,
       "name": "Dark Excalibur",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17378,6 +17629,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17431,11 +17683,11 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 125,
+      "evolved_from": 126,
       "upgraded_from": 0
     },
-    "107": {
-      "index": 107,
+    "108": {
+      "index": 108,
       "name": "Dark Greatsword",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -17500,6 +17752,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17556,8 +17809,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "108": {
-      "index": 108,
+    "109": {
+      "index": 109,
       "name": "Deathly Dagger",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -17622,6 +17875,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17678,8 +17932,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "109": {
-      "index": 109,
+    "110": {
+      "index": 110,
       "name": "Deathly Dagger (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -17744,6 +17998,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17798,10 +18053,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108
+      "upgraded_from": 109
     },
-    "110": {
-      "index": 110,
+    "111": {
+      "index": 111,
       "name": "Deathly Dagger (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17866,6 +18121,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -17920,10 +18176,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108
+      "upgraded_from": 109
     },
-    "111": {
-      "index": 111,
+    "112": {
+      "index": 112,
       "name": "Deathly Dagger (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -17988,6 +18244,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18042,10 +18299,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108
+      "upgraded_from": 109
     },
-    "112": {
-      "index": 112,
+    "113": {
+      "index": 113,
       "name": "Deathly Dagger (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -18110,6 +18367,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18164,10 +18422,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108
+      "upgraded_from": 109
     },
-    "113": {
-      "index": 113,
+    "114": {
+      "index": 114,
       "name": "Deathly Dagger (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -18232,6 +18490,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18286,10 +18545,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108
+      "upgraded_from": 109
     },
-    "114": {
-      "index": 114,
+    "115": {
+      "index": 115,
       "name": "Deft Harpoon+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -18354,6 +18613,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18410,8 +18670,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "115": {
-      "index": 115,
+    "116": {
+      "index": 116,
       "name": "Deft Harpoon+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -18476,6 +18736,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18530,10 +18791,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 114
+      "upgraded_from": 115
     },
-    "116": {
-      "index": 116,
+    "117": {
+      "index": 117,
       "name": "Deft Harpoon+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -18598,6 +18859,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18652,10 +18914,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 114
+      "upgraded_from": 115
     },
-    "117": {
-      "index": 117,
+    "118": {
+      "index": 118,
       "name": "Deft Harpoon+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -18720,6 +18982,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18774,10 +19037,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 114
+      "upgraded_from": 115
     },
-    "118": {
-      "index": 118,
+    "119": {
+      "index": 119,
       "name": "Deft Harpoon+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -18842,6 +19105,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -18896,10 +19160,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 114
+      "upgraded_from": 115
     },
-    "119": {
-      "index": 119,
+    "120": {
+      "index": 120,
       "name": "Dire Thunder",
       "atk_boost_perm": 9,
       "spd_boost_perm": -5,
@@ -18964,6 +19228,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19020,8 +19285,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "120": {
-      "index": 120,
+    "121": {
+      "index": 121,
       "name": "Divine Naga",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -19086,6 +19351,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19139,11 +19405,11 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 260,
+      "evolved_from": 261,
       "upgraded_from": 0
     },
-    "121": {
-      "index": 121,
+    "122": {
+      "index": 122,
       "name": "Divine Tyrfing",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19208,6 +19474,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19261,11 +19528,11 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 416,
+      "evolved_from": 417,
       "upgraded_from": 0
     },
-    "122": {
-      "index": 122,
+    "123": {
+      "index": 123,
       "name": "Durandal",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19330,6 +19597,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19386,8 +19654,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "123": {
-      "index": 123,
+    "124": {
+      "index": 124,
       "name": "Eckesachs",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19452,6 +19720,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19508,8 +19777,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "124": {
-      "index": 124,
+    "125": {
+      "index": 125,
       "name": "Emerald Axe+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -19574,6 +19843,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19630,8 +19900,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "125": {
-      "index": 125,
+    "126": {
+      "index": 126,
       "name": "Excalibur",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -19696,6 +19966,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19748,12 +20019,12 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 106,
+      "evolves_into": 107,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "126": {
-      "index": 126,
+    "127": {
+      "index": 127,
       "name": "F\xF3lkvangr",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19818,6 +20089,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19874,8 +20146,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "127": {
-      "index": 127,
+    "128": {
+      "index": 128,
       "name": "Falchion",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -19940,6 +20212,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -19996,8 +20269,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "128": {
-      "index": 128,
+    "129": {
+      "index": 129,
       "name": "Fear+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -20062,6 +20335,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20118,8 +20392,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "129": {
-      "index": 129,
+    "130": {
+      "index": 130,
       "name": "Fear+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -20184,6 +20458,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20238,10 +20513,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 128
+      "upgraded_from": 129
     },
-    "130": {
-      "index": 130,
+    "131": {
+      "index": 131,
       "name": "Fear+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -20306,6 +20581,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20360,10 +20636,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 128
+      "upgraded_from": 129
     },
-    "131": {
-      "index": 131,
+    "132": {
+      "index": 132,
       "name": "Fenrir+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -20428,6 +20704,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20484,8 +20761,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "132": {
-      "index": 132,
+    "133": {
+      "index": 133,
       "name": "Fenrir+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -20550,6 +20827,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20604,10 +20882,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131
+      "upgraded_from": 132
     },
-    "133": {
-      "index": 133,
+    "134": {
+      "index": 134,
       "name": "Fenrir+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -20672,6 +20950,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20726,10 +21005,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131
+      "upgraded_from": 132
     },
-    "134": {
-      "index": 134,
+    "135": {
+      "index": 135,
       "name": "Fenrir+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -20794,6 +21073,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20848,10 +21128,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131
+      "upgraded_from": 132
     },
-    "135": {
-      "index": 135,
+    "136": {
+      "index": 136,
       "name": "Fenrir+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -20916,6 +21196,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -20970,10 +21251,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131
+      "upgraded_from": 132
     },
-    "136": {
-      "index": 136,
+    "137": {
+      "index": 137,
       "name": "Fensalir",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -21038,6 +21319,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -21094,8 +21376,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "137": {
-      "index": 137,
+    "138": {
+      "index": 138,
       "name": "Firesweep Bow+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -21160,6 +21442,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 1,
       "negate_srd_counter": 1,
       "negate_lnc_counter": 1,
@@ -21216,8 +21499,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "138": {
-      "index": 138,
+    "139": {
+      "index": 139,
       "name": "Firesweep L+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -21282,6 +21565,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 1,
       "negate_srd_counter": 1,
       "negate_lnc_counter": 1,
@@ -21338,8 +21622,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "139": {
-      "index": 139,
+    "140": {
+      "index": 140,
       "name": "Firesweep S+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -21404,6 +21688,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 1,
       "negate_srd_counter": 1,
       "negate_lnc_counter": 1,
@@ -21460,8 +21745,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "140": {
-      "index": 140,
+    "141": {
+      "index": 141,
       "name": "First Bite+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21526,6 +21811,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -21582,8 +21868,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "141": {
-      "index": 141,
+    "142": {
+      "index": 142,
       "name": "First Bite+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -21648,6 +21934,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -21702,10 +21989,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 140
+      "upgraded_from": 141
     },
-    "142": {
-      "index": 142,
+    "143": {
+      "index": 143,
       "name": "First Bite+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21770,6 +22057,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -21824,10 +22112,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 140
+      "upgraded_from": 141
     },
-    "143": {
-      "index": 143,
+    "144": {
+      "index": 144,
       "name": "First Bite+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -21892,6 +22180,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -21946,10 +22235,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 140
+      "upgraded_from": 141
     },
-    "144": {
-      "index": 144,
+    "145": {
+      "index": 145,
       "name": "First Bite+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -22014,6 +22303,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22068,10 +22358,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 140
+      "upgraded_from": 141
     },
-    "145": {
-      "index": 145,
+    "146": {
+      "index": 146,
       "name": "Flametongue+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -22136,6 +22426,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22192,8 +22483,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "146": {
-      "index": 146,
+    "147": {
+      "index": 147,
       "name": "Flametongue+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -22258,6 +22549,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22312,10 +22604,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 145
+      "upgraded_from": 146
     },
-    "147": {
-      "index": 147,
+    "148": {
+      "index": 148,
       "name": "Flametongue+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -22380,6 +22672,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22434,10 +22727,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 145
+      "upgraded_from": 146
     },
-    "148": {
-      "index": 148,
+    "149": {
+      "index": 149,
       "name": "Flametongue+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -22502,6 +22795,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22556,10 +22850,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 145
+      "upgraded_from": 146
     },
-    "149": {
-      "index": 149,
+    "150": {
+      "index": 150,
       "name": "Flametongue+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -22624,6 +22918,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22678,10 +22973,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 145
+      "upgraded_from": 146
     },
-    "150": {
-      "index": 150,
+    "151": {
+      "index": 151,
       "name": "Fujin Yumi",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -22746,6 +23041,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22802,8 +23098,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "151": {
-      "index": 151,
+    "152": {
+      "index": 152,
       "name": "Fujin Yumi (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -22868,6 +23164,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -22922,10 +23219,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 151
     },
-    "152": {
-      "index": 152,
+    "153": {
+      "index": 153,
       "name": "Fujin Yumi (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -22990,6 +23287,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23044,10 +23342,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 151
     },
-    "153": {
-      "index": 153,
+    "154": {
+      "index": 154,
       "name": "Fujin Yumi (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -23112,6 +23410,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23166,10 +23465,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 151
     },
-    "154": {
-      "index": 154,
+    "155": {
+      "index": 155,
       "name": "Fujin Yumi (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -23234,6 +23533,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23288,10 +23588,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 151
     },
-    "155": {
-      "index": 155,
+    "156": {
+      "index": 156,
       "name": "Fujin Yumi (Spd)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 2,
@@ -23356,6 +23656,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23410,10 +23711,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 150
+      "upgraded_from": 151
     },
-    "156": {
-      "index": 156,
+    "157": {
+      "index": 157,
       "name": "Geirsk\xF6gul",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -23478,6 +23779,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23534,8 +23836,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "157": {
-      "index": 157,
+    "158": {
+      "index": 158,
       "name": "Gradivus",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -23600,6 +23902,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23656,8 +23959,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "158": {
-      "index": 158,
+    "159": {
+      "index": 159,
       "name": "Gravity+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -23722,6 +24025,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23778,8 +24082,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "159": {
-      "index": 159,
+    "160": {
+      "index": 160,
       "name": "Gravity+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -23844,6 +24148,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -23898,10 +24203,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 158
+      "upgraded_from": 159
     },
-    "160": {
-      "index": 160,
+    "161": {
+      "index": 161,
       "name": "Gravity+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -23966,6 +24271,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24020,10 +24326,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 158
+      "upgraded_from": 159
     },
-    "161": {
-      "index": 161,
+    "162": {
+      "index": 162,
       "name": "Green Egg+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -24088,6 +24394,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24144,8 +24451,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "162": {
-      "index": 162,
+    "163": {
+      "index": 163,
       "name": "Green Egg+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -24210,6 +24517,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24264,10 +24572,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161
+      "upgraded_from": 162
     },
-    "163": {
-      "index": 163,
+    "164": {
+      "index": 164,
       "name": "Green Egg+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24332,6 +24640,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24386,10 +24695,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161
+      "upgraded_from": 162
     },
-    "164": {
-      "index": 164,
+    "165": {
+      "index": 165,
       "name": "Green Egg+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -24454,6 +24763,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24508,10 +24818,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161
+      "upgraded_from": 162
     },
-    "165": {
-      "index": 165,
+    "166": {
+      "index": 166,
       "name": "Green Egg+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -24576,6 +24886,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24630,10 +24941,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161
+      "upgraded_from": 162
     },
-    "166": {
-      "index": 166,
+    "167": {
+      "index": 167,
       "name": "Grimoire",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -24698,6 +25009,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24754,8 +25066,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "167": {
-      "index": 167,
+    "168": {
+      "index": 168,
       "name": "Gronnblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -24820,6 +25132,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24876,8 +25189,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "168": {
-      "index": 168,
+    "169": {
+      "index": 169,
       "name": "Gronnowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -24942,6 +25255,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -24998,8 +25312,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "169": {
-      "index": 169,
+    "170": {
+      "index": 170,
       "name": "Gronnowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -25064,6 +25378,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25118,10 +25433,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 168
+      "upgraded_from": 169
     },
-    "170": {
-      "index": 170,
+    "171": {
+      "index": 171,
       "name": "Gronnowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -25186,6 +25501,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25240,10 +25556,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 168
+      "upgraded_from": 169
     },
-    "171": {
-      "index": 171,
+    "172": {
+      "index": 172,
       "name": "Gronnowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -25308,6 +25624,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25362,10 +25679,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 168
+      "upgraded_from": 169
     },
-    "172": {
-      "index": 172,
+    "173": {
+      "index": 173,
       "name": "Gronnowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -25430,6 +25747,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25484,10 +25802,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 168
+      "upgraded_from": 169
     },
-    "173": {
-      "index": 173,
+    "174": {
+      "index": 174,
       "name": "Gronnraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -25552,6 +25870,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25608,8 +25927,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "174": {
-      "index": 174,
+    "175": {
+      "index": 175,
       "name": "Gronnwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -25674,6 +25993,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25730,8 +26050,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "175": {
-      "index": 175,
+    "176": {
+      "index": 176,
       "name": "Guard Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -25796,6 +26116,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25852,8 +26173,8 @@ var data = {
       "evolved_from": 14,
       "upgraded_from": 0
     },
-    "176": {
-      "index": 176,
+    "177": {
+      "index": 177,
       "name": "Guard Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -25918,6 +26239,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -25972,10 +26294,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 175
+      "upgraded_from": 176
     },
-    "177": {
-      "index": 177,
+    "178": {
+      "index": 178,
       "name": "Guard Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26040,6 +26362,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26094,10 +26417,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 175
+      "upgraded_from": 176
     },
-    "178": {
-      "index": 178,
+    "179": {
+      "index": 179,
       "name": "Guard Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26162,6 +26485,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26216,10 +26540,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 175
+      "upgraded_from": 176
     },
-    "179": {
-      "index": 179,
+    "180": {
+      "index": 180,
       "name": "Guard Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -26284,6 +26608,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26338,10 +26663,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 175
+      "upgraded_from": 176
     },
-    "180": {
-      "index": 180,
+    "181": {
+      "index": 181,
       "name": "Hammer+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -26406,6 +26731,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26458,12 +26784,12 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 369,
+      "evolves_into": 370,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "181": {
-      "index": 181,
+    "182": {
+      "index": 182,
       "name": "Handbell+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -26528,6 +26854,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26584,8 +26911,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "182": {
-      "index": 182,
+    "183": {
+      "index": 183,
       "name": "Handbell+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -26650,6 +26977,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26704,10 +27032,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 181
+      "upgraded_from": 182
     },
-    "183": {
-      "index": 183,
+    "184": {
+      "index": 184,
       "name": "Handbell+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -26772,6 +27100,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26826,10 +27155,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 181
+      "upgraded_from": 182
     },
-    "184": {
-      "index": 184,
+    "185": {
+      "index": 185,
       "name": "Handbell+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -26894,6 +27223,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -26948,10 +27278,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 181
+      "upgraded_from": 182
     },
-    "185": {
-      "index": 185,
+    "186": {
+      "index": 186,
       "name": "Handbell+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -27016,6 +27346,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27070,10 +27401,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 181
+      "upgraded_from": 182
     },
-    "186": {
-      "index": 186,
+    "187": {
+      "index": 187,
       "name": "Hauteclere",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -27138,6 +27469,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27194,8 +27526,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "187": {
-      "index": 187,
+    "188": {
+      "index": 188,
       "name": "Hauteclere (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -27260,6 +27592,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27314,10 +27647,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 186
+      "upgraded_from": 187
     },
-    "188": {
-      "index": 188,
+    "189": {
+      "index": 189,
       "name": "Hauteclere (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -27382,6 +27715,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27436,10 +27770,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 186
+      "upgraded_from": 187
     },
-    "189": {
-      "index": 189,
+    "190": {
+      "index": 190,
       "name": "Hauteclere (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -27504,6 +27838,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27558,10 +27893,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 186
+      "upgraded_from": 187
     },
-    "190": {
-      "index": 190,
+    "191": {
+      "index": 191,
       "name": "Hauteclere (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -27626,6 +27961,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27680,10 +28016,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 186
+      "upgraded_from": 187
     },
-    "191": {
-      "index": 191,
+    "192": {
+      "index": 192,
       "name": "Hauteclere (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -27748,6 +28084,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27802,10 +28139,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 186
+      "upgraded_from": 187
     },
-    "192": {
-      "index": 192,
+    "193": {
+      "index": 193,
       "name": "Heavy Spear+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27870,6 +28207,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -27922,12 +28260,12 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 380,
+      "evolves_into": 381,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "193": {
-      "index": 193,
+    "194": {
+      "index": 194,
       "name": "Hibiscus Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -27992,6 +28330,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28048,8 +28387,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "194": {
-      "index": 194,
+    "195": {
+      "index": 195,
       "name": "Hibiscus Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -28114,6 +28453,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28168,10 +28508,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 193
+      "upgraded_from": 194
     },
-    "195": {
-      "index": 195,
+    "196": {
+      "index": 196,
       "name": "Hibiscus Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28236,6 +28576,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28290,10 +28631,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 193
+      "upgraded_from": 194
     },
-    "196": {
-      "index": 196,
+    "197": {
+      "index": 197,
       "name": "Hibiscus Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28358,6 +28699,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28412,10 +28754,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 193
+      "upgraded_from": 194
     },
-    "197": {
-      "index": 197,
+    "198": {
+      "index": 198,
       "name": "Hibiscus Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -28480,6 +28822,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28534,10 +28877,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 193
+      "upgraded_from": 194
     },
-    "198": {
-      "index": 198,
+    "199": {
+      "index": 199,
       "name": "Keen Bl\xE1rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28602,6 +28945,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28658,8 +29002,8 @@ var data = {
       "evolved_from": 32,
       "upgraded_from": 0
     },
-    "199": {
-      "index": 199,
+    "200": {
+      "index": 200,
       "name": "Keen Bl\xE1rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -28724,6 +29068,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28778,10 +29123,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 198
+      "upgraded_from": 199
     },
-    "200": {
-      "index": 200,
+    "201": {
+      "index": 201,
       "name": "Keen Bl\xE1rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28846,6 +29191,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -28900,10 +29246,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 198
+      "upgraded_from": 199
     },
-    "201": {
-      "index": 201,
+    "202": {
+      "index": 202,
       "name": "Keen Bl\xE1rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -28968,6 +29314,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29022,10 +29369,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 198
+      "upgraded_from": 199
     },
-    "202": {
-      "index": 202,
+    "203": {
+      "index": 203,
       "name": "Keen Bl\xE1rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -29090,6 +29437,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29144,10 +29492,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 198
+      "upgraded_from": 199
     },
-    "203": {
-      "index": 203,
+    "204": {
+      "index": 204,
       "name": "Keen Bl\xE1rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -29212,6 +29560,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29266,10 +29615,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 198
+      "upgraded_from": 199
     },
-    "204": {
-      "index": 204,
+    "205": {
+      "index": 205,
       "name": "Keen Gronnwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -29334,6 +29683,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29387,11 +29737,11 @@ var data = {
       "type": "GT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 174,
+      "evolved_from": 175,
       "upgraded_from": 0
     },
-    "205": {
-      "index": 205,
+    "206": {
+      "index": 206,
       "name": "Keen Gronnwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -29456,6 +29806,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29510,10 +29861,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 204
+      "upgraded_from": 205
     },
-    "206": {
-      "index": 206,
+    "207": {
+      "index": 207,
       "name": "Keen Gronnwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -29578,6 +29929,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29632,10 +29984,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 204
+      "upgraded_from": 205
     },
-    "207": {
-      "index": 207,
+    "208": {
+      "index": 208,
       "name": "Keen Gronnwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -29700,6 +30052,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29754,10 +30107,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 204
+      "upgraded_from": 205
     },
-    "208": {
-      "index": 208,
+    "209": {
+      "index": 209,
       "name": "Keen Gronnwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -29822,6 +30175,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29876,10 +30230,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 204
+      "upgraded_from": 205
     },
-    "209": {
-      "index": 209,
+    "210": {
+      "index": 210,
       "name": "Keen Gronnwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -29944,6 +30298,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -29998,10 +30353,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 204
+      "upgraded_from": 205
     },
-    "210": {
-      "index": 210,
+    "211": {
+      "index": 211,
       "name": "Keen Rau\xF0rwolf+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30066,6 +30421,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30119,11 +30475,11 @@ var data = {
       "type": "RT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 280,
+      "evolved_from": 281,
       "upgraded_from": 0
     },
-    "211": {
-      "index": 211,
+    "212": {
+      "index": 212,
       "name": "Keen Rau\xF0rwolf+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -30188,6 +30544,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30242,10 +30599,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210
+      "upgraded_from": 211
     },
-    "212": {
-      "index": 212,
+    "213": {
+      "index": 213,
       "name": "Keen Rau\xF0rwolf+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30310,6 +30667,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30364,10 +30722,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210
+      "upgraded_from": 211
     },
-    "213": {
-      "index": 213,
+    "214": {
+      "index": 214,
       "name": "Keen Rau\xF0rwolf+ (Eff)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30432,6 +30790,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30486,10 +30845,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210
+      "upgraded_from": 211
     },
-    "214": {
-      "index": 214,
+    "215": {
+      "index": 215,
       "name": "Keen Rau\xF0rwolf+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -30554,6 +30913,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30608,10 +30968,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210
+      "upgraded_from": 211
     },
-    "215": {
-      "index": 215,
+    "216": {
+      "index": 216,
       "name": "Keen Rau\xF0rwolf+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -30676,6 +31036,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30730,10 +31091,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210
+      "upgraded_from": 211
     },
-    "216": {
-      "index": 216,
+    "217": {
+      "index": 217,
       "name": "Killer Axe+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -30798,6 +31159,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30850,12 +31212,12 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 354,
+      "evolves_into": 355,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "217": {
-      "index": 217,
+    "218": {
+      "index": 218,
       "name": "Killer Bow+",
       "atk_boost_perm": 9,
       "spd_boost_perm": 0,
@@ -30920,6 +31282,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -30972,12 +31335,12 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 359,
+      "evolves_into": 360,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "218": {
-      "index": 218,
+    "219": {
+      "index": 219,
       "name": "Killer Lance+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -31042,6 +31405,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31094,12 +31458,12 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 375,
+      "evolves_into": 376,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "219": {
-      "index": 219,
+    "220": {
+      "index": 220,
       "name": "Killing Edge+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -31164,6 +31528,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31216,12 +31581,12 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 0,
-      "evolves_into": 364,
+      "evolves_into": 365,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "220": {
-      "index": 220,
+    "221": {
+      "index": 221,
       "name": "Kitty Paddle+",
       "atk_boost_perm": 8,
       "spd_boost_perm": 0,
@@ -31286,6 +31651,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31342,8 +31708,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "221": {
-      "index": 221,
+    "222": {
+      "index": 222,
       "name": "Legion's Axe+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31408,6 +31774,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31464,8 +31831,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "222": {
-      "index": 222,
+    "223": {
+      "index": 223,
       "name": "Legion's Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -31530,6 +31897,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31584,10 +31952,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 221
+      "upgraded_from": 222
     },
-    "223": {
-      "index": 223,
+    "224": {
+      "index": 224,
       "name": "Legion's Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31652,6 +32020,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31706,10 +32075,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 221
+      "upgraded_from": 222
     },
-    "224": {
-      "index": 224,
+    "225": {
+      "index": 225,
       "name": "Legion's Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -31774,6 +32143,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31828,10 +32198,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 221
+      "upgraded_from": 222
     },
-    "225": {
-      "index": 225,
+    "226": {
+      "index": 226,
       "name": "Legion's Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -31896,6 +32266,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -31950,10 +32321,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 221
+      "upgraded_from": 222
     },
-    "226": {
-      "index": 226,
+    "227": {
+      "index": 227,
       "name": "Leiptr",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -32018,6 +32389,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32074,8 +32446,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "227": {
-      "index": 227,
+    "228": {
+      "index": 228,
       "name": "Light Breath+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -32140,6 +32512,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32196,8 +32569,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "228": {
-      "index": 228,
+    "229": {
+      "index": 229,
       "name": "Light Breath+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -32262,6 +32635,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32316,10 +32690,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 227
+      "upgraded_from": 228
     },
-    "229": {
-      "index": 229,
+    "230": {
+      "index": 230,
       "name": "Light Breath+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -32384,6 +32758,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32438,10 +32813,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 227
+      "upgraded_from": 228
     },
-    "230": {
-      "index": 230,
+    "231": {
+      "index": 231,
       "name": "Light Breath+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -32506,6 +32881,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32560,10 +32936,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 227
+      "upgraded_from": 228
     },
-    "231": {
-      "index": 231,
+    "232": {
+      "index": 232,
       "name": "Light Breath+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -32628,6 +33004,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32682,10 +33059,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 227
+      "upgraded_from": 228
     },
-    "232": {
-      "index": 232,
+    "233": {
+      "index": 233,
       "name": "Lightning Breath+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -32750,6 +33127,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32806,8 +33184,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "233": {
-      "index": 233,
+    "234": {
+      "index": 234,
       "name": "Lightning Breath+ (Atk)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -32872,6 +33250,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -32926,10 +33305,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 232
+      "upgraded_from": 233
     },
-    "234": {
-      "index": 234,
+    "235": {
+      "index": 235,
       "name": "Lightning Breath+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -32994,6 +33373,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33048,10 +33428,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 232
+      "upgraded_from": 233
     },
-    "235": {
-      "index": 235,
+    "236": {
+      "index": 236,
       "name": "Lightning Breath+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -33116,6 +33496,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33170,10 +33551,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 232
+      "upgraded_from": 233
     },
-    "236": {
-      "index": 236,
+    "237": {
+      "index": 237,
       "name": "Lightning Breath+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 3,
@@ -33238,6 +33619,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 1,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33292,10 +33674,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 232
+      "upgraded_from": 233
     },
-    "237": {
-      "index": 237,
+    "238": {
+      "index": 238,
       "name": "Lilith Floatie+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33360,6 +33742,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33416,8 +33799,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "238": {
-      "index": 238,
+    "239": {
+      "index": 239,
       "name": "Lilith Floatie+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -33482,6 +33865,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33536,10 +33920,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 237
+      "upgraded_from": 238
     },
-    "239": {
-      "index": 239,
+    "240": {
+      "index": 240,
       "name": "Lilith Floatie+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33604,6 +33988,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33658,10 +34043,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 237
+      "upgraded_from": 238
     },
-    "240": {
-      "index": 240,
+    "241": {
+      "index": 241,
       "name": "Lilith Floatie+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33726,6 +34111,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33780,10 +34166,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 237
+      "upgraded_from": 238
     },
-    "241": {
-      "index": 241,
+    "242": {
+      "index": 242,
       "name": "Lilith Floatie+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -33848,6 +34234,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -33902,10 +34289,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 237
+      "upgraded_from": 238
     },
-    "242": {
-      "index": 242,
+    "243": {
+      "index": 243,
       "name": "Melon Crusher+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -33970,6 +34357,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34026,8 +34414,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "243": {
-      "index": 243,
+    "244": {
+      "index": 244,
       "name": "Melon Crusher+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -34092,6 +34480,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34146,10 +34535,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 242
+      "upgraded_from": 243
     },
-    "244": {
-      "index": 244,
+    "245": {
+      "index": 245,
       "name": "Melon Crusher+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -34214,6 +34603,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34268,10 +34658,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 242
+      "upgraded_from": 243
     },
-    "245": {
-      "index": 245,
+    "246": {
+      "index": 246,
       "name": "Melon Crusher+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -34336,6 +34726,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34390,10 +34781,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 242
+      "upgraded_from": 243
     },
-    "246": {
-      "index": 246,
+    "247": {
+      "index": 247,
       "name": "Melon Crusher+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -34458,6 +34849,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34512,10 +34904,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 242
+      "upgraded_from": 243
     },
-    "247": {
-      "index": 247,
+    "248": {
+      "index": 248,
       "name": "Monstrous Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -34580,6 +34972,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34636,8 +35029,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "248": {
-      "index": 248,
+    "249": {
+      "index": 249,
       "name": "Monstrous Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -34702,6 +35095,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34756,10 +35150,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 247
+      "upgraded_from": 248
     },
-    "249": {
-      "index": 249,
+    "250": {
+      "index": 250,
       "name": "Monstrous Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -34824,6 +35218,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -34878,10 +35273,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 247
+      "upgraded_from": 248
     },
-    "250": {
-      "index": 250,
+    "251": {
+      "index": 251,
       "name": "Monstrous Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -34946,6 +35341,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35000,10 +35396,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 247
+      "upgraded_from": 248
     },
-    "251": {
-      "index": 251,
+    "252": {
+      "index": 252,
       "name": "Monstrous Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -35068,6 +35464,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35122,10 +35519,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 247
+      "upgraded_from": 248
     },
-    "252": {
-      "index": 252,
+    "253": {
+      "index": 253,
       "name": "Mulagir",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -35190,6 +35587,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35246,8 +35644,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "253": {
-      "index": 253,
+    "254": {
+      "index": 254,
       "name": "Mystletainn",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -35312,6 +35710,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35368,8 +35767,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "254": {
-      "index": 254,
+    "255": {
+      "index": 255,
       "name": "Mystletainn (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -35434,6 +35833,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35488,10 +35888,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 253
+      "upgraded_from": 254
     },
-    "255": {
-      "index": 255,
+    "256": {
+      "index": 256,
       "name": "Mystletainn (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -35556,6 +35956,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35610,10 +36011,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 253
+      "upgraded_from": 254
     },
-    "256": {
-      "index": 256,
+    "257": {
+      "index": 257,
       "name": "Mystletainn (Eff)",
       "atk_boost_perm": 19,
       "spd_boost_perm": 3,
@@ -35678,6 +36079,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35732,10 +36134,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 253
+      "upgraded_from": 254
     },
-    "257": {
-      "index": 257,
+    "258": {
+      "index": 258,
       "name": "Mystletainn (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -35800,6 +36202,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35854,10 +36257,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 253
+      "upgraded_from": 254
     },
-    "258": {
-      "index": 258,
+    "259": {
+      "index": 259,
       "name": "Mystletainn (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -35922,6 +36325,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -35976,10 +36380,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 253
+      "upgraded_from": 254
     },
-    "259": {
-      "index": 259,
+    "260": {
+      "index": 260,
       "name": "N\xF3at\xFAn",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -36044,6 +36448,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36100,8 +36505,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "260": {
-      "index": 260,
+    "261": {
+      "index": 261,
       "name": "Naga",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -36166,6 +36571,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36218,12 +36624,12 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 120,
+      "evolves_into": 121,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "261": {
-      "index": 261,
+    "262": {
+      "index": 262,
       "name": "Nidhogg",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -36288,6 +36694,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36344,8 +36751,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "262": {
-      "index": 262,
+    "263": {
+      "index": 263,
       "name": "Pain+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -36410,6 +36817,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36466,8 +36874,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "263": {
-      "index": 263,
+    "264": {
+      "index": 264,
       "name": "Pain+ (Dazzling)",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -36532,6 +36940,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36586,10 +36995,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 262
+      "upgraded_from": 263
     },
-    "264": {
-      "index": 264,
+    "265": {
+      "index": 265,
       "name": "Pain+ (Wrathful)",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -36654,6 +37063,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36708,10 +37118,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 262
+      "upgraded_from": 263
     },
-    "265": {
-      "index": 265,
+    "266": {
+      "index": 266,
       "name": "Panic+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -36776,6 +37186,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36832,8 +37243,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "266": {
-      "index": 266,
+    "267": {
+      "index": 267,
       "name": "Panic+ (Dazzling)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -36898,6 +37309,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -36952,10 +37364,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 265
+      "upgraded_from": 266
     },
-    "267": {
-      "index": 267,
+    "268": {
+      "index": 268,
       "name": "Panic+ (Wrathful)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -37020,6 +37432,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37074,10 +37487,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 265
+      "upgraded_from": 266
     },
-    "268": {
-      "index": 268,
+    "269": {
+      "index": 269,
       "name": "Parthia",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -37142,6 +37555,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37198,8 +37612,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "269": {
-      "index": 269,
+    "270": {
+      "index": 270,
       "name": "Poison Dagger+",
       "atk_boost_perm": 5,
       "spd_boost_perm": 0,
@@ -37264,6 +37678,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37320,8 +37735,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "270": {
-      "index": 270,
+    "271": {
+      "index": 271,
       "name": "Ragnarok",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -37386,6 +37801,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37442,8 +37858,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "271": {
-      "index": 271,
+    "272": {
+      "index": 272,
       "name": "Ragnell",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -37508,6 +37924,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37564,8 +37981,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "272": {
-      "index": 272,
+    "273": {
+      "index": 273,
       "name": "Raijinto",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -37630,6 +38047,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37686,8 +38104,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "273": {
-      "index": 273,
+    "274": {
+      "index": 274,
       "name": "Rau\xF0rblade+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -37752,6 +38170,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37808,8 +38227,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "274": {
-      "index": 274,
+    "275": {
+      "index": 275,
       "name": "Rau\xF0rowl+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -37874,6 +38293,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -37930,8 +38350,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "275": {
-      "index": 275,
+    "276": {
+      "index": 276,
       "name": "Rau\xF0rowl+ (Atk)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -37996,6 +38416,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38050,10 +38471,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 274
+      "upgraded_from": 275
     },
-    "276": {
-      "index": 276,
+    "277": {
+      "index": 277,
       "name": "Rau\xF0rowl+ (Def)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -38118,6 +38539,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38172,10 +38594,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 274
+      "upgraded_from": 275
     },
-    "277": {
-      "index": 277,
+    "278": {
+      "index": 278,
       "name": "Rau\xF0rowl+ (Res)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -38240,6 +38662,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38294,10 +38717,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 274
+      "upgraded_from": 275
     },
-    "278": {
-      "index": 278,
+    "279": {
+      "index": 279,
       "name": "Rau\xF0rowl+ (Spd)",
       "atk_boost_perm": 11,
       "spd_boost_perm": 2,
@@ -38362,6 +38785,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38416,10 +38840,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 274
+      "upgraded_from": 275
     },
-    "279": {
-      "index": 279,
+    "280": {
+      "index": 280,
       "name": "Rau\xF0rraven+",
       "atk_boost_perm": 11,
       "spd_boost_perm": 0,
@@ -38484,6 +38908,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38540,8 +38965,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "280": {
-      "index": 280,
+    "281": {
+      "index": 281,
       "name": "Rau\xF0rwolf+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -38606,6 +39031,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38658,12 +39084,12 @@ var data = {
       "range": 2,
       "type": "RT",
       "char_lock": 0,
-      "evolves_into": 210,
+      "evolves_into": 211,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "281": {
-      "index": 281,
+    "282": {
+      "index": 282,
       "name": "Refreshing Bolt+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -38728,6 +39154,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38784,8 +39211,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "282": {
-      "index": 282,
+    "283": {
+      "index": 283,
       "name": "Refreshing Bolt+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -38850,6 +39277,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -38904,10 +39332,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 281
+      "upgraded_from": 282
     },
-    "283": {
-      "index": 283,
+    "284": {
+      "index": 284,
       "name": "Refreshing Bolt+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -38972,6 +39400,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39026,10 +39455,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 281
+      "upgraded_from": 282
     },
-    "284": {
-      "index": 284,
+    "285": {
+      "index": 285,
       "name": "Refreshing Bolt+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -39094,6 +39523,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39148,10 +39578,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 281
+      "upgraded_from": 282
     },
-    "285": {
-      "index": 285,
+    "286": {
+      "index": 286,
       "name": "Refreshing Bolt+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -39216,6 +39646,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39270,10 +39701,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 281
+      "upgraded_from": 282
     },
-    "286": {
-      "index": 286,
+    "287": {
+      "index": 287,
       "name": "Regal Blade",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -39338,6 +39769,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39394,8 +39826,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "287": {
-      "index": 287,
+    "288": {
+      "index": 288,
       "name": "Resolute Blade",
       "atk_boost_perm": 19,
       "spd_boost_perm": 0,
@@ -39460,6 +39892,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39516,8 +39949,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "288": {
-      "index": 288,
+    "289": {
+      "index": 289,
       "name": "Rexcalibur+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -39582,6 +40015,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39638,8 +40072,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "289": {
-      "index": 289,
+    "290": {
+      "index": 290,
       "name": "Rexcalibur+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -39704,6 +40138,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39758,10 +40193,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288
+      "upgraded_from": 289
     },
-    "290": {
-      "index": 290,
+    "291": {
+      "index": 291,
       "name": "Rexcalibur+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -39826,6 +40261,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -39880,10 +40316,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288
+      "upgraded_from": 289
     },
-    "291": {
-      "index": 291,
+    "292": {
+      "index": 292,
       "name": "Rexcalibur+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -39948,6 +40384,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40002,10 +40439,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288
+      "upgraded_from": 289
     },
-    "292": {
-      "index": 292,
+    "293": {
+      "index": 293,
       "name": "Rexcalibur+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -40070,6 +40507,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40124,10 +40562,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288
+      "upgraded_from": 289
     },
-    "293": {
-      "index": 293,
+    "294": {
+      "index": 294,
       "name": "Ridersbane+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -40192,6 +40630,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40248,8 +40687,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "294": {
-      "index": 294,
+    "295": {
+      "index": 295,
       "name": "Ridersbane+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -40314,6 +40753,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40368,10 +40808,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 294
     },
-    "295": {
-      "index": 295,
+    "296": {
+      "index": 296,
       "name": "Ridersbane+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -40436,6 +40876,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40490,10 +40931,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 294
     },
-    "296": {
-      "index": 296,
+    "297": {
+      "index": 297,
       "name": "Ridersbane+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -40558,6 +40999,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40612,10 +41054,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 294
     },
-    "297": {
-      "index": 297,
+    "298": {
+      "index": 298,
       "name": "Ridersbane+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -40680,6 +41122,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40734,10 +41177,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 294
     },
-    "298": {
-      "index": 298,
+    "299": {
+      "index": 299,
       "name": "Ridersbane+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -40802,6 +41245,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40856,10 +41300,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 293
+      "upgraded_from": 294
     },
-    "299": {
-      "index": 299,
+    "300": {
+      "index": 300,
       "name": "Rogue Dagger+",
       "atk_boost_perm": 7,
       "spd_boost_perm": 0,
@@ -40924,6 +41368,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -40980,8 +41425,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "300": {
-      "index": 300,
+    "301": {
+      "index": 301,
       "name": "Rogue Dagger+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -41046,6 +41491,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41100,10 +41546,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 299
+      "upgraded_from": 300
     },
-    "301": {
-      "index": 301,
+    "302": {
+      "index": 302,
       "name": "Rogue Dagger+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -41168,6 +41614,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41222,10 +41669,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 299
+      "upgraded_from": 300
     },
-    "302": {
-      "index": 302,
+    "303": {
+      "index": 303,
       "name": "Rogue Dagger+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -41290,6 +41737,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41344,10 +41792,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 299
+      "upgraded_from": 300
     },
-    "303": {
-      "index": 303,
+    "304": {
+      "index": 304,
       "name": "Rogue Dagger+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -41412,6 +41860,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41466,10 +41915,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 299
+      "upgraded_from": 300
     },
-    "304": {
-      "index": 304,
+    "305": {
+      "index": 305,
       "name": "Ruby Sword+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -41534,6 +41983,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41590,8 +42040,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "305": {
-      "index": 305,
+    "306": {
+      "index": 306,
       "name": "Sack o' Gifts (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -41656,6 +42106,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41710,10 +42161,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 307
+      "upgraded_from": 308
     },
-    "306": {
-      "index": 306,
+    "307": {
+      "index": 307,
       "name": "Sack o' Gifts (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -41778,6 +42229,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41832,10 +42284,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 307
+      "upgraded_from": 308
     },
-    "307": {
-      "index": 307,
+    "308": {
+      "index": 308,
       "name": "Sack o' Gifts+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -41900,6 +42352,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -41956,8 +42409,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "308": {
-      "index": 308,
+    "309": {
+      "index": 309,
       "name": "Sack o' Gifts+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -42022,6 +42475,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42076,10 +42530,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 307
+      "upgraded_from": 308
     },
-    "309": {
-      "index": 309,
+    "310": {
+      "index": 310,
       "name": "Sack o' Gifts+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -42144,6 +42598,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42198,10 +42653,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 307
+      "upgraded_from": 308
     },
-    "310": {
-      "index": 310,
+    "311": {
+      "index": 311,
       "name": "Sapphire Lance+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -42266,6 +42721,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42322,8 +42778,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "311": {
-      "index": 311,
+    "312": {
+      "index": 312,
       "name": "Sealife Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -42388,6 +42844,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42444,8 +42901,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "312": {
-      "index": 312,
+    "313": {
+      "index": 313,
       "name": "Sealife Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -42510,6 +42967,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42564,10 +43022,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 312
     },
-    "313": {
-      "index": 313,
+    "314": {
+      "index": 314,
       "name": "Sealife Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -42632,6 +43090,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42686,10 +43145,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 312
     },
-    "314": {
-      "index": 314,
+    "315": {
+      "index": 315,
       "name": "Sealife Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -42754,6 +43213,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42808,10 +43268,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 312
     },
-    "315": {
-      "index": 315,
+    "316": {
+      "index": 316,
       "name": "Sealife Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -42876,6 +43336,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -42930,10 +43391,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311
+      "upgraded_from": 312
     },
-    "316": {
-      "index": 316,
+    "317": {
+      "index": 317,
       "name": "Seashell+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -42998,6 +43459,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43054,8 +43516,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "317": {
-      "index": 317,
+    "318": {
+      "index": 318,
       "name": "Seashell+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -43120,6 +43582,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43174,10 +43637,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 317
     },
-    "318": {
-      "index": 318,
+    "319": {
+      "index": 319,
       "name": "Seashell+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -43242,6 +43705,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43296,10 +43760,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 317
     },
-    "319": {
-      "index": 319,
+    "320": {
+      "index": 320,
       "name": "Seashell+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -43364,6 +43828,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43418,10 +43883,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 317
     },
-    "320": {
-      "index": 320,
+    "321": {
+      "index": 321,
       "name": "Seashell+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -43486,6 +43951,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43540,10 +44006,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 316
+      "upgraded_from": 317
     },
-    "321": {
-      "index": 321,
+    "322": {
+      "index": 322,
       "name": "Siegfried",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -43608,6 +44074,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43664,8 +44131,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "322": {
-      "index": 322,
+    "323": {
+      "index": 323,
       "name": "Sieglinde",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -43730,6 +44197,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43786,8 +44254,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "323": {
-      "index": 323,
+    "324": {
+      "index": 324,
       "name": "Siegmund",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -43852,6 +44320,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -43908,8 +44377,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "324": {
-      "index": 324,
+    "325": {
+      "index": 325,
       "name": "Siegmund (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -43974,6 +44443,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44028,10 +44498,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 323
+      "upgraded_from": 324
     },
-    "325": {
-      "index": 325,
+    "326": {
+      "index": 326,
       "name": "Siegmund (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44096,6 +44566,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44150,10 +44621,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 323
+      "upgraded_from": 324
     },
-    "326": {
-      "index": 326,
+    "327": {
+      "index": 327,
       "name": "Siegmund (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44218,6 +44689,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44272,10 +44744,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 323
+      "upgraded_from": 324
     },
-    "327": {
-      "index": 327,
+    "328": {
+      "index": 328,
       "name": "Siegmund (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44340,6 +44812,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44394,10 +44867,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 323
+      "upgraded_from": 324
     },
-    "328": {
-      "index": 328,
+    "329": {
+      "index": 329,
       "name": "Siegmund (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -44462,6 +44935,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44516,10 +44990,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 323
+      "upgraded_from": 324
     },
-    "329": {
-      "index": 329,
+    "330": {
+      "index": 330,
       "name": "Silver Axe+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -44584,6 +45058,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44640,8 +45115,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "330": {
-      "index": 330,
+    "331": {
+      "index": 331,
       "name": "Silver Axe+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -44706,6 +45181,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44760,10 +45236,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 329
+      "upgraded_from": 330
     },
-    "331": {
-      "index": 331,
+    "332": {
+      "index": 332,
       "name": "Silver Axe+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44828,6 +45304,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -44882,10 +45359,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 329
+      "upgraded_from": 330
     },
-    "332": {
-      "index": 332,
+    "333": {
+      "index": 333,
       "name": "Silver Axe+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -44950,6 +45427,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45004,10 +45482,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 329
+      "upgraded_from": 330
     },
-    "333": {
-      "index": 333,
+    "334": {
+      "index": 334,
       "name": "Silver Axe+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -45072,6 +45550,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45126,10 +45605,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 329
+      "upgraded_from": 330
     },
-    "334": {
-      "index": 334,
+    "335": {
+      "index": 335,
       "name": "Silver Bow+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -45194,6 +45673,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45250,8 +45730,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "335": {
-      "index": 335,
+    "336": {
+      "index": 336,
       "name": "Silver Bow+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -45316,6 +45796,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45370,10 +45851,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 334
+      "upgraded_from": 335
     },
-    "336": {
-      "index": 336,
+    "337": {
+      "index": 337,
       "name": "Silver Bow+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -45438,6 +45919,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45492,10 +45974,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 334
+      "upgraded_from": 335
     },
-    "337": {
-      "index": 337,
+    "338": {
+      "index": 338,
       "name": "Silver Bow+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -45560,6 +46042,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45614,10 +46097,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 334
+      "upgraded_from": 335
     },
-    "338": {
-      "index": 338,
+    "339": {
+      "index": 339,
       "name": "Silver Bow+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -45682,6 +46165,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45736,10 +46220,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 334
+      "upgraded_from": 335
     },
-    "339": {
-      "index": 339,
+    "340": {
+      "index": 340,
       "name": "Silver Dagger+",
       "atk_boost_perm": 10,
       "spd_boost_perm": 0,
@@ -45804,6 +46288,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45860,8 +46345,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "340": {
-      "index": 340,
+    "341": {
+      "index": 341,
       "name": "Silver Dagger+ (Atk)",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -45926,6 +46411,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -45980,10 +46466,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 339
+      "upgraded_from": 340
     },
-    "341": {
-      "index": 341,
+    "342": {
+      "index": 342,
       "name": "Silver Dagger+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46048,6 +46534,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46102,10 +46589,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 339
+      "upgraded_from": 340
     },
-    "342": {
-      "index": 342,
+    "343": {
+      "index": 343,
       "name": "Silver Dagger+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -46170,6 +46657,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46224,10 +46712,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 339
+      "upgraded_from": 340
     },
-    "343": {
-      "index": 343,
+    "344": {
+      "index": 344,
       "name": "Silver Dagger+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 2,
@@ -46292,6 +46780,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46346,10 +46835,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 339
+      "upgraded_from": 340
     },
-    "344": {
-      "index": 344,
+    "345": {
+      "index": 345,
       "name": "Silver Lance+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -46414,6 +46903,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46470,8 +46960,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "345": {
-      "index": 345,
+    "346": {
+      "index": 346,
       "name": "Silver Lance+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -46536,6 +47026,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46590,10 +47081,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 344
+      "upgraded_from": 345
     },
-    "346": {
-      "index": 346,
+    "347": {
+      "index": 347,
       "name": "Silver Lance+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -46658,6 +47149,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46712,10 +47204,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 344
+      "upgraded_from": 345
     },
-    "347": {
-      "index": 347,
+    "348": {
+      "index": 348,
       "name": "Silver Lance+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -46780,6 +47272,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46834,10 +47327,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 344
+      "upgraded_from": 345
     },
-    "348": {
-      "index": 348,
+    "349": {
+      "index": 349,
       "name": "Silver Lance+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -46902,6 +47395,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -46956,10 +47450,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 344
+      "upgraded_from": 345
     },
-    "349": {
-      "index": 349,
+    "350": {
+      "index": 350,
       "name": "Silver Sword+",
       "atk_boost_perm": 15,
       "spd_boost_perm": 0,
@@ -47024,6 +47518,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47080,8 +47575,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "350": {
-      "index": 350,
+    "351": {
+      "index": 351,
       "name": "Silver Sword+ (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -47146,6 +47641,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47200,10 +47696,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 349
+      "upgraded_from": 350
     },
-    "351": {
-      "index": 351,
+    "352": {
+      "index": 352,
       "name": "Silver Sword+ (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -47268,6 +47764,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47322,10 +47819,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 349
+      "upgraded_from": 350
     },
-    "352": {
-      "index": 352,
+    "353": {
+      "index": 353,
       "name": "Silver Sword+ (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -47390,6 +47887,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47444,10 +47942,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 349
+      "upgraded_from": 350
     },
-    "353": {
-      "index": 353,
+    "354": {
+      "index": 354,
       "name": "Silver Sword+ (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -47512,6 +48010,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47566,10 +48065,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 349
+      "upgraded_from": 350
     },
-    "354": {
-      "index": 354,
+    "355": {
+      "index": 355,
       "name": "Slaying Axe+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47634,6 +48133,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47687,11 +48187,11 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 216,
+      "evolved_from": 217,
       "upgraded_from": 0
     },
-    "355": {
-      "index": 355,
+    "356": {
+      "index": 356,
       "name": "Slaying Axe+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -47756,6 +48256,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47810,10 +48311,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 354
+      "upgraded_from": 355
     },
-    "356": {
-      "index": 356,
+    "357": {
+      "index": 357,
       "name": "Slaying Axe+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -47878,6 +48379,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -47932,10 +48434,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 354
+      "upgraded_from": 355
     },
-    "357": {
-      "index": 357,
+    "358": {
+      "index": 358,
       "name": "Slaying Axe+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -48000,6 +48502,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48054,10 +48557,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 354
+      "upgraded_from": 355
     },
-    "358": {
-      "index": 358,
+    "359": {
+      "index": 359,
       "name": "Slaying Axe+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -48122,6 +48625,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48176,10 +48680,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 354
+      "upgraded_from": 355
     },
-    "359": {
-      "index": 359,
+    "360": {
+      "index": 360,
       "name": "Slaying Bow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48244,6 +48748,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48297,11 +48802,11 @@ var data = {
       "type": "B",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 217,
+      "evolved_from": 218,
       "upgraded_from": 0
     },
-    "360": {
-      "index": 360,
+    "361": {
+      "index": 361,
       "name": "Slaying Bow+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -48366,6 +48871,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48420,10 +48926,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359
+      "upgraded_from": 360
     },
-    "361": {
-      "index": 361,
+    "362": {
+      "index": 362,
       "name": "Slaying Bow+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48488,6 +48994,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48542,10 +49049,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359
+      "upgraded_from": 360
     },
-    "362": {
-      "index": 362,
+    "363": {
+      "index": 363,
       "name": "Slaying Bow+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -48610,6 +49117,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48664,10 +49172,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359
+      "upgraded_from": 360
     },
-    "363": {
-      "index": 363,
+    "364": {
+      "index": 364,
       "name": "Slaying Bow+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -48732,6 +49240,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48786,10 +49295,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359
+      "upgraded_from": 360
     },
-    "364": {
-      "index": 364,
+    "365": {
+      "index": 365,
       "name": "Slaying Edge+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -48854,6 +49363,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -48907,11 +49417,11 @@ var data = {
       "type": "S",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 219,
+      "evolved_from": 220,
       "upgraded_from": 0
     },
-    "365": {
-      "index": 365,
+    "366": {
+      "index": 366,
       "name": "Slaying Edge+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -48976,6 +49486,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49030,10 +49541,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 364
+      "upgraded_from": 365
     },
-    "366": {
-      "index": 366,
+    "367": {
+      "index": 367,
       "name": "Slaying Edge+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49098,6 +49609,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49152,10 +49664,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 364
+      "upgraded_from": 365
     },
-    "367": {
-      "index": 367,
+    "368": {
+      "index": 368,
       "name": "Slaying Edge+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49220,6 +49732,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49274,10 +49787,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 364
+      "upgraded_from": 365
     },
-    "368": {
-      "index": 368,
+    "369": {
+      "index": 369,
       "name": "Slaying Edge+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -49342,6 +49855,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49396,10 +49910,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 364
+      "upgraded_from": 365
     },
-    "369": {
-      "index": 369,
+    "370": {
+      "index": 370,
       "name": "Slaying Hammer+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49464,6 +49978,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49517,11 +50032,11 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 180,
+      "evolved_from": 181,
       "upgraded_from": 0
     },
-    "370": {
-      "index": 370,
+    "371": {
+      "index": 371,
       "name": "Slaying Hammer+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -49586,6 +50101,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49640,10 +50156,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 369
+      "upgraded_from": 370
     },
-    "371": {
-      "index": 371,
+    "372": {
+      "index": 372,
       "name": "Slaying Hammer+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49708,6 +50224,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49762,10 +50279,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 369
+      "upgraded_from": 370
     },
-    "372": {
-      "index": 372,
+    "373": {
+      "index": 373,
       "name": "Slaying Hammer+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49830,6 +50347,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -49884,10 +50402,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 369
+      "upgraded_from": 370
     },
-    "373": {
-      "index": 373,
+    "374": {
+      "index": 374,
       "name": "Slaying Hammer+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -49952,6 +50470,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50006,10 +50525,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 369
+      "upgraded_from": 370
     },
-    "374": {
-      "index": 374,
+    "375": {
+      "index": 375,
       "name": "Slaying Hammer+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -50074,6 +50593,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50128,10 +50648,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 369
+      "upgraded_from": 370
     },
-    "375": {
-      "index": 375,
+    "376": {
+      "index": 376,
       "name": "Slaying Lance+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -50196,6 +50716,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50249,11 +50770,11 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 218,
+      "evolved_from": 219,
       "upgraded_from": 0
     },
-    "376": {
-      "index": 376,
+    "377": {
+      "index": 377,
       "name": "Slaying Lance+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -50318,6 +50839,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50372,10 +50894,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 375
+      "upgraded_from": 376
     },
-    "377": {
-      "index": 377,
+    "378": {
+      "index": 378,
       "name": "Slaying Lance+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -50440,6 +50962,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50494,10 +51017,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 375
+      "upgraded_from": 376
     },
-    "378": {
-      "index": 378,
+    "379": {
+      "index": 379,
       "name": "Slaying Lance+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -50562,6 +51085,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50616,10 +51140,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 375
+      "upgraded_from": 376
     },
-    "379": {
-      "index": 379,
+    "380": {
+      "index": 380,
       "name": "Slaying Lance+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -50684,6 +51208,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50738,10 +51263,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 375
+      "upgraded_from": 376
     },
-    "380": {
-      "index": 380,
+    "381": {
+      "index": 381,
       "name": "Slaying Spear+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -50806,6 +51331,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50859,11 +51385,11 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 192,
+      "evolved_from": 193,
       "upgraded_from": 0
     },
-    "381": {
-      "index": 381,
+    "382": {
+      "index": 382,
       "name": "Slaying Spear+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -50928,6 +51454,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -50982,10 +51509,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 380
+      "upgraded_from": 381
     },
-    "382": {
-      "index": 382,
+    "383": {
+      "index": 383,
       "name": "Slaying Spear+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -51050,6 +51577,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51104,10 +51632,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 380
+      "upgraded_from": 381
     },
-    "383": {
-      "index": 383,
+    "384": {
+      "index": 384,
       "name": "Slaying Spear+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -51172,6 +51700,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51226,10 +51755,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 380
+      "upgraded_from": 381
     },
-    "384": {
-      "index": 384,
+    "385": {
+      "index": 385,
       "name": "Slaying Spear+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -51294,6 +51823,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51348,10 +51878,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 380
+      "upgraded_from": 381
     },
-    "385": {
-      "index": 385,
+    "386": {
+      "index": 386,
       "name": "Slaying Spear+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -51416,6 +51946,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51470,10 +52001,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 380
+      "upgraded_from": 381
     },
-    "386": {
-      "index": 386,
+    "387": {
+      "index": 387,
       "name": "Slow+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -51538,6 +52069,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51594,8 +52126,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "387": {
-      "index": 387,
+    "388": {
+      "index": 388,
       "name": "Slow+ (Dazzling)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -51660,6 +52192,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": -1,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51714,10 +52247,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 386
+      "upgraded_from": 387
     },
-    "388": {
-      "index": 388,
+    "389": {
+      "index": 389,
       "name": "Slow+ (Wrathful)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -51782,6 +52315,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": -1,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51836,10 +52370,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 386
+      "upgraded_from": 387
     },
-    "389": {
-      "index": 389,
+    "390": {
+      "index": 390,
       "name": "Smoke Dagger+",
       "atk_boost_perm": 9,
       "spd_boost_perm": 0,
@@ -51904,6 +52438,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -51960,8 +52495,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "390": {
-      "index": 390,
+    "391": {
+      "index": 391,
       "name": "Smoke Dagger+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -52026,6 +52561,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52080,10 +52616,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 389
+      "upgraded_from": 390
     },
-    "391": {
-      "index": 391,
+    "392": {
+      "index": 392,
       "name": "Smoke Dagger+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -52148,6 +52684,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52202,10 +52739,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 389
+      "upgraded_from": 390
     },
-    "392": {
-      "index": 392,
+    "393": {
+      "index": 393,
       "name": "Smoke Dagger+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -52270,6 +52807,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52324,10 +52862,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 389
+      "upgraded_from": 390
     },
-    "393": {
-      "index": 393,
+    "394": {
+      "index": 394,
       "name": "Smoke Dagger+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -52392,6 +52930,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52446,10 +52985,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 389
+      "upgraded_from": 390
     },
-    "394": {
-      "index": 394,
+    "395": {
+      "index": 395,
       "name": "Sol Katti",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52514,6 +53053,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52570,8 +53110,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "395": {
-      "index": 395,
+    "396": {
+      "index": 396,
       "name": "Sol Katti (Atk)",
       "atk_boost_perm": 18,
       "spd_boost_perm": 0,
@@ -52636,6 +53176,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52690,10 +53231,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 394
+      "upgraded_from": 395
     },
-    "396": {
-      "index": 396,
+    "397": {
+      "index": 397,
       "name": "Sol Katti (Def)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52758,6 +53299,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52812,10 +53354,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 394
+      "upgraded_from": 395
     },
-    "397": {
-      "index": 397,
+    "398": {
+      "index": 398,
       "name": "Sol Katti (Eff)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -52880,6 +53422,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -52934,10 +53477,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 394
+      "upgraded_from": 395
     },
-    "398": {
-      "index": 398,
+    "399": {
+      "index": 399,
       "name": "Sol Katti (Res)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -53002,6 +53545,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53056,10 +53600,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 394
+      "upgraded_from": 395
     },
-    "399": {
-      "index": 399,
+    "400": {
+      "index": 400,
       "name": "Sol Katti (Spd)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 3,
@@ -53124,6 +53668,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53178,10 +53723,10 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 394
+      "upgraded_from": 395
     },
-    "400": {
-      "index": 400,
+    "401": {
+      "index": 401,
       "name": "Spectral Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -53246,6 +53791,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53302,8 +53848,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "401": {
-      "index": 401,
+    "402": {
+      "index": 402,
       "name": "Spectral Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -53368,6 +53914,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53422,10 +53969,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 400
+      "upgraded_from": 401
     },
-    "402": {
-      "index": 402,
+    "403": {
+      "index": 403,
       "name": "Spectral Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -53490,6 +54037,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53544,10 +54092,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 400
+      "upgraded_from": 401
     },
-    "403": {
-      "index": 403,
+    "404": {
+      "index": 404,
       "name": "Spectral Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -53612,6 +54160,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53666,10 +54215,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 400
+      "upgraded_from": 401
     },
-    "404": {
-      "index": 404,
+    "405": {
+      "index": 405,
       "name": "Spectral Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -53734,6 +54283,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53788,10 +54338,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 400
+      "upgraded_from": 401
     },
-    "405": {
-      "index": 405,
+    "406": {
+      "index": 406,
       "name": "Stout Tomahawk",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -53856,6 +54406,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -53912,8 +54463,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "406": {
-      "index": 406,
+    "407": {
+      "index": 407,
       "name": "Tannenboom!+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -53978,6 +54529,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54034,8 +54586,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "407": {
-      "index": 407,
+    "408": {
+      "index": 408,
       "name": "Tannenboom!+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -54100,6 +54652,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54154,10 +54707,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 406
+      "upgraded_from": 407
     },
-    "408": {
-      "index": 408,
+    "409": {
+      "index": 409,
       "name": "Tannenboom!+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -54222,6 +54775,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54276,10 +54830,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 406
+      "upgraded_from": 407
     },
-    "409": {
-      "index": 409,
+    "410": {
+      "index": 410,
       "name": "Tannenboom!+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -54344,6 +54898,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54398,10 +54953,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 406
+      "upgraded_from": 407
     },
-    "410": {
-      "index": 410,
+    "411": {
+      "index": 411,
       "name": "Tannenboom!+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -54466,6 +55021,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54520,10 +55076,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 406
+      "upgraded_from": 407
     },
-    "411": {
-      "index": 411,
+    "412": {
+      "index": 412,
       "name": "Tomato Tome+",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -54588,6 +55144,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54644,8 +55201,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "412": {
-      "index": 412,
+    "413": {
+      "index": 413,
       "name": "Tomato Tome+ (Atk)",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -54710,6 +55267,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54764,10 +55322,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 411
+      "upgraded_from": 412
     },
-    "413": {
-      "index": 413,
+    "414": {
+      "index": 414,
       "name": "Tomato Tome+ (Def)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -54832,6 +55390,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -54886,10 +55445,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 411
+      "upgraded_from": 412
     },
-    "414": {
-      "index": 414,
+    "415": {
+      "index": 415,
       "name": "Tomato Tome+ (Res)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 0,
@@ -54954,6 +55513,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55008,10 +55568,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 411
+      "upgraded_from": 412
     },
-    "415": {
-      "index": 415,
+    "416": {
+      "index": 416,
       "name": "Tomato Tome+ (Spd)",
       "atk_boost_perm": 12,
       "spd_boost_perm": 2,
@@ -55076,6 +55636,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55130,10 +55691,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 411
+      "upgraded_from": 412
     },
-    "416": {
-      "index": 416,
+    "417": {
+      "index": 417,
       "name": "Tyrfing",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -55198,6 +55759,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55250,13 +55812,13 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 1,
-      "evolves_into": 121,
+      "evolves_into": 122,
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "417": {
-      "index": 417,
-      "name": "UrxF0r",
+    "418": {
+      "index": 418,
+      "name": "Ur\xF0r",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -55320,6 +55882,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55376,8 +55939,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "418": {
-      "index": 418,
+    "419": {
+      "index": 419,
       "name": "Urvan",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -55442,6 +56005,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55498,8 +56062,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "419": {
-      "index": 419,
+    "420": {
+      "index": 420,
       "name": "Valflame",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -55564,6 +56128,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55620,8 +56185,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "420": {
-      "index": 420,
+    "421": {
+      "index": 421,
       "name": "Vidofnir",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -55686,6 +56251,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55742,8 +56308,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "421": {
-      "index": 421,
+    "422": {
+      "index": 422,
       "name": "Weirding Tome",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -55808,6 +56374,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55864,8 +56431,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "422": {
-      "index": 422,
+    "423": {
+      "index": 423,
       "name": "Wo Dao+",
       "atk_boost_perm": 13,
       "spd_boost_perm": 0,
@@ -55930,6 +56497,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -55986,8 +56554,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "423": {
-      "index": 423,
+    "424": {
+      "index": 424,
       "name": "Wo Dao+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -56052,6 +56620,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56106,10 +56675,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 422
+      "upgraded_from": 423
     },
-    "424": {
-      "index": 424,
+    "425": {
+      "index": 425,
       "name": "Wo Dao+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -56174,6 +56743,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56228,10 +56798,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 422
+      "upgraded_from": 423
     },
-    "425": {
-      "index": 425,
+    "426": {
+      "index": 426,
       "name": "Wo Dao+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -56296,6 +56866,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56350,10 +56921,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 422
+      "upgraded_from": 423
     },
-    "426": {
-      "index": 426,
+    "427": {
+      "index": 427,
       "name": "Wo Dao+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -56418,6 +56989,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56472,10 +57044,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 422
+      "upgraded_from": 423
     },
-    "427": {
-      "index": 427,
+    "428": {
+      "index": 428,
       "name": "Yato",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -56540,6 +57112,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56596,8 +57169,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "428": {
-      "index": 428,
+    "429": {
+      "index": 429,
       "name": "Zanbato+",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -56662,6 +57235,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56718,8 +57292,8 @@ var data = {
       "evolved_from": 0,
       "upgraded_from": 0
     },
-    "429": {
-      "index": 429,
+    "430": {
+      "index": 430,
       "name": "Zanbato+ (Atk)",
       "atk_boost_perm": 16,
       "spd_boost_perm": 0,
@@ -56784,6 +57358,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56838,10 +57413,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 428
+      "upgraded_from": 429
     },
-    "430": {
-      "index": 430,
+    "431": {
+      "index": 431,
       "name": "Zanbato+ (Def)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -56906,6 +57481,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -56960,10 +57536,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 428
+      "upgraded_from": 429
     },
-    "431": {
-      "index": 431,
+    "432": {
+      "index": 432,
       "name": "Zanbato+ (Eff)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -57028,6 +57604,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -57082,10 +57659,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 428
+      "upgraded_from": 429
     },
-    "432": {
-      "index": 432,
+    "433": {
+      "index": 433,
       "name": "Zanbato+ (Res)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 0,
@@ -57150,6 +57727,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -57204,10 +57782,10 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 428
+      "upgraded_from": 429
     },
-    "433": {
-      "index": 433,
+    "434": {
+      "index": 434,
       "name": "Zanbato+ (Spd)",
       "atk_boost_perm": 14,
       "spd_boost_perm": 3,
@@ -57272,6 +57850,7 @@ var data = {
       "hit_2rng_weaker_def_stat": 0,
       "wrathful_staff_threshold": 0,
       "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
       "negate_self_counter": 0,
       "negate_srd_counter": 0,
       "negate_lnc_counter": 0,
@@ -57326,7 +57905,7 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 428
+      "upgraded_from": 429
     }
   },
   "Specials": {
@@ -61210,7 +61789,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -63696,6 +64275,89 @@ var data = {
     },
     "11": {
       "index": 11,
+      "name": "Chilling Seal",
+      "breaker": "N",
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0
+    },
+    "12": {
+      "index": 12,
       "name": "Crusader's Ward",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -63777,8 +64439,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "12": {
-      "index": 12,
+    "13": {
+      "index": 13,
       "name": "Daggerbreaker 3",
       "breaker": "K",
       "brash_assault_thresh": 0,
@@ -63860,8 +64522,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "13": {
-      "index": 13,
+    "14": {
+      "index": 14,
       "name": "Dazzling Staff 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -63943,8 +64605,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "14": {
-      "index": 14,
+    "15": {
+      "index": 15,
       "name": "Desperation 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64026,8 +64688,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "15": {
-      "index": 15,
+    "16": {
+      "index": 16,
       "name": "Drag Back",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64109,8 +64771,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "16": {
-      "index": 16,
+    "17": {
+      "index": 17,
       "name": "Escape Route 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64192,8 +64854,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "17": {
-      "index": 17,
+    "18": {
+      "index": 18,
       "name": "Flier Formation 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64275,8 +64937,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "18": {
-      "index": 18,
+    "19": {
+      "index": 19,
       "name": "Follow-Up Ring",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64358,8 +65020,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "19": {
-      "index": 19,
+    "20": {
+      "index": 20,
       "name": "G Tomebreaker 3",
       "breaker": "GT",
       "brash_assault_thresh": 0,
@@ -64441,92 +65103,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "20": {
-      "index": 20,
-      "name": "Gale Dance 3",
-      "breaker": "N",
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 0,
-      "foe_affinity_cancel": 0,
-      "disadv_foe_affinity_cancel": 0,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "21": {
       "index": 21,
-      "name": "Geyser Dance 2",
+      "name": "Gale Dance 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
       "desperation_thresh": 0,
@@ -64609,6 +65188,89 @@ var data = {
     },
     "22": {
       "index": 22,
+      "name": "Geyser Dance 2",
+      "breaker": "N",
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "23": {
+      "index": 23,
       "name": "Guard 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -64690,92 +65352,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "23": {
-      "index": 23,
-      "name": "Hit and Run",
-      "breaker": "N",
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 0,
-      "foe_affinity_cancel": 0,
-      "disadv_foe_affinity_cancel": 0,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "bow_can_inherit": 0,
-      "dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "24": {
       "index": 24,
-      "name": "Knock Back",
+      "name": "Hit and Run",
       "breaker": "N",
       "brash_assault_thresh": 0,
       "desperation_thresh": 0,
@@ -64858,6 +65437,89 @@ var data = {
     },
     "25": {
       "index": 25,
+      "name": "Knock Back",
+      "breaker": "N",
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "26": {
+      "index": 26,
       "name": "Lancebreaker 3",
       "breaker": "L",
       "brash_assault_thresh": 0,
@@ -64939,92 +65601,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "26": {
-      "index": 26,
-      "name": "Live for Bounty",
-      "breaker": "N",
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 0,
-      "foe_affinity_cancel": 0,
-      "disadv_foe_affinity_cancel": 0,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "27": {
       "index": 27,
-      "name": "Live for Honor",
+      "name": "Live for Bounty",
       "breaker": "N",
       "brash_assault_thresh": 0,
       "desperation_thresh": 0,
@@ -65107,6 +65686,89 @@ var data = {
     },
     "28": {
       "index": 28,
+      "name": "Live for Honor",
+      "breaker": "N",
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "29": {
+      "index": 29,
       "name": "Live to Serve 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65188,8 +65850,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "name": "Lunge",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65271,92 +65933,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "30": {
-      "index": 30,
-      "name": "Obstruct 3",
-      "breaker": "N",
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 0,
-      "foe_affinity_cancel": 0,
-      "disadv_foe_affinity_cancel": 0,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "31": {
       "index": 31,
-      "name": "Pass 3",
+      "name": "Obstruct 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
       "desperation_thresh": 0,
@@ -65439,6 +66018,89 @@ var data = {
     },
     "32": {
       "index": 32,
+      "name": "Pass 3",
+      "breaker": "N",
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "33": {
+      "index": 33,
       "name": "Poison Strike 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65520,8 +66182,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Quick Riposte 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65603,8 +66265,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "R Tomebreaker 3",
       "breaker": "RT",
       "brash_assault_thresh": 0,
@@ -65686,8 +66348,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "Recover Ring",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65769,8 +66431,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Renewal 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65852,8 +66514,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Sacae's Blessing",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -65935,8 +66597,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 0
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Seal Atk 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66018,8 +66680,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Seal Atk/Def 2",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66101,8 +66763,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Seal Atk/Spd 2",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66184,8 +66846,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Seal Def 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66267,8 +66929,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Seal Res 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66350,8 +67012,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Seal Spd 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66433,8 +67095,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Shield Pulse 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66516,8 +67178,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Swordbreaker 3",
       "breaker": "S",
       "brash_assault_thresh": 0,
@@ -66599,8 +67261,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Vantage 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66682,8 +67344,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Vengeful Fighter 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66765,8 +67427,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Wary Fighter 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66848,8 +67510,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Watersweep 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -66931,8 +67593,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Windsweep 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -67014,8 +67676,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Wings of Mercy 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -67097,8 +67759,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Wrath 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -67180,8 +67842,8 @@ var data = {
       "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Wrathful Staff 1",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -67263,8 +67925,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Wrathful Staff 2",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -67346,8 +68008,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Wrathful Staff 3",
       "breaker": "N",
       "brash_assault_thresh": 0,
@@ -70157,7 +70819,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -70196,7 +70858,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -70235,7 +70897,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
