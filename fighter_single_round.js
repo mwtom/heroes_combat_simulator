@@ -1083,7 +1083,7 @@ Fighter.prototype.get_wt_amp = function() {
   return Math.max(this.weapon.wt_amp + this.a_skill.wt_amp);
 };
 Fighter.prototype.get_negate_eff = function() {
-  return this.a_skill.negate_eff;
+  return this.a_skill.negate_eff || this.seal.negate_eff;
 };
 Fighter.prototype.get_range = function() {
   return this.weapon.range;
