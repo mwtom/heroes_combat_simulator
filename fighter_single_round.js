@@ -318,6 +318,23 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       atk += this.a_skill.brazen_atk_boost;
     }
 
+    // If the unit has a -blade tome, and buffs are not negative or negated,
+    // add buffs to atk.
+    if (this.get_blade() == 1 && !this.check_buff_negate(enemy)) {
+      if (this.atk_buff > 0) {
+        atk += this.atk_buff;
+      }
+      if (this.spd_buff > 0) {
+        atk += this.spd_buff;
+      }
+      if (this.def_buff > 0) {
+        atk += this.def_buff;
+      }
+      if (this.res_buff > 0) {
+        atk += this.res_buff;
+      }
+    }
+
     if (this.weapon.enemy_debuffs_to_atk) {
       if (enemy.get_atk_debuff() > 0) {
         atk += enemy.get_atk_debuff();
@@ -348,23 +365,6 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
 Fighter.prototype.calculate_effective_atk = function (atk, enemy) {
   // Set an initial effective atk value.
   var e_atk = atk;
-
-  // If the unit has a -blade tome, and buffs are not negative or negated,
-  // add buffs to effective atk.
-  if (this.get_blade() == 1 && !this.check_buff_negate(enemy)) {
-    if (this.atk_buff > 0) {
-      e_atk += this.atk_buff;
-    }
-    if (this.spd_buff > 0) {
-      e_atk += this.spd_buff;
-    }
-    if (this.def_buff > 0) {
-      e_atk += this.def_buff;
-    }
-    if (this.res_buff > 0) {
-      e_atk += this.res_buff;
-    }
-  }
 
   // If effective atk is negative, set it to 0.
   if (e_atk < 0) {
