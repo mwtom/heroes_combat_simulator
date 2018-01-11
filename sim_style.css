@@ -1,6 +1,9 @@
 .results_table {
   width: 750px;
 }
+.tempHidden {
+  display: none;
+}
 .log {
   position: relative;
   left: 25px;
