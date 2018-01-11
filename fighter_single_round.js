@@ -1767,6 +1767,9 @@ Fighter.prototype.get_special_def_bonus = function () {
 Fighter.prototype.get_special_res_bonus = function () {
   return this.weapon.special_res_bonus;
 };
+Fighter.prototype.get_thani_mitigation = function () {
+  return this.weapon.thani_mitigation;
+};
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;
 };*/

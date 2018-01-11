@@ -867,7 +867,17 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       mitigated_dmg += mitigated_temp;
       dmg -= mitigated_temp;
     }
+    // Ranged Cav/Armor first hit mitigation (Thani)
+    if (defender.get_thani_mitigation()
+        && (attacker.get_type() == "C" || attacker.get_type() == "A")
+        && (attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "K" || attacker.get_weap() == "B" || attacker.get_weap() == "ST")) {
+      combat_log += defender.get_name() + " receives " + (defender.get_thani_mitigation() * 100) + "% less damage from the first hit from ranged Cavalry or Armored enemies!<br>";
+      mitigated_temp = Math.floor(dmg * defender.get_thani_mitigation());
+      mitigated_dmg += mitigated_temp;
+      dmg -= mitigated_temp;
+    }
   }
+
 
   // Apply flat damage mitigation, if applicable.
   if (defender_skill_procced && !defender.get_miracle_proc()) {
