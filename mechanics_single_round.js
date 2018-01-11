@@ -215,6 +215,7 @@ function simulate() {
 
   // Report the results.
   msg += "<b>Summary: " + orko.length + " ORKOs, " + no_ko.length + " No KO, " + losses.length + " Losses</b><br><br>";
+  msg += "<b>Details (Click any line to show/hide combat details)</b><br><br>";
   msg += "<b>ORKOs (" + orko.length + ")</b><br><table class='results_table'>";
   for (var i = 0; i < orko.length; i++) {
     msg += "<tr><td><span id='match" + i + "' onclick=showorhide('" + i + "')>";
