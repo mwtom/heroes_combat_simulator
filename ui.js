@@ -123,6 +123,8 @@ function fill_skill_menus() {
     }
   }
   document.getElementById("Seal").innerHTML = msg;
+
+  check_special_effects();
 }
 
 function find_upgrades(weap_id) {
@@ -316,4 +318,12 @@ function deselect_all_weapons() {
   document.getElementById("Bow").checked = false;
   document.getElementById("Dagger").checked = false;
   document.getElementById("Staff").checked = false;
+}
+
+function check_special_effects() {
+  var special_effect_text = "None.";
+  if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].special_stat_bonus) {
+    special_effect_text = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].name + ": " + Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].cond_eff_text;
+  }
+  document.getElementById("conditional_effect_details").innerHTML = special_effect_text;
 }

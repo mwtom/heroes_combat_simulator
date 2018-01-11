@@ -69,6 +69,7 @@ $(document).ready(function() {
   });
   // Run simulation when any select fields are changed.
   $("select").change(function() {
+    check_special_effects();
     simulate();
   });
   $("#Weapon").change(function() {
@@ -477,6 +478,16 @@ $(document).ready(function() {
         </table>
         <input type="checkbox" id="summoner_support" name="summoner_support" />
         <label for="summoner_support">Summoner Support</label>
+        <br>
+        <input type="checkbox" id="conditional_effects" name="conditional_effects" />
+        <div class="tooltip"><label for="conditional_effects">Apply the following conditional effects:</label>
+          <span class="tooltiptext">
+            A conditional effect is an effect is only active when certain conditions are met that cannot be specified with any other input to the
+            Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
+          </span>
+        </div>
+        <br>
+        <span id="conditional_effect_details"></span>
       </div>
     </div>
     <div id="MenuBar3">
@@ -675,6 +686,15 @@ $(document).ready(function() {
             </td>
           </tr>
         </table>
+        <br>
+        <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" />
+        <div class="tooltip">
+          <label for="enemy_conditional_effects">Apply any enemy conditional effects.</label>
+          <span class="tooltiptext">
+            A conditional effect is an effect is only active when certain conditions are met that cannot be specified with any other input to the
+            Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
+          </span>
+        </div>
       </div>
       <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
       <div id="SpecialOptions">

@@ -1,7 +1,7 @@
 // The Fighter class, a fusion of the base stats of a character
 // and the stats & properties of their skills.
 class Fighter {
-  constructor(char, boon, bane, weap, a, b, c, seal, proc, summoner_support, merge_lv) {
+  constructor(char, boon, bane, weap, a, b, c, seal, proc, summoner_support, merge_lv, conditional_effects) {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
@@ -195,6 +195,8 @@ class Fighter {
     // from a previous action (ex. Ice Mirror is a defensive special that grants damage
     // equal to the damage mitigated from a foe's prior attack).
     this.next_atk_bonus_dmg = 0;
+
+    this.conditional_effects = conditional_effects;
   }
 }
 // Sorts arr2 in descending order, swapping the elements of arr1 in the same pattern.
@@ -266,6 +268,8 @@ Fighter.prototype.add_dmg_value = function (val) {
 // Calculates the attack of the unit; does not include effective damage,
 // weapon triangle, etc.
 Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
+  var enemy_range = enemy.get_range();
+
   // Reverses buffs if applicable.
  if (this.buffs_reversed) {
     this.atk_buff *= -1;
@@ -298,14 +302,24 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       atk += this.get_atk_bond();
     }
 
+    if (this.conditional_effects) {
+      atk += this.get_special_atk_bonus();
+    }
+
     // If the unit in question is the attacker, make sure to include offensive
     // atk bonuses.
     if (attacker_flag) {
       atk += this.get_atk_boost_off();
+      if (enemy_range > 1) {
+        atk += this.get_distant_atk_off_bonus();
+      }
     }
     // If the unit is not the attacker, include defensive atk bonuses.
     else {
       atk += this.get_atk_boost_def();
+      if (enemy_range > 1) {
+        atk += this.get_distant_atk_def_bonus();
+      }
     }
 
     // If the unit gets an Atk bonus when the enemy is at full HP, apply it.
@@ -478,6 +492,8 @@ Fighter.prototype.check_effective_damage = function (enemy) {
 };
 // Calculates the effective speed of the unit.
 Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
+  var enemy_range = enemy.get_range();
+
   // Reverses buffs if applicable.
   if (this.buffs_reversed) {
     this.spd_buff *= -1;
@@ -515,14 +531,24 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       e_spd += this.get_spd_bond();
     }
 
+    if (this.conditional_effects) {
+      e_spd += this.get_special_spd_bonus();
+    }
+
     // If the unit in question is attacking, make sure to include
     // offensive speed bonuses.
     if (attacker_flag) {
       e_spd += this.get_spd_boost_off();
+      if (enemy_range > 1) {
+        e_spd += this.get_distant_spd_off_bonus();
+      }
     }
     // If the unit is not attacking, include defensive speed bonuses.
     else {
       e_spd += this.get_spd_boost_def();
+      if (enemy_range > 1) {
+        e_spd += this.get_distant_spd_def_bonus();
+      }
     }
 
 
@@ -542,7 +568,8 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
 };
 // Calculates the effective def of the unit.
 Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
-  var combat_range = enemy.get_range();
+  var enemy_range = enemy.get_range();
+
   var enemy_start_hp = enemy.get_start_HP();
 
   // Reverses buffs if applicable.
@@ -575,14 +602,17 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     // If the unit in quesiton is attacking, add offensive def bonuses.
     if (attacker_flag) {
       e_def += this.get_def_boost_off();
+      if (enemy_range > 1) {
+        e_def += this.get_distant_def_off_bonus();
+      }
     }
     // If the unit in question is defending, add defensive def bonuses.
     else {
       e_def += this.get_def_boost_def();
-      if (combat_range > 1) {
-        e_def += this.get_distant_def_bonus();
+      if (enemy_range > 1) {
+        e_def += this.get_distant_def_def_bonus();
       }
-      if (combat_range == 1) {
+      if (enemy_range == 1) {
         e_def += this.get_close_def_bonus();
       }
       // Special case! Vidofnir provides a def bonus when defending, but only against
@@ -590,6 +620,10 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       if (enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") {
         e_def += this.get_def_boost_def_vs_ALS();
       }
+    }
+
+    if (this.conditional_effects) {
+      e_def += this.get_special_def_bonus();
     }
 
     // If the unit in question is at full HP, and has an effect that increases Def at full HP, include it.
@@ -618,7 +652,8 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
 };
 // Calculates the effective res of the unit.
 Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
-  var combat_range = enemy.get_range();
+  var enemy_range = enemy.get_range();
+
   var enemy_start_hp = enemy.get_start_HP();
 
   // Reverse buffs if applicable.
@@ -648,19 +683,26 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       e_res += this.get_res_bond();
     }
 
+    if (this.conditional_effects) {
+      e_res += this.get_special_res_bonus();
+    }
+
     // If the unit in question is attacking, make sure to include
     // offensive res bonuses.
     if (attacker_flag == 1) {
       e_res += this.get_res_boost_off();
+      if (enemy_range > 1) {
+        e_res += this.get_distant_res_off_bonus();
+      }
     }
     // If the unit in question is defending, make sure to include
     // defensive res bonuses.
     else {
       e_res += this.get_res_boost_def();
-      if (combat_range > 1) {
-        e_res += this.get_distant_res_bonus();
+      if (enemy_range > 1) {
+        e_res += this.get_distant_res_def_bonus();
       }
-      if (combat_range == 1) {
+      if (enemy_range == 1) {
         e_res += this.get_close_res_bonus();
       }
 
@@ -1536,11 +1578,29 @@ Fighter.prototype.get_res_boost_full_hp = function () {
 Fighter.prototype.get_burn_full_hp = function () {
   return this.weapon.burn_full_hp;
 };
-Fighter.prototype.get_distant_def_bonus = function () {
-  return this.a_skill.distant_def_bonus + this.seal.distant_def_bonus + this.weapon.distant_def_bonus;
+Fighter.prototype.get_distant_atk_off_bonus = function () {
+  return this.weapon.distant_atk_off_bonus;
 };
-Fighter.prototype.get_distant_res_bonus = function () {
-  return this.a_skill.distant_res_bonus + this.seal.distant_res_bonus + this.weapon.distant_res_bonus;
+Fighter.prototype.get_distant_spd_off_bonus = function () {
+  return this.weapon.distant_spd_off_bonus;
+};
+Fighter.prototype.get_distant_def_off_bonus = function () {
+  return this.weapon.distant_def_off_bonus;
+};
+Fighter.prototype.get_distant_res_off_bonus = function () {
+  return this.weapon.distant_res_off_bonus;
+};
+Fighter.prototype.get_distant_atk_def_bonus = function () {
+  return this.weapon.distant_atk_def_bonus;
+};
+Fighter.prototype.get_distant_spd_def_bonus = function () {
+  return this.weapon.distant_spd_def_bonus;
+};
+Fighter.prototype.get_distant_def_def_bonus = function () {
+  return this.a_skill.distant_def_def_bonus + this.seal.distant_def_def_bonus + this.weapon.distant_def_def_bonus;
+};
+Fighter.prototype.get_distant_res_def_bonus = function () {
+  return this.a_skill.distant_res_def_bonus + this.seal.distant_res_def_bonus + this.weapon.distant_res_def_bonus;
 };
 Fighter.prototype.get_close_def_bonus = function () {
   return this.a_skill.close_def_bonus + this.seal.close_def_bonus;
@@ -1694,6 +1754,18 @@ Fighter.prototype.get_def_bond = function () {
 };
 Fighter.prototype.get_res_bond = function () {
   return this.a_skill.res_bond;
+};
+Fighter.prototype.get_special_atk_bonus = function () {
+  return this.weapon.special_atk_bonus;
+};
+Fighter.prototype.get_special_spd_bonus = function () {
+  return this.weapon.special_spd_bonus;
+};
+Fighter.prototype.get_special_def_bonus = function () {
+  return this.weapon.special_def_bonus;
+};
+Fighter.prototype.get_special_res_bonus = function () {
+  return this.weapon.special_res_bonus;
 };
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;

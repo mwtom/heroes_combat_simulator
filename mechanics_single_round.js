@@ -15,7 +15,8 @@ function simulate() {
                             Seals[document.getElementById("Seal").value],
                             Procs[document.getElementById("Special").value],
                             document.getElementById("summoner_support").checked,
-                            parseInt(document.getElementById("MergeLv").value));
+                            parseInt(document.getElementById("MergeLv").value),
+                            document.getElementById("conditional_effects").checked);
 
   // Add the Attacker's stat line to the proper UI elements.
   document.getElementById("CharHP").innerHTML = Attacker.get_HP_max();
@@ -75,12 +76,12 @@ function simulate() {
       weap_selected = document.getElementById("EnemyWeapon").value;
       // A weapon override is valid if one of the following applies:
       //    -The weapon's type matches the unit's weapon type, and the weapon is non-exclusive.
-      //    -The weapon is the character's base weapon, or is evolved from their base weapon, or
+      //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon, or
       //     inheritance restrictions have been removed by the user.
       if (weap_selected != 0 &&
           ((Characters[i].weap == Weapons[weap_selected].type && !Weapons[weap_selected].char_lock
             ||
-            (weap_selected == Characters[i].base_weap || Weapons[weap_selected].evolved_from == Characters[i].base_weap)) || document.getElementById("RuleBreaker").checked)) {
+            (weap_selected == Characters[i].base_weap || Weapons[weap_selected].evolved_from == Characters[i].base_weap) || Weapons[weap_selected].upgraded_from == Characters[i].base_weap) || document.getElementById("RuleBreaker").checked)) {
         weap = Weapons[weap_selected];
       }
       else {
@@ -118,7 +119,18 @@ function simulate() {
       }
 
       // Build the defender with the base set & valid overrides.
-      Defender = new Fighter(Characters[i], document.getElementById("EnemyBoon").value, document.getElementById("EnemyBane").value, weap, a, b, c, seal, proc, false, parseInt(document.getElementById("EnemyMergeLv").value));
+      Defender = new Fighter(Characters[i],
+                             document.getElementById("EnemyBoon").value,
+                             document.getElementById("EnemyBane").value,
+                             weap,
+                             a,
+                             b,
+                             c,
+                             seal,
+                             proc,
+                             false,
+                             parseInt(document.getElementById("EnemyMergeLv").value),
+                             document.getElementById("enemy_conditional_effects").checked);
 
       Defender.set_assumed_atk_buff(document.getElementById("EnemyAtkBuff").value);
       Defender.set_assumed_spd_buff(document.getElementById("EnemySpdBuff").value);
