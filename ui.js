@@ -332,7 +332,7 @@ function check_special_effects() {
 function showorhide(id) {
   // DOM elements with matchup details always have the id structure of
   // "match" + [input] + "details".
-  var tagId = "match" + id + "details";
+  var tagId = id + "details";
   // DOM elements with matchup details always have the "tempHidden" class
   // when they are created, which sets their CSS display property to none.
   if (document.getElementById(tagId).classList.contains("tempHidden")) {

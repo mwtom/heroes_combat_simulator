@@ -218,27 +218,27 @@ function simulate() {
   msg += "<b>Details (Click any line to show/hide combat details)</b><br><br>";
   msg += "<b>ORKOs (" + orko.length + ")</b><br><table class='results_table'>";
   for (var i = 0; i < orko.length; i++) {
-    msg += "<tr><td><span id='match" + i + "' onclick=showorhide('" + i + "')>";
+    msg += "<tr><td><span id='orko" + i + "' onclick=showorhide('orko" + i + "')>";
     msg += Characters[orko[i]].name + ": " + orko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(orko_dealt[i]/orko_def_hp_max[i]*100) + "%), " + orko_taken[i];
     msg += " total dmg taken (" + Math.floor(orko_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + orko_atk_spd[i] + " Spd vs " + orko_def_spd[i] + " Spd)" + "<br></span>";
-    msg += "<div id='match" + i + "details' class='tempHidden log'>" + orko_log[i] + "</div></td></tr>";
+    msg += "<div id='orko" + i + "details' class='tempHidden log'>" + orko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>No KO (" + no_ko.length + ")</b><br><table class='results_table'>";
   for (var i =0; i < no_ko.length; i++) {
-    msg += "<tr><td><span id='match" + i + "' onclick=showorhide('" + i + "')>";
+    msg += "<tr><td><span id='noko" + i + "' onclick=showorhide('noko" + i + "')>";
     msg += Characters[no_ko[i]].name + ": " + no_ko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(no_ko_dealt[i]/no_ko_def_hp_max[i]*100) + "%), " + no_ko_taken[i];
     msg += " total dmg taken (" + Math.floor(no_ko_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + no_ko_atk_spd[i] + " Spd vs " + no_ko_def_spd[i] + " Spd)" + "<br></span>";
-    msg += "<div id='match" + i + "details' class='tempHidden log'>" + no_ko_log[i] + "</div></td></tr>";
+    msg += "<div id='noko" + i + "details' class='tempHidden log'>" + no_ko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>Losses (" + losses.length + ")</b><br><table class='results_table'>";
   for (var i = 0; i < losses.length; i++) {
-    msg += "<tr><td><span id='match" + i + "' onclick=showorhide('" + i + "')>";
+    msg += "<tr><td><span id='loss" + i + "' onclick=showorhide('loss" + i + "')>";
     msg += Characters[losses[i]].name + ": " + losses_dealt[i] + " total dmg dealt (";
     msg += Math.floor(losses_dealt[i]/losses_def_hp_max[i]*100) + "%), " + losses_taken[i];
     msg += " total dmg taken (" + Math.floor(losses_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + losses_atk_spd[i] + " Spd vs " + losses_def_spd[i] + " Spd)" + "<br></span>";
-    msg += "<div id='match" + i + "details' class='tempHidden log'>" + losses_log[i] + "</div></td></tr>";
+    msg += "<div id='loss" + i + "details' class='tempHidden log'>" + losses_log[i] + "</div></td></tr>";
   }
   msg += "</table>";
 
