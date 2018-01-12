@@ -44308,7 +44308,7 @@ var data = {
       "follow_up_def": 0,
       "follow_up_thresh": 0,
       "distant_atk_off_bonus": 6,
-      "distant_atk_def_bonus": 0,
+      "distant_atk_def_bonus": 6,
       "distant_spd_off_bonus": 0,
       "distant_spd_def_bonus": 0,
       "distant_def_off_bonus": 0,
