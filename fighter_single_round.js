@@ -832,19 +832,27 @@ Fighter.prototype.check_buff_negate = function (enemy) {
 Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
   return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking));
 };
+// Initializes a counter to hold the number of active sources of generic (i.e. not tied to
+// any conditions besides initiating or defending) guaranteed follow-up. Increments the
+// counter for each active source, returning the counter at the end.
 Fighter.prototype.follow_up_thresh_applies = function (is_active) {
-  // -Instantiate the HP threshold at something that cannot possibly be met.
-  // -Then, as active sources of automatic follow up are detected, change hp_thresh to
-  //   the lowest value between the current hp_thresh and the detected source.
-  // -Finally, check to see if the unit meets the HP threshold.
-  var hp_thresh = 2;
+  var counter = 0;
   if (this.b_skill.follow_up_thresh > 0 && ((is_active && this.b_skill.follow_up_off) || (!is_active && this.b_skill.follow_up_def))) {
-    hp_thresh = this.b_skill.follow_up_thresh;
+    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
+      counter += 1;
+    }
   }
   if (this.weapon.follow_up_thresh > 0 && ((is_active && this.weapon.follow_up_off) || (!is_active && this.weapon.follow_up_def))) {
-    hp_thresh = Math.min(hp_thresh, this.weapon.follow_up_thresh);
+    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
+      counter += 1;
+    }
   }
-  return (hp_thresh > 0 && (this.start_HP / this.hp_max) >= hp_thresh);
+  if (this.seal.follow_up_thresh > 0 && ((is_active && this.seal.follow_up_off) || (!is_active && this.seal.follow_up_def))) {
+    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
+      counter += 1;
+    }
+  }
+  return counter;
 };
 // Checks to see if the unit meets the HP requirement for Brash Assault.
 Fighter.prototype.brash_assault_applies = function(can_counter) {

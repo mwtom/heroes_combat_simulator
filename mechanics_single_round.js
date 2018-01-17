@@ -609,12 +609,11 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit1.breaker_applies(unit2.get_weap())) {
     inhibitor -= 1;
   }
-  if (unit1.follow_up_thresh_applies(unit1_active)) {
-    inhibitor -= 1;
-  }
   if (unit1.brash_assault_applies(can_counter) && unit1_active) {
     inhibitor -= 1;
   }
+  // Reduce the inhibitor by the number of active follow_up_thresh sources.
+  inhibitor -= unit1.follow_up_thresh_applies(unit1_active);
 
   // If the inhibitor is positive, no follow up occurs (return false).
   // If inhibitor is 0, follow up occurs ONLY if unit1 is fast enough.
