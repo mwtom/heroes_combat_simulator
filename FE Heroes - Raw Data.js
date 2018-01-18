@@ -77483,8 +77483,8 @@ var data = {
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
       "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
       "arm_can_inherit": 1
     },
     "47": {
