@@ -80551,8 +80551,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "81": {
-      "index": 81,
+    "16": {
+      "index": 16,
       "name": "Def Ploy 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80593,8 +80593,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "16": {
-      "index": 16,
+    "17": {
+      "index": 17,
       "name": "Deflect Magic 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80635,8 +80635,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "17": {
-      "index": 17,
+    "18": {
+      "index": 18,
       "name": "Deflect Magic 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80677,8 +80677,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "18": {
-      "index": 18,
+    "19": {
+      "index": 19,
       "name": "Deflect Magic 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80719,8 +80719,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "19": {
-      "index": 19,
+    "20": {
+      "index": 20,
       "name": "Deflect Melee 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80761,8 +80761,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "20": {
-      "index": 20,
+    "21": {
+      "index": 21,
       "name": "Deflect Melee 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80803,8 +80803,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "21": {
-      "index": 21,
+    "22": {
+      "index": 22,
       "name": "Deflect Melee 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80845,8 +80845,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "22": {
-      "index": 22,
+    "23": {
+      "index": 23,
       "name": "Deflect Missile 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80887,8 +80887,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "23": {
-      "index": 23,
+    "24": {
+      "index": 24,
       "name": "Deflect Missile 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80929,8 +80929,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "24": {
-      "index": 24,
+    "25": {
+      "index": 25,
       "name": "Deflect Missile 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -80971,8 +80971,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "25": {
-      "index": 25,
+    "26": {
+      "index": 26,
       "name": "Distant Def 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81013,8 +81013,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "name": "Distant Def 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81055,8 +81055,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "name": "Distant Def 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81097,51 +81097,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "28": {
-      "index": 28,
-      "name": "Fortify Def 1/2/3",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "29": {
       "index": 29,
-      "name": "Fortify Res 1/2/3",
+      "name": "Fortify Def 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
       "spd_boost_perm": 0,
@@ -81183,6 +81141,48 @@ var data = {
     },
     "30": {
       "index": 30,
+      "name": "Fortify Res 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "31": {
+      "index": 31,
       "name": "Guidance 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81223,8 +81223,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Hardy Bearing 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81265,8 +81265,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Hardy Bearing 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81307,8 +81307,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Hardy Bearing 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81349,8 +81349,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "Heavy Blade 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81391,8 +81391,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "Heavy Blade 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81433,8 +81433,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Heavy Blade 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81475,8 +81475,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Hone Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81517,8 +81517,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "HP +3",
       "hp_boost_perm": 3,
       "atk_boost_perm": 0,
@@ -81559,8 +81559,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "HP +4",
       "hp_boost_perm": 4,
       "atk_boost_perm": 0,
@@ -81601,8 +81601,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "HP +5",
       "hp_boost_perm": 5,
       "atk_boost_perm": 0,
@@ -81643,8 +81643,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Iote's Shield",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81685,8 +81685,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 0
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Panic Ploy 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81727,8 +81727,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Phantom Spd 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81769,8 +81769,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Phantom Spd 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81811,8 +81811,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Phantom Spd 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81853,8 +81853,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "78": {
-      "index": 78,
+    "47": {
+      "index": 47,
       "name": "Quick Riposte 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81895,8 +81895,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "79": {
-      "index": 79,
+    "48": {
+      "index": 48,
       "name": "Quick Riposte 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81937,8 +81937,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "80": {
-      "index": 80,
+    "49": {
+      "index": 49,
       "name": "Quick Riposte 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -81979,8 +81979,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "46": {
-      "index": 46,
+    "50": {
+      "index": 50,
       "name": "Quickened Pulse",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82021,8 +82021,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "47": {
-      "index": 47,
+    "51": {
+      "index": 51,
       "name": "Res +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82063,8 +82063,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "48": {
-      "index": 48,
+    "52": {
+      "index": 52,
       "name": "Res +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82105,8 +82105,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "49": {
-      "index": 49,
+    "53": {
+      "index": 53,
       "name": "Res +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82147,219 +82147,9 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "50": {
-      "index": 50,
-      "name": "Savage Blow 1/2/3",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "77": {
-      "index": 77,
-      "name": "Seal Atk 1/2/3",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "51": {
-      "index": 51,
-      "name": "Spd +1",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 1,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "52": {
-      "index": 52,
-      "name": "Spd +2",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 2,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "53": {
-      "index": 53,
-      "name": "Spd +3",
-      "hp_boost_perm": 0,
-      "atk_boost_perm": 0,
-      "spd_boost_perm": 3,
-      "def_boost_perm": 0,
-      "res_boost_perm": 0,
-      "cd_reduce": 0,
-      "skl_compare_spd_boost": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "close_def_bonus": 0,
-      "close_res_bonus": 0,
-      "hardy_bearing_thresh": 0,
-      "tome_consec_hit_mitig": 0,
-      "ALS_consec_hit_mitig": 0,
-      "missile_consec_hit_mitig": 0,
-      "brash_assault_thresh": 0,
-      "negate_eff": 0,
-      "atk_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
     "54": {
       "index": 54,
-      "name": "Spur Atk 1/2/3",
+      "name": "Savage Blow 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
       "spd_boost_perm": 0,
@@ -82401,7 +82191,7 @@ var data = {
     },
     "55": {
       "index": 55,
-      "name": "Spur Def 1/2/3",
+      "name": "Seal Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
       "spd_boost_perm": 0,
@@ -82432,7 +82222,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -82443,10 +82233,10 @@ var data = {
     },
     "56": {
       "index": 56,
-      "name": "Spur Res 1/2/3",
+      "name": "Spd +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
+      "spd_boost_perm": 1,
       "def_boost_perm": 0,
       "res_boost_perm": 0,
       "cd_reduce": 0,
@@ -82485,10 +82275,10 @@ var data = {
     },
     "57": {
       "index": 57,
-      "name": "Spur Spd 1/2/3",
+      "name": "Spd +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
+      "spd_boost_perm": 2,
       "def_boost_perm": 0,
       "res_boost_perm": 0,
       "cd_reduce": 0,
@@ -82527,10 +82317,10 @@ var data = {
     },
     "58": {
       "index": 58,
-      "name": "Squad Ace A 1",
-      "hp_boost_perm": 3,
+      "name": "Spd +3",
+      "hp_boost_perm": 0,
       "atk_boost_perm": 0,
-      "spd_boost_perm": 0,
+      "spd_boost_perm": 3,
       "def_boost_perm": 0,
       "res_boost_perm": 0,
       "cd_reduce": 0,
@@ -82569,8 +82359,8 @@ var data = {
     },
     "59": {
       "index": 59,
-      "name": "Squad Ace A 2",
-      "hp_boost_perm": 4,
+      "name": "Spur Atk 1/2/3",
+      "hp_boost_perm": 0,
       "atk_boost_perm": 0,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -82611,8 +82401,8 @@ var data = {
     },
     "60": {
       "index": 60,
-      "name": "Squad Ace A 3",
-      "hp_boost_perm": 5,
+      "name": "Spur Def 1/2/3",
+      "hp_boost_perm": 0,
       "atk_boost_perm": 0,
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
@@ -82653,6 +82443,216 @@ var data = {
     },
     "61": {
       "index": 61,
+      "name": "Spur Res 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "62": {
+      "index": 62,
+      "name": "Spur Spd 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "63": {
+      "index": 63,
+      "name": "Squad Ace A 1",
+      "hp_boost_perm": 3,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "64": {
+      "index": 64,
+      "name": "Squad Ace A 2",
+      "hp_boost_perm": 4,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "65": {
+      "index": 65,
+      "name": "Squad Ace A 3",
+      "hp_boost_perm": 5,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1
+    },
+    "66": {
+      "index": 66,
       "name": "Squad Ace B 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82693,8 +82693,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "62": {
-      "index": 62,
+    "67": {
+      "index": 67,
       "name": "Squad Ace B 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82735,8 +82735,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "63": {
-      "index": 63,
+    "68": {
+      "index": 68,
       "name": "Squad Ace B 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82777,8 +82777,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "64": {
-      "index": 64,
+    "69": {
+      "index": 69,
       "name": "Squad Ace C 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82819,8 +82819,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "65": {
-      "index": 65,
+    "70": {
+      "index": 70,
       "name": "Squad Ace C 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82861,8 +82861,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "66": {
-      "index": 66,
+    "71": {
+      "index": 71,
       "name": "Squad Ace C 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82903,8 +82903,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "67": {
-      "index": 67,
+    "72": {
+      "index": 72,
       "name": "Squad Ace D 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82945,8 +82945,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "68": {
-      "index": 68,
+    "73": {
+      "index": 73,
       "name": "Squad Ace D 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -82987,8 +82987,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "69": {
-      "index": 69,
+    "74": {
+      "index": 74,
       "name": "Squad Ace D 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -83029,8 +83029,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "70": {
-      "index": 70,
+    "75": {
+      "index": 75,
       "name": "Squad Ace E 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 1,
@@ -83071,8 +83071,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "71": {
-      "index": 71,
+    "76": {
+      "index": 76,
       "name": "Squad Ace E 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 2,
@@ -83113,8 +83113,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "72": {
-      "index": 72,
+    "77": {
+      "index": 77,
       "name": "Squad Ace E 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 3,
@@ -83155,8 +83155,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "73": {
-      "index": 73,
+    "78": {
+      "index": 78,
       "name": "Squad Ace F 1",
       "hp_boost_perm": 3,
       "atk_boost_perm": 0,
@@ -83197,8 +83197,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "74": {
-      "index": 74,
+    "79": {
+      "index": 79,
       "name": "Squad Ace F 2",
       "hp_boost_perm": 4,
       "atk_boost_perm": 0,
@@ -83239,8 +83239,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "75": {
-      "index": 75,
+    "80": {
+      "index": 80,
       "name": "Squad Ace F 3",
       "hp_boost_perm": 5,
       "atk_boost_perm": 0,
@@ -83281,8 +83281,8 @@ var data = {
       "fly_can_inherit": 1,
       "arm_can_inherit": 1
     },
-    "76": {
-      "index": 76,
+    "81": {
+      "index": 81,
       "name": "Threaten Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
