@@ -967,14 +967,32 @@ Fighter.prototype.get_dazzling_staff_source = function () {
   }
 };
 // Checks to see if the unit meets the HP requirement for Wary Fighter.
-Fighter.prototype.wary_fighter_applies = function() {
+Fighter.prototype.wary_fighter_applies = function () {
   var wary_fighter_thresh = this.b_skill.wary_fighter_thresh;
   return (wary_fighter_thresh > 0) && (this.start_HP / this.hp_max >= wary_fighter_thresh);
 };
 // Checks to see if the unit has a breaker for the enemy weapon type, and if so, checks to see if
 // the unit meets the HP requirement to have it active.
 Fighter.prototype.breaker_applies = function(enemy_weap) {
-  return ((((this.start_HP / this.hp_max) >= .5) && this.b_skill.breaker == enemy_weap) || this.weapon.full_breaker == enemy_weap);
+  var inhibitor_count = 0;
+
+  if (((this.start_HP / this.hp_max) >= this.b_skill.breaker_thresh) && this.b_skill.breaker == enemy_weap) {
+    inhibitor_count += 1;
+  }
+  if (((this.start_HP / this.hp_max) >= this.weapon.breaker_thresh) && this.weapon.breaker == enemy_weap) {
+    inhibitor_count += 1;
+  }
+  return inhibitor_count;
+};
+Fighter.prototype.great_flame_applies = function (attacker_active, enemy, in_combat) {
+  var thresh = this.weapon.great_flame_def_thresh;
+
+  if (thresh > 0 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= 5)) {
+    return true;
+  }
+  else {
+    return false;
+  }
 };
 // Calculates the permanent raw atk of the unit, active in all scenarios.
 Fighter.prototype.get_perm_atk = function () {

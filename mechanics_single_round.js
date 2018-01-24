@@ -589,7 +589,8 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   // then follow up does occur (i.e. is successfully guaranteed). If the inhibitor is 0, then any inhibitors and
   // guarantors have canceled out, and follow up will occur based on the normal Spd calculations.
 
-  // Relevant factors: Wary Fighter, Breakers, Wind/Watersweep, Quick Riposte, Brash Assault (& similar), Follow-Up Ring.
+  // Relevant factors: Wary Fighter, Great Flame, Breakers, Wind/Watersweep, Quick Riposte, Brash Assault
+  // (& similar), Follow-Up Ring.
   var inhibitor = 0;
   if (unit1.wary_fighter_applies()) {
     inhibitor += 1;
@@ -597,8 +598,11 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit2.wary_fighter_applies()) {
     inhibitor += 1;
   }
-  if (unit2.breaker_applies(unit1.get_weap())) {
+  if (unit2.great_flame_applies(!unit1_active, unit1, true)) {
     inhibitor += 1;
+  }
+  if (unit2.breaker_applies(unit1.get_weap()) > 0) {
+    inhibitor += unit2.breaker_applies(unit1.get_weap());
   }
   if (unit1.get_windsweep_threshold() > 0 && unit1_active) {
     inhibitor += 1;
@@ -606,8 +610,8 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit1.get_watersweep_threshold() > 0 && unit1_active) {
     inhibitor += 1;
   }
-  if (unit1.breaker_applies(unit2.get_weap())) {
-    inhibitor -= 1;
+  if (unit1.breaker_applies(unit2.get_weap()) > 0) {
+    inhibitor -= unit1.breaker_applies(unit2.get_weap());
   }
   if (unit1.brash_assault_applies(can_counter) && unit1_active) {
     inhibitor -= 1;
