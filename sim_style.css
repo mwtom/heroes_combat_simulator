@@ -49,9 +49,6 @@ body {
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }
-div {
-  display: block;
-}
 
 .tooltip {
     position: relative;
@@ -83,20 +80,10 @@ div {
   #UI {
     width: 1135px;
   }
-  #MenuBar1 {
+  .MenuBar {
+    display: inline-block;
+    overflow: hidden;
     width: 375px;
-    height: 680px;
-  }
-  #MenuBar2 {
-    width: 375px;
-    margin-left: 380px;
-    margin-top: -695px;
-    height: 680px;
-  }
-  #MenuBar3 {
-    width: 375px;
-    margin-left: 760px;
-    margin-top: -699px;
     height: 700px;
   }
   #results {
@@ -109,13 +96,7 @@ div {
     width: 375px;
     height: 1500px;
   }
-  #MenuBar1 {
-    width: 375px;
-  }
-  #MenuBar2 {
-    width: 375px;
-  }
-  #MenuBar3 {
+  .MenuBar {
     width: 375px;
   }
   #results {
@@ -126,4 +107,8 @@ div {
   #divider {
     display: none;
   }
+  /*#UI, #divider, #results {
+    overflow: hidden;
+    display: inline-block;
+  }*/
 }
