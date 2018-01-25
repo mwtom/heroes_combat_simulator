@@ -437,9 +437,6 @@ Fighter.prototype.calculate_effective_atk = function (atk, enemy) {
 // Helper function for atk calculation, checks to see if the unit deals effective damage
 // to the enemy.
 Fighter.prototype.check_effective_damage = function (enemy) {
-  if (enemy.get_negate_eff() > 0) {
-    return false;
-  }
   if (this.weapon.srd_eff && enemy.get_weap() == "S") {
     return true;
   }
@@ -476,16 +473,16 @@ Fighter.prototype.check_effective_damage = function (enemy) {
   if (this.weapon.stf_eff && enemy.get_weap() == "ST") {
     return true;
   }
-  if (this.weapon.inf_eff && enemy.get_type() == "I") {
+  if (this.weapon.inf_eff && enemy.get_type() == "I" && !enemy.get_negate_mov_eff()) {
     return true;
   }
-  if (this.weapon.cav_eff && enemy.get_type() == "C") {
+  if (this.weapon.cav_eff && enemy.get_type() == "C" && !enemy.get_negate_mov_eff()) {
     return true;
   }
-  if (this.weapon.fly_eff && enemy.get_type() == "F") {
+  if (this.weapon.fly_eff && enemy.get_type() == "F" && !enemy.get_negate_mov_eff()) {
     return true;
   }
-  if (this.weapon.arm_eff && enemy.get_type() == "A") {
+  if (this.weapon.arm_eff && enemy.get_type() == "A" && !enemy.get_negate_mov_eff()) {
     return true;
   }
   return false;
@@ -1150,8 +1147,8 @@ Fighter.prototype.get_type = function() {
 Fighter.prototype.get_wt_amp = function() {
   return Math.max(this.weapon.wt_amp + this.a_skill.wt_amp);
 };
-Fighter.prototype.get_negate_eff = function() {
-  return this.a_skill.negate_eff || this.seal.negate_eff;
+Fighter.prototype.get_negate_mov_eff = function() {
+  return this.a_skill.negate_mov_eff || this.seal.negate_mov_eff;
 };
 Fighter.prototype.get_range = function() {
   return this.weapon.range;
