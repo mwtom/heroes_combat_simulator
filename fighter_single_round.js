@@ -834,18 +834,18 @@ Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attack
 // counter for each active source, returning the counter at the end.
 Fighter.prototype.follow_up_thresh_applies = function (is_active) {
   var counter = 0;
-  if (this.b_skill.follow_up_thresh > 0 && ((is_active && this.b_skill.follow_up_off) || (!is_active && this.b_skill.follow_up_def))) {
+  if ((is_active && this.b_skill.follow_up_off) || (!is_active && this.b_skill.follow_up_def)) {
     if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
       counter += 1;
     }
   }
-  if (this.weapon.follow_up_thresh > 0 && ((is_active && this.weapon.follow_up_off) || (!is_active && this.weapon.follow_up_def))) {
-    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
+  if ((is_active && this.weapon.follow_up_off) || (!is_active && this.weapon.follow_up_def)) {
+    if (this.start_HP / this.hp_max >= this.weapon.follow_up_thresh) {
       counter += 1;
     }
   }
-  if (this.seal.follow_up_thresh > 0 && ((is_active && this.seal.follow_up_off) || (!is_active && this.seal.follow_up_def))) {
-    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
+  if ((is_active && this.seal.follow_up_off) || (!is_active && this.seal.follow_up_def)) {
+    if (this.start_HP / this.hp_max >= this.seal.follow_up_thresh) {
       counter += 1;
     }
   }
