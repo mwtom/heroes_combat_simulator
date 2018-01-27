@@ -260,6 +260,7 @@ function simulate() {
 function passes_filter_reqs(character) {
   var color = character.color;
   var weapon_type = character.weap;
+  var mov_type = character.type;
 
   switch (color) {
     case "R":
@@ -332,6 +333,27 @@ function passes_filter_reqs(character) {
     // Staff is the only other option.
     default:
       if (!document.getElementById("Staff").checked) {
+        return false;
+      }
+  }
+  switch(mov_type) {
+    case "A":
+      if (!document.getElementById("Armor").checked) {
+        return false;
+      }
+      break;
+    case "C":
+      if (!document.getElementById("Cavalry").checked) {
+        return false;
+      }
+      break;
+    case "F":
+      if (!document.getElementById("Flier").checked) {
+        return false;
+      }
+      break;
+    default:
+      if (!document.getElementById("Infantry").checked) {
         return false;
       }
   }

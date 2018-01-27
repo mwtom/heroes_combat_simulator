@@ -320,6 +320,21 @@ function deselect_all_weapons() {
   document.getElementById("Staff").checked = false;
 }
 
+// Checks all movement-based filter checkboxes.
+function select_all_mov_types() {
+  document.getElementById("Armor").checked = true;
+  document.getElementById("Cavalry").checked = true;
+  document.getElementById("Flier").checked = true;
+  document.getElementById("Infantry").checked = true;
+}
+// Unchecks all movement-based filter checkboxes.
+function deselect_all_mov_types() {
+  document.getElementById("Armor").checked = false;
+  document.getElementById("Cavalry").checked = false;
+  document.getElementById("Flier").checked = false;
+  document.getElementById("Infantry").checked = false;
+}
+
 function check_special_effects() {
   var special_effect_text = "None.";
   if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].special_stat_bonus) {

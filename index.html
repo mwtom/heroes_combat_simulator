@@ -58,6 +58,16 @@ $(document).ready(function() {
     deselect_all_weapons();
     simulate();
   });
+  // Select all movement types (filter menu)
+  $("#SelectMovType").click(function() {
+    select_all_mov_types();
+    simulate();
+  });
+  // Deselect all movement types (filter menu)
+  $("#DeselectMovType").click(function() {
+    deselect_all_mov_types();
+    simulate();
+  });
   // Reload available skills when the Inheritance Breaker
   // checkbox is clicked.
   $("#RuleBreaker").click(function() {
@@ -369,6 +379,43 @@ $(document).ready(function() {
             Select All
           </button>
           <button id="DeselectWeapType" class="SelectionButton">
+            Deselect All
+          </button>
+          <br />
+          <br />
+          Movement Type:
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Armor" checked="true" />
+                <label for="Armor">
+                  Armor
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Cavalry" checked="true" />
+                <label for="Cavalry">
+                  Cavalry
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Flier" checked="true" />
+                <label for="Flier">
+                  Flier
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Infantry" checked="true" />
+                <label for="Infantry">
+                  Infantry
+                </label>
+              </td>
+            </tr>
+          </table>
+          <button id="SelectMovType" class="SelectionButton">
+            Select All
+          </button>
+          <button id="DeselectMovType" class="SelectionButton">
             Deselect All
           </button>
         </div>
