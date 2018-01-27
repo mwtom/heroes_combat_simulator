@@ -1,6 +1,7 @@
 /* **************************** GLOBAL VARIABLES ***************************** */
 // Object arrays.
 var Characters = new Array();
+var Optimized_Chars = new Array();
 var Weapons = new Array();
 var A_Passives = new Array();
 var B_Passives = new Array();
@@ -19,12 +20,14 @@ var proc_count = 0;
 
 // Logging variables
 var combat_log = "";
-var spd_log = new Array(2);
 
 // Pushes character and skill data into arrays.
 function load_data() {
   for (item in data.Characters) {
     Characters.push(data.Characters[item]);
+  }
+  for (item in data.Optimized_Chars) {
+    Optimized_Chars.push(data.Optimized_Chars[item]);
   }
   for (item in data.Weapons) {
     Weapons.push(data.Weapons[item]);

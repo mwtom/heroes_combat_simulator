@@ -15,6 +15,14 @@ class Fighter {
     this.spd_base = char.spd_base;
     this.def_base = char.def_base;
     this.res_base = char.res_base;
+    if (char.n_lock == 1) {
+      this.boon = "None";
+      this.bane = "None";
+    }
+    else {
+      this.boon = boon;
+      this.bane = bane;
+    }
     // Only calculate boon/bane if character is not neutral-locked, and the
     // selected boon is not the same as the selected bane.
     // Update lv. 40 stats (obvious reasons) AND base stats (merge calcs).

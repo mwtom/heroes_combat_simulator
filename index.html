@@ -76,6 +76,14 @@ $(document).ready(function() {
     find_upgrades(document.getElementById("Weapon").value);
     simulate();
   });
+  $("input.Foe_Type").change(function() {
+    if (document.getElementById("Base_Foes").checked) {
+      $("#Enemy_Override_Table").toggle(true);
+    }
+    else if (document.getElementById("Optimized_Foes").checked) {
+      $("#Enemy_Override_Table").toggle(false);
+    }
+  });
 });
 </script>
 <div id="PageContent">
@@ -495,7 +503,18 @@ $(document).ready(function() {
         Enemy Overrides
       </h3>
       <div id="EnemyOptions">
-        <table>
+        <input type="radio" id="Base_Foes" name="Foe_Type" class="Foe_Type" value="base" checked />
+        <label for="Base_Foes">
+          Use foes with Base Skill Sets.
+        </label>
+        <br />
+        <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
+        <label for="Optimized_Foes">
+          EXPERIMENTAL: Use foes with Performance-Optimized Skill Sets (Nature and Skill Overrides are not available for this setting).
+        </label>
+        <br />
+        <br />
+        <table id="Enemy_Override_Table">
           <tr>
             <td>
               Boon:

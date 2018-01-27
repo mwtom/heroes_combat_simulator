@@ -58,7 +58,7 @@ body {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 300px;
+    width: 280px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -70,7 +70,7 @@ body {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -140px;
 }
 
 .tooltip:hover .tooltiptext {

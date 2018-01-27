@@ -43,7 +43,7 @@ function simulate() {
   Attacker.set_assumed_res_debuff(document.getElementById("ResDebuff").value);
 
   // Prep & logging variables
-  var weap, weap_selected, a, b, c, proc, seal;
+  var boon, bane, weap, weap_selected, a, b, c, proc, seal;
   var Defender;
   var orko = new Array();
   var orko_dealt = new Array();
@@ -68,60 +68,82 @@ function simulate() {
   var no_ko_def_spd = new Array();
   var msg = "";
 
-  // Iterate on all characters.
-  for (var i = 0; i < Characters.length; i++) {
+  var enemy_pool;
+  if (document.getElementById("Base_Foes").checked) {
+    enemy_pool = Characters;
+  }
+  else if (document.getElementById("Optimized_Foes").checked) {
+    enemy_pool = Optimized_Chars;
+  }
+
+  // Iterate on all characters from the desired pool.
+  for (var i = 0; i < enemy_pool.length; i++) {
     // Only run the matchup if the character is within the subset defined by the filters.
-    if (passes_filter_reqs(Characters[i])) {
-      // Skill validation on enemy overrides. Use default skills if override skill is invalid.
-      weap_selected = document.getElementById("EnemyWeapon").value;
-      // A weapon override is valid if one of the following applies:
-      //    -The weapon's type matches the unit's weapon type, and the weapon is non-exclusive.
-      //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon, or
-      //     inheritance restrictions have been removed by the user.
-      if (weap_selected != 0 &&
-          ((Characters[i].weap == Weapons[weap_selected].type && !Weapons[weap_selected].char_lock
-            ||
-            (weap_selected == Characters[i].base_weap || Weapons[weap_selected].evolved_from == Characters[i].base_weap) || Weapons[weap_selected].upgraded_from == Characters[i].base_weap) || document.getElementById("RuleBreaker").checked)) {
-        weap = Weapons[weap_selected];
+    if (passes_filter_reqs(enemy_pool[i])) {
+      if (document.getElementById("Base_Foes").checked) {
+        boon = document.getElementById("EnemyBoon").value;
+        bane = document.getElementById("EnemyBane").value;
+        // Skill validation on enemy overrides. Use default skills if override skill is invalid.
+        weap_selected = document.getElementById("EnemyWeapon").value;
+        // A weapon override is valid if one of the following applies:
+        //    -The weapon's type matches the unit's weapon type, and the weapon is non-exclusive.
+        //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon, or
+        //     inheritance restrictions have been removed by the user.
+        if (weap_selected != 0 &&
+            ((enemy_pool[i].weap == Weapons[weap_selected].type && !Weapons[weap_selected].char_lock
+              ||
+              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap) || Weapons[weap_selected].upgraded_from == enemy_pool[i].base_weap) || document.getElementById("RuleBreaker").checked)) {
+          weap = Weapons[weap_selected];
+        }
+        else {
+          weap = Weapons[enemy_pool[i].base_weap];
+        }
+        if (document.getElementById("EnemyA").value != 0 && (verify_legality(enemy_pool[i], A_Passives[document.getElementById("EnemyA").value]) || document.getElementById("RuleBreaker").checked)) {
+          a = A_Passives[document.getElementById("EnemyA").value];
+        }
+        else {
+          a = A_Passives[enemy_pool[i].base_a];
+        }
+        if (document.getElementById("EnemyB").value != 0 && (verify_legality(enemy_pool[i], B_Passives[document.getElementById("EnemyB").value]) || document.getElementById("RuleBreaker").checked)) {
+          b = B_Passives[document.getElementById("EnemyB").value];
+        }
+        else {
+          b = B_Passives[enemy_pool[i].base_b];
+        }
+        if (document.getElementById("EnemyC").value != 0 && (verify_legality(enemy_pool[i], C_Passives[document.getElementById("EnemyC").value]) || document.getElementById("RuleBreaker").checked)) {
+          c = C_Passives[document.getElementById("EnemyC").value];
+        }
+        else {
+          c = C_Passives[enemy_pool[i].base_c];
+        }
+        if (document.getElementById("EnemySpecial").value != 0 && (verify_legality(enemy_pool[i], Procs[document.getElementById("EnemySpecial").value]) || document.getElementById("RuleBreaker").checked)) {
+          proc = Procs[document.getElementById("EnemySpecial").value];
+        }
+        else {
+          proc = Procs[enemy_pool[i].base_proc];
+        }
+        if (verify_legality(enemy_pool[i], Seals[document.getElementById("EnemySeal").value]) || document.getElementById("RuleBreaker").checked) {
+          seal = Seals[document.getElementById("EnemySeal").value];
+        }
+        else {
+          seal = Seals[0];
+        }
       }
-      else {
-        weap = Weapons[Characters[i].base_weap];
-      }
-      if (document.getElementById("EnemyA").value != 0 && (verify_legality(Characters[i], A_Passives[document.getElementById("EnemyA").value]) || document.getElementById("RuleBreaker").checked)) {
-        a = A_Passives[document.getElementById("EnemyA").value];
-      }
-      else {
-        a = A_Passives[Characters[i].base_a];
-      }
-      if (document.getElementById("EnemyB").value != 0 && (verify_legality(Characters[i], B_Passives[document.getElementById("EnemyB").value]) || document.getElementById("RuleBreaker").checked)) {
-        b = B_Passives[document.getElementById("EnemyB").value];
-      }
-      else {
-        b = B_Passives[Characters[i].base_b];
-      }
-      if (document.getElementById("EnemyC").value != 0 && (verify_legality(Characters[i], C_Passives[document.getElementById("EnemyC").value]) || document.getElementById("RuleBreaker").checked)) {
-        c = C_Passives[document.getElementById("EnemyC").value];
-      }
-      else {
-        c = C_Passives[Characters[i].base_c];
-      }
-      if (document.getElementById("EnemySpecial").value != 0 && (verify_legality(Characters[i], Procs[document.getElementById("EnemySpecial").value]) || document.getElementById("RuleBreaker").checked)) {
-        proc = Procs[document.getElementById("EnemySpecial").value];
-      }
-      else {
-        proc = Procs[Characters[i].base_proc];
-      }
-      if (verify_legality(Characters[i], Seals[document.getElementById("EnemySeal").value]) || document.getElementById("RuleBreaker").checked) {
-        seal = Seals[document.getElementById("EnemySeal").value];
-      }
-      else {
-        seal = Seals[0];
+      else if (document.getElementById("Optimized_Foes").checked) {
+        boon = enemy_pool[i].boon;
+        bane = enemy_pool[i].bane;
+        weap = Weapons[enemy_pool[i].weapon];
+        a = A_Passives[enemy_pool[i].a];
+        b = B_Passives[enemy_pool[i].b];
+        c = C_Passives[enemy_pool[i].c];
+        proc = Procs[enemy_pool[i].proc];
+        seal = Seals[enemy_pool[i].seal];
       }
 
       // Build the defender with the base set & valid overrides.
-      Defender = new Fighter(Characters[i],
-                             document.getElementById("EnemyBoon").value,
-                             document.getElementById("EnemyBane").value,
+      Defender = new Fighter(enemy_pool[i],
+                             boon,
+                             bane,
                              weap,
                              a,
                              b,
@@ -170,13 +192,8 @@ function simulate() {
         }
       }
 
-      // Determine which type of simulation should be run.
-      if (document.getElementById("SimType").value == "Offense") {
-        combat_log = execute_phase(Attacker, Defender);
-      }
-      else {
-        combat_log = execute_phase(Defender, Attacker);
-      }
+      // Run the simulation. The third variable determines what type of simulation should be run.
+      combat_log += execute_phase(Attacker, Defender, (document.getElementById("SimType").value == "Offense"));
 
       // After combat, save the logging information to the proper arrays.
       if (Defender.get_HP() == 0) {
@@ -185,8 +202,6 @@ function simulate() {
         orko_taken[orko_taken.length] = Defender.get_dmg_dealt();
         orko_def_hp_max[orko_def_hp_max.length] = Defender.get_HP_max();
         orko_log[orko_log.length] = combat_log;
-        orko_atk_spd[orko_atk_spd.length] = spd_log[0];
-        orko_def_spd[orko_def_spd.length] = spd_log[1];
       }
       else if (Attacker.get_HP() == 0) {
         losses[losses.length] = i;
@@ -194,8 +209,6 @@ function simulate() {
         losses_taken[losses_taken.length] = Defender.get_dmg_dealt();
         losses_def_hp_max[losses_def_hp_max.length] = Defender.get_HP_max();
         losses_log[losses_log.length] = combat_log;
-        losses_atk_spd[losses_atk_spd.length] = spd_log[0];
-        losses_def_spd[losses_def_spd.length] = spd_log[1];
       }
       else {
         no_ko[no_ko.length] = i;
@@ -203,8 +216,6 @@ function simulate() {
         no_ko_taken[no_ko_taken.length] = Defender.get_dmg_dealt();
         no_ko_def_hp_max[no_ko_def_hp_max.length] = Defender.get_HP_max();
         no_ko_log[no_ko_log.length] = combat_log;
-        no_ko_atk_spd[no_ko_atk_spd.length] = spd_log[0];
-        no_ko_def_spd[no_ko_def_spd.length] = spd_log[1];
       }
 
       // Reset the attacker to the values specified by the user, and clear the combat log.
@@ -219,25 +230,25 @@ function simulate() {
   msg += "<b>ORKOs (" + orko.length + ")</b><br><table class='results_table'>";
   for (var i = 0; i < orko.length; i++) {
     msg += "<tr><td><span id='orko" + i + "' onclick=showorhide('orko" + i + "')>";
-    msg += Characters[orko[i]].name + ": " + orko_dealt[i] + " total dmg dealt (";
+    msg += enemy_pool[orko[i]].name + ": " + orko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(orko_dealt[i]/orko_def_hp_max[i]*100) + "%), " + orko_taken[i];
-    msg += " total dmg taken (" + Math.floor(orko_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + orko_atk_spd[i] + " Spd vs " + orko_def_spd[i] + " Spd)" + "<br></span>";
+    msg += " total dmg taken (" + Math.floor(orko_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
     msg += "<div id='orko" + i + "details' class='tempHidden log'>" + orko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>No KO (" + no_ko.length + ")</b><br><table class='results_table'>";
   for (var i =0; i < no_ko.length; i++) {
     msg += "<tr><td><span id='noko" + i + "' onclick=showorhide('noko" + i + "')>";
-    msg += Characters[no_ko[i]].name + ": " + no_ko_dealt[i] + " total dmg dealt (";
+    msg += enemy_pool[no_ko[i]].name + ": " + no_ko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(no_ko_dealt[i]/no_ko_def_hp_max[i]*100) + "%), " + no_ko_taken[i];
-    msg += " total dmg taken (" + Math.floor(no_ko_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + no_ko_atk_spd[i] + " Spd vs " + no_ko_def_spd[i] + " Spd)" + "<br></span>";
+    msg += " total dmg taken (" + Math.floor(no_ko_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
     msg += "<div id='noko" + i + "details' class='tempHidden log'>" + no_ko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>Losses (" + losses.length + ")</b><br><table class='results_table'>";
   for (var i = 0; i < losses.length; i++) {
     msg += "<tr><td><span id='loss" + i + "' onclick=showorhide('loss" + i + "')>";
-    msg += Characters[losses[i]].name + ": " + losses_dealt[i] + " total dmg dealt (";
+    msg += enemy_pool[losses[i]].name + ": " + losses_dealt[i] + " total dmg dealt (";
     msg += Math.floor(losses_dealt[i]/losses_def_hp_max[i]*100) + "%), " + losses_taken[i];
-    msg += " total dmg taken (" + Math.floor(losses_taken[i]/Attacker.get_HP_max()*100) + "%)." + " (" + losses_atk_spd[i] + " Spd vs " + losses_def_spd[i] + " Spd)" + "<br></span>";
+    msg += " total dmg taken (" + Math.floor(losses_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
     msg += "<div id='loss" + i + "details' class='tempHidden log'>" + losses_log[i] + "</div></td></tr>";
   }
   msg += "</table>";
@@ -330,7 +341,22 @@ function passes_filter_reqs(character) {
 
 // Runs through a single phase with an attacker and a defender. After combat concludes
 // (end of phase or one unit dies), the combat log is returned.
-function execute_phase(attacker, defender) {
+function execute_phase(player, enemy, player_initiating) {
+  var attacker, defender;
+  if (player_initiating) {
+    attacker = player;
+    defender = enemy;
+  }
+  else {
+    attacker = enemy;
+    defender = player;
+  }
+
+  combat_log += "Enemy Details: +" + enemy.boon + "/-" + enemy.bane;
+  combat_log += ". " + enemy.get_weap_name() + ", " + enemy.get_proc_name() + ", " + enemy.a_skill.name;
+  combat_log += ", " + enemy.b_skill.name + ", " + enemy.c_skill.name + ", " + enemy.seal.name + "<br>";
+  combat_log += "Enemy Stats: " + enemy.get_HP_max() + " HP, " + enemy.get_perm_atk() + " Atk, ";
+  combat_log += enemy.get_perm_spd() + " Spd, " + enemy.get_perm_def() + " Def, " + enemy.get_perm_res() + " Res.<br>";
 
   // Apply any start-of-turn buffs to the attacker.
   // apply_start_buffs(attacker);
@@ -362,10 +388,6 @@ function execute_phase(attacker, defender) {
   if (can_counter) {
     defender_follow_up = check_follow_up(defender, attacker, false, 1);
   }
-
-  // Spd logging for the output.
-  spd_log[0] = attacker.calculate_spd(true, defender, true);
-  spd_log[1] = defender.calculate_spd(false, attacker, true);
 
   // Determines whether the attacker's Desperation is active (see the Fighter.desperation_applies
   // method for details).
