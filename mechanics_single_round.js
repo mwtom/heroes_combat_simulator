@@ -50,22 +50,19 @@ function simulate() {
   var orko_taken = new Array();
   var orko_def_hp_max = new Array();
   var orko_log = new Array();
-  var orko_atk_spd = new Array();
-  var orko_def_spd = new Array();
+  var orko_skill_log = new Array();
   var losses = new Array();
   var losses_dealt = new Array();
   var losses_taken = new Array();
   var losses_def_hp_max = new Array();
   var losses_log = new Array();
-  var losses_atk_spd = new Array();
-  var losses_def_spd = new Array();
+  var losses_skill_log = new Array();
   var no_ko = new Array();
   var no_ko_dealt = new Array();
   var no_ko_taken = new Array();
   var no_ko_def_hp_max = new Array();
   var no_ko_log = new Array();
-  var no_ko_atk_spd = new Array();
-  var no_ko_def_spd = new Array();
+  var no_ko_skill_log = new Array();
   var msg = "";
 
   var enemy_pool;
@@ -201,6 +198,7 @@ function simulate() {
         orko_dealt[orko_dealt.length] = Attacker.get_dmg_dealt();
         orko_taken[orko_taken.length] = Defender.get_dmg_dealt();
         orko_def_hp_max[orko_def_hp_max.length] = Defender.get_HP_max();
+        orko_skill_log[orko_skill_log.length] = skill_string;
         orko_log[orko_log.length] = combat_log;
       }
       else if (Attacker.get_HP() == 0) {
@@ -208,6 +206,7 @@ function simulate() {
         losses_dealt[losses_dealt.length] = Attacker.get_dmg_dealt();
         losses_taken[losses_taken.length] = Defender.get_dmg_dealt();
         losses_def_hp_max[losses_def_hp_max.length] = Defender.get_HP_max();
+        losses_skill_log[losses_skill_log.length] = skill_string;
         losses_log[losses_log.length] = combat_log;
       }
       else {
@@ -215,6 +214,7 @@ function simulate() {
         no_ko_dealt[no_ko_dealt.length] = Attacker.get_dmg_dealt();
         no_ko_taken[no_ko_taken.length] = Defender.get_dmg_dealt();
         no_ko_def_hp_max[no_ko_def_hp_max.length] = Defender.get_HP_max();
+        no_ko_skill_log[no_ko_skill_log.length] = skill_string;
         no_ko_log[no_ko_log.length] = combat_log;
       }
 
@@ -232,7 +232,7 @@ function simulate() {
     msg += "<tr><td><span id='orko" + i + "' onclick=showorhide('orko" + i + "')>";
     msg += enemy_pool[orko[i]].name + ": " + orko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(orko_dealt[i]/orko_def_hp_max[i]*100) + "%), " + orko_taken[i];
-    msg += " total dmg taken (" + Math.floor(orko_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
+    msg += " total dmg taken (" + Math.floor(orko_taken[i]/Attacker.get_HP_max()*100) + "%).<br>" + orko_skill_log[i] + "<br></span>";
     msg += "<div id='orko" + i + "details' class='tempHidden log'>" + orko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>No KO (" + no_ko.length + ")</b><br><table class='results_table'>";
@@ -240,7 +240,7 @@ function simulate() {
     msg += "<tr><td><span id='noko" + i + "' onclick=showorhide('noko" + i + "')>";
     msg += enemy_pool[no_ko[i]].name + ": " + no_ko_dealt[i] + " total dmg dealt (";
     msg += Math.floor(no_ko_dealt[i]/no_ko_def_hp_max[i]*100) + "%), " + no_ko_taken[i];
-    msg += " total dmg taken (" + Math.floor(no_ko_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
+    msg += " total dmg taken (" + Math.floor(no_ko_taken[i]/Attacker.get_HP_max()*100) + "%).<br>" + no_ko_skill_log[i] + "<br></span>";
     msg += "<div id='noko" + i + "details' class='tempHidden log'>" + no_ko_log[i] + "</div></td></tr>";
   }
   msg += "</table><br><b>Losses (" + losses.length + ")</b><br><table class='results_table'>";
@@ -248,7 +248,7 @@ function simulate() {
     msg += "<tr><td><span id='loss" + i + "' onclick=showorhide('loss" + i + "')>";
     msg += enemy_pool[losses[i]].name + ": " + losses_dealt[i] + " total dmg dealt (";
     msg += Math.floor(losses_dealt[i]/losses_def_hp_max[i]*100) + "%), " + losses_taken[i];
-    msg += " total dmg taken (" + Math.floor(losses_taken[i]/Attacker.get_HP_max()*100) + "%).<br></span>";
+    msg += " total dmg taken (" + Math.floor(losses_taken[i]/Attacker.get_HP_max()*100) + "%).<br>" + losses_skill_log[i] + "<br></span>";
     msg += "<div id='loss" + i + "details' class='tempHidden log'>" + losses_log[i] + "</div></td></tr>";
   }
   msg += "</table>";
@@ -374,11 +374,17 @@ function execute_phase(player, enemy, player_initiating) {
     defender = player;
   }
 
-  combat_log += "Enemy Details: +" + enemy.boon + "/-" + enemy.bane;
-  combat_log += ". " + enemy.get_weap_name() + ", " + enemy.get_proc_name() + ", " + enemy.a_skill.name;
-  combat_log += ", " + enemy.b_skill.name + ", " + enemy.c_skill.name + ", " + enemy.seal.name + "<br>";
-  combat_log += "Enemy Stats: " + enemy.get_HP_max() + " HP, " + enemy.get_perm_atk() + " Atk, ";
+  combat_log += "Enemy Stats: +" + enemy.boon + "/-" + enemy.bane;
+  combat_log += ", " + enemy.get_HP_max() + " HP, " + enemy.get_perm_atk() + " Atk, ";
   combat_log += enemy.get_perm_spd() + " Spd, " + enemy.get_perm_def() + " Def, " + enemy.get_perm_res() + " Res.<br>";
+
+  skill_string = "<div class=\"weapon_icon\">";
+  skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weap_name() + "</div>";
+  skill_string += "<div class=\"special_icon\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_proc_name() + "</div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.a_skill.name) + " class=\"icon\" /></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.b_skill.name) + " class=\"icon\" /></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.c_skill.name) + " class=\"icon\" /></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_seal_path(enemy.seal.name) + " class=\"icon\" /></div>";
 
   // Apply any start-of-turn buffs to the attacker.
   // apply_start_buffs(attacker);
@@ -1042,4 +1048,63 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
     span_class = "defender_dmg";
   }
   combat_log += "<span class='" + span_class + "'>" + defender.get_name() + " takes " + dmg + " damage, and has " + defender.get_HP() + " HP remaining.<br></span>";
+}
+
+// Input: A, B, or C Passive name.
+// Output: File path for that skill's image.
+function process_skill_path(input) {
+  var output = "images/";
+  for (var i = 0; i < input.length; i++) {
+    if (input[i] == "'") {
+      output += "\'";
+    }
+    else if (input[i] == "/" || input[i] == " ") {
+      output += "_";
+    }
+    else if (input[i] == "+") {
+      output += "Plus_";
+    }
+    else {
+      output += input[i];
+    }
+  }
+  output += ".png";
+
+  return output;
+}
+// Input: Seal name.
+// Output: File path for that seal's image.
+function process_seal_path(input) {
+  var output = "images/";
+  var number_flag = false;
+  var i = 0;
+  for (; i < input.length; i++) {
+    if (input[i] == "1" || input[i] == "2" || input[i] == "3") {
+      number_flag = true;
+      break;
+    }
+    if (input[i] == "'") {
+      output += "\'";
+    }
+    else if (input[i] == "/" || input[i] == " ") {
+      output += "_";
+    }
+    else if (input[i] == "+") {
+      output += "Plus_";
+    }
+    else {
+      output += input[i];
+    }
+  }
+
+  // If a number was encountered, then it is either the final
+  // number in the string, or the start of a 1/2/3-esque sequence.
+  // Jump to the end of the string for the final number.
+  if (number_flag) {
+    output += input[input.length - 1];
+  }
+
+  output += ".png";
+
+  return output;
 }

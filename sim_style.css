@@ -1,5 +1,5 @@
 .results_table {
-  width: 750px;
+  width: 1000px;
 }
 .tempHidden {
   display: none;
@@ -45,6 +45,23 @@ input, select {
 }
 body {
   background-color: aliceblue;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+}
+.weapon_icon {
+  display: inline-block;
+  width: 185px;
+  margin-left: 20px;
+}
+.special_icon {
+  display: inline-block;
+  width: 150px;
+}
+.skill_icon {
+  display: inline-block;
+  width: 25px;
 }
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;

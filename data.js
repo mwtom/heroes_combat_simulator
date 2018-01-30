@@ -20,6 +20,7 @@ var proc_count = 0;
 
 // Logging variables
 var combat_log = "";
+var skill_string = "";
 
 // Pushes character and skill data into arrays.
 function load_data() {
