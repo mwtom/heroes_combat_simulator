@@ -19,7 +19,7 @@ var data = {
       "weap": "L",
       "base_weap": 52,
       "base_a": 31,
-      "base_b": 47,
+      "base_b": 45,
       "base_c": 0,
       "base_proc": 1
     },
@@ -44,7 +44,7 @@ var data = {
       "base_a": 14,
       "base_b": 0,
       "base_c": 45,
-      "base_proc": 47
+      "base_proc": 48
     },
     "2": {
       "index": 2,
@@ -65,7 +65,7 @@ var data = {
       "weap": "S",
       "base_weap": 134,
       "base_a": 5,
-      "base_b": 53,
+      "base_b": 51,
       "base_c": 0,
       "base_proc": 13
     },
@@ -90,7 +90,7 @@ var data = {
       "base_a": 22,
       "base_b": 0,
       "base_c": 1,
-      "base_proc": 46
+      "base_proc": 47
     },
     "4": {
       "index": 4,
@@ -111,7 +111,7 @@ var data = {
       "weap": "A",
       "base_weap": 290,
       "base_a": 0,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 49,
       "base_proc": 3
     },
@@ -134,7 +134,7 @@ var data = {
       "weap": "S",
       "base_weap": 53,
       "base_a": 0,
-      "base_b": 20,
+      "base_b": 18,
       "base_c": 15,
       "base_proc": 38
     },
@@ -157,7 +157,7 @@ var data = {
       "weap": "A",
       "base_weap": 130,
       "base_a": 31,
-      "base_b": 27,
+      "base_b": 25,
       "base_c": 0,
       "base_proc": 0
     },
@@ -180,7 +180,7 @@ var data = {
       "weap": "RT",
       "base_weap": 463,
       "base_a": 0,
-      "base_b": 37,
+      "base_b": 35,
       "base_c": 12,
       "base_proc": 21
     },
@@ -226,9 +226,9 @@ var data = {
       "weap": "S",
       "base_weap": 18,
       "base_a": 48,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 0,
-      "base_proc": 39
+      "base_proc": 40
     },
     "10": {
       "index": 10,
@@ -251,7 +251,7 @@ var data = {
       "base_a": 0,
       "base_b": 0,
       "base_c": 54,
-      "base_proc": 48
+      "base_proc": 49
     },
     "11": {
       "index": 11,
@@ -272,7 +272,7 @@ var data = {
       "weap": "A",
       "base_weap": 190,
       "base_a": 0,
-      "base_b": 17,
+      "base_b": 15,
       "base_c": 33,
       "base_proc": 0
     },
@@ -341,7 +341,7 @@ var data = {
       "weap": "A",
       "base_weap": 50,
       "base_a": 0,
-      "base_b": 26,
+      "base_b": 24,
       "base_c": 45,
       "base_proc": 0
     },
@@ -386,7 +386,7 @@ var data = {
       "type": "C",
       "weap": "L",
       "base_weap": 19,
-      "base_a": 53,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 19,
       "base_proc": 5
@@ -410,7 +410,7 @@ var data = {
       "weap": "A",
       "base_weap": 247,
       "base_a": 17,
-      "base_b": 31,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 19
     },
@@ -433,7 +433,7 @@ var data = {
       "weap": "S",
       "base_weap": 4,
       "base_a": 45,
-      "base_b": 54,
+      "base_b": 52,
       "base_c": 0,
       "base_proc": 4
     },
@@ -456,7 +456,7 @@ var data = {
       "weap": "GT",
       "base_weap": 178,
       "base_a": 22,
-      "base_b": 38,
+      "base_b": 36,
       "base_c": 0,
       "base_proc": 29
     },
@@ -525,7 +525,7 @@ var data = {
       "weap": "S",
       "base_weap": 53,
       "base_a": 0,
-      "base_b": 54,
+      "base_b": 52,
       "base_c": 54,
       "base_proc": 16
     },
@@ -594,7 +594,7 @@ var data = {
       "weap": "GT",
       "base_weap": 171,
       "base_a": 19,
-      "base_b": 28,
+      "base_b": 26,
       "base_c": 0,
       "base_proc": 0
     },
@@ -640,7 +640,7 @@ var data = {
       "weap": "L",
       "base_weap": 249,
       "base_a": 1,
-      "base_b": 40,
+      "base_b": 38,
       "base_c": 0,
       "base_proc": 32
     },
@@ -663,7 +663,7 @@ var data = {
       "weap": "GT",
       "base_weap": 183,
       "base_a": 5,
-      "base_b": 18,
+      "base_b": 16,
       "base_c": 0,
       "base_proc": 0
     },
@@ -708,7 +708,7 @@ var data = {
       "type": "I",
       "weap": "L",
       "base_weap": 148,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 0,
       "base_c": 54,
       "base_proc": 0
@@ -776,9 +776,9 @@ var data = {
       "n_lock": 0,
       "type": "A",
       "weap": "A",
-      "base_weap": 345,
+      "base_weap": 343,
       "base_a": 9,
-      "base_b": 51,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 0
     },
@@ -824,7 +824,7 @@ var data = {
       "weap": "L",
       "base_weap": 387,
       "base_a": 0,
-      "base_b": 25,
+      "base_b": 23,
       "base_c": 50,
       "base_proc": 0
     },
@@ -849,7 +849,7 @@ var data = {
       "base_a": 38,
       "base_b": 0,
       "base_c": 0,
-      "base_proc": 50
+      "base_proc": 51
     },
     "37": {
       "index": 37,
@@ -870,7 +870,7 @@ var data = {
       "weap": "B",
       "base_weap": 74,
       "base_a": 0,
-      "base_b": 34,
+      "base_b": 32,
       "base_c": 55,
       "base_proc": 19
     },
@@ -893,7 +893,7 @@ var data = {
       "weap": "L",
       "base_weap": 387,
       "base_a": 15,
-      "base_b": 25,
+      "base_b": 23,
       "base_c": 0,
       "base_proc": 16
     },
@@ -916,7 +916,7 @@ var data = {
       "weap": "L",
       "base_weap": 52,
       "base_a": 50,
-      "base_b": 33,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 17
     },
@@ -939,7 +939,7 @@ var data = {
       "weap": "B",
       "base_weap": 79,
       "base_a": 0,
-      "base_b": 18,
+      "base_b": 16,
       "base_c": 10,
       "base_proc": 0
     },
@@ -985,7 +985,7 @@ var data = {
       "weap": "S",
       "base_weap": 471,
       "base_a": 15,
-      "base_b": 32,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 14
     },
@@ -1008,7 +1008,7 @@ var data = {
       "weap": "D",
       "base_weap": 107,
       "base_a": 0,
-      "base_b": 44,
+      "base_b": 42,
       "base_c": 30,
       "base_proc": 13
     },
@@ -1054,7 +1054,7 @@ var data = {
       "weap": "GT",
       "base_weap": 126,
       "base_a": 0,
-      "base_b": 35,
+      "base_b": 33,
       "base_c": 43,
       "base_proc": 0
     },
@@ -1100,7 +1100,7 @@ var data = {
       "weap": "L",
       "base_weap": 52,
       "base_a": 31,
-      "base_b": 16,
+      "base_b": 14,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1123,7 +1123,7 @@ var data = {
       "weap": "A",
       "base_weap": 448,
       "base_a": 23,
-      "base_b": 35,
+      "base_b": 33,
       "base_c": 35,
       "base_proc": 13
     },
@@ -1146,7 +1146,7 @@ var data = {
       "weap": "S",
       "base_weap": 53,
       "base_a": 0,
-      "base_b": 31,
+      "base_b": 29,
       "base_c": 58,
       "base_proc": 38
     },
@@ -1169,7 +1169,7 @@ var data = {
       "weap": "L",
       "base_weap": 387,
       "base_a": 14,
-      "base_b": 51,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1192,7 +1192,7 @@ var data = {
       "weap": "RT",
       "base_weap": 165,
       "base_a": 48,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 38,
       "base_proc": 0
     },
@@ -1215,7 +1215,7 @@ var data = {
       "weap": "S",
       "base_weap": 365,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 14,
       "base_c": 34,
       "base_proc": 0
     },
@@ -1238,7 +1238,7 @@ var data = {
       "weap": "S",
       "base_weap": 284,
       "base_a": 28,
-      "base_b": 31,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 22
     },
@@ -1261,7 +1261,7 @@ var data = {
       "weap": "S",
       "base_weap": 5,
       "base_a": 14,
-      "base_b": 19,
+      "base_b": 17,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1284,7 +1284,7 @@ var data = {
       "weap": "ST",
       "base_weap": 167,
       "base_a": 0,
-      "base_b": 30,
+      "base_b": 28,
       "base_c": 0,
       "base_proc": 31
     },
@@ -1332,7 +1332,7 @@ var data = {
       "base_a": 0,
       "base_b": 1,
       "base_c": 59,
-      "base_proc": 46
+      "base_proc": 47
     },
     "58": {
       "index": 58,
@@ -1353,7 +1353,7 @@ var data = {
       "weap": "L",
       "base_weap": 366,
       "base_a": 0,
-      "base_b": 43,
+      "base_b": 41,
       "base_c": 55,
       "base_proc": 34
     },
@@ -1376,7 +1376,7 @@ var data = {
       "weap": "L",
       "base_weap": 212,
       "base_a": 18,
-      "base_b": 45,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1399,7 +1399,7 @@ var data = {
       "weap": "D",
       "base_weap": 258,
       "base_a": 0,
-      "base_b": 38,
+      "base_b": 36,
       "base_c": 54,
       "base_proc": 0
     },
@@ -1422,7 +1422,7 @@ var data = {
       "weap": "B",
       "base_weap": 145,
       "base_a": 0,
-      "base_b": 54,
+      "base_b": 52,
       "base_c": 9,
       "base_proc": 37
     },
@@ -1468,7 +1468,7 @@ var data = {
       "weap": "S",
       "base_weap": 250,
       "base_a": 42,
-      "base_b": 33,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 18
     },
@@ -1491,7 +1491,7 @@ var data = {
       "weap": "L",
       "base_weap": 257,
       "base_a": 2,
-      "base_b": 46,
+      "base_b": 44,
       "base_c": 14,
       "base_proc": 27
     },
@@ -1537,7 +1537,7 @@ var data = {
       "weap": "K",
       "base_weap": 354,
       "base_a": 1,
-      "base_b": 42,
+      "base_b": 40,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1560,7 +1560,7 @@ var data = {
       "weap": "A",
       "base_weap": 200,
       "base_a": 0,
-      "base_b": 54,
+      "base_b": 52,
       "base_c": 20,
       "base_proc": 32
     },
@@ -1583,7 +1583,7 @@ var data = {
       "weap": "K",
       "base_weap": 337,
       "base_a": 16,
-      "base_b": 33,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1606,7 +1606,7 @@ var data = {
       "weap": "B",
       "base_weap": 319,
       "base_a": 0,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 12,
       "base_proc": 3
     },
@@ -1629,7 +1629,7 @@ var data = {
       "weap": "ST",
       "base_weap": 167,
       "base_a": 0,
-      "base_b": 56,
+      "base_b": 54,
       "base_c": 0,
       "base_proc": 25
     },
@@ -1652,7 +1652,7 @@ var data = {
       "weap": "B",
       "base_weap": 51,
       "base_a": 5,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1674,7 +1674,7 @@ var data = {
       "type": "I",
       "weap": "S",
       "base_weap": 472,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 0,
       "base_c": 53,
       "base_proc": 0
@@ -1698,7 +1698,7 @@ var data = {
       "weap": "GT",
       "base_weap": 39,
       "base_a": 27,
-      "base_b": 11,
+      "base_b": 9,
       "base_c": 40,
       "base_proc": 18
     },
@@ -1744,7 +1744,7 @@ var data = {
       "weap": "L",
       "base_weap": 249,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 14,
       "base_c": 29,
       "base_proc": 16
     },
@@ -1767,7 +1767,7 @@ var data = {
       "weap": "S",
       "base_weap": 7,
       "base_a": 36,
-      "base_b": 32,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 0
     },
@@ -1836,9 +1836,9 @@ var data = {
       "weap": "GT",
       "base_weap": 443,
       "base_a": 0,
-      "base_b": 29,
+      "base_b": 27,
       "base_c": 1,
-      "base_proc": 40
+      "base_proc": 41
     },
     "80": {
       "index": 80,
@@ -1859,7 +1859,7 @@ var data = {
       "weap": "RT",
       "base_weap": 317,
       "base_a": 17,
-      "base_b": 21,
+      "base_b": 19,
       "base_c": 0,
       "base_proc": 29
     },
@@ -1934,6 +1934,29 @@ var data = {
     },
     "84": {
       "index": 84,
+      "name": "Ike (Vanguard Legend)",
+      "color": "R",
+      "hp_base": 19,
+      "atk_base": 10,
+      "spd_base": 6,
+      "def_base": 9,
+      "res_base": 4,
+      "hp40": 41,
+      "atk40": 36,
+      "spd40": 30,
+      "def40": 35,
+      "res40": 21,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "S",
+      "base_weap": 309,
+      "base_a": 52,
+      "base_b": 39,
+      "base_c": 13,
+      "base_proc": 39
+    },
+    "85": {
+      "index": 85,
       "name": "Ike (Young Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -1951,12 +1974,12 @@ var data = {
       "weap": "S",
       "base_weap": 309,
       "base_a": 30,
-      "base_b": 47,
+      "base_b": 45,
       "base_c": 0,
       "base_proc": 2
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "name": "Inigo (Indigo Dancer)",
       "color": "G",
       "hp_base": 15,
@@ -1974,12 +1997,12 @@ var data = {
       "weap": "GT",
       "base_weap": 96,
       "base_a": 0,
-      "base_b": 22,
+      "base_b": 20,
       "base_c": 30,
       "base_proc": 0
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "name": "Innes (Regal Strategician)",
       "color": "N",
       "hp_base": 16,
@@ -1997,12 +2020,12 @@ var data = {
       "weap": "B",
       "base_weap": 293,
       "base_a": 27,
-      "base_b": 10,
+      "base_b": 8,
       "base_c": 0,
       "base_proc": 28
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "name": "Jaffar (Angel of Death)",
       "color": "N",
       "hp_base": 17,
@@ -2024,8 +2047,8 @@ var data = {
       "base_c": 57,
       "base_proc": 19
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "name": "Jagen (Veteran Knight)",
       "color": "B",
       "hp_base": 20,
@@ -2047,8 +2070,8 @@ var data = {
       "base_c": 19,
       "base_proc": 1
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "name": "Jakob (Devoted Monster)",
       "color": "N",
       "hp_base": 20,
@@ -2066,12 +2089,12 @@ var data = {
       "weap": "B",
       "base_weap": 278,
       "base_a": 8,
-      "base_b": 51,
+      "base_b": 49,
       "base_c": 0,
       "base_proc": 29
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "name": "Jakob (Devoted Servant)",
       "color": "N",
       "hp_base": 17,
@@ -2089,12 +2112,12 @@ var data = {
       "weap": "K",
       "base_weap": 382,
       "base_a": 15,
-      "base_b": 38,
+      "base_b": 36,
       "base_c": 0,
       "base_proc": 0
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "name": "Jeorge (Perfect Shot)",
       "color": "N",
       "hp_base": 18,
@@ -2112,12 +2135,12 @@ var data = {
       "weap": "B",
       "base_weap": 300,
       "base_a": 0,
-      "base_b": 40,
+      "base_b": 38,
       "base_c": 50,
       "base_proc": 5
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "name": "Joshua (Tempest King)",
       "color": "R",
       "hp_base": 18,
@@ -2135,12 +2158,12 @@ var data = {
       "weap": "S",
       "base_weap": 16,
       "base_a": 12,
-      "base_b": 53,
+      "base_b": 51,
       "base_c": 0,
       "base_proc": 34
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "name": "Julia (Naga's Blood)",
       "color": "G",
       "hp_base": 16,
@@ -2162,8 +2185,8 @@ var data = {
       "base_c": 10,
       "base_proc": 14
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "name": "Kagero (Honorable Ninja)",
       "color": "N",
       "hp_base": 16,
@@ -2181,12 +2204,12 @@ var data = {
       "weap": "K",
       "base_weap": 307,
       "base_a": 51,
-      "base_b": 13,
+      "base_b": 11,
       "base_c": 0,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "name": "Karel (Sword Demon)",
       "color": "R",
       "hp_base": 19,
@@ -2204,12 +2227,12 @@ var data = {
       "weap": "S",
       "base_weap": 466,
       "base_a": 16,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 0,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "name": "Katarina (Wayward One)",
       "color": "R",
       "hp_base": 17,
@@ -2231,8 +2254,8 @@ var data = {
       "base_c": 2,
       "base_proc": 18
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "name": "Klein (Silver Nobleman)",
       "color": "N",
       "hp_base": 18,
@@ -2250,12 +2273,12 @@ var data = {
       "weap": "B",
       "base_weap": 51,
       "base_a": 14,
-      "base_b": 35,
+      "base_b": 33,
       "base_c": 0,
       "base_proc": 18
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "name": "L'Arachel (Princess of Light)",
       "color": "B",
       "hp_base": 16,
@@ -2273,12 +2296,12 @@ var data = {
       "weap": "BT",
       "base_weap": 218,
       "base_a": 0,
-      "base_b": 38,
+      "base_b": 36,
       "base_c": 41,
       "base_proc": 22
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "name": "Lachesis (Lionheart's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -2298,10 +2321,10 @@ var data = {
       "base_a": 0,
       "base_b": 0,
       "base_c": 49,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "name": "Laslow (Dancing Duelist)",
       "color": "R",
       "hp_base": 20,
@@ -2323,8 +2346,8 @@ var data = {
       "base_c": 34,
       "base_proc": 37
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
       "name": "Legion (Masked Maniac)",
       "color": "G",
       "hp_base": 20,
@@ -2342,12 +2365,12 @@ var data = {
       "weap": "A",
       "base_weap": 252,
       "base_a": 28,
-      "base_b": 32,
+      "base_b": 30,
       "base_c": 0,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "102": {
-      "index": 102,
+    "103": {
+      "index": 103,
       "name": "Leo (Seashore's Prince)",
       "color": "R",
       "hp_base": 18,
@@ -2365,12 +2388,12 @@ var data = {
       "weap": "RT",
       "base_weap": 455,
       "base_a": 0,
-      "base_b": 44,
+      "base_b": 42,
       "base_c": 2,
       "base_proc": 28
     },
-    "103": {
-      "index": 103,
+    "104": {
+      "index": 104,
       "name": "Leo (Sorcerous Prince)",
       "color": "R",
       "hp_base": 17,
@@ -2388,12 +2411,12 @@ var data = {
       "weap": "RT",
       "base_weap": 55,
       "base_a": 0,
-      "base_b": 35,
+      "base_b": 33,
       "base_c": 42,
       "base_proc": 6
     },
-    "104": {
-      "index": 104,
+    "105": {
+      "index": 105,
       "name": "Leon (True of Heart)",
       "color": "N",
       "hp_base": 17,
@@ -2411,12 +2434,12 @@ var data = {
       "weap": "B",
       "base_weap": 402,
       "base_a": 42,
-      "base_b": 24,
+      "base_b": 22,
       "base_c": 0,
       "base_proc": 29
     },
-    "105": {
-      "index": 105,
+    "106": {
+      "index": 106,
       "name": "Lilina (Delightful Noble)",
       "color": "R",
       "hp_base": 16,
@@ -2438,8 +2461,8 @@ var data = {
       "base_c": 45,
       "base_proc": 21
     },
-    "106": {
-      "index": 106,
+    "107": {
+      "index": 107,
       "name": "Linde (Light Mage)",
       "color": "B",
       "hp_base": 16,
@@ -2461,8 +2484,8 @@ var data = {
       "base_c": 23,
       "base_proc": 0
     },
-    "107": {
-      "index": 107,
+    "108": {
+      "index": 108,
       "name": "Lissa (Pure Joy)",
       "color": "G",
       "hp_base": 21,
@@ -2484,8 +2507,8 @@ var data = {
       "base_c": 18,
       "base_proc": 9
     },
-    "108": {
-      "index": 108,
+    "109": {
+      "index": 109,
       "name": "Lissa (Sprightly Cleric)",
       "color": "N",
       "hp_base": 17,
@@ -2503,12 +2526,12 @@ var data = {
       "weap": "ST",
       "base_weap": 167,
       "base_a": 0,
-      "base_b": 38,
+      "base_b": 36,
       "base_c": 0,
       "base_proc": 31
     },
-    "109": {
-      "index": 109,
+    "110": {
+      "index": 110,
       "name": "Lloyd (White Wolf)",
       "color": "R",
       "hp_base": 17,
@@ -2526,12 +2549,12 @@ var data = {
       "weap": "S",
       "base_weap": 324,
       "base_a": 0,
-      "base_b": 33,
+      "base_b": 31,
       "base_c": 54,
       "base_proc": 28
     },
-    "110": {
-      "index": 110,
+    "111": {
+      "index": 111,
       "name": "Lon'qu (Solitary Blade)",
       "color": "R",
       "hp_base": 19,
@@ -2549,12 +2572,12 @@ var data = {
       "weap": "S",
       "base_weap": 250,
       "base_a": 42,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 19
     },
-    "111": {
-      "index": 111,
+    "112": {
+      "index": 112,
       "name": "Lucina (Brave Princess)",
       "color": "B",
       "hp_base": 17,
@@ -2576,8 +2599,8 @@ var data = {
       "base_c": 17,
       "base_proc": 2
     },
-    "112": {
-      "index": 112,
+    "113": {
+      "index": 113,
       "name": "Lucina (Future Witness)",
       "color": "R",
       "hp_base": 19,
@@ -2599,8 +2622,8 @@ var data = {
       "base_c": 45,
       "base_proc": 32
     },
-    "113": {
-      "index": 113,
+    "114": {
+      "index": 114,
       "name": "Lucina (Spring Exalt)",
       "color": "B",
       "hp_base": 16,
@@ -2618,12 +2641,12 @@ var data = {
       "weap": "BT",
       "base_weap": 40,
       "base_a": 48,
-      "base_b": 44,
+      "base_b": 42,
       "base_c": 0,
       "base_proc": 0
     },
-    "114": {
-      "index": 114,
+    "115": {
+      "index": 115,
       "name": "Lucius (The Light)",
       "color": "N",
       "hp_base": 18,
@@ -2645,8 +2668,8 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "115": {
-      "index": 115,
+    "116": {
+      "index": 116,
       "name": "Lukas (Sharp Soldier)",
       "color": "B",
       "hp_base": 19,
@@ -2664,12 +2687,12 @@ var data = {
       "weap": "L",
       "base_weap": 249,
       "base_a": 26,
-      "base_b": 32,
+      "base_b": 30,
       "base_c": 0,
-      "base_proc": 46
+      "base_proc": 47
     },
-    "116": {
-      "index": 116,
+    "117": {
+      "index": 117,
       "name": "Luke (Rowdy Squire)",
       "color": "R",
       "hp_base": 19,
@@ -2691,8 +2714,8 @@ var data = {
       "base_c": 37,
       "base_proc": 9
     },
-    "117": {
-      "index": 117,
+    "118": {
+      "index": 118,
       "name": "Lute (Prodigy)",
       "color": "B",
       "hp_base": 16,
@@ -2714,8 +2737,8 @@ var data = {
       "base_c": 40,
       "base_proc": 0
     },
-    "118": {
-      "index": 118,
+    "119": {
+      "index": 119,
       "name": "Lyn (Brave Lady)",
       "color": "N",
       "hp_base": 16,
@@ -2733,12 +2756,12 @@ var data = {
       "weap": "B",
       "base_weap": 283,
       "base_a": 48,
-      "base_b": 39,
+      "base_b": 37,
       "base_c": 3,
       "base_proc": 13
     },
-    "119": {
-      "index": 119,
+    "120": {
+      "index": 120,
       "name": "Lyn (Bride of the Plains)",
       "color": "N",
       "hp_base": 17,
@@ -2756,12 +2779,12 @@ var data = {
       "weap": "ST",
       "base_weap": 61,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 12,
       "base_c": 0,
-      "base_proc": 50
+      "base_proc": 51
     },
-    "120": {
-      "index": 120,
+    "121": {
+      "index": 121,
       "name": "Lyn (Lady of the Plains)",
       "color": "R",
       "hp_base": 18,
@@ -2783,8 +2806,8 @@ var data = {
       "base_c": 50,
       "base_proc": 17
     },
-    "121": {
-      "index": 121,
+    "122": {
+      "index": 122,
       "name": "Lyon (Shadow Prince)",
       "color": "R",
       "hp_base": 19,
@@ -2804,10 +2827,10 @@ var data = {
       "base_a": 7,
       "base_b": 0,
       "base_c": 16,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "122": {
-      "index": 122,
+    "123": {
+      "index": 123,
       "name": "Mae (Bundle of Energy)",
       "color": "B",
       "hp_base": 16,
@@ -2825,12 +2848,12 @@ var data = {
       "weap": "BT",
       "base_weap": 26,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 7,
       "base_proc": 0
     },
-    "123": {
-      "index": 123,
+    "124": {
+      "index": 124,
       "name": "Maria (Minerva's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -2852,8 +2875,8 @@ var data = {
       "base_c": 23,
       "base_proc": 33
     },
-    "124": {
-      "index": 124,
+    "125": {
+      "index": 125,
       "name": "Marisa (Crimson Flash)",
       "color": "R",
       "hp_base": 18,
@@ -2875,8 +2898,8 @@ var data = {
       "base_c": 35,
       "base_proc": 19
     },
-    "125": {
-      "index": 125,
+    "126": {
+      "index": 126,
       "name": "Marth (Altean Prince)",
       "color": "R",
       "hp_base": 19,
@@ -2894,12 +2917,12 @@ var data = {
       "weap": "S",
       "base_weap": 133,
       "base_a": 0,
-      "base_b": 18,
+      "base_b": 16,
       "base_c": 50,
       "base_proc": 0
     },
-    "126": {
-      "index": 126,
+    "127": {
+      "index": 127,
       "name": "Marth (Enigmatic Blade)",
       "color": "R",
       "hp_base": 19,
@@ -2921,8 +2944,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "127": {
-      "index": 127,
+    "128": {
+      "index": 128,
       "name": "Mathilda (Legendary Knight)",
       "color": "B",
       "hp_base": 16,
@@ -2940,12 +2963,12 @@ var data = {
       "weap": "L",
       "base_weap": 331,
       "base_a": 0,
-      "base_b": 10,
+      "base_b": 8,
       "base_c": 30,
       "base_proc": 0
     },
-    "128": {
-      "index": 128,
+    "129": {
+      "index": 129,
       "name": "Matthew (Faithful Spy)",
       "color": "N",
       "hp_base": 17,
@@ -2963,12 +2986,12 @@ var data = {
       "weap": "K",
       "base_weap": 337,
       "base_a": 0,
-      "base_b": 34,
+      "base_b": 32,
       "base_c": 34,
       "base_proc": 0
     },
-    "129": {
-      "index": 129,
+    "130": {
+      "index": 130,
       "name": "Merric (Wind Mage)",
       "color": "G",
       "hp_base": 19,
@@ -2990,8 +3013,8 @@ var data = {
       "base_c": 49,
       "base_proc": 24
     },
-    "130": {
-      "index": 130,
+    "131": {
+      "index": 131,
       "name": "Mia (Lady of Blades)",
       "color": "R",
       "hp_base": 16,
@@ -3009,12 +3032,12 @@ var data = {
       "weap": "S",
       "base_weap": 325,
       "base_a": 25,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 32
     },
-    "131": {
-      "index": 131,
+    "132": {
+      "index": 132,
       "name": "Micaiah (Priestess of Dawn)",
       "color": "B",
       "hp_base": 16,
@@ -3032,12 +3055,12 @@ var data = {
       "weap": "BT",
       "base_weap": 454,
       "base_a": 21,
-      "base_b": 24,
+      "base_b": 22,
       "base_c": 14,
       "base_proc": 0
     },
-    "132": {
-      "index": 132,
+    "133": {
+      "index": 133,
       "name": "Michalis (Ambitious King)",
       "color": "G",
       "hp_base": 19,
@@ -3059,8 +3082,8 @@ var data = {
       "base_c": 55,
       "base_proc": 7
     },
-    "133": {
-      "index": 133,
+    "134": {
+      "index": 134,
       "name": "Minerva (Red Dragoon)",
       "color": "G",
       "hp_base": 18,
@@ -3080,10 +3103,10 @@ var data = {
       "base_a": 36,
       "base_b": 0,
       "base_c": 60,
-      "base_proc": 46
+      "base_proc": 47
     },
-    "134": {
-      "index": 134,
+    "135": {
+      "index": 135,
       "name": "Mist (Helpful Sister)",
       "color": "N",
       "hp_base": 17,
@@ -3105,8 +3128,8 @@ var data = {
       "base_c": 48,
       "base_proc": 33
     },
-    "135": {
-      "index": 135,
+    "136": {
+      "index": 136,
       "name": "Myrrh (Great Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -3128,8 +3151,8 @@ var data = {
       "base_c": 32,
       "base_proc": 9
     },
-    "136": {
-      "index": 136,
+    "137": {
+      "index": 137,
       "name": "Narcian (Wyvern General)",
       "color": "G",
       "hp_base": 18,
@@ -3147,12 +3170,12 @@ var data = {
       "weap": "A",
       "base_weap": 130,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 25,
       "base_c": 42,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "137": {
-      "index": 137,
+    "138": {
+      "index": 138,
       "name": "Navarre (Scarlet Sword)",
       "color": "R",
       "hp_base": 18,
@@ -3170,12 +3193,12 @@ var data = {
       "weap": "S",
       "base_weap": 250,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 57,
       "base_proc": 8
     },
-    "138": {
-      "index": 138,
+    "139": {
+      "index": 139,
       "name": "Nephenee (Fierce Halberdier)",
       "color": "B",
       "hp_base": 18,
@@ -3193,12 +3216,12 @@ var data = {
       "weap": "L",
       "base_weap": 418,
       "base_a": 4,
-      "base_b": 55,
+      "base_b": 53,
       "base_c": 0,
       "base_proc": 34
     },
-    "139": {
-      "index": 139,
+    "140": {
+      "index": 140,
       "name": "Niles (Cruel to be Kind)",
       "color": "N",
       "hp_base": 18,
@@ -3220,8 +3243,8 @@ var data = {
       "base_c": 49,
       "base_proc": 28
     },
-    "140": {
-      "index": 140,
+    "141": {
+      "index": 141,
       "name": "Ninian (Oracle of Destiny)",
       "color": "B",
       "hp_base": 16,
@@ -3239,12 +3262,12 @@ var data = {
       "weap": "D",
       "base_weap": 258,
       "base_a": 0,
-      "base_b": 18,
+      "base_b": 16,
       "base_c": 21,
       "base_proc": 0
     },
-    "141": {
-      "index": 141,
+    "142": {
+      "index": 142,
       "name": "Nino (Pious Mage)",
       "color": "G",
       "hp_base": 16,
@@ -3266,8 +3289,8 @@ var data = {
       "base_c": 30,
       "base_proc": 0
     },
-    "142": {
-      "index": 142,
+    "143": {
+      "index": 143,
       "name": "Nowi (Eternal Witch)",
       "color": "R",
       "hp_base": 17,
@@ -3285,12 +3308,12 @@ var data = {
       "weap": "RT",
       "base_weap": 176,
       "base_a": 3,
-      "base_b": 28,
+      "base_b": 26,
       "base_c": 33,
       "base_proc": 0
     },
-    "143": {
-      "index": 143,
+    "144": {
+      "index": 144,
       "name": "Nowi (Eternal Youth)",
       "color": "B",
       "hp_base": 17,
@@ -3312,8 +3335,8 @@ var data = {
       "base_c": 56,
       "base_proc": 0
     },
-    "144": {
-      "index": 144,
+    "145": {
+      "index": 145,
       "name": "Oboro (Fierce Fighter)",
       "color": "B",
       "hp_base": 18,
@@ -3331,12 +3354,12 @@ var data = {
       "weap": "L",
       "base_weap": 212,
       "base_a": 0,
-      "base_b": 43,
+      "base_b": 41,
       "base_c": 56,
       "base_proc": 0
     },
-    "145": {
-      "index": 145,
+    "146": {
+      "index": 146,
       "name": "Odin (Potent Force)",
       "color": "B",
       "hp_base": 19,
@@ -3354,12 +3377,12 @@ var data = {
       "weap": "BT",
       "base_weap": 25,
       "base_a": 16,
-      "base_b": 36,
+      "base_b": 34,
       "base_c": 0,
       "base_proc": 34
     },
-    "146": {
-      "index": 146,
+    "147": {
+      "index": 147,
       "name": "Ogma (Loyal Blade)",
       "color": "R",
       "hp_base": 21,
@@ -3381,8 +3404,8 @@ var data = {
       "base_c": 45,
       "base_proc": 37
     },
-    "147": {
-      "index": 147,
+    "148": {
+      "index": 148,
       "name": "Oliver (Admirer of Beauty)",
       "color": "B",
       "hp_base": 18,
@@ -3404,8 +3427,8 @@ var data = {
       "base_c": 2,
       "base_proc": 6
     },
-    "148": {
-      "index": 148,
+    "149": {
+      "index": 149,
       "name": "Olivia (Blushing Beauty)",
       "color": "R",
       "hp_base": 17,
@@ -3423,12 +3446,12 @@ var data = {
       "weap": "S",
       "base_weap": 392,
       "base_a": 0,
-      "base_b": 26,
+      "base_b": 24,
       "base_c": 30,
       "base_proc": 0
     },
-    "149": {
-      "index": 149,
+    "150": {
+      "index": 150,
       "name": "Olivia (Festival Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -3450,8 +3473,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "150": {
-      "index": 150,
+    "151": {
+      "index": 151,
       "name": "Olwen (Blue Mage Knight)",
       "color": "B",
       "hp_base": 17,
@@ -3473,8 +3496,8 @@ var data = {
       "base_c": 59,
       "base_proc": 0
     },
-    "151": {
-      "index": 151,
+    "152": {
+      "index": 152,
       "name": "Oscar (Agile Horseman)",
       "color": "B",
       "hp_base": 18,
@@ -3492,12 +3515,12 @@ var data = {
       "weap": "L",
       "base_weap": 348,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 25,
       "base_c": 51,
       "base_proc": 0
     },
-    "152": {
-      "index": 152,
+    "153": {
+      "index": 153,
       "name": "Palla (Eldest Whitewing)",
       "color": "R",
       "hp_base": 18,
@@ -3515,12 +3538,12 @@ var data = {
       "weap": "S",
       "base_weap": 342,
       "base_a": 0,
-      "base_b": 54,
+      "base_b": 52,
       "base_c": 27,
       "base_proc": 34
     },
-    "153": {
-      "index": 153,
+    "154": {
+      "index": 154,
       "name": "Peri (Playful Slayer)",
       "color": "B",
       "hp_base": 16,
@@ -3542,8 +3565,8 @@ var data = {
       "base_c": 55,
       "base_proc": 19
     },
-    "154": {
-      "index": 154,
+    "155": {
+      "index": 155,
       "name": "Priscilla (Delicate Princess)",
       "color": "N",
       "hp_base": 17,
@@ -3563,10 +3586,10 @@ var data = {
       "base_a": 0,
       "base_b": 0,
       "base_c": 47,
-      "base_proc": 49
+      "base_proc": 50
     },
-    "155": {
-      "index": 155,
+    "156": {
+      "index": 156,
       "name": "Raigh (Dark Child)",
       "color": "R",
       "hp_base": 17,
@@ -3584,12 +3607,12 @@ var data = {
       "weap": "RT",
       "base_weap": 318,
       "base_a": 31,
-      "base_b": 44,
+      "base_b": 42,
       "base_c": 0,
       "base_proc": 0
     },
-    "156": {
-      "index": 156,
+    "157": {
+      "index": 157,
       "name": "Raven (Peerless Fighter)",
       "color": "G",
       "hp_base": 19,
@@ -3609,10 +3632,10 @@ var data = {
       "base_a": 19,
       "base_b": 0,
       "base_c": 55,
-      "base_proc": 47
+      "base_proc": 48
     },
-    "157": {
-      "index": 157,
+    "158": {
+      "index": 158,
       "name": "Rebecca (Wildflower)",
       "color": "N",
       "hp_base": 18,
@@ -3630,12 +3653,12 @@ var data = {
       "weap": "B",
       "base_weap": 377,
       "base_a": 13,
-      "base_b": 40,
+      "base_b": 38,
       "base_c": 0,
       "base_proc": 0
     },
-    "158": {
-      "index": 158,
+    "159": {
+      "index": 159,
       "name": "Reinhardt (Thunder's Fist)",
       "color": "B",
       "hp_base": 16,
@@ -3653,12 +3676,12 @@ var data = {
       "weap": "BT",
       "base_weap": 125,
       "base_a": 0,
-      "base_b": 48,
+      "base_b": 46,
       "base_c": 26,
       "base_proc": 7
     },
-    "159": {
-      "index": 159,
+    "160": {
+      "index": 160,
       "name": "Rhajat (Black Magician)",
       "color": "G",
       "hp_base": 17,
@@ -3680,8 +3703,8 @@ var data = {
       "base_c": 42,
       "base_proc": 0
     },
-    "160": {
-      "index": 160,
+    "161": {
+      "index": 161,
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -3703,8 +3726,8 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "161": {
-      "index": 161,
+    "162": {
+      "index": 162,
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -3726,8 +3749,8 @@ var data = {
       "base_c": 47,
       "base_proc": 9
     },
-    "162": {
-      "index": 162,
+    "163": {
+      "index": 163,
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -3749,8 +3772,8 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "163": {
-      "index": 163,
+    "164": {
+      "index": 164,
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -3772,8 +3795,8 @@ var data = {
       "base_c": 36,
       "base_proc": 0
     },
-    "164": {
-      "index": 164,
+    "165": {
+      "index": 165,
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -3791,12 +3814,12 @@ var data = {
       "weap": "L",
       "base_weap": 146,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 14,
       "base_c": 15,
       "base_proc": 0
     },
-    "165": {
-      "index": 165,
+    "166": {
+      "index": 166,
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -3814,12 +3837,12 @@ var data = {
       "weap": "S",
       "base_weap": 33,
       "base_a": 43,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 0,
       "base_proc": 17
     },
-    "166": {
-      "index": 166,
+    "167": {
+      "index": 167,
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -3837,12 +3860,12 @@ var data = {
       "weap": "S",
       "base_weap": 24,
       "base_a": 50,
-      "base_b": 43,
+      "base_b": 41,
       "base_c": 0,
       "base_proc": 0
     },
-    "167": {
-      "index": 167,
+    "168": {
+      "index": 168,
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -3864,8 +3887,8 @@ var data = {
       "base_c": 34,
       "base_proc": 3
     },
-    "168": {
-      "index": 168,
+    "169": {
+      "index": 169,
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -3883,12 +3906,12 @@ var data = {
       "weap": "S",
       "base_weap": 407,
       "base_a": 34,
-      "base_b": 46,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 1
     },
-    "169": {
-      "index": 169,
+    "170": {
+      "index": 170,
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -3906,12 +3929,12 @@ var data = {
       "weap": "K",
       "base_weap": 432,
       "base_a": 0,
-      "base_b": 34,
+      "base_b": 32,
       "base_c": 50,
       "base_proc": 0
     },
-    "170": {
-      "index": 170,
+    "171": {
+      "index": 171,
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -3928,13 +3951,13 @@ var data = {
       "type": "I",
       "weap": "K",
       "base_weap": 251,
-      "base_a": 52,
-      "base_b": 24,
+      "base_a": 53,
+      "base_b": 22,
       "base_c": 11,
       "base_proc": 18
     },
-    "171": {
-      "index": 171,
+    "172": {
+      "index": 172,
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -3954,10 +3977,10 @@ var data = {
       "base_a": 0,
       "base_b": 0,
       "base_c": 20,
-      "base_proc": 49
+      "base_proc": 50
     },
-    "172": {
-      "index": 172,
+    "173": {
+      "index": 173,
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -3979,8 +4002,8 @@ var data = {
       "base_c": 30,
       "base_proc": 0
     },
-    "173": {
-      "index": 173,
+    "174": {
+      "index": 174,
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -4002,8 +4025,8 @@ var data = {
       "base_c": 57,
       "base_proc": 0
     },
-    "174": {
-      "index": 174,
+    "175": {
+      "index": 175,
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -4025,8 +4048,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "175": {
-      "index": 175,
+    "176": {
+      "index": 176,
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -4046,10 +4069,10 @@ var data = {
       "base_a": 0,
       "base_b": 0,
       "base_c": 30,
-      "base_proc": 50
+      "base_proc": 51
     },
-    "176": {
-      "index": 176,
+    "177": {
+      "index": 177,
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -4067,12 +4090,12 @@ var data = {
       "weap": "S",
       "base_weap": 342,
       "base_a": 26,
-      "base_b": 41,
+      "base_b": 39,
       "base_c": 0,
       "base_proc": 0
     },
-    "177": {
-      "index": 177,
+    "178": {
+      "index": 178,
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -4094,8 +4117,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "178": {
-      "index": 178,
+    "179": {
+      "index": 179,
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4113,12 +4136,12 @@ var data = {
       "weap": "L",
       "base_weap": 249,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 13,
       "base_c": 57,
       "base_proc": 28
     },
-    "179": {
-      "index": 179,
+    "180": {
+      "index": 180,
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -4140,8 +4163,8 @@ var data = {
       "base_c": 20,
       "base_proc": 0
     },
-    "180": {
-      "index": 180,
+    "181": {
+      "index": 181,
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -4163,8 +4186,8 @@ var data = {
       "base_c": 18,
       "base_proc": 16
     },
-    "181": {
-      "index": 181,
+    "182": {
+      "index": 182,
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -4182,12 +4205,12 @@ var data = {
       "weap": "BT",
       "base_weap": 101,
       "base_a": 0,
-      "base_b": 23,
+      "base_b": 21,
       "base_c": 8,
       "base_proc": 0
     },
-    "182": {
-      "index": 182,
+    "183": {
+      "index": 183,
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -4209,8 +4232,8 @@ var data = {
       "base_c": 13,
       "base_proc": 0
     },
-    "183": {
-      "index": 183,
+    "184": {
+      "index": 184,
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -4232,8 +4255,8 @@ var data = {
       "base_c": 4,
       "base_proc": 14
     },
-    "184": {
-      "index": 184,
+    "185": {
+      "index": 185,
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4251,12 +4274,12 @@ var data = {
       "weap": "S",
       "base_weap": 127,
       "base_a": 12,
-      "base_b": 12,
+      "base_b": 10,
       "base_c": 44,
       "base_proc": 33
     },
-    "185": {
-      "index": 185,
+    "186": {
+      "index": 186,
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -4278,8 +4301,8 @@ var data = {
       "base_c": 16,
       "base_proc": 8
     },
-    "186": {
-      "index": 186,
+    "187": {
+      "index": 187,
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -4301,8 +4324,8 @@ var data = {
       "base_c": 40,
       "base_proc": 34
     },
-    "187": {
-      "index": 187,
+    "188": {
+      "index": 188,
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -4324,8 +4347,8 @@ var data = {
       "base_c": 23,
       "base_proc": 14
     },
-    "188": {
-      "index": 188,
+    "189": {
+      "index": 189,
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -4343,12 +4366,12 @@ var data = {
       "weap": "GT",
       "base_weap": 326,
       "base_a": 0,
-      "base_b": 52,
+      "base_b": 50,
       "base_c": 23,
       "base_proc": 24
     },
-    "189": {
-      "index": 189,
+    "190": {
+      "index": 190,
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -4370,8 +4393,8 @@ var data = {
       "base_c": 46,
       "base_proc": 19
     },
-    "190": {
-      "index": 190,
+    "191": {
+      "index": 191,
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4389,12 +4412,12 @@ var data = {
       "weap": "S",
       "base_weap": 342,
       "base_a": 15,
-      "base_b": 32,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 0
     },
-    "191": {
-      "index": 191,
+    "192": {
+      "index": 192,
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -4412,12 +4435,12 @@ var data = {
       "weap": "L",
       "base_weap": 348,
       "base_a": 38,
-      "base_b": 35,
+      "base_b": 33,
       "base_c": 0,
       "base_proc": 0
     },
-    "192": {
-      "index": 192,
+    "193": {
+      "index": 193,
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -4435,12 +4458,12 @@ var data = {
       "weap": "L",
       "base_weap": 348,
       "base_a": 0,
-      "base_b": 47,
+      "base_b": 45,
       "base_c": 47,
       "base_proc": 0
     },
-    "193": {
-      "index": 193,
+    "194": {
+      "index": 194,
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -4462,8 +4485,8 @@ var data = {
       "base_c": 17,
       "base_proc": 0
     },
-    "194": {
-      "index": 194,
+    "195": {
+      "index": 195,
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -4485,8 +4508,8 @@ var data = {
       "base_c": 0,
       "base_proc": 34
     },
-    "195": {
-      "index": 195,
+    "196": {
+      "index": 196,
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -4506,10 +4529,10 @@ var data = {
       "base_a": 11,
       "base_b": 0,
       "base_c": 57,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "196": {
-      "index": 196,
+    "197": {
+      "index": 197,
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -4531,8 +4554,8 @@ var data = {
       "base_c": 28,
       "base_proc": 34
     },
-    "197": {
-      "index": 197,
+    "198": {
+      "index": 198,
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -4550,12 +4573,12 @@ var data = {
       "weap": "RT",
       "base_weap": 56,
       "base_a": 11,
-      "base_b": 49,
+      "base_b": 47,
       "base_c": 39,
       "base_proc": 28
     },
-    "198": {
-      "index": 198,
+    "199": {
+      "index": 199,
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -4575,10 +4598,10 @@ var data = {
       "base_a": 13,
       "base_b": 0,
       "base_c": 49,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "199": {
-      "index": 199,
+    "200": {
+      "index": 200,
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -4600,8 +4623,8 @@ var data = {
       "base_c": 10,
       "base_proc": 21
     },
-    "200": {
-      "index": 200,
+    "201": {
+      "index": 201,
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -4623,8 +4646,8 @@ var data = {
       "base_c": 49,
       "base_proc": 9
     },
-    "201": {
-      "index": 201,
+    "202": {
+      "index": 202,
       "name": "Tiki (Summer Scion)",
       "color": "G",
       "hp_base": 18,
@@ -4644,10 +4667,10 @@ var data = {
       "base_a": 12,
       "base_b": 0,
       "base_c": 6,
-      "base_proc": 47
+      "base_proc": 48
     },
-    "202": {
-      "index": 202,
+    "203": {
+      "index": 203,
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -4665,12 +4688,12 @@ var data = {
       "weap": "A",
       "base_weap": 130,
       "base_a": 1,
-      "base_b": 24,
+      "base_b": 22,
       "base_c": 0,
       "base_proc": 0
     },
-    "203": {
-      "index": 203,
+    "204": {
+      "index": 204,
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -4688,12 +4711,12 @@ var data = {
       "weap": "S",
       "base_weap": 7,
       "base_a": 5,
-      "base_b": 45,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
-    "204": {
-      "index": 204,
+    "205": {
+      "index": 205,
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -4715,8 +4738,8 @@ var data = {
       "base_c": 56,
       "base_proc": 23
     },
-    "205": {
-      "index": 205,
+    "206": {
+      "index": 206,
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -4738,8 +4761,8 @@ var data = {
       "base_c": 37,
       "base_proc": 32
     },
-    "206": {
-      "index": 206,
+    "207": {
+      "index": 207,
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -4757,12 +4780,12 @@ var data = {
       "weap": "B",
       "base_weap": 377,
       "base_a": 18,
-      "base_b": 45,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 3
     },
-    "207": {
-      "index": 207,
+    "208": {
+      "index": 208,
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -4780,12 +4803,12 @@ var data = {
       "weap": "ST",
       "base_weap": 429,
       "base_a": 0,
-      "base_b": 30,
+      "base_b": 28,
       "base_c": 0,
       "base_proc": 25
     },
-    "208": {
-      "index": 208,
+    "209": {
+      "index": 209,
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -4807,8 +4830,8 @@ var data = {
       "base_c": 47,
       "base_proc": 6
     },
-    "209": {
-      "index": 209,
+    "210": {
+      "index": 210,
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -4826,12 +4849,12 @@ var data = {
       "weap": "L",
       "base_weap": 69,
       "base_a": 0,
-      "base_b": 29,
+      "base_b": 27,
       "base_c": 20,
       "base_proc": 0
     },
-    "210": {
-      "index": 210,
+    "211": {
+      "index": 211,
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -4853,8 +4876,8 @@ var data = {
       "base_c": 35,
       "base_proc": 9
     },
-    "211": {
-      "index": 211,
+    "212": {
+      "index": 212,
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -4872,12 +4895,12 @@ var data = {
       "weap": "S",
       "base_weap": 4,
       "base_a": 23,
-      "base_b": 50,
+      "base_b": 48,
       "base_c": 37,
       "base_proc": 4
     },
-    "212": {
-      "index": 212,
+    "213": {
+      "index": 213,
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -4895,9 +4918,9 @@ var data = {
       "weap": "S",
       "base_weap": 129,
       "base_a": 36,
-      "base_b": 51,
+      "base_b": 49,
       "base_c": 0,
-      "base_proc": 40
+      "base_proc": 41
     }
   },
   "Optimized_Chars": {
@@ -4922,7 +4945,7 @@ var data = {
       "bane": "Res",
       "weapon": 52,
       "a": 36,
-      "b": 27,
+      "b": 25,
       "c": 31,
       "proc": 32,
       "seal": 5,
@@ -4949,7 +4972,7 @@ var data = {
       "bane": "Res",
       "weapon": 146,
       "a": 36,
-      "b": 47,
+      "b": 45,
       "c": 31,
       "proc": 32,
       "seal": 5,
@@ -5003,7 +5026,7 @@ var data = {
       "bane": "None",
       "weapon": 468,
       "a": 44,
-      "b": 55,
+      "b": 53,
       "c": 45,
       "proc": 37,
       "seal": 49,
@@ -5030,7 +5053,7 @@ var data = {
       "bane": "None",
       "weapon": 468,
       "a": 44,
-      "b": 55,
+      "b": 53,
       "c": 45,
       "proc": 34,
       "seal": 49,
@@ -5084,7 +5107,7 @@ var data = {
       "bane": "Res",
       "weapon": 204,
       "a": 20,
-      "b": 49,
+      "b": 47,
       "c": 1,
       "proc": 9,
       "seal": 28,
@@ -5138,7 +5161,7 @@ var data = {
       "bane": "None",
       "weapon": 50,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 30,
       "proc": 32,
       "seal": 5,
@@ -5165,7 +5188,7 @@ var data = {
       "bane": "None",
       "weapon": 400,
       "a": 20,
-      "b": 35,
+      "b": 33,
       "c": 30,
       "proc": 28,
       "seal": 28,
@@ -5192,7 +5215,7 @@ var data = {
       "bane": "None",
       "weapon": 53,
       "a": 14,
-      "b": 20,
+      "b": 18,
       "c": 58,
       "proc": 9,
       "seal": 5,
@@ -5219,7 +5242,7 @@ var data = {
       "bane": "None",
       "weapon": 463,
       "a": 28,
-      "b": 37,
+      "b": 35,
       "c": 43,
       "proc": 28,
       "seal": 13,
@@ -5246,9 +5269,9 @@ var data = {
       "bane": "Res",
       "weapon": 411,
       "a": 20,
-      "b": 55,
+      "b": 53,
       "c": 30,
-      "proc": 39,
+      "proc": 40,
       "seal": 50,
       "reduce_cd": 1
     },
@@ -5273,9 +5296,9 @@ var data = {
       "bane": "Res",
       "weapon": 18,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 30,
-      "proc": 39,
+      "proc": 40,
       "seal": 58,
       "reduce_cd": 0
     },
@@ -5300,7 +5323,7 @@ var data = {
       "bane": "HP",
       "weapon": 348,
       "a": 20,
-      "b": 54,
+      "b": 52,
       "c": 30,
       "proc": 34,
       "seal": 49,
@@ -5327,7 +5350,7 @@ var data = {
       "bane": "Spd",
       "weapon": 399,
       "a": 20,
-      "b": 24,
+      "b": 22,
       "c": 27,
       "proc": 29,
       "seal": 42,
@@ -5354,7 +5377,7 @@ var data = {
       "bane": "Spd",
       "weapon": 399,
       "a": 45,
-      "b": 24,
+      "b": 22,
       "c": 27,
       "proc": 29,
       "seal": 49,
@@ -5408,7 +5431,7 @@ var data = {
       "bane": "Res",
       "weapon": 470,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 27,
       "proc": 34,
       "seal": 5,
@@ -5435,10 +5458,10 @@ var data = {
       "bane": "Def",
       "weapon": 410,
       "a": 20,
-      "b": 38,
+      "b": 33,
       "c": 27,
       "proc": 28,
-      "seal": 49,
+      "seal": 1,
       "reduce_cd": 0
     },
     "20": {
@@ -5462,7 +5485,7 @@ var data = {
       "bane": "Def",
       "weapon": 308,
       "a": 36,
-      "b": 38,
+      "b": 36,
       "c": 30,
       "proc": 32,
       "seal": 5,
@@ -5489,7 +5512,7 @@ var data = {
       "bane": "Def",
       "weapon": 308,
       "a": 36,
-      "b": 38,
+      "b": 36,
       "c": 30,
       "proc": 32,
       "seal": 37,
@@ -5516,7 +5539,7 @@ var data = {
       "bane": "Res",
       "weapon": 5,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 27,
       "proc": 32,
       "seal": 5,
@@ -5543,7 +5566,7 @@ var data = {
       "bane": "Res",
       "weapon": 147,
       "a": 36,
-      "b": 25,
+      "b": 23,
       "c": 27,
       "proc": 32,
       "seal": 58,
@@ -5570,7 +5593,7 @@ var data = {
       "bane": "Def",
       "weapon": 168,
       "a": 38,
-      "b": 56,
+      "b": 54,
       "c": 31,
       "proc": 33,
       "seal": 5,
@@ -5597,7 +5620,7 @@ var data = {
       "bane": "Spd",
       "weapon": 187,
       "a": 11,
-      "b": 35,
+      "b": 33,
       "c": 37,
       "proc": 28,
       "seal": 28,
@@ -5651,7 +5674,7 @@ var data = {
       "bane": "Def",
       "weapon": 311,
       "a": 14,
-      "b": 47,
+      "b": 45,
       "c": 31,
       "proc": 19,
       "seal": 5,
@@ -5678,7 +5701,7 @@ var data = {
       "bane": "Res",
       "weapon": 211,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 27,
       "proc": 17,
       "seal": 37,
@@ -5705,7 +5728,7 @@ var data = {
       "bane": "Res",
       "weapon": 209,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 27,
       "proc": 34,
       "seal": 58,
@@ -5732,7 +5755,7 @@ var data = {
       "bane": "Res",
       "weapon": 422,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 28,
       "proc": 17,
       "seal": 37,
@@ -5759,7 +5782,7 @@ var data = {
       "bane": "Res",
       "weapon": 52,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 28,
       "proc": 32,
       "seal": 5,
@@ -5786,7 +5809,7 @@ var data = {
       "bane": "Res",
       "weapon": 146,
       "a": 36,
-      "b": 25,
+      "b": 23,
       "c": 27,
       "proc": 32,
       "seal": 58,
@@ -5813,7 +5836,7 @@ var data = {
       "bane": "Res",
       "weapon": 464,
       "a": 36,
-      "b": 15,
+      "b": 13,
       "c": 28,
       "proc": 32,
       "seal": 58,
@@ -5840,7 +5863,7 @@ var data = {
       "bane": "Res",
       "weapon": 464,
       "a": 12,
-      "b": 35,
+      "b": 33,
       "c": 27,
       "proc": 9,
       "seal": 12,
@@ -5872,6 +5895,114 @@ var data = {
       "proc": 4,
       "seal": 49,
       "reduce_cd": 0
+    },
+    "36": {
+      "index": 36,
+      "name": "Cain (The Bull)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 6,
+      "def_base": 8,
+      "res_base": 6,
+      "hp40": 42,
+      "atk40": 32,
+      "spd40": 32,
+      "def40": 27,
+      "res40": 21,
+      "n_lock": 0,
+      "type": "C",
+      "weap": "S",
+      "boon": "Atk",
+      "bane": "Res",
+      "weapon": 53,
+      "a": 36,
+      "b": 45,
+      "c": 31,
+      "proc": 32,
+      "seal": 5,
+      "reduce_cd": 0
+    },
+    "37": {
+      "index": 37,
+      "name": "Cain (The Bull)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 6,
+      "def_base": 8,
+      "res_base": 6,
+      "hp40": 42,
+      "atk40": 32,
+      "spd40": 32,
+      "def40": 27,
+      "res40": 21,
+      "n_lock": 0,
+      "type": "C",
+      "weap": "S",
+      "boon": "Spd",
+      "bane": "Res",
+      "weapon": 147,
+      "a": 36,
+      "b": 23,
+      "c": 31,
+      "proc": 32,
+      "seal": 5,
+      "reduce_cd": 0
+    },
+    "38": {
+      "index": 38,
+      "name": "Camilla (Bewitching Beauty)",
+      "color": "G",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 8,
+      "def_base": 6,
+      "res_base": 7,
+      "hp40": 37,
+      "atk40": 30,
+      "spd40": 32,
+      "def40": 28,
+      "res40": 31,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "A",
+      "boon": "Atk",
+      "bane": "Def",
+      "weapon": 400,
+      "a": 20,
+      "b": 22,
+      "c": 27,
+      "proc": 28,
+      "seal": 49,
+      "reduce_cd": 0
+    },
+    "": {
+      "index": "",
+      "name": "Zephiel (The Liberator)",
+      "color": "R",
+      "hp_base": 25,
+      "atk_base": 9,
+      "spd_base": 3,
+      "def_base": 12,
+      "res_base": 5,
+      "hp40": 55,
+      "atk40": 35,
+      "spd40": 16,
+      "def40": 38,
+      "res40": 24,
+      "n_lock": 1,
+      "type": "A",
+      "weap": "S",
+      "boon": "",
+      "bane": "",
+      "weapon": "",
+      "a": "",
+      "b": "",
+      "c": "",
+      "proc": "",
+      "seal": "",
+      "reduce_cd": ""
     }
   },
   "Weapons": {
@@ -6012,7 +6143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "What kind of fool doesn't equip a weapon?"
     },
     "1": {
       "index": 1,
@@ -6151,7 +6283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit."
     },
     "2": {
       "index": 2,
@@ -6290,7 +6423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 1,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit. The enemy cannot counterattack."
     },
     "3": {
       "index": 3,
@@ -6429,7 +6563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 1,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Restores HP = 50% of damage dealt. After combat, if unit attacked, restores 7 HP to allies within 2 spaces of unit. Damage from unit's staff will be calculated the same as other weapons."
     },
     "4": {
       "index": 4,
@@ -6568,7 +6703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "5": {
       "index": 5,
@@ -6707,7 +6843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-2. Attack twice when initiating combat."
     },
     "6": {
       "index": 6,
@@ -6846,7 +6983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Unit makes a guaranteed follow-up attack when attacked at HP &geq; 80%."
     },
     "7": {
       "index": 7,
@@ -6985,7 +7123,8 @@ var data = {
       "evolves_into": 8,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored units."
     },
     "8": {
       "index": 8,
@@ -7124,7 +7263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 7,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "9": {
       "index": 9,
@@ -7263,7 +7403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 8,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "10": {
       "index": 10,
@@ -7402,7 +7543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 8,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "11": {
       "index": 11,
@@ -7541,7 +7683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 8,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "12": {
       "index": 12,
@@ -7680,7 +7823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 8,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "13": {
       "index": 13,
@@ -7819,7 +7963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 8,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "14": {
       "index": 14,
@@ -7958,7 +8103,8 @@ var data = {
       "evolves_into": 185,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. If target has a dagger, it can't make a follow-up attack and this unit will."
     },
     "15": {
       "index": 15,
@@ -8097,7 +8243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "16": {
       "index": 16,
@@ -8236,7 +8383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). Grants Res+5."
     },
     "17": {
       "index": 17,
@@ -8375,7 +8523,8 @@ var data = {
       "evolves_into": 106,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Restores 5 HP to adjacent allies after any combat this unit initiates."
     },
     "18": {
       "index": 18,
@@ -8514,7 +8663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Spd+3. If unit's Spd - foe's Spd &geq; 1, gain Special cooldown charge +1 per attack. (If similar skill also used, only highest value applied.)"
     },
     "19": {
       "index": 19,
@@ -8653,7 +8803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+4 when the unit is under attack."
     },
     "20": {
       "index": 20,
@@ -8792,7 +8943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 19,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+7 when unit is attacked."
     },
     "21": {
       "index": 21,
@@ -8931,7 +9083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 19,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+7 when unit is attacked."
     },
     "22": {
       "index": 22,
@@ -9070,7 +9223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 19,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+7 when unit is attacked."
     },
     "23": {
       "index": 23,
@@ -9209,7 +9363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 19,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+7 when unit is attacked."
     },
     "24": {
       "index": 24,
@@ -9348,7 +9503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 when this unit is attacked."
     },
     "25": {
       "index": 25,
@@ -9487,7 +9643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
     "26": {
       "index": 26,
@@ -9626,7 +9783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "27": {
       "index": 27,
@@ -9765,7 +9923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 26,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "28": {
       "index": 28,
@@ -9904,7 +10063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 26,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "29": {
       "index": 29,
@@ -10043,7 +10203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 26,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "30": {
       "index": 30,
@@ -10182,7 +10343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 26,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "31": {
       "index": 31,
@@ -10321,7 +10483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants weapon advantage vs. colorless foes."
     },
     "32": {
       "index": 32,
@@ -10460,7 +10623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "33": {
       "index": 33,
@@ -10599,7 +10763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 128,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk+3. If unit's Atk &gt; foe's, unit gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)"
     },
     "34": {
       "index": 34,
@@ -10738,7 +10903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
     "35": {
       "index": 35,
@@ -10877,7 +11043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 34,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "36": {
       "index": 36,
@@ -11016,7 +11183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 34,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "37": {
       "index": 37,
@@ -11155,7 +11323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 34,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "38": {
       "index": 38,
@@ -11294,7 +11463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 34,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "39": {
       "index": 39,
@@ -11433,7 +11603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat."
     },
     "40": {
       "index": 40,
@@ -11572,7 +11743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
     "41": {
       "index": 41,
@@ -11711,7 +11883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 40,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "42": {
       "index": 42,
@@ -11850,7 +12023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 40,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "43": {
       "index": 43,
@@ -11989,7 +12163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 40,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "44": {
       "index": 44,
@@ -12128,7 +12303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 40,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "45": {
       "index": 45,
@@ -12267,7 +12443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "46": {
       "index": 46,
@@ -12406,7 +12583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 45,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "47": {
       "index": 47,
@@ -12545,7 +12723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 45,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "48": {
       "index": 48,
@@ -12684,7 +12863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 45,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "49": {
       "index": 49,
@@ -12823,7 +13003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 45,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "50": {
       "index": 50,
@@ -12962,7 +13143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-5. Attack twice when initiating combat."
     },
     "51": {
       "index": 51,
@@ -13101,7 +13283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat."
     },
     "52": {
       "index": 52,
@@ -13240,7 +13423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-5. Attack twice when initiating combat."
     },
     "53": {
       "index": 53,
@@ -13379,7 +13563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-5. Attack twice when initiating combat."
     },
     "54": {
       "index": 54,
@@ -13518,7 +13703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Def+4 during combat if foe initiates combat."
     },
     "55": {
       "index": 55,
@@ -13657,7 +13843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less."
     },
     "56": {
       "index": 56,
@@ -13796,7 +13983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
     "57": {
       "index": 57,
@@ -13935,7 +14123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 56,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
     "58": {
       "index": 58,
@@ -14074,7 +14263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 56,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
     "59": {
       "index": 59,
@@ -14213,7 +14403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 56,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
     "60": {
       "index": 60,
@@ -14352,7 +14543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 56,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
     "61": {
       "index": 61,
@@ -14491,7 +14683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions."
     },
     "62": {
       "index": 62,
@@ -14630,7 +14823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 61,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions. The enemy cannot counterattack."
     },
     "63": {
       "index": 63,
@@ -14769,7 +14963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 61,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
     "64": {
       "index": 64,
@@ -14908,7 +15103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
     "65": {
       "index": 65,
@@ -15047,7 +15243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 64,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "66": {
       "index": 66,
@@ -15186,7 +15383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 64,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "67": {
       "index": 67,
@@ -15325,7 +15523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 64,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "68": {
       "index": 68,
@@ -15464,7 +15663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 64,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "69": {
       "index": 69,
@@ -15603,7 +15803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
     "70": {
       "index": 70,
@@ -15742,7 +15943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 69,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "71": {
       "index": 71,
@@ -15881,7 +16083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 69,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "72": {
       "index": 72,
@@ -16020,7 +16223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 69,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "73": {
       "index": 73,
@@ -16159,7 +16363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 69,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "74": {
       "index": 74,
@@ -16298,7 +16503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units."
     },
     "75": {
       "index": 75,
@@ -16437,7 +16643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 74,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
     "76": {
       "index": 76,
@@ -16576,7 +16783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 74,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
     "77": {
       "index": 77,
@@ -16715,7 +16923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 74,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
     "78": {
       "index": 78,
@@ -16854,7 +17063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 74,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
     "79": {
       "index": 79,
@@ -16993,7 +17203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
     "80": {
       "index": 80,
@@ -17132,7 +17343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 79,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "81": {
       "index": 81,
@@ -17271,7 +17483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 79,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "82": {
       "index": 82,
@@ -17410,7 +17623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 79,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "83": {
       "index": 83,
@@ -17549,7 +17763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 79,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "84": {
       "index": 84,
@@ -17688,7 +17903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat."
     },
     "85": {
       "index": 85,
@@ -17827,7 +18043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
     "86": {
       "index": 86,
@@ -17966,7 +18183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 85,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
     "87": {
       "index": 87,
@@ -18105,7 +18323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 85,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
     "88": {
       "index": 88,
@@ -18244,7 +18463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 85,
-      "cond_eff_text": "Grants Atk/Res +5 during combat if within 2 spaces of a flying ally."
+      "cond_eff_text": "Grants Atk/Res +5 during combat if within 2 spaces of a flying ally.",
+      "desc": "Grants allies within 2 spaces Atk+3 during combat. Grants Atk/Res+5 during combat if within 2 spaces of a flying ally."
     },
     "89": {
       "index": 89,
@@ -18383,7 +18603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 85,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
     "90": {
       "index": 90,
@@ -18522,7 +18743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 85,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
     "91": {
       "index": 91,
@@ -18661,7 +18883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
     },
     "92": {
       "index": 92,
@@ -18800,7 +19023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 91,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "93": {
       "index": 93,
@@ -18939,7 +19163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 91,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "94": {
       "index": 94,
@@ -19078,7 +19303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 91,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "95": {
       "index": 95,
@@ -19217,7 +19443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 91,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "96": {
       "index": 96,
@@ -19356,7 +19583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "97": {
       "index": 97,
@@ -19495,7 +19723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 96,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "98": {
       "index": 98,
@@ -19634,7 +19863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 96,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "99": {
       "index": 99,
@@ -19773,7 +20003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 96,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "100": {
       "index": 100,
@@ -19912,7 +20143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 96,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "101": {
       "index": 101,
@@ -20051,7 +20283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "102": {
       "index": 102,
@@ -20190,7 +20423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 101,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "103": {
       "index": 103,
@@ -20329,7 +20563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 101,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "104": {
       "index": 104,
@@ -20468,7 +20703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 101,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "105": {
       "index": 105,
@@ -20607,7 +20843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 101,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "106": {
       "index": 106,
@@ -20746,7 +20983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 106,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their next actions at the start of each turn."
     },
     "107": {
       "index": 107,
@@ -20885,7 +21123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions."
     },
     "108": {
       "index": 108,
@@ -21024,7 +21263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 107,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "109": {
       "index": 109,
@@ -21163,7 +21403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 107,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "110": {
       "index": 110,
@@ -21302,7 +21543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 107,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "111": {
       "index": 111,
@@ -21441,7 +21683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 107,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "112": {
       "index": 112,
@@ -21580,7 +21823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 131,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "113": {
       "index": 113,
@@ -21719,7 +21963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd+4 during combat if unit initiates combat."
     },
     "114": {
       "index": 114,
@@ -21858,7 +22103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, deals 7 damage to foe after combat."
     },
     "115": {
       "index": 115,
@@ -21997,7 +22243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 114,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
     "116": {
       "index": 116,
@@ -22136,7 +22383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 114,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
     "117": {
       "index": 117,
@@ -22275,7 +22523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 114,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions. Foes using magic cannot counterattack."
     },
     "118": {
       "index": 118,
@@ -22414,7 +22663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 114,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
     "119": {
       "index": 119,
@@ -22553,7 +22803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 114,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
     "120": {
       "index": 120,
@@ -22692,7 +22943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "121": {
       "index": 121,
@@ -22831,7 +23083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 120,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "122": {
       "index": 122,
@@ -22970,7 +23223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 120,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "123": {
       "index": 123,
@@ -23109,7 +23363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 120,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "124": {
       "index": 124,
@@ -23248,7 +23503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 120,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "125": {
       "index": 125,
@@ -23387,7 +23643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Spd-5. Attack twice when initiating combat."
     },
     "126": {
       "index": 126,
@@ -23526,7 +23783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 291,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against dragons. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat."
     },
     "127": {
       "index": 127,
@@ -23665,7 +23923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 460,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+3. If in combat against foe using magic, unit receives 50% less damage from the first attack."
     },
     "128": {
       "index": 128,
@@ -23804,7 +24063,8 @@ var data = {
       "evolves_into": 33,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk+4 during combat if unit initiates attack."
     },
     "129": {
       "index": 129,
@@ -23943,7 +24203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "130": {
       "index": 130,
@@ -24082,7 +24343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
     "131": {
       "index": 131,
@@ -24221,7 +24483,8 @@ var data = {
       "evolves_into": 112,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "132": {
       "index": 132,
@@ -24360,7 +24623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk+5 at start of turn if unit's HP &leq; 50%."
     },
     "133": {
       "index": 133,
@@ -24499,7 +24763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
     "134": {
       "index": 134,
@@ -24638,7 +24903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
     "135": {
       "index": 135,
@@ -24777,7 +25043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
     "136": {
       "index": 136,
@@ -24916,7 +25183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions."
     },
     "137": {
       "index": 137,
@@ -25055,7 +25323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 136,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions. The enemy cannot counterattack."
     },
     "138": {
       "index": 138,
@@ -25194,7 +25463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 136,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
     "139": {
       "index": 139,
@@ -25333,7 +25603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "140": {
       "index": 140,
@@ -25472,7 +25743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 139,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "141": {
       "index": 141,
@@ -25611,7 +25883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 139,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "142": {
       "index": 142,
@@ -25750,7 +26023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 139,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "143": {
       "index": 143,
@@ -25889,7 +26163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 139,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "144": {
       "index": 144,
@@ -26028,7 +26303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "145": {
       "index": 145,
@@ -26167,7 +26443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against fliers. Unit and enemies cannot use counterattacks."
     },
     "146": {
       "index": 146,
@@ -26306,7 +26583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Unit and enemies cannot use counterattacks."
     },
     "147": {
       "index": 147,
@@ -26445,7 +26723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Unit and foes cannot counterattack."
     },
     "148": {
       "index": 148,
@@ -26584,7 +26863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
     "149": {
       "index": 149,
@@ -26723,7 +27003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 148,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "150": {
       "index": 150,
@@ -26862,7 +27143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 148,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "151": {
       "index": 151,
@@ -27001,7 +27283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 148,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "152": {
       "index": 152,
@@ -27140,7 +27423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 148,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
     "153": {
       "index": 153,
@@ -27279,7 +27563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "154": {
       "index": 154,
@@ -27418,7 +27703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 153,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "155": {
       "index": 155,
@@ -27557,7 +27843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 153,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "156": {
       "index": 156,
@@ -27696,7 +27983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 153,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "157": {
       "index": 157,
@@ -27835,7 +28123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 153,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "158": {
       "index": 158,
@@ -27974,7 +28263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Unit can pass though foes if own HP &geq; 50%."
     },
     "159": {
       "index": 159,
@@ -28113,7 +28403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 158,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
     "160": {
       "index": 160,
@@ -28252,7 +28543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 158,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
     "161": {
       "index": 161,
@@ -28391,7 +28683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 158,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP &geq; 50%, unit can move adjacent to any ally within 2 spaces."
     },
     "162": {
       "index": 162,
@@ -28530,7 +28823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 158,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
     "163": {
       "index": 163,
@@ -28669,7 +28963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 158,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
     "164": {
       "index": 164,
@@ -28808,7 +29103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat."
     },
     "165": {
       "index": 165,
@@ -28947,7 +29243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+3. If foes' HP = 100% at start of combat, grants Atk/Spd+3 during combat."
     },
     "166": {
       "index": 166,
@@ -29086,7 +29383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "167": {
       "index": 167,
@@ -29225,7 +29523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
     },
     "168": {
       "index": 168,
@@ -29364,7 +29663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 167,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions. The enemy cannot counterattack."
     },
     "169": {
       "index": 169,
@@ -29503,7 +29803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 167,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
     "170": {
       "index": 170,
@@ -29642,7 +29943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk+3. If unit's Def - foe's Def ≥ 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "171": {
       "index": 171,
@@ -29781,7 +30083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
     "172": {
       "index": 172,
@@ -29920,7 +30223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 171,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "173": {
       "index": 173,
@@ -30059,7 +30363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 171,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "174": {
       "index": 174,
@@ -30198,7 +30503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 171,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "175": {
       "index": 175,
@@ -30337,7 +30643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 171,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, restores 4 HP."
     },
     "176": {
       "index": 176,
@@ -30476,7 +30783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has &geq; 50% HP, unit can move to a space adjacent to an ally within 2 spaces."
     },
     "177": {
       "index": 177,
@@ -30615,7 +30923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
     "178": {
       "index": 178,
@@ -30754,7 +31063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "179": {
       "index": 179,
@@ -30893,7 +31203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 178,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "180": {
       "index": 180,
@@ -31032,7 +31343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 178,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "181": {
       "index": 181,
@@ -31171,7 +31483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 178,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "182": {
       "index": 182,
@@ -31310,7 +31623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 178,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "183": {
       "index": 183,
@@ -31449,7 +31763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants weapon advantage vs. colorless foes."
     },
     "184": {
       "index": 184,
@@ -31588,7 +31903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "185": {
       "index": 185,
@@ -31727,7 +32043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 14,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
     "186": {
       "index": 186,
@@ -31866,7 +32183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 185,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
     "187": {
       "index": 187,
@@ -32005,7 +32323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 185,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
     "188": {
       "index": 188,
@@ -32144,7 +32463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 185,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
     "189": {
       "index": 189,
@@ -32283,7 +32603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 185,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
     "190": {
       "index": 190,
@@ -32422,7 +32743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "191": {
       "index": 191,
@@ -32561,7 +32883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 190,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "192": {
       "index": 192,
@@ -32700,7 +33023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 190,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "193": {
       "index": 193,
@@ -32839,7 +33163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 190,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "194": {
       "index": 194,
@@ -32978,7 +33303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 190,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "195": {
       "index": 195,
@@ -33117,7 +33443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "196": {
       "index": 196,
@@ -33256,7 +33583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 195,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "197": {
       "index": 197,
@@ -33395,7 +33723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 195,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "198": {
       "index": 198,
@@ -33534,7 +33863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 195,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "199": {
       "index": 199,
@@ -33673,7 +34003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 195,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "200": {
       "index": 200,
@@ -33812,7 +34143,8 @@ var data = {
       "evolves_into": 412,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored units."
     },
     "201": {
       "index": 201,
@@ -33951,7 +34283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "202": {
       "index": 202,
@@ -34090,7 +34423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 201,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "203": {
       "index": 203,
@@ -34229,7 +34563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 201,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "204": {
       "index": 204,
@@ -34368,7 +34703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 201,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "205": {
       "index": 205,
@@ -34507,7 +34843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 201,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "206": {
       "index": 206,
@@ -34646,7 +34983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "207": {
       "index": 207,
@@ -34785,7 +35123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 206,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "208": {
       "index": 208,
@@ -34924,7 +35263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 206,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "209": {
       "index": 209,
@@ -35063,7 +35403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 206,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
     },
     "210": {
       "index": 210,
@@ -35202,7 +35543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 206,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "211": {
       "index": 211,
@@ -35341,7 +35683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 206,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "212": {
       "index": 212,
@@ -35480,7 +35823,8 @@ var data = {
       "evolves_into": 423,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored units."
     },
     "213": {
       "index": 213,
@@ -35619,7 +35963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "214": {
       "index": 214,
@@ -35758,7 +36103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 213,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "215": {
       "index": 215,
@@ -35897,7 +36243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 213,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "216": {
       "index": 216,
@@ -36036,7 +36383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 213,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "217": {
       "index": 217,
@@ -36175,7 +36523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 213,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "218": {
       "index": 218,
@@ -36314,7 +36663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat."
     },
     "219": {
       "index": 219,
@@ -36453,7 +36803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "220": {
       "index": 220,
@@ -36592,7 +36943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 219,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "221": {
       "index": 221,
@@ -36731,7 +37083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 219,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "222": {
       "index": 222,
@@ -36870,7 +37223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 219,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "223": {
       "index": 223,
@@ -37009,7 +37363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 219,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
     "224": {
       "index": 224,
@@ -37148,7 +37503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
     "225": {
       "index": 225,
@@ -37287,7 +37643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 224,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
     "226": {
       "index": 226,
@@ -37426,7 +37783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 224,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
     "227": {
       "index": 227,
@@ -37565,7 +37923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 224,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
     "228": {
       "index": 228,
@@ -37704,7 +38063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 224,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
     "229": {
       "index": 229,
@@ -37843,7 +38203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 32,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "230": {
       "index": 230,
@@ -37982,7 +38343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 229,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "231": {
       "index": 231,
@@ -38121,7 +38483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 229,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "232": {
       "index": 232,
@@ -38260,7 +38623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 229,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "233": {
       "index": 233,
@@ -38399,7 +38763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 229,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "234": {
       "index": 234,
@@ -38538,7 +38903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 229,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "235": {
       "index": 235,
@@ -38677,7 +39043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 184,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "236": {
       "index": 236,
@@ -38816,7 +39183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 235,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "237": {
       "index": 237,
@@ -38955,7 +39323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 235,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "238": {
       "index": 238,
@@ -39094,7 +39463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 235,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "239": {
       "index": 239,
@@ -39233,7 +39603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 235,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "240": {
       "index": 240,
@@ -39372,7 +39743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 235,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "241": {
       "index": 241,
@@ -39511,7 +39883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 318,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "242": {
       "index": 242,
@@ -39650,7 +40023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 241,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "243": {
       "index": 243,
@@ -39789,7 +40163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 241,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "244": {
       "index": 244,
@@ -39928,7 +40303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 241,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "245": {
       "index": 245,
@@ -40067,7 +40443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 241,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "246": {
       "index": 246,
@@ -40206,7 +40583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 241,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry foes."
     },
     "247": {
       "index": 247,
@@ -40345,7 +40723,8 @@ var data = {
       "evolves_into": 397,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "248": {
       "index": 248,
@@ -40484,7 +40863,8 @@ var data = {
       "evolves_into": 402,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "249": {
       "index": 249,
@@ -40623,7 +41003,8 @@ var data = {
       "evolves_into": 418,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "250": {
       "index": 250,
@@ -40762,7 +41143,8 @@ var data = {
       "evolves_into": 407,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "251": {
       "index": 251,
@@ -40901,7 +41283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against magic foes. After combat, if unit attacked and if foe uses magic, inflicts Def/Res-7 on foe through its next action."
     },
     "252": {
       "index": 252,
@@ -41040,7 +41423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, bonuses on targeted foe become penalties through its next action."
     },
     "253": {
       "index": 253,
@@ -41179,7 +41563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 252,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
     "254": {
       "index": 254,
@@ -41318,7 +41703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 252,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
     "255": {
       "index": 255,
@@ -41457,7 +41843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 252,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
     "256": {
       "index": 256,
@@ -41596,7 +41983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 252,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
     "257": {
       "index": 257,
@@ -41735,7 +42123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Unit can counterattack regardless of foe's range."
     },
     "258": {
       "index": 258,
@@ -41874,7 +42263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates."
     },
     "259": {
       "index": 259,
@@ -42013,7 +42403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 258,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "260": {
       "index": 260,
@@ -42152,7 +42543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 258,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "261": {
       "index": 261,
@@ -42291,7 +42683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 258,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "262": {
       "index": 262,
@@ -42430,7 +42823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 258,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "263": {
       "index": 263,
@@ -42569,7 +42963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1)."
     },
     "264": {
       "index": 264,
@@ -42708,7 +43103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 263,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "265": {
       "index": 265,
@@ -42847,7 +43243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 263,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "266": {
       "index": 266,
@@ -42986,7 +43383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 263,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "267": {
       "index": 267,
@@ -43125,7 +43523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 263,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
     "268": {
       "index": 268,
@@ -43264,7 +43663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "269": {
       "index": 269,
@@ -43403,7 +43803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 268,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "270": {
       "index": 270,
@@ -43542,7 +43943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 268,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "271": {
       "index": 271,
@@ -43681,7 +44083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 268,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "272": {
       "index": 272,
@@ -43820,7 +44223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 268,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "273": {
       "index": 273,
@@ -43959,7 +44363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "274": {
       "index": 274,
@@ -44098,7 +44503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 273,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "275": {
       "index": 275,
@@ -44237,7 +44643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 273,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "276": {
       "index": 276,
@@ -44376,7 +44783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 273,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "277": {
       "index": 277,
@@ -44515,7 +44923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 273,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
     "278": {
       "index": 278,
@@ -44654,7 +45063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties through foes' next actions."
     },
     "279": {
       "index": 279,
@@ -44793,7 +45203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 278,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "280": {
       "index": 280,
@@ -44932,7 +45343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 278,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "281": {
       "index": 281,
@@ -45071,7 +45483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 278,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "282": {
       "index": 282,
@@ -45210,7 +45623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 278,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "283": {
       "index": 283,
@@ -45349,7 +45763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat."
     },
     "284": {
       "index": 284,
@@ -45488,7 +45903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "285": {
       "index": 285,
@@ -45627,7 +46043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 284,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "286": {
       "index": 286,
@@ -45766,7 +46183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 284,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "287": {
       "index": 287,
@@ -45905,7 +46323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 284,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
     "288": {
       "index": 288,
@@ -46044,7 +46463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 284,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "289": {
       "index": 289,
@@ -46183,7 +46603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 284,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "290": {
       "index": 290,
@@ -46322,7 +46743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Unit may move adjacent to any ally when HP &leq; 40%."
     },
     "291": {
       "index": 291,
@@ -46461,7 +46883,8 @@ var data = {
       "evolves_into": 126,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against dragons. Grants Def/Res+2 when this unit is attacked."
     },
     "292": {
       "index": 292,
@@ -46600,7 +47023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants weapon advantage vs. colorless foes."
     },
     "293": {
       "index": 293,
@@ -46739,7 +47163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.        "
     },
     "294": {
       "index": 294,
@@ -46878,7 +47303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target."
     },
     "295": {
       "index": 295,
@@ -47017,7 +47443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 294,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target. The enemy cannot counterattack."
     },
     "296": {
       "index": 296,
@@ -47156,7 +47583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 294,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target. Damage from unit's staff will be calculated the same as other weapons."
     },
     "297": {
       "index": 297,
@@ -47295,7 +47723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
     "298": {
       "index": 298,
@@ -47434,7 +47863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 297,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions. The enemy cannot counterattack."
     },
     "299": {
       "index": 299,
@@ -47573,7 +48003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 297,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
     "300": {
       "index": 300,
@@ -47712,7 +48143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Grants Res+4 during combat if initiating attack."
     },
     "301": {
       "index": 301,
@@ -47851,7 +48283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 300,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
     "302": {
       "index": 302,
@@ -47990,7 +48423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 300,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
     "303": {
       "index": 303,
@@ -48129,7 +48563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 300,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%. Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff."
     },
     "304": {
       "index": 304,
@@ -48268,7 +48703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 300,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
     "305": {
       "index": 305,
@@ -48407,7 +48843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 300,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
     "306": {
       "index": 306,
@@ -48546,7 +48983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn."
     },
     "307": {
       "index": 307,
@@ -48685,7 +49123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against infantry foes. After combat, if unit attacked, inflicts Def/Res-6 on infantry foe through its next action."
     },
     "308": {
       "index": 308,
@@ -48824,7 +49263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at the start of combat, unit receives Atk/Spd +5. If attacking, unit will receive 5 damage after combat."
     },
     "309": {
       "index": 309,
@@ -48963,7 +49403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "310": {
       "index": 310,
@@ -49102,7 +49543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "311": {
       "index": 311,
@@ -49241,7 +49683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
     "312": {
       "index": 312,
@@ -49380,7 +49823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "313": {
       "index": 313,
@@ -49519,7 +49963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 312,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "314": {
       "index": 314,
@@ -49658,7 +50103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 312,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "315": {
       "index": 315,
@@ -49797,7 +50243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 312,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "316": {
       "index": 316,
@@ -49936,7 +50383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 312,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
     "317": {
       "index": 317,
@@ -50075,7 +50523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants weapon advantage vs. colorless foes."
     },
     "318": {
       "index": 318,
@@ -50214,7 +50663,8 @@ var data = {
       "evolves_into": 241,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "319": {
       "index": 319,
@@ -50353,7 +50803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
     "320": {
       "index": 320,
@@ -50492,7 +50943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 319,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
     "321": {
       "index": 321,
@@ -50631,7 +51083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 319,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
     "322": {
       "index": 322,
@@ -50770,7 +51223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 319,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
     "323": {
       "index": 323,
@@ -50909,7 +51363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 319,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
     "324": {
       "index": 324,
@@ -51048,7 +51503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat."
     },
     "325": {
       "index": 325,
@@ -51187,7 +51643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk+3. Grants +10 to damage when Special triggers."
     },
     "326": {
       "index": 326,
@@ -51326,7 +51783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "327": {
       "index": 327,
@@ -51465,7 +51923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 326,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "328": {
       "index": 328,
@@ -51604,7 +52063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 326,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "329": {
       "index": 329,
@@ -51743,7 +52203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 326,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "330": {
       "index": 330,
@@ -51882,7 +52343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 326,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "331": {
       "index": 331,
@@ -52021,7 +52483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "332": {
       "index": 332,
@@ -52160,7 +52623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 331,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "333": {
       "index": 333,
@@ -52299,7 +52763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 331,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "334": {
       "index": 334,
@@ -52438,7 +52903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 331,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "335": {
       "index": 335,
@@ -52577,7 +53043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 331,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "336": {
       "index": 336,
@@ -52716,7 +53183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 331,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "337": {
       "index": 337,
@@ -52855,7 +53323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn."
     },
     "338": {
       "index": 338,
@@ -52994,7 +53463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 337,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
     "339": {
       "index": 339,
@@ -53133,7 +53603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 337,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
     "340": {
       "index": 340,
@@ -53272,7 +53743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 337,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
     "341": {
       "index": 341,
@@ -53411,7 +53883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 337,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
     "342": {
       "index": 342,
@@ -53550,288 +54023,11 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
     "343": {
       "index": 343,
-      "name": "Sack o' Gifts (Def)",
-      "alt_name": "Sack o' Gifts (Def)",
-      "atk_boost_perm": 14,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 4,
-      "res_boost_perm": 0,
-      "hp_boost_perm": 5,
-      "desperation_thresh": 0,
-      "brash_assault_thresh": 0,
-      "breaker": 0,
-      "breaker_thresh": 0,
-      "blade": 0,
-      "colorless_wta": 0,
-      "brave": 0,
-      "renewal_lv_weap": 0,
-      "def_boost_below50": 0,
-      "atk_boost_off": 0,
-      "spd_boost_off": 0,
-      "def_boost_off": 0,
-      "res_boost_off": 0,
-      "atk_boost_def": 2,
-      "spd_boost_def": 2,
-      "def_boost_def": 2,
-      "res_boost_def": 2,
-      "hp_inflict_on_hit": 0,
-      "atk_inflict_on_hit": 0,
-      "spd_inflict_on_hit": 0,
-      "def_inflict_on_hit": 0,
-      "res_inflict_on_hit": 0,
-      "def_buff_on_hit": 0,
-      "res_buff_on_hit": 0,
-      "inf_def_inflict_on_hit": 0,
-      "inf_res_inflict_on_hit": 0,
-      "defiant_atk": 0,
-      "atk_start_inflict": 0,
-      "buff_reverse_on_hit": 0,
-      "any_range_counter": 0,
-      "wt_amp": 0,
-      "skill_cd_reduction": 0,
-      "skill_cd_increase": 0,
-      "skill_dmg_bonus": 0,
-      "heal_on_hit": 0,
-      "heal_after_attack": 0,
-      "atk_boost_full_hp": 0,
-      "spd_boost_full_hp": 0,
-      "def_boost_full_hp": 0,
-      "res_boost_full_hp": 0,
-      "burn_full_hp": 0,
-      "inverse_spur": 0,
-      "atk_boost_enemy_full_hp": 0,
-      "spd_boost_enemy_full_hp": 0,
-      "def_boost_def_vs_ALS": 0,
-      "burn": 0,
-      "consec_hit_mitig": 0,
-      "atk_bonus_cd_thresh": 0,
-      "spd_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "first_tome_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "distant_atk_off_bonus": 0,
-      "distant_atk_def_bonus": 0,
-      "distant_spd_off_bonus": 0,
-      "distant_spd_def_bonus": 0,
-      "distant_def_off_bonus": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_off_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "hit_2rng_weaker_def_stat": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "enemy_debuffs_to_atk": 0,
-      "thani_mitigation": 0,
-      "great_flame_def_thresh": 0,
-      "special_atk_bonus": 0,
-      "special_spd_bonus": 0,
-      "special_def_bonus": 0,
-      "special_res_bonus": 0,
-      "special_stat_bonus": 0,
-      "negate_self_counter": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_eff": 0,
-      "lnc_eff": 0,
-      "axe_eff": 0,
-      "rt_eff": 0,
-      "bt_eff": 0,
-      "gt_eff": 0,
-      "bow_eff": 0,
-      "dgr_eff": 0,
-      "stf_eff": 0,
-      "rbrth_eff": 0,
-      "bbrth_eff": 0,
-      "gbrth_eff": 0,
-      "inf_eff": 0,
-      "cav_eff": 0,
-      "fly_eff": 0,
-      "arm_eff": 0,
-      "range": 1,
-      "type": "A",
-      "char_lock": 0,
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 345,
-      "cond_eff_text": 0
-    },
-    "344": {
-      "index": 344,
-      "name": "Sack o' Gifts (Res)",
-      "alt_name": "Sack o' Gifts (Res)",
-      "atk_boost_perm": 14,
-      "spd_boost_perm": 0,
-      "def_boost_perm": 0,
-      "res_boost_perm": 4,
-      "hp_boost_perm": 5,
-      "desperation_thresh": 0,
-      "brash_assault_thresh": 0,
-      "breaker": 0,
-      "breaker_thresh": 0,
-      "blade": 0,
-      "colorless_wta": 0,
-      "brave": 0,
-      "renewal_lv_weap": 0,
-      "def_boost_below50": 0,
-      "atk_boost_off": 0,
-      "spd_boost_off": 0,
-      "def_boost_off": 0,
-      "res_boost_off": 0,
-      "atk_boost_def": 2,
-      "spd_boost_def": 2,
-      "def_boost_def": 2,
-      "res_boost_def": 2,
-      "hp_inflict_on_hit": 0,
-      "atk_inflict_on_hit": 0,
-      "spd_inflict_on_hit": 0,
-      "def_inflict_on_hit": 0,
-      "res_inflict_on_hit": 0,
-      "def_buff_on_hit": 0,
-      "res_buff_on_hit": 0,
-      "inf_def_inflict_on_hit": 0,
-      "inf_res_inflict_on_hit": 0,
-      "defiant_atk": 0,
-      "atk_start_inflict": 0,
-      "buff_reverse_on_hit": 0,
-      "any_range_counter": 0,
-      "wt_amp": 0,
-      "skill_cd_reduction": 0,
-      "skill_cd_increase": 0,
-      "skill_dmg_bonus": 0,
-      "heal_on_hit": 0,
-      "heal_after_attack": 0,
-      "atk_boost_full_hp": 0,
-      "spd_boost_full_hp": 0,
-      "def_boost_full_hp": 0,
-      "res_boost_full_hp": 0,
-      "burn_full_hp": 0,
-      "inverse_spur": 0,
-      "atk_boost_enemy_full_hp": 0,
-      "spd_boost_enemy_full_hp": 0,
-      "def_boost_def_vs_ALS": 0,
-      "burn": 0,
-      "consec_hit_mitig": 0,
-      "atk_bonus_cd_thresh": 0,
-      "spd_bonus_cd_thresh": 0,
-      "bonus_cd_amt": 0,
-      "first_tome_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "distant_atk_off_bonus": 0,
-      "distant_atk_def_bonus": 0,
-      "distant_spd_off_bonus": 0,
-      "distant_spd_def_bonus": 0,
-      "distant_def_off_bonus": 0,
-      "distant_def_def_bonus": 0,
-      "distant_res_off_bonus": 0,
-      "distant_res_def_bonus": 0,
-      "hit_2rng_weaker_def_stat": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "enemy_debuffs_to_atk": 0,
-      "thani_mitigation": 0,
-      "great_flame_def_thresh": 0,
-      "special_atk_bonus": 0,
-      "special_spd_bonus": 0,
-      "special_def_bonus": 0,
-      "special_res_bonus": 0,
-      "special_stat_bonus": 0,
-      "negate_self_counter": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_eff": 0,
-      "lnc_eff": 0,
-      "axe_eff": 0,
-      "rt_eff": 0,
-      "bt_eff": 0,
-      "gt_eff": 0,
-      "bow_eff": 0,
-      "dgr_eff": 0,
-      "stf_eff": 0,
-      "rbrth_eff": 0,
-      "bbrth_eff": 0,
-      "gbrth_eff": 0,
-      "inf_eff": 0,
-      "cav_eff": 0,
-      "fly_eff": 0,
-      "arm_eff": 0,
-      "range": 1,
-      "type": "A",
-      "char_lock": 0,
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 345,
-      "cond_eff_text": 0
-    },
-    "345": {
-      "index": 345,
       "name": "Sack o' Gifts+",
       "alt_name": "Sack o' Gifts+",
       "atk_boost_perm": 14,
@@ -53967,10 +54163,11 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "346": {
-      "index": 346,
+    "344": {
+      "index": 344,
       "name": "Sack o' Gifts+ (Atk)",
       "alt_name": "Sack o' Gifts+ (Atk)",
       "atk_boost_perm": 16,
@@ -54105,8 +54302,289 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 345,
-      "cond_eff_text": 0
+      "upgraded_from": 343,
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
+    },
+    "345": {
+      "index": 345,
+      "name": "Sack o' Gifts+ (Def)",
+      "alt_name": "Sack o' Gifts+ (Def)",
+      "atk_boost_perm": 14,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 4,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 5,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "breaker": 0,
+      "breaker_thresh": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 2,
+      "spd_boost_def": 2,
+      "def_boost_def": 2,
+      "res_boost_def": 2,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_atk_off_bonus": 0,
+      "distant_atk_def_bonus": 0,
+      "distant_spd_off_bonus": 0,
+      "distant_spd_def_bonus": 0,
+      "distant_def_off_bonus": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_off_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
+      "thani_mitigation": 0,
+      "great_flame_def_thresh": 0,
+      "special_atk_bonus": 0,
+      "special_spd_bonus": 0,
+      "special_def_bonus": 0,
+      "special_res_bonus": 0,
+      "special_stat_bonus": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "A",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 343,
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
+    },
+    "346": {
+      "index": 346,
+      "name": "Sack o' Gifts+ (Res)",
+      "alt_name": "Sack o' Gifts+ (Res)",
+      "atk_boost_perm": 14,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 4,
+      "hp_boost_perm": 5,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "breaker": 0,
+      "breaker_thresh": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 2,
+      "spd_boost_def": 2,
+      "def_boost_def": 2,
+      "res_boost_def": 2,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_atk_off_bonus": 0,
+      "distant_atk_def_bonus": 0,
+      "distant_spd_off_bonus": 0,
+      "distant_spd_def_bonus": 0,
+      "distant_def_off_bonus": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_off_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
+      "thani_mitigation": 0,
+      "great_flame_def_thresh": 0,
+      "special_atk_bonus": 0,
+      "special_spd_bonus": 0,
+      "special_def_bonus": 0,
+      "special_res_bonus": 0,
+      "special_stat_bonus": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "A",
+      "char_lock": 0,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 343,
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "347": {
       "index": 347,
@@ -54244,8 +54722,9 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 345,
-      "cond_eff_text": 0
+      "upgraded_from": 343,
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "348": {
       "index": 348,
@@ -54384,7 +54863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
     "349": {
       "index": 349,
@@ -54523,7 +55003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "350": {
       "index": 350,
@@ -54662,7 +55143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 349,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "351": {
       "index": 351,
@@ -54801,7 +55283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 349,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "352": {
       "index": 352,
@@ -54940,7 +55423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 349,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "353": {
       "index": 353,
@@ -55079,7 +55563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 349,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "354": {
       "index": 354,
@@ -55218,7 +55703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
     "355": {
       "index": 355,
@@ -55357,7 +55843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 354,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
     "356": {
       "index": 356,
@@ -55496,7 +55983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 354,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
     "357": {
       "index": 357,
@@ -55635,7 +56123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 354,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
     "358": {
       "index": 358,
@@ -55774,7 +56263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 354,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
     "359": {
       "index": 359,
@@ -55913,7 +56403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "360": {
       "index": 360,
@@ -56052,7 +56543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 359,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "361": {
       "index": 361,
@@ -56191,7 +56683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 359,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "362": {
       "index": 362,
@@ -56330,7 +56823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 359,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "363": {
       "index": 363,
@@ -56469,7 +56963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 359,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "364": {
       "index": 364,
@@ -56608,7 +57103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "365": {
       "index": 365,
@@ -56747,7 +57243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
     },
     "366": {
       "index": 366,
@@ -56886,7 +57383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
     },
     "367": {
       "index": 367,
@@ -57025,7 +57523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 366,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "368": {
       "index": 368,
@@ -57164,7 +57663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 366,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "369": {
       "index": 369,
@@ -57303,7 +57803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 366,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn. If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack."
     },
     "370": {
       "index": 370,
@@ -57442,7 +57943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 366,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "371": {
       "index": 371,
@@ -57581,7 +58083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 366,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "372": {
       "index": 372,
@@ -57720,7 +58223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "373": {
       "index": 373,
@@ -57859,7 +58363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 372,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "374": {
       "index": 374,
@@ -57998,7 +58503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 372,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "375": {
       "index": 375,
@@ -58137,7 +58643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 372,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "376": {
       "index": 376,
@@ -58276,7 +58783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 372,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "377": {
       "index": 377,
@@ -58415,7 +58923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "378": {
       "index": 378,
@@ -58554,7 +59063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 377,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "379": {
       "index": 379,
@@ -58693,7 +59203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 377,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "380": {
       "index": 380,
@@ -58832,7 +59343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 377,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "381": {
       "index": 381,
@@ -58971,7 +59483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 377,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units."
     },
     "382": {
       "index": 382,
@@ -59110,7 +59623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
     },
     "383": {
       "index": 383,
@@ -59249,7 +59763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 382,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "384": {
       "index": 384,
@@ -59388,7 +59903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 382,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "385": {
       "index": 385,
@@ -59527,7 +60043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 382,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "386": {
       "index": 386,
@@ -59666,7 +60183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 382,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
     "387": {
       "index": 387,
@@ -59805,7 +60323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "388": {
       "index": 388,
@@ -59944,7 +60463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 387,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "389": {
       "index": 389,
@@ -60083,7 +60603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 387,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "390": {
       "index": 390,
@@ -60222,7 +60743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 387,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "391": {
       "index": 391,
@@ -60361,7 +60883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 387,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "392": {
       "index": 392,
@@ -60500,7 +61023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "393": {
       "index": 393,
@@ -60639,7 +61163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 392,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "394": {
       "index": 394,
@@ -60778,7 +61303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 392,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "395": {
       "index": 395,
@@ -60917,7 +61443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 392,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "396": {
       "index": 396,
@@ -61056,7 +61583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 392,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Weapon has no additional effects."
     },
     "397": {
       "index": 397,
@@ -61195,7 +61723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 247,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "398": {
       "index": 398,
@@ -61334,7 +61863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 397,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "399": {
       "index": 399,
@@ -61473,7 +62003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 397,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "400": {
       "index": 400,
@@ -61612,7 +62143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 397,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "401": {
       "index": 401,
@@ -61751,7 +62283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 397,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "402": {
       "index": 402,
@@ -61890,7 +62423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 248,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "403": {
       "index": 403,
@@ -62029,7 +62563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 402,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "404": {
       "index": 404,
@@ -62168,7 +62703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 402,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "405": {
       "index": 405,
@@ -62307,7 +62843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 402,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "406": {
       "index": 406,
@@ -62446,7 +62983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 402,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
     "407": {
       "index": 407,
@@ -62585,7 +63123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 250,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "408": {
       "index": 408,
@@ -62724,7 +63263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 407,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "409": {
       "index": 409,
@@ -62863,7 +63403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 407,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "410": {
       "index": 410,
@@ -63002,7 +63543,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 407,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "411": {
       "index": 411,
@@ -63141,7 +63683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 407,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "412": {
       "index": 412,
@@ -63280,7 +63823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 200,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "413": {
       "index": 413,
@@ -63419,7 +63963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 412,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "414": {
       "index": 414,
@@ -63558,7 +64103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 412,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "415": {
       "index": 415,
@@ -63697,7 +64243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 412,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "416": {
       "index": 416,
@@ -63836,7 +64383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 412,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "417": {
       "index": 417,
@@ -63975,7 +64523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 412,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "418": {
       "index": 418,
@@ -64114,7 +64663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 249,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "419": {
       "index": 419,
@@ -64253,7 +64803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 418,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "420": {
       "index": 420,
@@ -64392,7 +64943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 418,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "421": {
       "index": 421,
@@ -64531,7 +65083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 418,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "422": {
       "index": 422,
@@ -64670,7 +65223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 418,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1)."
     },
     "423": {
       "index": 423,
@@ -64809,7 +65363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 212,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "424": {
       "index": 424,
@@ -64948,7 +65503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 423,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "425": {
       "index": 425,
@@ -65087,7 +65643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 423,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "426": {
       "index": 426,
@@ -65226,7 +65783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 423,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "427": {
       "index": 427,
@@ -65365,7 +65923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 423,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "428": {
       "index": 428,
@@ -65504,7 +66063,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 423,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against armored foes."
     },
     "429": {
       "index": 429,
@@ -65643,7 +66203,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
     },
     "430": {
       "index": 430,
@@ -65782,7 +66343,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 429,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions. The enemy cannot counterattack."
     },
     "431": {
       "index": 431,
@@ -65921,7 +66483,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 429,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
     "432": {
       "index": 432,
@@ -66060,7 +66623,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions."
     },
     "433": {
       "index": 433,
@@ -66199,7 +66763,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 432,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
     "434": {
       "index": 434,
@@ -66338,7 +66903,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 432,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
     "435": {
       "index": 435,
@@ -66477,7 +67043,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 432,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
     "436": {
       "index": 436,
@@ -66616,7 +67183,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 432,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
     "437": {
       "index": 437,
@@ -66755,7 +67323,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If wielder initiates attack at HP &leq; 50%, any follow-up occurs immediately."
     },
     "438": {
       "index": 438,
@@ -66894,7 +67463,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 437,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
     "439": {
       "index": 439,
@@ -67033,7 +67603,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 437,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
     "440": {
       "index": 440,
@@ -67172,7 +67743,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 437,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack. If unit initiates combat against a foe that can counter and unit's HP &leq; 75%, unit makes a guaranteed follow-up attack."
     },
     "441": {
       "index": 441,
@@ -67311,7 +67883,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 437,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
     "442": {
       "index": 442,
@@ -67450,7 +68023,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 437,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
     "443": {
       "index": 443,
@@ -67589,7 +68163,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties through foes' next actions."
     },
     "444": {
       "index": 444,
@@ -67728,7 +68303,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 443,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "445": {
       "index": 445,
@@ -67867,7 +68443,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 443,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "446": {
       "index": 446,
@@ -68006,7 +68583,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 443,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "447": {
       "index": 447,
@@ -68145,7 +68723,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 443,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
     "448": {
       "index": 448,
@@ -68284,7 +68863,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
     "449": {
       "index": 449,
@@ -68423,7 +69003,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "450": {
       "index": 450,
@@ -68562,7 +69143,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 449,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "451": {
       "index": 451,
@@ -68701,7 +69283,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 449,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "452": {
       "index": 452,
@@ -68840,7 +69423,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 449,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "453": {
       "index": 453,
@@ -68979,7 +69563,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 449,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
     "454": {
       "index": 454,
@@ -69118,7 +69703,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Res+3. Effective against armored and cavalry foes. Against armored and cavalry foes using bow, dagger, magic, or staff, damage from first attack received by unit during combat reduced by 30%.        "
     },
     "455": {
       "index": 455,
@@ -69257,7 +69843,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "456": {
       "index": 456,
@@ -69396,7 +69983,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 455,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "457": {
       "index": 457,
@@ -69535,7 +70123,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 455,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "458": {
       "index": 458,
@@ -69674,7 +70263,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 455,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "459": {
       "index": 459,
@@ -69813,7 +70403,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 455,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
     "460": {
       "index": 460,
@@ -69952,7 +70543,8 @@ var data = {
       "evolves_into": 127,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Def+4 in battle if unit's HP &leq; 50%."
     },
     "461": {
       "index": 461,
@@ -70091,7 +70683,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3."
     },
     "462": {
       "index": 462,
@@ -70230,7 +70823,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%."
     },
     "463": {
       "index": 463,
@@ -70369,7 +70963,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action."
     },
     "464": {
       "index": 464,
@@ -70508,7 +71103,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "If unit is attacked by foe using sword, axe or lance, unit receives Def+7 during combat."
     },
     "465": {
       "index": 465,
@@ -70647,7 +71243,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Spd+3. At start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions."
     },
     "466": {
       "index": 466,
@@ -70786,7 +71383,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "467": {
       "index": 467,
@@ -70925,7 +71523,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 466,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "468": {
       "index": 468,
@@ -71064,7 +71663,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 466,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "469": {
       "index": 469,
@@ -71203,7 +71803,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 466,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "470": {
       "index": 470,
@@ -71342,7 +71943,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 466,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants +10 to damage when Special triggers."
     },
     "471": {
       "index": 471,
@@ -71481,7 +72083,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Grants Spd+4 during combat if unit initiates attack."
     },
     "472": {
       "index": 472,
@@ -71620,7 +72223,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 0,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "473": {
       "index": 473,
@@ -71759,7 +72363,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 472,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "474": {
       "index": 474,
@@ -71898,7 +72503,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 472,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "475": {
       "index": 475,
@@ -72037,7 +72643,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 472,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
     "476": {
       "index": 476,
@@ -72176,7 +72783,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 472,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     },
     "477": {
       "index": 477,
@@ -72315,7 +72923,8 @@ var data = {
       "evolves_into": 0,
       "evolved_from": 0,
       "upgraded_from": 472,
-      "cond_eff_text": 0
+      "cond_eff_text": 0,
+      "desc": "Effective against cavalry units."
     }
   },
   "Specials": {
@@ -72353,7 +72962,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "This poor soul doesn't have a special!"
     },
     "1": {
       "index": 1,
@@ -72389,7 +72999,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from foes 2 spaces away by 50%."
     },
     "2": {
       "index": 2,
@@ -72425,7 +73036,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Resolve combat as if foe suffered Def/Res-50%. Unit recovers HP=half damage dealt."
     },
     "3": {
       "index": 3,
@@ -72461,7 +73073,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants 150% to damage dealt."
     },
     "4": {
       "index": 4,
@@ -72497,7 +73110,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Resolve combat as if foe suffered Def/Res-80%. (Skill cannot be inherited.)"
     },
     "5": {
       "index": 5,
@@ -72533,7 +73147,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk -foe's Def or Res)."
     },
     "6": {
       "index": 6,
@@ -72569,7 +73184,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk -foe's Def or Res)."
     },
     "7": {
       "index": 7,
@@ -72605,7 +73221,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk -foe's Def or Res)."
     },
     "8": {
       "index": 8,
@@ -72641,7 +73258,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to 1.5 x (unit's Atk -foe's Def or Res)."
     },
     "9": {
       "index": 9,
@@ -72677,7 +73295,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 50% of unit's Def."
     },
     "10": {
       "index": 10,
@@ -72713,7 +73332,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from adjacent foes by 30%."
     },
     "11": {
       "index": 11,
@@ -72749,7 +73369,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 50% of unit's Res."
     },
     "12": {
       "index": 12,
@@ -72785,7 +73406,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Heal 30% of damage dealt."
     },
     "13": {
       "index": 13,
@@ -72821,7 +73443,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +30% to Atk."
     },
     "14": {
       "index": 14,
@@ -72857,7 +73480,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +50% to Atk."
     },
     "15": {
       "index": 15,
@@ -72893,7 +73517,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +30% to Atk."
     },
     "16": {
       "index": 16,
@@ -72929,7 +73554,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from adjacent foes by 30%."
     },
     "17": {
       "index": 17,
@@ -72965,7 +73591,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If this unit initiates an attack, it can take another action after combat. (Once per turn only.)"
     },
     "18": {
       "index": 18,
@@ -73001,7 +73628,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 80% of unit's Res."
     },
     "19": {
       "index": 19,
@@ -73037,7 +73665,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +50% to damage dealt."
     },
     "20": {
       "index": 20,
@@ -73073,7 +73702,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 50% of unit's Def."
     },
     "21": {
       "index": 21,
@@ -73109,7 +73739,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
     "22": {
       "index": 22,
@@ -73145,7 +73776,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
     "23": {
       "index": 23,
@@ -73181,7 +73813,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
     "24": {
       "index": 24,
@@ -73217,7 +73850,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in a wide area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
     "25": {
       "index": 25,
@@ -73253,7 +73887,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, all other allies recover 10 HP."
     },
     "26": {
       "index": 26,
@@ -73289,7 +73924,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from foes 2 spaces away by 30%."
     },
     "27": {
       "index": 27,
@@ -73325,7 +73961,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Reduces damage unit takes from foes 2 spaces away by 30%. If Special triggers, boosts unit's next attack by total damage was reduced (by any source, including other skills). Resets at end of combat. (Skill cannot be inherited.)"
     },
     "28": {
       "index": 28,
@@ -73361,7 +73998,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 50% of unit's Res."
     },
     "29": {
       "index": 29,
@@ -73397,7 +74035,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Boosts damage dealt by 80% of unit's Def."
     },
     "30": {
       "index": 30,
@@ -73433,7 +74072,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, increases recovered HP by 10."
     },
     "31": {
       "index": 31,
@@ -73469,7 +74109,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, grants all allies Atk+4 for 1 turn."
     },
     "32": {
       "index": 32,
@@ -73505,7 +74146,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Resolve combat as if foe suffered Def/Res-50%."
     },
     "33": {
       "index": 33,
@@ -73541,7 +74183,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If HP > 1, survive a lethal attack with 1 HP remaining."
     },
     "34": {
       "index": 34,
@@ -73577,7 +74220,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Resolve combat as if foe suffered Def/Res-30%."
     },
     "35": {
       "index": 35,
@@ -73613,7 +74257,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Resolve combat as if foe suffered Def/Res-30%."
     },
     "36": {
       "index": 36,
@@ -73649,7 +74294,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +50% to damage dealt."
     },
     "37": {
       "index": 37,
@@ -73685,7 +74331,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Heal 30% of damage dealt."
     },
     "38": {
       "index": 38,
@@ -73721,10 +74368,48 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from adjacent foes by 50%."
     },
     "39": {
       "index": 39,
+      "name": "Radiant Aether",
+      "one_rng_reduce_proc": 0,
+      "two_rng_reduce_proc": 0,
+      "miracle_proc": 0,
+      "heal_on_hit_proc": 0.5,
+      "def_reduce_proc": 0.5,
+      "dmg_mult_proc": 0,
+      "second_turn_proc": 0,
+      "atk_mult_proc": 0,
+      "spd_as_dmg_proc": 0,
+      "res_as_dmg_proc": 0,
+      "def_as_dmg_proc": 0,
+      "dmg_taken_mult_proc": 0,
+      "precombat_atk_mult_proc": 0,
+      "mitig_to_dmg_proc": 0,
+      "cooldown_max": 4,
+      "activates_on_hit": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "desc": "During combat, treats foe's Def/Res as if reduced by 50%. Unit recovers HP=50% of damage dealt."
+    },
+    "40": {
+      "index": 40,
       "name": "Regnal Astra",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73757,10 +74442,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)"
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Reprisal",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73793,10 +74479,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants bonus damage equal to 30% of damage suffered."
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Retribution",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73829,10 +74516,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants bonus damage equal to 30% of damage suffered."
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Rising Flame",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73865,10 +74553,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Rising Light",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73901,10 +74590,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Rising Thunder",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73937,10 +74627,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Rising Wind",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -73973,10 +74664,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk -foe's Def or Res)."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Sacred Cowl",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0.3,
@@ -74009,10 +74701,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Reduces damage inflicted by attacks from 2 spaces away by 30%."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Sol",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -74045,10 +74738,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Heal 50% of damage dealt."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Solid-Earth Balm",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -74081,10 +74775,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, grants all allies Def+4 for 1 turn."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Still-Water Balm",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -74117,10 +74812,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, grants all allies Res+4 for 1 turn."
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Swift-Winds Balm",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -74153,10 +74849,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "When healing an ally with a staff, grants all allies Spd+4 for 1 turn."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Vengeance",
       "one_rng_reduce_proc": 0,
       "two_rng_reduce_proc": 0,
@@ -74189,7 +74886,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants bonus to damage dealt equal to 50% of damage suffered."
     }
   },
   "A_Passives": {
@@ -74256,7 +74954,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "This skill does absolutely nothing."
     },
     "1": {
       "index": 1,
@@ -74321,7 +75020,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+6 during combat if unit initiates the attack."
     },
     "2": {
       "index": 2,
@@ -74386,7 +75086,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Def +5 to this unit during combat if unit is adjacent to an ally."
     },
     "3": {
       "index": 3,
@@ -74451,7 +75152,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Res +5 to this unit during combat if this unit is adjacent to an ally."
     },
     "4": {
       "index": 4,
@@ -74516,7 +75218,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Spd+2."
     },
     "5": {
       "index": 5,
@@ -74581,7 +75284,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+3."
     },
     "6": {
       "index": 6,
@@ -74646,7 +75350,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Def+2."
     },
     "7": {
       "index": 7,
@@ -74711,7 +75416,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Res+2."
     },
     "8": {
       "index": 8,
@@ -74776,7 +75482,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def/Res+4 during combat if unit initiates combat."
     },
     "9": {
       "index": 9,
@@ -74841,7 +75548,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Def+5 during combat."
     },
     "10": {
       "index": 10,
@@ -74906,7 +75614,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Spd+5 during combat."
     },
     "11": {
       "index": 11,
@@ -74971,7 +75680,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Enables unit to counterattack regardless of distance to attacker."
     },
     "12": {
       "index": 12,
@@ -75036,7 +75746,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
     },
     "13": {
       "index": 13,
@@ -75101,7 +75812,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+6 during combat if unit initiates the attack."
     },
     "14": {
       "index": 14,
@@ -75166,7 +75878,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+6 during combat if unit initiates the attack."
     },
     "15": {
       "index": 15,
@@ -75231,7 +75944,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+3."
     },
     "16": {
       "index": 16,
@@ -75296,7 +76010,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+7 at start of turn if unit's HP &leq; 50%."
     },
     "17": {
       "index": 17,
@@ -75361,7 +76076,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+7 at start of turn if unit's HP &leq; 50%."
     },
     "18": {
       "index": 18,
@@ -75426,7 +76142,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+7 at start of turn if unit's HP &leq; 50%."
     },
     "19": {
       "index": 19,
@@ -75491,7 +76208,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+7 at start of turn if unit's HP &leq; 50%."
     },
     "20": {
       "index": 20,
@@ -75556,7 +76274,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Enables unit to counterattack regardless of distance to attacker."
     },
     "21": {
       "index": 21,
@@ -75621,7 +76340,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
     "22": {
       "index": 22,
@@ -75686,7 +76406,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat."
     },
     "23": {
       "index": 23,
@@ -75751,7 +76472,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+6 during combat when this unit is attacked."
     },
     "24": {
       "index": 24,
@@ -75816,7 +76538,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
     },
     "25": {
       "index": 25,
@@ -75881,7 +76604,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Spd - foe's Spd &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "26": {
       "index": 26,
@@ -75946,7 +76670,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+5. Inflicts Atk-3."
     },
     "27": {
       "index": 27,
@@ -76011,7 +76736,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+5. Inflicts Atk-3."
     },
     "28": {
       "index": 28,
@@ -76076,7 +76802,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
     "29": {
       "index": 29,
@@ -76141,7 +76868,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Neutralizes \"effective against cavalry\" bonuses."
     },
     "30": {
       "index": 30,
@@ -76206,7 +76934,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "31": {
       "index": 31,
@@ -76271,7 +77000,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +5 to max HP."
     },
     "32": {
       "index": 32,
@@ -76336,7 +77066,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+4, Def+2."
     },
     "33": {
       "index": 33,
@@ -76401,7 +77132,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+4, Res+2"
     },
     "34": {
       "index": 34,
@@ -76466,7 +77198,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+4, Spd+2."
     },
     "35": {
       "index": 35,
@@ -76531,7 +77264,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
     "36": {
       "index": 36,
@@ -76596,7 +77330,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
     "37": {
       "index": 37,
@@ -76661,7 +77396,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Res+4 during combat if unit initiates combat."
     },
     "38": {
       "index": 38,
@@ -76726,7 +77462,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+3.       "
     },
     "39": {
       "index": 39,
@@ -76791,7 +77528,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd/Def+2."
     },
     "40": {
       "index": 40,
@@ -76856,7 +77594,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally."
     },
     "41": {
       "index": 41,
@@ -76921,7 +77660,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd/Res+2."
     },
     "42": {
       "index": 42,
@@ -76986,7 +77726,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+3."
     },
     "43": {
       "index": 43,
@@ -77051,7 +77792,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat, unit granted Spd/Def+4 during battle."
     },
     "44": {
       "index": 44,
@@ -77116,7 +77858,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)"
     },
     "45": {
       "index": 45,
@@ -77181,7 +77924,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+6 during combat when this unit is attacked."
     },
     "46": {
       "index": 46,
@@ -77246,7 +77990,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk/Def+4 during combat if unit initiates combat."
     },
     "47": {
       "index": 47,
@@ -77311,7 +78056,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Neutralizes \"effective against armored\" bonuses."
     },
     "48": {
       "index": 48,
@@ -77376,7 +78122,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat, unit granted Atk/Spd+4 during battle."
     },
     "49": {
       "index": 49,
@@ -77441,7 +78188,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat, unit granted Spd/Res+4 during battle."
     },
     "50": {
       "index": 50,
@@ -77506,7 +78254,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
     "51": {
       "index": 51,
@@ -77571,10 +78320,77 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+6 during combat if unit initiates attack."
     },
     "52": {
       "index": 52,
+      "name": "Warding Breath",
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 4,
+      "cd_charge_def": 1,
+      "brazen_atk_boost": 0,
+      "brazen_spd_boost": 0,
+      "brazen_def_boost": 0,
+      "brazen_res_boost": 0,
+      "brazen_atk_thresh": 0,
+      "brazen_spd_thresh": 0,
+      "brazen_def_thresh": 0,
+      "brazen_res_thresh": 0,
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "any_range_counter": 0,
+      "defiant_atk": 0,
+      "defiant_spd": 0,
+      "defiant_def": 0,
+      "defiant_res": 0,
+      "negate_mov_eff": 0,
+      "wt_amp": 0,
+      "burn": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "earth_boost_bonus": 0,
+      "fire_boost_bonus": 0,
+      "wind_boost_bonus": 0,
+      "water_boost_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+4 during combat if unit is attacked. Also grants Special cooldown charge +1 per attack. (Does not stack. Only highest value applied.)"
+    },
+    "53": {
+      "index": 53,
       "name": "Warding Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -77636,10 +78452,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+6 during combat when this unit is attacked."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Water Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -77701,10 +78518,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Wind Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -77766,7 +78584,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
     }
   },
   "B_Passives": {
@@ -77852,7 +78671,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "A blasphemously empty skill slot."
     },
     "1": {
       "index": 1,
@@ -77936,7 +78756,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against an axe user, unit makes a follow-up attack and foe cannot."
     },
     "2": {
       "index": 2,
@@ -78020,7 +78841,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a blue tome user, unit makes a follow-up attack and foe cannot."
     },
     "3": {
       "index": 3,
@@ -78104,7 +78926,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "If foe is cavalry or flier type, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat. (Skill cannot be inherited.)"
     },
     "4": {
       "index": 4,
@@ -78188,7 +79011,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If Sing or Dance is used, target also granted Atk+4."
     },
     "5": {
       "index": 5,
@@ -78272,7 +79096,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)"
     },
     "6": {
       "index": 6,
@@ -78356,7 +79181,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack."
     },
     "7": {
       "index": 7,
@@ -78440,178 +79266,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat against a foe that can counter and unit's HP &leq; 50%, unit makes a guaranteed follow-up attack."
     },
     "8": {
       "index": 8,
-      "name": "Cancel Affinity 1",
-      "breaker": "N",
-      "breaker_thresh": 0,
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 1,
-      "foe_affinity_cancel": 1,
-      "disadv_foe_affinity_cancel": 0,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "9": {
-      "index": 9,
-      "name": "Cancel Affinity 2",
-      "breaker": "N",
-      "breaker_thresh": 0,
-      "brash_assault_thresh": 0,
-      "desperation_thresh": 0,
-      "vantage_thresh": 0,
-      "renewal_lv_skill": 0,
-      "hp_attack_inflict": 0,
-      "atk_combat_inflict": 0,
-      "spd_combat_inflict": 0,
-      "def_combat_inflict": 0,
-      "res_combat_inflict": 0,
-      "wary_fighter_thresh": 0,
-      "windsweep_threshold": 0,
-      "watersweep_threshold": 0,
-      "guard_threshold": 0,
-      "wrathful_staff_threshold": 0,
-      "dazzling_staff_threshold": 0,
-      "def_spec_cd_reduce": 0,
-      "def_spec_dmg_reduce": 0,
-      "self_affinity_cancel": 1,
-      "foe_affinity_cancel": 0,
-      "disadv_foe_affinity_cancel": 1,
-      "disadv_foe_affinity_reverse": 0,
-      "wrath_skill_dmg_bonus": 0,
-      "wrath_threshold": 0,
-      "distant_consec_hit_mitig": 0,
-      "follow_up_off": 0,
-      "follow_up_def": 0,
-      "follow_up_thresh": 0,
-      "cd_charge_off_per_atk": 0,
-      "cd_charge_def_per_atk": 0,
-      "cd_charge_hp_thresh": 0,
-      "negate_srd_counter": 0,
-      "negate_lnc_counter": 0,
-      "negate_axe_counter": 0,
-      "negate_rt_counter": 0,
-      "negate_bt_counter": 0,
-      "negate_gt_counter": 0,
-      "negate_bow_counter": 0,
-      "negate_dgr_counter": 0,
-      "negate_stf_counter": 0,
-      "negate_rbrth_counter": 0,
-      "negate_bbrth_counter": 0,
-      "negate_gbrth_counter": 0,
-      "negate_inf_counter": 0,
-      "negate_cav_counter": 0,
-      "negate_fly_counter": 0,
-      "negate_arm_counter": 0,
-      "negate_srd_buffs": 0,
-      "negate_lnc_buffs": 0,
-      "negate_axe_buffs": 0,
-      "negate_rt_buffs": 0,
-      "negate_bt_buffs": 0,
-      "negate_gt_buffs": 0,
-      "negate_bow_buffs": 0,
-      "negate_dgr_buffs": 0,
-      "negate_stf_buffs": 0,
-      "negate_rbrth_buffs": 0,
-      "negate_bbrth_buffs": 0,
-      "negate_gbrth_buffs": 0,
-      "negate_inf_buffs": 0,
-      "negate_cav_buffs": 0,
-      "negate_fly_buffs": 0,
-      "negate_arm_buffs": 0,
-      "srd_can_inherit": 1,
-      "lnc_can_inherit": 1,
-      "axe_can_inherit": 1,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "bow_can_inherit": 1,
-      "dgr_can_inherit": 1,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "inf_can_inherit": 1,
-      "cav_can_inherit": 1,
-      "fly_can_inherit": 1,
-      "arm_can_inherit": 1
-    },
-    "10": {
-      "index": 10,
       "name": "Cancel Affinity 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -78692,10 +79351,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Any weapon triangle affinity granted by unit's skills is negated. If affinity disadvantage exists, weapon triangle affinity granted by foe's skills is reversed."
     },
-    "11": {
-      "index": 11,
+    "9": {
+      "index": 9,
       "name": "Chilling Seal",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -78776,10 +79436,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "At the start of each turn, if unit's HP &geq; 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)"
     },
-    "12": {
-      "index": 12,
+    "10": {
+      "index": 10,
       "name": "Crusader's Ward",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -78860,10 +79521,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "If unit receives consecutive attack from a foe 2 spaces away, damage from second attack onward reduced by 80%. (Skill cannot be inherited.)"
     },
-    "13": {
-      "index": 13,
+    "11": {
+      "index": 11,
       "name": "Daggerbreaker 3",
       "breaker": "K",
       "breaker_thresh": 0.5,
@@ -78944,10 +79606,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a dagger user, unit makes a follow-up attack and foe cannot."
     },
-    "14": {
-      "index": 14,
+    "12": {
+      "index": 12,
       "name": "Dazzling Staff 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79028,10 +79691,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "The enemy cannot counterattack."
     },
-    "15": {
-      "index": 15,
+    "13": {
+      "index": 13,
       "name": "Desperation 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79112,10 +79776,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "16": {
-      "index": 16,
+    "14": {
+      "index": 14,
       "name": "Drag Back",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79196,10 +79861,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space."
     },
-    "17": {
-      "index": 17,
+    "15": {
+      "index": 15,
       "name": "Earth Dance 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79280,10 +79946,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If Sing or Dance is used, target also granted Def+5."
     },
-    "18": {
-      "index": 18,
+    "16": {
+      "index": 16,
       "name": "Escape Route 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79364,10 +80031,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Enables unit whose own HP is &leq; 50% to warp adjacent to any ally."
     },
-    "19": {
-      "index": 19,
+    "17": {
+      "index": 17,
       "name": "Flier Formation 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79448,10 +80116,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Unit can move to a space adjacent to a flier ally within 2 spaces."
     },
-    "20": {
-      "index": 20,
+    "18": {
+      "index": 18,
       "name": "Follow-Up Ring",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79532,10 +80201,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Unit makes a guaranteed follow-up attack when unit's HP &geq; 50% at start of combat. (Skill cannot be inherited.)"
     },
-    "21": {
-      "index": 21,
+    "19": {
+      "index": 19,
       "name": "G Tomebreaker 3",
       "breaker": "GT",
       "breaker_thresh": 0.5,
@@ -79616,10 +80286,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a green tome user, unit makes a follow-up attack and foe cannot."
     },
-    "22": {
-      "index": 22,
+    "20": {
+      "index": 20,
       "name": "Gale Dance 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79700,10 +80371,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If Sing or Dance is used, target also granted Spd+4."
     },
-    "23": {
-      "index": 23,
+    "21": {
+      "index": 21,
       "name": "Geyser Dance 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79784,10 +80456,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If Sing or Dance is used, target also granted Def/Res+4."
     },
-    "24": {
-      "index": 24,
+    "22": {
+      "index": 22,
       "name": "Guard 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79868,10 +80541,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP is &geq; 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)"
     },
-    "25": {
-      "index": 25,
+    "23": {
+      "index": 23,
       "name": "Hit and Run",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -79952,10 +80626,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, unit retreats 1 space after battle."
     },
-    "26": {
-      "index": 26,
+    "24": {
+      "index": 24,
       "name": "Knock Back",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80036,10 +80711,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, foe is moved 1 space away after combat."
     },
-    "27": {
-      "index": 27,
+    "25": {
+      "index": 25,
       "name": "Lancebreaker 3",
       "breaker": "L",
       "breaker_thresh": 0.5,
@@ -80120,10 +80796,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a lance user, unit makes a follow-up attack and foe cannot."
     },
-    "28": {
-      "index": 28,
+    "26": {
+      "index": 26,
       "name": "Live for Bounty",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80204,10 +80881,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, get 1.5x shards/crystals from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "29": {
-      "index": 29,
+    "27": {
+      "index": 27,
       "name": "Live for Honor",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80288,10 +80966,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, get 1.5x normal badges from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "30": {
-      "index": 30,
+    "28": {
+      "index": 28,
       "name": "Live to Serve 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80372,10 +81051,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "When healing allies with a staff, unit also recovers the same amount."
     },
-    "31": {
-      "index": 31,
+    "29": {
+      "index": 29,
       "name": "Lunge",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80456,10 +81136,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, after combat, unit and targeted foe swap places."
     },
-    "32": {
-      "index": 32,
+    "30": {
+      "index": 30,
       "name": "Obstruct 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80540,10 +81221,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Prevents foes from moving through adjacent spaces while this unit's HP &geq; 50%. (No effect on foes with a Pass skill.)"
     },
-    "33": {
-      "index": 33,
+    "31": {
+      "index": 31,
       "name": "Pass 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80624,10 +81306,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Units can pass through foes if its own HP &geq; 25%."
     },
-    "34": {
-      "index": 34,
+    "32": {
+      "index": 32,
       "name": "Poison Strike 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80708,10 +81391,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts 10 damage to foe after any combat this unit initiates."
     },
-    "35": {
-      "index": 35,
+    "33": {
+      "index": 33,
       "name": "Quick Riposte 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80792,10 +81476,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 70%."
     },
-    "36": {
-      "index": 36,
+    "34": {
+      "index": 34,
       "name": "R Tomebreaker 3",
       "breaker": "RT",
       "breaker_thresh": 0.5,
@@ -80876,10 +81561,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a red tome user, unit makes a follow-up attack and foe cannot."
     },
-    "37": {
-      "index": 37,
+    "35": {
+      "index": 35,
       "name": "Recover Ring",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -80960,10 +81646,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Restores 10 HP at the start of each turn. (Skill cannot be inherited.)"
     },
-    "38": {
-      "index": 38,
+    "36": {
+      "index": 36,
       "name": "Renewal 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81044,10 +81731,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At the start of every second turn, restores 10 HP."
     },
-    "39": {
-      "index": 39,
+    "37": {
+      "index": 37,
       "name": "Sacae's Blessing",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81128,10 +81816,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)"
     },
-    "40": {
-      "index": 40,
+    "38": {
+      "index": 38,
       "name": "Seal Atk 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81212,10 +81901,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, foe suffers Atk-7 through its next action."
     },
-    "41": {
-      "index": 41,
+    "39": {
+      "index": 39,
       "name": "Seal Atk/Def 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81296,10 +81986,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Atk/Def-5 on foe through its next action."
     },
-    "42": {
-      "index": 42,
+    "40": {
+      "index": 40,
       "name": "Seal Atk/Spd 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81380,10 +82071,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Atk/Spd-5 on foe through its next action."
     },
-    "43": {
-      "index": 43,
+    "41": {
+      "index": 41,
       "name": "Seal Def 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81464,10 +82156,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, foe suffers Def-7 through its next action."
     },
-    "44": {
-      "index": 44,
+    "42": {
+      "index": 42,
       "name": "Seal Res 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81548,10 +82241,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, foe suffers Res-7 through its next action."
     },
-    "45": {
-      "index": 45,
+    "43": {
+      "index": 43,
       "name": "Seal Spd 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81632,10 +82326,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, foe suffers Spd-7 through its next action."
     },
-    "46": {
-      "index": 46,
+    "44": {
+      "index": 44,
       "name": "Shield Pulse 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81716,10 +82411,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers."
     },
-    "47": {
-      "index": 47,
+    "45": {
+      "index": 45,
       "name": "Swordbreaker 3",
       "breaker": "S",
       "breaker_thresh": 0.5,
@@ -81800,10 +82496,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% in combat against a sword user, unit makes a follow-up attack and foe cannot."
     },
-    "48": {
-      "index": 48,
+    "46": {
+      "index": 46,
       "name": "Vantage 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81884,10 +82581,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Unit counterattacks first when attacked at HP &leq; 75%."
     },
-    "49": {
-      "index": 49,
+    "47": {
+      "index": 47,
       "name": "Vengeful Fighter 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -81968,10 +82666,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &geq; 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)"
     },
-    "50": {
-      "index": 50,
+    "48": {
+      "index": 48,
       "name": "Warp Powder",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82052,10 +82751,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "If unit's HP &geq; 80%, unit can move adjacent to any ally within 2 spaces. (Skill cannot be inherited.)"
     },
-    "51": {
-      "index": 51,
+    "49": {
+      "index": 49,
       "name": "Wary Fighter 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82136,10 +82836,11 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Prevents follow-up attacks in combat from unit and foes if unit's HP &geq; 50%."
     },
-    "52": {
-      "index": 52,
+    "50": {
+      "index": 50,
       "name": "Watersweep 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82220,10 +82921,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd &geq; 1, foe can't counterattack."
     },
-    "53": {
-      "index": 53,
+    "51": {
+      "index": 51,
       "name": "Windsweep 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82304,10 +83006,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd &geq; 1, foe can't counterattack."
     },
-    "54": {
-      "index": 54,
+    "52": {
+      "index": 52,
       "name": "Wings of Mercy 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82388,10 +83091,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Enables unit to warp adjacent to any ally with HP &leq; 50%."
     },
-    "55": {
-      "index": 55,
+    "53": {
+      "index": 53,
       "name": "Wrath 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82472,10 +83176,11 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &leq; 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special."
     },
-    "56": {
-      "index": 56,
+    "54": {
+      "index": 54,
       "name": "Wrathful Staff 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -82556,7 +83261,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Damage from unit's staff will be calculated the same as other weapons."
     }
   },
   "C_Passives": {
@@ -82582,7 +83288,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Doesn't do anything. Not that it would have, anyway, being a C Passive."
     },
     "1": {
       "index": 1,
@@ -82606,7 +83313,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit has an adjacent armored ally at the start of turn, unit and any such allies can move 1 extra space. (That turn only; does not stack.)"
     },
     "2": {
       "index": 2,
@@ -82630,7 +83338,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-5 until the end of foe's next action."
     },
     "3": {
       "index": 3,
@@ -82654,7 +83363,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Atk-7 on foes within 2 spaces of target through their next actions."
     },
     "4": {
       "index": 4,
@@ -82678,7 +83388,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, grants Atk+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ;leq 2."
     },
     "5": {
       "index": 5,
@@ -82702,7 +83413,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all axe users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "6": {
       "index": 6,
@@ -82726,7 +83438,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all axe users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "7": {
       "index": 7,
@@ -82750,7 +83463,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives combat, all blue magic users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "8": {
       "index": 8,
@@ -82774,7 +83488,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all blue tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "9": {
       "index": 9,
@@ -82798,7 +83513,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all bow users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applies.)"
     },
     "10": {
       "index": 10,
@@ -82822,7 +83538,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
     "11": {
       "index": 11,
@@ -82846,7 +83563,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all dagger users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "12": {
       "index": 12,
@@ -82870,7 +83588,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-5 until the end of foe's next action."
     },
     "13": {
       "index": 13,
@@ -82894,7 +83613,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, grants Def+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team &leq; 2."
     },
     "14": {
       "index": 14,
@@ -82918,7 +83638,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants allies within 2 spaces Atk+3 during combat."
     },
     "15": {
       "index": 15,
@@ -82942,7 +83663,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants allies within 2 spaces Def+3 during combat."
     },
     "16": {
       "index": 16,
@@ -82966,7 +83688,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants allies within 2 spaces Res+3 during combat."
     },
     "17": {
       "index": 17,
@@ -82990,7 +83713,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants allies within 2 spaces Spd+3 during combat."
     },
     "18": {
       "index": 18,
@@ -83014,7 +83738,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent armor allies Def/Res+6 through their next actions at the start of each turn."
     },
     "19": {
       "index": 19,
@@ -83038,7 +83763,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants adjacent cavalry allies Def/Res+6 through their next actions at the start of each turn."
     },
     "20": {
       "index": 20,
@@ -83062,7 +83788,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Def+4 through their next actions at the start of each turn."
     },
     "21": {
       "index": 21,
@@ -83086,7 +83813,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent Dragon allies Def/Res+6 through their next actions at the start of each turn."
     },
     "22": {
       "index": 22,
@@ -83110,7 +83838,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants adjacent flying allies Def/Res+6 through their next actions at the start of each turn."
     },
     "23": {
       "index": 23,
@@ -83134,7 +83863,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Res+4 through their next actions at the start of each turn."
     },
     "24": {
       "index": 24,
@@ -83158,7 +83888,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all green tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "25": {
       "index": 25,
@@ -83182,7 +83913,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants armored allies within 2 spaces Spd/Atk+4 during combat."
     },
     "26": {
       "index": 26,
@@ -83206,7 +83938,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants cavalry allies within 2 spaces Spd/Atk+4 during combat."
     },
     "27": {
       "index": 27,
@@ -83230,7 +83963,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants flying allies within 2 spaces Spd/Atk+4 during combat."
     },
     "28": {
       "index": 28,
@@ -83254,7 +83988,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit."
     },
     "29": {
       "index": 29,
@@ -83278,7 +84013,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent armored allies Atk/Spd+6 through their next actions at the start of each turn."
     },
     "30": {
       "index": 30,
@@ -83302,7 +84038,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
     "31": {
       "index": 31,
@@ -83326,7 +84063,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants adjacent cavalry allies Atk/Spd+6 through their next actions at the start of each turn."
     },
     "32": {
       "index": 32,
@@ -83350,7 +84088,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent dragon allies Atk/Spd+6 through their next actions at the start of each turn."
     },
     "33": {
       "index": 33,
@@ -83374,7 +84113,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants adjacent flying allies Atk/Spd+6 through their next actions at the start of each turn."
     },
     "34": {
       "index": 34,
@@ -83398,7 +84138,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Spd+4 through their next actions at the start of each turn."
     },
     "35": {
       "index": 35,
@@ -83422,7 +84163,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Special cooldown count-1 at start of turn 1 for any Infantry allies with at least 1 fewer HP than unit. (Effects will stack with similar skills.)"
     },
     "36": {
       "index": 36,
@@ -83446,7 +84188,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all lance users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "37": {
       "index": 37,
@@ -83470,7 +84213,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 1 or more lower than unit through foe's next action."
     },
     "38": {
       "index": 38,
@@ -83494,7 +84238,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives combat, all red magic users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "39": {
       "index": 39,
@@ -83518,7 +84263,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all red tome users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "40": {
       "index": 40,
@@ -83542,7 +84288,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-5 until the end of foe's next action."
     },
     "41": {
       "index": 41,
@@ -83566,7 +84313,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team &leq; 2."
     },
     "42": {
       "index": 42,
@@ -83590,7 +84338,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
     },
     "43": {
       "index": 43,
@@ -83614,7 +84363,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-5 until the end of foe's next action."
     },
     "44": {
       "index": 44,
@@ -83638,7 +84388,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Spd-7 on foes within 2 spaces of target through their next actions."
     },
     "45": {
       "index": 45,
@@ -83662,7 +84413,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Atk+4 during combat."
     },
     "46": {
       "index": 46,
@@ -83686,7 +84438,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Atk/Spd +3 during combat."
     },
     "47": {
       "index": 47,
@@ -83710,7 +84463,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Def+4 during combat.        "
     },
     "48": {
       "index": 48,
@@ -83734,7 +84488,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Def/Res +3 during combat."
     },
     "49": {
       "index": 49,
@@ -83758,7 +84513,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Res+4 during combat."
     },
     "50": {
       "index": 50,
@@ -83782,7 +84538,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Spd+4 during combat."
     },
     "51": {
       "index": 51,
@@ -83806,7 +84563,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Spd/Def +3 during combat."
     },
     "52": {
       "index": 52,
@@ -83830,7 +84588,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "53": {
       "index": 53,
@@ -83854,7 +84613,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
     "54": {
       "index": 54,
@@ -83878,7 +84638,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "55": {
       "index": 55,
@@ -83902,7 +84663,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Def-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "56": {
       "index": 56,
@@ -83926,7 +84688,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Res-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "57": {
       "index": 57,
@@ -83950,7 +84713,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
     "58": {
       "index": 58,
@@ -83974,7 +84738,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants armored allies within 2 spaces Def/Res+4 during combat."
     },
     "59": {
       "index": 59,
@@ -83998,7 +84763,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants cavalry allies within 2 spaces Def/Res+4 during combat."
     },
     "60": {
       "index": 60,
@@ -84022,7 +84788,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Grants flying allies within 2 spaces Def/Res+4 during combat."
     }
   },
   "Seals": {
@@ -84066,7 +84833,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Looks like someone forgot to equip a seal."
     },
     "1": {
       "index": 1,
@@ -84108,7 +84876,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk-3/4/5 until the end of foe's next action."
     },
     "2": {
       "index": 2,
@@ -84150,7 +84919,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Atk-3/5/7 on foes within 2 spaces of target through their next actions."
     },
     "3": {
       "index": 3,
@@ -84192,7 +84962,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+1."
     },
     "4": {
       "index": 4,
@@ -84234,7 +85005,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+2."
     },
     "5": {
       "index": 5,
@@ -84276,7 +85048,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+3."
     },
     "6": {
       "index": 6,
@@ -84318,7 +85091,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat against a foe that can counter and unit's HP &leq; 30%, unit makes a guaranteed follow-up attack."
     },
     "7": {
       "index": 7,
@@ -84360,7 +85134,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat against a foe that can counter and unit's HP &leq; 40%, unit makes a guaranteed follow-up attack."
     },
     "8": {
       "index": 8,
@@ -84402,7 +85177,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates combat against a foe that can counter and unit's HP &leq; 50%, unit makes a guaranteed follow-up attack."
     },
     "9": {
       "index": 9,
@@ -84444,7 +85220,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, adjacent allies recover 3/5/7 HP after combat."
     },
     "10": {
       "index": 10,
@@ -84486,7 +85263,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+2 during combat."
     },
     "11": {
       "index": 11,
@@ -84528,7 +85306,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat."
     },
     "12": {
       "index": 12,
@@ -84570,7 +85349,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
     },
     "13": {
       "index": 13,
@@ -84612,7 +85392,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Def-3/4/5 until the end of foe's next action."
     },
     "14": {
       "index": 14,
@@ -84654,7 +85435,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+1."
     },
     "15": {
       "index": 15,
@@ -84696,7 +85478,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+2."
     },
     "16": {
       "index": 16,
@@ -84738,7 +85521,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+3."
     },
     "17": {
       "index": 17,
@@ -84780,7 +85564,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 30%."
     },
     "18": {
       "index": 18,
@@ -84822,7 +85607,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 50%."
     },
     "19": {
       "index": 19,
@@ -84864,7 +85650,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 80%."
     },
     "20": {
       "index": 20,
@@ -84906,7 +85693,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 30%."
     },
     "21": {
       "index": 21,
@@ -84948,7 +85736,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 50%."
     },
     "22": {
       "index": 22,
@@ -84990,7 +85779,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 80%."
     },
     "23": {
       "index": 23,
@@ -85032,7 +85822,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 30%."
     },
     "24": {
       "index": 24,
@@ -85074,7 +85865,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 50%."
     },
     "25": {
       "index": 25,
@@ -85116,7 +85908,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 80%."
     },
     "26": {
       "index": 26,
@@ -85158,7 +85951,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat."
     },
     "27": {
       "index": 27,
@@ -85200,7 +85994,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat."
     },
     "28": {
       "index": 28,
@@ -85242,7 +86037,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
     "29": {
       "index": 29,
@@ -85284,7 +86080,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Def+2/3/4 through their next actions at the start of each turn."
     },
     "30": {
       "index": 30,
@@ -85326,7 +86123,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Res+2/3/4 through their next actions at the start of each turn."
     },
     "31": {
       "index": 31,
@@ -85368,7 +86166,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "If unit has 100%/&geq; 50%/&geq; 0% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit."
     },
     "32": {
       "index": 32,
@@ -85410,7 +86209,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Disables skills that change unit's attack priority. If unit has 100% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
     "33": {
       "index": 33,
@@ -85452,7 +86252,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Disables skills that change unit's attack priority. If unit has &geq; 50% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
     "34": {
       "index": 34,
@@ -85494,7 +86295,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
     },
     "35": {
       "index": 35,
@@ -85536,7 +86338,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Atk - foe's Atk &geq; 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "36": {
       "index": 36,
@@ -85578,7 +86381,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Atk - foe's Atk &geq; 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "37": {
       "index": 37,
@@ -85620,7 +86424,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
     "38": {
       "index": 38,
@@ -85662,7 +86467,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Spd+2/3/4 through their next actions at the start of each turn."
     },
     "39": {
       "index": 39,
@@ -85704,7 +86510,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +3 to max HP."
     },
     "40": {
       "index": 40,
@@ -85746,7 +86553,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +4 to max HP."
     },
     "41": {
       "index": 41,
@@ -85788,7 +86596,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants +5 to max HP."
     },
     "42": {
       "index": 42,
@@ -85830,7 +86639,8 @@ var data = {
       "inf_can_inherit": 0,
       "cav_can_inherit": 0,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 0
+      "arm_can_inherit": 0,
+      "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
     "43": {
       "index": 43,
@@ -85872,7 +86682,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5/3/1 or more lower than unit through foe's next action."
     },
     "44": {
       "index": 44,
@@ -85914,7 +86725,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +5 over actual value."
     },
     "45": {
       "index": 45,
@@ -85956,7 +86768,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +8 over actual value."
     },
     "46": {
       "index": 46,
@@ -85998,7 +86811,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
     },
     "47": {
       "index": 47,
@@ -86040,7 +86854,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 90%."
     },
     "48": {
       "index": 48,
@@ -86082,7 +86897,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 80%."
     },
     "49": {
       "index": 49,
@@ -86124,7 +86940,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 70%."
     },
     "50": {
       "index": 50,
@@ -86166,7 +86983,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Special cooldown count -1 at start of Turn 1."
     },
     "51": {
       "index": 51,
@@ -86208,7 +87026,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+1."
     },
     "52": {
       "index": 52,
@@ -86250,7 +87069,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+2."
     },
     "53": {
       "index": 53,
@@ -86292,7 +87112,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+3."
     },
     "54": {
       "index": 54,
@@ -86334,7 +87155,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "If unit initiates attack, foes within 2 spaces of target take 3/5/7 damage after combat."
     },
     "55": {
       "index": 55,
@@ -86376,7 +87198,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "After combat, foe suffers Atk-3/5/7 through its next action."
     },
     "56": {
       "index": 56,
@@ -86418,7 +87241,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+1."
     },
     "57": {
       "index": 57,
@@ -86460,7 +87284,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+2."
     },
     "58": {
       "index": 58,
@@ -86502,7 +87327,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+3."
     },
     "59": {
       "index": 59,
@@ -86544,7 +87370,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Atk+2/3/4 during combat."
     },
     "60": {
       "index": 60,
@@ -86586,7 +87413,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Def+2/3/4 during combat."
     },
     "61": {
       "index": 61,
@@ -86628,7 +87456,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Res+2/3/4 during combat."
     },
     "62": {
       "index": 62,
@@ -86670,7 +87499,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants adjacent allies Spd+2/3/4 during combat."
     },
     "63": {
       "index": 63,
@@ -86712,7 +87542,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+3."
     },
     "64": {
       "index": 64,
@@ -86754,7 +87585,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+4."
     },
     "65": {
       "index": 65,
@@ -86796,7 +87628,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+5."
     },
     "66": {
       "index": 66,
@@ -86838,7 +87671,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+1."
     },
     "67": {
       "index": 67,
@@ -86880,7 +87714,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+2."
     },
     "68": {
       "index": 68,
@@ -86922,7 +87757,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+3."
     },
     "69": {
       "index": 69,
@@ -86964,7 +87800,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+1."
     },
     "70": {
       "index": 70,
@@ -87006,7 +87843,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+2."
     },
     "71": {
       "index": 71,
@@ -87048,7 +87886,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Res+3."
     },
     "72": {
       "index": 72,
@@ -87090,7 +87929,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+1."
     },
     "73": {
       "index": 73,
@@ -87132,7 +87972,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+2."
     },
     "74": {
       "index": 74,
@@ -87174,7 +88015,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Spd+3."
     },
     "75": {
       "index": 75,
@@ -87216,7 +88058,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+1."
     },
     "76": {
       "index": 76,
@@ -87258,7 +88101,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+2."
     },
     "77": {
       "index": 77,
@@ -87300,7 +88144,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+3."
     },
     "78": {
       "index": 78,
@@ -87342,7 +88187,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+3."
     },
     "79": {
       "index": 79,
@@ -87384,7 +88230,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+4."
     },
     "80": {
       "index": 80,
@@ -87426,7 +88273,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Grants HP+5."
     },
     "81": {
       "index": 81,
@@ -87468,7 +88316,8 @@ var data = {
       "inf_can_inherit": 1,
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
-      "arm_can_inherit": 1
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Spd-3/4/5 on foes within 2 spaces through their next actions at the start of each turn."
     }
   }
 }

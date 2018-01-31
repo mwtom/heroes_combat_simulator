@@ -52,15 +52,18 @@ body {
 }
 .weapon_icon {
   display: inline-block;
+  position: relative;
   width: 185px;
   margin-left: 20px;
 }
 .special_icon {
   display: inline-block;
+  position: relative;
   width: 150px;
 }
 .skill_icon {
   display: inline-block;
+  position: relative;
   width: 25px;
 }
 #CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
@@ -93,6 +96,67 @@ body {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+.skill_icon .skill_desc {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -12px;
+}
+
+.skill_icon:hover .skill_desc {
+  visibility: visible;
+}
+
+.weapon_icon .weapon_desc {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -90px;
+}
+
+.weapon_icon:hover .weapon_desc {
+  visibility: visible;
+}
+
+.special_icon .special_desc {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+.special_icon:hover .special_desc {
+  visibility: visible;
+}
+
 @media screen and (min-width: 800px) {
   #UI {
     width: 1135px;
