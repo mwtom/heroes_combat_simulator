@@ -38,6 +38,11 @@ $(document).ready(function() {
   $("#SpecialOptionsHeader").click(function() {
     $("#SpecialOptions").toggle();
   });
+  // Reset the necessary settings when the Character
+  // selection is changed.
+  /*$(".Character").change(function() {
+    reload_options(); // This function lives in ui.js
+  });*/
   // Select all colors (filter menu)
   $("#SelectColor").click(function() {
     select_all_colors();
@@ -153,7 +158,7 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Weap. Upgrade:
+              Weap. Refine:
             </td>
             <td>
               <select class='Customizer' id='WeaponUpgrade'>
@@ -207,6 +212,15 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
+              Blessing:
+            </td>
+            <td>
+              <select class='Customizer' id='Blessing'>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
               Simulation type:
             </td>
             <td>
@@ -217,41 +231,6 @@ $(document).ready(function() {
             </td>
           </tr>
         </table>
-        <br>
-        <div id="CharacterStats">
-          Character Stats (including skills):
-          <table>
-            <tr>
-              <th class="Extras">
-                HP
-              </th>
-              <th class="Extras">
-                Atk
-              </th>
-              <th class="Extras">
-                Spd
-              </th>
-              <th class="Extras">
-                Def
-              </th>
-              <th class="Extras">
-                Res
-              </th>
-            </tr>
-            <tr>
-              <td id="CharHP" class="Extras">
-              </td>
-              <td id="CharAtk" class="Extras">
-              </td>
-              <td id="CharSpd" class="Extras">
-              </td>
-              <td id="CharDef" class="Extras">
-              </td>
-              <td id="CharRes" class="Extras">
-              </td>
-            </tr>
-          </table>
-        </div>
         <h3 class="Clickable" id="FiltersHeader">Enemy Filters</h3>
         <div id="FiltersOptions">
           Color:
@@ -429,24 +408,45 @@ $(document).ready(function() {
         <table>
           <tr>
             <th>
-              Modifier Type
+              Stats
             </th>
-            <th>
+            <th class="Extras">
+              HP
+            </th>
+            <th class="Extras">
               Atk
             </th>
-            <th>
+            <th class="Extras">
               Spd
             </th>
-            <th>
+            <th class="Extras">
               Def
             </th>
-            <th>
+            <th class="Extras">
               Res
             </th>
           </tr>
           <tr>
             <td>
+              Base (w/ skills):
+            </td>
+            <td id="CharHP" class="Extras">
+            </td>
+            <td id="CharAtk" class="Extras">
+            </td>
+            <td id="CharSpd" class="Extras">
+            </td>
+            <td id="CharDef" class="Extras">
+            </td>
+            <td id="CharRes" class="Extras">
+            </td>
+          </tr>
+          <tr>
+            <td>
               Buff:
+            </td>
+            <td>
+              N/A
             </td>
             <td>
               <input type="number" id="AtkBuff" class="Extras" value="0" />
@@ -463,7 +463,10 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Bonus (Aura, Ally Support):
+              Bonus:
+            </td>
+            <td>
+              N/A
             </td>
             <td>
               <input type="number" id="AtkBonus" class="Extras" value="0" />
@@ -481,6 +484,9 @@ $(document).ready(function() {
           <tr>
             <td>
               Debuff:
+            </td>
+            <td>
+              N/A
             </td>
             <td>
               <input type="number" id="AtkDebuff" class="Extras" value="0" />
@@ -557,7 +563,7 @@ $(document).ready(function() {
         <br />
         <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
         <label for="Optimized_Foes">
-          EXPERIMENTAL: Use foes with Performance-Optimized Skill Sets (Nature and Skill Overrides are not available for this setting).
+          EXPERIMENTAL: Use foes with Performance-Focused Skill Sets (Nature and Skill Overrides are not available for this setting).
         </label>
         <br />
         <br />

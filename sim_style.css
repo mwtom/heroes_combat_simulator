@@ -66,9 +66,9 @@ body {
   position: relative;
   width: 25px;
 }
-#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
+/*#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
-}
+}*/
 
 .tooltip {
     position: relative;
@@ -165,7 +165,7 @@ body {
     display: inline-block;
     overflow: hidden;
     width: 375px;
-    height: 760px;
+    height: 720px;
   }
   #results {
     width: 750px;
@@ -188,8 +188,4 @@ body {
   #divider {
     display: none;
   }
-  /*#UI, #divider, #results {
-    overflow: hidden;
-    display: inline-block;
-  }*/
 }

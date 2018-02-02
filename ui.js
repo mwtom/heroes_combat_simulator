@@ -123,6 +123,7 @@ function fill_skill_menus() {
     }
   }
   document.getElementById("Seal").innerHTML = msg;
+  msg = "";
 
   check_special_effects();
 }
