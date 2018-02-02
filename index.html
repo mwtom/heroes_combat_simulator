@@ -38,11 +38,17 @@ $(document).ready(function() {
   $("#SpecialOptionsHeader").click(function() {
     $("#SpecialOptions").toggle();
   });
-  // Reset the necessary settings when the Character
-  // selection is changed.
-  /*$(".Character").change(function() {
-    reload_options(); // This function lives in ui.js
-  });*/
+  // When the Blessing input is changed, reveal or hide the
+  // Legendary Hero Ally options.
+  $("#Blessing").change(function() {
+    if (document.getElementById("Blessing").value == "None") {
+      $(".LegAlly").toggle(false);
+    }
+    else {
+      $(".LegAlly").toggle(true);
+      add_legendary_heroes();
+    }
+  });
   // Select all colors (filter menu)
   $("#SelectColor").click(function() {
     select_all_colors();
@@ -534,6 +540,33 @@ $(document).ready(function() {
             </td>
             <td>
               <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="3" />
+            </td>
+          </tr>
+          <tr class="LegAlly">
+            <td>
+              Leg. Hero Ally 1:
+            </td>
+            <td>
+              <select id="LegAlly1" class="Customizer">
+              </select>
+            </td>
+          </tr>
+          <tr class="LegAlly">
+            <td>
+              Leg. Hero Ally 2:
+            </td>
+            <td>
+              <select id="LegAlly2" class="Customizer">
+              </select>
+            </td>
+          </tr>
+          <tr class="LegAlly">
+            <td>
+              Leg. Hero Ally 3:
+            </td>
+            <td>
+              <select id="LegAlly3" class="Customizer">
+              </select>
             </td>
           </tr>
         </table>

@@ -125,6 +125,17 @@ function fill_skill_menus() {
   document.getElementById("Seal").innerHTML = msg;
   msg = "";
 
+  // If the selected chracter is not a Legendary Hero, populate the
+  // Elements/Blessings Menu.
+  msg = "<option value=\"None\">(None)</option>";
+  if (!Characters[unit_id].legendary) {
+    msg += "<option value=\"Earth\">Earth</option>";
+    msg += "<option value=\"Fire\">Fire</option>";
+    msg += "<option value=\"Water\">Water</option>";
+    msg += "<option value=\"Wind\">Wind</option>";
+  }
+  document.getElementById("Blessing").innerHTML = msg;  
+
   check_special_effects();
 }
 
@@ -185,6 +196,7 @@ function fill_enemy_menus() {
       msg = msg + "<option value='" + i + "'>" + Seals[i].name + "</option>";
   }
   document.getElementById("EnemySeal").innerHTML = msg;
+  msg = "";
 }
 
 // Verifies that a given unit can legally inherit a given skill
@@ -357,4 +369,37 @@ function showorhide(id) {
   else {
     $("#" + tagId).toggle();
   }
+}
+
+// Adds the Legendary Hero options to the proper drop-downs.
+
+function add_legendary_heroes() {
+  for (var i = 1; i < 4; i++) {
+    var msg = "<option value=\"0\">(None)</option>";
+    for (var j = 0; j < Blessings.length; j++) {
+      if (document.getElementById("Blessing").value == Blessings[i].element) {
+        msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
+      }
+    }
+    document.getElementById("LegAlly" + i).innerHTML = msg;
+  }
+}
+function process_blessing_bonuses(blessing) {
+  var output = "";
+  if (blessing.hp_boost_perm > 0) {
+    output += "HP +" + blessing.hp_boost_perm + " ";
+  }
+  if (blessing.atk_boost_perm > 0) {
+    output += "Atk +" + blessing.atk_boost_perm + " ";
+  }
+  if (blessing.spd_boost_perm > 0) {
+    output += "Spd +" + blessing.spd_boost_perm + " ";
+  }
+  if (blessing.def_boost_perm > 0) {
+    output += "Def +" + blessing.def_boost_perm + " ";
+  }
+  if (blessing.res_boost_perm > 0) {
+    output += "Res +" + blessing.res_boost_perm + " ";
+  }
+  return output;
 }
