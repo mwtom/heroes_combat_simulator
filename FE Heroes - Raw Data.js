@@ -6516,7 +6516,7 @@ var data = {
       "base_index": 201,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 266,
+      "weapon": 265,
       "a": 50,
       "b": 33,
       "c": 21,
