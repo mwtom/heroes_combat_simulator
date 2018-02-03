@@ -1,7 +1,7 @@
 // The Fighter class, a fusion of the base stats of a character
 // and the stats & properties of their skills.
 class Fighter {
-  constructor(char, boon, bane, weap, a, b, c, seal, proc, summoner_support, merge_lv, conditional_effects) {
+  constructor(char, boon, bane, weap, a, b, c, seal, proc, summoner_support, merge_lv, conditional_effects, blessings) {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
@@ -83,6 +83,13 @@ class Fighter {
       this.def += 2;
       this.res += 2;
     }
+
+    // Apply blessing bonuses.
+    this.hp += blessings[0].hp_boost_perm + blessings[1].hp_boost_perm + blessings[2].hp_boost_perm;
+    this.atk += blessings[0].atk_boost_perm + blessings[1].atk_boost_perm + blessings[2].atk_boost_perm;
+    this.spd += blessings[0].spd_boost_perm + blessings[1].spd_boost_perm + blessings[2].spd_boost_perm;
+    this.def += blessings[0].def_boost_perm + blessings[1].def_boost_perm + blessings[2].def_boost_perm;
+    this.res += blessings[0].res_boost_perm + blessings[1].res_boost_perm + blessings[2].res_boost_perm;
 
     // If a merge level greater than 0 is specified, add stats accordingly.
     if (merge_lv > 0) {

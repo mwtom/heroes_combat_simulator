@@ -66,6 +66,20 @@ body {
   position: relative;
   width: 25px;
 }
+.LegAlly {
+  display: none;
+}
+.EnemyLegAlly {
+  display: none;
+}
+#Optimized_Disclaimer {
+  display: none;
+}
+/* Align the enemy blessing input with the
+   the Enemy Overrides table */
+#EnemyBlessingLabel {
+  width: 80px;
+}
 /*#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }*/
@@ -159,13 +173,15 @@ body {
 
 @media screen and (min-width: 800px) {
   #UI {
+    position: relative;
     width: 1135px;
   }
   .MenuBar {
+    position: relative;
     display: inline-block;
     overflow: hidden;
     width: 375px;
-    height: 720px;
+    vertical-align: top;
   }
   #results {
     width: 750px;

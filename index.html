@@ -41,12 +41,21 @@ $(document).ready(function() {
   // When the Blessing input is changed, reveal or hide the
   // Legendary Hero Ally options.
   $("#Blessing").change(function() {
-    if (document.getElementById("Blessing").value == "None") {
+    if (document.getElementById("Blessing").value == "(None)") {
       $(".LegAlly").toggle(false);
     }
     else {
       $(".LegAlly").toggle(true);
       add_legendary_heroes();
+    }
+  });
+  $("#EnemyBlessing").change(function() {
+    if (document.getElementById("EnemyBlessing").value == "(None)") {
+      $(".EnemyLegAlly").toggle(false);
+    }
+    else {
+      $(".EnemyLegAlly").toggle(true);
+      add_enemy_legendary_heroes();
     }
   });
   // Select all colors (filter menu)
@@ -83,6 +92,7 @@ $(document).ready(function() {
   // checkbox is clicked.
   $("#RuleBreaker").click(function() {
     fill_skill_menus();
+    $(".LegAlly").toggle(false);
   });
   // Run simulation when any input fields are changed.
   $("input").change(function() {
@@ -100,10 +110,16 @@ $(document).ready(function() {
   $("input.Foe_Type").change(function() {
     if (document.getElementById("Base_Foes").checked) {
       $("#Enemy_Override_Table").toggle(true);
+      $("#Optimized_Disclaimer").toggle(false);
     }
     else if (document.getElementById("Optimized_Foes").checked) {
       $("#Enemy_Override_Table").toggle(false);
+      $("#Optimized_Disclaimer").toggle(true);
     }
+  });
+  $("#EnemyReset").click(function() {
+    reset_enemy_overrides();
+    simulate();
   });
 });
 </script>
@@ -583,6 +599,13 @@ $(document).ready(function() {
         <br>
         <span id="conditional_effect_details"></span>
       </div>
+      <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
+      <div id="SpecialOptions">
+        <input type="checkbox" id="RuleBreaker" />
+        <label for="RuleBreaker">
+          Break Inheritance Restrictions
+        </label>
+      </div>
     </div>
     <div id="MenuBar3" class="MenuBar">
       <h3 id="EnemyOptionsHeader" class="Clickable">
@@ -596,10 +619,27 @@ $(document).ready(function() {
         <br />
         <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
         <label for="Optimized_Foes">
-          EXPERIMENTAL: Use foes with Performance-Focused Skill Sets (Nature and Skill Overrides are not available for this setting).
+          Use foes with Performance-Focused Skill Sets.
         </label>
         <br />
-        <br />
+        <div id="Optimized_Disclaimer">
+          <br />
+          Disclaimers and Notes about this feature:
+          <ul>
+            <li>
+              Nature and stat overrides are not available with this feature.
+            </li>
+            <li>
+              Some characters will have multiple performance-focused builds.
+            </li>
+            <li>
+              This feature is EXPERIMENTAL. Not every unit has a build yet.
+            </li>
+            <li>
+              Each build is crafted with this simulator's author's biased opinions.
+            </li>
+          </ul>
+        </div>
         <table id="Enemy_Override_Table">
           <tr>
             <td>
@@ -682,6 +722,26 @@ $(document).ready(function() {
             </td>
             <td>
               <select class='Customizer' id='EnemySeal'>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td id="EnemyBlessingLabel">
+              Blessing:
+            </td>
+            <td>
+              <select class='Customizer' id='EnemyBlessing'>
+                <option value="0">
+                  (None)
+                </option>
+                <option value="1">
+                  Earth
+                </option>
+                <option value="2">
+                  Fire
+                </option>
               </select>
             </td>
           </tr>
@@ -790,6 +850,33 @@ $(document).ready(function() {
               <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="3" />
             </td>
           </tr>
+          <tr class="EnemyLegAlly">
+            <td>
+              Leg. Hero Enemy 1:
+            </td>
+            <td>
+              <select id="EnemyLegAlly1" class="Customizer">
+              </select>
+            </td>
+          </tr>
+          <tr class="EnemyLegAlly">
+            <td>
+              Leg. Hero Enemy 2:
+            </td>
+            <td>
+              <select id="EnemyLegAlly2" class="Customizer">
+              </select>
+            </td>
+          </tr>
+          <tr class="EnemyLegAlly">
+            <td>
+              Leg. Hero Enemy 3:
+            </td>
+            <td>
+              <select id="EnemyLegAlly3" class="Customizer">
+              </select>
+            </td>
+          </tr>
         </table>
         <br>
         <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" />
@@ -800,13 +887,11 @@ $(document).ready(function() {
             Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
           </span>
         </div>
-      </div>
-      <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
-      <div id="SpecialOptions">
-        <input type="checkbox" id="RuleBreaker" />
-        <label for="RuleBreaker">
-          Break Inheritance Restrictions
-        </label>
+        <br />
+        <br />
+        <button id="EnemyReset">
+          Reset Enemy Overrides
+        </button>
       </div>
     </div>
   </div>

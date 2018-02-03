@@ -30,6 +30,36 @@ function reload_options() {
   document.getElementById("SpdDebuff").value = 0;
   document.getElementById("DefDebuff").value = 0;
   document.getElementById("ResDebuff").value = 0;
+
+  $(".LegAlly").toggle(false);
+}
+
+function reset_enemy_overrides() {
+  fill_enemy_menus();
+
+  document.getElementById("EnemyMergeLv").value = 0;
+
+  document.getElementById("EnemyAtkBuff").value = 0;
+  document.getElementById("EnemySpdBuff").value = 0;
+  document.getElementById("EnemyDefBuff").value = 0;
+  document.getElementById("EnemyResBuff").value = 0;
+
+  document.getElementById("EnemyAtkBonus").value = 0;
+  document.getElementById("EnemySpdBonus").value = 0;
+  document.getElementById("EnemyDefBonus").value = 0;
+  document.getElementById("EnemyResBonus").value = 0;
+
+  document.getElementById("EnemyAtkDebuff").value = 0;
+  document.getElementById("EnemySpdDebuff").value = 0;
+  document.getElementById("EnemyDefDebuff").value = 0;
+  document.getElementById("EnemyResDebuff").value = 0;
+
+  document.getElementById("EnemyHPCut").value = "";
+  document.getElementById("EnemySpecCharge").value = "";
+  document.getElementById("EnemyAdjAllies").value = 0;
+  document.getElementById("enemy_conditional_effects").checked = false;
+
+  $(".EnemyLegAlly").toggle(false);
 }
 
 // Fills the skill menus for a selected unit.
@@ -127,14 +157,14 @@ function fill_skill_menus() {
 
   // If the selected chracter is not a Legendary Hero, populate the
   // Elements/Blessings Menu.
-  msg = "<option value=\"None\">(None)</option>";
+  msg = "<option value=\"(None)\">(None)</option>";
   if (!Characters[unit_id].legendary) {
     msg += "<option value=\"Earth\">Earth</option>";
     msg += "<option value=\"Fire\">Fire</option>";
     msg += "<option value=\"Water\">Water</option>";
     msg += "<option value=\"Wind\">Wind</option>";
   }
-  document.getElementById("Blessing").innerHTML = msg;  
+  document.getElementById("Blessing").innerHTML = msg;
 
   check_special_effects();
 }
@@ -197,6 +227,13 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemySeal").innerHTML = msg;
   msg = "";
+
+  msg = "<option value=\"(None)\">(None)</option>";
+  msg += "<option value=\"Earth\">Earth</option>";
+  msg += "<option value=\"Fire\">Fire</option>";
+  msg += "<option value=\"Water\">Water</option>";
+  msg += "<option value=\"Wind\">Wind</option>";
+  document.getElementById("EnemyBlessing").innerHTML = msg;
 }
 
 // Verifies that a given unit can legally inherit a given skill
@@ -377,11 +414,22 @@ function add_legendary_heroes() {
   for (var i = 1; i < 4; i++) {
     var msg = "<option value=\"0\">(None)</option>";
     for (var j = 0; j < Blessings.length; j++) {
-      if (document.getElementById("Blessing").value == Blessings[i].element) {
+      if (document.getElementById("Blessing").value == Blessings[j].element) {
         msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
       }
     }
     document.getElementById("LegAlly" + i).innerHTML = msg;
+  }
+}
+function add_enemy_legendary_heroes() {
+  for (var i = 1; i < 4; i++) {
+    var msg = "<option value=\"0\">(None)</option>";
+    for (var j = 0; j < Blessings.length; j++) {
+      if (document.getElementById("EnemyBlessing").value == Blessings[j].element) {
+        msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
+      }
+    }
+    document.getElementById("EnemyLegAlly" + i).innerHTML = msg;
   }
 }
 function process_blessing_bonuses(blessing) {

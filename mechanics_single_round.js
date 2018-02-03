@@ -5,6 +5,18 @@ function simulate() {
     selectedWeapon = Weapons[document.getElementById("WeaponUpgrade").value];
   }
 
+  var blessings = new Array(3);
+  if (document.getElementById("Blessing").value != "(None)") {
+    blessings[0] = Blessings[parseInt(document.getElementById("LegAlly1").value)];
+    blessings[1] = Blessings[parseInt(document.getElementById("LegAlly2").value)];
+    blessings[2] = Blessings[parseInt(document.getElementById("LegAlly3").value)];
+  }
+  else {
+    blessings[0] = Blessings[0];
+    blessings[1] = Blessings[0];
+    blessings[2] = Blessings[0];
+  }
+
   var Attacker = new Fighter(Characters[document.getElementById("Character").value],
                             document.getElementById("Boon").value,
                             document.getElementById("Bane").value,
@@ -16,7 +28,8 @@ function simulate() {
                             Procs[document.getElementById("Special").value],
                             document.getElementById("summoner_support").checked,
                             parseInt(document.getElementById("MergeLv").value),
-                            document.getElementById("conditional_effects").checked);
+                            document.getElementById("conditional_effects").checked,
+                            blessings);
 
   // Add the Attacker's stat line to the proper UI elements.
   document.getElementById("CharHP").innerHTML = Attacker.get_HP_max();
@@ -71,6 +84,18 @@ function simulate() {
   }
   else if (document.getElementById("Optimized_Foes").checked) {
     enemy_pool = Optimized_Chars;
+  }
+
+  // Resolve enemy blessings outside of the main for loop to prevent unnecessary work.
+  if (document.getElementById("EnemyBlessing").value != "(None)") {
+    blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
+    blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
+    blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
+  }
+  else {
+    blessings[0] = Blessings[0];
+    blessings[1] = Blessings[0];
+    blessings[2] = Blessings[0];
   }
 
   // Iterate on all characters from the desired pool.
@@ -149,7 +174,8 @@ function simulate() {
                              proc,
                              false,
                              parseInt(document.getElementById("EnemyMergeLv").value),
-                             document.getElementById("enemy_conditional_effects").checked);
+                             document.getElementById("enemy_conditional_effects").checked,
+                             blessings);
 
       Defender.set_assumed_atk_buff(document.getElementById("EnemyAtkBuff").value);
       Defender.set_assumed_spd_buff(document.getElementById("EnemySpdBuff").value);
