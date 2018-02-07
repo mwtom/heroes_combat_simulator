@@ -242,7 +242,6 @@ function verify_legality(unit, skill) {
   var unit_mov_type = unit.type;
   var unit_weap_type = unit.weap;
 
-
   // Verify that the unit's movement type is compatible with the skill.
   switch (unit_mov_type) {
     case "I":
