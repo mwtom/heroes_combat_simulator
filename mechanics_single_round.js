@@ -474,7 +474,7 @@ function execute_phase(player, enemy, player_initiating) {
     return combat_log;
   }
   // Weapons with brave effects strike twice when initiating.
-  if (attacker.get_brave() == 1) {
+  if (attacker.get_brave() == 1 || attacker.double_lion_applies()) {
     combat_log += attacker.get_name() + "'s " + attacker.get_weap_name() + " allows an immediate second strike!<br>";
     calculate_damage(attacker, defender, true, true, false);
   }
@@ -530,7 +530,7 @@ function execute_phase(player, enemy, player_initiating) {
       return combat_log;
     }
     // Weapons with brave effects strike twice when initiating.
-    if (attacker.get_brave() == 1) {
+    if (attacker.get_brave() == 1 || attacker.double_lion_applies()) {
       combat_log += attacker.get_name() + "'s " + attacker.get_weap_name() + " allows an immediate second strike!<br>";
       calculate_damage(attacker, defender, true, true, false);
       if (defender.get_HP() == 0) {
@@ -767,7 +767,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   var def = 0;
   var defense_stat = "";
 
-  if (attacker.get_hit_2rng_weaker_def_stat() && defender.get_range() == 2) {
+  if ((attacker.get_hit_2rng_weaker_def_stat() && defender.get_range() == 2) || (attacker.get_hit_1rng_weaker_def_stat() && defender.get_range() == 1)) {
     if (defender.calculate_def(!attacker_active, attacker, true) < defender.calculate_res(!attacker_active, attacker, true)) {
       def = defender.calculate_def(!attacker_active, attacker, true);
       defense_stat = "Def";

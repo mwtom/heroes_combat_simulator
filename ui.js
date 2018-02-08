@@ -386,8 +386,15 @@ function deselect_all_mov_types() {
 
 function check_special_effects() {
   var special_effect_text = "None.";
-  if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].special_stat_bonus) {
-    special_effect_text = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].name + ": " + Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].cond_eff_text;
+  var Weapon;
+  if (Weapons[parseInt(document.getElementById("Weapon").value)].special_stat_bonus && parseInt(document.getElementById("WeaponUpgrade").value) == 0) {
+    Weapon = Weapons[parseInt(document.getElementById("Weapon").value)];
+  }
+  else if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].special_stat_bonus) {
+    Weapon = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)];
+  }
+  if (typeof(Weapon) != "undefined") {
+    special_effect_text = Weapon.name + ": " + Weapon.cond_eff_text;
   }
   document.getElementById("conditional_effect_details").innerHTML = special_effect_text;
 }

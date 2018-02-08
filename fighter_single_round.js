@@ -842,7 +842,7 @@ Fighter.prototype.check_buff_negate = function (enemy) {
  *  -The highest bonus cooldown value out of all applicable factors.
  */
 Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
-  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking));
+  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking), this.get_special_bonus_cd(enemy));
 };
 // Initializes a counter to hold the number of active sources of generic (i.e. not tied to
 // any conditions besides initiating or defending) guaranteed follow-up. Increments the
@@ -1005,6 +1005,12 @@ Fighter.prototype.great_flame_applies = function (attacker_active, enemy, in_com
   else {
     return false;
   }
+};
+Fighter.prototype.double_lion_applies = function () {
+  if (this.weapon.double_lion && this.start_HP == this.hp_max) {
+    return true;
+  }
+  return false;
 };
 // Calculates the permanent raw atk of the unit, active in all scenarios.
 Fighter.prototype.get_perm_atk = function () {
@@ -1252,6 +1258,9 @@ Fighter.prototype.get_weap_name = function() {
 Fighter.prototype.get_blade = function() {
   return this.weapon.blade;
 };
+Fighter.prototype.get_hit_1rng_weaker_def_stat = function () {
+  return this.weapon.hit_1rng_weaker_def_stat;
+};
 Fighter.prototype.get_hit_2rng_weaker_def_stat = function () {
   return this.weapon.hit_2rng_weaker_def_stat;
 };
@@ -1269,6 +1278,10 @@ Fighter.prototype.get_skill_dmg_bonus = function() {
   if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.proc.activates_on_hit) {
     dmg += this.b_skill.wrath_skill_dmg_bonus;
     combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
+  }
+  if (this.weapon.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.weapon.wrath_threshold && this.proc.activates_on_hit) {
+    dmg += this.weapon.wrath_skill_dmg_bonus;
+    combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
   }
   return dmg;
 };
@@ -1586,6 +1599,15 @@ Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking
   }
   return bonus_cd;
 };
+Fighter.prototype.get_special_bonus_cd = function (enemy) {
+  var bonus_cd = 0;
+
+  if (this.weapon.felicias_plate_cd_bonus > 0 && (enemy.get_weap() == "RT" || enemy.get_weap() == "BT" || enemy.get_weap() == "GT")) {
+    bonus_cd += this.weapon.felicias_plate_cd_bonus;
+  }
+
+  return bonus_cd;
+};
 Fighter.prototype.get_bonus_cd_amt = function (skill) {
   return skill.bonus_cd_amt;
 };
@@ -1782,16 +1804,16 @@ Fighter.prototype.get_wrath_threshold = function () {
   return this.b_skill.wrath_threshold;
 };
 Fighter.prototype.get_atk_bond = function () {
-  return this.a_skill.atk_bond;
+  return this.a_skill.atk_bond + this.weapon.atk_bond;
 };
 Fighter.prototype.get_spd_bond = function () {
-  return this.a_skill.spd_bond;
+  return this.a_skill.spd_bond + this.weapon.spd_bond;
 };
 Fighter.prototype.get_def_bond = function () {
-  return this.a_skill.def_bond;
+  return this.a_skill.def_bond + this.weapon.def_bond;
 };
 Fighter.prototype.get_res_bond = function () {
-  return this.a_skill.res_bond;
+  return this.a_skill.res_bond + this.weapon.res_bond;
 };
 Fighter.prototype.get_special_atk_bonus = function () {
   return this.weapon.special_atk_bonus;
