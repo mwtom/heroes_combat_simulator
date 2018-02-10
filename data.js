@@ -38,11 +38,11 @@ function load_data() {
     optimized_unit.spd_base = base_unit.spd_base;
     optimized_unit.def_base = base_unit.def_base;
     optimized_unit.res_base = base_unit.res_base;
-    optimized_unit.hp40 = base_unit.hp40;
-    optimized_unit.atk40 = base_unit.atk40;
-    optimized_unit.spd40 = base_unit.spd40;
-    optimized_unit.def40 = base_unit.def40;
-    optimized_unit.res40 = base_unit.res40;
+    optimized_unit.hpGP = base_unit.hpGP;
+    optimized_unit.atkGP = base_unit.atkGP;
+    optimized_unit.spdGP = base_unit.spdGP;
+    optimized_unit.defGP = base_unit.defGP;
+    optimized_unit.resGP = base_unit.resGP;
     optimized_unit.n_lock = base_unit.n_lock;
     optimized_unit.type = base_unit.type;
     optimized_unit.weap = base_unit.weap;

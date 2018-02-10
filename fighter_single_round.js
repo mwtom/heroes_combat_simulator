@@ -5,11 +5,11 @@ class Fighter {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
-    this.hp = char.hp40;
-    this.atk = char.atk40;
-    this.spd = char.spd40;
-    this.def = char.def40;
-    this.res = char.res40;
+    this.hp = this.calculate_stat(char.hp_base, char.hpGP, "neutral");
+    this.atk = this.calculate_stat(char.atk_base, char.atkGP, "neutral");
+    this.spd = this.calculate_stat(char.spd_base, char.spdGP, "neutral");
+    this.def = this.calculate_stat(char.def_base, char.defGP, "neutral");
+    this.res = this.calculate_stat(char.res_base, char.resGP, "neutral");
     this.hp_base = char.hp_base;
     this.atk_base = char.atk_base;
     this.spd_base = char.spd_base;
@@ -29,46 +29,46 @@ class Fighter {
     if (char.n_lock != 1 && (boon != bane)) {
       switch (boon) {
         case "HP":
-          this.hp = this.calculate_stat(char.hp_base, char.hp40, "boon");
+          this.hp = this.calculate_stat(char.hp_base, char.hpGP, "boon");
           this.hp_base += 1;
           break;
         case "Atk":
-          this.atk = this.calculate_stat(char.atk_base, char.atk40, "boon");
+          this.atk = this.calculate_stat(char.atk_base, char.atkGP, "boon");
           this.atk_base += 1;
           break;
         case "Spd":
-          this.spd = this.calculate_stat(char.spd_base, char.spd40, "boon");
+          this.spd = this.calculate_stat(char.spd_base, char.spdGP, "boon");
           this.spd_base += 1;
           break;
         case "Def":
-          this.def = this.calculate_stat(char.def_base, char.def40, "boon");
+          this.def = this.calculate_stat(char.def_base, char.defGP, "boon");
           this.def_base += 1;
           break;
         case "Res":
-          this.res = this.calculate_stat(char.res_base, char.res40, "boon");
+          this.res = this.calculate_stat(char.res_base, char.resGP, "boon");
           this.res_base += 1;
           break;
         // No default case, since "None" is a valid boon selection.
       }
       switch (bane) {
         case "HP":
-          this.hp = this.calculate_stat(char.hp_base, char.hp40, "bane");
+          this.hp = this.calculate_stat(char.hp_base, char.hpGP, "bane");
           this.hp_base -= 1;
           break;
         case "Atk":
-          this.atk = this.calculate_stat(char.atk_base, char.atk40, "bane");
+          this.atk = this.calculate_stat(char.atk_base, char.atkGP, "bane");
           this.atk_base -= 1;
           break;
         case "Spd":
-          this.spd = this.calculate_stat(char.spd_base, char.spd40, "bane");
+          this.spd = this.calculate_stat(char.spd_base, char.spdGP, "bane");
           this.spd_base -= 1;
           break;
         case "Def":
-          this.def = this.calculate_stat(char.def_base, char.def40, "bane");
+          this.def = this.calculate_stat(char.def_base, char.defGP, "bane");
           this.def_base -= 1;
           break;
         case "Res":
-          this.res = this.calculate_stat(char.res_base, char.res40, "bane");
+          this.res = this.calculate_stat(char.res_base, char.resGP, "bane");
           this.res_base -= 1;
           break;
         // No default case, since "None" is a valid bane selection.
@@ -235,19 +235,27 @@ Fighter.prototype.two_array_sort = function (arr1, arr2) {
   return arr1;
 };
 // Function for boon/bane stat calculations
-Fighter.prototype.calculate_stat = function(stat_base, stat_40, case_type) {
-  // growth tiers
-  var growth_tiers = new Array(8, 10, 13, 15, 17, 19, 22, 24, 26, 28, 30, 33, 35, 37);
-
-  var i = 0;
-  for (i = 0; (stat_40 - stat_base) != growth_tiers[i] && i < growth_tiers.length; i++);
-
-  // Boon stats are +1 growth tier, +1 point.
-  if (case_type == "boon")
-    return stat_40 + (growth_tiers[i + 1] - growth_tiers[i]) + 1;
-  // Bane stats are -1 growth tier, -1 point.
-  else
-    return stat_40 - (growth_tiers[i] - growth_tiers[i - 1]) - 1;
+Fighter.prototype.calculate_stat = function(stat_base, stat_GP, case_type) {
+  // Formula is:
+  // [base stat] + Math.floor(39 * Math.floor([growth rate] * (1 + .7 * (rarity - 3))))
+  // This simulator assumes a rarity of 5. Note that boon stats mean +1 base point/GP, and
+  // bane stats mean -1 base point/GP. Finally, growth rate is ((GP + 4) * 5)%
+  var base, growth, growth_rate;
+  switch (case_type) {
+    case "boon":
+      base = stat_base + 1;
+      growth = (stat_GP + 5) * 5;
+      break;
+    case "bane":
+      base = stat_base - 1;
+      growth = (stat_GP + 3) * 5;
+      break;
+    default:
+      base = stat_base;
+      growth = (stat_GP + 4) * 5;
+  }
+  growth_rate = Math.floor(growth * (1 + (.07 * (5 - 3)))) / 100;
+  return (base + Math.floor(39 * growth_rate));
 };
 // Resets the skill cooldown timer.
 Fighter.prototype.reset_cooldown = function() {
