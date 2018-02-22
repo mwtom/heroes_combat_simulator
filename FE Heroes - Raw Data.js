@@ -18,9 +18,9 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 64,
-      "base_a": 32,
-      "base_b": 45,
+      "base_weap": 65,
+      "base_a": 33,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 1
     },
@@ -42,8 +42,8 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 154,
-      "base_a": 15,
+      "base_weap": 156,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 46,
       "base_proc": 48
@@ -66,9 +66,9 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 161,
+      "base_weap": 163,
       "base_a": 6,
-      "base_b": 51,
+      "base_b": 52,
       "base_c": 0,
       "base_proc": 13
     },
@@ -90,8 +90,8 @@ var data = {
       "type": "A",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 456,
-      "base_a": 23,
+      "base_weap": 459,
+      "base_a": 24,
       "base_b": 0,
       "base_c": 1,
       "base_proc": 47
@@ -114,9 +114,9 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 349,
+      "base_weap": 351,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 50,
       "base_proc": 3
     },
@@ -138,9 +138,9 @@ var data = {
       "type": "A",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 65,
+      "base_weap": 66,
       "base_a": 0,
-      "base_b": 18,
+      "base_b": 19,
       "base_c": 16,
       "base_proc": 38
     },
@@ -162,9 +162,9 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 152,
-      "base_a": 32,
-      "base_b": 25,
+      "base_weap": 153,
+      "base_a": 33,
+      "base_b": 26,
       "base_c": 0,
       "base_proc": 0
     },
@@ -186,9 +186,9 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 522,
+      "base_weap": 525,
       "base_a": 0,
-      "base_b": 35,
+      "base_b": 36,
       "base_c": 13,
       "base_proc": 21
     },
@@ -210,8 +210,8 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 531,
-      "base_a": 48,
+      "base_weap": 534,
+      "base_a": 49,
       "base_b": 0,
       "base_c": 53,
       "base_proc": 34
@@ -235,8 +235,8 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 18,
-      "base_a": 50,
-      "base_b": 13,
+      "base_a": 51,
+      "base_b": 14,
       "base_c": 0,
       "base_proc": 40
     },
@@ -258,7 +258,7 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 353,
+      "base_weap": 355,
       "base_a": 0,
       "base_b": 0,
       "base_c": 55,
@@ -282,9 +282,9 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 243,
+      "base_weap": 245,
       "base_a": 0,
-      "base_b": 15,
+      "base_b": 16,
       "base_c": 34,
       "base_proc": 0
     },
@@ -306,8 +306,8 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 520,
-      "base_a": 52,
+      "base_weap": 523,
+      "base_a": 53,
       "base_b": 0,
       "base_c": 17,
       "base_proc": 0
@@ -330,8 +330,8 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 407,
-      "base_a": 44,
+      "base_weap": 409,
+      "base_a": 45,
       "base_b": 0,
       "base_c": 24,
       "base_proc": 0
@@ -354,9 +354,9 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 62,
+      "base_weap": 63,
       "base_a": 0,
-      "base_b": 24,
+      "base_b": 25,
       "base_c": 46,
       "base_proc": 0
     },
@@ -378,8 +378,8 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 253,
-      "base_a": 29,
+      "base_weap": 255,
+      "base_a": 30,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 0
@@ -402,8 +402,8 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 25,
-      "base_a": 56,
+      "base_weap": 26,
+      "base_a": 57,
       "base_b": 0,
       "base_c": 20,
       "base_proc": 5
@@ -426,9 +426,9 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 306,
-      "base_a": 18,
-      "base_b": 29,
+      "base_weap": 308,
+      "base_a": 19,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 19
     },
@@ -451,8 +451,8 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 4,
-      "base_a": 47,
-      "base_b": 52,
+      "base_a": 48,
+      "base_b": 53,
       "base_c": 0,
       "base_proc": 4
     },
@@ -474,9 +474,9 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 231,
-      "base_a": 23,
-      "base_b": 36,
+      "base_weap": 233,
+      "base_a": 24,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 29
     },
@@ -498,7 +498,7 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 41,
+      "base_weap": 42,
       "base_a": 8,
       "base_b": 0,
       "base_c": 35,
@@ -522,8 +522,8 @@ var data = {
       "type": "F",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 525,
-      "base_a": 14,
+      "base_weap": 528,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 23,
       "base_proc": 0
@@ -546,9 +546,9 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 65,
+      "base_weap": 66,
       "base_a": 0,
-      "base_b": 52,
+      "base_b": 53,
       "base_c": 55,
       "base_proc": 16
     },
@@ -570,8 +570,8 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 62,
-      "base_a": 14,
+      "base_weap": 63,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 43,
       "base_proc": 13
@@ -594,10 +594,10 @@ var data = {
       "type": "F",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 278,
-      "base_a": 42,
+      "base_weap": 280,
+      "base_a": 43,
       "base_b": 0,
-      "base_c": 61,
+      "base_c": 62,
       "base_proc": 13
     },
     "25": {
@@ -618,9 +618,9 @@ var data = {
       "type": "F",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 219,
-      "base_a": 20,
-      "base_b": 26,
+      "base_weap": 221,
+      "base_a": 21,
+      "base_b": 27,
       "base_c": 0,
       "base_proc": 0
     },
@@ -642,8 +642,8 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 209,
-      "base_a": 30,
+      "base_weap": 211,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 27,
       "base_proc": 23
@@ -666,9 +666,9 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 308,
+      "base_weap": 310,
       "base_a": 1,
-      "base_b": 38,
+      "base_b": 39,
       "base_c": 0,
       "base_proc": 32
     },
@@ -690,9 +690,9 @@ var data = {
       "type": "C",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 236,
+      "base_weap": 238,
       "base_a": 6,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 0,
       "base_proc": 0
     },
@@ -714,14 +714,38 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 367,
-      "base_a": 22,
+      "base_weap": 369,
+      "base_a": 23,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 6
     },
     "30": {
       "index": 30,
+      "name": "Celica (Imprisoned Soul)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 9,
+      "spd_base": 9,
+      "def_base": 5,
+      "res_base": 7,
+      "hpGP": 6,
+      "atkGP": 8,
+      "spdGP": 8,
+      "defGP": 6,
+      "resGP": 5,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "S",
+      "legendary": 0,
+      "base_weap": 25,
+      "base_a": 0,
+      "base_b": 9,
+      "base_c": 31,
+      "base_proc": 32
+    },
+    "31": {
+      "index": 31,
       "name": "Charlotte (Money Maiden)",
       "color": "B",
       "hp_base": 20,
@@ -738,14 +762,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 191,
-      "base_a": 57,
+      "base_weap": 193,
+      "base_a": 58,
       "base_b": 0,
       "base_c": 55,
       "base_proc": 0
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Cherche (Wyvern Friend)",
       "color": "G",
       "hp_base": 20,
@@ -762,14 +786,14 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 253,
+      "base_weap": 255,
       "base_a": 6,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 0
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Chrom (Exalted Prince)",
       "color": "R",
       "hp_base": 21,
@@ -786,14 +810,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 167,
-      "base_a": 18,
+      "base_weap": 169,
+      "base_a": 19,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 2
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Chrom (Gifted Leader)",
       "color": "G",
       "hp_base": 25,
@@ -810,14 +834,14 @@ var data = {
       "type": "A",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 402,
+      "base_weap": 404,
       "base_a": 10,
-      "base_b": 49,
+      "base_b": 50,
       "base_c": 0,
       "base_proc": 0
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "Chrom (Spring Exalt)",
       "color": "G",
       "hp_base": 19,
@@ -834,14 +858,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 76,
+      "base_weap": 77,
       "base_a": 7,
       "base_b": 0,
       "base_c": 5,
       "base_proc": 0
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "Clair (Highborn Flier)",
       "color": "B",
       "hp_base": 18,
@@ -858,14 +882,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 446,
+      "base_weap": 448,
       "base_a": 0,
-      "base_b": 23,
+      "base_b": 24,
       "base_c": 51,
       "base_proc": 0
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Clarine (Refined Noble)",
       "color": "N",
       "hp_base": 16,
@@ -882,14 +906,14 @@ var data = {
       "type": "C",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 173,
-      "base_a": 40,
+      "base_weap": 175,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 51
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Clarisse (Sniper in the Dark)",
       "color": "N",
       "hp_base": 18,
@@ -906,14 +930,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 91,
+      "base_weap": 92,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 56,
       "base_proc": 19
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Clive (Idealistic Knight)",
       "color": "B",
       "hp_base": 19,
@@ -930,14 +954,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 446,
-      "base_a": 16,
-      "base_b": 23,
+      "base_weap": 448,
+      "base_a": 17,
+      "base_b": 24,
       "base_c": 0,
       "base_proc": 16
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Cordelia (Knight Paragon)",
       "color": "B",
       "hp_base": 18,
@@ -954,14 +978,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 64,
-      "base_a": 52,
-      "base_b": 31,
+      "base_weap": 65,
+      "base_a": 53,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 17
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Cordelia (Perfect Bride)",
       "color": "N",
       "hp_base": 17,
@@ -978,14 +1002,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 96,
+      "base_weap": 97,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 11,
       "base_proc": 0
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Corrin (Enjoying Tradition)",
       "color": "N",
       "hp_base": 18,
@@ -1002,14 +1026,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 248,
+      "base_weap": 250,
       "base_a": 7,
       "base_b": 0,
       "base_c": 49,
       "base_proc": 0
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Corrin (Fateful Prince)",
       "color": "R",
       "hp_base": 20,
@@ -1026,14 +1050,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 536,
-      "base_a": 16,
-      "base_b": 30,
+      "base_weap": 539,
+      "base_a": 17,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 14
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Corrin (Fateful Princess)",
       "color": "B",
       "hp_base": 19,
@@ -1050,14 +1074,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 124,
+      "base_weap": 125,
       "base_a": 0,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 31,
       "base_proc": 13
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Corrin (Novice Vacationer)",
       "color": "B",
       "hp_base": 17,
@@ -1074,14 +1098,14 @@ var data = {
       "type": "F",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 408,
-      "base_a": 51,
+      "base_weap": 410,
+      "base_a": 52,
       "base_b": 0,
       "base_c": 23,
       "base_proc": 14
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Deirdre (Lady of the Forest)",
       "color": "G",
       "hp_base": 17,
@@ -1098,14 +1122,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 143,
+      "base_weap": 144,
       "base_a": 0,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 44,
       "base_proc": 0
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Delthea (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -1122,14 +1146,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 123,
-      "base_a": 15,
+      "base_weap": 124,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 15,
       "base_proc": 33
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Donnel (Village Hero)",
       "color": "B",
       "hp_base": 17,
@@ -1146,14 +1170,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 64,
-      "base_a": 32,
-      "base_b": 14,
+      "base_weap": 65,
+      "base_a": 33,
+      "base_b": 15,
       "base_c": 0,
       "base_proc": 0
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Dorcas (Serene Warrior)",
       "color": "G",
       "hp_base": 19,
@@ -1170,14 +1194,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 507,
-      "base_a": 24,
-      "base_b": 33,
+      "base_weap": 510,
+      "base_a": 25,
+      "base_b": 34,
       "base_c": 36,
       "base_proc": 13
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Draug (Gentle Giant)",
       "color": "R",
       "hp_base": 24,
@@ -1194,14 +1218,14 @@ var data = {
       "type": "A",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 65,
+      "base_weap": 66,
       "base_a": 0,
-      "base_b": 29,
+      "base_b": 30,
       "base_c": 59,
       "base_proc": 38
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Effie (Army of One)",
       "color": "B",
       "hp_base": 22,
@@ -1218,14 +1242,14 @@ var data = {
       "type": "A",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 446,
-      "base_a": 15,
-      "base_b": 49,
+      "base_weap": 448,
+      "base_a": 16,
+      "base_b": 50,
       "base_c": 0,
       "base_proc": 0
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Eirika (Anamnesis Lady)",
       "color": "R",
       "hp_base": 17,
@@ -1242,14 +1266,14 @@ var data = {
       "type": "C",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 208,
-      "base_a": 50,
-      "base_b": 13,
+      "base_weap": 210,
+      "base_a": 51,
+      "base_b": 14,
       "base_c": 39,
       "base_proc": 0
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Eirika (Restoration Lady)",
       "color": "R",
       "hp_base": 18,
@@ -1266,14 +1290,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 424,
+      "base_weap": 426,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 35,
       "base_proc": 0
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Eldigan (Lionheart)",
       "color": "R",
       "hp_base": 19,
@@ -1290,14 +1314,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 343,
-      "base_a": 29,
-      "base_b": 29,
+      "base_weap": 345,
+      "base_a": 30,
+      "base_b": 30,
       "base_c": 0,
       "base_proc": 22
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Elincia (Lost Princess)",
       "color": "R",
       "hp_base": 16,
@@ -1315,13 +1339,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 5,
-      "base_a": 15,
-      "base_b": 17,
+      "base_a": 16,
+      "base_b": 18,
       "base_c": 0,
       "base_proc": 0
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Elise (Budding Flower)",
       "color": "N",
       "hp_base": 15,
@@ -1338,14 +1362,14 @@ var data = {
       "type": "C",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 215,
+      "base_weap": 217,
       "base_a": 0,
-      "base_b": 28,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 31
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Elise (Tropical Flower)",
       "color": "G",
       "hp_base": 17,
@@ -1362,14 +1386,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 266,
-      "base_a": 43,
+      "base_weap": 268,
+      "base_a": 44,
       "base_b": 0,
       "base_c": 25,
       "base_proc": 0
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Eliwood (Devoted Love)",
       "color": "B",
       "hp_base": 23,
@@ -1386,14 +1410,14 @@ var data = {
       "type": "A",
       "weap": "L",
       "legendary": 1,
-      "base_weap": 86,
-      "base_a": 25,
+      "base_weap": 87,
+      "base_a": 26,
       "base_b": 0,
       "base_c": 26,
       "base_proc": 0
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Eliwood (Knight of Lycia)",
       "color": "R",
       "hp_base": 17,
@@ -1410,14 +1434,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 145,
+      "base_weap": 146,
       "base_a": 0,
       "base_b": 1,
       "base_c": 60,
       "base_proc": 47
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Ephraim (Restoration Lord)",
       "color": "B",
       "hp_base": 19,
@@ -1434,14 +1458,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 425,
+      "base_weap": 427,
       "base_a": 0,
-      "base_b": 41,
+      "base_b": 42,
       "base_c": 56,
       "base_proc": 34
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Est (Junior Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1458,14 +1482,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 265,
-      "base_a": 19,
-      "base_b": 43,
+      "base_weap": 267,
+      "base_a": 20,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 0
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Fae (Divine Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -1482,14 +1506,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 317,
+      "base_weap": 319,
       "base_a": 0,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 55,
       "base_proc": 0
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Faye (Devoted Heart)",
       "color": "N",
       "hp_base": 16,
@@ -1506,14 +1530,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 188,
+      "base_weap": 190,
       "base_a": 0,
-      "base_b": 52,
+      "base_b": 53,
       "base_c": 9,
       "base_proc": 37
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "name": "Felicia (Maid Mayhem)",
       "color": "N",
       "hp_base": 15,
@@ -1530,14 +1554,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 176,
-      "base_a": 40,
+      "base_weap": 178,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 18
     },
-    "64": {
-      "index": 64,
+    "65": {
+      "index": 65,
       "name": "Fir (Sword Student)",
       "color": "R",
       "hp_base": 19,
@@ -1554,14 +1578,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 309,
-      "base_a": 44,
-      "base_b": 31,
+      "base_weap": 311,
+      "base_a": 45,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 18
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "name": "Fjorm (Princess of Ice)",
       "color": "B",
       "hp_base": 17,
@@ -1578,14 +1602,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 1,
-      "base_weap": 316,
+      "base_weap": 318,
       "base_a": 2,
-      "base_b": 44,
+      "base_b": 45,
       "base_c": 15,
       "base_proc": 27
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "name": "Florina (Lovely Flier)",
       "color": "B",
       "hp_base": 18,
@@ -1602,14 +1626,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 265,
-      "base_a": 14,
+      "base_weap": 267,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 0
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "name": "Frederick (H. Watcher)",
       "color": "N",
       "hp_base": 18,
@@ -1626,14 +1650,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 413,
+      "base_weap": 415,
       "base_a": 1,
-      "base_b": 40,
+      "base_b": 41,
       "base_c": 0,
       "base_proc": 0
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "name": "Frederick (Polite Knight)",
       "color": "G",
       "hp_base": 19,
@@ -1650,14 +1674,14 @@ var data = {
       "type": "C",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 253,
+      "base_weap": 255,
       "base_a": 0,
-      "base_b": 52,
+      "base_b": 53,
       "base_c": 21,
       "base_proc": 32
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "name": "Gaius (Candy Stealer)",
       "color": "N",
       "hp_base": 18,
@@ -1674,14 +1698,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 396,
-      "base_a": 17,
-      "base_b": 31,
+      "base_weap": 398,
+      "base_a": 18,
+      "base_b": 32,
       "base_c": 0,
       "base_proc": 0
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "name": "Gaius (Thief Exposed)",
       "color": "N",
       "hp_base": 17,
@@ -1698,14 +1722,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 378,
+      "base_weap": 380,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 13,
       "base_proc": 3
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "name": "Genny (Endearing Ally)",
       "color": "N",
       "hp_base": 17,
@@ -1722,14 +1746,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 215,
+      "base_weap": 217,
       "base_a": 0,
-      "base_b": 54,
+      "base_b": 55,
       "base_c": 0,
       "base_proc": 25
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "name": "Gordin (Altean Archer)",
       "color": "N",
       "hp_base": 19,
@@ -1746,14 +1770,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 63,
+      "base_weap": 64,
       "base_a": 6,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 0
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "name": "Gray (Wry Comrade)",
       "color": "R",
       "hp_base": 17,
@@ -1770,14 +1794,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 537,
-      "base_a": 57,
+      "base_weap": 540,
+      "base_a": 58,
       "base_b": 0,
       "base_c": 54,
       "base_proc": 0
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
       "color": "G",
       "hp_base": 15,
@@ -1794,14 +1818,14 @@ var data = {
       "type": "C",
       "weap": "GT",
       "legendary": 1,
-      "base_weap": 46,
-      "base_a": 28,
-      "base_b": 9,
+      "base_weap": 47,
+      "base_a": 29,
+      "base_b": 10,
       "base_c": 41,
       "base_proc": 18
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "name": "Gunter (Inveterate Soldier)",
       "color": "G",
       "hp_base": 21,
@@ -1818,14 +1842,14 @@ var data = {
       "type": "C",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 431,
+      "base_weap": 433,
       "base_a": 1,
       "base_b": 0,
       "base_c": 32,
       "base_proc": 0
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "name": "Gwendolyn (Adorable Knight)",
       "color": "B",
       "hp_base": 23,
@@ -1842,14 +1866,14 @@ var data = {
       "type": "A",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 308,
+      "base_weap": 310,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 30,
       "base_proc": 16
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "name": "Hana (Focused Samurai)",
       "color": "R",
       "hp_base": 18,
@@ -1867,13 +1891,37 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 7,
-      "base_a": 38,
-      "base_b": 30,
+      "base_a": 39,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 0
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
+      "name": "Hardin (Dark Emperor)",
+      "color": "B",
+      "hp_base": 23,
+      "atk_base": 8,
+      "spd_base": 6,
+      "def_base": 10,
+      "res_base": 8,
+      "hpGP": 6,
+      "atkGP": 8,
+      "spdGP": 6,
+      "defGP": 8,
+      "resGP": 7,
+      "n_lock": 0,
+      "type": "A",
+      "weap": "L",
+      "legendary": 0,
+      "base_weap": 211,
+      "base_a": 12,
+      "base_b": 5,
+      "base_c": 0,
+      "base_proc": 52
+    },
+    "80": {
+      "index": 80,
       "name": "Hawkeye (Desert Guardian)",
       "color": "G",
       "hp_base": 21,
@@ -1890,14 +1938,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 306,
-      "base_a": 15,
+      "base_weap": 308,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 55,
       "base_proc": 22
     },
-    "79": {
-      "index": 79,
+    "81": {
+      "index": 81,
       "name": "Hector (General of Ostia)",
       "color": "G",
       "hp_base": 24,
@@ -1915,13 +1963,13 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 6,
-      "base_a": 21,
+      "base_a": 22,
       "base_b": 0,
       "base_c": 26,
       "base_proc": 38
     },
-    "80": {
-      "index": 80,
+    "82": {
+      "index": 82,
       "name": "Hector (Just Here to Fight)",
       "color": "G",
       "hp_base": 24,
@@ -1938,14 +1986,14 @@ var data = {
       "type": "A",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 30,
-      "base_a": 21,
-      "base_b": 49,
+      "base_weap": 31,
+      "base_a": 22,
+      "base_b": 50,
       "base_c": 0,
       "base_proc": 19
     },
-    "81": {
-      "index": 81,
+    "83": {
+      "index": 83,
       "name": "Henry (Happy Vampire)",
       "color": "G",
       "hp_base": 17,
@@ -1962,14 +2010,14 @@ var data = {
       "type": "A",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 502,
+      "base_weap": 505,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 28,
       "base_c": 1,
       "base_proc": 41
     },
-    "82": {
-      "index": 82,
+    "84": {
+      "index": 84,
       "name": "Henry (Twisted Mind)",
       "color": "R",
       "hp_base": 19,
@@ -1986,14 +2034,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 376,
-      "base_a": 18,
-      "base_b": 19,
+      "base_weap": 378,
+      "base_a": 19,
+      "base_b": 20,
       "base_c": 0,
       "base_proc": 29
     },
-    "83": {
-      "index": 83,
+    "85": {
+      "index": 85,
       "name": "Hinata (Wild Samurai)",
       "color": "R",
       "hp_base": 21,
@@ -2010,14 +2058,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 401,
-      "base_a": 29,
+      "base_weap": 403,
+      "base_a": 30,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 38
     },
-    "84": {
-      "index": 84,
+    "86": {
+      "index": 86,
       "name": "Hinoka (Warrior Princess)",
       "color": "B",
       "hp_base": 19,
@@ -2034,14 +2082,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 271,
-      "base_a": 18,
+      "base_weap": 273,
+      "base_a": 19,
       "base_b": 0,
       "base_c": 34,
       "base_proc": 8
     },
-    "85": {
-      "index": 85,
+    "87": {
+      "index": 87,
       "name": "Ike (Brave Mercenary)",
       "color": "G",
       "hp_base": 17,
@@ -2058,14 +2106,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 521,
-      "base_a": 46,
+      "base_weap": 524,
+      "base_a": 47,
       "base_b": 3,
       "base_c": 56,
       "base_proc": 2
     },
-    "86": {
-      "index": 86,
+    "88": {
+      "index": 88,
       "name": "Ike (Vanguard Legend)",
       "color": "R",
       "hp_base": 19,
@@ -2082,14 +2130,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 1,
-      "base_weap": 368,
-      "base_a": 54,
-      "base_b": 39,
+      "base_weap": 370,
+      "base_a": 55,
+      "base_b": 40,
       "base_c": 14,
       "base_proc": 39
     },
-    "87": {
-      "index": 87,
+    "89": {
+      "index": 89,
       "name": "Ike (Young Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -2106,14 +2154,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 368,
-      "base_a": 31,
-      "base_b": 45,
+      "base_weap": 370,
+      "base_a": 32,
+      "base_b": 46,
       "base_c": 0,
       "base_proc": 2
     },
-    "88": {
-      "index": 88,
+    "90": {
+      "index": 90,
       "name": "Inigo (Indigo Dancer)",
       "color": "G",
       "hp_base": 15,
@@ -2130,14 +2178,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 113,
+      "base_weap": 114,
       "base_a": 0,
-      "base_b": 20,
+      "base_b": 21,
       "base_c": 31,
       "base_proc": 0
     },
-    "89": {
-      "index": 89,
+    "91": {
+      "index": 91,
       "name": "Innes (Regal Strategician)",
       "color": "N",
       "hp_base": 16,
@@ -2154,14 +2202,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 352,
-      "base_a": 28,
+      "base_weap": 354,
+      "base_a": 29,
       "base_b": 8,
       "base_c": 0,
       "base_proc": 28
     },
-    "90": {
-      "index": 90,
+    "92": {
+      "index": 92,
       "name": "Jaffar (Angel of Death)",
       "color": "N",
       "hp_base": 17,
@@ -2178,14 +2226,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 131,
-      "base_a": 38,
+      "base_weap": 132,
+      "base_a": 39,
       "base_b": 0,
       "base_c": 58,
       "base_proc": 19
     },
-    "91": {
-      "index": 91,
+    "93": {
+      "index": 93,
       "name": "Jagen (Veteran Knight)",
       "color": "B",
       "hp_base": 20,
@@ -2202,14 +2250,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 446,
-      "base_a": 29,
+      "base_weap": 448,
+      "base_a": 30,
       "base_b": 0,
       "base_c": 20,
       "base_proc": 1
     },
-    "92": {
-      "index": 92,
+    "94": {
+      "index": 94,
       "name": "Jakob (Devoted Monster)",
       "color": "N",
       "hp_base": 20,
@@ -2226,14 +2274,14 @@ var data = {
       "type": "A",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 337,
+      "base_weap": 339,
       "base_a": 9,
-      "base_b": 49,
+      "base_b": 50,
       "base_c": 0,
       "base_proc": 29
     },
-    "93": {
-      "index": 93,
+    "95": {
+      "index": 95,
       "name": "Jakob (Devoted Servant)",
       "color": "N",
       "hp_base": 17,
@@ -2250,14 +2298,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 441,
-      "base_a": 16,
-      "base_b": 36,
+      "base_weap": 443,
+      "base_a": 17,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 0
     },
-    "94": {
-      "index": 94,
+    "96": {
+      "index": 96,
       "name": "Jeorge (Perfect Shot)",
       "color": "N",
       "hp_base": 18,
@@ -2274,14 +2322,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 359,
+      "base_weap": 361,
       "base_a": 0,
-      "base_b": 38,
+      "base_b": 39,
       "base_c": 51,
       "base_proc": 5
     },
-    "95": {
-      "index": 95,
+    "97": {
+      "index": 97,
       "name": "Joshua (Tempest King)",
       "color": "R",
       "hp_base": 18,
@@ -2299,13 +2347,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 16,
-      "base_a": 13,
-      "base_b": 51,
+      "base_a": 14,
+      "base_b": 52,
       "base_c": 0,
       "base_proc": 34
     },
-    "96": {
-      "index": 96,
+    "98": {
+      "index": 98,
       "name": "Julia (Naga's Blood)",
       "color": "G",
       "hp_base": 16,
@@ -2322,14 +2370,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 350,
-      "base_a": 40,
+      "base_weap": 352,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 14
     },
-    "97": {
-      "index": 97,
+    "99": {
+      "index": 99,
       "name": "Kagero (Honorable Ninja)",
       "color": "N",
       "hp_base": 16,
@@ -2346,14 +2394,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 366,
-      "base_a": 53,
-      "base_b": 11,
+      "base_weap": 368,
+      "base_a": 54,
+      "base_b": 12,
       "base_c": 0,
       "base_proc": 41
     },
-    "98": {
-      "index": 98,
+    "100": {
+      "index": 100,
       "name": "Karel (Sword Demon)",
       "color": "R",
       "hp_base": 19,
@@ -2370,14 +2418,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 531,
-      "base_a": 17,
-      "base_b": 13,
+      "base_weap": 534,
+      "base_a": 18,
+      "base_b": 14,
       "base_c": 0,
       "base_proc": 41
     },
-    "99": {
-      "index": 99,
+    "101": {
+      "index": 101,
       "name": "Katarina (Wayward One)",
       "color": "R",
       "hp_base": 17,
@@ -2394,14 +2442,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 371,
-      "base_a": 50,
+      "base_weap": 373,
+      "base_a": 51,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 18
     },
-    "100": {
-      "index": 100,
+    "102": {
+      "index": 102,
       "name": "Klein (Silver Nobleman)",
       "color": "N",
       "hp_base": 18,
@@ -2418,14 +2466,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 63,
-      "base_a": 15,
-      "base_b": 33,
+      "base_weap": 64,
+      "base_a": 16,
+      "base_b": 34,
       "base_c": 0,
       "base_proc": 18
     },
-    "101": {
-      "index": 101,
+    "103": {
+      "index": 103,
       "name": "L'Arachel (Princess of Light)",
       "color": "B",
       "hp_base": 16,
@@ -2442,14 +2490,14 @@ var data = {
       "type": "C",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 277,
+      "base_weap": 279,
       "base_a": 0,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 42,
       "base_proc": 22
     },
-    "102": {
-      "index": 102,
+    "104": {
+      "index": 104,
       "name": "Lachesis (Lionheart's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -2472,8 +2520,8 @@ var data = {
       "base_c": 50,
       "base_proc": 49
     },
-    "103": {
-      "index": 103,
+    "105": {
+      "index": 105,
       "name": "Laslow (Dancing Duelist)",
       "color": "R",
       "hp_base": 20,
@@ -2490,14 +2538,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 451,
+      "base_weap": 453,
       "base_a": 0,
       "base_b": 1,
       "base_c": 35,
       "base_proc": 37
     },
-    "104": {
-      "index": 104,
+    "106": {
+      "index": 106,
       "name": "Legion (Masked Maniac)",
       "color": "G",
       "hp_base": 20,
@@ -2514,14 +2562,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 311,
-      "base_a": 29,
-      "base_b": 30,
+      "base_weap": 313,
+      "base_a": 30,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 41
     },
-    "105": {
-      "index": 105,
+    "107": {
+      "index": 107,
       "name": "Leo (Seashore's Prince)",
       "color": "R",
       "hp_base": 18,
@@ -2538,14 +2586,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 514,
+      "base_weap": 517,
       "base_a": 0,
-      "base_b": 42,
+      "base_b": 43,
       "base_c": 2,
       "base_proc": 28
     },
-    "106": {
-      "index": 106,
+    "108": {
+      "index": 108,
       "name": "Leo (Sorcerous Prince)",
       "color": "R",
       "hp_base": 17,
@@ -2562,14 +2610,14 @@ var data = {
       "type": "C",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 67,
+      "base_weap": 68,
       "base_a": 0,
-      "base_b": 33,
+      "base_b": 34,
       "base_c": 43,
       "base_proc": 6
     },
-    "107": {
-      "index": 107,
+    "109": {
+      "index": 109,
       "name": "Leon (True of Heart)",
       "color": "N",
       "hp_base": 17,
@@ -2586,14 +2634,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 461,
-      "base_a": 44,
-      "base_b": 22,
+      "base_weap": 464,
+      "base_a": 45,
+      "base_b": 23,
       "base_c": 0,
       "base_proc": 29
     },
-    "108": {
-      "index": 108,
+    "110": {
+      "index": 110,
       "name": "Lilina (Blush of Youth)",
       "color": "G",
       "hp_base": 17,
@@ -2610,14 +2658,14 @@ var data = {
       "type": "C",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 224,
-      "base_a": 33,
+      "base_weap": 226,
+      "base_a": 34,
       "base_b": 0,
       "base_c": 4,
       "base_proc": 5
     },
-    "109": {
-      "index": 109,
+    "111": {
+      "index": 111,
       "name": "Lilina (Delightful Noble)",
       "color": "R",
       "hp_base": 16,
@@ -2634,14 +2682,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 57,
+      "base_weap": 58,
       "base_a": 6,
       "base_b": 0,
       "base_c": 46,
       "base_proc": 21
     },
-    "110": {
-      "index": 110,
+    "112": {
+      "index": 112,
       "name": "Linde (Light Mage)",
       "color": "B",
       "hp_base": 16,
@@ -2659,13 +2707,13 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 17,
-      "base_a": 44,
+      "base_a": 45,
       "base_b": 0,
       "base_c": 24,
       "base_proc": 0
     },
-    "111": {
-      "index": 111,
+    "113": {
+      "index": 113,
       "name": "Lissa (Pure Joy)",
       "color": "G",
       "hp_base": 21,
@@ -2682,14 +2730,14 @@ var data = {
       "type": "A",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 254,
+      "base_weap": 256,
       "base_a": 0,
       "base_b": 5,
       "base_c": 19,
       "base_proc": 9
     },
-    "112": {
-      "index": 112,
+    "114": {
+      "index": 114,
       "name": "Lissa (Sprightly Cleric)",
       "color": "N",
       "hp_base": 17,
@@ -2706,14 +2754,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 215,
+      "base_weap": 217,
       "base_a": 0,
-      "base_b": 36,
+      "base_b": 37,
       "base_c": 0,
       "base_proc": 31
     },
-    "113": {
-      "index": 113,
+    "115": {
+      "index": 115,
       "name": "Lloyd (White Wolf)",
       "color": "R",
       "hp_base": 17,
@@ -2730,14 +2778,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 383,
+      "base_weap": 385,
       "base_a": 0,
-      "base_b": 31,
+      "base_b": 32,
       "base_c": 55,
       "base_proc": 28
     },
-    "114": {
-      "index": 114,
+    "116": {
+      "index": 116,
       "name": "Lon'qu (Solitary Blade)",
       "color": "R",
       "hp_base": 19,
@@ -2754,14 +2802,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 309,
-      "base_a": 44,
-      "base_b": 46,
+      "base_weap": 311,
+      "base_a": 45,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 19
     },
-    "115": {
-      "index": 115,
+    "117": {
+      "index": 117,
       "name": "Lucina (Brave Princess)",
       "color": "B",
       "hp_base": 17,
@@ -2778,14 +2826,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 207,
-      "base_a": 48,
+      "base_weap": 209,
+      "base_a": 49,
       "base_b": 0,
       "base_c": 18,
       "base_proc": 2
     },
-    "116": {
-      "index": 116,
+    "118": {
+      "index": 118,
       "name": "Lucina (Future Witness)",
       "color": "R",
       "hp_base": 19,
@@ -2802,14 +2850,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 167,
-      "base_a": 20,
+      "base_weap": 169,
+      "base_a": 21,
       "base_b": 0,
       "base_c": 46,
       "base_proc": 32
     },
-    "117": {
-      "index": 117,
+    "119": {
+      "index": 119,
       "name": "Lucina (Spring Exalt)",
       "color": "B",
       "hp_base": 16,
@@ -2826,14 +2874,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 47,
-      "base_a": 50,
-      "base_b": 42,
+      "base_weap": 48,
+      "base_a": 51,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
-    "118": {
-      "index": 118,
+    "120": {
+      "index": 120,
       "name": "Lucius (The Light)",
       "color": "N",
       "hp_base": 18,
@@ -2850,14 +2898,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 353,
-      "base_a": 32,
+      "base_weap": 355,
+      "base_a": 33,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 33
     },
-    "119": {
-      "index": 119,
+    "121": {
+      "index": 121,
       "name": "Lukas (Sharp Soldier)",
       "color": "B",
       "hp_base": 19,
@@ -2874,14 +2922,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 308,
-      "base_a": 27,
-      "base_b": 30,
+      "base_weap": 310,
+      "base_a": 28,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 47
     },
-    "120": {
-      "index": 120,
+    "122": {
+      "index": 122,
       "name": "Luke (Rowdy Squire)",
       "color": "R",
       "hp_base": 19,
@@ -2898,14 +2946,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 65,
-      "base_a": 25,
+      "base_weap": 66,
+      "base_a": 26,
       "base_b": 0,
       "base_c": 38,
       "base_proc": 9
     },
-    "121": {
-      "index": 121,
+    "123": {
+      "index": 123,
       "name": "Lute (Prodigy)",
       "color": "B",
       "hp_base": 16,
@@ -2922,14 +2970,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 524,
-      "base_a": 35,
+      "base_weap": 527,
+      "base_a": 36,
       "base_b": 0,
       "base_c": 41,
       "base_proc": 0
     },
-    "122": {
-      "index": 122,
+    "124": {
+      "index": 124,
       "name": "Lyn (Brave Lady)",
       "color": "N",
       "hp_base": 16,
@@ -2946,14 +2994,14 @@ var data = {
       "type": "C",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 342,
-      "base_a": 50,
-      "base_b": 37,
+      "base_weap": 344,
+      "base_a": 51,
+      "base_b": 38,
       "base_c": 3,
       "base_proc": 13
     },
-    "123": {
-      "index": 123,
+    "125": {
+      "index": 125,
       "name": "Lyn (Bride of the Plains)",
       "color": "N",
       "hp_base": 17,
@@ -2970,14 +3018,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 73,
+      "base_weap": 74,
       "base_a": 0,
-      "base_b": 12,
+      "base_b": 13,
       "base_c": 0,
       "base_proc": 51
     },
-    "124": {
-      "index": 124,
+    "126": {
+      "index": 126,
       "name": "Lyn (Lady of the Plains)",
       "color": "R",
       "hp_base": 18,
@@ -2994,14 +3042,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 496,
-      "base_a": 17,
+      "base_weap": 499,
+      "base_a": 18,
       "base_b": 0,
       "base_c": 51,
       "base_proc": 17
     },
-    "125": {
-      "index": 125,
+    "127": {
+      "index": 127,
       "name": "Lyn (Wind's Embrace)",
       "color": "B",
       "hp_base": 18,
@@ -3018,14 +3066,14 @@ var data = {
       "type": "A",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 52,
+      "base_weap": 53,
       "base_a": 5,
-      "base_b": 22,
+      "base_b": 23,
       "base_c": 1,
       "base_proc": 0
     },
-    "126": {
-      "index": 126,
+    "128": {
+      "index": 128,
       "name": "Lyon (Shadow Prince)",
       "color": "R",
       "hp_base": 19,
@@ -3042,14 +3090,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 351,
+      "base_weap": 353,
       "base_a": 8,
       "base_b": 0,
       "base_c": 17,
       "base_proc": 52
     },
-    "127": {
-      "index": 127,
+    "129": {
+      "index": 129,
       "name": "Mae (Bundle of Energy)",
       "color": "B",
       "hp_base": 16,
@@ -3066,14 +3114,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 33,
+      "base_weap": 34,
       "base_a": 0,
-      "base_b": 13,
+      "base_b": 14,
       "base_c": 7,
       "base_proc": 0
     },
-    "128": {
-      "index": 128,
+    "130": {
+      "index": 130,
       "name": "Maria (Minerva's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -3090,14 +3138,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 356,
+      "base_weap": 358,
       "base_a": 0,
       "base_b": 0,
       "base_c": 24,
       "base_proc": 33
     },
-    "129": {
-      "index": 129,
+    "131": {
+      "index": 131,
       "name": "Marisa (Crimson Flash)",
       "color": "R",
       "hp_base": 18,
@@ -3114,14 +3162,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 531,
-      "base_a": 34,
+      "base_weap": 534,
+      "base_a": 35,
       "base_b": 0,
       "base_c": 36,
       "base_proc": 19
     },
-    "130": {
-      "index": 130,
+    "132": {
+      "index": 132,
       "name": "Marth (Altean Prince)",
       "color": "R",
       "hp_base": 19,
@@ -3138,14 +3186,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 155,
+      "base_weap": 157,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 51,
       "base_proc": 0
     },
-    "131": {
-      "index": 131,
+    "133": {
+      "index": 133,
       "name": "Marth (Enigmatic Blade)",
       "color": "R",
       "hp_base": 19,
@@ -3162,14 +3210,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 167,
+      "base_weap": 169,
       "base_a": 0,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 0
     },
-    "132": {
-      "index": 132,
+    "134": {
+      "index": 134,
       "name": "Mathilda (Legendary Knight)",
       "color": "B",
       "hp_base": 16,
@@ -3186,14 +3234,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 390,
+      "base_weap": 392,
       "base_a": 0,
       "base_b": 8,
       "base_c": 31,
       "base_proc": 0
     },
-    "133": {
-      "index": 133,
+    "135": {
+      "index": 135,
       "name": "Matthew (Faithful Spy)",
       "color": "N",
       "hp_base": 17,
@@ -3210,14 +3258,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 396,
+      "base_weap": 398,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 35,
       "base_proc": 0
     },
-    "134": {
-      "index": 134,
+    "136": {
+      "index": 136,
       "name": "Merric (Wind Mage)",
       "color": "G",
       "hp_base": 19,
@@ -3234,14 +3282,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 153,
-      "base_a": 32,
+      "base_weap": 154,
+      "base_a": 33,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 24
     },
-    "135": {
-      "index": 135,
+    "137": {
+      "index": 137,
       "name": "Mia (Lady of Blades)",
       "color": "R",
       "hp_base": 16,
@@ -3258,14 +3306,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 384,
-      "base_a": 26,
-      "base_b": 46,
+      "base_weap": 386,
+      "base_a": 27,
+      "base_b": 47,
       "base_c": 0,
       "base_proc": 32
     },
-    "136": {
-      "index": 136,
+    "138": {
+      "index": 138,
       "name": "Micaiah (Priestess of Dawn)",
       "color": "B",
       "hp_base": 16,
@@ -3282,14 +3330,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 513,
-      "base_a": 22,
-      "base_b": 22,
+      "base_weap": 516,
+      "base_a": 23,
+      "base_b": 23,
       "base_c": 15,
       "base_proc": 0
     },
-    "137": {
-      "index": 137,
+    "139": {
+      "index": 139,
       "name": "Michalis (Ambitious King)",
       "color": "G",
       "hp_base": 19,
@@ -3306,14 +3354,14 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 259,
-      "base_a": 37,
+      "base_weap": 261,
+      "base_a": 38,
       "base_b": 0,
       "base_c": 56,
       "base_proc": 7
     },
-    "138": {
-      "index": 138,
+    "140": {
+      "index": 140,
       "name": "Minerva (Red Dragoon)",
       "color": "G",
       "hp_base": 18,
@@ -3330,14 +3378,14 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 259,
-      "base_a": 38,
+      "base_weap": 261,
+      "base_a": 39,
       "base_b": 0,
-      "base_c": 61,
+      "base_c": 62,
       "base_proc": 47
     },
-    "139": {
-      "index": 139,
+    "141": {
+      "index": 141,
       "name": "Mist (Helpful Sister)",
       "color": "N",
       "hp_base": 17,
@@ -3354,14 +3402,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 488,
+      "base_weap": 491,
       "base_a": 0,
       "base_b": 0,
       "base_c": 49,
       "base_proc": 33
     },
-    "140": {
-      "index": 140,
+    "142": {
+      "index": 142,
       "name": "Myrrh (Great Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -3378,14 +3426,14 @@ var data = {
       "type": "F",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 218,
-      "base_a": 29,
+      "base_weap": 220,
+      "base_a": 30,
       "base_b": 0,
       "base_c": 33,
       "base_proc": 9
     },
-    "141": {
-      "index": 141,
+    "143": {
+      "index": 143,
       "name": "Narcian (Wyvern General)",
       "color": "G",
       "hp_base": 18,
@@ -3402,14 +3450,14 @@ var data = {
       "type": "F",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 152,
+      "base_weap": 153,
       "base_a": 0,
-      "base_b": 25,
+      "base_b": 26,
       "base_c": 43,
       "base_proc": 52
     },
-    "142": {
-      "index": 142,
+    "144": {
+      "index": 144,
       "name": "Navarre (Scarlet Sword)",
       "color": "R",
       "hp_base": 18,
@@ -3426,14 +3474,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 309,
+      "base_weap": 311,
       "base_a": 0,
-      "base_b": 13,
+      "base_b": 14,
       "base_c": 58,
       "base_proc": 8
     },
-    "143": {
-      "index": 143,
+    "145": {
+      "index": 145,
       "name": "Nephenee (Fierce Halberdier)",
       "color": "B",
       "hp_base": 18,
@@ -3450,14 +3498,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 477,
+      "base_weap": 480,
       "base_a": 4,
-      "base_b": 53,
+      "base_b": 54,
       "base_c": 0,
       "base_proc": 34
     },
-    "144": {
-      "index": 144,
+    "146": {
+      "index": 146,
       "name": "Niles (Cruel to be Kind)",
       "color": "N",
       "hp_base": 18,
@@ -3474,14 +3522,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 307,
-      "base_a": 53,
+      "base_weap": 309,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 28
     },
-    "145": {
-      "index": 145,
+    "147": {
+      "index": 147,
       "name": "Ninian (Oracle of Destiny)",
       "color": "B",
       "hp_base": 16,
@@ -3498,14 +3546,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 317,
+      "base_weap": 319,
       "base_a": 0,
-      "base_b": 16,
+      "base_b": 17,
       "base_c": 22,
       "base_proc": 0
     },
-    "146": {
-      "index": 146,
+    "148": {
+      "index": 148,
       "name": "Nino (Pious Mage)",
       "color": "G",
       "hp_base": 16,
@@ -3522,14 +3570,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 230,
-      "base_a": 40,
+      "base_weap": 232,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 31,
       "base_proc": 0
     },
-    "147": {
-      "index": 147,
+    "149": {
+      "index": 149,
       "name": "Nowi (Eternal Witch)",
       "color": "R",
       "hp_base": 17,
@@ -3546,14 +3594,14 @@ var data = {
       "type": "F",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 229,
+      "base_weap": 231,
       "base_a": 3,
-      "base_b": 26,
+      "base_b": 27,
       "base_c": 34,
       "base_proc": 0
     },
-    "148": {
-      "index": 148,
+    "150": {
+      "index": 150,
       "name": "Nowi (Eternal Youth)",
       "color": "B",
       "hp_base": 17,
@@ -3570,14 +3618,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 322,
-      "base_a": 16,
+      "base_weap": 324,
+      "base_a": 17,
       "base_b": 0,
       "base_c": 57,
       "base_proc": 0
     },
-    "149": {
-      "index": 149,
+    "151": {
+      "index": 151,
       "name": "Oboro (Fierce Fighter)",
       "color": "B",
       "hp_base": 18,
@@ -3594,14 +3642,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 265,
+      "base_weap": 267,
       "base_a": 0,
-      "base_b": 41,
+      "base_b": 42,
       "base_c": 57,
       "base_proc": 0
     },
-    "150": {
-      "index": 150,
+    "152": {
+      "index": 152,
       "name": "Odin (Potent Force)",
       "color": "B",
       "hp_base": 19,
@@ -3618,14 +3666,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 32,
-      "base_a": 17,
-      "base_b": 34,
+      "base_weap": 33,
+      "base_a": 18,
+      "base_b": 35,
       "base_c": 0,
       "base_proc": 34
     },
-    "151": {
-      "index": 151,
+    "153": {
+      "index": 153,
       "name": "Ogma (Loyal Blade)",
       "color": "R",
       "hp_base": 21,
@@ -3642,14 +3690,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 65,
-      "base_a": 17,
+      "base_weap": 66,
+      "base_a": 18,
       "base_b": 0,
       "base_c": 46,
       "base_proc": 37
     },
-    "152": {
-      "index": 152,
+    "154": {
+      "index": 154,
       "name": "Oliver (Admirer of Beauty)",
       "color": "B",
       "hp_base": 18,
@@ -3666,14 +3714,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 418,
-      "base_a": 39,
+      "base_weap": 420,
+      "base_a": 40,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 6
     },
-    "153": {
-      "index": 153,
+    "155": {
+      "index": 155,
       "name": "Olivia (Blushing Beauty)",
       "color": "R",
       "hp_base": 17,
@@ -3690,14 +3738,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 451,
+      "base_weap": 453,
       "base_a": 0,
-      "base_b": 24,
+      "base_b": 25,
       "base_c": 31,
       "base_proc": 0
     },
-    "154": {
-      "index": 154,
+    "156": {
+      "index": 156,
       "name": "Olivia (Festival Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -3714,14 +3762,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 108,
-      "base_a": 22,
+      "base_weap": 109,
+      "base_a": 23,
       "base_b": 4,
       "base_c": 0,
       "base_proc": 0
     },
-    "155": {
-      "index": 155,
+    "157": {
+      "index": 157,
       "name": "Olwen (Blue Mage Knight)",
       "color": "B",
       "hp_base": 17,
@@ -3738,14 +3786,14 @@ var data = {
       "type": "C",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 142,
-      "base_a": 53,
+      "base_weap": 143,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 60,
       "base_proc": 0
     },
-    "156": {
-      "index": 156,
+    "158": {
+      "index": 158,
       "name": "Oscar (Agile Horseman)",
       "color": "B",
       "hp_base": 18,
@@ -3762,14 +3810,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 407,
+      "base_weap": 409,
       "base_a": 0,
-      "base_b": 25,
+      "base_b": 26,
       "base_c": 52,
       "base_proc": 0
     },
-    "157": {
-      "index": 157,
+    "159": {
+      "index": 159,
       "name": "Palla (Eldest Whitewing)",
       "color": "R",
       "hp_base": 18,
@@ -3786,14 +3834,14 @@ var data = {
       "type": "F",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 401,
+      "base_weap": 403,
       "base_a": 0,
-      "base_b": 52,
+      "base_b": 53,
       "base_c": 28,
       "base_proc": 34
     },
-    "158": {
-      "index": 158,
+    "160": {
+      "index": 160,
       "name": "Peri (Playful Slayer)",
       "color": "B",
       "hp_base": 16,
@@ -3810,14 +3858,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 308,
-      "base_a": 40,
+      "base_weap": 310,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 56,
       "base_proc": 19
     },
-    "159": {
-      "index": 159,
+    "161": {
+      "index": 161,
       "name": "Priscilla (Delicate Princess)",
       "color": "N",
       "hp_base": 17,
@@ -3834,14 +3882,14 @@ var data = {
       "type": "C",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 356,
+      "base_weap": 358,
       "base_a": 0,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 50
     },
-    "160": {
-      "index": 160,
+    "162": {
+      "index": 162,
       "name": "Raigh (Dark Child)",
       "color": "R",
       "hp_base": 17,
@@ -3858,14 +3906,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 377,
-      "base_a": 32,
-      "base_b": 42,
+      "base_weap": 379,
+      "base_a": 33,
+      "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
-    "161": {
-      "index": 161,
+    "163": {
+      "index": 163,
       "name": "Raven (Peerless Fighter)",
       "color": "G",
       "hp_base": 19,
@@ -3883,13 +3931,13 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 19,
-      "base_a": 20,
+      "base_a": 21,
       "base_b": 0,
       "base_c": 56,
       "base_proc": 48
     },
-    "162": {
-      "index": 162,
+    "164": {
+      "index": 164,
       "name": "Rebecca (Wildflower)",
       "color": "N",
       "hp_base": 18,
@@ -3906,14 +3954,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 436,
-      "base_a": 14,
-      "base_b": 38,
+      "base_weap": 438,
+      "base_a": 15,
+      "base_b": 39,
       "base_c": 0,
       "base_proc": 0
     },
-    "163": {
-      "index": 163,
+    "165": {
+      "index": 165,
       "name": "Reinhardt (Thunder's Fist)",
       "color": "B",
       "hp_base": 16,
@@ -3930,14 +3978,14 @@ var data = {
       "type": "C",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 142,
+      "base_weap": 143,
       "base_a": 0,
-      "base_b": 46,
+      "base_b": 47,
       "base_c": 27,
       "base_proc": 7
     },
-    "164": {
-      "index": 164,
+    "166": {
+      "index": 166,
       "name": "Rhajat (Black Magician)",
       "color": "G",
       "hp_base": 17,
@@ -3954,14 +4002,38 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 294,
-      "base_a": 22,
+      "base_weap": 296,
+      "base_a": 23,
       "base_b": 0,
       "base_c": 43,
       "base_proc": 0
     },
-    "165": {
-      "index": 165,
+    "167": {
+      "index": 167,
+      "name": "Robin (Fell Reincarnation)",
+      "color": "G",
+      "hp_base": 24,
+      "atk_base": 10,
+      "spd_base": 7,
+      "def_base": 9,
+      "res_base": 5,
+      "hpGP": 7,
+      "atkGP": 10,
+      "spdGP": 4,
+      "defGP": 8,
+      "resGP": 6,
+      "n_lock": 0,
+      "type": "A",
+      "weap": "D",
+      "legendary": 0,
+      "base_weap": 155,
+      "base_a": 0,
+      "base_b": 48,
+      "base_c": 61,
+      "base_proc": 29
+    },
+    "168": {
+      "index": 168,
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -3978,14 +4050,14 @@ var data = {
       "type": "A",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 508,
+      "base_weap": 511,
       "base_a": 11,
       "base_b": 0,
       "base_c": 1,
       "base_proc": 0
     },
-    "166": {
-      "index": 166,
+    "169": {
+      "index": 169,
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -4002,14 +4074,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 38,
-      "base_a": 20,
+      "base_weap": 39,
+      "base_a": 21,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 9
     },
-    "167": {
-      "index": 167,
+    "170": {
+      "index": 170,
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -4026,14 +4098,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 237,
-      "base_a": 19,
+      "base_weap": 239,
+      "base_a": 20,
       "base_b": 2,
       "base_c": 0,
       "base_proc": 29
     },
-    "168": {
-      "index": 168,
+    "171": {
+      "index": 171,
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -4050,14 +4122,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 137,
-      "base_a": 34,
+      "base_weap": 138,
+      "base_a": 35,
       "base_b": 0,
       "base_c": 37,
       "base_proc": 0
     },
-    "169": {
-      "index": 169,
+    "172": {
+      "index": 172,
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -4074,14 +4146,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 189,
+      "base_weap": 191,
       "base_a": 0,
-      "base_b": 14,
+      "base_b": 15,
       "base_c": 16,
       "base_proc": 0
     },
-    "170": {
-      "index": 170,
+    "173": {
+      "index": 173,
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -4098,14 +4170,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 40,
-      "base_a": 45,
-      "base_b": 13,
+      "base_weap": 41,
+      "base_a": 46,
+      "base_b": 14,
       "base_c": 0,
       "base_proc": 17
     },
-    "171": {
-      "index": 171,
+    "174": {
+      "index": 174,
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -4122,14 +4194,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 31,
-      "base_a": 52,
-      "base_b": 41,
+      "base_weap": 32,
+      "base_a": 53,
+      "base_b": 42,
       "base_c": 0,
       "base_proc": 0
     },
-    "172": {
-      "index": 172,
+    "175": {
+      "index": 175,
       "name": "Roy (Youthful Gifts)",
       "color": "N",
       "hp_base": 17,
@@ -4146,14 +4218,14 @@ var data = {
       "type": "C",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 210,
-      "base_a": 15,
+      "base_weap": 212,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 10,
       "base_proc": 0
     },
-    "173": {
-      "index": 173,
+    "176": {
+      "index": 176,
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -4170,14 +4242,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 369,
-      "base_a": 17,
+      "base_weap": 371,
+      "base_a": 18,
       "base_b": 0,
       "base_c": 35,
       "base_proc": 3
     },
-    "174": {
-      "index": 174,
+    "177": {
+      "index": 177,
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -4194,14 +4266,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 466,
-      "base_a": 36,
-      "base_b": 44,
+      "base_weap": 469,
+      "base_a": 37,
+      "base_b": 45,
       "base_c": 0,
       "base_proc": 1
     },
-    "175": {
-      "index": 175,
+    "178": {
+      "index": 178,
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -4218,14 +4290,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 491,
+      "base_weap": 494,
       "base_a": 0,
-      "base_b": 32,
+      "base_b": 33,
       "base_c": 51,
       "base_proc": 0
     },
-    "176": {
-      "index": 176,
+    "179": {
+      "index": 179,
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -4242,14 +4314,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 310,
-      "base_a": 55,
-      "base_b": 22,
+      "base_weap": 312,
+      "base_a": 56,
+      "base_b": 23,
       "base_c": 12,
       "base_proc": 18
     },
-    "177": {
-      "index": 177,
+    "180": {
+      "index": 180,
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -4266,14 +4338,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 173,
+      "base_weap": 175,
       "base_a": 0,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 50
     },
-    "178": {
-      "index": 178,
+    "181": {
+      "index": 181,
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -4290,14 +4362,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 102,
-      "base_a": 52,
+      "base_weap": 103,
+      "base_a": 53,
       "base_b": 0,
       "base_c": 31,
       "base_proc": 0
     },
-    "179": {
-      "index": 179,
+    "182": {
+      "index": 182,
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -4315,13 +4387,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 7,
-      "base_a": 52,
+      "base_a": 53,
       "base_b": 0,
       "base_c": 58,
       "base_proc": 0
     },
-    "180": {
-      "index": 180,
+    "183": {
+      "index": 183,
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -4338,14 +4410,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 519,
-      "base_a": 32,
+      "base_weap": 522,
+      "base_a": 33,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 0
     },
-    "181": {
-      "index": 181,
+    "184": {
+      "index": 184,
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -4368,8 +4440,8 @@ var data = {
       "base_c": 31,
       "base_proc": 51
     },
-    "182": {
-      "index": 182,
+    "185": {
+      "index": 185,
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -4386,14 +4458,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 401,
-      "base_a": 27,
-      "base_b": 39,
+      "base_weap": 403,
+      "base_a": 28,
+      "base_b": 40,
       "base_c": 0,
       "base_proc": 0
     },
-    "183": {
-      "index": 183,
+    "186": {
+      "index": 186,
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -4411,13 +4483,13 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 14,
-      "base_a": 32,
+      "base_a": 33,
       "base_b": 6,
       "base_c": 0,
       "base_proc": 0
     },
-    "184": {
-      "index": 184,
+    "187": {
+      "index": 187,
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4434,14 +4506,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 308,
+      "base_weap": 310,
       "base_a": 0,
-      "base_b": 13,
+      "base_b": 14,
       "base_c": 58,
       "base_proc": 28
     },
-    "185": {
-      "index": 185,
+    "188": {
+      "index": 188,
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -4458,14 +4530,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 187,
-      "base_a": 44,
+      "base_weap": 189,
+      "base_a": 45,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 0
     },
-    "186": {
-      "index": 186,
+    "189": {
+      "index": 189,
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -4482,14 +4554,14 @@ var data = {
       "type": "A",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 306,
-      "base_a": 49,
+      "base_weap": 308,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 19,
       "base_proc": 16
     },
-    "187": {
-      "index": 187,
+    "190": {
+      "index": 190,
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -4506,14 +4578,14 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 118,
+      "base_weap": 119,
       "base_a": 0,
-      "base_b": 21,
+      "base_b": 22,
       "base_c": 8,
       "base_proc": 0
     },
-    "188": {
-      "index": 188,
+    "191": {
+      "index": 191,
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -4530,14 +4602,14 @@ var data = {
       "type": "I",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 66,
-      "base_a": 47,
+      "base_weap": 67,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 14,
       "base_proc": 0
     },
-    "189": {
-      "index": 189,
+    "192": {
+      "index": 192,
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -4554,14 +4626,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 130,
-      "base_a": 15,
+      "base_weap": 131,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 4,
       "base_proc": 14
     },
-    "190": {
-      "index": 190,
+    "193": {
+      "index": 193,
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4578,14 +4650,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 144,
-      "base_a": 13,
-      "base_b": 10,
+      "base_weap": 145,
+      "base_a": 14,
+      "base_b": 11,
       "base_c": 45,
       "base_proc": 33
     },
-    "191": {
-      "index": 191,
+    "194": {
+      "index": 194,
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -4602,14 +4674,14 @@ var data = {
       "type": "I",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 190,
-      "base_a": 14,
+      "base_weap": 192,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 17,
       "base_proc": 8
     },
-    "192": {
-      "index": 192,
+    "195": {
+      "index": 195,
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -4626,14 +4698,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 129,
-      "base_a": 39,
+      "base_weap": 130,
+      "base_a": 40,
       "base_b": 0,
       "base_c": 41,
       "base_proc": 34
     },
-    "193": {
-      "index": 193,
+    "196": {
+      "index": 196,
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -4650,14 +4722,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 182,
-      "base_a": 53,
+      "base_weap": 184,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 24,
       "base_proc": 14
     },
-    "194": {
-      "index": 194,
+    "197": {
+      "index": 197,
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -4674,14 +4746,14 @@ var data = {
       "type": "I",
       "weap": "GT",
       "legendary": 0,
-      "base_weap": 385,
+      "base_weap": 387,
       "base_a": 0,
-      "base_b": 50,
+      "base_b": 51,
       "base_c": 24,
       "base_proc": 24
     },
-    "195": {
-      "index": 195,
+    "198": {
+      "index": 198,
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -4698,14 +4770,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 365,
-      "base_a": 38,
+      "base_weap": 367,
+      "base_a": 39,
       "base_b": 0,
       "base_c": 47,
       "base_proc": 19
     },
-    "196": {
-      "index": 196,
+    "199": {
+      "index": 199,
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4722,14 +4794,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 401,
-      "base_a": 16,
-      "base_b": 30,
+      "base_weap": 403,
+      "base_a": 17,
+      "base_b": 31,
       "base_c": 0,
       "base_proc": 0
     },
-    "197": {
-      "index": 197,
+    "200": {
+      "index": 200,
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -4746,14 +4818,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 407,
-      "base_a": 40,
-      "base_b": 33,
+      "base_weap": 409,
+      "base_a": 41,
+      "base_b": 34,
       "base_c": 0,
       "base_proc": 0
     },
-    "198": {
-      "index": 198,
+    "201": {
+      "index": 201,
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -4770,14 +4842,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 407,
+      "base_weap": 409,
       "base_a": 0,
-      "base_b": 45,
+      "base_b": 46,
       "base_c": 48,
       "base_proc": 0
     },
-    "199": {
-      "index": 199,
+    "202": {
+      "index": 202,
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -4794,14 +4866,38 @@ var data = {
       "type": "I",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 32,
+      "base_weap": 33,
       "base_a": 8,
       "base_b": 0,
       "base_c": 18,
       "base_proc": 0
-    },
-    "200": {
-      "index": 200,
+    },/*
+    "203": {
+      "index": 203,
+      "name": "Takumi (Empty Vessel)",
+      "color": "N",
+      "hp_base": 15,
+      "atk_base": 9,
+      "spd_base": 10,
+      "def_base": 6,
+      "res_base": 5,
+      "hpGP": 6,
+      "atkGP": 6,
+      "spdGP": 7,
+      "defGP": 5,
+      "resGP": 5,
+      "n_lock": 1,
+      "type": "I",
+      "weap": "B",
+      "legendary": 0,
+      "base_weap": 458,
+      "base_a": 0,
+      "base_b": 0,
+      "base_c": 0,
+      "base_proc": 0
+    },*/
+    "204": {
+      "index": 204,
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -4818,14 +4914,14 @@ var data = {
       "type": "I",
       "weap": "K",
       "legendary": 0,
-      "base_weap": 283,
+      "base_weap": 285,
       "base_a": 3,
       "base_b": 6,
       "base_c": 0,
       "base_proc": 34
     },
-    "201": {
-      "index": 201,
+    "205": {
+      "index": 205,
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -4842,14 +4938,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 201,
-      "base_a": 12,
+      "base_weap": 203,
+      "base_a": 13,
       "base_b": 0,
       "base_c": 58,
       "base_proc": 52
     },
-    "202": {
-      "index": 202,
+    "206": {
+      "index": 206,
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -4866,14 +4962,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 523,
-      "base_a": 41,
+      "base_weap": 526,
+      "base_a": 42,
       "base_b": 0,
       "base_c": 29,
       "base_proc": 34
     },
-    "203": {
-      "index": 203,
+    "207": {
+      "index": 207,
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -4890,14 +4986,14 @@ var data = {
       "type": "A",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 68,
-      "base_a": 12,
-      "base_b": 47,
+      "base_weap": 69,
+      "base_a": 13,
+      "base_b": 48,
       "base_c": 40,
       "base_proc": 28
     },
-    "204": {
-      "index": 204,
+    "208": {
+      "index": 208,
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -4914,14 +5010,14 @@ var data = {
       "type": "I",
       "weap": "RT",
       "legendary": 0,
-      "base_weap": 370,
-      "base_a": 14,
+      "base_weap": 372,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 52
     },
-    "205": {
-      "index": 205,
+    "209": {
+      "index": 209,
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -4938,14 +5034,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 196,
+      "base_weap": 198,
       "base_a": 1,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 21
     },
-    "206": {
-      "index": 206,
+    "210": {
+      "index": 210,
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -4962,14 +5058,14 @@ var data = {
       "type": "I",
       "weap": "D",
       "legendary": 0,
-      "base_weap": 322,
-      "base_a": 17,
+      "base_weap": 324,
+      "base_a": 18,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 9
     },
-    "207": {
-      "index": 207,
+    "211": {
+      "index": 211,
       "name": "Tiki (Summer Scion)",
       "color": "G",
       "hp_base": 18,
@@ -4986,14 +5082,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 332,
-      "base_a": 13,
+      "base_weap": 334,
+      "base_a": 14,
       "base_b": 0,
       "base_c": 6,
       "base_proc": 48
     },
-    "208": {
-      "index": 208,
+    "212": {
+      "index": 212,
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -5010,14 +5106,14 @@ var data = {
       "type": "C",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 152,
+      "base_weap": 153,
       "base_a": 1,
-      "base_b": 22,
+      "base_b": 23,
       "base_c": 0,
       "base_proc": 0
     },
-    "209": {
-      "index": 209,
+    "213": {
+      "index": 213,
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -5036,12 +5132,12 @@ var data = {
       "legendary": 0,
       "base_weap": 7,
       "base_a": 6,
-      "base_b": 43,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 0
     },
-    "210": {
-      "index": 210,
+    "214": {
+      "index": 214,
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -5058,14 +5154,14 @@ var data = {
       "type": "C",
       "weap": "BT",
       "legendary": 0,
-      "base_weap": 39,
-      "base_a": 15,
+      "base_weap": 40,
+      "base_a": 16,
       "base_b": 0,
       "base_c": 57,
       "base_proc": 23
     },
-    "211": {
-      "index": 211,
+    "215": {
+      "index": 215,
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -5082,14 +5178,14 @@ var data = {
       "type": "F",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 101,
-      "base_a": 14,
+      "base_weap": 102,
+      "base_a": 15,
       "base_b": 0,
       "base_c": 38,
       "base_proc": 32
     },
-    "212": {
-      "index": 212,
+    "216": {
+      "index": 216,
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -5106,14 +5202,14 @@ var data = {
       "type": "I",
       "weap": "B",
       "legendary": 0,
-      "base_weap": 436,
-      "base_a": 19,
-      "base_b": 43,
+      "base_weap": 438,
+      "base_a": 20,
+      "base_b": 44,
       "base_c": 0,
       "base_proc": 3
     },
-    "213": {
-      "index": 213,
+    "217": {
+      "index": 217,
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -5130,14 +5226,14 @@ var data = {
       "type": "I",
       "weap": "ST",
       "legendary": 0,
-      "base_weap": 488,
+      "base_weap": 491,
       "base_a": 0,
-      "base_b": 28,
+      "base_b": 29,
       "base_c": 0,
       "base_proc": 25
     },
-    "214": {
-      "index": 214,
+    "218": {
+      "index": 218,
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -5154,14 +5250,14 @@ var data = {
       "type": "C",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 423,
+      "base_weap": 425,
       "base_a": 1,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 6
     },
-    "215": {
-      "index": 215,
+    "219": {
+      "index": 219,
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -5178,14 +5274,14 @@ var data = {
       "type": "C",
       "weap": "L",
       "legendary": 0,
-      "base_weap": 81,
+      "base_weap": 82,
       "base_a": 0,
-      "base_b": 27,
+      "base_b": 28,
       "base_c": 21,
       "base_proc": 0
     },
-    "216": {
-      "index": 216,
+    "220": {
+      "index": 220,
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -5202,14 +5298,14 @@ var data = {
       "type": "I",
       "weap": "A",
       "legendary": 0,
-      "base_weap": 327,
-      "base_a": 25,
+      "base_weap": 329,
+      "base_a": 26,
       "base_b": 0,
       "base_c": 36,
       "base_proc": 9
     },
-    "217": {
-      "index": 217,
+    "221": {
+      "index": 221,
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -5227,13 +5323,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 4,
-      "base_a": 24,
-      "base_b": 48,
+      "base_a": 25,
+      "base_b": 49,
       "base_c": 38,
       "base_proc": 4
     },
-    "218": {
-      "index": 218,
+    "222": {
+      "index": 222,
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -5250,9 +5346,9 @@ var data = {
       "type": "A",
       "weap": "S",
       "legendary": 0,
-      "base_weap": 146,
-      "base_a": 38,
-      "base_b": 49,
+      "base_weap": 147,
+      "base_a": 39,
+      "base_b": 50,
       "base_c": 0,
       "base_proc": 41
     }
@@ -5264,9 +5360,9 @@ var data = {
       "base_index": 2,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 164,
-      "a": 38,
-      "b": 51,
+      "weapon": 166,
+      "a": 39,
+      "b": 52,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -5278,8 +5374,8 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 458,
-      "a": 21,
+      "weapon": 461,
+      "a": 22,
       "b": 5,
       "c": 1,
       "proc": 9,
@@ -5292,9 +5388,9 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 257,
-      "a": 21,
-      "b": 47,
+      "weapon": 259,
+      "a": 22,
+      "b": 48,
       "c": 1,
       "proc": 9,
       "seal": 29,
@@ -5306,8 +5402,8 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 5,
       "c": 1,
       "proc": 34,
@@ -5320,9 +5416,9 @@ var data = {
       "base_index": 9,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 470,
-      "a": 21,
-      "b": 53,
+      "weapon": 473,
+      "a": 22,
+      "b": 54,
       "c": 31,
       "proc": 40,
       "seal": 57,
@@ -5335,8 +5431,8 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 38,
-      "b": 13,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 40,
       "seal": 65,
@@ -5349,8 +5445,8 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 29,
-      "b": 13,
+      "a": 30,
+      "b": 14,
       "c": 31,
       "proc": 40,
       "seal": 65,
@@ -5362,9 +5458,9 @@ var data = {
       "base_index": 11,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 152,
-      "a": 21,
-      "b": 21,
+      "weapon": 153,
+      "a": 22,
+      "b": 22,
       "c": 34,
       "proc": 34,
       "seal": 65,
@@ -5376,9 +5472,9 @@ var data = {
       "base_index": 12,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 520,
-      "a": 52,
-      "b": 52,
+      "weapon": 523,
+      "a": 53,
+      "b": 53,
       "c": 18,
       "proc": 34,
       "seal": 65,
@@ -5390,9 +5486,9 @@ var data = {
       "base_index": 13,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 407,
-      "a": 21,
-      "b": 52,
+      "weapon": 409,
+      "a": 22,
+      "b": 53,
       "c": 31,
       "proc": 34,
       "seal": 56,
@@ -5404,9 +5500,9 @@ var data = {
       "base_index": 17,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 458,
-      "a": 21,
-      "b": 22,
+      "weapon": 461,
+      "a": 22,
+      "b": 23,
       "c": 28,
       "proc": 29,
       "seal": 48,
@@ -5418,9 +5514,9 @@ var data = {
       "base_index": 17,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 458,
-      "a": 47,
-      "b": 22,
+      "weapon": 461,
+      "a": 48,
+      "b": 23,
       "c": 28,
       "proc": 29,
       "seal": 56,
@@ -5433,7 +5529,7 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 4,
-      "a": 46,
+      "a": 47,
       "b": 5,
       "c": 59,
       "proc": 4,
@@ -5446,9 +5542,9 @@ var data = {
       "base_index": 21,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 528,
-      "a": 21,
-      "b": 33,
+      "weapon": 531,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 28,
       "seal": 14,
@@ -5460,9 +5556,9 @@ var data = {
       "base_index": 21,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 528,
-      "a": 50,
-      "b": 13,
+      "weapon": 531,
+      "a": 51,
+      "b": 14,
       "c": 28,
       "proc": 34,
       "seal": 14,
@@ -5474,9 +5570,9 @@ var data = {
       "base_index": 23,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 459,
-      "a": 21,
-      "b": 22,
+      "weapon": 462,
+      "a": 22,
+      "b": 23,
       "c": 28,
       "proc": 28,
       "seal": 56,
@@ -5488,9 +5584,9 @@ var data = {
       "base_index": 25,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 230,
-      "a": 15,
-      "b": 46,
+      "weapon": 232,
+      "a": 16,
+      "b": 47,
       "c": 34,
       "proc": 19,
       "seal": 6,
@@ -5502,9 +5598,9 @@ var data = {
       "base_index": 25,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 236,
-      "a": 52,
-      "b": 46,
+      "weapon": 238,
+      "a": 53,
+      "b": 47,
       "c": 28,
       "proc": 19,
       "seal": 29,
@@ -5516,9 +5612,9 @@ var data = {
       "base_index": 25,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 230,
-      "a": 38,
-      "b": 13,
+      "weapon": 232,
+      "a": 39,
+      "b": 14,
       "c": 34,
       "proc": 19,
       "seal": 65,
@@ -5530,9 +5626,9 @@ var data = {
       "base_index": 28,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 230,
-      "a": 15,
-      "b": 46,
+      "weapon": 232,
+      "a": 16,
+      "b": 47,
       "c": 32,
       "proc": 19,
       "seal": 6,
@@ -5544,9 +5640,9 @@ var data = {
       "base_index": 28,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 230,
-      "a": 38,
-      "b": 13,
+      "weapon": 232,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -5558,8 +5654,8 @@ var data = {
       "base_index": 28,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 236,
-      "a": 52,
+      "weapon": 238,
+      "a": 53,
       "b": 6,
       "c": 32,
       "proc": 19,
@@ -5572,9 +5668,9 @@ var data = {
       "base_index": 29,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 367,
-      "a": 29,
-      "b": 13,
+      "weapon": 369,
+      "a": 30,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -5586,9 +5682,9 @@ var data = {
       "base_index": 29,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 367,
-      "a": 38,
-      "b": 36,
+      "weapon": 369,
+      "a": 39,
+      "b": 37,
       "c": 31,
       "proc": 32,
       "seal": 42,
@@ -5597,12 +5693,12 @@ var data = {
     "24": {
       "index": 24,
       "name": "Cherche (Wyvern Friend)",
-      "base_index": 31,
+      "base_index": 32,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
-      "b": 23,
+      "weapon": 63,
+      "a": 16,
+      "b": 24,
       "c": 28,
       "proc": 9,
       "seal": 6,
@@ -5611,12 +5707,12 @@ var data = {
     "25": {
       "index": 25,
       "name": "Chrom (Exalted Prince)",
-      "base_index": 32,
+      "base_index": 33,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 65,
-      "a": 15,
-      "b": 45,
+      "weapon": 66,
+      "a": 16,
+      "b": 46,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -5625,11 +5721,11 @@ var data = {
     "26": {
       "index": 26,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 459,
-      "a": 21,
+      "weapon": 462,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 29,
@@ -5639,12 +5735,12 @@ var data = {
     "27": {
       "index": 27,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 405,
-      "a": 21,
-      "b": 49,
+      "weapon": 407,
+      "a": 22,
+      "b": 50,
       "c": 59,
       "proc": 9,
       "seal": 29,
@@ -5653,12 +5749,12 @@ var data = {
     "28": {
       "index": 28,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 405,
-      "a": 21,
-      "b": 47,
+      "weapon": 407,
+      "a": 22,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 29,
@@ -5667,11 +5763,11 @@ var data = {
     "29": {
       "index": 29,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -5681,12 +5777,12 @@ var data = {
     "30": {
       "index": 30,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 38,
-      "b": 13,
+      "weapon": 65,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 6,
@@ -5695,12 +5791,12 @@ var data = {
     "31": {
       "index": 31,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 189,
-      "a": 38,
-      "b": 23,
+      "weapon": 191,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 17,
       "seal": 65,
@@ -5709,12 +5805,12 @@ var data = {
     "32": {
       "index": 32,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 481,
-      "a": 38,
-      "b": 13,
+      "weapon": 484,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 17,
       "seal": 42,
@@ -5723,12 +5819,12 @@ var data = {
     "33": {
       "index": 33,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 63,
-      "a": 38,
-      "b": 13,
+      "weapon": 64,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -5737,11 +5833,11 @@ var data = {
     "34": {
       "index": 34,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 188,
-      "a": 38,
+      "weapon": 190,
+      "a": 39,
       "b": 8,
       "c": 31,
       "proc": 32,
@@ -5751,12 +5847,12 @@ var data = {
     "35": {
       "index": 35,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 43,
+      "base_index": 44,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -5765,12 +5861,12 @@ var data = {
     "36": {
       "index": 36,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 43,
+      "base_index": 44,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 325,
-      "a": 52,
-      "b": 33,
+      "weapon": 327,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -5779,12 +5875,12 @@ var data = {
     "37": {
       "index": 37,
       "name": "Corrin (Novice Vacationer)",
-      "base_index": 44,
+      "base_index": 45,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 32,
-      "a": 50,
-      "b": 13,
+      "weapon": 33,
+      "a": 51,
+      "b": 14,
       "c": 23,
       "proc": 19,
       "seal": 65,
@@ -5793,12 +5889,12 @@ var data = {
     "38": {
       "index": 38,
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 45,
+      "base_index": 46,
       "boon": "Res",
       "bane": "Def",
-      "weapon": 143,
-      "a": 55,
-      "b": 33,
+      "weapon": 144,
+      "a": 56,
+      "b": 34,
       "c": 2,
       "proc": 18,
       "seal": 29,
@@ -5807,12 +5903,12 @@ var data = {
     "39": {
       "index": 39,
       "name": "Delthea (Free Spirit)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 123,
-      "a": 38,
-      "b": 13,
+      "weapon": 124,
+      "a": 39,
+      "b": 14,
       "c": 15,
       "proc": 13,
       "seal": 6,
@@ -5821,12 +5917,12 @@ var data = {
     "40": {
       "index": 40,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 48,
+      "base_index": 49,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 507,
-      "a": 46,
-      "b": 33,
+      "weapon": 510,
+      "a": 47,
+      "b": 34,
       "c": 36,
       "proc": 29,
       "seal": 13,
@@ -5835,12 +5931,12 @@ var data = {
     "41": {
       "index": 41,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 48,
+      "base_index": 49,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 507,
-      "a": 24,
-      "b": 33,
+      "weapon": 510,
+      "a": 25,
+      "b": 34,
       "c": 36,
       "proc": 9,
       "seal": 13,
@@ -5849,12 +5945,12 @@ var data = {
     "42": {
       "index": 42,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 28,
-      "a": 21,
-      "b": 49,
+      "weapon": 29,
+      "a": 22,
+      "b": 50,
       "c": 59,
       "proc": 28,
       "seal": 29,
@@ -5863,11 +5959,11 @@ var data = {
     "43": {
       "index": 43,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 480,
-      "a": 21,
+      "weapon": 483,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 29,
@@ -5877,11 +5973,11 @@ var data = {
     "44": {
       "index": 44,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 64,
-      "a": 15,
+      "weapon": 65,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -5891,12 +5987,12 @@ var data = {
     "45": {
       "index": 45,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 511,
-      "a": 21,
-      "b": 47,
+      "weapon": 514,
+      "a": 22,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 29,
@@ -5905,12 +6001,12 @@ var data = {
     "46": {
       "index": 46,
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 50,
-      "b": 13,
+      "weapon": 372,
+      "a": 51,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -5919,12 +6015,12 @@ var data = {
     "47": {
       "index": 47,
       "name": "Eirika (Restoration Lady)",
-      "base_index": 52,
+      "base_index": 53,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 424,
-      "a": 29,
-      "b": 33,
+      "weapon": 426,
+      "a": 30,
+      "b": 34,
       "c": 35,
       "proc": 34,
       "seal": 49,
@@ -5933,12 +6029,12 @@ var data = {
     "48": {
       "index": 48,
       "name": "Eldigan (Lionheart)",
-      "base_index": 53,
+      "base_index": 54,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 346,
-      "a": 29,
-      "b": 33,
+      "weapon": 348,
+      "a": 30,
+      "b": 34,
       "c": 32,
       "proc": 9,
       "seal": 13,
@@ -5947,12 +6043,12 @@ var data = {
     "49": {
       "index": 49,
       "name": "Elincia (Lost Princess)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
-      "a": 38,
-      "b": 13,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 32,
       "seal": 6,
@@ -5961,12 +6057,12 @@ var data = {
     "50": {
       "index": 50,
       "name": "Elincia (Lost Princess)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 190,
-      "a": 38,
-      "b": 23,
+      "weapon": 192,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 65,
@@ -5975,12 +6071,12 @@ var data = {
     "51": {
       "index": 51,
       "name": "Elise (Budding Flower)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 216,
-      "a": 44,
-      "b": 54,
+      "weapon": 218,
+      "a": 45,
+      "b": 55,
       "c": 32,
       "proc": 33,
       "seal": 6,
@@ -5989,12 +6085,12 @@ var data = {
     "52": {
       "index": 52,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 59,
+      "base_index": 60,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 428,
-      "a": 15,
-      "b": 53,
+      "weapon": 430,
+      "a": 16,
+      "b": 54,
       "c": 35,
       "proc": 34,
       "seal": 49,
@@ -6003,12 +6099,12 @@ var data = {
     "53": {
       "index": 53,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 59,
+      "base_index": 60,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 428,
-      "a": 46,
-      "b": 33,
+      "weapon": 430,
+      "a": 47,
+      "b": 34,
       "c": 35,
       "proc": 29,
       "seal": 49,
@@ -6017,12 +6113,12 @@ var data = {
     "54": {
       "index": 54,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 38,
       "proc": 28,
       "seal": 2,
@@ -6031,12 +6127,12 @@ var data = {
     "55": {
       "index": 55,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 38,
       "proc": 19,
       "seal": 2,
@@ -6045,12 +6141,12 @@ var data = {
     "56": {
       "index": 56,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 38,
       "proc": 34,
       "seal": 2,
@@ -6059,12 +6155,12 @@ var data = {
     "57": {
       "index": 57,
       "name": "Faye (Devoted Heart)",
-      "base_index": 62,
+      "base_index": 63,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 240,
-      "a": 12,
-      "b": 33,
+      "weapon": 242,
+      "a": 13,
+      "b": 34,
       "c": 38,
       "proc": 28,
       "seal": 29,
@@ -6073,12 +6169,12 @@ var data = {
     "58": {
       "index": 58,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 65,
+      "base_index": 66,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 316,
-      "a": 54,
-      "b": 44,
+      "weapon": 318,
+      "a": 55,
+      "b": 45,
       "c": 15,
       "proc": 27,
       "seal": 56,
@@ -6087,12 +6183,12 @@ var data = {
     "59": {
       "index": 59,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 65,
+      "base_index": 66,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 316,
-      "a": 46,
-      "b": 33,
+      "weapon": 318,
+      "a": 47,
+      "b": 34,
       "c": 15,
       "proc": 9,
       "seal": 13,
@@ -6101,12 +6197,12 @@ var data = {
     "60": {
       "index": 60,
       "name": "Florina (Lovely Flier)",
-      "base_index": 66,
+      "base_index": 67,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 28,
-      "a": 21,
-      "b": 33,
+      "weapon": 29,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 28,
       "seal": 29,
@@ -6115,11 +6211,11 @@ var data = {
     "61": {
       "index": 61,
       "name": "Frederick (Polite Knight)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 1,
       "c": 32,
       "proc": 32,
@@ -6129,12 +6225,12 @@ var data = {
     "62": {
       "index": 62,
       "name": "Frederick (Polite Knight)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 458,
-      "a": 13,
-      "b": 33,
+      "weapon": 461,
+      "a": 14,
+      "b": 34,
       "c": 32,
       "proc": 9,
       "seal": 13,
@@ -6143,12 +6239,12 @@ var data = {
     "63": {
       "index": 63,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 74,
+      "base_index": 75,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 46,
-      "a": 15,
-      "b": 9,
+      "weapon": 47,
+      "a": 16,
+      "b": 10,
       "c": 4,
       "proc": 19,
       "seal": 6,
@@ -6157,11 +6253,11 @@ var data = {
     "64": {
       "index": 64,
       "name": "Hector (General of Ostia)",
-      "base_index": 79,
+      "base_index": 81,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 6,
-      "a": 21,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 9,
@@ -6171,12 +6267,12 @@ var data = {
     "65": {
       "index": 65,
       "name": "Hector (Just Here to Fight)",
-      "base_index": 80,
+      "base_index": 82,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 30,
-      "a": 21,
-      "b": 53,
+      "weapon": 31,
+      "a": 22,
+      "b": 54,
       "c": 1,
       "proc": 9,
       "seal": 57,
@@ -6185,11 +6281,11 @@ var data = {
     "66": {
       "index": 66,
       "name": "Henry (Happy Vampire)",
-      "base_index": 81,
+      "base_index": 83,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 230,
-      "a": 15,
+      "weapon": 232,
+      "a": 16,
       "b": 5,
       "c": 1,
       "proc": 19,
@@ -6199,12 +6295,12 @@ var data = {
     "67": {
       "index": 67,
       "name": "Hinoka (Warrior Princess)",
-      "base_index": 84,
+      "base_index": 86,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 274,
-      "a": 50,
-      "b": 13,
+      "weapon": 276,
+      "a": 51,
+      "b": 14,
       "c": 34,
       "proc": 34,
       "seal": 42,
@@ -6213,12 +6309,12 @@ var data = {
     "68": {
       "index": 68,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 85,
+      "base_index": 87,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 521,
-      "a": 21,
-      "b": 33,
+      "weapon": 524,
+      "a": 22,
+      "b": 34,
       "c": 38,
       "proc": 9,
       "seal": 29,
@@ -6227,11 +6323,11 @@ var data = {
     "69": {
       "index": 69,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 85,
+      "base_index": 87,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 521,
-      "a": 46,
+      "weapon": 524,
+      "a": 47,
       "b": 3,
       "c": 38,
       "proc": 9,
@@ -6241,12 +6337,12 @@ var data = {
     "70": {
       "index": 70,
       "name": "Ike (Young Mercenary)",
-      "base_index": 87,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 368,
-      "a": 46,
-      "b": 33,
+      "weapon": 370,
+      "a": 47,
+      "b": 34,
       "c": 31,
       "proc": 2,
       "seal": 29,
@@ -6255,11 +6351,11 @@ var data = {
     "71": {
       "index": 71,
       "name": "Inigo (Indigo Dancer)",
-      "base_index": 88,
+      "base_index": 90,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 236,
-      "a": 52,
+      "weapon": 238,
+      "a": 53,
       "b": 6,
       "c": 31,
       "proc": 19,
@@ -6269,12 +6365,12 @@ var data = {
     "72": {
       "index": 72,
       "name": "Innes (Regal Strategician)",
-      "base_index": 89,
+      "base_index": 91,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 352,
+      "weapon": 354,
       "a": 3,
-      "b": 22,
+      "b": 23,
       "c": 47,
       "proc": 28,
       "seal": 56,
@@ -6283,12 +6379,12 @@ var data = {
     "73": {
       "index": 73,
       "name": "Jaffar (Angel of Death)",
-      "base_index": 90,
+      "base_index": 92,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 134,
-      "a": 38,
-      "b": 32,
+      "weapon": 135,
+      "a": 39,
+      "b": 33,
       "c": 43,
       "proc": 32,
       "seal": 61,
@@ -6297,11 +6393,11 @@ var data = {
     "74": {
       "index": 74,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 92,
+      "base_index": 94,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 63,
-      "a": 15,
+      "weapon": 64,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -6311,12 +6407,12 @@ var data = {
     "75": {
       "index": 75,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 92,
+      "base_index": 94,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 241,
-      "a": 12,
-      "b": 47,
+      "weapon": 243,
+      "a": 13,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 13,
@@ -6325,11 +6421,11 @@ var data = {
     "76": {
       "index": 76,
       "name": "Jeorge (Perfect Shot)",
-      "base_index": 94,
+      "base_index": 96,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 362,
-      "a": 38,
+      "weapon": 364,
+      "a": 39,
       "b": 8,
       "c": 31,
       "proc": 32,
@@ -6339,12 +6435,12 @@ var data = {
     "77": {
       "index": 77,
       "name": "Julia (Naga's Blood)",
-      "base_index": 96,
+      "base_index": 98,
       "boon": "Res",
       "bane": "Def",
-      "weapon": 143,
-      "a": 55,
-      "b": 33,
+      "weapon": 144,
+      "a": 56,
+      "b": 34,
       "c": 2,
       "proc": 18,
       "seal": 29,
@@ -6353,12 +6449,12 @@ var data = {
     "78": {
       "index": 78,
       "name": "Julia (Naga's Blood)",
-      "base_index": 96,
+      "base_index": 98,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 143,
-      "a": 15,
-      "b": 25,
+      "weapon": 144,
+      "a": 16,
+      "b": 26,
       "c": 41,
       "proc": 18,
       "seal": 6,
@@ -6367,11 +6463,11 @@ var data = {
     "79": {
       "index": 79,
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 97,
+      "base_index": 99,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 366,
-      "a": 50,
+      "weapon": 368,
+      "a": 51,
       "b": 8,
       "c": 43,
       "proc": 19,
@@ -6381,12 +6477,12 @@ var data = {
     "80": {
       "index": 80,
       "name": "L'Arachel (Princess of Light)",
-      "base_index": 101,
+      "base_index": 103,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 32,
-      "a": 38,
-      "b": 13,
+      "weapon": 33,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -6395,12 +6491,12 @@ var data = {
     "81": {
       "index": 81,
       "name": "L'Arachel (Princess of Light)",
-      "base_index": 101,
+      "base_index": 103,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 277,
-      "a": 50,
-      "b": 13,
+      "weapon": 279,
+      "a": 51,
+      "b": 14,
       "c": 32,
       "proc": 32,
       "seal": 65,
@@ -6409,12 +6505,12 @@ var data = {
     "82": {
       "index": 82,
       "name": "Leo (Sorcerous Prince)",
-      "base_index": 106,
+      "base_index": 108,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 370,
-      "a": 15,
-      "b": 45,
+      "weapon": 372,
+      "a": 16,
+      "b": 46,
       "c": 32,
       "proc": 19,
       "seal": 6,
@@ -6423,12 +6519,12 @@ var data = {
     "83": {
       "index": 83,
       "name": "Lilina (Blush of Youth)",
-      "base_index": 108,
+      "base_index": 110,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 230,
-      "a": 38,
-      "b": 13,
+      "weapon": 232,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -6437,12 +6533,12 @@ var data = {
     "84": {
       "index": 84,
       "name": "Linde (Light Mage)",
-      "base_index": 110,
+      "base_index": 112,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 32,
-      "a": 50,
-      "b": 13,
+      "weapon": 33,
+      "a": 51,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 65,
@@ -6451,12 +6547,12 @@ var data = {
     "85": {
       "index": 85,
       "name": "Lucina (Brave Princess)",
-      "base_index": 115,
+      "base_index": 117,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 207,
-      "a": 46,
-      "b": 33,
+      "weapon": 209,
+      "a": 47,
+      "b": 34,
       "c": 18,
       "proc": 29,
       "seal": 13,
@@ -6465,12 +6561,12 @@ var data = {
     "86": {
       "index": 86,
       "name": "Lucina (Future Witness)",
-      "base_index": 116,
+      "base_index": 118,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 170,
+      "weapon": 172,
       "a": 5,
-      "b": 36,
+      "b": 37,
       "c": 31,
       "proc": 32,
       "seal": 42,
@@ -6479,12 +6575,12 @@ var data = {
     "87": {
       "index": 87,
       "name": "Lukas (Sharp Soldier)",
-      "base_index": 119,
+      "base_index": 121,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 479,
-      "a": 46,
-      "b": 22,
+      "weapon": 482,
+      "a": 47,
+      "b": 23,
       "c": 31,
       "proc": 9,
       "seal": 56,
@@ -6493,12 +6589,12 @@ var data = {
     "88": {
       "index": 88,
       "name": "Lute (Prodigy)",
-      "base_index": 121,
+      "base_index": 123,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 524,
-      "a": 50,
-      "b": 13,
+      "weapon": 527,
+      "a": 51,
+      "b": 14,
       "c": 41,
       "proc": 32,
       "seal": 65,
@@ -6507,12 +6603,12 @@ var data = {
     "89": {
       "index": 89,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 342,
-      "a": 50,
-      "b": 37,
+      "weapon": 344,
+      "a": 51,
+      "b": 38,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -6521,11 +6617,11 @@ var data = {
     "90": {
       "index": 90,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 188,
-      "a": 38,
+      "weapon": 190,
+      "a": 39,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -6535,12 +6631,12 @@ var data = {
     "91": {
       "index": 91,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 63,
-      "a": 38,
-      "b": 37,
+      "weapon": 64,
+      "a": 39,
+      "b": 38,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -6549,12 +6645,12 @@ var data = {
     "92": {
       "index": 92,
       "name": "Lyn (Lady of the Plains)",
-      "base_index": 124,
+      "base_index": 126,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 499,
-      "a": 38,
-      "b": 53,
+      "weapon": 502,
+      "a": 39,
+      "b": 54,
       "c": 31,
       "proc": 34,
       "seal": 65,
@@ -6563,12 +6659,12 @@ var data = {
     "93": {
       "index": 93,
       "name": "Maria (Minerva's Sister)",
-      "base_index": 128,
+      "base_index": 130,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 174,
+      "weapon": 176,
       "a": 4,
-      "b": 54,
+      "b": 55,
       "c": 44,
       "proc": 33,
       "seal": 6,
@@ -6577,12 +6673,12 @@ var data = {
     "94": {
       "index": 94,
       "name": "Mia (Lady of Blades)",
-      "base_index": 135,
+      "base_index": 137,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 384,
-      "a": 38,
-      "b": 13,
+      "weapon": 386,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -6591,12 +6687,12 @@ var data = {
     "95": {
       "index": 95,
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 136,
+      "base_index": 138,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 513,
-      "a": 22,
-      "b": 22,
+      "weapon": 516,
+      "a": 23,
+      "b": 23,
       "c": 41,
       "proc": 19,
       "seal": 56,
@@ -6605,40 +6701,40 @@ var data = {
     "96": {
       "index": 96,
       "name": "Michalis (Ambitious King)",
-      "base_index": 137,
+      "base_index": 139,
       "boon": "None",
       "bane": "None",
-      "weapon": 262,
-      "a": 21,
-      "b": 33,
+      "weapon": 264,
+      "a": 22,
+      "b": 34,
       "c": 28,
-      "proc": 37,
+      "proc": 34,
       "seal": 48,
       "reduce_cd": 0
     },
     "97": {
       "index": 97,
       "name": "Michalis (Ambitious King)",
-      "base_index": 137,
+      "base_index": 139,
       "boon": "None",
       "bane": "None",
-      "weapon": 262,
-      "a": 47,
-      "b": 22,
+      "weapon": 264,
+      "a": 48,
+      "b": 23,
       "c": 28,
-      "proc": 37,
+      "proc": 34,
       "seal": 56,
       "reduce_cd": 0
     },
     "98": {
       "index": 98,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 138,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 264,
-      "a": 38,
-      "b": 13,
+      "weapon": 266,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 17,
       "seal": 42,
@@ -6647,12 +6743,12 @@ var data = {
     "99": {
       "index": 99,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 138,
+      "base_index": 140,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 262,
-      "a": 38,
-      "b": 13,
+      "weapon": 264,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 34,
       "seal": 65,
@@ -6661,12 +6757,12 @@ var data = {
     "100": {
       "index": 100,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 140,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 218,
-      "a": 21,
-      "b": 33,
+      "weapon": 220,
+      "a": 22,
+      "b": 34,
       "c": 34,
       "proc": 19,
       "seal": 48,
@@ -6675,12 +6771,12 @@ var data = {
     "101": {
       "index": 101,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 140,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 218,
-      "a": 21,
-      "b": 33,
+      "weapon": 220,
+      "a": 22,
+      "b": 34,
       "c": 33,
       "proc": 19,
       "seal": 13,
@@ -6689,12 +6785,12 @@ var data = {
     "102": {
       "index": 102,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 145,
+      "base_index": 147,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 326,
-      "a": 52,
-      "b": 52,
+      "weapon": 328,
+      "a": 53,
+      "b": 53,
       "c": 22,
       "proc": 19,
       "seal": 56,
@@ -6703,12 +6799,12 @@ var data = {
     "103": {
       "index": 103,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 145,
+      "base_index": 147,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 326,
-      "a": 52,
-      "b": 45,
+      "weapon": 328,
+      "a": 53,
+      "b": 46,
       "c": 22,
       "proc": 28,
       "seal": 65,
@@ -6717,12 +6813,12 @@ var data = {
     "104": {
       "index": 104,
       "name": "Nino (Pious Mage)",
-      "base_index": 146,
+      "base_index": 148,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 230,
-      "a": 29,
-      "b": 13,
+      "weapon": 232,
+      "a": 30,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 65,
@@ -6731,12 +6827,12 @@ var data = {
     "105": {
       "index": 105,
       "name": "Nowi (Eternal Witch)",
-      "base_index": 147,
+      "base_index": 149,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 38,
-      "b": 13,
+      "weapon": 372,
+      "a": 39,
+      "b": 14,
       "c": 34,
       "proc": 19,
       "seal": 65,
@@ -6745,12 +6841,12 @@ var data = {
     "106": {
       "index": 106,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 38,
       "proc": 9,
       "seal": 29,
@@ -6759,12 +6855,12 @@ var data = {
     "107": {
       "index": 107,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 38,
       "proc": 19,
       "seal": 29,
@@ -6773,12 +6869,12 @@ var data = {
     "108": {
       "index": 108,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 38,
       "proc": 34,
       "seal": 29,
@@ -6787,12 +6883,12 @@ var data = {
     "109": {
       "index": 109,
       "name": "Raven (Peerless Fighter)",
-      "base_index": 161,
+      "base_index": 163,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
-      "a": 38,
-      "b": 13,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 42,
@@ -6801,12 +6897,12 @@ var data = {
     "110": {
       "index": 110,
       "name": "Raven (Peerless Fighter)",
-      "base_index": 161,
+      "base_index": 163,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
-      "a": 29,
-      "b": 13,
+      "a": 30,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 42,
@@ -6815,12 +6911,12 @@ var data = {
     "111": {
       "index": 111,
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 163,
+      "base_index": 165,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 142,
-      "a": 15,
-      "b": 25,
+      "weapon": 143,
+      "a": 16,
+      "b": 26,
       "c": 32,
       "proc": 34,
       "seal": 57,
@@ -6829,12 +6925,12 @@ var data = {
     "112": {
       "index": 112,
       "name": "Robin (High Deliverer)",
-      "base_index": 166,
+      "base_index": 169,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 38,
-      "a": 52,
-      "b": 45,
+      "weapon": 39,
+      "a": 53,
+      "b": 46,
       "c": 31,
       "proc": 9,
       "seal": 56,
@@ -6843,12 +6939,12 @@ var data = {
     "113": {
       "index": 113,
       "name": "Roy (Brave Lion)",
-      "base_index": 170,
+      "base_index": 173,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 40,
-      "a": 38,
-      "b": 13,
+      "weapon": 41,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 17,
       "seal": 6,
@@ -6857,12 +6953,12 @@ var data = {
     "114": {
       "index": 114,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 178,
+      "base_index": 181,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 105,
-      "a": 15,
-      "b": 33,
+      "weapon": 106,
+      "a": 16,
+      "b": 34,
       "c": 15,
       "proc": 14,
       "seal": 6,
@@ -6871,12 +6967,12 @@ var data = {
     "115": {
       "index": 115,
       "name": "Shiro (Raw Talent)",
-      "base_index": 188,
+      "base_index": 191,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 66,
-      "a": 46,
-      "b": 33,
+      "weapon": 67,
+      "a": 47,
+      "b": 34,
       "c": 14,
       "proc": 29,
       "seal": 13,
@@ -6885,12 +6981,12 @@ var data = {
     "116": {
       "index": 116,
       "name": "Siegbert (Future King)",
-      "base_index": 189,
+      "base_index": 192,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 130,
-      "a": 38,
-      "b": 13,
+      "weapon": 131,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 32,
       "seal": 42,
@@ -6899,12 +6995,12 @@ var data = {
     "117": {
       "index": 117,
       "name": "Sigurd (Holy Knight)",
-      "base_index": 190,
+      "base_index": 193,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 144,
-      "a": 13,
-      "b": 10,
+      "weapon": 145,
+      "a": 14,
+      "b": 11,
       "c": 32,
       "proc": 9,
       "seal": 13,
@@ -6913,12 +7009,12 @@ var data = {
     "118": {
       "index": 118,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 191,
+      "base_index": 194,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 190,
-      "a": 38,
-      "b": 45,
+      "weapon": 192,
+      "a": 39,
+      "b": 46,
       "c": 31,
       "proc": 32,
       "seal": 65,
@@ -6927,12 +7023,12 @@ var data = {
     "119": {
       "index": 119,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 193,
+      "base_index": 196,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 376,
-      "a": 52,
-      "b": 33,
+      "weapon": 378,
+      "a": 53,
+      "b": 34,
       "c": 31,
       "proc": 14,
       "seal": 29,
@@ -6941,12 +7037,12 @@ var data = {
     "120": {
       "index": 120,
       "name": "Takumi (Wild Card)",
-      "base_index": 201,
+      "base_index": 205,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 204,
+      "weapon": 206,
       "a": 5,
-      "b": 13,
+      "b": 14,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -6955,12 +7051,12 @@ var data = {
     "121": {
       "index": 121,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 481,
-      "a": 38,
-      "b": 13,
+      "weapon": 484,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 17,
       "seal": 42,
@@ -6969,12 +7065,12 @@ var data = {
     "122": {
       "index": 122,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 38,
-      "b": 13,
+      "weapon": 65,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 6,
@@ -6983,12 +7079,12 @@ var data = {
     "123": {
       "index": 123,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 189,
-      "a": 38,
-      "b": 23,
+      "weapon": 191,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 65,
@@ -6997,12 +7093,12 @@ var data = {
     "124": {
       "index": 124,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 523,
-      "a": 38,
-      "b": 13,
+      "weapon": 526,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 65,
@@ -7011,12 +7107,12 @@ var data = {
     "125": {
       "index": 125,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 523,
-      "a": 13,
-      "b": 33,
+      "weapon": 526,
+      "a": 14,
+      "b": 34,
       "c": 28,
       "proc": 9,
       "seal": 13,
@@ -7025,12 +7121,12 @@ var data = {
     "126": {
       "index": 126,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 203,
+      "base_index": 207,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 70,
-      "a": 12,
-      "b": 47,
+      "weapon": 71,
+      "a": 13,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 2,
@@ -7039,11 +7135,11 @@ var data = {
     "127": {
       "index": 127,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 203,
+      "base_index": 207,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 370,
-      "a": 15,
+      "weapon": 372,
+      "a": 16,
       "b": 5,
       "c": 30,
       "proc": 19,
@@ -7053,12 +7149,12 @@ var data = {
     "128": {
       "index": 128,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 204,
+      "base_index": 208,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 38,
-      "b": 13,
+      "weapon": 372,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 62,
@@ -7067,12 +7163,12 @@ var data = {
     "129": {
       "index": 129,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 13,
@@ -7081,12 +7177,12 @@ var data = {
     "130": {
       "index": 130,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -7095,12 +7191,12 @@ var data = {
     "131": {
       "index": 131,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -7109,12 +7205,12 @@ var data = {
     "132": {
       "index": 132,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -7123,12 +7219,12 @@ var data = {
     "133": {
       "index": 133,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -7137,12 +7233,12 @@ var data = {
     "134": {
       "index": 134,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 22,
       "proc": 34,
       "seal": 29,
@@ -7151,12 +7247,12 @@ var data = {
     "135": {
       "index": 135,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 208,
+      "base_index": 212,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 152,
-      "a": 21,
-      "b": 22,
+      "weapon": 153,
+      "a": 22,
+      "b": 23,
       "c": 32,
       "proc": 19,
       "seal": 56,
@@ -7165,11 +7261,11 @@ var data = {
     "136": {
       "index": 136,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 217,
+      "base_index": 221,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
-      "a": 46,
+      "a": 47,
       "b": 5,
       "c": 59,
       "proc": 4,
@@ -9407,7 +9503,7 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 238,
+      "evolves_into": 240,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
@@ -9854,7 +9950,7 @@ var data = {
       "range": 2,
       "type": "BT",
       "char_lock": 1,
-      "evolves_into": 123,
+      "evolves_into": 124,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
@@ -10905,6 +11001,155 @@ var data = {
     },
     "25": {
       "index": 25,
+      "alt_name": "Beloved Zofia",
+      "name": "Beloved Zofia",
+      "atk_boost_perm": 16,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 3,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "breaker": 0,
+      "breaker_thresh": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 4,
+      "spd_boost_full_hp": 4,
+      "def_boost_full_hp": 4,
+      "res_boost_full_hp": 4,
+      "burn_full_hp": 4,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_atk_off_bonus": 0,
+      "distant_atk_def_bonus": 0,
+      "distant_spd_off_bonus": 0,
+      "distant_spd_def_bonus": 0,
+      "distant_def_off_bonus": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_off_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "hit_1rng_weaker_def_stat": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
+      "thani_mitigation": 0,
+      "great_flame_def_thresh": 0,
+      "felicias_plate_cd_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "double_lion": 0,
+      "special_atk_bonus": 0,
+      "special_spd_bonus": 0,
+      "special_def_bonus": 0,
+      "special_res_bonus": 0,
+      "special_stat_bonus": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "cond_eff_text": 0,
+      "desc": "Grants Def+3. If unit's HP = 100% HP at start of combat, unit gets Atk/Spd/Def/Res+4, but if unit attacked, unit takes 4 damage after combat."
+    },
+    "26": {
+      "index": 26,
       "alt_name": "Berkut's Lance+",
       "name": "Berkut's Lance+",
       "atk_boost_perm": 14,
@@ -11052,8 +11297,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Res+4 when the unit is under attack."
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "alt_name": "Berkut's Lance+ (Atk)",
       "name": "Berkut's Lance+ (Atk)",
       "atk_boost_perm": 16,
@@ -11197,12 +11442,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 25,
+      "upgraded_from": 26,
       "cond_eff_text": 0,
       "desc": "Grants Res+7 when unit is attacked."
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "alt_name": "Berkut's Lance+ (Def)",
       "name": "Berkut's Lance+ (Def)",
       "atk_boost_perm": 14,
@@ -11346,12 +11591,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 25,
+      "upgraded_from": 26,
       "cond_eff_text": 0,
       "desc": "Grants Res+7 when unit is attacked."
     },
-    "28": {
-      "index": 28,
+    "29": {
+      "index": 29,
       "alt_name": "Berkut's Lance+ (Res)",
       "name": "Berkut's Lance+ (Res)",
       "atk_boost_perm": 14,
@@ -11495,12 +11740,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 25,
+      "upgraded_from": 26,
       "cond_eff_text": 0,
       "desc": "Grants Res+7 when unit is attacked."
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "alt_name": "Berkut's Lance+ (Spd)",
       "name": "Berkut's Lance+ (Spd)",
       "atk_boost_perm": 14,
@@ -11644,12 +11889,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 25,
+      "upgraded_from": 26,
       "cond_eff_text": 0,
       "desc": "Grants Res+7 when unit is attacked."
     },
-    "30": {
-      "index": 30,
+    "31": {
+      "index": 31,
       "alt_name": "Berserk Armads",
       "name": "Berserk Armads",
       "atk_boost_perm": 16,
@@ -11797,8 +12042,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). If unit's HP &leq; 70% and Special triggers by attacking, Special cooldown count-1 at start of turn. Deals +10 damage when Special triggers."
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "alt_name": "Binding Blade",
       "name": "Binding Blade",
       "atk_boost_perm": 16,
@@ -11946,8 +12191,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 when this unit is attacked."
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "alt_name": "Bl\xE1rblade+",
       "name": "Bl\xE1rblade+",
       "atk_boost_perm": 13,
@@ -12095,8 +12340,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "alt_name": "Bl\xE1rowl+",
       "name": "Bl\xE1rowl+",
       "atk_boost_perm": 10,
@@ -12244,8 +12489,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "alt_name": "Bl\xE1rowl+ (Atk)",
       "name": "Bl\xE1rowl+ (Atk)",
       "atk_boost_perm": 12,
@@ -12389,12 +12634,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 33,
+      "upgraded_from": 34,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "alt_name": "Bl\xE1rowl+ (Def)",
       "name": "Bl\xE1rowl+ (Def)",
       "atk_boost_perm": 11,
@@ -12538,12 +12783,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 33,
+      "upgraded_from": 34,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "alt_name": "Bl\xE1rowl+ (Res)",
       "name": "Bl\xE1rowl+ (Res)",
       "atk_boost_perm": 11,
@@ -12687,12 +12932,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 33,
+      "upgraded_from": 34,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "alt_name": "Bl\xE1rowl+ (Spd)",
       "name": "Bl\xE1rowl+ (Spd)",
       "atk_boost_perm": 11,
@@ -12836,12 +13081,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 33,
+      "upgraded_from": 34,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "alt_name": "Bl\xE1rraven+",
       "name": "Bl\xE1rraven+",
       "atk_boost_perm": 11,
@@ -12989,8 +13234,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants weapon advantage vs. colorless foes."
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "alt_name": "Bl\xE1rwolf+",
       "name": "Bl\xE1rwolf+",
       "atk_boost_perm": 10,
@@ -13138,8 +13383,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "alt_name": "Blazing Durandal",
       "name": "Blazing Durandal",
       "atk_boost_perm": 19,
@@ -13282,13 +13527,13 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 145,
+      "evolved_from": 146,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants Atk+3. If unit's Atk &gt; foe's, unit gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)"
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "alt_name": "Blessed Bouquet+",
       "name": "Blessed Bouquet+",
       "atk_boost_perm": 12,
@@ -13436,8 +13681,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "alt_name": "Blessed Bouquet+ (Atk)",
       "name": "Blessed Bouquet+ (Atk)",
       "atk_boost_perm": 13,
@@ -13581,12 +13826,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 41,
+      "upgraded_from": 42,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "alt_name": "Blessed Bouquet+ (Def)",
       "name": "Blessed Bouquet+ (Def)",
       "atk_boost_perm": 12,
@@ -13730,12 +13975,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 41,
+      "upgraded_from": 42,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "alt_name": "Blessed Bouquet+ (Res)",
       "name": "Blessed Bouquet+ (Res)",
       "atk_boost_perm": 12,
@@ -13879,12 +14124,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 41,
+      "upgraded_from": 42,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "alt_name": "Blessed Bouquet+ (Spd)",
       "name": "Blessed Bouquet+ (Spd)",
       "atk_boost_perm": 12,
@@ -14028,12 +14273,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 41,
+      "upgraded_from": 42,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "alt_name": "Blizzard",
       "name": "Blizzard",
       "atk_boost_perm": 14,
@@ -14181,8 +14426,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Res+3. Grants bonus to unit's Atk equal to total penalties on foe during combat."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "alt_name": "Blue Egg+",
       "name": "Blue Egg+",
       "atk_boost_perm": 11,
@@ -14330,8 +14575,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "alt_name": "Blue Egg+ (Atk)",
       "name": "Blue Egg+ (Atk)",
       "atk_boost_perm": 13,
@@ -14475,12 +14720,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 47,
+      "upgraded_from": 48,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "alt_name": "Blue Egg+ (Def)",
       "name": "Blue Egg+ (Def)",
       "atk_boost_perm": 12,
@@ -14624,12 +14869,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 47,
+      "upgraded_from": 48,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "alt_name": "Blue Egg+ (Res)",
       "name": "Blue Egg+ (Res)",
       "atk_boost_perm": 12,
@@ -14773,12 +15018,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 47,
+      "upgraded_from": 48,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "alt_name": "Blue Egg+ (Spd)",
       "name": "Blue Egg+ (Spd)",
       "atk_boost_perm": 12,
@@ -14922,12 +15167,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 47,
+      "upgraded_from": 48,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "alt_name": "Blue Gift+",
       "name": "Blue Gift+",
       "atk_boost_perm": 12,
@@ -15075,8 +15320,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "alt_name": "Blue Gift+ (Atk)",
       "name": "Blue Gift+ (Atk)",
       "atk_boost_perm": 13,
@@ -15220,12 +15465,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 52,
+      "upgraded_from": 53,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "alt_name": "Blue Gift+ (Def)",
       "name": "Blue Gift+ (Def)",
       "atk_boost_perm": 12,
@@ -15369,12 +15614,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 52,
+      "upgraded_from": 53,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "alt_name": "Blue Gift+ (Res)",
       "name": "Blue Gift+ (Res)",
       "atk_boost_perm": 12,
@@ -15518,12 +15763,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 52,
+      "upgraded_from": 53,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "alt_name": "Blue Gift+ (Spd)",
       "name": "Blue Gift+ (Spd)",
       "atk_boost_perm": 12,
@@ -15667,12 +15912,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 52,
+      "upgraded_from": 53,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "alt_name": "Bolganone+",
       "name": "Bolganone+",
       "atk_boost_perm": 13,
@@ -15820,8 +16065,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "alt_name": "Bolganone+ (Atk)",
       "name": "Bolganone+ (Atk)",
       "atk_boost_perm": 15,
@@ -15965,12 +16210,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57,
+      "upgraded_from": 58,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "alt_name": "Bolganone+ (Def)",
       "name": "Bolganone+ (Def)",
       "atk_boost_perm": 14,
@@ -16114,12 +16359,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57,
+      "upgraded_from": 58,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "alt_name": "Bolganone+ (Res)",
       "name": "Bolganone+ (Res)",
       "atk_boost_perm": 14,
@@ -16263,12 +16508,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57,
+      "upgraded_from": 58,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "alt_name": "Bolganone+ (Spd)",
       "name": "Bolganone+ (Spd)",
       "atk_boost_perm": 14,
@@ -16412,12 +16657,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 57,
+      "upgraded_from": 58,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "alt_name": "Brave Axe+",
       "name": "Brave Axe+",
       "atk_boost_perm": 8,
@@ -16565,8 +16810,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Spd-5. Attack twice when initiating combat."
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "alt_name": "Brave Bow+",
       "name": "Brave Bow+",
       "atk_boost_perm": 7,
@@ -16714,8 +16959,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Spd-5. Effective against flying units. Attacks twice if unit initiates combat."
     },
-    "64": {
-      "index": 64,
+    "65": {
+      "index": 65,
       "alt_name": "Brave Lance+",
       "name": "Brave Lance+",
       "atk_boost_perm": 8,
@@ -16863,8 +17108,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Spd-5. Attack twice when initiating combat."
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "alt_name": "Brave Sword+",
       "name": "Brave Sword+",
       "atk_boost_perm": 8,
@@ -17012,8 +17257,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Spd-5. Attack twice when initiating combat."
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "alt_name": "Bright Naginata",
       "name": "Bright Naginata",
       "atk_boost_perm": 16,
@@ -17161,8 +17406,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Def+4 during combat if foe initiates combat."
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "alt_name": "Brynhildr",
       "name": "Brynhildr",
       "atk_boost_perm": 14,
@@ -17310,8 +17555,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, restricts foe's next-turn movement to 1 space or less."
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "alt_name": "Candelabra+",
       "name": "Candelabra+",
       "atk_boost_perm": 12,
@@ -17459,8 +17704,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "alt_name": "Candelabra+ (Atk)",
       "name": "Candelabra+ (Atk)",
       "atk_boost_perm": 13,
@@ -17604,12 +17849,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68,
+      "upgraded_from": 69,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "alt_name": "Candelabra+ (Def)",
       "name": "Candelabra+ (Def)",
       "atk_boost_perm": 12,
@@ -17753,12 +17998,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68,
+      "upgraded_from": 69,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "alt_name": "Candelabra+ (Res)",
       "name": "Candelabra+ (Res)",
       "atk_boost_perm": 12,
@@ -17902,12 +18147,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68,
+      "upgraded_from": 69,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "alt_name": "Candelabra+ (Spd)",
       "name": "Candelabra+ (Spd)",
       "atk_boost_perm": 12,
@@ -18051,12 +18296,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 68,
+      "upgraded_from": 69,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat."
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "alt_name": "Candlelight+",
       "name": "Candlelight+",
       "atk_boost_perm": 11,
@@ -18204,8 +18449,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions."
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "alt_name": "Candlelight+ (Dazzling)",
       "name": "Candlelight+ (Dazzling)",
       "atk_boost_perm": 11,
@@ -18349,12 +18594,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73,
+      "upgraded_from": 74,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions. The enemy cannot counterattack."
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "alt_name": "Candlelight+ (Wrathful)",
       "name": "Candlelight+ (Wrathful)",
       "atk_boost_perm": 11,
@@ -18498,12 +18743,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 73,
+      "upgraded_from": 74,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts status on target and foes within 2 spaces of target preventing counterattacks through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "alt_name": "Carrot Axe+",
       "name": "Carrot Axe+",
       "atk_boost_perm": 13,
@@ -18651,8 +18896,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "alt_name": "Carrot Axe+ (Atk)",
       "name": "Carrot Axe+ (Atk)",
       "atk_boost_perm": 16,
@@ -18796,12 +19041,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 76,
+      "upgraded_from": 77,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
       "alt_name": "Carrot Axe+ (Def)",
       "name": "Carrot Axe+ (Def)",
       "atk_boost_perm": 14,
@@ -18945,12 +19190,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 76,
+      "upgraded_from": 77,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "79": {
-      "index": 79,
+    "80": {
+      "index": 80,
       "alt_name": "Carrot Axe+ (Res)",
       "name": "Carrot Axe+ (Res)",
       "atk_boost_perm": 14,
@@ -19094,12 +19339,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 76,
+      "upgraded_from": 77,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "80": {
-      "index": 80,
+    "81": {
+      "index": 81,
       "alt_name": "Carrot Axe+ (Spd)",
       "name": "Carrot Axe+ (Spd)",
       "atk_boost_perm": 14,
@@ -19243,12 +19488,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 76,
+      "upgraded_from": 77,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "81": {
-      "index": 81,
+    "82": {
+      "index": 82,
       "alt_name": "Carrot Lance+",
       "name": "Carrot Lance+",
       "atk_boost_perm": 13,
@@ -19396,8 +19641,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
-    "82": {
-      "index": 82,
+    "83": {
+      "index": 83,
       "alt_name": "Carrot Lance+ (Atk)",
       "name": "Carrot Lance+ (Atk)",
       "atk_boost_perm": 16,
@@ -19541,12 +19786,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 81,
+      "upgraded_from": 82,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "83": {
-      "index": 83,
+    "84": {
+      "index": 84,
       "alt_name": "Carrot Lance+ (Def)",
       "name": "Carrot Lance+ (Def)",
       "atk_boost_perm": 14,
@@ -19690,12 +19935,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 81,
+      "upgraded_from": 82,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "84": {
-      "index": 84,
+    "85": {
+      "index": 85,
       "alt_name": "Carrot Lance+ (Res)",
       "name": "Carrot Lance+ (Res)",
       "atk_boost_perm": 14,
@@ -19839,12 +20084,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 81,
+      "upgraded_from": 82,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "alt_name": "Carrot Lance+ (Spd)",
       "name": "Carrot Lance+ (Spd)",
       "atk_boost_perm": 14,
@@ -19988,12 +20233,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 81,
+      "upgraded_from": 82,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "alt_name": "Casa Blanca+",
       "name": "Casa Blanca+",
       "atk_boost_perm": 14,
@@ -20141,8 +20386,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "alt_name": "Casa Blanca+ (Atk)",
       "name": "Casa Blanca+ (Atk)",
       "atk_boost_perm": 16,
@@ -20286,12 +20531,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 86,
+      "upgraded_from": 87,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "alt_name": "Casa Blanca+ (Def)",
       "name": "Casa Blanca+ (Def)",
       "atk_boost_perm": 14,
@@ -20435,12 +20680,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 86,
+      "upgraded_from": 87,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "alt_name": "Casa Blanca+ (Res)",
       "name": "Casa Blanca+ (Res)",
       "atk_boost_perm": 14,
@@ -20584,12 +20829,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 86,
+      "upgraded_from": 87,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "alt_name": "Casa Blanca+ (Spd)",
       "name": "Casa Blanca+ (Spd)",
       "atk_boost_perm": 14,
@@ -20733,12 +20978,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 86,
+      "upgraded_from": 87,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "alt_name": "Clarisse's Bow+",
       "name": "Clarisse's Bow+",
       "atk_boost_perm": 11,
@@ -20886,8 +21131,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions. Effective against flying units."
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "alt_name": "Clarisse's Bow+ (Atk)",
       "name": "Clarisse's Bow+ (Atk)",
       "atk_boost_perm": 12,
@@ -21031,12 +21276,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 91,
+      "upgraded_from": 92,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "alt_name": "Clarisse's Bow+ (Def)",
       "name": "Clarisse's Bow+ (Def)",
       "atk_boost_perm": 11,
@@ -21180,12 +21425,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 91,
+      "upgraded_from": 92,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "alt_name": "Clarisse's Bow+ (Res)",
       "name": "Clarisse's Bow+ (Res)",
       "atk_boost_perm": 11,
@@ -21329,12 +21574,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 91,
+      "upgraded_from": 92,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "alt_name": "Clarisse's Bow+ (Spd)",
       "name": "Clarisse's Bow+ (Spd)",
       "atk_boost_perm": 11,
@@ -21478,12 +21723,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 91,
+      "upgraded_from": 92,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions."
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "alt_name": "Cupid Arrow+",
       "name": "Cupid Arrow+",
       "atk_boost_perm": 12,
@@ -21631,8 +21876,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "alt_name": "Cupid Arrow+ (Atk)",
       "name": "Cupid Arrow+ (Atk)",
       "atk_boost_perm": 13,
@@ -21776,12 +22021,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 96,
+      "upgraded_from": 97,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "alt_name": "Cupid Arrow+ (Def)",
       "name": "Cupid Arrow+ (Def)",
       "atk_boost_perm": 12,
@@ -21925,12 +22170,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 96,
+      "upgraded_from": 97,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "alt_name": "Cupid Arrow+ (Res)",
       "name": "Cupid Arrow+ (Res)",
       "atk_boost_perm": 12,
@@ -22074,12 +22319,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 96,
+      "upgraded_from": 97,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "alt_name": "Cupid Arrow+ (Spd)",
       "name": "Cupid Arrow+ (Spd)",
       "atk_boost_perm": 12,
@@ -22223,12 +22468,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 96,
+      "upgraded_from": 97,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
       "alt_name": "Cursed Lance",
       "name": "Cursed Lance",
       "atk_boost_perm": 18,
@@ -22376,8 +22621,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd+2 and accelerates Special trigger (cooldown count-1). Unit takes 4 damage after combat."
     },
-    "102": {
-      "index": 102,
+    "103": {
+      "index": 103,
       "alt_name": "Cymbeline",
       "name": "Cymbeline",
       "atk_boost_perm": 14,
@@ -22525,8 +22770,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
-    "103": {
-      "index": 103,
+    "104": {
+      "index": 104,
       "alt_name": "Cymbeline (Atk)",
       "name": "Cymbeline (Atk)",
       "atk_boost_perm": 15,
@@ -22670,12 +22915,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 102,
+      "upgraded_from": 103,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
-    "104": {
-      "index": 104,
+    "105": {
+      "index": 105,
       "alt_name": "Cymbeline (Def)",
       "name": "Cymbeline (Def)",
       "atk_boost_perm": 14,
@@ -22819,12 +23064,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 102,
+      "upgraded_from": 103,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
-    "105": {
-      "index": 105,
+    "106": {
+      "index": 106,
       "alt_name": "Cymbeline (Eff)",
       "name": "Cymbeline (Eff)",
       "atk_boost_perm": 14,
@@ -22968,12 +23213,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 102,
+      "upgraded_from": 103,
       "cond_eff_text": "Grants Atk/Res +5 during combat if within 2 spaces of a flying ally.",
       "desc": "Grants allies within 2 spaces Atk+3 during combat. Grants Atk/Res+5 during combat if within 2 spaces of a flying ally."
     },
-    "106": {
-      "index": 106,
+    "107": {
+      "index": 107,
       "alt_name": "Cymbeline (Res)",
       "name": "Cymbeline (Res)",
       "atk_boost_perm": 14,
@@ -23117,12 +23362,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 102,
+      "upgraded_from": 103,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
-    "107": {
-      "index": 107,
+    "108": {
+      "index": 108,
       "alt_name": "Cymbeline (Spd)",
       "name": "Cymbeline (Spd)",
       "atk_boost_perm": 14,
@@ -23266,12 +23511,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 102,
+      "upgraded_from": 103,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions after any combat this unit initiates."
     },
-    "108": {
-      "index": 108,
+    "109": {
+      "index": 109,
       "alt_name": "Dancer's Fan+",
       "name": "Dancer's Fan+",
       "atk_boost_perm": 10,
@@ -23419,8 +23664,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
     },
-    "109": {
-      "index": 109,
+    "110": {
+      "index": 110,
       "alt_name": "Dancer's Fan+ (Atk)",
       "name": "Dancer's Fan+ (Atk)",
       "atk_boost_perm": 13,
@@ -23564,12 +23809,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108,
+      "upgraded_from": 109,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "110": {
-      "index": 110,
+    "111": {
+      "index": 111,
       "alt_name": "Dancer's Fan+ (Def)",
       "name": "Dancer's Fan+ (Def)",
       "atk_boost_perm": 12,
@@ -23713,12 +23958,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108,
+      "upgraded_from": 109,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "111": {
-      "index": 111,
+    "112": {
+      "index": 112,
       "alt_name": "Dancer's Fan+ (Res)",
       "name": "Dancer's Fan+ (Res)",
       "atk_boost_perm": 12,
@@ -23862,12 +24107,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108,
+      "upgraded_from": 109,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "112": {
-      "index": 112,
+    "113": {
+      "index": 113,
       "alt_name": "Dancer's Fan+ (Spd)",
       "name": "Dancer's Fan+ (Spd)",
       "atk_boost_perm": 12,
@@ -24011,12 +24256,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 108,
+      "upgraded_from": 109,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat, restores 7 HP to adjacent allies after combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "113": {
-      "index": 113,
+    "114": {
+      "index": 114,
       "alt_name": "Dancer's Ring+",
       "name": "Dancer's Ring+",
       "atk_boost_perm": 12,
@@ -24164,8 +24409,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "114": {
-      "index": 114,
+    "115": {
+      "index": 115,
       "alt_name": "Dancer's Ring+ (Atk)",
       "name": "Dancer's Ring+ (Atk)",
       "atk_boost_perm": 13,
@@ -24309,12 +24554,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 113,
+      "upgraded_from": 114,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "115": {
-      "index": 115,
+    "116": {
+      "index": 116,
       "alt_name": "Dancer's Ring+ (Def)",
       "name": "Dancer's Ring+ (Def)",
       "atk_boost_perm": 12,
@@ -24458,12 +24703,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 113,
+      "upgraded_from": 114,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "116": {
-      "index": 116,
+    "117": {
+      "index": 117,
       "alt_name": "Dancer's Ring+ (Res)",
       "name": "Dancer's Ring+ (Res)",
       "atk_boost_perm": 12,
@@ -24607,12 +24852,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 113,
+      "upgraded_from": 114,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "117": {
-      "index": 117,
+    "118": {
+      "index": 118,
       "alt_name": "Dancer's Ring+ (Spd)",
       "name": "Dancer's Ring+ (Spd)",
       "atk_boost_perm": 12,
@@ -24756,12 +25001,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 113,
+      "upgraded_from": 114,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "118": {
-      "index": 118,
+    "119": {
+      "index": 119,
       "alt_name": "Dancer's Score+",
       "name": "Dancer's Score+",
       "atk_boost_perm": 12,
@@ -24909,8 +25154,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "119": {
-      "index": 119,
+    "120": {
+      "index": 120,
       "alt_name": "Dancer's Score+ (Atk)",
       "name": "Dancer's Score+ (Atk)",
       "atk_boost_perm": 13,
@@ -25054,12 +25299,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 118,
+      "upgraded_from": 119,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "120": {
-      "index": 120,
+    "121": {
+      "index": 121,
       "alt_name": "Dancer's Score+ (Def)",
       "name": "Dancer's Score+ (Def)",
       "atk_boost_perm": 12,
@@ -25203,12 +25448,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 118,
+      "upgraded_from": 119,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "121": {
-      "index": 121,
+    "122": {
+      "index": 122,
       "alt_name": "Dancer's Score+ (Res)",
       "name": "Dancer's Score+ (Res)",
       "atk_boost_perm": 12,
@@ -25352,12 +25597,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 118,
+      "upgraded_from": 119,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "122": {
-      "index": 122,
+    "123": {
+      "index": 123,
       "alt_name": "Dancer's Score+ (Spd)",
       "name": "Dancer's Score+ (Spd)",
       "atk_boost_perm": 12,
@@ -25501,12 +25746,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 118,
+      "upgraded_from": 119,
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, adjacent allies recover 7 HP after combat."
     },
-    "123": {
-      "index": 123,
+    "124": {
+      "index": 124,
       "alt_name": "Dark Aura",
       "name": "Dark Aura",
       "atk_boost_perm": 14,
@@ -25649,13 +25894,13 @@ var data = {
       "type": "BT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 123,
+      "evolved_from": 124,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies who use swords, axes, lances, or dragonstones Atk+6 through their next actions at the start of each turn."
     },
-    "124": {
-      "index": 124,
+    "125": {
+      "index": 125,
       "alt_name": "Dark Breath+",
       "name": "Dark Breath+",
       "atk_boost_perm": 13,
@@ -25803,8 +26048,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After this unit attacks, foes within 2 spaces of target suffer Atk/Spd-5 through their next actions."
     },
-    "125": {
-      "index": 125,
+    "126": {
+      "index": 126,
       "alt_name": "Dark Breath+ (Atk)",
       "name": "Dark Breath+ (Atk)",
       "atk_boost_perm": 16,
@@ -25948,12 +26193,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124,
+      "upgraded_from": 125,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "126": {
-      "index": 126,
+    "127": {
+      "index": 127,
       "alt_name": "Dark Breath+ (Def)",
       "name": "Dark Breath+ (Def)",
       "atk_boost_perm": 14,
@@ -26097,12 +26342,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124,
+      "upgraded_from": 125,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "127": {
-      "index": 127,
+    "128": {
+      "index": 128,
       "alt_name": "Dark Breath+ (Res)",
       "name": "Dark Breath+ (Res)",
       "atk_boost_perm": 14,
@@ -26246,12 +26491,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124,
+      "upgraded_from": 125,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "128": {
-      "index": 128,
+    "129": {
+      "index": 129,
       "alt_name": "Dark Breath+ (Spd)",
       "name": "Dark Breath+ (Spd)",
       "atk_boost_perm": 14,
@@ -26395,12 +26640,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 124,
+      "upgraded_from": 125,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd-7 on target and foes within 2 spaces of target through their next actions. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "129": {
-      "index": 129,
+    "130": {
+      "index": 130,
       "alt_name": "Dark Excalibur",
       "name": "Dark Excalibur",
       "atk_boost_perm": 14,
@@ -26543,13 +26788,13 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 153,
+      "evolved_from": 154,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "130": {
-      "index": 130,
+    "131": {
+      "index": 131,
       "alt_name": "Dark Greatsword",
       "name": "Dark Greatsword",
       "atk_boost_perm": 16,
@@ -26697,8 +26942,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd+4 during combat if unit initiates combat."
     },
-    "131": {
-      "index": 131,
+    "132": {
+      "index": 132,
       "alt_name": "Deathly Dagger",
       "name": "Deathly Dagger",
       "atk_boost_perm": 11,
@@ -26846,8 +27091,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit initiated combat, deals 7 damage to foe after combat."
     },
-    "132": {
-      "index": 132,
+    "133": {
+      "index": 133,
       "alt_name": "Deathly Dagger (Atk)",
       "name": "Deathly Dagger (Atk)",
       "atk_boost_perm": 15,
@@ -26991,12 +27236,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131,
+      "upgraded_from": 132,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
-    "133": {
-      "index": 133,
+    "134": {
+      "index": 134,
       "alt_name": "Deathly Dagger (Def)",
       "name": "Deathly Dagger (Def)",
       "atk_boost_perm": 14,
@@ -27140,12 +27385,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131,
+      "upgraded_from": 132,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
-    "134": {
-      "index": 134,
+    "135": {
+      "index": 135,
       "alt_name": "Deathly Dagger (Eff)",
       "name": "Deathly Dagger (Eff)",
       "atk_boost_perm": 14,
@@ -27289,12 +27534,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131,
+      "upgraded_from": 132,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions. Foes using magic cannot counterattack."
     },
-    "135": {
-      "index": 135,
+    "136": {
+      "index": 136,
       "alt_name": "Deathly Dagger (Res)",
       "name": "Deathly Dagger (Res)",
       "atk_boost_perm": 14,
@@ -27438,12 +27683,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131,
+      "upgraded_from": 132,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
-    "136": {
-      "index": 136,
+    "137": {
+      "index": 137,
       "alt_name": "Deathly Dagger (Spd)",
       "name": "Deathly Dagger (Spd)",
       "atk_boost_perm": 14,
@@ -27587,12 +27832,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 131,
+      "upgraded_from": 132,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target and inflicts Def/Res-7 through their next actions."
     },
-    "137": {
-      "index": 137,
+    "138": {
+      "index": 138,
       "alt_name": "Deft Harpoon+",
       "name": "Deft Harpoon+",
       "atk_boost_perm": 14,
@@ -27740,8 +27985,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "138": {
-      "index": 138,
+    "139": {
+      "index": 139,
       "alt_name": "Deft Harpoon+ (Atk)",
       "name": "Deft Harpoon+ (Atk)",
       "atk_boost_perm": 16,
@@ -27885,12 +28130,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137,
+      "upgraded_from": 138,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "139": {
-      "index": 139,
+    "140": {
+      "index": 140,
       "alt_name": "Deft Harpoon+ (Def)",
       "name": "Deft Harpoon+ (Def)",
       "atk_boost_perm": 14,
@@ -28034,12 +28279,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137,
+      "upgraded_from": 138,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "140": {
-      "index": 140,
+    "141": {
+      "index": 141,
       "alt_name": "Deft Harpoon+ (Res)",
       "name": "Deft Harpoon+ (Res)",
       "atk_boost_perm": 14,
@@ -28183,12 +28428,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137,
+      "upgraded_from": 138,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "141": {
-      "index": 141,
+    "142": {
+      "index": 142,
       "alt_name": "Deft Harpoon+ (Spd)",
       "name": "Deft Harpoon+ (Spd)",
       "atk_boost_perm": 14,
@@ -28332,12 +28577,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 137,
+      "upgraded_from": 138,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "142": {
-      "index": 142,
+    "143": {
+      "index": 143,
       "alt_name": "Dire Thunder",
       "name": "Dire Thunder",
       "atk_boost_perm": 9,
@@ -28485,8 +28730,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Spd-5. Attack twice when initiating combat."
     },
-    "143": {
-      "index": 143,
+    "144": {
+      "index": 144,
       "alt_name": "Divine Naga",
       "name": "Divine Naga",
       "atk_boost_perm": 14,
@@ -28629,13 +28874,13 @@ var data = {
       "type": "GT",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 350,
+      "evolved_from": 352,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat."
     },
-    "144": {
-      "index": 144,
+    "145": {
+      "index": 145,
       "alt_name": "Divine Tyrfing",
       "name": "Divine Tyrfing",
       "atk_boost_perm": 16,
@@ -28778,13 +29023,13 @@ var data = {
       "type": "S",
       "char_lock": 1,
       "evolves_into": 0,
-      "evolved_from": 519,
+      "evolved_from": 522,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants Res+3. If in combat against foe using magic, unit receives 50% less damage from the first attack."
     },
-    "145": {
-      "index": 145,
+    "146": {
+      "index": 146,
       "alt_name": "Durandal",
       "name": "Durandal",
       "atk_boost_perm": 16,
@@ -28926,14 +29171,14 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 1,
-      "evolves_into": 40,
+      "evolves_into": 41,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants Atk+4 during combat if unit initiates attack."
     },
-    "146": {
-      "index": 146,
+    "147": {
+      "index": 147,
       "alt_name": "Eckesachs",
       "name": "Eckesachs",
       "atk_boost_perm": 16,
@@ -29081,8 +29326,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Inflicts Def-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "147": {
-      "index": 147,
+    "148": {
+      "index": 148,
       "alt_name": "Eckesachs (Atk)",
       "name": "Eckesachs (Atk)",
       "atk_boost_perm": 18,
@@ -29226,12 +29471,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 146,
+      "upgraded_from": 147,
       "cond_eff_text": 0,
       "desc": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions."
     },
-    "148": {
-      "index": 148,
+    "149": {
+      "index": 149,
       "alt_name": "Eckesachs (Def)",
       "name": "Eckesachs (Def)",
       "atk_boost_perm": 16,
@@ -29375,12 +29620,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 146,
+      "upgraded_from": 147,
       "cond_eff_text": 0,
       "desc": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions."
     },
-    "149": {
-      "index": 149,
+    "150": {
+      "index": 150,
       "alt_name": "Eckesachs (Eff)",
       "name": "Eckesachs (Eff)",
       "atk_boost_perm": 16,
@@ -29524,12 +29769,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 146,
+      "upgraded_from": 147,
       "cond_eff_text": 0,
       "desc": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions. If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
-    "150": {
-      "index": 150,
+    "151": {
+      "index": 151,
       "alt_name": "Eckesachs (Res)",
       "name": "Eckesachs (Res)",
       "atk_boost_perm": 16,
@@ -29673,12 +29918,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 146,
+      "upgraded_from": 147,
       "cond_eff_text": 0,
       "desc": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions."
     },
-    "151": {
-      "index": 151,
+    "152": {
+      "index": 152,
       "alt_name": "Eckesachs (Spd)",
       "name": "Eckesachs (Spd)",
       "atk_boost_perm": 16,
@@ -29822,12 +30067,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 146,
+      "upgraded_from": 147,
       "cond_eff_text": 0,
       "desc": "Inflicts Def-6 on foes (excluding dragons) within 2 spaces at the start of each turn, through their next actions."
     },
-    "152": {
-      "index": 152,
+    "153": {
+      "index": 153,
       "alt_name": "Emerald Axe+",
       "name": "Emerald Axe+",
       "atk_boost_perm": 12,
@@ -29975,8 +30220,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
-    "153": {
-      "index": 153,
+    "154": {
+      "index": 154,
       "alt_name": "Excalibur",
       "name": "Excalibur",
       "atk_boost_perm": 14,
@@ -30118,14 +30363,163 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 129,
+      "evolves_into": 130,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "154": {
-      "index": 154,
+    "155": {
+      "index": 155,
+      "alt_name": "Expiration",
+      "name": "Expiration",
+      "atk_boost_perm": 16,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "breaker": 0,
+      "breaker_thresh": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 1,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_atk_off_bonus": 0,
+      "distant_atk_def_bonus": 0,
+      "distant_spd_off_bonus": 0,
+      "distant_spd_def_bonus": 0,
+      "distant_def_off_bonus": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_off_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "hit_1rng_weaker_def_stat": 0,
+      "hit_2rng_weaker_def_stat": 1,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
+      "thani_mitigation": 0,
+      "great_flame_def_thresh": 0,
+      "felicias_plate_cd_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "double_lion": 0,
+      "special_atk_bonus": 0,
+      "special_spd_bonus": 0,
+      "special_def_bonus": 0,
+      "special_res_bonus": 0,
+      "special_stat_bonus": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 0,
+      "arm_eff": 0,
+      "range": 1,
+      "type": "D",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "cond_eff_text": 0,
+      "desc": "If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
+    },
+    "156": {
+      "index": 156,
       "alt_name": "F\xF3lkvangr",
       "name": "F\xF3lkvangr",
       "atk_boost_perm": 16,
@@ -30273,8 +30667,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk+5 at start of turn if unit's HP &leq; 50%."
     },
-    "155": {
-      "index": 155,
+    "157": {
+      "index": 157,
       "alt_name": "Falchion (Altea)",
       "name": "Falchion",
       "atk_boost_perm": 16,
@@ -30422,8 +30816,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
-    "156": {
-      "index": 156,
+    "158": {
+      "index": 158,
       "alt_name": "Falchion (Altea) (Atk)",
       "name": "Falchion (Atk)",
       "atk_boost_perm": 18,
@@ -30567,12 +30961,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 155,
+      "upgraded_from": 157,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "157": {
-      "index": 157,
+    "159": {
+      "index": 159,
       "alt_name": "Falchion (Altea) (Def)",
       "name": "Falchion (Def)",
       "atk_boost_perm": 16,
@@ -30716,12 +31110,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 155,
+      "upgraded_from": 157,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "158": {
-      "index": 158,
+    "160": {
+      "index": 160,
       "alt_name": "Falchion (Altea) (Eff)",
       "name": "Falchion (Eff)",
       "atk_boost_perm": 16,
@@ -30865,12 +31259,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 155,
+      "upgraded_from": 157,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn. Grants Atk/Spd/Def/Res+2 to allies within 2 spaces during combat."
     },
-    "159": {
-      "index": 159,
+    "161": {
+      "index": 161,
       "alt_name": "Falchion (Altea) (Res)",
       "name": "Falchion (Res)",
       "atk_boost_perm": 16,
@@ -31014,12 +31408,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 155,
+      "upgraded_from": 157,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "160": {
-      "index": 160,
+    "162": {
+      "index": 162,
       "alt_name": "Falchion (Altea) (Spd)",
       "name": "Falchion (Spd)",
       "atk_boost_perm": 16,
@@ -31163,12 +31557,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 155,
+      "upgraded_from": 157,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "161": {
-      "index": 161,
+    "163": {
+      "index": 163,
       "alt_name": "Falchion (Valentia)",
       "name": "Falchion",
       "atk_boost_perm": 16,
@@ -31316,8 +31710,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
-    "162": {
-      "index": 162,
+    "164": {
+      "index": 164,
       "alt_name": "Falchion (Valentia) (Atk)",
       "name": "Falchion (Atk)",
       "atk_boost_perm": 18,
@@ -31461,12 +31855,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161,
+      "upgraded_from": 163,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "163": {
-      "index": 163,
+    "165": {
+      "index": 165,
       "alt_name": "Falchion (Valentia) (Def)",
       "name": "Falchion (Def)",
       "atk_boost_perm": 16,
@@ -31610,12 +32004,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161,
+      "upgraded_from": 163,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "164": {
-      "index": 164,
+    "166": {
+      "index": 166,
       "alt_name": "Falchion (Valentia) (Eff)",
       "name": "Falchion (Eff)",
       "atk_boost_perm": 16,
@@ -31759,12 +32153,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161,
+      "upgraded_from": 163,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn. If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice then takes 5 damage after combat."
     },
-    "165": {
-      "index": 165,
+    "167": {
+      "index": 167,
       "alt_name": "Falchion (Valentia) (Res)",
       "name": "Falchion (Res)",
       "atk_boost_perm": 16,
@@ -31908,12 +32302,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161,
+      "upgraded_from": 163,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "166": {
-      "index": 166,
+    "168": {
+      "index": 168,
       "alt_name": "Falchion (Valentia) (Spd)",
       "name": "Falchion (Spd)",
       "atk_boost_perm": 16,
@@ -32057,12 +32451,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 161,
+      "upgraded_from": 163,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "167": {
-      "index": 167,
+    "169": {
+      "index": 169,
       "alt_name": "Falchion (Ylisse)",
       "name": "Falchion",
       "atk_boost_perm": 16,
@@ -32210,8 +32604,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against dragons. At the start of every third turn, unit recovers 10 HP."
     },
-    "168": {
-      "index": 168,
+    "170": {
+      "index": 170,
       "alt_name": "Falchion (Ylisse) (Atk)",
       "name": "Falchion (Atk)",
       "atk_boost_perm": 18,
@@ -32355,12 +32749,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167,
+      "upgraded_from": 169,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "169": {
-      "index": 169,
+    "171": {
+      "index": 171,
       "alt_name": "Falchion (Ylisse) (Def)",
       "name": "Falchion (Def)",
       "atk_boost_perm": 16,
@@ -32504,12 +32898,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167,
+      "upgraded_from": 169,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "170": {
-      "index": 170,
+    "172": {
+      "index": 172,
       "alt_name": "Falchion (Ylisse) (Eff)",
       "name": "Falchion (Eff)",
       "atk_boost_perm": 16,
@@ -32653,12 +33047,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167,
+      "upgraded_from": 169,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn. Grants Atk/Spd/Def/Res+4 during combat if unit is adjacent to an ally."
     },
-    "171": {
-      "index": 171,
+    "173": {
+      "index": 173,
       "alt_name": "Falchion (Ylisse) (Res)",
       "name": "Falchion (Res)",
       "atk_boost_perm": 16,
@@ -32802,12 +33196,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167,
+      "upgraded_from": 169,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "172": {
-      "index": 172,
+    "174": {
+      "index": 174,
       "alt_name": "Falchion (Ylisse) (Spd)",
       "name": "Falchion (Spd)",
       "atk_boost_perm": 16,
@@ -32951,12 +33345,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 167,
+      "upgraded_from": 169,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Restores 10 HP at the start of every second turn."
     },
-    "173": {
-      "index": 173,
+    "175": {
+      "index": 175,
       "alt_name": "Fear+",
       "name": "Fear+",
       "atk_boost_perm": 12,
@@ -33104,8 +33498,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "174": {
-      "index": 174,
+    "176": {
+      "index": 176,
       "alt_name": "Fear+ (Dazzling)",
       "name": "Fear+ (Dazzling)",
       "atk_boost_perm": 12,
@@ -33249,12 +33643,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173,
+      "upgraded_from": 175,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions. The enemy cannot counterattack."
     },
-    "175": {
-      "index": 175,
+    "177": {
+      "index": 177,
       "alt_name": "Fear+ (Wrathful)",
       "name": "Fear+ (Wrathful)",
       "atk_boost_perm": 12,
@@ -33398,12 +33792,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 173,
+      "upgraded_from": 175,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk-7 on target and foes within 2 spaces of target through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "176": {
-      "index": 176,
+    "178": {
+      "index": 178,
       "alt_name": "Felicia's Plate",
       "name": "Felicia's Plate",
       "atk_boost_perm": 14,
@@ -33551,8 +33945,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res."
     },
-    "177": {
-      "index": 177,
+    "179": {
+      "index": 179,
       "alt_name": "Felicia's Plate (Atk)",
       "name": "Felicia's Plate (Atk)",
       "atk_boost_perm": 15,
@@ -33696,12 +34090,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 176,
+      "upgraded_from": 178,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res."
     },
-    "178": {
-      "index": 178,
+    "180": {
+      "index": 180,
       "alt_name": "Felicia's Plate (Def)",
       "name": "Felicia's Plate (Def)",
       "atk_boost_perm": 14,
@@ -33845,12 +34239,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 176,
+      "upgraded_from": 178,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res."
     },
-    "179": {
-      "index": 179,
+    "181": {
+      "index": 181,
       "alt_name": "Felicia's Plate (Eff)",
       "name": "Felicia's Plate (Eff)",
       "atk_boost_perm": 14,
@@ -33994,12 +34388,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 176,
+      "upgraded_from": 178,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res. Grants Special cooldown charge +1 if foe uses magic. (Only highest value applied. Does not stack.)"
     },
-    "180": {
-      "index": 180,
+    "182": {
+      "index": 182,
       "alt_name": "Felicia's Plate (Res)",
       "name": "Felicia's Plate (Res)",
       "atk_boost_perm": 14,
@@ -34143,12 +34537,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 176,
+      "upgraded_from": 178,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res."
     },
-    "181": {
-      "index": 181,
+    "183": {
+      "index": 183,
       "alt_name": "Felicia's Plate (Spd)",
       "name": "Felicia's Plate (Spd)",
       "atk_boost_perm": 14,
@@ -34292,12 +34686,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 176,
+      "upgraded_from": 178,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. Damage calculated using the lower of foe's Def or Res."
     },
-    "182": {
-      "index": 182,
+    "184": {
+      "index": 184,
       "alt_name": "Fenrir+",
       "name": "Fenrir+",
       "atk_boost_perm": 13,
@@ -34445,8 +34839,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "183": {
-      "index": 183,
+    "185": {
+      "index": 185,
       "alt_name": "Fenrir+ (Atk)",
       "name": "Fenrir+ (Atk)",
       "atk_boost_perm": 15,
@@ -34590,12 +34984,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 182,
+      "upgraded_from": 184,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "184": {
-      "index": 184,
+    "186": {
+      "index": 186,
       "alt_name": "Fenrir+ (Def)",
       "name": "Fenrir+ (Def)",
       "atk_boost_perm": 14,
@@ -34739,12 +35133,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 182,
+      "upgraded_from": 184,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "185": {
-      "index": 185,
+    "187": {
+      "index": 187,
       "alt_name": "Fenrir+ (Res)",
       "name": "Fenrir+ (Res)",
       "atk_boost_perm": 14,
@@ -34888,12 +35282,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 182,
+      "upgraded_from": 184,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "186": {
-      "index": 186,
+    "188": {
+      "index": 188,
       "alt_name": "Fenrir+ (Spd)",
       "name": "Fenrir+ (Spd)",
       "atk_boost_perm": 14,
@@ -35037,12 +35431,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 182,
+      "upgraded_from": 184,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "187": {
-      "index": 187,
+    "189": {
+      "index": 189,
       "alt_name": "Fensalir",
       "name": "Fensalir",
       "atk_boost_perm": 16,
@@ -35190,8 +35584,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Inflicts Atk-4 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "188": {
-      "index": 188,
+    "190": {
+      "index": 190,
       "alt_name": "Firesweep Bow+",
       "name": "Firesweep Bow+",
       "atk_boost_perm": 11,
@@ -35339,8 +35733,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against fliers. Unit and enemies cannot use counterattacks."
     },
-    "189": {
-      "index": 189,
+    "191": {
+      "index": 191,
       "alt_name": "Firesweep L+",
       "name": "Firesweep L+",
       "atk_boost_perm": 15,
@@ -35488,8 +35882,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Unit and enemies cannot use counterattacks."
     },
-    "190": {
-      "index": 190,
+    "192": {
+      "index": 192,
       "alt_name": "Firesweep S+",
       "name": "Firesweep S+",
       "atk_boost_perm": 15,
@@ -35637,8 +36031,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Unit and foes cannot counterattack."
     },
-    "191": {
-      "index": 191,
+    "193": {
+      "index": 193,
       "alt_name": "First Bite+",
       "name": "First Bite+",
       "atk_boost_perm": 14,
@@ -35786,8 +36180,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Def/Res+2 through their next actions after any combat this unit initiates."
     },
-    "192": {
-      "index": 192,
+    "194": {
+      "index": 194,
       "alt_name": "First Bite+ (Atk)",
       "name": "First Bite+ (Atk)",
       "atk_boost_perm": 16,
@@ -35931,12 +36325,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191,
+      "upgraded_from": 193,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "193": {
-      "index": 193,
+    "195": {
+      "index": 195,
       "alt_name": "First Bite+ (Def)",
       "name": "First Bite+ (Def)",
       "atk_boost_perm": 14,
@@ -36080,12 +36474,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191,
+      "upgraded_from": 193,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "194": {
-      "index": 194,
+    "196": {
+      "index": 196,
       "alt_name": "First Bite+ (Res)",
       "name": "First Bite+ (Res)",
       "atk_boost_perm": 14,
@@ -36229,12 +36623,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191,
+      "upgraded_from": 193,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "195": {
-      "index": 195,
+    "197": {
+      "index": 197,
       "alt_name": "First Bite+ (Spd)",
       "name": "First Bite+ (Spd)",
       "atk_boost_perm": 14,
@@ -36378,12 +36772,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 191,
+      "upgraded_from": 193,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn."
     },
-    "196": {
-      "index": 196,
+    "198": {
+      "index": 198,
       "alt_name": "Flametongue+",
       "name": "Flametongue+",
       "atk_boost_perm": 15,
@@ -36531,8 +36925,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "197": {
-      "index": 197,
+    "199": {
+      "index": 199,
       "alt_name": "Flametongue+ (Atk)",
       "name": "Flametongue+ (Atk)",
       "atk_boost_perm": 18,
@@ -36676,12 +37070,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 196,
+      "upgraded_from": 198,
       "cond_eff_text": 0,
       "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "198": {
-      "index": 198,
+    "200": {
+      "index": 200,
       "alt_name": "Flametongue+ (Def)",
       "name": "Flametongue+ (Def)",
       "atk_boost_perm": 16,
@@ -36825,12 +37219,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 196,
+      "upgraded_from": 198,
       "cond_eff_text": 0,
       "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "199": {
-      "index": 199,
+    "201": {
+      "index": 201,
       "alt_name": "Flametongue+ (Res)",
       "name": "Flametongue+ (Res)",
       "atk_boost_perm": 16,
@@ -36974,12 +37368,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 196,
+      "upgraded_from": 198,
       "cond_eff_text": 0,
       "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "200": {
-      "index": 200,
+    "202": {
+      "index": 202,
       "alt_name": "Flametongue+ (Spd)",
       "name": "Flametongue+ (Spd)",
       "atk_boost_perm": 16,
@@ -37123,12 +37517,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 196,
+      "upgraded_from": 198,
       "cond_eff_text": 0,
       "desc": "If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "201": {
-      "index": 201,
+    "203": {
+      "index": 203,
       "alt_name": "Fujin Yumi",
       "name": "Fujin Yumi",
       "atk_boost_perm": 14,
@@ -37276,8 +37670,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Unit can pass though foes if own HP &geq; 50%."
     },
-    "202": {
-      "index": 202,
+    "204": {
+      "index": 204,
       "alt_name": "Fujin Yumi (Atk)",
       "name": "Fujin Yumi (Atk)",
       "atk_boost_perm": 15,
@@ -37421,12 +37815,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 201,
+      "upgraded_from": 203,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
-    "203": {
-      "index": 203,
+    "205": {
+      "index": 205,
       "alt_name": "Fujin Yumi (Def)",
       "name": "Fujin Yumi (Def)",
       "atk_boost_perm": 14,
@@ -37570,12 +37964,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 201,
+      "upgraded_from": 203,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
-    "204": {
-      "index": 204,
+    "206": {
+      "index": 206,
       "alt_name": "Fujin Yumi (Eff)",
       "name": "Fujin Yumi (Eff)",
       "atk_boost_perm": 14,
@@ -37719,12 +38113,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 201,
+      "upgraded_from": 203,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.) If unit's HP &geq; 50%, unit can move adjacent to any ally within 2 spaces."
     },
-    "205": {
-      "index": 205,
+    "207": {
+      "index": 207,
       "alt_name": "Fujin Yumi (Res)",
       "name": "Fujin Yumi (Res)",
       "atk_boost_perm": 14,
@@ -37868,12 +38262,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 201,
+      "upgraded_from": 203,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
-    "206": {
-      "index": 206,
+    "208": {
+      "index": 208,
       "alt_name": "Fujin Yumi (Spd)",
       "name": "Fujin Yumi (Spd)",
       "atk_boost_perm": 15,
@@ -38017,12 +38411,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 201,
+      "upgraded_from": 203,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If unit's HP &geq; 50%, unit is not slowed by terrain. (Does not apply to impassable terrain.)"
     },
-    "207": {
-      "index": 207,
+    "209": {
+      "index": 209,
       "alt_name": "Geirsk\xF6gul",
       "name": "Geirsk\xF6gul",
       "atk_boost_perm": 16,
@@ -38170,8 +38564,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Def+3. Grants allies with sword, lance, axe, bow, or dagger within 2 spaces Atk/Spd+3 during combat."
     },
-    "208": {
-      "index": 208,
+    "210": {
+      "index": 210,
       "alt_name": "Gleipnir",
       "name": "Gleipnir",
       "atk_boost_perm": 14,
@@ -38319,8 +38713,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Res+3. If foes' HP = 100% at start of combat, grants Atk/Spd+3 during combat."
     },
-    "209": {
-      "index": 209,
+    "211": {
+      "index": 211,
       "alt_name": "Gradivus",
       "name": "Gradivus",
       "atk_boost_perm": 16,
@@ -38468,8 +38862,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
-    "210": {
-      "index": 210,
+    "212": {
+      "index": 212,
       "alt_name": "Gratia+",
       "name": "Gratia+",
       "atk_boost_perm": 12,
@@ -38617,8 +39011,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "211": {
-      "index": 211,
+    "213": {
+      "index": 213,
       "alt_name": "Gratia+ (Atk)",
       "name": "Gratia+ (Atk)",
       "atk_boost_perm": 13,
@@ -38762,12 +39156,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210,
+      "upgraded_from": 212,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "212": {
-      "index": 212,
+    "214": {
+      "index": 214,
       "alt_name": "Gratia+ (Def)",
       "name": "Gratia+ (Def)",
       "atk_boost_perm": 12,
@@ -38911,12 +39305,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210,
+      "upgraded_from": 212,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "213": {
-      "index": 213,
+    "215": {
+      "index": 215,
       "alt_name": "Gratia+ (Res)",
       "name": "Gratia+ (Res)",
       "atk_boost_perm": 12,
@@ -39060,12 +39454,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210,
+      "upgraded_from": 212,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "214": {
-      "index": 214,
+    "216": {
+      "index": 216,
       "alt_name": "Gratia+ (Spd)",
       "name": "Gratia+ (Spd)",
       "atk_boost_perm": 12,
@@ -39209,12 +39603,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 210,
+      "upgraded_from": 212,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "215": {
-      "index": 215,
+    "217": {
+      "index": 217,
       "alt_name": "Gravity+",
       "name": "Gravity+",
       "atk_boost_perm": 10,
@@ -39362,8 +39756,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions."
     },
-    "216": {
-      "index": 216,
+    "218": {
+      "index": 218,
       "alt_name": "Gravity+ (Dazzling)",
       "name": "Gravity+ (Dazzling)",
       "atk_boost_perm": 10,
@@ -39507,12 +39901,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 215,
+      "upgraded_from": 217,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions. The enemy cannot counterattack."
     },
-    "217": {
-      "index": 217,
+    "219": {
+      "index": 219,
       "alt_name": "Gravity+ (Wrathful)",
       "name": "Gravity+ (Wrathful)",
       "atk_boost_perm": 10,
@@ -39656,12 +40050,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 215,
+      "upgraded_from": 217,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, prevents target and foes within 1 space of target from moving more than 1 space through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "218": {
-      "index": 218,
+    "220": {
+      "index": 220,
       "alt_name": "Great Flame",
       "name": "Great Flame",
       "atk_boost_perm": 19,
@@ -39809,8 +40203,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk+3. If unit's Def - foe's Def ≥ 5, foe can't make a follow-up attack. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "219": {
-      "index": 219,
+    "221": {
+      "index": 221,
       "alt_name": "Green Egg+",
       "name": "Green Egg+",
       "atk_boost_perm": 11,
@@ -39958,8 +40352,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit initiates attack, unit recovers 4 HP after the battle."
     },
-    "220": {
-      "index": 220,
+    "222": {
+      "index": 222,
       "alt_name": "Green Egg+ (Atk)",
       "name": "Green Egg+ (Atk)",
       "atk_boost_perm": 13,
@@ -40103,12 +40497,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219,
+      "upgraded_from": 221,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "221": {
-      "index": 221,
+    "223": {
+      "index": 223,
       "alt_name": "Green Egg+ (Def)",
       "name": "Green Egg+ (Def)",
       "atk_boost_perm": 12,
@@ -40252,12 +40646,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219,
+      "upgraded_from": 221,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "222": {
-      "index": 222,
+    "224": {
+      "index": 224,
       "alt_name": "Green Egg+ (Res)",
       "name": "Green Egg+ (Res)",
       "atk_boost_perm": 12,
@@ -40401,12 +40795,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219,
+      "upgraded_from": 221,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "223": {
-      "index": 223,
+    "225": {
+      "index": 225,
       "alt_name": "Green Egg+ (Spd)",
       "name": "Green Egg+ (Spd)",
       "atk_boost_perm": 12,
@@ -40550,12 +40944,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 219,
+      "upgraded_from": 221,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, restores 4 HP."
     },
-    "224": {
-      "index": 224,
+    "226": {
+      "index": 226,
       "alt_name": "Green Gift+",
       "name": "Green Gift+",
       "atk_boost_perm": 12,
@@ -40703,8 +41097,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "225": {
-      "index": 225,
+    "227": {
+      "index": 227,
       "alt_name": "Green Gift+ (Atk)",
       "name": "Green Gift+ (Atk)",
       "atk_boost_perm": 13,
@@ -40848,12 +41242,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224,
+      "upgraded_from": 226,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "226": {
-      "index": 226,
+    "228": {
+      "index": 228,
       "alt_name": "Green Gift+ (Def)",
       "name": "Green Gift+ (Def)",
       "atk_boost_perm": 12,
@@ -40997,12 +41391,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224,
+      "upgraded_from": 226,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "227": {
-      "index": 227,
+    "229": {
+      "index": 229,
       "alt_name": "Green Gift+ (Res)",
       "name": "Green Gift+ (Res)",
       "atk_boost_perm": 12,
@@ -41146,12 +41540,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224,
+      "upgraded_from": 226,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "228": {
-      "index": 228,
+    "230": {
+      "index": 230,
       "alt_name": "Green Gift+ (Spd)",
       "name": "Green Gift+ (Spd)",
       "atk_boost_perm": 12,
@@ -41295,12 +41689,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 224,
+      "upgraded_from": 226,
       "cond_eff_text": 0,
       "desc": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "229": {
-      "index": 229,
+    "231": {
+      "index": 231,
       "alt_name": "Grimoire",
       "name": "Grimoire",
       "atk_boost_perm": 14,
@@ -41448,8 +41842,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit has &geq; 50% HP, unit can move to a space adjacent to an ally within 2 spaces."
     },
-    "230": {
-      "index": 230,
+    "232": {
+      "index": 232,
       "alt_name": "Gronnblade+",
       "name": "Gronnblade+",
       "atk_boost_perm": 13,
@@ -41597,8 +41991,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
-    "231": {
-      "index": 231,
+    "233": {
+      "index": 233,
       "alt_name": "Gronnowl+",
       "name": "Gronnowl+",
       "atk_boost_perm": 10,
@@ -41746,8 +42140,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "232": {
-      "index": 232,
+    "234": {
+      "index": 234,
       "alt_name": "Gronnowl+ (Atk)",
       "name": "Gronnowl+ (Atk)",
       "atk_boost_perm": 12,
@@ -41891,12 +42285,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 231,
+      "upgraded_from": 233,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "233": {
-      "index": 233,
+    "235": {
+      "index": 235,
       "alt_name": "Gronnowl+ (Def)",
       "name": "Gronnowl+ (Def)",
       "atk_boost_perm": 11,
@@ -42040,12 +42434,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 231,
+      "upgraded_from": 233,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "234": {
-      "index": 234,
+    "236": {
+      "index": 236,
       "alt_name": "Gronnowl+ (Res)",
       "name": "Gronnowl+ (Res)",
       "atk_boost_perm": 11,
@@ -42189,12 +42583,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 231,
+      "upgraded_from": 233,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "235": {
-      "index": 235,
+    "237": {
+      "index": 237,
       "alt_name": "Gronnowl+ (Spd)",
       "name": "Gronnowl+ (Spd)",
       "atk_boost_perm": 11,
@@ -42338,12 +42732,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 231,
+      "upgraded_from": 233,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "236": {
-      "index": 236,
+    "238": {
+      "index": 238,
       "alt_name": "Gronnraven+",
       "name": "Gronnraven+",
       "atk_boost_perm": 11,
@@ -42491,8 +42885,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants weapon advantage vs. colorless foes."
     },
-    "237": {
-      "index": 237,
+    "239": {
+      "index": 239,
       "alt_name": "Gronnwolf+",
       "name": "Gronnwolf+",
       "atk_boost_perm": 10,
@@ -42640,8 +43034,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "238": {
-      "index": 238,
+    "240": {
+      "index": 240,
       "alt_name": "Guard Bow+",
       "name": "Guard Bow+",
       "atk_boost_perm": 12,
@@ -42789,8 +43183,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
-    "239": {
-      "index": 239,
+    "241": {
+      "index": 241,
       "alt_name": "Guard Bow+ (Atk)",
       "name": "Guard Bow+ (Atk)",
       "atk_boost_perm": 13,
@@ -42934,12 +43328,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 238,
+      "upgraded_from": 240,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
-    "240": {
-      "index": 240,
+    "242": {
+      "index": 242,
       "alt_name": "Guard Bow+ (Def)",
       "name": "Guard Bow+ (Def)",
       "atk_boost_perm": 12,
@@ -43083,12 +43477,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 238,
+      "upgraded_from": 240,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
-    "241": {
-      "index": 241,
+    "243": {
+      "index": 243,
       "alt_name": "Guard Bow+ (Res)",
       "name": "Guard Bow+ (Res)",
       "atk_boost_perm": 12,
@@ -43232,12 +43626,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 238,
+      "upgraded_from": 240,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
-    "242": {
-      "index": 242,
+    "244": {
+      "index": 244,
       "alt_name": "Guard Bow+ (Spd)",
       "name": "Guard Bow+ (Spd)",
       "atk_boost_perm": 12,
@@ -43381,12 +43775,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 238,
+      "upgraded_from": 240,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+6 during combat if unit is attacked by foe using bow, daggers, magic, or staff."
     },
-    "243": {
-      "index": 243,
+    "245": {
+      "index": 245,
       "alt_name": "Hagoita+",
       "name": "Hagoita+",
       "atk_boost_perm": 14,
@@ -43534,8 +43928,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "244": {
-      "index": 244,
+    "246": {
+      "index": 246,
       "alt_name": "Hagoita+ (Atk)",
       "name": "Hagoita+ (Atk)",
       "atk_boost_perm": 16,
@@ -43679,12 +44073,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 243,
+      "upgraded_from": 245,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "245": {
-      "index": 245,
+    "247": {
+      "index": 247,
       "alt_name": "Hagoita+ (Def)",
       "name": "Hagoita+ (Def)",
       "atk_boost_perm": 14,
@@ -43828,12 +44222,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 243,
+      "upgraded_from": 245,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "246": {
-      "index": 246,
+    "248": {
+      "index": 248,
       "alt_name": "Hagoita+ (Res)",
       "name": "Hagoita+ (Res)",
       "atk_boost_perm": 14,
@@ -43977,12 +44371,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 243,
+      "upgraded_from": 245,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "247": {
-      "index": 247,
+    "249": {
+      "index": 249,
       "alt_name": "Hagoita+ (Spd)",
       "name": "Hagoita+ (Spd)",
       "atk_boost_perm": 14,
@@ -44126,12 +44520,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 243,
+      "upgraded_from": 245,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "248": {
-      "index": 248,
+    "250": {
+      "index": 250,
       "alt_name": "Hama Ya+",
       "name": "Hama Ya+",
       "atk_boost_perm": 12,
@@ -44279,8 +44673,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "249": {
-      "index": 249,
+    "251": {
+      "index": 251,
       "alt_name": "Hama Ya+ (Atk)",
       "name": "Hama Ya+ (Atk)",
       "atk_boost_perm": 13,
@@ -44424,12 +44818,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 248,
+      "upgraded_from": 250,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "250": {
-      "index": 250,
+    "252": {
+      "index": 252,
       "alt_name": "Hama Ya+ (Def)",
       "name": "Hama Ya+ (Def)",
       "atk_boost_perm": 12,
@@ -44573,12 +44967,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 248,
+      "upgraded_from": 250,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "251": {
-      "index": 251,
+    "253": {
+      "index": 253,
       "alt_name": "Hama Ya+ (Res)",
       "name": "Hama Ya+ (Res)",
       "atk_boost_perm": 12,
@@ -44722,12 +45116,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 248,
+      "upgraded_from": 250,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "252": {
-      "index": 252,
+    "254": {
+      "index": 254,
       "alt_name": "Hama Ya+ (Spd)",
       "name": "Hama Ya+ (Spd)",
       "atk_boost_perm": 12,
@@ -44871,12 +45265,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 248,
+      "upgraded_from": 250,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "253": {
-      "index": 253,
+    "255": {
+      "index": 255,
       "alt_name": "Hammer+",
       "name": "Hammer+",
       "atk_boost_perm": 12,
@@ -45018,14 +45412,14 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 471,
+      "evolves_into": 474,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against armored units."
     },
-    "254": {
-      "index": 254,
+    "256": {
+      "index": 256,
       "alt_name": "Handbell+",
       "name": "Handbell+",
       "atk_boost_perm": 14,
@@ -45173,8 +45567,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "255": {
-      "index": 255,
+    "257": {
+      "index": 257,
       "alt_name": "Handbell+ (Atk)",
       "name": "Handbell+ (Atk)",
       "atk_boost_perm": 16,
@@ -45318,12 +45712,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 254,
+      "upgraded_from": 256,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "256": {
-      "index": 256,
+    "258": {
+      "index": 258,
       "alt_name": "Handbell+ (Def)",
       "name": "Handbell+ (Def)",
       "atk_boost_perm": 14,
@@ -45467,12 +45861,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 254,
+      "upgraded_from": 256,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "257": {
-      "index": 257,
+    "259": {
+      "index": 259,
       "alt_name": "Handbell+ (Res)",
       "name": "Handbell+ (Res)",
       "atk_boost_perm": 14,
@@ -45616,12 +46010,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 254,
+      "upgraded_from": 256,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "258": {
-      "index": 258,
+    "260": {
+      "index": 260,
       "alt_name": "Handbell+ (Spd)",
       "name": "Handbell+ (Spd)",
       "atk_boost_perm": 14,
@@ -45765,12 +46159,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 254,
+      "upgraded_from": 256,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "259": {
-      "index": 259,
+    "261": {
+      "index": 261,
       "alt_name": "Hauteclere",
       "name": "Hauteclere",
       "atk_boost_perm": 16,
@@ -45918,8 +46312,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "260": {
-      "index": 260,
+    "262": {
+      "index": 262,
       "alt_name": "Hauteclere (Atk)",
       "name": "Hauteclere (Atk)",
       "atk_boost_perm": 18,
@@ -46063,12 +46457,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 259,
+      "upgraded_from": 261,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "261": {
-      "index": 261,
+    "263": {
+      "index": 263,
       "alt_name": "Hauteclere (Def)",
       "name": "Hauteclere (Def)",
       "atk_boost_perm": 16,
@@ -46212,12 +46606,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 259,
+      "upgraded_from": 261,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "262": {
-      "index": 262,
+    "264": {
+      "index": 264,
       "alt_name": "Hauteclere (Eff)",
       "name": "Hauteclere (Eff)",
       "atk_boost_perm": 16,
@@ -46361,12 +46755,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 259,
+      "upgraded_from": 261,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). Deals +10 damage when Special triggers."
     },
-    "263": {
-      "index": 263,
+    "265": {
+      "index": 265,
       "alt_name": "Hauteclere (Res)",
       "name": "Hauteclere (Res)",
       "atk_boost_perm": 16,
@@ -46510,12 +46904,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 259,
+      "upgraded_from": 261,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "264": {
-      "index": 264,
+    "266": {
+      "index": 266,
       "alt_name": "Hauteclere (Spd)",
       "name": "Hauteclere (Spd)",
       "atk_boost_perm": 16,
@@ -46659,12 +47053,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 259,
+      "upgraded_from": 261,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "265": {
-      "index": 265,
+    "267": {
+      "index": 267,
       "alt_name": "Heavy Spear+",
       "name": "Heavy Spear+",
       "atk_boost_perm": 12,
@@ -46806,14 +47200,14 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 482,
+      "evolves_into": 485,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against armored units."
     },
-    "266": {
-      "index": 266,
+    "268": {
+      "index": 268,
       "alt_name": "Hibiscus Tome+",
       "name": "Hibiscus Tome+",
       "atk_boost_perm": 12,
@@ -46961,8 +47355,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "267": {
-      "index": 267,
+    "269": {
+      "index": 269,
       "alt_name": "Hibiscus Tome+ (Atk)",
       "name": "Hibiscus Tome+ (Atk)",
       "atk_boost_perm": 13,
@@ -47106,12 +47500,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 266,
+      "upgraded_from": 268,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "268": {
-      "index": 268,
+    "270": {
+      "index": 270,
       "alt_name": "Hibiscus Tome+ (Def)",
       "name": "Hibiscus Tome+ (Def)",
       "atk_boost_perm": 12,
@@ -47255,12 +47649,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 266,
+      "upgraded_from": 268,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "269": {
-      "index": 269,
+    "271": {
+      "index": 271,
       "alt_name": "Hibiscus Tome+ (Res)",
       "name": "Hibiscus Tome+ (Res)",
       "atk_boost_perm": 12,
@@ -47404,12 +47798,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 266,
+      "upgraded_from": 268,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "270": {
-      "index": 270,
+    "272": {
+      "index": 272,
       "alt_name": "Hibiscus Tome+ (Spd)",
       "name": "Hibiscus Tome+ (Spd)",
       "atk_boost_perm": 12,
@@ -47553,12 +47947,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 266,
+      "upgraded_from": 268,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "271": {
-      "index": 271,
+    "273": {
+      "index": 273,
       "alt_name": "Hinoka's Spear",
       "name": "Hinoka's Spear",
       "atk_boost_perm": 16,
@@ -47706,8 +48100,8 @@ var data = {
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit."
     },
-    "272": {
-      "index": 272,
+    "274": {
+      "index": 274,
       "alt_name": "Hinoka's Spear (Atk)",
       "name": "Hinoka's Spear (Atk)",
       "atk_boost_perm": 18,
@@ -47851,12 +48245,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 271,
+      "upgraded_from": 273,
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit."
     },
-    "273": {
-      "index": 273,
+    "275": {
+      "index": 275,
       "alt_name": "Hinoka's Spear (Def)",
       "name": "Hinoka's Spear (Def)",
       "atk_boost_perm": 16,
@@ -48000,12 +48394,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 271,
+      "upgraded_from": 273,
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit."
     },
-    "274": {
-      "index": 274,
+    "276": {
+      "index": 276,
       "alt_name": "Hinoka's Spear (Eff)",
       "name": "Hinoka's Spear (Eff)",
       "atk_boost_perm": 16,
@@ -48149,12 +48543,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 271,
+      "upgraded_from": 273,
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit. Infantry and flying allies within 2 spaces can move to a space adjacent to unit."
     },
-    "275": {
-      "index": 275,
+    "277": {
+      "index": 277,
       "alt_name": "Hinoka's Spear (Res)",
       "name": "Hinoka's Spear (Res)",
       "atk_boost_perm": 16,
@@ -48298,12 +48692,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 271,
+      "upgraded_from": 273,
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit."
     },
-    "276": {
-      "index": 276,
+    "278": {
+      "index": 278,
       "alt_name": "Hinoka's Spear (Spd)",
       "name": "Hinoka's Spear (Spd)",
       "atk_boost_perm": 16,
@@ -48447,12 +48841,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 271,
+      "upgraded_from": 273,
       "cond_eff_text": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit.",
       "desc": "Grants Atk/Spd+4 during combat if infantry or flying ally is within 2 spaces of unit."
     },
-    "277": {
-      "index": 277,
+    "279": {
+      "index": 279,
       "alt_name": "Ivaldi",
       "name": "Ivaldi",
       "atk_boost_perm": 14,
@@ -48600,8 +48994,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Def+3. If foe's HP = 100% at start of combat, grants Atk/Spd+3 during combat."
     },
-    "278": {
-      "index": 278,
+    "280": {
+      "index": 280,
       "alt_name": "Kadomatsu+",
       "name": "Kadomatsu+",
       "atk_boost_perm": 14,
@@ -48749,8 +49143,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "279": {
-      "index": 279,
+    "281": {
+      "index": 281,
       "alt_name": "Kadomatsu+ (Atk)",
       "name": "Kadomatsu+ (Atk)",
       "atk_boost_perm": 16,
@@ -48894,12 +49288,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 278,
+      "upgraded_from": 280,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "280": {
-      "index": 280,
+    "282": {
+      "index": 282,
       "alt_name": "Kadomatsu+ (Def)",
       "name": "Kadomatsu+ (Def)",
       "atk_boost_perm": 14,
@@ -49043,12 +49437,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 278,
+      "upgraded_from": 280,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "281": {
-      "index": 281,
+    "283": {
+      "index": 283,
       "alt_name": "Kadomatsu+ (Res)",
       "name": "Kadomatsu+ (Res)",
       "atk_boost_perm": 14,
@@ -49192,12 +49586,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 278,
+      "upgraded_from": 280,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "282": {
-      "index": 282,
+    "284": {
+      "index": 284,
       "alt_name": "Kadomatsu+ (Spd)",
       "name": "Kadomatsu+ (Spd)",
       "atk_boost_perm": 14,
@@ -49341,12 +49735,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 278,
+      "upgraded_from": 280,
       "cond_eff_text": 0,
       "desc": "Grants Def/Res+2 during combat to allies within 2 spaces."
     },
-    "283": {
-      "index": 283,
+    "285": {
+      "index": 285,
       "alt_name": "Kagami Mochi+",
       "name": "Kagami Mochi+",
       "atk_boost_perm": 12,
@@ -49494,8 +49888,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
-    "284": {
-      "index": 284,
+    "286": {
+      "index": 286,
       "alt_name": "Kagami Mochi+ (Atk)",
       "name": "Kagami Mochi+ (Atk)",
       "atk_boost_perm": 13,
@@ -49639,12 +50033,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 283,
+      "upgraded_from": 285,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
-    "285": {
-      "index": 285,
+    "287": {
+      "index": 287,
       "alt_name": "Kagami Mochi+ (Def)",
       "name": "Kagami Mochi+ (Def)",
       "atk_boost_perm": 12,
@@ -49788,12 +50182,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 283,
+      "upgraded_from": 285,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
-    "286": {
-      "index": 286,
+    "288": {
+      "index": 288,
       "alt_name": "Kagami Mochi+ (Res)",
       "name": "Kagami Mochi+ (Res)",
       "atk_boost_perm": 12,
@@ -49937,12 +50331,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 283,
+      "upgraded_from": 285,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
-    "287": {
-      "index": 287,
+    "289": {
+      "index": 289,
       "alt_name": "Kagami Mochi+ (Spd)",
       "name": "Kagami Mochi+ (Spd)",
       "atk_boost_perm": 12,
@@ -50086,12 +50480,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 283,
+      "upgraded_from": 285,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces through their next actions."
     },
-    "288": {
-      "index": 288,
+    "290": {
+      "index": 290,
       "alt_name": "Keen Bl\xE1rwolf+",
       "name": "Keen Bl\xE1rwolf+",
       "atk_boost_perm": 12,
@@ -50234,13 +50628,13 @@ var data = {
       "type": "BT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 39,
+      "evolved_from": 40,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "289": {
-      "index": 289,
+    "291": {
+      "index": 291,
       "alt_name": "Keen Bl\xE1rwolf+ (Atk)",
       "name": "Keen Bl\xE1rwolf+ (Atk)",
       "atk_boost_perm": 13,
@@ -50384,12 +50778,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288,
+      "upgraded_from": 290,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "290": {
-      "index": 290,
+    "292": {
+      "index": 292,
       "alt_name": "Keen Bl\xE1rwolf+ (Def)",
       "name": "Keen Bl\xE1rwolf+ (Def)",
       "atk_boost_perm": 12,
@@ -50533,12 +50927,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288,
+      "upgraded_from": 290,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "291": {
-      "index": 291,
+    "293": {
+      "index": 293,
       "alt_name": "Keen Bl\xE1rwolf+ (Eff)",
       "name": "Keen Bl\xE1rwolf+ (Eff)",
       "atk_boost_perm": 12,
@@ -50682,12 +51076,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288,
+      "upgraded_from": 290,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "292": {
-      "index": 292,
+    "294": {
+      "index": 294,
       "alt_name": "Keen Bl\xE1rwolf+ (Res)",
       "name": "Keen Bl\xE1rwolf+ (Res)",
       "atk_boost_perm": 12,
@@ -50831,12 +51225,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288,
+      "upgraded_from": 290,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "293": {
-      "index": 293,
+    "295": {
+      "index": 295,
       "alt_name": "Keen Bl\xE1rwolf+ (Spd)",
       "name": "Keen Bl\xE1rwolf+ (Spd)",
       "atk_boost_perm": 12,
@@ -50980,12 +51374,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 288,
+      "upgraded_from": 290,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "294": {
-      "index": 294,
+    "296": {
+      "index": 296,
       "alt_name": "Keen Gronnwolf+",
       "name": "Keen Gronnwolf+",
       "atk_boost_perm": 12,
@@ -51128,13 +51522,13 @@ var data = {
       "type": "GT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 237,
+      "evolved_from": 239,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "295": {
-      "index": 295,
+    "297": {
+      "index": 297,
       "alt_name": "Keen Gronnwolf+ (Atk)",
       "name": "Keen Gronnwolf+ (Atk)",
       "atk_boost_perm": 13,
@@ -51278,12 +51672,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 294,
+      "upgraded_from": 296,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "296": {
-      "index": 296,
+    "298": {
+      "index": 298,
       "alt_name": "Keen Gronnwolf+ (Def)",
       "name": "Keen Gronnwolf+ (Def)",
       "atk_boost_perm": 12,
@@ -51427,12 +51821,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 294,
+      "upgraded_from": 296,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "297": {
-      "index": 297,
+    "299": {
+      "index": 299,
       "alt_name": "Keen Gronnwolf+ (Eff)",
       "name": "Keen Gronnwolf+ (Eff)",
       "atk_boost_perm": 12,
@@ -51576,12 +51970,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 294,
+      "upgraded_from": 296,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "298": {
-      "index": 298,
+    "300": {
+      "index": 300,
       "alt_name": "Keen Gronnwolf+ (Res)",
       "name": "Keen Gronnwolf+ (Res)",
       "atk_boost_perm": 12,
@@ -51725,12 +52119,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 294,
+      "upgraded_from": 296,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "299": {
-      "index": 299,
+    "301": {
+      "index": 301,
       "alt_name": "Keen Gronnwolf+ (Spd)",
       "name": "Keen Gronnwolf+ (Spd)",
       "atk_boost_perm": 12,
@@ -51874,12 +52268,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 294,
+      "upgraded_from": 296,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "300": {
-      "index": 300,
+    "302": {
+      "index": 302,
       "alt_name": "Keen Rau\xF0rwolf+",
       "name": "Keen Rau\xF0rwolf+",
       "atk_boost_perm": 12,
@@ -52022,13 +52416,13 @@ var data = {
       "type": "RT",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 377,
+      "evolved_from": 379,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "301": {
-      "index": 301,
+    "303": {
+      "index": 303,
       "alt_name": "Keen Rau\xF0rwolf+ (Atk)",
       "name": "Keen Rau\xF0rwolf+ (Atk)",
       "atk_boost_perm": 13,
@@ -52172,12 +52566,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 300,
+      "upgraded_from": 302,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "302": {
-      "index": 302,
+    "304": {
+      "index": 304,
       "alt_name": "Keen Rau\xF0rwolf+ (Def)",
       "name": "Keen Rau\xF0rwolf+ (Def)",
       "atk_boost_perm": 12,
@@ -52321,12 +52715,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 300,
+      "upgraded_from": 302,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "303": {
-      "index": 303,
+    "305": {
+      "index": 305,
       "alt_name": "Keen Rau\xF0rwolf+ (Eff)",
       "name": "Keen Rau\xF0rwolf+ (Eff)",
       "atk_boost_perm": 12,
@@ -52470,12 +52864,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 300,
+      "upgraded_from": 302,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "304": {
-      "index": 304,
+    "306": {
+      "index": 306,
       "alt_name": "Keen Rau\xF0rwolf+ (Res)",
       "name": "Keen Rau\xF0rwolf+ (Res)",
       "atk_boost_perm": 12,
@@ -52619,12 +53013,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 300,
+      "upgraded_from": 302,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "305": {
-      "index": 305,
+    "307": {
+      "index": 307,
       "alt_name": "Keen Rau\xF0rwolf+ (Spd)",
       "name": "Keen Rau\xF0rwolf+ (Spd)",
       "atk_boost_perm": 12,
@@ -52768,12 +53162,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 300,
+      "upgraded_from": 302,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry foes."
     },
-    "306": {
-      "index": 306,
+    "308": {
+      "index": 308,
       "alt_name": "Killer Axe+",
       "name": "Killer Axe+",
       "atk_boost_perm": 11,
@@ -52915,14 +53309,14 @@ var data = {
       "range": 1,
       "type": "A",
       "char_lock": 0,
-      "evolves_into": 456,
+      "evolves_into": 459,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "307": {
-      "index": 307,
+    "309": {
+      "index": 309,
       "alt_name": "Killer Bow+",
       "name": "Killer Bow+",
       "atk_boost_perm": 9,
@@ -53064,14 +53458,14 @@ var data = {
       "range": 2,
       "type": "B",
       "char_lock": 0,
-      "evolves_into": 461,
+      "evolves_into": 464,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "308": {
-      "index": 308,
+    "310": {
+      "index": 310,
       "alt_name": "Killer Lance+",
       "name": "Killer Lance+",
       "atk_boost_perm": 11,
@@ -53213,14 +53607,14 @@ var data = {
       "range": 1,
       "type": "L",
       "char_lock": 0,
-      "evolves_into": 477,
+      "evolves_into": 480,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "309": {
-      "index": 309,
+    "311": {
+      "index": 311,
       "alt_name": "Killing Edge+",
       "name": "Killing Edge+",
       "atk_boost_perm": 11,
@@ -53362,14 +53756,14 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 0,
-      "evolves_into": 466,
+      "evolves_into": 469,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "310": {
-      "index": 310,
+    "312": {
+      "index": 312,
       "alt_name": "Kitty Paddle+",
       "name": "Kitty Paddle+",
       "atk_boost_perm": 8,
@@ -53517,8 +53911,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against magic foes. After combat, if unit attacked and if foe uses magic, inflicts Def/Res-7 on foe through its next action."
     },
-    "311": {
-      "index": 311,
+    "313": {
+      "index": 313,
       "alt_name": "Legion's Axe+",
       "name": "Legion's Axe+",
       "atk_boost_perm": 14,
@@ -53666,8 +54060,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, bonuses on targeted foe become penalties through its next action."
     },
-    "312": {
-      "index": 312,
+    "314": {
+      "index": 314,
       "alt_name": "Legion's Axe+ (Atk)",
       "name": "Legion's Axe+ (Atk)",
       "atk_boost_perm": 16,
@@ -53811,12 +54205,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311,
+      "upgraded_from": 313,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
-    "313": {
-      "index": 313,
+    "315": {
+      "index": 315,
       "alt_name": "Legion's Axe+ (Def)",
       "name": "Legion's Axe+ (Def)",
       "atk_boost_perm": 14,
@@ -53960,12 +54354,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311,
+      "upgraded_from": 313,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
-    "314": {
-      "index": 314,
+    "316": {
+      "index": 316,
       "alt_name": "Legion's Axe+ (Res)",
       "name": "Legion's Axe+ (Res)",
       "atk_boost_perm": 14,
@@ -54109,12 +54503,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311,
+      "upgraded_from": 313,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
-    "315": {
-      "index": 315,
+    "317": {
+      "index": 317,
       "alt_name": "Legion's Axe+ (Spd)",
       "name": "Legion's Axe+ (Spd)",
       "atk_boost_perm": 14,
@@ -54258,12 +54652,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 311,
+      "upgraded_from": 313,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
-    "316": {
-      "index": 316,
+    "318": {
+      "index": 318,
       "alt_name": "Leiptr",
       "name": "Leiptr",
       "atk_boost_perm": 16,
@@ -54411,8 +54805,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Unit can counterattack regardless of foe's range."
     },
-    "317": {
-      "index": 317,
+    "319": {
+      "index": 319,
       "alt_name": "Light Breath+",
       "name": "Light Breath+",
       "atk_boost_perm": 13,
@@ -54560,8 +54954,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Def/Res+4 through their next actions after any combat this unit initiates."
     },
-    "318": {
-      "index": 318,
+    "320": {
+      "index": 320,
       "alt_name": "Light Breath+ (Atk)",
       "name": "Light Breath+ (Atk)",
       "atk_boost_perm": 16,
@@ -54705,12 +55099,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 317,
+      "upgraded_from": 319,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "319": {
-      "index": 319,
+    "321": {
+      "index": 321,
       "alt_name": "Light Breath+ (Def)",
       "name": "Light Breath+ (Def)",
       "atk_boost_perm": 14,
@@ -54854,12 +55248,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 317,
+      "upgraded_from": 319,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "320": {
-      "index": 320,
+    "322": {
+      "index": 322,
       "alt_name": "Light Breath+ (Res)",
       "name": "Light Breath+ (Res)",
       "atk_boost_perm": 14,
@@ -55003,12 +55397,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 317,
+      "upgraded_from": 319,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "321": {
-      "index": 321,
+    "323": {
+      "index": 323,
       "alt_name": "Light Breath+ (Spd)",
       "name": "Light Breath+ (Spd)",
       "atk_boost_perm": 14,
@@ -55152,12 +55546,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 317,
+      "upgraded_from": 319,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, grants Atk/Spd/Def/Res+5 to unit and allies within 2 spaces of unit for 1 turn. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "322": {
-      "index": 322,
+    "324": {
+      "index": 324,
       "alt_name": "Lightning Breath+",
       "name": "Lightning Breath+",
       "atk_boost_perm": 11,
@@ -55305,8 +55699,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of attacker's range. Slows Special trigger (cooldown count+1)."
     },
-    "323": {
-      "index": 323,
+    "325": {
+      "index": 325,
       "alt_name": "Lightning Breath+ (Atk)",
       "name": "Lightning Breath+ (Atk)",
       "atk_boost_perm": 14,
@@ -55450,12 +55844,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 322,
+      "upgraded_from": 324,
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "324": {
-      "index": 324,
+    "326": {
+      "index": 326,
       "alt_name": "Lightning Breath+ (Def)",
       "name": "Lightning Breath+ (Def)",
       "atk_boost_perm": 12,
@@ -55599,12 +55993,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 322,
+      "upgraded_from": 324,
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "325": {
-      "index": 325,
+    "327": {
+      "index": 327,
       "alt_name": "Lightning Breath+ (Res)",
       "name": "Lightning Breath+ (Res)",
       "atk_boost_perm": 12,
@@ -55748,12 +56142,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 322,
+      "upgraded_from": 324,
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "326": {
-      "index": 326,
+    "328": {
+      "index": 328,
       "alt_name": "Lightning Breath+ (Spd)",
       "name": "Lightning Breath+ (Spd)",
       "atk_boost_perm": 12,
@@ -55897,12 +56291,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 322,
+      "upgraded_from": 324,
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). If attacked, unit can counterattack regardless of foe's range. If foe's Range = 2, damage calculated using the lower of foe's Def or Res."
     },
-    "327": {
-      "index": 327,
+    "329": {
+      "index": 329,
       "alt_name": "Lilith Floatie+",
       "name": "Lilith Floatie+",
       "atk_boost_perm": 14,
@@ -56050,8 +56444,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "328": {
-      "index": 328,
+    "330": {
+      "index": 330,
       "alt_name": "Lilith Floatie+ (Atk)",
       "name": "Lilith Floatie+ (Atk)",
       "atk_boost_perm": 16,
@@ -56195,12 +56589,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 327,
+      "upgraded_from": 329,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "329": {
-      "index": 329,
+    "331": {
+      "index": 331,
       "alt_name": "Lilith Floatie+ (Def)",
       "name": "Lilith Floatie+ (Def)",
       "atk_boost_perm": 14,
@@ -56344,12 +56738,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 327,
+      "upgraded_from": 329,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "330": {
-      "index": 330,
+    "332": {
+      "index": 332,
       "alt_name": "Lilith Floatie+ (Res)",
       "name": "Lilith Floatie+ (Res)",
       "atk_boost_perm": 14,
@@ -56493,12 +56887,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 327,
+      "upgraded_from": 329,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "331": {
-      "index": 331,
+    "333": {
+      "index": 333,
       "alt_name": "Lilith Floatie+ (Spd)",
       "name": "Lilith Floatie+ (Spd)",
       "atk_boost_perm": 14,
@@ -56642,12 +57036,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 327,
+      "upgraded_from": 329,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "332": {
-      "index": 332,
+    "334": {
+      "index": 334,
       "alt_name": "Melon Crusher+",
       "name": "Melon Crusher+",
       "atk_boost_perm": 14,
@@ -56795,8 +57189,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "333": {
-      "index": 333,
+    "335": {
+      "index": 335,
       "alt_name": "Melon Crusher+ (Atk)",
       "name": "Melon Crusher+ (Atk)",
       "atk_boost_perm": 16,
@@ -56940,12 +57334,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 332,
+      "upgraded_from": 334,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "334": {
-      "index": 334,
+    "336": {
+      "index": 336,
       "alt_name": "Melon Crusher+ (Def)",
       "name": "Melon Crusher+ (Def)",
       "atk_boost_perm": 14,
@@ -57089,12 +57483,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 332,
+      "upgraded_from": 334,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "335": {
-      "index": 335,
+    "337": {
+      "index": 337,
       "alt_name": "Melon Crusher+ (Res)",
       "name": "Melon Crusher+ (Res)",
       "atk_boost_perm": 14,
@@ -57238,12 +57632,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 332,
+      "upgraded_from": 334,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "336": {
-      "index": 336,
+    "338": {
+      "index": 338,
       "alt_name": "Melon Crusher+ (Spd)",
       "name": "Melon Crusher+ (Spd)",
       "atk_boost_perm": 14,
@@ -57387,12 +57781,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 332,
+      "upgraded_from": 334,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat."
     },
-    "337": {
-      "index": 337,
+    "339": {
+      "index": 339,
       "alt_name": "Monstrous Bow+",
       "name": "Monstrous Bow+",
       "atk_boost_perm": 12,
@@ -57540,8 +57934,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties through foes' next actions."
     },
-    "338": {
-      "index": 338,
+    "340": {
+      "index": 340,
       "alt_name": "Monstrous Bow+ (Atk)",
       "name": "Monstrous Bow+ (Atk)",
       "atk_boost_perm": 13,
@@ -57685,12 +58079,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 337,
+      "upgraded_from": 339,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "339": {
-      "index": 339,
+    "341": {
+      "index": 341,
       "alt_name": "Monstrous Bow+ (Def)",
       "name": "Monstrous Bow+ (Def)",
       "atk_boost_perm": 12,
@@ -57834,12 +58228,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 337,
+      "upgraded_from": 339,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "340": {
-      "index": 340,
+    "342": {
+      "index": 342,
       "alt_name": "Monstrous Bow+ (Res)",
       "name": "Monstrous Bow+ (Res)",
       "atk_boost_perm": 12,
@@ -57983,12 +58377,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 337,
+      "upgraded_from": 339,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "341": {
-      "index": 341,
+    "343": {
+      "index": 343,
       "alt_name": "Monstrous Bow+ (Spd)",
       "name": "Monstrous Bow+ (Spd)",
       "atk_boost_perm": 12,
@@ -58132,12 +58526,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 337,
+      "upgraded_from": 339,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "342": {
-      "index": 342,
+    "344": {
+      "index": 344,
       "alt_name": "Mulagir",
       "name": "Mulagir",
       "atk_boost_perm": 14,
@@ -58285,8 +58679,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Grants Spd+3. If foe is magic user, foe's bonuses (from skills like Fortify, Rally, etc.) are nullified during combat."
     },
-    "343": {
-      "index": 343,
+    "345": {
+      "index": 345,
       "alt_name": "Mystletainn",
       "name": "Mystletainn",
       "atk_boost_perm": 16,
@@ -58434,8 +58828,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "344": {
-      "index": 344,
+    "346": {
+      "index": 346,
       "alt_name": "Mystletainn (Atk)",
       "name": "Mystletainn (Atk)",
       "atk_boost_perm": 18,
@@ -58579,12 +58973,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 343,
+      "upgraded_from": 345,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "345": {
-      "index": 345,
+    "347": {
+      "index": 347,
       "alt_name": "Mystletainn (Def)",
       "name": "Mystletainn (Def)",
       "atk_boost_perm": 16,
@@ -58728,12 +59122,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 343,
+      "upgraded_from": 345,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "346": {
-      "index": 346,
+    "348": {
+      "index": 348,
       "alt_name": "Mystletainn (Eff)",
       "name": "Mystletainn (Eff)",
       "atk_boost_perm": 19,
@@ -58877,12 +59271,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 343,
+      "upgraded_from": 345,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
-    "347": {
-      "index": 347,
+    "349": {
+      "index": 349,
       "alt_name": "Mystletainn (Res)",
       "name": "Mystletainn (Res)",
       "atk_boost_perm": 16,
@@ -59026,12 +59420,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 343,
+      "upgraded_from": 345,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "348": {
-      "index": 348,
+    "350": {
+      "index": 350,
       "alt_name": "Mystletainn (Spd)",
       "name": "Mystletainn (Spd)",
       "atk_boost_perm": 16,
@@ -59175,12 +59569,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 343,
+      "upgraded_from": 345,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "349": {
-      "index": 349,
+    "351": {
+      "index": 351,
       "alt_name": "N\xF3at\xFAn",
       "name": "N\xF3at\xFAn",
       "atk_boost_perm": 16,
@@ -59328,8 +59722,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Unit may move adjacent to any ally when HP &leq; 40%."
     },
-    "350": {
-      "index": 350,
+    "352": {
+      "index": 352,
       "alt_name": "Naga",
       "name": "Naga",
       "atk_boost_perm": 14,
@@ -59471,14 +59865,14 @@ var data = {
       "range": 2,
       "type": "GT",
       "char_lock": 1,
-      "evolves_into": 143,
+      "evolves_into": 144,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against dragons. Grants Def/Res+2 when this unit is attacked."
     },
-    "351": {
-      "index": 351,
+    "353": {
+      "index": 353,
       "alt_name": "Naglfar",
       "name": "Naglfar",
       "atk_boost_perm": 14,
@@ -59626,8 +60020,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants weapon advantage vs. colorless foes."
     },
-    "352": {
-      "index": 352,
+    "354": {
+      "index": 354,
       "alt_name": "Nidhogg",
       "name": "Nidhogg",
       "atk_boost_perm": 14,
@@ -59775,8 +60169,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying units. During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2.        "
     },
-    "353": {
-      "index": 353,
+    "355": {
+      "index": 355,
       "alt_name": "Pain+",
       "name": "Pain+",
       "atk_boost_perm": 10,
@@ -59924,8 +60318,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target."
     },
-    "354": {
-      "index": 354,
+    "356": {
+      "index": 356,
       "alt_name": "Pain+ (Dazzling)",
       "name": "Pain+ (Dazzling)",
       "atk_boost_perm": 10,
@@ -60069,12 +60463,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 353,
+      "upgraded_from": 355,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target. The enemy cannot counterattack."
     },
-    "355": {
-      "index": 355,
+    "357": {
+      "index": 357,
       "alt_name": "Pain+ (Wrathful)",
       "name": "Pain+ (Wrathful)",
       "atk_boost_perm": 10,
@@ -60218,12 +60612,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 353,
+      "upgraded_from": 355,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, deals 10 damage to target and foes within 2 spaces of target. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "356": {
-      "index": 356,
+    "358": {
+      "index": 358,
       "alt_name": "Panic+",
       "name": "Panic+",
       "atk_boost_perm": 11,
@@ -60371,8 +60765,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions."
     },
-    "357": {
-      "index": 357,
+    "359": {
+      "index": 359,
       "alt_name": "Panic+ (Dazzling)",
       "name": "Panic+ (Dazzling)",
       "atk_boost_perm": 11,
@@ -60516,12 +60910,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 356,
+      "upgraded_from": 358,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions. The enemy cannot counterattack."
     },
-    "358": {
-      "index": 358,
+    "360": {
+      "index": 360,
       "alt_name": "Panic+ (Wrathful)",
       "name": "Panic+ (Wrathful)",
       "atk_boost_perm": 11,
@@ -60665,12 +61059,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 356,
+      "upgraded_from": 358,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and foes within 2 spaces of target become penalties through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "359": {
-      "index": 359,
+    "361": {
+      "index": 361,
       "alt_name": "Parthia",
       "name": "Parthia",
       "atk_boost_perm": 14,
@@ -60818,8 +61212,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Grants Res+4 during combat if initiating attack."
     },
-    "360": {
-      "index": 360,
+    "362": {
+      "index": 362,
       "alt_name": "Parthia (Atk)",
       "name": "Parthia (Atk)",
       "atk_boost_perm": 15,
@@ -60963,12 +61357,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359,
+      "upgraded_from": 361,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
-    "361": {
-      "index": 361,
+    "363": {
+      "index": 363,
       "alt_name": "Parthia (Def)",
       "name": "Parthia (Def)",
       "atk_boost_perm": 14,
@@ -61112,12 +61506,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359,
+      "upgraded_from": 361,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
-    "362": {
-      "index": 362,
+    "364": {
+      "index": 364,
       "alt_name": "Parthia (Eff)",
       "name": "Parthia (Eff)",
       "atk_boost_perm": 14,
@@ -61261,12 +61655,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359,
+      "upgraded_from": 361,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%. Grants Atk+6 during combat if foe uses bow, dagger, magic, or staff."
     },
-    "363": {
-      "index": 363,
+    "365": {
+      "index": 365,
       "alt_name": "Parthia (Res)",
       "name": "Parthia (Res)",
       "atk_boost_perm": 14,
@@ -61410,12 +61804,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359,
+      "upgraded_from": 361,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
-    "364": {
-      "index": 364,
+    "366": {
+      "index": 366,
       "alt_name": "Parthia (Spd)",
       "name": "Parthia (Spd)",
       "atk_boost_perm": 14,
@@ -61559,12 +61953,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 359,
+      "upgraded_from": 361,
       "cond_eff_text": 0,
       "desc": "Effective against flying foes. If foe uses magic, damage from first attack received by unit during combat reduced by 30%."
     },
-    "365": {
-      "index": 365,
+    "367": {
+      "index": 367,
       "alt_name": "Peshkatz",
       "name": "Peshkatz",
       "atk_boost_perm": 14,
@@ -61712,8 +62106,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn."
     },
-    "366": {
-      "index": 366,
+    "368": {
+      "index": 368,
       "alt_name": "Poison Dagger+",
       "name": "Poison Dagger+",
       "atk_boost_perm": 5,
@@ -61861,8 +62255,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against infantry foes. After combat, if unit attacked, inflicts Def/Res-6 on infantry foe through its next action."
     },
-    "367": {
-      "index": 367,
+    "369": {
+      "index": 369,
       "alt_name": "Ragnarok",
       "name": "Ragnarok",
       "atk_boost_perm": 14,
@@ -62010,8 +62404,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at the start of combat, unit receives Atk/Spd +5. If attacking, unit will receive 5 damage after combat."
     },
-    "368": {
-      "index": 368,
+    "370": {
+      "index": 370,
       "alt_name": "Ragnell",
       "name": "Ragnell",
       "atk_boost_perm": 16,
@@ -62159,8 +62553,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
-    "369": {
-      "index": 369,
+    "371": {
+      "index": 371,
       "alt_name": "Raijinto",
       "name": "Raijinto",
       "atk_boost_perm": 16,
@@ -62308,8 +62702,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
-    "370": {
-      "index": 370,
+    "372": {
+      "index": 372,
       "alt_name": "Rau\xF0rblade+",
       "name": "Rau\xF0rblade+",
       "atk_boost_perm": 13,
@@ -62457,8 +62851,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Slows Special trigger (cooldown count+1). Adds total bonuses on unit to damage dealt."
     },
-    "371": {
-      "index": 371,
+    "373": {
+      "index": 373,
       "alt_name": "Rau\xF0rowl+",
       "name": "Rau\xF0rowl+",
       "atk_boost_perm": 10,
@@ -62606,8 +63000,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "372": {
-      "index": 372,
+    "374": {
+      "index": 374,
       "alt_name": "Rau\xF0rowl+ (Atk)",
       "name": "Rau\xF0rowl+ (Atk)",
       "atk_boost_perm": 12,
@@ -62751,12 +63145,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371,
+      "upgraded_from": 373,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "373": {
-      "index": 373,
+    "375": {
+      "index": 375,
       "alt_name": "Rau\xF0rowl+ (Def)",
       "name": "Rau\xF0rowl+ (Def)",
       "atk_boost_perm": 11,
@@ -62900,12 +63294,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371,
+      "upgraded_from": 373,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "374": {
-      "index": 374,
+    "376": {
+      "index": 376,
       "alt_name": "Rau\xF0rowl+ (Res)",
       "name": "Rau\xF0rowl+ (Res)",
       "atk_boost_perm": 11,
@@ -63049,12 +63443,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371,
+      "upgraded_from": 373,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "375": {
-      "index": 375,
+    "377": {
+      "index": 377,
       "alt_name": "Rau\xF0rowl+ (Spd)",
       "name": "Rau\xF0rowl+ (Spd)",
       "atk_boost_perm": 11,
@@ -63198,12 +63592,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 371,
+      "upgraded_from": 373,
       "cond_eff_text": 0,
       "desc": "During combat, unit's Atk/Spd/Def/Res boosted by number of adjacent allies x 2."
     },
-    "376": {
-      "index": 376,
+    "378": {
+      "index": 378,
       "alt_name": "Rau\xF0rraven+",
       "name": "Rau\xF0rraven+",
       "atk_boost_perm": 11,
@@ -63351,8 +63745,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants weapon advantage vs. colorless foes."
     },
-    "377": {
-      "index": 377,
+    "379": {
+      "index": 379,
       "alt_name": "Rau\xF0rwolf+",
       "name": "Rau\xF0rwolf+",
       "atk_boost_perm": 10,
@@ -63494,14 +63888,14 @@ var data = {
       "range": 2,
       "type": "RT",
       "char_lock": 0,
-      "evolves_into": 300,
+      "evolves_into": 302,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "378": {
-      "index": 378,
+    "380": {
+      "index": 380,
       "alt_name": "Refreshing Bolt+",
       "name": "Refreshing Bolt+",
       "atk_boost_perm": 12,
@@ -63649,8 +64043,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
-    "379": {
-      "index": 379,
+    "381": {
+      "index": 381,
       "alt_name": "Refreshing Bolt+ (Atk)",
       "name": "Refreshing Bolt+ (Atk)",
       "atk_boost_perm": 13,
@@ -63794,12 +64188,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 378,
+      "upgraded_from": 380,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
-    "380": {
-      "index": 380,
+    "382": {
+      "index": 382,
       "alt_name": "Refreshing Bolt+ (Def)",
       "name": "Refreshing Bolt+ (Def)",
       "atk_boost_perm": 12,
@@ -63943,12 +64337,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 378,
+      "upgraded_from": 380,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
-    "381": {
-      "index": 381,
+    "383": {
+      "index": 383,
       "alt_name": "Refreshing Bolt+ (Res)",
       "name": "Refreshing Bolt+ (Res)",
       "atk_boost_perm": 12,
@@ -64092,12 +64486,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 378,
+      "upgraded_from": 380,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
-    "382": {
-      "index": 382,
+    "384": {
+      "index": 384,
       "alt_name": "Refreshing Bolt+ (Spd)",
       "name": "Refreshing Bolt+ (Spd)",
       "atk_boost_perm": 12,
@@ -64241,12 +64635,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 378,
+      "upgraded_from": 380,
       "cond_eff_text": 0,
       "desc": "If unit has 100% HP at start of combat, unit gets Atk/Spd/Def/Res+2. If attacking, unit will take 2 damage after combat. Effective against fliers."
     },
-    "383": {
-      "index": 383,
+    "385": {
+      "index": 385,
       "alt_name": "Regal Blade",
       "name": "Regal Blade",
       "atk_boost_perm": 16,
@@ -64394,8 +64788,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If foe's HP is 100% when combat starts, unit receives Atk/Spd+2 during combat."
     },
-    "384": {
-      "index": 384,
+    "386": {
+      "index": 386,
       "alt_name": "Resolute Blade",
       "name": "Resolute Blade",
       "atk_boost_perm": 19,
@@ -64543,8 +64937,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk+3. Grants +10 to damage when Special triggers."
     },
-    "385": {
-      "index": 385,
+    "387": {
+      "index": 387,
       "alt_name": "Rexcalibur+",
       "name": "Rexcalibur+",
       "atk_boost_perm": 13,
@@ -64692,8 +65086,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "386": {
-      "index": 386,
+    "388": {
+      "index": 388,
       "alt_name": "Rexcalibur+ (Atk)",
       "name": "Rexcalibur+ (Atk)",
       "atk_boost_perm": 15,
@@ -64837,12 +65231,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 385,
+      "upgraded_from": 387,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "387": {
-      "index": 387,
+    "389": {
+      "index": 389,
       "alt_name": "Rexcalibur+ (Def)",
       "name": "Rexcalibur+ (Def)",
       "atk_boost_perm": 14,
@@ -64986,12 +65380,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 385,
+      "upgraded_from": 387,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "388": {
-      "index": 388,
+    "390": {
+      "index": 390,
       "alt_name": "Rexcalibur+ (Res)",
       "name": "Rexcalibur+ (Res)",
       "atk_boost_perm": 14,
@@ -65135,12 +65529,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 385,
+      "upgraded_from": 387,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "389": {
-      "index": 389,
+    "391": {
+      "index": 391,
       "alt_name": "Rexcalibur+ (Spd)",
       "name": "Rexcalibur+ (Spd)",
       "atk_boost_perm": 14,
@@ -65284,12 +65678,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 385,
+      "upgraded_from": 387,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "390": {
-      "index": 390,
+    "392": {
+      "index": 392,
       "alt_name": "Ridersbane+",
       "name": "Ridersbane+",
       "atk_boost_perm": 14,
@@ -65437,8 +65831,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "391": {
-      "index": 391,
+    "393": {
+      "index": 393,
       "alt_name": "Ridersbane+ (Atk)",
       "name": "Ridersbane+ (Atk)",
       "atk_boost_perm": 16,
@@ -65582,12 +65976,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 390,
+      "upgraded_from": 392,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "392": {
-      "index": 392,
+    "394": {
+      "index": 394,
       "alt_name": "Ridersbane+ (Def)",
       "name": "Ridersbane+ (Def)",
       "atk_boost_perm": 14,
@@ -65731,12 +66125,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 390,
+      "upgraded_from": 392,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "393": {
-      "index": 393,
+    "395": {
+      "index": 395,
       "alt_name": "Ridersbane+ (Eff)",
       "name": "Ridersbane+ (Eff)",
       "atk_boost_perm": 14,
@@ -65880,12 +66274,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 390,
+      "upgraded_from": 392,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "394": {
-      "index": 394,
+    "396": {
+      "index": 396,
       "alt_name": "Ridersbane+ (Res)",
       "name": "Ridersbane+ (Res)",
       "atk_boost_perm": 14,
@@ -66029,12 +66423,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 390,
+      "upgraded_from": 392,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "395": {
-      "index": 395,
+    "397": {
+      "index": 397,
       "alt_name": "Ridersbane+ (Spd)",
       "name": "Ridersbane+ (Spd)",
       "atk_boost_perm": 14,
@@ -66178,12 +66572,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 390,
+      "upgraded_from": 392,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "396": {
-      "index": 396,
+    "398": {
+      "index": 398,
       "alt_name": "Rogue Dagger+",
       "name": "Rogue Dagger+",
       "atk_boost_perm": 7,
@@ -66331,8 +66725,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action. Grants unit Def/Res+5 for 1 turn."
     },
-    "397": {
-      "index": 397,
+    "399": {
+      "index": 399,
       "alt_name": "Rogue Dagger+ (Atk)",
       "name": "Rogue Dagger+ (Atk)",
       "atk_boost_perm": 13,
@@ -66476,12 +66870,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 396,
+      "upgraded_from": 398,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
-    "398": {
-      "index": 398,
+    "400": {
+      "index": 400,
       "alt_name": "Rogue Dagger+ (Def)",
       "name": "Rogue Dagger+ (Def)",
       "atk_boost_perm": 12,
@@ -66625,12 +67019,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 396,
+      "upgraded_from": 398,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
-    "399": {
-      "index": 399,
+    "401": {
+      "index": 401,
       "alt_name": "Rogue Dagger+ (Res)",
       "name": "Rogue Dagger+ (Res)",
       "atk_boost_perm": 12,
@@ -66774,12 +67168,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 396,
+      "upgraded_from": 398,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
-    "400": {
-      "index": 400,
+    "402": {
+      "index": 402,
       "alt_name": "Rogue Dagger+ (Spd)",
       "name": "Rogue Dagger+ (Spd)",
       "atk_boost_perm": 12,
@@ -66923,12 +67317,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 396,
+      "upgraded_from": 398,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-6 on target and foes within 2 spaces of target through their next actions, and grants Def/Res+6 to unit and allies within 2 spaces for 1 turn."
     },
-    "401": {
-      "index": 401,
+    "403": {
+      "index": 403,
       "alt_name": "Ruby Sword+",
       "name": "Ruby Sword+",
       "atk_boost_perm": 12,
@@ -67076,8 +67470,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
-    "402": {
-      "index": 402,
+    "404": {
+      "index": 404,
       "alt_name": "Sack o' Gifts+",
       "name": "Sack o' Gifts+",
       "atk_boost_perm": 14,
@@ -67225,8 +67619,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "403": {
-      "index": 403,
+    "405": {
+      "index": 405,
       "alt_name": "Sack o' Gifts+ (Atk)",
       "name": "Sack o' Gifts+ (Atk)",
       "atk_boost_perm": 16,
@@ -67370,12 +67764,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 402,
+      "upgraded_from": 404,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "404": {
-      "index": 404,
+    "406": {
+      "index": 406,
       "alt_name": "Sack o' Gifts+ (Def)",
       "name": "Sack o' Gifts+ (Def)",
       "atk_boost_perm": 14,
@@ -67519,12 +67913,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 402,
+      "upgraded_from": 404,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "405": {
-      "index": 405,
+    "407": {
+      "index": 407,
       "alt_name": "Sack o' Gifts+ (Res)",
       "name": "Sack o' Gifts+ (Res)",
       "atk_boost_perm": 14,
@@ -67668,12 +68062,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 402,
+      "upgraded_from": 404,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "406": {
-      "index": 406,
+    "408": {
+      "index": 408,
       "alt_name": "Sack o' Gifts+ (Spd)",
       "name": "Sack o' Gifts+ (Spd)",
       "atk_boost_perm": 14,
@@ -67817,12 +68211,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 402,
+      "upgraded_from": 404,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "407": {
-      "index": 407,
+    "409": {
+      "index": 409,
       "alt_name": "Sapphire Lance+",
       "name": "Sapphire Lance+",
       "atk_boost_perm": 12,
@@ -67970,8 +68364,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
-    "408": {
-      "index": 408,
+    "410": {
+      "index": 410,
       "alt_name": "Sealife Tome+",
       "name": "Sealife Tome+",
       "atk_boost_perm": 12,
@@ -68119,8 +68513,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "409": {
-      "index": 409,
+    "411": {
+      "index": 411,
       "alt_name": "Sealife Tome+ (Atk)",
       "name": "Sealife Tome+ (Atk)",
       "atk_boost_perm": 13,
@@ -68264,12 +68658,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 408,
+      "upgraded_from": 410,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "410": {
-      "index": 410,
+    "412": {
+      "index": 412,
       "alt_name": "Sealife Tome+ (Def)",
       "name": "Sealife Tome+ (Def)",
       "atk_boost_perm": 12,
@@ -68413,12 +68807,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 408,
+      "upgraded_from": 410,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "411": {
-      "index": 411,
+    "413": {
+      "index": 413,
       "alt_name": "Sealife Tome+ (Res)",
       "name": "Sealife Tome+ (Res)",
       "atk_boost_perm": 12,
@@ -68562,12 +68956,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 408,
+      "upgraded_from": 410,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "412": {
-      "index": 412,
+    "414": {
+      "index": 414,
       "alt_name": "Sealife Tome+ (Spd)",
       "name": "Sealife Tome+ (Spd)",
       "atk_boost_perm": 12,
@@ -68711,12 +69105,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 408,
+      "upgraded_from": 410,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "413": {
-      "index": 413,
+    "415": {
+      "index": 415,
       "alt_name": "Seashell+",
       "name": "Seashell+",
       "atk_boost_perm": 10,
@@ -68864,8 +69258,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
-    "414": {
-      "index": 414,
+    "416": {
+      "index": 416,
       "alt_name": "Seashell+ (Atk)",
       "name": "Seashell+ (Atk)",
       "atk_boost_perm": 13,
@@ -69009,12 +69403,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 413,
+      "upgraded_from": 415,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
-    "415": {
-      "index": 415,
+    "417": {
+      "index": 417,
       "alt_name": "Seashell+ (Def)",
       "name": "Seashell+ (Def)",
       "atk_boost_perm": 12,
@@ -69158,12 +69552,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 413,
+      "upgraded_from": 415,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
-    "416": {
-      "index": 416,
+    "418": {
+      "index": 418,
       "alt_name": "Seashell+ (Res)",
       "name": "Seashell+ (Res)",
       "atk_boost_perm": 12,
@@ -69307,12 +69701,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 413,
+      "upgraded_from": 415,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
-    "417": {
-      "index": 417,
+    "419": {
+      "index": 419,
       "alt_name": "Seashell+ (Spd)",
       "name": "Seashell+ (Spd)",
       "atk_boost_perm": 12,
@@ -69456,12 +69850,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 413,
+      "upgraded_from": 415,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions. If unit's HP = 100% at start of combat, grants Atk/Spd/Def/Res+2, but unit takes 2 damage after combat."
     },
-    "418": {
-      "index": 418,
+    "420": {
+      "index": 420,
       "alt_name": "Shine+",
       "name": "Shine+",
       "atk_boost_perm": 13,
@@ -69609,8 +70003,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "419": {
-      "index": 419,
+    "421": {
+      "index": 421,
       "alt_name": "Shine+ (Atk)",
       "name": "Shine+ (Atk)",
       "atk_boost_perm": 15,
@@ -69754,12 +70148,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 418,
+      "upgraded_from": 420,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "420": {
-      "index": 420,
+    "422": {
+      "index": 422,
       "alt_name": "Shine+ (Def)",
       "name": "Shine+ (Def)",
       "atk_boost_perm": 14,
@@ -69903,12 +70297,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 418,
+      "upgraded_from": 420,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "421": {
-      "index": 421,
+    "423": {
+      "index": 423,
       "alt_name": "Shine+ (Res)",
       "name": "Shine+ (Res)",
       "atk_boost_perm": 14,
@@ -70052,12 +70446,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 418,
+      "upgraded_from": 420,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "422": {
-      "index": 422,
+    "424": {
+      "index": 424,
       "alt_name": "Shine+ (Spd)",
       "name": "Shine+ (Spd)",
       "atk_boost_perm": 14,
@@ -70201,12 +70595,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 418,
+      "upgraded_from": 420,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "423": {
-      "index": 423,
+    "425": {
+      "index": 425,
       "alt_name": "Siegfried",
       "name": "Siegfried",
       "atk_boost_perm": 16,
@@ -70354,8 +70748,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
-    "424": {
-      "index": 424,
+    "426": {
+      "index": 426,
       "alt_name": "Sieglinde",
       "name": "Sieglinde",
       "atk_boost_perm": 16,
@@ -70503,8 +70897,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
     },
-    "425": {
-      "index": 425,
+    "427": {
+      "index": 427,
       "alt_name": "Siegmund",
       "name": "Siegmund",
       "atk_boost_perm": 16,
@@ -70652,8 +71046,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+3 through their next actions at the start of each turn."
     },
-    "426": {
-      "index": 426,
+    "428": {
+      "index": 428,
       "alt_name": "Siegmund (Atk)",
       "name": "Siegmund (Atk)",
       "atk_boost_perm": 18,
@@ -70797,12 +71191,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 425,
+      "upgraded_from": 427,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
-    "427": {
-      "index": 427,
+    "429": {
+      "index": 429,
       "alt_name": "Siegmund (Def)",
       "name": "Siegmund (Def)",
       "atk_boost_perm": 16,
@@ -70946,12 +71340,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 425,
+      "upgraded_from": 427,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
-    "428": {
-      "index": 428,
+    "430": {
+      "index": 430,
       "alt_name": "Siegmund (Eff)",
       "name": "Siegmund (Eff)",
       "atk_boost_perm": 16,
@@ -71095,12 +71489,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 425,
+      "upgraded_from": 427,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn. If unit initiates combat and unit's HP ≥ 90%, unit makes a guaranteed follow-up attack."
     },
-    "429": {
-      "index": 429,
+    "431": {
+      "index": 431,
       "alt_name": "Siegmund (Res)",
       "name": "Siegmund (Res)",
       "atk_boost_perm": 16,
@@ -71244,12 +71638,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 425,
+      "upgraded_from": 427,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
-    "430": {
-      "index": 430,
+    "432": {
+      "index": 432,
       "alt_name": "Siegmund (Spd)",
       "name": "Siegmund (Spd)",
       "atk_boost_perm": 16,
@@ -71393,12 +71787,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 425,
+      "upgraded_from": 427,
       "cond_eff_text": 0,
       "desc": "Grants adjacent allies Atk+4 through their next actions at the start of each turn."
     },
-    "431": {
-      "index": 431,
+    "433": {
+      "index": 433,
       "alt_name": "Silver Axe+",
       "name": "Silver Axe+",
       "atk_boost_perm": 15,
@@ -71546,8 +71940,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "432": {
-      "index": 432,
+    "434": {
+      "index": 434,
       "alt_name": "Silver Axe+ (Atk)",
       "name": "Silver Axe+ (Atk)",
       "atk_boost_perm": 18,
@@ -71691,12 +72085,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 431,
+      "upgraded_from": 433,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "433": {
-      "index": 433,
+    "435": {
+      "index": 435,
       "alt_name": "Silver Axe+ (Def)",
       "name": "Silver Axe+ (Def)",
       "atk_boost_perm": 16,
@@ -71840,12 +72234,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 431,
+      "upgraded_from": 433,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "434": {
-      "index": 434,
+    "436": {
+      "index": 436,
       "alt_name": "Silver Axe+ (Res)",
       "name": "Silver Axe+ (Res)",
       "atk_boost_perm": 16,
@@ -71989,12 +72383,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 431,
+      "upgraded_from": 433,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "435": {
-      "index": 435,
+    "437": {
+      "index": 437,
       "alt_name": "Silver Axe+ (Spd)",
       "name": "Silver Axe+ (Spd)",
       "atk_boost_perm": 16,
@@ -72138,12 +72532,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 431,
+      "upgraded_from": 433,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "436": {
-      "index": 436,
+    "438": {
+      "index": 438,
       "alt_name": "Silver Bow+",
       "name": "Silver Bow+",
       "atk_boost_perm": 13,
@@ -72291,8 +72685,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "437": {
-      "index": 437,
+    "439": {
+      "index": 439,
       "alt_name": "Silver Bow+ (Atk)",
       "name": "Silver Bow+ (Atk)",
       "atk_boost_perm": 15,
@@ -72436,12 +72830,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 436,
+      "upgraded_from": 438,
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "438": {
-      "index": 438,
+    "440": {
+      "index": 440,
       "alt_name": "Silver Bow+ (Def)",
       "name": "Silver Bow+ (Def)",
       "atk_boost_perm": 14,
@@ -72585,12 +72979,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 436,
+      "upgraded_from": 438,
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "439": {
-      "index": 439,
+    "441": {
+      "index": 441,
       "alt_name": "Silver Bow+ (Res)",
       "name": "Silver Bow+ (Res)",
       "atk_boost_perm": 14,
@@ -72734,12 +73128,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 436,
+      "upgraded_from": 438,
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "440": {
-      "index": 440,
+    "442": {
+      "index": 442,
       "alt_name": "Silver Bow+ (Spd)",
       "name": "Silver Bow+ (Spd)",
       "atk_boost_perm": 14,
@@ -72883,12 +73277,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 436,
+      "upgraded_from": 438,
       "cond_eff_text": 0,
       "desc": "Effective against flying units."
     },
-    "441": {
-      "index": 441,
+    "443": {
+      "index": 443,
       "alt_name": "Silver Dagger+",
       "name": "Silver Dagger+",
       "atk_boost_perm": 10,
@@ -73036,8 +73430,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on foe through its next action."
     },
-    "442": {
-      "index": 442,
+    "444": {
+      "index": 444,
       "alt_name": "Silver Dagger+ (Atk)",
       "name": "Silver Dagger+ (Atk)",
       "atk_boost_perm": 15,
@@ -73181,12 +73575,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 441,
+      "upgraded_from": 443,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "443": {
-      "index": 443,
+    "445": {
+      "index": 445,
       "alt_name": "Silver Dagger+ (Def)",
       "name": "Silver Dagger+ (Def)",
       "atk_boost_perm": 14,
@@ -73330,12 +73724,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 441,
+      "upgraded_from": 443,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "444": {
-      "index": 444,
+    "446": {
+      "index": 446,
       "alt_name": "Silver Dagger+ (Res)",
       "name": "Silver Dagger+ (Res)",
       "atk_boost_perm": 14,
@@ -73479,12 +73873,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 441,
+      "upgraded_from": 443,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "445": {
-      "index": 445,
+    "447": {
+      "index": 447,
       "alt_name": "Silver Dagger+ (Spd)",
       "name": "Silver Dagger+ (Spd)",
       "atk_boost_perm": 14,
@@ -73628,12 +74022,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 441,
+      "upgraded_from": 443,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "446": {
-      "index": 446,
+    "448": {
+      "index": 448,
       "alt_name": "Silver Lance+",
       "name": "Silver Lance+",
       "atk_boost_perm": 15,
@@ -73781,8 +74175,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "447": {
-      "index": 447,
+    "449": {
+      "index": 449,
       "alt_name": "Silver Lance+ (Atk)",
       "name": "Silver Lance+ (Atk)",
       "atk_boost_perm": 18,
@@ -73926,12 +74320,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 446,
+      "upgraded_from": 448,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "448": {
-      "index": 448,
+    "450": {
+      "index": 450,
       "alt_name": "Silver Lance+ (Def)",
       "name": "Silver Lance+ (Def)",
       "atk_boost_perm": 16,
@@ -74075,12 +74469,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 446,
+      "upgraded_from": 448,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "449": {
-      "index": 449,
+    "451": {
+      "index": 451,
       "alt_name": "Silver Lance+ (Res)",
       "name": "Silver Lance+ (Res)",
       "atk_boost_perm": 16,
@@ -74224,12 +74618,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 446,
+      "upgraded_from": 448,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "450": {
-      "index": 450,
+    "452": {
+      "index": 452,
       "alt_name": "Silver Lance+ (Spd)",
       "name": "Silver Lance+ (Spd)",
       "atk_boost_perm": 16,
@@ -74373,12 +74767,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 446,
+      "upgraded_from": 448,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "451": {
-      "index": 451,
+    "453": {
+      "index": 453,
       "alt_name": "Silver Sword+",
       "name": "Silver Sword+",
       "atk_boost_perm": 15,
@@ -74526,8 +74920,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "452": {
-      "index": 452,
+    "454": {
+      "index": 454,
       "alt_name": "Silver Sword+ (Atk)",
       "name": "Silver Sword+ (Atk)",
       "atk_boost_perm": 18,
@@ -74671,12 +75065,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 451,
+      "upgraded_from": 453,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "453": {
-      "index": 453,
+    "455": {
+      "index": 455,
       "alt_name": "Silver Sword+ (Def)",
       "name": "Silver Sword+ (Def)",
       "atk_boost_perm": 16,
@@ -74820,12 +75214,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 451,
+      "upgraded_from": 453,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "454": {
-      "index": 454,
+    "456": {
+      "index": 456,
       "alt_name": "Silver Sword+ (Res)",
       "name": "Silver Sword+ (Res)",
       "atk_boost_perm": 16,
@@ -74969,12 +75363,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 451,
+      "upgraded_from": 453,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "455": {
-      "index": 455,
+    "457": {
+      "index": 457,
       "alt_name": "Silver Sword+ (Spd)",
       "name": "Silver Sword+ (Spd)",
       "atk_boost_perm": 16,
@@ -75118,12 +75512,161 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 451,
+      "upgraded_from": 453,
       "cond_eff_text": 0,
       "desc": "Weapon has no additional effects."
     },
-    "456": {
-      "index": 456,
+    "458": {
+      "index": 458,
+      "alt_name": "Skadi",
+      "name": "Skadi",
+      "atk_boost_perm": 14,
+      "spd_boost_perm": 3,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "hp_boost_perm": 0,
+      "desperation_thresh": 0,
+      "brash_assault_thresh": 0,
+      "breaker": 0,
+      "breaker_thresh": 0,
+      "blade": 0,
+      "colorless_wta": 0,
+      "brave": 0,
+      "renewal_lv_weap": 0,
+      "def_boost_below50": 0,
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "hp_inflict_on_hit": 0,
+      "atk_inflict_on_hit": 0,
+      "spd_inflict_on_hit": 0,
+      "def_inflict_on_hit": 0,
+      "res_inflict_on_hit": 0,
+      "def_buff_on_hit": 0,
+      "res_buff_on_hit": 0,
+      "inf_def_inflict_on_hit": 0,
+      "inf_res_inflict_on_hit": 0,
+      "defiant_atk": 0,
+      "atk_start_inflict": 0,
+      "buff_reverse_on_hit": 0,
+      "any_range_counter": 0,
+      "wt_amp": 0,
+      "skill_cd_reduction": 0,
+      "skill_cd_increase": 0,
+      "skill_dmg_bonus": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "heal_on_hit": 0,
+      "heal_after_attack": 0,
+      "atk_boost_full_hp": 0,
+      "spd_boost_full_hp": 0,
+      "def_boost_full_hp": 0,
+      "res_boost_full_hp": 0,
+      "burn_full_hp": 0,
+      "inverse_spur": 0,
+      "atk_boost_enemy_full_hp": 0,
+      "spd_boost_enemy_full_hp": 0,
+      "def_boost_def_vs_ALS": 0,
+      "burn": 0,
+      "consec_hit_mitig": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "first_tome_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "distant_atk_off_bonus": 0,
+      "distant_atk_def_bonus": 0,
+      "distant_spd_off_bonus": 0,
+      "distant_spd_def_bonus": 0,
+      "distant_def_off_bonus": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_off_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "hit_1rng_weaker_def_stat": 0,
+      "hit_2rng_weaker_def_stat": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "enemy_debuffs_to_atk": 0,
+      "thani_mitigation": 0,
+      "great_flame_def_thresh": 0,
+      "felicias_plate_cd_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "double_lion": 0,
+      "special_atk_bonus": 0,
+      "special_spd_bonus": 0,
+      "special_def_bonus": 0,
+      "special_res_bonus": 0,
+      "special_stat_bonus": 0,
+      "negate_self_counter": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_eff": 0,
+      "lnc_eff": 0,
+      "axe_eff": 0,
+      "rt_eff": 0,
+      "bt_eff": 0,
+      "gt_eff": 0,
+      "bow_eff": 0,
+      "dgr_eff": 0,
+      "stf_eff": 0,
+      "rbrth_eff": 0,
+      "bbrth_eff": 0,
+      "gbrth_eff": 0,
+      "inf_eff": 0,
+      "cav_eff": 0,
+      "fly_eff": 1,
+      "arm_eff": 0,
+      "range": 2,
+      "type": "B",
+      "char_lock": 1,
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "cond_eff_text": 0,
+      "desc": "Effective against flying foes. Grants Speed +3. At the start of turn 3, foes within 3 columns centered on unit take 10 damage and bonuses become penalties through their next actions."
+    },
+    "459": {
+      "index": 459,
       "alt_name": "Slaying Axe+",
       "name": "Slaying Axe+",
       "atk_boost_perm": 14,
@@ -75266,13 +75809,13 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 306,
+      "evolved_from": 308,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "457": {
-      "index": 457,
+    "460": {
+      "index": 460,
       "alt_name": "Slaying Axe+ (Atk)",
       "name": "Slaying Axe+ (Atk)",
       "atk_boost_perm": 16,
@@ -75416,12 +75959,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 456,
+      "upgraded_from": 459,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "458": {
-      "index": 458,
+    "461": {
+      "index": 461,
       "alt_name": "Slaying Axe+ (Def)",
       "name": "Slaying Axe+ (Def)",
       "atk_boost_perm": 14,
@@ -75565,12 +76108,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 456,
+      "upgraded_from": 459,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "459": {
-      "index": 459,
+    "462": {
+      "index": 462,
       "alt_name": "Slaying Axe+ (Res)",
       "name": "Slaying Axe+ (Res)",
       "atk_boost_perm": 14,
@@ -75714,12 +76257,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 456,
+      "upgraded_from": 459,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "460": {
-      "index": 460,
+    "463": {
+      "index": 463,
       "alt_name": "Slaying Axe+ (Spd)",
       "name": "Slaying Axe+ (Spd)",
       "atk_boost_perm": 14,
@@ -75863,12 +76406,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 456,
+      "upgraded_from": 459,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "461": {
-      "index": 461,
+    "464": {
+      "index": 464,
       "alt_name": "Slaying Bow+",
       "name": "Slaying Bow+",
       "atk_boost_perm": 12,
@@ -76011,13 +76554,13 @@ var data = {
       "type": "B",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 307,
+      "evolved_from": 309,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "462": {
-      "index": 462,
+    "465": {
+      "index": 465,
       "alt_name": "Slaying Bow+ (Atk)",
       "name": "Slaying Bow+ (Atk)",
       "atk_boost_perm": 13,
@@ -76161,12 +76704,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 461,
+      "upgraded_from": 464,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "463": {
-      "index": 463,
+    "466": {
+      "index": 466,
       "alt_name": "Slaying Bow+ (Def)",
       "name": "Slaying Bow+ (Def)",
       "atk_boost_perm": 12,
@@ -76310,12 +76853,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 461,
+      "upgraded_from": 464,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "464": {
-      "index": 464,
+    "467": {
+      "index": 467,
       "alt_name": "Slaying Bow+ (Res)",
       "name": "Slaying Bow+ (Res)",
       "atk_boost_perm": 12,
@@ -76459,12 +77002,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 461,
+      "upgraded_from": 464,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "465": {
-      "index": 465,
+    "468": {
+      "index": 468,
       "alt_name": "Slaying Bow+ (Spd)",
       "name": "Slaying Bow+ (Spd)",
       "atk_boost_perm": 12,
@@ -76608,12 +77151,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 461,
+      "upgraded_from": 464,
       "cond_eff_text": 0,
       "desc": "Effective against flying units. Accelerates Special trigger (cooldown count-1)."
     },
-    "466": {
-      "index": 466,
+    "469": {
+      "index": 469,
       "alt_name": "Slaying Edge+",
       "name": "Slaying Edge+",
       "atk_boost_perm": 14,
@@ -76756,13 +77299,13 @@ var data = {
       "type": "S",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 309,
+      "evolved_from": 311,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "467": {
-      "index": 467,
+    "470": {
+      "index": 470,
       "alt_name": "Slaying Edge+ (Atk)",
       "name": "Slaying Edge+ (Atk)",
       "atk_boost_perm": 16,
@@ -76906,12 +77449,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 466,
+      "upgraded_from": 469,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "468": {
-      "index": 468,
+    "471": {
+      "index": 471,
       "alt_name": "Slaying Edge+ (Def)",
       "name": "Slaying Edge+ (Def)",
       "atk_boost_perm": 14,
@@ -77055,12 +77598,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 466,
+      "upgraded_from": 469,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "469": {
-      "index": 469,
+    "472": {
+      "index": 472,
       "alt_name": "Slaying Edge+ (Res)",
       "name": "Slaying Edge+ (Res)",
       "atk_boost_perm": 14,
@@ -77204,12 +77747,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 466,
+      "upgraded_from": 469,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "470": {
-      "index": 470,
+    "473": {
+      "index": 473,
       "alt_name": "Slaying Edge+ (Spd)",
       "name": "Slaying Edge+ (Spd)",
       "atk_boost_perm": 14,
@@ -77353,12 +77896,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 466,
+      "upgraded_from": 469,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "471": {
-      "index": 471,
+    "474": {
+      "index": 474,
       "alt_name": "Slaying Hammer+",
       "name": "Slaying Hammer+",
       "atk_boost_perm": 14,
@@ -77501,13 +78044,13 @@ var data = {
       "type": "A",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 253,
+      "evolved_from": 255,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "472": {
-      "index": 472,
+    "475": {
+      "index": 475,
       "alt_name": "Slaying Hammer+ (Atk)",
       "name": "Slaying Hammer+ (Atk)",
       "atk_boost_perm": 16,
@@ -77651,12 +78194,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 471,
+      "upgraded_from": 474,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "473": {
-      "index": 473,
+    "476": {
+      "index": 476,
       "alt_name": "Slaying Hammer+ (Def)",
       "name": "Slaying Hammer+ (Def)",
       "atk_boost_perm": 14,
@@ -77800,12 +78343,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 471,
+      "upgraded_from": 474,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "474": {
-      "index": 474,
+    "477": {
+      "index": 477,
       "alt_name": "Slaying Hammer+ (Eff)",
       "name": "Slaying Hammer+ (Eff)",
       "atk_boost_perm": 14,
@@ -77949,12 +78492,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 471,
+      "upgraded_from": 474,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "475": {
-      "index": 475,
+    "478": {
+      "index": 478,
       "alt_name": "Slaying Hammer+ (Res)",
       "name": "Slaying Hammer+ (Res)",
       "atk_boost_perm": 14,
@@ -78098,12 +78641,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 471,
+      "upgraded_from": 474,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "476": {
-      "index": 476,
+    "479": {
+      "index": 479,
       "alt_name": "Slaying Hammer+ (Spd)",
       "name": "Slaying Hammer+ (Spd)",
       "atk_boost_perm": 14,
@@ -78247,12 +78790,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 471,
+      "upgraded_from": 474,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "477": {
-      "index": 477,
+    "480": {
+      "index": 480,
       "alt_name": "Slaying Lance+",
       "name": "Slaying Lance+",
       "atk_boost_perm": 14,
@@ -78395,13 +78938,13 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 308,
+      "evolved_from": 310,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "478": {
-      "index": 478,
+    "481": {
+      "index": 481,
       "alt_name": "Slaying Lance+ (Atk)",
       "name": "Slaying Lance+ (Atk)",
       "atk_boost_perm": 16,
@@ -78545,12 +79088,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 477,
+      "upgraded_from": 480,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "479": {
-      "index": 479,
+    "482": {
+      "index": 482,
       "alt_name": "Slaying Lance+ (Def)",
       "name": "Slaying Lance+ (Def)",
       "atk_boost_perm": 14,
@@ -78694,12 +79237,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 477,
+      "upgraded_from": 480,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "480": {
-      "index": 480,
+    "483": {
+      "index": 483,
       "alt_name": "Slaying Lance+ (Res)",
       "name": "Slaying Lance+ (Res)",
       "atk_boost_perm": 14,
@@ -78843,12 +79386,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 477,
+      "upgraded_from": 480,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "481": {
-      "index": 481,
+    "484": {
+      "index": 484,
       "alt_name": "Slaying Lance+ (Spd)",
       "name": "Slaying Lance+ (Spd)",
       "atk_boost_perm": 14,
@@ -78992,12 +79535,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 477,
+      "upgraded_from": 480,
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1)."
     },
-    "482": {
-      "index": 482,
+    "485": {
+      "index": 485,
       "alt_name": "Slaying Spear+",
       "name": "Slaying Spear+",
       "atk_boost_perm": 14,
@@ -79140,13 +79683,13 @@ var data = {
       "type": "L",
       "char_lock": 0,
       "evolves_into": 0,
-      "evolved_from": 265,
+      "evolved_from": 267,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "483": {
-      "index": 483,
+    "486": {
+      "index": 486,
       "alt_name": "Slaying Spear+ (Atk)",
       "name": "Slaying Spear+ (Atk)",
       "atk_boost_perm": 16,
@@ -79290,12 +79833,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 482,
+      "upgraded_from": 485,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "484": {
-      "index": 484,
+    "487": {
+      "index": 487,
       "alt_name": "Slaying Spear+ (Def)",
       "name": "Slaying Spear+ (Def)",
       "atk_boost_perm": 14,
@@ -79439,12 +79982,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 482,
+      "upgraded_from": 485,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "485": {
-      "index": 485,
+    "488": {
+      "index": 488,
       "alt_name": "Slaying Spear+ (Eff)",
       "name": "Slaying Spear+ (Eff)",
       "atk_boost_perm": 14,
@@ -79588,12 +80131,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 482,
+      "upgraded_from": 485,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes. If in combat against an armored foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "486": {
-      "index": 486,
+    "489": {
+      "index": 489,
       "alt_name": "Slaying Spear+ (Res)",
       "name": "Slaying Spear+ (Res)",
       "atk_boost_perm": 14,
@@ -79737,12 +80280,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 482,
+      "upgraded_from": 485,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "487": {
-      "index": 487,
+    "490": {
+      "index": 490,
       "alt_name": "Slaying Spear+ (Spd)",
       "name": "Slaying Spear+ (Spd)",
       "atk_boost_perm": 14,
@@ -79886,12 +80429,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 482,
+      "upgraded_from": 485,
       "cond_eff_text": 0,
       "desc": "Effective against armored foes."
     },
-    "488": {
-      "index": 488,
+    "491": {
+      "index": 491,
       "alt_name": "Slow+",
       "name": "Slow+",
       "atk_boost_perm": 12,
@@ -80039,8 +80582,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions."
     },
-    "489": {
-      "index": 489,
+    "492": {
+      "index": 492,
       "alt_name": "Slow+ (Dazzling)",
       "name": "Slow+ (Dazzling)",
       "atk_boost_perm": 12,
@@ -80184,12 +80727,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 488,
+      "upgraded_from": 491,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions. The enemy cannot counterattack."
     },
-    "490": {
-      "index": 490,
+    "493": {
+      "index": 493,
       "alt_name": "Slow+ (Wrathful)",
       "name": "Slow+ (Wrathful)",
       "atk_boost_perm": 12,
@@ -80333,12 +80876,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 488,
+      "upgraded_from": 491,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Spd-7 on target and foes within 2 spaces of target through their next actions. Damage from unit's staff will be calculated the same as other weapons."
     },
-    "491": {
-      "index": 491,
+    "494": {
+      "index": 494,
       "alt_name": "Smoke Dagger+",
       "name": "Smoke Dagger+",
       "atk_boost_perm": 9,
@@ -80486,8 +81029,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Def/Res-6 on foes within 2 spaces of target through their next actions."
     },
-    "492": {
-      "index": 492,
+    "495": {
+      "index": 495,
       "alt_name": "Smoke Dagger+ (Atk)",
       "name": "Smoke Dagger+ (Atk)",
       "atk_boost_perm": 13,
@@ -80631,12 +81174,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 491,
+      "upgraded_from": 494,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
-    "493": {
-      "index": 493,
+    "496": {
+      "index": 496,
       "alt_name": "Smoke Dagger+ (Def)",
       "name": "Smoke Dagger+ (Def)",
       "atk_boost_perm": 12,
@@ -80780,12 +81323,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 491,
+      "upgraded_from": 494,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
-    "494": {
-      "index": 494,
+    "497": {
+      "index": 497,
       "alt_name": "Smoke Dagger+ (Res)",
       "name": "Smoke Dagger+ (Res)",
       "atk_boost_perm": 12,
@@ -80929,12 +81472,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 491,
+      "upgraded_from": 494,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
-    "495": {
-      "index": 495,
+    "498": {
+      "index": 498,
       "alt_name": "Smoke Dagger+ (Spd)",
       "name": "Smoke Dagger+ (Spd)",
       "atk_boost_perm": 12,
@@ -81078,12 +81621,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 491,
+      "upgraded_from": 494,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, inflicts Atk/Spd/Def/Res-6 on target and foes within 2 spaces of target through their next actions."
     },
-    "496": {
-      "index": 496,
+    "499": {
+      "index": 499,
       "alt_name": "Sol Katti",
       "name": "Sol Katti",
       "atk_boost_perm": 16,
@@ -81231,8 +81774,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If wielder initiates attack at HP &leq; 50%, any follow-up occurs immediately."
     },
-    "497": {
-      "index": 497,
+    "500": {
+      "index": 500,
       "alt_name": "Sol Katti (Atk)",
       "name": "Sol Katti (Atk)",
       "atk_boost_perm": 18,
@@ -81376,12 +81919,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 496,
+      "upgraded_from": 499,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "498": {
-      "index": 498,
+    "501": {
+      "index": 501,
       "alt_name": "Sol Katti (Def)",
       "name": "Sol Katti (Def)",
       "atk_boost_perm": 16,
@@ -81525,12 +82068,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 496,
+      "upgraded_from": 499,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "499": {
-      "index": 499,
+    "502": {
+      "index": 502,
       "alt_name": "Sol Katti (Eff)",
       "name": "Sol Katti (Eff)",
       "atk_boost_perm": 16,
@@ -81674,12 +82217,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 496,
+      "upgraded_from": 499,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack. If unit initiates combat against a foe that can counter and unit's HP &leq; 75%, unit makes a guaranteed follow-up attack."
     },
-    "500": {
-      "index": 500,
+    "503": {
+      "index": 503,
       "alt_name": "Sol Katti (Res)",
       "name": "Sol Katti (Res)",
       "atk_boost_perm": 16,
@@ -81823,12 +82366,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 496,
+      "upgraded_from": 499,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "501": {
-      "index": 501,
+    "504": {
+      "index": 504,
       "alt_name": "Sol Katti (Spd)",
       "name": "Sol Katti (Spd)",
       "atk_boost_perm": 16,
@@ -81972,12 +82515,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 496,
+      "upgraded_from": 499,
       "cond_eff_text": 0,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "502": {
-      "index": 502,
+    "505": {
+      "index": 505,
       "alt_name": "Spectral Tome+",
       "name": "Spectral Tome+",
       "atk_boost_perm": 12,
@@ -82125,8 +82668,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on all foes within 2 spaces of target become penalties through foes' next actions."
     },
-    "503": {
-      "index": 503,
+    "506": {
+      "index": 506,
       "alt_name": "Spectral Tome+ (Atk)",
       "name": "Spectral Tome+ (Atk)",
       "atk_boost_perm": 13,
@@ -82270,12 +82813,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 502,
+      "upgraded_from": 505,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "504": {
-      "index": 504,
+    "507": {
+      "index": 507,
       "alt_name": "Spectral Tome+ (Def)",
       "name": "Spectral Tome+ (Def)",
       "atk_boost_perm": 12,
@@ -82419,12 +82962,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 502,
+      "upgraded_from": 505,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "505": {
-      "index": 505,
+    "508": {
+      "index": 508,
       "alt_name": "Spectral Tome+ (Res)",
       "name": "Spectral Tome+ (Res)",
       "atk_boost_perm": 12,
@@ -82568,12 +83111,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 502,
+      "upgraded_from": 505,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "506": {
-      "index": 506,
+    "509": {
+      "index": 509,
       "alt_name": "Spectral Tome+ (Spd)",
       "name": "Spectral Tome+ (Spd)",
       "atk_boost_perm": 12,
@@ -82717,12 +83260,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 502,
+      "upgraded_from": 505,
       "cond_eff_text": 0,
       "desc": "After combat, if unit attacked, bonuses on target and all foes within 2 spaces of target become penalties through their next actions."
     },
-    "507": {
-      "index": 507,
+    "510": {
+      "index": 510,
       "alt_name": "Stout Tomahawk",
       "name": "Stout Tomahawk",
       "atk_boost_perm": 16,
@@ -82870,8 +83413,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Enables counterattack regardless of distance if this unit is attacked."
     },
-    "508": {
-      "index": 508,
+    "511": {
+      "index": 511,
       "alt_name": "Tannenboom!+",
       "name": "Tannenboom!+",
       "atk_boost_perm": 14,
@@ -83019,8 +83562,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "509": {
-      "index": 509,
+    "512": {
+      "index": 512,
       "alt_name": "Tannenboom!+ (Atk)",
       "name": "Tannenboom!+ (Atk)",
       "atk_boost_perm": 16,
@@ -83164,12 +83707,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 508,
+      "upgraded_from": 511,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "510": {
-      "index": 510,
+    "513": {
+      "index": 513,
       "alt_name": "Tannenboom!+ (Def)",
       "name": "Tannenboom!+ (Def)",
       "atk_boost_perm": 14,
@@ -83313,12 +83856,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 508,
+      "upgraded_from": 511,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "511": {
-      "index": 511,
+    "514": {
+      "index": 514,
       "alt_name": "Tannenboom!+ (Res)",
       "name": "Tannenboom!+ (Res)",
       "atk_boost_perm": 14,
@@ -83462,12 +84005,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 508,
+      "upgraded_from": 511,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "512": {
-      "index": 512,
+    "515": {
+      "index": 515,
       "alt_name": "Tannenboom!+ (Spd)",
       "name": "Tannenboom!+ (Spd)",
       "atk_boost_perm": 14,
@@ -83611,12 +84154,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 508,
+      "upgraded_from": 511,
       "cond_eff_text": 0,
       "desc": "Grants Atk/Spd/Def/Res+2 during combat if foe initiates combat.        "
     },
-    "513": {
-      "index": 513,
+    "516": {
+      "index": 516,
       "alt_name": "Thani",
       "name": "Thani",
       "atk_boost_perm": 14,
@@ -83764,8 +84307,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Res+3. Effective against armored and cavalry foes. Against armored and cavalry foes using bow, dagger, magic, or staff, damage from first attack received by unit during combat reduced by 30%.        "
     },
-    "514": {
-      "index": 514,
+    "517": {
+      "index": 517,
       "alt_name": "Tomato Tome+",
       "name": "Tomato Tome+",
       "atk_boost_perm": 12,
@@ -83913,8 +84456,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "515": {
-      "index": 515,
+    "518": {
+      "index": 518,
       "alt_name": "Tomato Tome+ (Atk)",
       "name": "Tomato Tome+ (Atk)",
       "atk_boost_perm": 13,
@@ -84058,12 +84601,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 514,
+      "upgraded_from": 517,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "516": {
-      "index": 516,
+    "519": {
+      "index": 519,
       "alt_name": "Tomato Tome+ (Def)",
       "name": "Tomato Tome+ (Def)",
       "atk_boost_perm": 12,
@@ -84207,12 +84750,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 514,
+      "upgraded_from": 517,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "517": {
-      "index": 517,
+    "520": {
+      "index": 520,
       "alt_name": "Tomato Tome+ (Res)",
       "name": "Tomato Tome+ (Res)",
       "atk_boost_perm": 12,
@@ -84356,12 +84899,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 514,
+      "upgraded_from": 517,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "518": {
-      "index": 518,
+    "521": {
+      "index": 521,
       "alt_name": "Tomato Tome+ (Spd)",
       "name": "Tomato Tome+ (Spd)",
       "atk_boost_perm": 12,
@@ -84505,12 +85048,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 514,
+      "upgraded_from": 517,
       "cond_eff_text": 0,
       "desc": "Grants allies within 2 spaces Atk/Spd+1 during combat."
     },
-    "519": {
-      "index": 519,
+    "522": {
+      "index": 522,
       "alt_name": "Tyrfing",
       "name": "Tyrfing",
       "atk_boost_perm": 16,
@@ -84652,14 +85195,14 @@ var data = {
       "range": 1,
       "type": "S",
       "char_lock": 1,
-      "evolves_into": 144,
+      "evolves_into": 145,
       "evolved_from": 0,
       "upgraded_from": 0,
       "cond_eff_text": 0,
       "desc": "Grants Def+4 in battle if unit's HP &leq; 50%."
     },
-    "520": {
-      "index": 520,
+    "523": {
+      "index": 523,
       "alt_name": "Ur\xF0r",
       "name": "Ur\xF0r",
       "atk_boost_perm": 16,
@@ -84807,8 +85350,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If Sing or Dance is used, target also granted Atk/Spd/Def/Res+3."
     },
-    "521": {
-      "index": 521,
+    "524": {
+      "index": 524,
       "alt_name": "Urvan",
       "name": "Urvan",
       "atk_boost_perm": 16,
@@ -84956,8 +85499,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Accelerates Special trigger (cooldown count-1). If unit receives consecutive attacks, damage from second attack onward reduced by 80%."
     },
-    "522": {
-      "index": 522,
+    "525": {
+      "index": 525,
       "alt_name": "Valflame",
       "name": "Valflame",
       "atk_boost_perm": 14,
@@ -85105,8 +85648,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Atk/Res-4 until the end of foe's next action."
     },
-    "523": {
-      "index": 523,
+    "526": {
+      "index": 526,
       "alt_name": "Vidofnir",
       "name": "Vidofnir",
       "atk_boost_perm": 16,
@@ -85254,8 +85797,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "If unit is attacked by foe using sword, axe or lance, unit receives Def+7 during combat."
     },
-    "524": {
-      "index": 524,
+    "527": {
+      "index": 527,
       "alt_name": "Weirding Tome",
       "name": "Weirding Tome",
       "atk_boost_perm": 14,
@@ -85403,8 +85946,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Spd+3. At start of turn, all foes in cardinal directions, and with Res 1 or more lower than unit, suffer Spd-5 until the end of foes' next actions."
     },
-    "525": {
-      "index": 525,
+    "528": {
+      "index": 528,
       "alt_name": "Wing Sword",
       "name": "Wing Sword",
       "atk_boost_perm": 16,
@@ -85552,8 +86095,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes."
     },
-    "526": {
-      "index": 526,
+    "529": {
+      "index": 529,
       "alt_name": "Wing Sword (Atk)",
       "name": "Wing Sword (Atk)",
       "atk_boost_perm": 18,
@@ -85697,12 +86240,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 525,
+      "upgraded_from": 528,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes."
     },
-    "527": {
-      "index": 527,
+    "530": {
+      "index": 530,
       "alt_name": "Wing Sword (Def)",
       "name": "Wing Sword (Def)",
       "atk_boost_perm": 16,
@@ -85846,12 +86389,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 525,
+      "upgraded_from": 528,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes."
     },
-    "528": {
-      "index": 528,
+    "531": {
+      "index": 531,
       "alt_name": "Wing Sword (Eff)",
       "name": "Wing Sword (Eff)",
       "atk_boost_perm": 16,
@@ -85995,12 +86538,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 525,
+      "upgraded_from": 528,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes. If unit's Spd - foe's Spd &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "529": {
-      "index": 529,
+    "532": {
+      "index": 532,
       "alt_name": "Wing Sword (Res)",
       "name": "Wing Sword (Res)",
       "atk_boost_perm": 16,
@@ -86144,12 +86687,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 525,
+      "upgraded_from": 528,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes."
     },
-    "530": {
-      "index": 530,
+    "533": {
+      "index": 533,
       "alt_name": "Wing Sword (Spd)",
       "name": "Wing Sword (Spd)",
       "atk_boost_perm": 16,
@@ -86293,12 +86836,12 @@ var data = {
       "char_lock": 1,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 525,
+      "upgraded_from": 528,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry and armored foes."
     },
-    "531": {
-      "index": 531,
+    "534": {
+      "index": 534,
       "alt_name": "Wo Dao+",
       "name": "Wo Dao+",
       "atk_boost_perm": 13,
@@ -86446,8 +86989,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "532": {
-      "index": 532,
+    "535": {
+      "index": 535,
       "alt_name": "Wo Dao+ (Atk)",
       "name": "Wo Dao+ (Atk)",
       "atk_boost_perm": 16,
@@ -86591,12 +87134,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 531,
+      "upgraded_from": 534,
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "533": {
-      "index": 533,
+    "536": {
+      "index": 536,
       "alt_name": "Wo Dao+ (Def)",
       "name": "Wo Dao+ (Def)",
       "atk_boost_perm": 14,
@@ -86740,12 +87283,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 531,
+      "upgraded_from": 534,
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "534": {
-      "index": 534,
+    "537": {
+      "index": 537,
       "alt_name": "Wo Dao+ (Res)",
       "name": "Wo Dao+ (Res)",
       "atk_boost_perm": 14,
@@ -86889,12 +87432,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 531,
+      "upgraded_from": 534,
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "535": {
-      "index": 535,
+    "538": {
+      "index": 538,
       "alt_name": "Wo Dao+ (Spd)",
       "name": "Wo Dao+ (Spd)",
       "atk_boost_perm": 14,
@@ -87038,12 +87581,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 531,
+      "upgraded_from": 534,
       "cond_eff_text": 0,
       "desc": "Grants +10 to damage when Special triggers."
     },
-    "536": {
-      "index": 536,
+    "539": {
+      "index": 539,
       "alt_name": "Yato",
       "name": "Yato",
       "atk_boost_perm": 16,
@@ -87191,8 +87734,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Grants Spd+4 during combat if unit initiates attack."
     },
-    "537": {
-      "index": 537,
+    "540": {
+      "index": 540,
       "alt_name": "Zanbato+",
       "name": "Zanbato+",
       "atk_boost_perm": 14,
@@ -87340,8 +87883,8 @@ var data = {
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "538": {
-      "index": 538,
+    "541": {
+      "index": 541,
       "alt_name": "Zanbato+ (Atk)",
       "name": "Zanbato+ (Atk)",
       "atk_boost_perm": 16,
@@ -87485,12 +88028,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 537,
+      "upgraded_from": 540,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "539": {
-      "index": 539,
+    "542": {
+      "index": 542,
       "alt_name": "Zanbato+ (Def)",
       "name": "Zanbato+ (Def)",
       "atk_boost_perm": 14,
@@ -87634,12 +88177,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 537,
+      "upgraded_from": 540,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "540": {
-      "index": 540,
+    "543": {
+      "index": 543,
       "alt_name": "Zanbato+ (Eff)",
       "name": "Zanbato+ (Eff)",
       "atk_boost_perm": 14,
@@ -87783,12 +88326,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 537,
+      "upgraded_from": 540,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units. If in combat against a cavalry foe, nullifies foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
     },
-    "541": {
-      "index": 541,
+    "544": {
+      "index": 544,
       "alt_name": "Zanbato+ (Res)",
       "name": "Zanbato+ (Res)",
       "atk_boost_perm": 14,
@@ -87932,12 +88475,12 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 537,
+      "upgraded_from": 540,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     },
-    "542": {
-      "index": 542,
+    "545": {
+      "index": 545,
       "alt_name": "Zanbato+ (Spd)",
       "name": "Zanbato+ (Spd)",
       "atk_boost_perm": 14,
@@ -88081,7 +88624,7 @@ var data = {
       "char_lock": 0,
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 537,
+      "upgraded_from": 540,
       "cond_eff_text": 0,
       "desc": "Effective against cavalry units."
     }
@@ -90774,7 +91317,7 @@ var data = {
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
       "arm_can_inherit": 1,
-      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Def+5 during combat."
+      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Def+7 during combat."
     },
     "11": {
       "index": 11,
@@ -90840,10 +91383,76 @@ var data = {
       "cav_can_inherit": 1,
       "fly_can_inherit": 1,
       "arm_can_inherit": 1,
-      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Spd+5 during combat."
+      "desc": "If unit's HP &leq; 80% at the start of combat, grants Atk/Spd+7 during combat."
     },
     "12": {
       "index": 12,
+      "name": "Brazen Def/Res 3",
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 0,
+      "res_boost_def": 0,
+      "cd_charge_def": 0,
+      "brazen_atk_boost": 0,
+      "brazen_spd_boost": 0,
+      "brazen_def_boost": 7,
+      "brazen_res_boost": 7,
+      "brazen_atk_thresh": 0.8,
+      "brazen_spd_thresh": 0,
+      "brazen_def_thresh": 0.8,
+      "brazen_res_thresh": 0,
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "any_range_counter": 0,
+      "defiant_atk": 0,
+      "defiant_spd": 0,
+      "defiant_def": 0,
+      "defiant_res": 0,
+      "negate_mov_eff": 0,
+      "wt_amp": 0,
+      "burn": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "earth_boost_bonus": 0,
+      "fire_boost_bonus": 0,
+      "wind_boost_bonus": 0,
+      "water_boost_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "If unit's HP &leq; 80% at the start of combat, grants Def/Res+7 during combat."
+    },
+    "13": {
+      "index": 13,
       "name": "Close Counter",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -90908,8 +91517,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Enables unit to counterattack regardless of distance to attacker."
     },
-    "13": {
-      "index": 13,
+    "14": {
+      "index": 14,
       "name": "Close Def 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -90974,8 +91583,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+6 during combat."
     },
-    "14": {
-      "index": 14,
+    "15": {
+      "index": 15,
       "name": "Darting Blow 3",
       "atk_boost_off": 0,
       "spd_boost_off": 6,
@@ -91040,8 +91649,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+6 during combat if unit initiates the attack."
     },
-    "15": {
-      "index": 15,
+    "16": {
+      "index": 16,
       "name": "Death Blow 3",
       "atk_boost_off": 6,
       "spd_boost_off": 0,
@@ -91106,8 +91715,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk+6 during combat if unit initiates the attack."
     },
-    "16": {
-      "index": 16,
+    "17": {
+      "index": 17,
       "name": "Defense +3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91172,8 +91781,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+3."
     },
-    "17": {
-      "index": 17,
+    "18": {
+      "index": 18,
       "name": "Defiant Atk 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91238,8 +91847,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk+7 at start of turn if unit's HP &leq; 50%."
     },
-    "18": {
-      "index": 18,
+    "19": {
+      "index": 19,
       "name": "Defiant Def 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91304,8 +91913,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+7 at start of turn if unit's HP &leq; 50%."
     },
-    "19": {
-      "index": 19,
+    "20": {
+      "index": 20,
       "name": "Defiant Res 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91370,8 +91979,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+7 at start of turn if unit's HP &leq; 50%."
     },
-    "20": {
-      "index": 20,
+    "21": {
+      "index": 21,
       "name": "Defiant Spd 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91436,8 +92045,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+7 at start of turn if unit's HP &leq; 50%."
     },
-    "21": {
-      "index": 21,
+    "22": {
+      "index": 22,
       "name": "Distant Counter",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91502,8 +92111,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Enables unit to counterattack regardless of distance to attacker."
     },
-    "22": {
-      "index": 22,
+    "23": {
+      "index": 23,
       "name": "Distant Def 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91568,8 +92177,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
-    "23": {
-      "index": 23,
+    "24": {
+      "index": 24,
       "name": "Earth Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91634,8 +92243,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat."
     },
-    "24": {
-      "index": 24,
+    "25": {
+      "index": 25,
       "name": "Fierce Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91700,8 +92309,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk+6 during combat when this unit is attacked."
     },
-    "25": {
-      "index": 25,
+    "26": {
+      "index": 26,
       "name": "Fire Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91766,8 +92375,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "name": "Flashing Blade 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91832,8 +92441,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Spd - foe's Spd &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "name": "Fortress Def 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91898,8 +92507,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+5. Inflicts Atk-3."
     },
-    "28": {
-      "index": 28,
+    "29": {
+      "index": 29,
       "name": "Fortress Res 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -91964,8 +92573,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+5. Inflicts Atk-3."
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "name": "Fury 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92030,8 +92639,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
-    "30": {
-      "index": 30,
+    "31": {
+      "index": 31,
       "name": "Grani's Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92096,8 +92705,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Neutralizes \"effective against cavalry\" bonuses."
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Heavy Blade 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92162,8 +92771,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "HP +5",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92228,8 +92837,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +5 to max HP."
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "HP/Atk 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92294,8 +92903,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Atk+2."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "HP/Def 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92360,8 +92969,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Def+2."
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "HP/Res 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92426,8 +93035,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Res+2"
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "HP/Spd 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92492,8 +93101,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Spd+2."
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Iote's Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92558,8 +93167,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Life and Death 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92624,8 +93233,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Mirror Strike 2",
       "atk_boost_off": 4,
       "spd_boost_off": 0,
@@ -92690,8 +93299,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Res+4 during combat if unit initiates combat."
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Resistance +3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92756,8 +93365,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3.       "
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Spd/Def 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92822,8 +93431,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Def+2."
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Spd/Def Bond 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92888,8 +93497,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally."
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Spd/Res 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -92954,8 +93563,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Res+2."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Speed +3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93020,8 +93629,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+3."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Steady Blow 2",
       "atk_boost_off": 0,
       "spd_boost_off": 4,
@@ -93086,8 +93695,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Spd/Def+4 during battle."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Steady Breath",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93152,8 +93761,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)"
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Steady Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93218,8 +93827,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+6 during combat when this unit is attacked."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Sturdy Blow 2",
       "atk_boost_off": 4,
       "spd_boost_off": 0,
@@ -93284,8 +93893,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Def+4 during combat if unit initiates combat."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Svalinn Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93350,8 +93959,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Neutralizes \"effective against armored\" bonuses."
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Swift Sparrow 2",
       "atk_boost_off": 4,
       "spd_boost_off": 4,
@@ -93416,8 +94025,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Atk/Spd+4 during battle."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Swift Strike 2",
       "atk_boost_off": 0,
       "spd_boost_off": 4,
@@ -93482,8 +94091,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Spd/Res+4 during battle."
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Triangle Adept 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93548,8 +94157,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Warding Blow 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93614,8 +94223,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+6 during combat if unit initiates attack."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Warding Breath",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93680,8 +94289,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+4 during combat if unit is attacked. Also grants Special cooldown charge +1 per attack. (Does not stack. Only highest value applied.)"
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Warding Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93746,8 +94355,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+6 during combat when this unit is attacked."
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Water Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -93812,8 +94421,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat."
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Wind Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -94647,6 +95256,91 @@ var data = {
     },
     "9": {
       "index": 9,
+      "name": "Chill Spd 3",
+      "breaker": "N",
+      "breaker_thresh": 0,
+      "brash_assault_thresh": 0,
+      "desperation_thresh": 0,
+      "vantage_thresh": 0,
+      "renewal_lv_skill": 0,
+      "hp_attack_inflict": 0,
+      "atk_combat_inflict": 0,
+      "spd_combat_inflict": 0,
+      "def_combat_inflict": 0,
+      "res_combat_inflict": 0,
+      "wary_fighter_thresh": 0,
+      "windsweep_threshold": 0,
+      "watersweep_threshold": 0,
+      "guard_threshold": 0,
+      "wrathful_staff_threshold": 0,
+      "dazzling_staff_threshold": 0,
+      "def_spec_cd_reduce": 0,
+      "def_spec_dmg_reduce": 0,
+      "self_affinity_cancel": 0,
+      "foe_affinity_cancel": 0,
+      "disadv_foe_affinity_cancel": 0,
+      "disadv_foe_affinity_reverse": 0,
+      "wrath_skill_dmg_bonus": 0,
+      "wrath_threshold": 0,
+      "distant_consec_hit_mitig": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "cd_charge_off_per_atk": 0,
+      "cd_charge_def_per_atk": 0,
+      "cd_charge_hp_thresh": 0,
+      "negate_srd_counter": 0,
+      "negate_lnc_counter": 0,
+      "negate_axe_counter": 0,
+      "negate_rt_counter": 0,
+      "negate_bt_counter": 0,
+      "negate_gt_counter": 0,
+      "negate_bow_counter": 0,
+      "negate_dgr_counter": 0,
+      "negate_stf_counter": 0,
+      "negate_rbrth_counter": 0,
+      "negate_bbrth_counter": 0,
+      "negate_gbrth_counter": 0,
+      "negate_inf_counter": 0,
+      "negate_cav_counter": 0,
+      "negate_fly_counter": 0,
+      "negate_arm_counter": 0,
+      "negate_srd_buffs": 0,
+      "negate_lnc_buffs": 0,
+      "negate_axe_buffs": 0,
+      "negate_rt_buffs": 0,
+      "negate_bt_buffs": 0,
+      "negate_gt_buffs": 0,
+      "negate_bow_buffs": 0,
+      "negate_dgr_buffs": 0,
+      "negate_stf_buffs": 0,
+      "negate_rbrth_buffs": 0,
+      "negate_bbrth_buffs": 0,
+      "negate_gbrth_buffs": 0,
+      "negate_inf_buffs": 0,
+      "negate_cav_buffs": 0,
+      "negate_fly_buffs": 0,
+      "negate_arm_buffs": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "At the start of each turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action."
+    },
+    "10": {
+      "index": 10,
       "name": "Chilling Seal",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -94730,8 +95424,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "At the start of each turn, if unit's HP &geq; 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)"
     },
-    "10": {
-      "index": 10,
+    "11": {
+      "index": 11,
       "name": "Crusader's Ward",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -94815,8 +95509,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "If unit receives consecutive attack from a foe 2 spaces away, damage from second attack onward reduced by 80%. (Skill cannot be inherited.)"
     },
-    "11": {
-      "index": 11,
+    "12": {
+      "index": 12,
       "name": "Daggerbreaker 3",
       "breaker": "K",
       "breaker_thresh": 0.5,
@@ -94900,8 +95594,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% in combat against a dagger user, unit makes a follow-up attack and foe cannot."
     },
-    "12": {
-      "index": 12,
+    "13": {
+      "index": 13,
       "name": "Dazzling Staff 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -94985,8 +95679,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "The enemy cannot counterattack."
     },
-    "13": {
-      "index": 13,
+    "14": {
+      "index": 14,
       "name": "Desperation 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95070,8 +95764,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat with HP &leq; 75%, follow-up attacks occur immediately after unit's attack."
     },
-    "14": {
-      "index": 14,
+    "15": {
+      "index": 15,
       "name": "Drag Back",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95155,8 +95849,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, the unit moves 1 space away after combat. Foe moves into unit's previous space."
     },
-    "15": {
-      "index": 15,
+    "16": {
+      "index": 16,
       "name": "Earth Dance 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95240,8 +95934,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If Sing or Dance is used, target also granted Def+5."
     },
-    "16": {
-      "index": 16,
+    "17": {
+      "index": 17,
       "name": "Escape Route 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95325,8 +96019,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Enables unit whose own HP is &leq; 50% to warp adjacent to any ally."
     },
-    "17": {
-      "index": 17,
+    "18": {
+      "index": 18,
       "name": "Flier Formation 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95410,8 +96104,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Unit can move to a space adjacent to a flier ally within 2 spaces."
     },
-    "18": {
-      "index": 18,
+    "19": {
+      "index": 19,
       "name": "Follow-Up Ring",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95495,8 +96189,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Unit makes a guaranteed follow-up attack when unit's HP &geq; 50% at start of combat. (Skill cannot be inherited.)"
     },
-    "19": {
-      "index": 19,
+    "20": {
+      "index": 20,
       "name": "G Tomebreaker 3",
       "breaker": "GT",
       "breaker_thresh": 0.5,
@@ -95580,8 +96274,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% in combat against a green tome user, unit makes a follow-up attack and foe cannot."
     },
-    "20": {
-      "index": 20,
+    "21": {
+      "index": 21,
       "name": "Gale Dance 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95665,8 +96359,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If Sing or Dance is used, target also granted Spd+4."
     },
-    "21": {
-      "index": 21,
+    "22": {
+      "index": 22,
       "name": "Geyser Dance 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95750,8 +96444,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If Sing or Dance is used, target also granted Def/Res+4."
     },
-    "22": {
-      "index": 22,
+    "23": {
+      "index": 23,
       "name": "Guard 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95835,8 +96529,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP is &geq; 80% at start of combat, enemy is inflicted with Special cooldown charge -1. (If using other similar skill, only highest value applied.)"
     },
-    "23": {
-      "index": 23,
+    "24": {
+      "index": 24,
       "name": "Hit and Run",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -95920,8 +96614,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, unit retreats 1 space after battle."
     },
-    "24": {
-      "index": 24,
+    "25": {
+      "index": 25,
       "name": "Knock Back",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96005,8 +96699,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, foe is moved 1 space away after combat."
     },
-    "25": {
-      "index": 25,
+    "26": {
+      "index": 26,
       "name": "Lancebreaker 3",
       "breaker": "L",
       "breaker_thresh": 0.5,
@@ -96090,8 +96784,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% in combat against a lance user, unit makes a follow-up attack and foe cannot."
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "name": "Live for Bounty",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96175,8 +96869,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit survives, get 1.5x shards/crystals from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "name": "Live for Honor",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96260,8 +96954,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit survives, get 1.5x normal badges from a Training Tower map. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "28": {
-      "index": 28,
+    "29": {
+      "index": 29,
       "name": "Live to Serve 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96345,8 +97039,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When healing allies with a staff, unit also recovers the same amount."
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "name": "Lunge",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96430,8 +97124,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, after combat, unit and targeted foe swap places."
     },
-    "30": {
-      "index": 30,
+    "31": {
+      "index": 31,
       "name": "Obstruct 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96515,8 +97209,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Prevents foes from moving through adjacent spaces while this unit's HP &geq; 50%. (No effect on foes with a Pass skill.)"
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Pass 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96600,8 +97294,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Units can pass through foes if its own HP &geq; 25%."
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Poison Strike 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96685,8 +97379,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts 10 damage to foe after any combat this unit initiates."
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Quick Riposte 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96770,8 +97464,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 70%."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "R Tomebreaker 3",
       "breaker": "RT",
       "breaker_thresh": 0.5,
@@ -96855,8 +97549,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% in combat against a red tome user, unit makes a follow-up attack and foe cannot."
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "Recover Ring",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -96940,8 +97634,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Restores 10 HP at the start of each turn. (Skill cannot be inherited.)"
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Renewal 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97025,8 +97719,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At the start of every second turn, restores 10 HP."
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Sacae's Blessing",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97110,8 +97804,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "If foe has sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)"
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Seal Atk 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97195,8 +97889,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Atk-7 through its next action."
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Seal Atk/Def 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97280,8 +97974,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, inflicts Atk/Def-5 on foe through its next action."
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Seal Atk/Spd 2",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97365,8 +98059,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, inflicts Atk/Spd-5 on foe through its next action."
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Seal Def 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97450,8 +98144,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Def-7 through its next action."
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Seal Res 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97535,8 +98229,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Res-7 through its next action."
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Seal Spd 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97620,8 +98314,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Spd-7 through its next action."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Shield Pulse 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97705,8 +98399,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Special triggers based on a foe's attack, Special cooldown count-2 at start of turn 1. Unit takes 5 less damage when Special triggers."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Swordbreaker 3",
       "breaker": "S",
       "breaker_thresh": 0.5,
@@ -97790,8 +98484,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% in combat against a sword user, unit makes a follow-up attack and foe cannot."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Vantage 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97875,8 +98569,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit counterattacks first when attacked at HP &leq; 75%."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Vengeful Fighter 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -97960,8 +98654,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &geq; 50% and foe initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)"
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Warp Powder",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98045,8 +98739,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "If unit's HP &geq; 80%, unit can move adjacent to any ally within 2 spaces. (Skill cannot be inherited.)"
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Wary Fighter 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98130,8 +98824,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Prevents follow-up attacks in combat from unit and foes if unit's HP &geq; 50%."
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Watersweep 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98215,8 +98909,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, no follow-up occurs. Against foe with magic, staff or dragonstone, if unit's Spd - foe's Spd &geq; 1, foe can't counterattack."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Windsweep 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98300,8 +98994,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, no follow-up occurs. Against foe with sword, lance, axe, bow, or dagger, if unit's Spd - foe's Spd &geq; 1, foe can't counterattack."
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Wings of Mercy 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98385,8 +99079,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Enables unit to warp adjacent to any ally with HP &leq; 50%."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Wrath 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -98470,8 +99164,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's HP &leq; 75%, Special cooldown count-1 at start of turn if Special triggers by attacking. If Special triggers, +10 damage from Special."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Wrathful Staff 3",
       "breaker": "N",
       "breaker_thresh": 0,
@@ -100084,6 +100778,31 @@ var data = {
     },
     "61": {
       "index": 61,
+      "name": "Ward Dragons",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Grants dragon allies within 2 spaces Def/Res+4 during combat."
+    },
+    "62": {
+      "index": 62,
       "name": "Ward Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -103255,9 +103974,9 @@ var data = {
       "base_index": 0,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 38,
-      "b": 25,
+      "weapon": 65,
+      "a": 39,
+      "b": 26,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -103269,9 +103988,9 @@ var data = {
       "base_index": 0,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 189,
-      "a": 38,
-      "b": 45,
+      "weapon": 191,
+      "a": 39,
+      "b": 46,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -103283,8 +104002,8 @@ var data = {
       "base_index": 1,
       "boon": "None",
       "bane": "None",
-      "weapon": 65,
-      "a": 15,
+      "weapon": 66,
+      "a": 16,
       "b": 1,
       "c": 46,
       "proc": 32,
@@ -103297,9 +104016,9 @@ var data = {
       "base_index": 1,
       "boon": "None",
       "bane": "None",
-      "weapon": 533,
-      "a": 46,
-      "b": 53,
+      "weapon": 536,
+      "a": 47,
+      "b": 54,
       "c": 46,
       "proc": 37,
       "seal": 56,
@@ -103311,9 +104030,9 @@ var data = {
       "base_index": 1,
       "boon": "None",
       "bane": "None",
-      "weapon": 533,
-      "a": 46,
-      "b": 53,
+      "weapon": 536,
+      "a": 47,
+      "b": 54,
       "c": 46,
       "proc": 34,
       "seal": 56,
@@ -103325,9 +104044,9 @@ var data = {
       "base_index": 2,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 164,
-      "a": 38,
-      "b": 51,
+      "weapon": 166,
+      "a": 39,
+      "b": 52,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -103339,8 +104058,8 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 458,
-      "a": 21,
+      "weapon": 461,
+      "a": 22,
       "b": 5,
       "c": 1,
       "proc": 9,
@@ -103353,9 +104072,9 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 257,
-      "a": 21,
-      "b": 47,
+      "weapon": 259,
+      "a": 22,
+      "b": 48,
       "c": 1,
       "proc": 9,
       "seal": 29,
@@ -103367,8 +104086,8 @@ var data = {
       "base_index": 3,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 5,
       "c": 1,
       "proc": 34,
@@ -103381,9 +104100,9 @@ var data = {
       "base_index": 4,
       "boon": "None",
       "bane": "None",
-      "weapon": 62,
-      "a": 38,
-      "b": 13,
+      "weapon": 63,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -103395,9 +104114,9 @@ var data = {
       "base_index": 4,
       "boon": "None",
       "bane": "None",
-      "weapon": 459,
-      "a": 21,
-      "b": 33,
+      "weapon": 462,
+      "a": 22,
+      "b": 34,
       "c": 31,
       "proc": 28,
       "seal": 29,
@@ -103409,9 +104128,9 @@ var data = {
       "base_index": 5,
       "boon": "None",
       "bane": "None",
-      "weapon": 65,
-      "a": 15,
-      "b": 18,
+      "weapon": 66,
+      "a": 16,
+      "b": 19,
       "c": 59,
       "proc": 9,
       "seal": 6,
@@ -103423,9 +104142,9 @@ var data = {
       "base_index": 7,
       "boon": "None",
       "bane": "None",
-      "weapon": 522,
-      "a": 29,
-      "b": 35,
+      "weapon": 525,
+      "a": 30,
+      "b": 36,
       "c": 44,
       "proc": 28,
       "seal": 14,
@@ -103437,9 +104156,9 @@ var data = {
       "base_index": 8,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 535,
-      "a": 38,
-      "b": 53,
+      "weapon": 538,
+      "a": 39,
+      "b": 54,
       "c": 31,
       "proc": 34,
       "seal": 6,
@@ -103451,9 +104170,9 @@ var data = {
       "base_index": 9,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 470,
-      "a": 21,
-      "b": 53,
+      "weapon": 473,
+      "a": 22,
+      "b": 54,
       "c": 31,
       "proc": 40,
       "seal": 57,
@@ -103466,8 +104185,8 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 38,
-      "b": 13,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 40,
       "seal": 65,
@@ -103479,9 +104198,9 @@ var data = {
       "base_index": 11,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 152,
-      "a": 21,
-      "b": 21,
+      "weapon": 153,
+      "a": 22,
+      "b": 22,
       "c": 34,
       "proc": 34,
       "seal": 65,
@@ -103493,9 +104212,9 @@ var data = {
       "base_index": 12,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 520,
-      "a": 52,
-      "b": 52,
+      "weapon": 523,
+      "a": 53,
+      "b": 53,
       "c": 18,
       "proc": 34,
       "seal": 65,
@@ -103507,9 +104226,9 @@ var data = {
       "base_index": 13,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 407,
-      "a": 21,
-      "b": 52,
+      "weapon": 409,
+      "a": 22,
+      "b": 53,
       "c": 31,
       "proc": 34,
       "seal": 56,
@@ -103521,9 +104240,9 @@ var data = {
       "base_index": 17,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 458,
-      "a": 21,
-      "b": 22,
+      "weapon": 461,
+      "a": 22,
+      "b": 23,
       "c": 28,
       "proc": 29,
       "seal": 48,
@@ -103535,9 +104254,9 @@ var data = {
       "base_index": 17,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 458,
-      "a": 47,
-      "b": 22,
+      "weapon": 461,
+      "a": 48,
+      "b": 23,
       "c": 28,
       "proc": 29,
       "seal": 56,
@@ -103550,7 +104269,7 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 4,
-      "a": 46,
+      "a": 47,
       "b": 5,
       "c": 59,
       "proc": 4,
@@ -103563,9 +104282,9 @@ var data = {
       "base_index": 21,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 528,
-      "a": 21,
-      "b": 33,
+      "weapon": 531,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 28,
       "seal": 14,
@@ -103577,9 +104296,9 @@ var data = {
       "base_index": 21,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 528,
-      "a": 50,
-      "b": 13,
+      "weapon": 531,
+      "a": 51,
+      "b": 14,
       "c": 28,
       "proc": 34,
       "seal": 14,
@@ -103591,9 +104310,9 @@ var data = {
       "base_index": 23,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 459,
-      "a": 21,
-      "b": 22,
+      "weapon": 462,
+      "a": 22,
+      "b": 23,
       "c": 28,
       "proc": 28,
       "seal": 56,
@@ -103605,9 +104324,9 @@ var data = {
       "base_index": 25,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 230,
-      "a": 15,
-      "b": 46,
+      "weapon": 232,
+      "a": 16,
+      "b": 47,
       "c": 34,
       "proc": 19,
       "seal": 6,
@@ -103619,9 +104338,9 @@ var data = {
       "base_index": 25,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 236,
-      "a": 52,
-      "b": 46,
+      "weapon": 238,
+      "a": 53,
+      "b": 47,
       "c": 28,
       "proc": 19,
       "seal": 29,
@@ -103633,9 +104352,9 @@ var data = {
       "base_index": 28,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 230,
-      "a": 15,
-      "b": 46,
+      "weapon": 232,
+      "a": 16,
+      "b": 47,
       "c": 32,
       "proc": 19,
       "seal": 6,
@@ -103647,9 +104366,9 @@ var data = {
       "base_index": 28,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 230,
-      "a": 38,
-      "b": 13,
+      "weapon": 232,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -103661,9 +104380,9 @@ var data = {
       "base_index": 29,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 367,
-      "a": 38,
-      "b": 36,
+      "weapon": 369,
+      "a": 39,
+      "b": 37,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -103675,9 +104394,9 @@ var data = {
       "base_index": 29,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 367,
-      "a": 38,
-      "b": 36,
+      "weapon": 369,
+      "a": 39,
+      "b": 37,
       "c": 31,
       "proc": 32,
       "seal": 42,
@@ -103686,12 +104405,12 @@ var data = {
     "31": {
       "index": 31,
       "name": "Cherche (Wyvern Friend)",
-      "base_index": 31,
+      "base_index": 32,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
-      "b": 23,
+      "weapon": 63,
+      "a": 16,
+      "b": 24,
       "c": 28,
       "proc": 9,
       "seal": 6,
@@ -103700,12 +104419,12 @@ var data = {
     "32": {
       "index": 32,
       "name": "Cherche (Wyvern Friend)",
-      "base_index": 31,
+      "base_index": 32,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 458,
-      "a": 21,
-      "b": 33,
+      "weapon": 461,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 9,
       "seal": 48,
@@ -103714,12 +104433,12 @@ var data = {
     "33": {
       "index": 33,
       "name": "Chrom (Exalted Prince)",
-      "base_index": 32,
+      "base_index": 33,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 65,
-      "a": 15,
-      "b": 45,
+      "weapon": 66,
+      "a": 16,
+      "b": 46,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -103728,11 +104447,11 @@ var data = {
     "34": {
       "index": 34,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 459,
-      "a": 21,
+      "weapon": 462,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 29,
@@ -103742,12 +104461,12 @@ var data = {
     "35": {
       "index": 35,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 405,
-      "a": 21,
-      "b": 49,
+      "weapon": 407,
+      "a": 22,
+      "b": 50,
       "c": 59,
       "proc": 9,
       "seal": 29,
@@ -103756,12 +104475,12 @@ var data = {
     "36": {
       "index": 36,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 405,
-      "a": 21,
-      "b": 47,
+      "weapon": 407,
+      "a": 22,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 29,
@@ -103770,11 +104489,11 @@ var data = {
     "37": {
       "index": 37,
       "name": "Chrom (Gifted Leader)",
-      "base_index": 33,
+      "base_index": 34,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -103784,12 +104503,12 @@ var data = {
     "38": {
       "index": 38,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 38,
-      "b": 13,
+      "weapon": 65,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 6,
@@ -103798,12 +104517,12 @@ var data = {
     "39": {
       "index": 39,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 189,
-      "a": 38,
-      "b": 23,
+      "weapon": 191,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 17,
       "seal": 65,
@@ -103812,12 +104531,12 @@ var data = {
     "40": {
       "index": 40,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 39,
+      "base_index": 40,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 481,
-      "a": 38,
-      "b": 13,
+      "weapon": 484,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 17,
       "seal": 42,
@@ -103826,12 +104545,12 @@ var data = {
     "41": {
       "index": 41,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 63,
-      "a": 38,
-      "b": 13,
+      "weapon": 64,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 32,
       "seal": 6,
@@ -103840,11 +104559,11 @@ var data = {
     "42": {
       "index": 42,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 188,
-      "a": 38,
+      "weapon": 190,
+      "a": 39,
       "b": 8,
       "c": 31,
       "proc": 32,
@@ -103854,12 +104573,12 @@ var data = {
     "43": {
       "index": 43,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 43,
+      "base_index": 44,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -103868,12 +104587,12 @@ var data = {
     "44": {
       "index": 44,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 43,
+      "base_index": 44,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 325,
-      "a": 52,
-      "b": 33,
+      "weapon": 327,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -103882,12 +104601,12 @@ var data = {
     "45": {
       "index": 45,
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 45,
+      "base_index": 46,
       "boon": "Res",
       "bane": "Def",
-      "weapon": 143,
-      "a": 55,
-      "b": 33,
+      "weapon": 144,
+      "a": 56,
+      "b": 34,
       "c": 2,
       "proc": 18,
       "seal": 29,
@@ -103896,12 +104615,12 @@ var data = {
     "46": {
       "index": 46,
       "name": "Delthea (Free Spirit)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 123,
-      "a": 38,
-      "b": 13,
+      "weapon": 124,
+      "a": 39,
+      "b": 14,
       "c": 15,
       "proc": 13,
       "seal": 6,
@@ -103910,12 +104629,12 @@ var data = {
     "47": {
       "index": 47,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 48,
+      "base_index": 49,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 507,
-      "a": 46,
-      "b": 33,
+      "weapon": 510,
+      "a": 47,
+      "b": 34,
       "c": 36,
       "proc": 29,
       "seal": 13,
@@ -103924,12 +104643,12 @@ var data = {
     "48": {
       "index": 48,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 28,
-      "a": 21,
-      "b": 49,
+      "weapon": 29,
+      "a": 22,
+      "b": 50,
       "c": 59,
       "proc": 28,
       "seal": 29,
@@ -103938,11 +104657,11 @@ var data = {
     "49": {
       "index": 49,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 480,
-      "a": 21,
+      "weapon": 483,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 29,
@@ -103952,11 +104671,11 @@ var data = {
     "50": {
       "index": 50,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 64,
-      "a": 15,
+      "weapon": 65,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -103966,12 +104685,12 @@ var data = {
     "51": {
       "index": 51,
       "name": "Effie (Army of One)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 511,
-      "a": 21,
-      "b": 47,
+      "weapon": 514,
+      "a": 22,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 29,
@@ -103980,12 +104699,12 @@ var data = {
     "52": {
       "index": 52,
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 50,
-      "b": 13,
+      "weapon": 372,
+      "a": 51,
+      "b": 14,
       "c": 32,
       "proc": 19,
       "seal": 65,
@@ -103994,12 +104713,12 @@ var data = {
     "53": {
       "index": 53,
       "name": "Eirika (Restoration Lady)",
-      "base_index": 52,
+      "base_index": 53,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 424,
-      "a": 29,
-      "b": 33,
+      "weapon": 426,
+      "a": 30,
+      "b": 34,
       "c": 35,
       "proc": 34,
       "seal": 49,
@@ -104008,12 +104727,12 @@ var data = {
     "54": {
       "index": 54,
       "name": "Eldigan (Lionheart)",
-      "base_index": 53,
+      "base_index": 54,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 346,
-      "a": 29,
-      "b": 33,
+      "weapon": 348,
+      "a": 30,
+      "b": 34,
       "c": 32,
       "proc": 9,
       "seal": 13,
@@ -104022,12 +104741,12 @@ var data = {
     "55": {
       "index": 55,
       "name": "Elincia (Lost Princess)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
-      "a": 38,
-      "b": 13,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 32,
       "seal": 6,
@@ -104036,12 +104755,12 @@ var data = {
     "56": {
       "index": 56,
       "name": "Elincia (Lost Princess)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 190,
-      "a": 38,
-      "b": 23,
+      "weapon": 192,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 65,
@@ -104050,12 +104769,12 @@ var data = {
     "57": {
       "index": 57,
       "name": "Elise (Budding Flower)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 216,
-      "a": 44,
-      "b": 54,
+      "weapon": 218,
+      "a": 45,
+      "b": 55,
       "c": 32,
       "proc": 33,
       "seal": 6,
@@ -104064,12 +104783,12 @@ var data = {
     "58": {
       "index": 58,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 59,
+      "base_index": 60,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 428,
-      "a": 15,
-      "b": 53,
+      "weapon": 430,
+      "a": 16,
+      "b": 54,
       "c": 35,
       "proc": 34,
       "seal": 49,
@@ -104078,12 +104797,12 @@ var data = {
     "59": {
       "index": 59,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 59,
+      "base_index": 60,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 428,
-      "a": 46,
-      "b": 33,
+      "weapon": 430,
+      "a": 47,
+      "b": 34,
       "c": 35,
       "proc": 29,
       "seal": 49,
@@ -104092,12 +104811,12 @@ var data = {
     "60": {
       "index": 60,
       "name": "Est (Junior Whitewing)",
-      "base_index": 60,
+      "base_index": 61,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 15,
-      "b": 23,
+      "weapon": 65,
+      "a": 16,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 6,
@@ -104106,12 +104825,12 @@ var data = {
     "61": {
       "index": 61,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 38,
       "proc": 28,
       "seal": 2,
@@ -104120,12 +104839,12 @@ var data = {
     "62": {
       "index": 62,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 38,
       "proc": 19,
       "seal": 2,
@@ -104134,12 +104853,12 @@ var data = {
     "63": {
       "index": 63,
       "name": "Fae (Divine Dragon)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 38,
       "proc": 34,
       "seal": 2,
@@ -104148,12 +104867,12 @@ var data = {
     "64": {
       "index": 64,
       "name": "Faye (Devoted Heart)",
-      "base_index": 62,
+      "base_index": 63,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 240,
-      "a": 12,
-      "b": 33,
+      "weapon": 242,
+      "a": 13,
+      "b": 34,
       "c": 38,
       "proc": 28,
       "seal": 29,
@@ -104162,12 +104881,12 @@ var data = {
     "65": {
       "index": 65,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 65,
+      "base_index": 66,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 316,
-      "a": 54,
-      "b": 44,
+      "weapon": 318,
+      "a": 55,
+      "b": 45,
       "c": 15,
       "proc": 27,
       "seal": 56,
@@ -104176,12 +104895,12 @@ var data = {
     "66": {
       "index": 66,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 65,
+      "base_index": 66,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 316,
-      "a": 46,
-      "b": 33,
+      "weapon": 318,
+      "a": 47,
+      "b": 34,
       "c": 15,
       "proc": 9,
       "seal": 13,
@@ -104190,12 +104909,12 @@ var data = {
     "67": {
       "index": 67,
       "name": "Florina (Lovely Flier)",
-      "base_index": 66,
+      "base_index": 67,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 28,
-      "a": 21,
-      "b": 33,
+      "weapon": 29,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 28,
       "seal": 29,
@@ -104204,11 +104923,11 @@ var data = {
     "68": {
       "index": 68,
       "name": "Frederick (Polite Knight)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 62,
-      "a": 15,
+      "weapon": 63,
+      "a": 16,
       "b": 1,
       "c": 32,
       "proc": 32,
@@ -104218,12 +104937,12 @@ var data = {
     "69": {
       "index": 69,
       "name": "Frederick (Polite Knight)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 458,
-      "a": 13,
-      "b": 33,
+      "weapon": 461,
+      "a": 14,
+      "b": 34,
       "c": 32,
       "proc": 9,
       "seal": 13,
@@ -104232,11 +104951,11 @@ var data = {
     "70": {
       "index": 70,
       "name": "Gaius (Thief Exposed)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 188,
-      "a": 38,
+      "weapon": 190,
+      "a": 39,
       "b": 8,
       "c": 31,
       "proc": 32,
@@ -104246,12 +104965,12 @@ var data = {
     "71": {
       "index": 71,
       "name": "Gaius (Thief Exposed)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 63,
-      "a": 50,
-      "b": 13,
+      "weapon": 64,
+      "a": 51,
+      "b": 14,
       "c": 13,
       "proc": 32,
       "seal": 6,
@@ -104260,12 +104979,12 @@ var data = {
     "72": {
       "index": 72,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 74,
+      "base_index": 75,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 46,
-      "a": 15,
-      "b": 9,
+      "weapon": 47,
+      "a": 16,
+      "b": 10,
       "c": 4,
       "proc": 19,
       "seal": 6,
@@ -104274,11 +104993,11 @@ var data = {
     "73": {
       "index": 73,
       "name": "Hector (General of Ostia)",
-      "base_index": 79,
+      "base_index": 81,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 6,
-      "a": 21,
+      "a": 22,
       "b": 5,
       "c": 59,
       "proc": 9,
@@ -104288,12 +105007,12 @@ var data = {
     "74": {
       "index": 74,
       "name": "Hector (Just Here to Fight)",
-      "base_index": 80,
+      "base_index": 82,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 30,
-      "a": 21,
-      "b": 53,
+      "weapon": 31,
+      "a": 22,
+      "b": 54,
       "c": 59,
       "proc": 34,
       "seal": 56,
@@ -104302,12 +105021,12 @@ var data = {
     "75": {
       "index": 75,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 85,
+      "base_index": 87,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 521,
-      "a": 21,
-      "b": 33,
+      "weapon": 524,
+      "a": 22,
+      "b": 34,
       "c": 38,
       "proc": 9,
       "seal": 29,
@@ -104316,11 +105035,11 @@ var data = {
     "76": {
       "index": 76,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 85,
+      "base_index": 87,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 521,
-      "a": 46,
+      "weapon": 524,
+      "a": 47,
       "b": 3,
       "c": 38,
       "proc": 9,
@@ -104330,12 +105049,12 @@ var data = {
     "77": {
       "index": 77,
       "name": "Innes (Regal Strategician)",
-      "base_index": 89,
+      "base_index": 91,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 352,
+      "weapon": 354,
       "a": 3,
-      "b": 22,
+      "b": 23,
       "c": 47,
       "proc": 28,
       "seal": 56,
@@ -104344,11 +105063,11 @@ var data = {
     "78": {
       "index": 78,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 92,
+      "base_index": 94,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 63,
-      "a": 15,
+      "weapon": 64,
+      "a": 16,
       "b": 5,
       "c": 59,
       "proc": 34,
@@ -104358,12 +105077,12 @@ var data = {
     "79": {
       "index": 79,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 92,
+      "base_index": 94,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 241,
-      "a": 12,
-      "b": 47,
+      "weapon": 243,
+      "a": 13,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 13,
@@ -104372,11 +105091,11 @@ var data = {
     "80": {
       "index": 80,
       "name": "Jeorge (Perfect Shot)",
-      "base_index": 94,
+      "base_index": 96,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 362,
-      "a": 38,
+      "weapon": 364,
+      "a": 39,
       "b": 8,
       "c": 31,
       "proc": 32,
@@ -104386,12 +105105,12 @@ var data = {
     "81": {
       "index": 81,
       "name": "Julia (Naga's Blood)",
-      "base_index": 96,
+      "base_index": 98,
       "boon": "Res",
       "bane": "Def",
-      "weapon": 143,
-      "a": 55,
-      "b": 33,
+      "weapon": 144,
+      "a": 56,
+      "b": 34,
       "c": 2,
       "proc": 18,
       "seal": 29,
@@ -104400,12 +105119,12 @@ var data = {
     "82": {
       "index": 82,
       "name": "Julia (Naga's Blood)",
-      "base_index": 96,
+      "base_index": 98,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 143,
-      "a": 15,
-      "b": 25,
+      "weapon": 144,
+      "a": 16,
+      "b": 26,
       "c": 41,
       "proc": 18,
       "seal": 6,
@@ -104414,11 +105133,11 @@ var data = {
     "83": {
       "index": 83,
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 97,
+      "base_index": 99,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 366,
-      "a": 50,
+      "weapon": 368,
+      "a": 51,
       "b": 8,
       "c": 43,
       "proc": 19,
@@ -104428,12 +105147,12 @@ var data = {
     "84": {
       "index": 84,
       "name": "Leo (Sorcerous Prince)",
-      "base_index": 106,
+      "base_index": 108,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 370,
-      "a": 15,
-      "b": 45,
+      "weapon": 372,
+      "a": 16,
+      "b": 46,
       "c": 32,
       "proc": 19,
       "seal": 6,
@@ -104442,12 +105161,12 @@ var data = {
     "85": {
       "index": 85,
       "name": "Linde (Light Mage)",
-      "base_index": 110,
+      "base_index": 112,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 32,
-      "a": 50,
-      "b": 13,
+      "weapon": 33,
+      "a": 51,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 65,
@@ -104456,12 +105175,12 @@ var data = {
     "86": {
       "index": 86,
       "name": "Lukas (Sharp Soldier)",
-      "base_index": 119,
+      "base_index": 121,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 479,
-      "a": 46,
-      "b": 22,
+      "weapon": 482,
+      "a": 47,
+      "b": 23,
       "c": 31,
       "proc": 9,
       "seal": 56,
@@ -104470,12 +105189,12 @@ var data = {
     "87": {
       "index": 87,
       "name": "Lute (Prodigy)",
-      "base_index": 121,
+      "base_index": 123,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 524,
-      "a": 50,
-      "b": 13,
+      "weapon": 527,
+      "a": 51,
+      "b": 14,
       "c": 41,
       "proc": 32,
       "seal": 65,
@@ -104484,12 +105203,12 @@ var data = {
     "88": {
       "index": 88,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 342,
-      "a": 50,
-      "b": 37,
+      "weapon": 344,
+      "a": 51,
+      "b": 38,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -104498,11 +105217,11 @@ var data = {
     "89": {
       "index": 89,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 188,
-      "a": 38,
+      "weapon": 190,
+      "a": 39,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -104512,12 +105231,12 @@ var data = {
     "90": {
       "index": 90,
       "name": "Lyn (Brave Lady)",
-      "base_index": 122,
+      "base_index": 124,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 63,
-      "a": 38,
-      "b": 37,
+      "weapon": 64,
+      "a": 39,
+      "b": 38,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -104526,12 +105245,12 @@ var data = {
     "91": {
       "index": 91,
       "name": "Lyn (Lady of the Plains)",
-      "base_index": 124,
+      "base_index": 126,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 499,
-      "a": 38,
-      "b": 53,
+      "weapon": 502,
+      "a": 39,
+      "b": 54,
       "c": 31,
       "proc": 34,
       "seal": 65,
@@ -104540,12 +105259,12 @@ var data = {
     "92": {
       "index": 92,
       "name": "Maria (Minerva's Sister)",
-      "base_index": 128,
+      "base_index": 130,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 174,
+      "weapon": 176,
       "a": 4,
-      "b": 54,
+      "b": 55,
       "c": 44,
       "proc": 33,
       "seal": 6,
@@ -104554,12 +105273,12 @@ var data = {
     "93": {
       "index": 93,
       "name": "Mia (Lady of Blades)",
-      "base_index": 135,
+      "base_index": 137,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 384,
-      "a": 38,
-      "b": 13,
+      "weapon": 386,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -104568,12 +105287,12 @@ var data = {
     "94": {
       "index": 94,
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 136,
+      "base_index": 138,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 513,
-      "a": 22,
-      "b": 22,
+      "weapon": 516,
+      "a": 23,
+      "b": 23,
       "c": 41,
       "proc": 19,
       "seal": 56,
@@ -104582,12 +105301,12 @@ var data = {
     "95": {
       "index": 95,
       "name": "Michalis (Ambitious King)",
-      "base_index": 137,
+      "base_index": 139,
       "boon": "None",
       "bane": "None",
-      "weapon": 262,
-      "a": 21,
-      "b": 33,
+      "weapon": 264,
+      "a": 22,
+      "b": 34,
       "c": 28,
       "proc": 37,
       "seal": 48,
@@ -104596,12 +105315,12 @@ var data = {
     "96": {
       "index": 96,
       "name": "Michalis (Ambitious King)",
-      "base_index": 137,
+      "base_index": 139,
       "boon": "None",
       "bane": "None",
-      "weapon": 262,
-      "a": 47,
-      "b": 22,
+      "weapon": 264,
+      "a": 48,
+      "b": 23,
       "c": 28,
       "proc": 37,
       "seal": 56,
@@ -104610,12 +105329,12 @@ var data = {
     "97": {
       "index": 97,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 138,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 264,
-      "a": 38,
-      "b": 13,
+      "weapon": 266,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 17,
       "seal": 42,
@@ -104624,12 +105343,12 @@ var data = {
     "98": {
       "index": 98,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 138,
+      "base_index": 140,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 262,
-      "a": 38,
-      "b": 13,
+      "weapon": 264,
+      "a": 39,
+      "b": 14,
       "c": 28,
       "proc": 34,
       "seal": 65,
@@ -104638,12 +105357,12 @@ var data = {
     "99": {
       "index": 99,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 140,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 218,
-      "a": 21,
-      "b": 33,
+      "weapon": 220,
+      "a": 22,
+      "b": 34,
       "c": 34,
       "proc": 19,
       "seal": 48,
@@ -104652,12 +105371,12 @@ var data = {
     "100": {
       "index": 100,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 140,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 218,
-      "a": 21,
-      "b": 33,
+      "weapon": 220,
+      "a": 22,
+      "b": 34,
       "c": 33,
       "proc": 19,
       "seal": 13,
@@ -104666,11 +105385,11 @@ var data = {
     "101": {
       "index": 101,
       "name": "Niles (Cruel to be Kind)",
-      "base_index": 144,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 241,
-      "a": 55,
+      "weapon": 243,
+      "a": 56,
       "b": 8,
       "c": 2,
       "proc": 28,
@@ -104680,12 +105399,12 @@ var data = {
     "102": {
       "index": 102,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 145,
+      "base_index": 147,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 326,
-      "a": 52,
-      "b": 52,
+      "weapon": 328,
+      "a": 53,
+      "b": 53,
       "c": 22,
       "proc": 19,
       "seal": 56,
@@ -104694,12 +105413,12 @@ var data = {
     "103": {
       "index": 103,
       "name": "Nino (Pious Mage)",
-      "base_index": 146,
+      "base_index": 148,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 230,
-      "a": 29,
-      "b": 13,
+      "weapon": 232,
+      "a": 30,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 65,
@@ -104708,12 +105427,12 @@ var data = {
     "104": {
       "index": 104,
       "name": "Nowi (Eternal Witch)",
-      "base_index": 147,
+      "base_index": 149,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 38,
-      "b": 13,
+      "weapon": 372,
+      "a": 39,
+      "b": 14,
       "c": 34,
       "proc": 19,
       "seal": 65,
@@ -104722,12 +105441,12 @@ var data = {
     "105": {
       "index": 105,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 38,
       "proc": 9,
       "seal": 29,
@@ -104736,12 +105455,12 @@ var data = {
     "106": {
       "index": 106,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 38,
       "proc": 19,
       "seal": 29,
@@ -104750,12 +105469,12 @@ var data = {
     "107": {
       "index": 107,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 148,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 38,
       "proc": 34,
       "seal": 29,
@@ -104764,12 +105483,12 @@ var data = {
     "108": {
       "index": 108,
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 163,
+      "base_index": 165,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 142,
-      "a": 15,
-      "b": 25,
+      "weapon": 143,
+      "a": 16,
+      "b": 26,
       "c": 32,
       "proc": 34,
       "seal": 57,
@@ -104778,12 +105497,12 @@ var data = {
     "109": {
       "index": 109,
       "name": "Robin (High Deliverer)",
-      "base_index": 166,
+      "base_index": 169,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 38,
-      "a": 52,
-      "b": 45,
+      "weapon": 39,
+      "a": 53,
+      "b": 46,
       "c": 31,
       "proc": 9,
       "seal": 56,
@@ -104792,12 +105511,12 @@ var data = {
     "110": {
       "index": 110,
       "name": "Roy (Brave Lion)",
-      "base_index": 170,
+      "base_index": 173,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 40,
-      "a": 38,
-      "b": 13,
+      "weapon": 41,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 17,
       "seal": 56,
@@ -104806,12 +105525,12 @@ var data = {
     "111": {
       "index": 111,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 178,
+      "base_index": 181,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 105,
-      "a": 15,
-      "b": 33,
+      "weapon": 106,
+      "a": 16,
+      "b": 34,
       "c": 15,
       "proc": 14,
       "seal": 6,
@@ -104820,12 +105539,12 @@ var data = {
     "112": {
       "index": 112,
       "name": "Shanna (Sprightly Flier)",
-      "base_index": 184,
+      "base_index": 187,
       "boon": "Atk",
       "bane": "Def",
-      "weapon": 189,
-      "a": 38,
-      "b": 23,
+      "weapon": 191,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 62,
@@ -104834,12 +105553,12 @@ var data = {
     "113": {
       "index": 113,
       "name": "Shiro (Raw Talent)",
-      "base_index": 188,
+      "base_index": 191,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 66,
-      "a": 46,
-      "b": 33,
+      "weapon": 67,
+      "a": 47,
+      "b": 34,
       "c": 14,
       "proc": 29,
       "seal": 13,
@@ -104848,12 +105567,12 @@ var data = {
     "114": {
       "index": 114,
       "name": "Siegbert (Future King)",
-      "base_index": 189,
+      "base_index": 192,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 130,
-      "a": 38,
-      "b": 13,
+      "weapon": 131,
+      "a": 39,
+      "b": 14,
       "c": 32,
       "proc": 32,
       "seal": 6,
@@ -104862,12 +105581,12 @@ var data = {
     "115": {
       "index": 115,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 191,
+      "base_index": 194,
       "boon": "Spd",
       "bane": "Res",
-      "weapon": 190,
-      "a": 38,
-      "b": 45,
+      "weapon": 192,
+      "a": 39,
+      "b": 46,
       "c": 31,
       "proc": 32,
       "seal": 65,
@@ -104876,12 +105595,12 @@ var data = {
     "116": {
       "index": 116,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 193,
+      "base_index": 196,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 376,
-      "a": 52,
-      "b": 33,
+      "weapon": 378,
+      "a": 53,
+      "b": 34,
       "c": 31,
       "proc": 14,
       "seal": 29,
@@ -104890,12 +105609,12 @@ var data = {
     "117": {
       "index": 117,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 481,
-      "a": 38,
-      "b": 13,
+      "weapon": 484,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 17,
       "seal": 42,
@@ -104904,12 +105623,12 @@ var data = {
     "118": {
       "index": 118,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 64,
-      "a": 38,
-      "b": 13,
+      "weapon": 65,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 6,
@@ -104918,12 +105637,12 @@ var data = {
     "119": {
       "index": 119,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 189,
-      "a": 38,
-      "b": 23,
+      "weapon": 191,
+      "a": 39,
+      "b": 24,
       "c": 28,
       "proc": 32,
       "seal": 65,
@@ -104932,12 +105651,12 @@ var data = {
     "120": {
       "index": 120,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 523,
-      "a": 38,
-      "b": 13,
+      "weapon": 526,
+      "a": 39,
+      "b": 14,
       "c": 29,
       "proc": 32,
       "seal": 65,
@@ -104946,12 +105665,12 @@ var data = {
     "121": {
       "index": 121,
       "name": "Tana (Winged Princess)",
-      "base_index": 202,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Res",
-      "weapon": 523,
-      "a": 13,
-      "b": 33,
+      "weapon": 526,
+      "a": 14,
+      "b": 34,
       "c": 28,
       "proc": 9,
       "seal": 13,
@@ -104960,12 +105679,12 @@ var data = {
     "122": {
       "index": 122,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 203,
+      "base_index": 207,
       "boon": "Def",
       "bane": "Spd",
-      "weapon": 70,
-      "a": 12,
-      "b": 47,
+      "weapon": 71,
+      "a": 13,
+      "b": 48,
       "c": 59,
       "proc": 29,
       "seal": 2,
@@ -104974,11 +105693,11 @@ var data = {
     "123": {
       "index": 123,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 203,
+      "base_index": 207,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 370,
-      "a": 15,
+      "weapon": 372,
+      "a": 16,
       "b": 5,
       "c": 30,
       "proc": 19,
@@ -104988,12 +105707,12 @@ var data = {
     "124": {
       "index": 124,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 204,
+      "base_index": 208,
       "boon": "Spd",
       "bane": "Def",
-      "weapon": 370,
-      "a": 38,
-      "b": 13,
+      "weapon": 372,
+      "a": 39,
+      "b": 14,
       "c": 31,
       "proc": 19,
       "seal": 62,
@@ -105002,12 +105721,12 @@ var data = {
     "125": {
       "index": 125,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 13,
@@ -105016,12 +105735,12 @@ var data = {
     "126": {
       "index": 126,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -105030,12 +105749,12 @@ var data = {
     "127": {
       "index": 127,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 205,
+      "base_index": 209,
       "boon": "Spd",
       "bane": "HP",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -105044,12 +105763,12 @@ var data = {
     "128": {
       "index": 128,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 46,
-      "b": 33,
+      "weapon": 326,
+      "a": 47,
+      "b": 34,
       "c": 22,
       "proc": 9,
       "seal": 29,
@@ -105058,12 +105777,12 @@ var data = {
     "129": {
       "index": 129,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 52,
-      "b": 33,
+      "weapon": 326,
+      "a": 53,
+      "b": 34,
       "c": 22,
       "proc": 19,
       "seal": 29,
@@ -105072,12 +105791,12 @@ var data = {
     "130": {
       "index": 130,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 206,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Spd",
-      "weapon": 324,
-      "a": 29,
-      "b": 33,
+      "weapon": 326,
+      "a": 30,
+      "b": 34,
       "c": 22,
       "proc": 34,
       "seal": 29,
@@ -105086,12 +105805,12 @@ var data = {
     "131": {
       "index": 131,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 208,
+      "base_index": 212,
       "boon": "Atk",
       "bane": "HP",
-      "weapon": 152,
-      "a": 21,
-      "b": 22,
+      "weapon": 153,
+      "a": 22,
+      "b": 23,
       "c": 32,
       "proc": 19,
       "seal": 56,
@@ -105100,11 +105819,11 @@ var data = {
     "132": {
       "index": 132,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 217,
+      "base_index": 221,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
-      "a": 46,
+      "a": 47,
       "b": 5,
       "c": 59,
       "proc": 4,
