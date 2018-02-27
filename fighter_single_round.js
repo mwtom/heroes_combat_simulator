@@ -326,7 +326,7 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     }
 
     if (this.conditional_effects) {
-      atk += this.get_special_atk_bonus();
+      atk += this.get_cond_atk_bonus();
     }
 
     // If the unit in question is the attacker, make sure to include offensive
@@ -552,7 +552,7 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     }
 
     if (this.conditional_effects) {
-      e_spd += this.get_special_spd_bonus();
+      e_spd += this.get_cond_spd_bonus();
     }
 
     // If the unit in question is attacking, make sure to include
@@ -643,7 +643,7 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     }
 
     if (this.conditional_effects) {
-      e_def += this.get_special_def_bonus();
+      e_def += this.get_cond_def_bonus();
     }
 
     // If the unit in question is at full HP, and has an effect that increases Def at full HP, include it.
@@ -704,7 +704,7 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
     }
 
     if (this.conditional_effects) {
-      e_res += this.get_special_res_bonus();
+      e_res += this.get_cond_res_bonus();
     }
 
     // If the unit in question is attacking, make sure to include
@@ -869,6 +869,11 @@ Fighter.prototype.follow_up_thresh_applies = function (is_active) {
   }
   if ((is_active && this.seal.follow_up_off) || (!is_active && this.seal.follow_up_def)) {
     if (this.start_HP / this.hp_max >= this.seal.follow_up_thresh) {
+      counter += 1;
+    }
+  }
+  if (this.conditional_effects && ((is_active && this.weapon.cond_follow_up_off) || (!is_active && this.weapon.cond_follow_up_def))) {
+    if (this.start_HP / this.hp_max >= this.weapon.cond_follow_up_thresh) {
       counter += 1;
     }
   }
@@ -1216,7 +1221,14 @@ Fighter.prototype.get_precombat_atk_mult_proc = function() {
   return this.proc.precombat_atk_mult_proc;
 };
 Fighter.prototype.get_heal_on_hit_proc = function() {
-  return this.proc.heal_on_hit_proc;
+  // Add any skill-based augmentations (ex. Solar Brace), if applicable.
+  var to_return = this.proc.heal_on_hit_proc;
+
+  if (this.b_skill.spec_bonus_heal > 0) {
+    to_return += this.b_skill.spec_bonus_heal;
+  }
+
+  return to_return;
 };
 Fighter.prototype.get_atk_mult_proc = function() {
   return this.proc.atk_mult_proc;
@@ -1823,17 +1835,17 @@ Fighter.prototype.get_def_bond = function () {
 Fighter.prototype.get_res_bond = function () {
   return this.a_skill.res_bond + this.weapon.res_bond;
 };
-Fighter.prototype.get_special_atk_bonus = function () {
-  return this.weapon.special_atk_bonus;
+Fighter.prototype.get_cond_atk_bonus = function () {
+  return this.weapon.cond_atk_bonus;
 };
-Fighter.prototype.get_special_spd_bonus = function () {
-  return this.weapon.special_spd_bonus;
+Fighter.prototype.get_cond_spd_bonus = function () {
+  return this.weapon.cond_spd_bonus;
 };
-Fighter.prototype.get_special_def_bonus = function () {
-  return this.weapon.special_def_bonus;
+Fighter.prototype.get_cond_def_bonus = function () {
+  return this.weapon.cond_def_bonus;
 };
-Fighter.prototype.get_special_res_bonus = function () {
-  return this.weapon.special_res_bonus;
+Fighter.prototype.get_cond_res_bonus = function () {
+  return this.weapon.cond_res_bonus;
 };
 Fighter.prototype.get_thani_mitigation = function () {
   return this.weapon.thani_mitigation;

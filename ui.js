@@ -387,10 +387,10 @@ function deselect_all_mov_types() {
 function check_special_effects() {
   var special_effect_text = "None.";
   var Weapon;
-  if (Weapons[parseInt(document.getElementById("Weapon").value)].special_stat_bonus && parseInt(document.getElementById("WeaponUpgrade").value) == 0) {
+  if (Weapons[parseInt(document.getElementById("Weapon").value)].cond_effect && parseInt(document.getElementById("WeaponUpgrade").value) == 0) {
     Weapon = Weapons[parseInt(document.getElementById("Weapon").value)];
   }
-  else if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].special_stat_bonus) {
+  else if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].cond_effect) {
     Weapon = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)];
   }
   if (typeof(Weapon) != "undefined") {
