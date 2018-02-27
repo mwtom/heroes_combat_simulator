@@ -1224,7 +1224,7 @@ Fighter.prototype.get_heal_on_hit_proc = function() {
   // Add any skill-based augmentations (ex. Solar Brace), if applicable.
   var to_return = this.proc.heal_on_hit_proc;
 
-  if (this.b_skill.spec_bonus_heal > 0) {
+  if (this.b_skill.spec_bonus_heal > 0 && this.proc.activates_on_hit) {
     to_return += this.b_skill.spec_bonus_heal;
   }
 
