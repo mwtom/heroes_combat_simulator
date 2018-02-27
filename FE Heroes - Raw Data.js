@@ -4871,7 +4871,7 @@ var data = {
       "base_b": 0,
       "base_c": 18,
       "base_proc": 0
-    },/*
+    },
     "203": {
       "index": 203,
       "name": "Takumi (Empty Vessel)",
@@ -4891,11 +4891,11 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 458,
-      "base_a": 0,
+      "base_a": 30,
       "base_b": 0,
-      "base_c": 0,
-      "base_proc": 0
-    },*/
+      "base_c": 45,
+      "base_proc": 52
+    },
     "204": {
       "index": 204,
       "name": "Takumi (Prince of Soup)",
@@ -5361,8 +5361,8 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 166,
-      "a": 39,
-      "b": 52,
+      "a": 16,
+      "b": 24,
       "c": 31,
       "proc": 34,
       "seal": 42,
@@ -6252,6 +6252,20 @@ var data = {
     },
     "64": {
       "index": 64,
+      "name": "Hardin (Dark Emperor)",
+      "base_index": 79,
+      "boon": "Atk",
+      "bane": "Spd",
+      "weapon": 211,
+      "a": 47,
+      "b": 5,
+      "c": 59,
+      "proc": 9,
+      "seal": 56,
+      "reduce_cd": 0
+    },
+    "65": {
+      "index": 65,
       "name": "Hector (General of Ostia)",
       "base_index": 81,
       "boon": "Atk",
@@ -6264,8 +6278,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "name": "Hector (Just Here to Fight)",
       "base_index": 82,
       "boon": "Atk",
@@ -6278,8 +6292,8 @@ var data = {
       "seal": 57,
       "reduce_cd": 0
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "name": "Henry (Happy Vampire)",
       "base_index": 83,
       "boon": "Atk",
@@ -6292,8 +6306,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "name": "Hinoka (Warrior Princess)",
       "base_index": 86,
       "boon": "Spd",
@@ -6306,8 +6320,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "name": "Ike (Brave Mercenary)",
       "base_index": 87,
       "boon": "Atk",
@@ -6320,8 +6334,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "name": "Ike (Brave Mercenary)",
       "base_index": 87,
       "boon": "Atk",
@@ -6334,8 +6348,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "name": "Ike (Young Mercenary)",
       "base_index": 89,
       "boon": "Atk",
@@ -6348,8 +6362,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "name": "Inigo (Indigo Dancer)",
       "base_index": 90,
       "boon": "Spd",
@@ -6362,8 +6376,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "name": "Innes (Regal Strategician)",
       "base_index": 91,
       "boon": "Spd",
@@ -6376,8 +6390,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "name": "Jaffar (Angel of Death)",
       "base_index": 92,
       "boon": "Spd",
@@ -6390,8 +6404,8 @@ var data = {
       "seal": 61,
       "reduce_cd": 0
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "name": "Jakob (Devoted Monster)",
       "base_index": 94,
       "boon": "Atk",
@@ -6404,8 +6418,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "name": "Jakob (Devoted Monster)",
       "base_index": 94,
       "boon": "Def",
@@ -6418,8 +6432,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "name": "Jeorge (Perfect Shot)",
       "base_index": 96,
       "boon": "Atk",
@@ -6432,8 +6446,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "name": "Julia (Naga's Blood)",
       "base_index": 98,
       "boon": "Res",
@@ -6446,8 +6460,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
       "name": "Julia (Naga's Blood)",
       "base_index": 98,
       "boon": "Atk",
@@ -6460,8 +6474,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "79": {
-      "index": 79,
+    "80": {
+      "index": 80,
       "name": "Kagero (Honorable Ninja)",
       "base_index": 99,
       "boon": "Spd",
@@ -6474,8 +6488,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "80": {
-      "index": 80,
+    "81": {
+      "index": 81,
       "name": "L'Arachel (Princess of Light)",
       "base_index": 103,
       "boon": "Spd",
@@ -6488,8 +6502,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "81": {
-      "index": 81,
+    "82": {
+      "index": 82,
       "name": "L'Arachel (Princess of Light)",
       "base_index": 103,
       "boon": "Spd",
@@ -6502,8 +6516,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "82": {
-      "index": 82,
+    "83": {
+      "index": 83,
       "name": "Leo (Sorcerous Prince)",
       "base_index": 108,
       "boon": "Atk",
@@ -6516,8 +6530,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "83": {
-      "index": 83,
+    "84": {
+      "index": 84,
       "name": "Lilina (Blush of Youth)",
       "base_index": 110,
       "boon": "Spd",
@@ -6530,8 +6544,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "84": {
-      "index": 84,
+    "85": {
+      "index": 85,
       "name": "Linde (Light Mage)",
       "base_index": 112,
       "boon": "Spd",
@@ -6544,8 +6558,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "name": "Lucina (Brave Princess)",
       "base_index": 117,
       "boon": "Spd",
@@ -6558,8 +6572,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "name": "Lucina (Future Witness)",
       "base_index": 118,
       "boon": "Spd",
@@ -6572,8 +6586,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "name": "Lukas (Sharp Soldier)",
       "base_index": 121,
       "boon": "Def",
@@ -6586,8 +6600,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "name": "Lute (Prodigy)",
       "base_index": 123,
       "boon": "Spd",
@@ -6600,8 +6614,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "name": "Lyn (Brave Lady)",
       "base_index": 124,
       "boon": "Spd",
@@ -6614,8 +6628,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "name": "Lyn (Brave Lady)",
       "base_index": 124,
       "boon": "Spd",
@@ -6628,8 +6642,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "name": "Lyn (Brave Lady)",
       "base_index": 124,
       "boon": "Atk",
@@ -6642,8 +6656,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "name": "Lyn (Lady of the Plains)",
       "base_index": 126,
       "boon": "Atk",
@@ -6656,8 +6670,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "name": "Maria (Minerva's Sister)",
       "base_index": 130,
       "boon": "Atk",
@@ -6670,8 +6684,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "name": "Mia (Lady of Blades)",
       "base_index": 137,
       "boon": "Spd",
@@ -6684,8 +6698,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "name": "Micaiah (Priestess of Dawn)",
       "base_index": 138,
       "boon": "Atk",
@@ -6698,8 +6712,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "name": "Michalis (Ambitious King)",
       "base_index": 139,
       "boon": "None",
@@ -6712,8 +6726,8 @@ var data = {
       "seal": 48,
       "reduce_cd": 0
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "name": "Michalis (Ambitious King)",
       "base_index": 139,
       "boon": "None",
@@ -6726,8 +6740,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "name": "Minerva (Red Dragoon)",
       "base_index": 140,
       "boon": "Atk",
@@ -6740,8 +6754,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "name": "Minerva (Red Dragoon)",
       "base_index": 140,
       "boon": "Spd",
@@ -6754,8 +6768,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "name": "Myrrh (Great Dragon)",
       "base_index": 142,
       "boon": "Atk",
@@ -6768,8 +6782,8 @@ var data = {
       "seal": 48,
       "reduce_cd": 0
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
       "name": "Myrrh (Great Dragon)",
       "base_index": 142,
       "boon": "Atk",
@@ -6782,8 +6796,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "102": {
-      "index": 102,
+    "103": {
+      "index": 103,
       "name": "Ninian (Oracle of Destiny)",
       "base_index": 147,
       "boon": "Atk",
@@ -6796,8 +6810,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "103": {
-      "index": 103,
+    "104": {
+      "index": 104,
       "name": "Ninian (Oracle of Destiny)",
       "base_index": 147,
       "boon": "Atk",
@@ -6810,8 +6824,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "104": {
-      "index": 104,
+    "105": {
+      "index": 105,
       "name": "Nino (Pious Mage)",
       "base_index": 148,
       "boon": "Spd",
@@ -6824,8 +6838,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "105": {
-      "index": 105,
+    "106": {
+      "index": 106,
       "name": "Nowi (Eternal Witch)",
       "base_index": 149,
       "boon": "Spd",
@@ -6838,8 +6852,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "106": {
-      "index": 106,
+    "107": {
+      "index": 107,
       "name": "Nowi (Eternal Youth)",
       "base_index": 150,
       "boon": "Atk",
@@ -6852,8 +6866,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "107": {
-      "index": 107,
+    "108": {
+      "index": 108,
       "name": "Nowi (Eternal Youth)",
       "base_index": 150,
       "boon": "Atk",
@@ -6866,8 +6880,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "108": {
-      "index": 108,
+    "109": {
+      "index": 109,
       "name": "Nowi (Eternal Youth)",
       "base_index": 150,
       "boon": "Atk",
@@ -6880,8 +6894,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "109": {
-      "index": 109,
+    "110": {
+      "index": 110,
       "name": "Raven (Peerless Fighter)",
       "base_index": 163,
       "boon": "Spd",
@@ -6894,8 +6908,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "110": {
-      "index": 110,
+    "111": {
+      "index": 111,
       "name": "Raven (Peerless Fighter)",
       "base_index": 163,
       "boon": "Spd",
@@ -6908,8 +6922,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "111": {
-      "index": 111,
+    "112": {
+      "index": 112,
       "name": "Reinhardt (Thunder's Fist)",
       "base_index": 165,
       "boon": "Atk",
@@ -6922,8 +6936,36 @@ var data = {
       "seal": 57,
       "reduce_cd": 0
     },
-    "112": {
-      "index": 112,
+    "113": {
+      "index": 113,
+      "name": "Robin (Fell Incarnation)",
+      "base_index": 166,
+      "boon": "Atk",
+      "bane": "Spd",
+      "weapon": 155,
+      "a": 55,
+      "b": 5,
+      "c": 61,
+      "proc": 9,
+      "seal": 56,
+      "reduce_cd": 0
+    },
+    "114": {
+      "index": 114,
+      "name": "Robin (Fell Incarnation)",
+      "base_index": 166,
+      "boon": "Res",
+      "bane": "Spd",
+      "weapon": 155,
+      "a": 14,
+      "b": 48,
+      "c": 61,
+      "proc": 29,
+      "seal": 29,
+      "reduce_cd": 0
+    },
+    "115": {
+      "index": 115,
       "name": "Robin (High Deliverer)",
       "base_index": 169,
       "boon": "Atk",
@@ -6936,8 +6978,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "113": {
-      "index": 113,
+    "116": {
+      "index": 116,
       "name": "Roy (Brave Lion)",
       "base_index": 173,
       "boon": "Spd",
@@ -6950,8 +6992,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "114": {
-      "index": 114,
+    "117": {
+      "index": 117,
       "name": "Sanaki (Begnion's Apostle)",
       "base_index": 181,
       "boon": "Atk",
@@ -6964,8 +7006,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "115": {
-      "index": 115,
+    "118": {
+      "index": 118,
       "name": "Shiro (Raw Talent)",
       "base_index": 191,
       "boon": "Def",
@@ -6978,8 +7020,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "116": {
-      "index": 116,
+    "119": {
+      "index": 119,
       "name": "Siegbert (Future King)",
       "base_index": 192,
       "boon": "Spd",
@@ -6992,8 +7034,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "117": {
-      "index": 117,
+    "120": {
+      "index": 120,
       "name": "Sigurd (Holy Knight)",
       "base_index": 193,
       "boon": "Atk",
@@ -7006,8 +7048,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "118": {
-      "index": 118,
+    "121": {
+      "index": 121,
       "name": "Soleil (Adorable Adorer)",
       "base_index": 194,
       "boon": "Spd",
@@ -7020,8 +7062,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "119": {
-      "index": 119,
+    "122": {
+      "index": 122,
       "name": "Sophia (Nabata Prophet)",
       "base_index": 196,
       "boon": "Atk",
@@ -7034,8 +7076,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "120": {
-      "index": 120,
+    "123": {
+      "index": 123,
       "name": "Takumi (Wild Card)",
       "base_index": 205,
       "boon": "Atk",
@@ -7048,8 +7090,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "121": {
-      "index": 121,
+    "124": {
+      "index": 124,
       "name": "Tana (Winged Princess)",
       "base_index": 206,
       "boon": "Atk",
@@ -7062,8 +7104,8 @@ var data = {
       "seal": 42,
       "reduce_cd": 0
     },
-    "122": {
-      "index": 122,
+    "125": {
+      "index": 125,
       "name": "Tana (Winged Princess)",
       "base_index": 206,
       "boon": "Atk",
@@ -7076,8 +7118,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "123": {
-      "index": 123,
+    "126": {
+      "index": 126,
       "name": "Tana (Winged Princess)",
       "base_index": 206,
       "boon": "Atk",
@@ -7090,8 +7132,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "124": {
-      "index": 124,
+    "127": {
+      "index": 127,
       "name": "Tana (Winged Princess)",
       "base_index": 206,
       "boon": "Atk",
@@ -7104,8 +7146,8 @@ var data = {
       "seal": 65,
       "reduce_cd": 0
     },
-    "125": {
-      "index": 125,
+    "128": {
+      "index": 128,
       "name": "Tana (Winged Princess)",
       "base_index": 206,
       "boon": "Atk",
@@ -7118,8 +7160,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "126": {
-      "index": 126,
+    "129": {
+      "index": 129,
       "name": "Tharja (\"Normal Girl\")",
       "base_index": 207,
       "boon": "Def",
@@ -7132,8 +7174,8 @@ var data = {
       "seal": 2,
       "reduce_cd": 0
     },
-    "127": {
-      "index": 127,
+    "130": {
+      "index": 130,
       "name": "Tharja (\"Normal Girl\")",
       "base_index": 207,
       "boon": "Atk",
@@ -7146,8 +7188,8 @@ var data = {
       "seal": 6,
       "reduce_cd": 0
     },
-    "128": {
-      "index": 128,
+    "131": {
+      "index": 131,
       "name": "Tharja (Dark Shadow)",
       "base_index": 208,
       "boon": "Spd",
@@ -7160,8 +7202,8 @@ var data = {
       "seal": 62,
       "reduce_cd": 0
     },
-    "129": {
-      "index": 129,
+    "132": {
+      "index": 132,
       "name": "Tiki (Dragon Scion)",
       "base_index": 209,
       "boon": "Spd",
@@ -7174,8 +7216,8 @@ var data = {
       "seal": 13,
       "reduce_cd": 0
     },
-    "130": {
-      "index": 130,
+    "133": {
+      "index": 133,
       "name": "Tiki (Dragon Scion)",
       "base_index": 209,
       "boon": "Atk",
@@ -7188,8 +7230,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "131": {
-      "index": 131,
+    "134": {
+      "index": 134,
       "name": "Tiki (Dragon Scion)",
       "base_index": 209,
       "boon": "Spd",
@@ -7202,8 +7244,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "132": {
-      "index": 132,
+    "135": {
+      "index": 135,
       "name": "Tiki (Naga's Voice)",
       "base_index": 210,
       "boon": "Atk",
@@ -7216,8 +7258,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "133": {
-      "index": 133,
+    "136": {
+      "index": 136,
       "name": "Tiki (Naga's Voice)",
       "base_index": 210,
       "boon": "Atk",
@@ -7230,8 +7272,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "134": {
-      "index": 134,
+    "137": {
+      "index": 137,
       "name": "Tiki (Naga's Voice)",
       "base_index": 210,
       "boon": "Atk",
@@ -7244,8 +7286,8 @@ var data = {
       "seal": 29,
       "reduce_cd": 0
     },
-    "135": {
-      "index": 135,
+    "138": {
+      "index": 138,
       "name": "Titania (Mighty Mercenary)",
       "base_index": 212,
       "boon": "Atk",
@@ -7258,8 +7300,8 @@ var data = {
       "seal": 56,
       "reduce_cd": 0
     },
-    "136": {
-      "index": 136,
+    "139": {
+      "index": 139,
       "name": "Zelgius (Jet-Black General)",
       "base_index": 221,
       "boon": "Atk",
@@ -92700,9 +92742,9 @@ var data = {
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
       "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
+      "cav_can_inherit": 1,
       "fly_can_inherit": 0,
-      "arm_can_inherit": 1,
+      "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against cavalry\" bonuses."
     },
     "32": {
