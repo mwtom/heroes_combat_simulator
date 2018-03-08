@@ -1028,12 +1028,14 @@ Fighter.prototype.breaker_applies = function(enemy_weap) {
   }
   return inhibitor_count;
 };
-Fighter.prototype.great_flame_applies = function (attacker_active, enemy, in_combat) {
-  var thresh = this.weapon.great_flame_def_thresh;
-
-  if (thresh > 0 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= 5)) {
+Fighter.prototype.def_follow_up_inhibition_applies = function (attacker_active, enemy, in_combat) {
+  if (this.weapon.great_flame_def_thresh > 0 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= this.weapon.great_flame_def_thresh)) {
     return true;
   }
+  if (this.weapon.brynhildr_def_thresh > 0 && enemy.get_range() == 2 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= this.weapon.brynhildr_def_thresh)) {
+  	return true;
+  }
+  
   else {
     return false;
   }

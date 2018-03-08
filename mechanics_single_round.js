@@ -680,7 +680,7 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit2.wary_fighter_applies()) {
     inhibitor += 1;
   }
-  if (unit2.great_flame_applies(!unit1_active, unit1, true)) {
+  if (unit2.def_follow_up_inhibition_applies(!unit1_active, unit1, true)) {
     inhibitor += 1;
   }
   if (unit2.breaker_applies(unit1.get_weap()) > 0) {
