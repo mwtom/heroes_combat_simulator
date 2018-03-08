@@ -309,6 +309,9 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     if (this.get_start_HP() == this.get_HP_max()) {
       atk += this.get_atk_boost_full_hp();
     }
+    else {
+      atk += this.get_atk_boost_damaged();
+    }
 
     // If the unit has a inverse spur effect, add 2x adjacent allies to atk.
     if (this.get_inverse_spur() == 1) {
@@ -487,6 +490,9 @@ Fighter.prototype.check_effective_damage = function (enemy) {
   if (this.weapon.gbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "G")) {
     return true;
   }
+  if (this.weapon.nbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "N")) {
+    return true;
+  }
   if (this.weapon.bow_eff && enemy.get_weap() == "B") {
     return true;
   }
@@ -544,6 +550,9 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     // If the unit in question is at full HP, and has an effect that increases Spd at full HP, include it.
     if (this.get_start_HP() == this.get_HP_max()) {
       e_spd += this.get_spd_boost_full_hp();
+    }
+    else {
+      e_spd += this.get_spd_boost_damaged();
     }
 
     // If the unit has a "Bond" skill that boosts Spd, and has at least one adjacent ally, apply it.
@@ -650,6 +659,9 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     if (this.get_start_HP() == this.get_HP_max()) {
       e_def += this.get_def_boost_full_hp();
     }
+    else {
+      e_def += this.get_def_boost_damaged();
+    }
 
     // Special case! Account for Tyrfing if necessary.
     if (this.hp < Math.floor(this.hp/2)) {
@@ -736,6 +748,9 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
     if (this.get_start_HP() == this.get_HP_max()) {
       e_res += this.get_res_boost_full_hp();
     }
+    else {
+      e_res += this.get_res_boost_damaged();
+    }
   }
 
   // If the effective res is negative, set it to 0.
@@ -815,8 +830,12 @@ Fighter.prototype.check_buff_negate = function (enemy) {
         weap_type_negate = enemy.get_negate_bbrth_buffs();
         break;
       }
-      else {
+      else if (this.get_color == "G"){
         weap_type_negate = enemy.get_negate_gbrth_buffs();
+        break;
+      }
+      else {
+        weap_type_negate = enemy.get_negate_nbrth_buffs();
         break;
       }
   }
@@ -1348,9 +1367,12 @@ Fighter.prototype.negates_counter = function (enemy) {
         weap_type_negate = this.get_negate_bbrth_counter();
         break;
       }
-      else {
+      else if (enemy.get_color == "G") {
         weap_type_negate = this.get_negate_gbrth_counter();
         break;
+      }
+      else {
+        weap_type_negate = this.get_negate_nbrth_counter();
       }
   }
 
@@ -1487,6 +1509,15 @@ Fighter.prototype.get_negate_gbrth_counter = function () {
     return this.weapon.name;
   }
   if (this.b_skill.negate_gbrth_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_nbrth_counter = function () {
+  if (this.weapon.negate_nbrth_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_nbrth_counter) {
     return this.b_skill.name;
   }
   return "";
@@ -1658,6 +1689,18 @@ Fighter.prototype.get_res_boost_full_hp = function () {
 Fighter.prototype.get_burn_full_hp = function () {
   return this.weapon.burn_full_hp;
 };
+Fighter.prototype.get_atk_boost_damaged = function () {
+  return this.weapon.atk_boost_damaged;
+};
+Fighter.prototype.get_spd_boost_damaged = function () {
+  return this.weapon.spd_boost_damaged;
+};
+Fighter.prototype.get_def_boost_damaged = function () {
+  return this.weapon.def_boost_damaged;
+};
+Fighter.prototype.get_res_boost_damaged = function () {
+  return this.weapon.res_boost_damaged;
+};
 Fighter.prototype.get_distant_atk_off_bonus = function () {
   return this.weapon.distant_atk_off_bonus;
 };
@@ -1801,6 +1844,9 @@ Fighter.prototype.get_negate_bbrth_buffs = function () {
 };
 Fighter.prototype.get_negate_gbrth_buffs = function () {
   return Math.max(this.weapon.negate_gbrth_buffs, this.b_skill.negate_gbrth_buffs);
+};
+Fighter.prototype.get_negate_nbrth_buffs = function () {
+  return Math.max(this.weapon.negate_nbrth_buffs, this.b_skill.negate_nbrth_buffs);
 };
 Fighter.prototype.get_negate_inf_buffs = function () {
   return Math.max(this.weapon.negate_inf_buffs, this.b_skill.negate_inf_buffs);

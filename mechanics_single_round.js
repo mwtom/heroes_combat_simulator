@@ -342,7 +342,7 @@ function passes_filter_reqs(character) {
       }
       break;
     case "D":
-      if ((color == "R" && !document.getElementById("R Breath").checked) || (color == "B" && !document.getElementById("B Breath").checked) || (color == "G" && !document.getElementById("G Breath").checked)) {
+      if ((color == "R" && !document.getElementById("R Breath").checked) || (color == "B" && !document.getElementById("B Breath").checked) || (color == "G" && !document.getElementById("G Breath").checked) || (color == "N" && !document.getElementById("N Breath").checked)) {
         return false;
       }
       break;

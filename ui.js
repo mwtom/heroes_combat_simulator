@@ -313,7 +313,7 @@ function verify_legality(unit, skill) {
       }
       break;
     default:
-      if ((unit.color == "R" && !skill.rbrth_can_inherit) || (unit.color == "B" && !skill.bbrth_can_inherit) || (unit.color == "G" && !skill.gbrth_can_inherit)) {
+      if ((unit.color == "R" && !skill.rbrth_can_inherit) || (unit.color == "B" && !skill.bbrth_can_inherit) || (unit.color == "G" && !skill.gbrth_can_inherit) || (unit.color == "N" && !skill.nbrth_can_inherit)) {
         return false;
       }
   }
@@ -348,6 +348,7 @@ function select_all_weapons() {
   document.getElementById("R Breath").checked = true;
   document.getElementById("B Breath").checked = true;
   document.getElementById("G Breath").checked = true;
+  document.getElementById("N Breath").checked = true;
   document.getElementById("Bow").checked = true;
   document.getElementById("Dagger").checked = true;
   document.getElementById("Staff").checked = true;
@@ -364,6 +365,7 @@ function deselect_all_weapons() {
   document.getElementById("R Breath").checked = false;
   document.getElementById("B Breath").checked = false;
   document.getElementById("G Breath").checked = false;
+  document.getElementById("N Breath").checked = false;
   document.getElementById("Bow").checked = false;
   document.getElementById("Dagger").checked = false;
   document.getElementById("Staff").checked = false;
