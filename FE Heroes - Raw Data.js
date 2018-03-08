@@ -111098,7 +111098,17 @@ var data = {
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
       "res_boost_perm": 0
-    }
+    },
+	"4":{
+		"index": 4,
+		"name": "Ephraim",
+		"element": "Fire",
+		"hp_boost_perm": 3,
+		"atk_boost_perm": 0,
+		"spd_boost_perm": 0,
+		"def_boost_perm": 4,
+		"res_boost_perm": 0
+	}
   },
   "Optimized_Backup": {
     "0": {
