@@ -1,4 +1,4 @@
-var data  = {
+var data = {
   "Characters": {
     "0": {
       "index": 0,
@@ -842,6 +842,30 @@ var data  = {
     },
     "35": {
       "index": 35,
+      "name": "Chrom (Knight Exalt)",
+      "color": "R",
+      "hp_base": 19,
+      "atk_base": 9,
+      "spd_base": 6,
+      "def_base": 8,
+      "res_base": 4,
+      "hpGP": 6,
+      "atkGP": 9,
+      "spdGP": 6,
+      "defGP": 8,
+      "resGP": 2,
+      "n_lock": 0,
+      "type": "C",
+      "weap": "S",
+      "legendary": 0,
+      "base_weap": 418,
+      "base_a": 30,
+      "base_b": 9,
+      "base_c": 54,
+      "base_proc": 2
+    },
+    "36": {
+      "index": 36,
       "name": "Chrom (Spring Exalt)",
       "color": "G",
       "hp_base": 19,
@@ -864,8 +888,8 @@ var data  = {
       "base_c": 5,
       "base_proc": 0
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Clair (Highborn Flier)",
       "color": "B",
       "hp_base": 18,
@@ -888,8 +912,8 @@ var data  = {
       "base_c": 51,
       "base_proc": 0
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Clarine (Refined Noble)",
       "color": "N",
       "hp_base": 16,
@@ -912,8 +936,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 51
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Clarisse (Sniper in the Dark)",
       "color": "N",
       "hp_base": 18,
@@ -936,8 +960,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 19
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Clive (Idealistic Knight)",
       "color": "B",
       "hp_base": 19,
@@ -960,8 +984,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 16
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Cordelia (Knight Paragon)",
       "color": "B",
       "hp_base": 18,
@@ -984,8 +1008,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 17
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Cordelia (Perfect Bride)",
       "color": "N",
       "hp_base": 17,
@@ -1008,8 +1032,8 @@ var data  = {
       "base_c": 11,
       "base_proc": 0
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Corrin (Enjoying Tradition)",
       "color": "N",
       "hp_base": 18,
@@ -1032,8 +1056,8 @@ var data  = {
       "base_c": 49,
       "base_proc": 0
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Corrin (Fateful Prince)",
       "color": "R",
       "hp_base": 20,
@@ -1056,8 +1080,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 14
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Corrin (Fateful Princess)",
       "color": "B",
       "hp_base": 19,
@@ -1080,8 +1104,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 13
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Corrin (Novice Vacationer)",
       "color": "B",
       "hp_base": 17,
@@ -1104,8 +1128,8 @@ var data  = {
       "base_c": 23,
       "base_proc": 14
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Deirdre (Lady of the Forest)",
       "color": "G",
       "hp_base": 17,
@@ -1128,8 +1152,8 @@ var data  = {
       "base_c": 44,
       "base_proc": 0
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Delthea (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -1152,8 +1176,8 @@ var data  = {
       "base_c": 15,
       "base_proc": 33
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Donnel (Village Hero)",
       "color": "B",
       "hp_base": 17,
@@ -1176,8 +1200,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Dorcas (Serene Warrior)",
       "color": "G",
       "hp_base": 19,
@@ -1200,8 +1224,8 @@ var data  = {
       "base_c": 36,
       "base_proc": 13
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Draug (Gentle Giant)",
       "color": "R",
       "hp_base": 24,
@@ -1224,8 +1248,8 @@ var data  = {
       "base_c": 59,
       "base_proc": 38
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Effie (Army of One)",
       "color": "B",
       "hp_base": 22,
@@ -1248,8 +1272,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Eirika (Anamnesis Lady)",
       "color": "R",
       "hp_base": 17,
@@ -1272,8 +1296,8 @@ var data  = {
       "base_c": 39,
       "base_proc": 0
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Eirika (Restoration Lady)",
       "color": "R",
       "hp_base": 18,
@@ -1296,8 +1320,8 @@ var data  = {
       "base_c": 35,
       "base_proc": 0
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Eldigan (Lionheart)",
       "color": "R",
       "hp_base": 19,
@@ -1320,8 +1344,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 22
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Elincia (Lost Princess)",
       "color": "R",
       "hp_base": 16,
@@ -1344,8 +1368,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Elise (Budding Flower)",
       "color": "N",
       "hp_base": 15,
@@ -1368,8 +1392,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 31
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Elise (Tropical Flower)",
       "color": "G",
       "hp_base": 17,
@@ -1392,8 +1416,8 @@ var data  = {
       "base_c": 25,
       "base_proc": 0
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Eliwood (Devoted Love)",
       "color": "B",
       "hp_base": 23,
@@ -1416,8 +1440,8 @@ var data  = {
       "base_c": 26,
       "base_proc": 0
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Eliwood (Knight of Lycia)",
       "color": "R",
       "hp_base": 17,
@@ -1440,8 +1464,8 @@ var data  = {
       "base_c": 60,
       "base_proc": 47
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Ephraim (Legendary Lord)",
       "color": "B",
       "hp_base": 19,
@@ -1464,8 +1488,8 @@ var data  = {
       "base_c": 21,
       "base_proc": 48
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Ephraim (Restoration Lord)",
       "color": "B",
       "hp_base": 19,
@@ -1488,8 +1512,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 34
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Est (Junior Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1512,8 +1536,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "name": "Fae (Divine Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -1536,8 +1560,8 @@ var data  = {
       "base_c": 55,
       "base_proc": 0
     },
-    "64": {
-      "index": 64,
+    "65": {
+      "index": 65,
       "name": "Faye (Devoted Heart)",
       "color": "N",
       "hp_base": 16,
@@ -1560,8 +1584,8 @@ var data  = {
       "base_c": 9,
       "base_proc": 37
     },
-    "65": {
-      "index": 65,
+    "66": {
+      "index": 66,
       "name": "Felicia (Maid Mayhem)",
       "color": "N",
       "hp_base": 15,
@@ -1584,8 +1608,8 @@ var data  = {
       "base_c": 11,
       "base_proc": 18
     },
-    "66": {
-      "index": 66,
+    "67": {
+      "index": 67,
       "name": "Fir (Sword Student)",
       "color": "R",
       "hp_base": 19,
@@ -1608,8 +1632,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 18
     },
-    "67": {
-      "index": 67,
+    "68": {
+      "index": 68,
       "name": "Fjorm (Princess of Ice)",
       "color": "B",
       "hp_base": 17,
@@ -1632,8 +1656,8 @@ var data  = {
       "base_c": 15,
       "base_proc": 27
     },
-    "68": {
-      "index": 68,
+    "69": {
+      "index": 69,
       "name": "Florina (Lovely Flier)",
       "color": "B",
       "hp_base": 18,
@@ -1656,8 +1680,8 @@ var data  = {
       "base_c": 11,
       "base_proc": 0
     },
-    "69": {
-      "index": 69,
+    "70": {
+      "index": 70,
       "name": "Frederick (H. Watcher)",
       "color": "N",
       "hp_base": 18,
@@ -1680,8 +1704,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "70": {
-      "index": 70,
+    "71": {
+      "index": 71,
       "name": "Frederick (Polite Knight)",
       "color": "G",
       "hp_base": 19,
@@ -1704,8 +1728,8 @@ var data  = {
       "base_c": 21,
       "base_proc": 32
     },
-    "71": {
-      "index": 71,
+    "72": {
+      "index": 72,
       "name": "Gaius (Candy Stealer)",
       "color": "N",
       "hp_base": 18,
@@ -1728,8 +1752,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "72": {
-      "index": 72,
+    "73": {
+      "index": 73,
       "name": "Gaius (Thief Exposed)",
       "color": "N",
       "hp_base": 17,
@@ -1752,8 +1776,8 @@ var data  = {
       "base_c": 13,
       "base_proc": 3
     },
-    "73": {
-      "index": 73,
+    "74": {
+      "index": 74,
       "name": "Genny (Endearing Ally)",
       "color": "N",
       "hp_base": 17,
@@ -1776,8 +1800,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 25
     },
-    "74": {
-      "index": 74,
+    "75": {
+      "index": 75,
       "name": "Gordin (Altean Archer)",
       "color": "N",
       "hp_base": 19,
@@ -1800,8 +1824,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "75": {
-      "index": 75,
+    "76": {
+      "index": 76,
       "name": "Gray (Wry Comrade)",
       "color": "R",
       "hp_base": 17,
@@ -1824,8 +1848,8 @@ var data  = {
       "base_c": 54,
       "base_proc": 0
     },
-    "76": {
-      "index": 76,
+    "77": {
+      "index": 77,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
       "color": "G",
       "hp_base": 15,
@@ -1848,8 +1872,8 @@ var data  = {
       "base_c": 41,
       "base_proc": 18
     },
-    "77": {
-      "index": 77,
+    "78": {
+      "index": 78,
       "name": "Gunter (Inveterate Soldier)",
       "color": "G",
       "hp_base": 21,
@@ -1872,8 +1896,8 @@ var data  = {
       "base_c": 32,
       "base_proc": 0
     },
-    "78": {
-      "index": 78,
+    "79": {
+      "index": 79,
       "name": "Gwendolyn (Adorable Knight)",
       "color": "B",
       "hp_base": 23,
@@ -1896,8 +1920,8 @@ var data  = {
       "base_c": 30,
       "base_proc": 16
     },
-    "79": {
-      "index": 79,
+    "80": {
+      "index": 80,
       "name": "Hana (Focused Samurai)",
       "color": "R",
       "hp_base": 18,
@@ -1920,8 +1944,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "80": {
-      "index": 80,
+    "81": {
+      "index": 81,
       "name": "Hardin (Dark Emperor)",
       "color": "B",
       "hp_base": 23,
@@ -1944,8 +1968,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 52
     },
-    "81": {
-      "index": 81,
+    "82": {
+      "index": 82,
       "name": "Hawkeye (Desert Guardian)",
       "color": "G",
       "hp_base": 21,
@@ -1968,8 +1992,8 @@ var data  = {
       "base_c": 55,
       "base_proc": 22
     },
-    "82": {
-      "index": 82,
+    "83": {
+      "index": 83,
       "name": "Hector (General of Ostia)",
       "color": "G",
       "hp_base": 24,
@@ -1992,8 +2016,8 @@ var data  = {
       "base_c": 26,
       "base_proc": 38
     },
-    "83": {
-      "index": 83,
+    "84": {
+      "index": 84,
       "name": "Hector (Just Here to Fight)",
       "color": "G",
       "hp_base": 24,
@@ -2016,8 +2040,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 19
     },
-    "84": {
-      "index": 84,
+    "85": {
+      "index": 85,
       "name": "Henry (Happy Vampire)",
       "color": "G",
       "hp_base": 17,
@@ -2040,8 +2064,8 @@ var data  = {
       "base_c": 1,
       "base_proc": 41
     },
-    "85": {
-      "index": 85,
+    "86": {
+      "index": 86,
       "name": "Henry (Twisted Mind)",
       "color": "R",
       "hp_base": 19,
@@ -2064,8 +2088,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 29
     },
-    "86": {
-      "index": 86,
+    "87": {
+      "index": 87,
       "name": "Hinata (Wild Samurai)",
       "color": "R",
       "hp_base": 21,
@@ -2088,8 +2112,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 38
     },
-    "87": {
-      "index": 87,
+    "88": {
+      "index": 88,
       "name": "Hinoka (Warrior Princess)",
       "color": "B",
       "hp_base": 19,
@@ -2112,8 +2136,8 @@ var data  = {
       "base_c": 34,
       "base_proc": 8
     },
-    "88": {
-      "index": 88,
+    "89": {
+      "index": 89,
       "name": "Ike (Brave Mercenary)",
       "color": "G",
       "hp_base": 17,
@@ -2136,8 +2160,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 2
     },
-    "89": {
-      "index": 89,
+    "90": {
+      "index": 90,
       "name": "Ike (Vanguard Legend)",
       "color": "R",
       "hp_base": 19,
@@ -2160,8 +2184,8 @@ var data  = {
       "base_c": 14,
       "base_proc": 39
     },
-    "90": {
-      "index": 90,
+    "91": {
+      "index": 91,
       "name": "Ike (Young Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -2184,8 +2208,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 2
     },
-    "91": {
-      "index": 91,
+    "92": {
+      "index": 92,
       "name": "Inigo (Indigo Dancer)",
       "color": "G",
       "hp_base": 15,
@@ -2208,8 +2232,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 0
     },
-    "92": {
-      "index": 92,
+    "93": {
+      "index": 93,
       "name": "Innes (Regal Strategician)",
       "color": "N",
       "hp_base": 16,
@@ -2232,8 +2256,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 28
     },
-    "93": {
-      "index": 93,
+    "94": {
+      "index": 94,
       "name": "Jaffar (Angel of Death)",
       "color": "N",
       "hp_base": 17,
@@ -2256,8 +2280,8 @@ var data  = {
       "base_c": 58,
       "base_proc": 19
     },
-    "94": {
-      "index": 94,
+    "95": {
+      "index": 95,
       "name": "Jagen (Veteran Knight)",
       "color": "B",
       "hp_base": 20,
@@ -2280,8 +2304,8 @@ var data  = {
       "base_c": 20,
       "base_proc": 1
     },
-    "95": {
-      "index": 95,
+    "96": {
+      "index": 96,
       "name": "Jakob (Devoted Monster)",
       "color": "N",
       "hp_base": 20,
@@ -2304,8 +2328,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 29
     },
-    "96": {
-      "index": 96,
+    "97": {
+      "index": 97,
       "name": "Jakob (Devoted Servant)",
       "color": "N",
       "hp_base": 17,
@@ -2328,8 +2352,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "97": {
-      "index": 97,
+    "98": {
+      "index": 98,
       "name": "Jeorge (Perfect Shot)",
       "color": "N",
       "hp_base": 18,
@@ -2352,8 +2376,8 @@ var data  = {
       "base_c": 51,
       "base_proc": 5
     },
-    "98": {
-      "index": 98,
+    "99": {
+      "index": 99,
       "name": "Joshua (Tempest King)",
       "color": "R",
       "hp_base": 18,
@@ -2376,8 +2400,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 34
     },
-    "99": {
-      "index": 99,
+    "100": {
+      "index": 100,
       "name": "Julia (Naga's Blood)",
       "color": "G",
       "hp_base": 16,
@@ -2400,8 +2424,8 @@ var data  = {
       "base_c": 11,
       "base_proc": 14
     },
-    "100": {
-      "index": 100,
+    "101": {
+      "index": 101,
       "name": "Kagero (Honorable Ninja)",
       "color": "N",
       "hp_base": 16,
@@ -2424,8 +2448,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 41
     },
-    "101": {
-      "index": 101,
+    "102": {
+      "index": 102,
       "name": "Karel (Sword Demon)",
       "color": "R",
       "hp_base": 19,
@@ -2448,8 +2472,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 41
     },
-    "102": {
-      "index": 102,
+    "103": {
+      "index": 103,
       "name": "Katarina (Wayward One)",
       "color": "R",
       "hp_base": 17,
@@ -2472,8 +2496,8 @@ var data  = {
       "base_c": 2,
       "base_proc": 18
     },
-    "103": {
-      "index": 103,
+    "104": {
+      "index": 104,
       "name": "Klein (Silver Nobleman)",
       "color": "N",
       "hp_base": 18,
@@ -2496,8 +2520,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 18
     },
-    "104": {
-      "index": 104,
+    "105": {
+      "index": 105,
       "name": "L'Arachel (Princess of Light)",
       "color": "B",
       "hp_base": 16,
@@ -2520,8 +2544,8 @@ var data  = {
       "base_c": 42,
       "base_proc": 22
     },
-    "105": {
-      "index": 105,
+    "106": {
+      "index": 106,
       "name": "Lachesis (Lionheart's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -2544,8 +2568,8 @@ var data  = {
       "base_c": 50,
       "base_proc": 49
     },
-    "106": {
-      "index": 106,
+    "107": {
+      "index": 107,
       "name": "Laslow (Dancing Duelist)",
       "color": "R",
       "hp_base": 20,
@@ -2568,8 +2592,8 @@ var data  = {
       "base_c": 35,
       "base_proc": 37
     },
-    "107": {
-      "index": 107,
+    "108": {
+      "index": 108,
       "name": "Legion (Masked Maniac)",
       "color": "G",
       "hp_base": 20,
@@ -2592,8 +2616,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 41
     },
-    "108": {
-      "index": 108,
+    "109": {
+      "index": 109,
       "name": "Leo (Seashore's Prince)",
       "color": "R",
       "hp_base": 18,
@@ -2616,8 +2640,8 @@ var data  = {
       "base_c": 2,
       "base_proc": 28
     },
-    "109": {
-      "index": 109,
+    "110": {
+      "index": 110,
       "name": "Leo (Sorcerous Prince)",
       "color": "R",
       "hp_base": 17,
@@ -2640,8 +2664,8 @@ var data  = {
       "base_c": 43,
       "base_proc": 6
     },
-    "110": {
-      "index": 110,
+    "111": {
+      "index": 111,
       "name": "Leon (True of Heart)",
       "color": "N",
       "hp_base": 17,
@@ -2664,8 +2688,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 29
     },
-    "111": {
-      "index": 111,
+    "112": {
+      "index": 112,
       "name": "Lilina (Blush of Youth)",
       "color": "G",
       "hp_base": 17,
@@ -2688,8 +2712,8 @@ var data  = {
       "base_c": 4,
       "base_proc": 5
     },
-    "112": {
-      "index": 112,
+    "113": {
+      "index": 113,
       "name": "Lilina (Delightful Noble)",
       "color": "R",
       "hp_base": 16,
@@ -2712,8 +2736,8 @@ var data  = {
       "base_c": 46,
       "base_proc": 21
     },
-    "113": {
-      "index": 113,
+    "114": {
+      "index": 114,
       "name": "Linde (Light Mage)",
       "color": "B",
       "hp_base": 16,
@@ -2736,8 +2760,8 @@ var data  = {
       "base_c": 24,
       "base_proc": 0
     },
-    "114": {
-      "index": 114,
+    "115": {
+      "index": 115,
       "name": "Lissa (Pure Joy)",
       "color": "G",
       "hp_base": 21,
@@ -2760,8 +2784,8 @@ var data  = {
       "base_c": 19,
       "base_proc": 9
     },
-    "115": {
-      "index": 115,
+    "116": {
+      "index": 116,
       "name": "Lissa (Sprightly Cleric)",
       "color": "N",
       "hp_base": 17,
@@ -2784,8 +2808,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 31
     },
-    "116": {
-      "index": 116,
+    "117": {
+      "index": 117,
       "name": "Lloyd (White Wolf)",
       "color": "R",
       "hp_base": 17,
@@ -2808,8 +2832,8 @@ var data  = {
       "base_c": 55,
       "base_proc": 28
     },
-    "117": {
-      "index": 117,
+    "118": {
+      "index": 118,
       "name": "Lon'qu (Solitary Blade)",
       "color": "R",
       "hp_base": 19,
@@ -2832,8 +2856,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 19
     },
-    "118": {
-      "index": 118,
+    "119": {
+      "index": 119,
       "name": "Lucina (Brave Princess)",
       "color": "B",
       "hp_base": 17,
@@ -2856,8 +2880,8 @@ var data  = {
       "base_c": 18,
       "base_proc": 2
     },
-    "119": {
-      "index": 119,
+    "120": {
+      "index": 120,
       "name": "Lucina (Future Witness)",
       "color": "R",
       "hp_base": 19,
@@ -2880,8 +2904,8 @@ var data  = {
       "base_c": 46,
       "base_proc": 32
     },
-    "120": {
-      "index": 120,
+    "121": {
+      "index": 121,
       "name": "Lucina (Spring Exalt)",
       "color": "B",
       "hp_base": 16,
@@ -2904,8 +2928,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "121": {
-      "index": 121,
+    "122": {
+      "index": 122,
       "name": "Lucius (The Light)",
       "color": "N",
       "hp_base": 18,
@@ -2928,8 +2952,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 33
     },
-    "122": {
-      "index": 122,
+    "123": {
+      "index": 123,
       "name": "Lukas (Sharp Soldier)",
       "color": "B",
       "hp_base": 19,
@@ -2952,8 +2976,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 47
     },
-    "123": {
-      "index": 123,
+    "124": {
+      "index": 124,
       "name": "Luke (Rowdy Squire)",
       "color": "R",
       "hp_base": 19,
@@ -2976,8 +3000,8 @@ var data  = {
       "base_c": 38,
       "base_proc": 9
     },
-    "124": {
-      "index": 124,
+    "125": {
+      "index": 125,
       "name": "Lute (Prodigy)",
       "color": "B",
       "hp_base": 16,
@@ -3000,8 +3024,8 @@ var data  = {
       "base_c": 41,
       "base_proc": 0
     },
-    "125": {
-      "index": 125,
+    "126": {
+      "index": 126,
       "name": "Lyn (Brave Lady)",
       "color": "N",
       "hp_base": 16,
@@ -3024,8 +3048,8 @@ var data  = {
       "base_c": 3,
       "base_proc": 13
     },
-    "126": {
-      "index": 126,
+    "127": {
+      "index": 127,
       "name": "Lyn (Bride of the Plains)",
       "color": "N",
       "hp_base": 17,
@@ -3048,8 +3072,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 51
     },
-    "127": {
-      "index": 127,
+    "128": {
+      "index": 128,
       "name": "Lyn (Lady of the Plains)",
       "color": "R",
       "hp_base": 18,
@@ -3072,8 +3096,8 @@ var data  = {
       "base_c": 51,
       "base_proc": 17
     },
-    "128": {
-      "index": 128,
+    "129": {
+      "index": 129,
       "name": "Lyn (Wind's Embrace)",
       "color": "B",
       "hp_base": 18,
@@ -3096,8 +3120,8 @@ var data  = {
       "base_c": 1,
       "base_proc": 0
     },
-    "129": {
-      "index": 129,
+    "130": {
+      "index": 130,
       "name": "Lyon (Shadow Prince)",
       "color": "R",
       "hp_base": 19,
@@ -3120,8 +3144,8 @@ var data  = {
       "base_c": 17,
       "base_proc": 52
     },
-    "130": {
-      "index": 130,
+    "131": {
+      "index": 131,
       "name": "Mae (Bundle of Energy)",
       "color": "B",
       "hp_base": 16,
@@ -3144,8 +3168,8 @@ var data  = {
       "base_c": 7,
       "base_proc": 0
     },
-    "131": {
-      "index": 131,
+    "132": {
+      "index": 132,
       "name": "Maria (Minerva's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -3168,8 +3192,8 @@ var data  = {
       "base_c": 24,
       "base_proc": 33
     },
-    "132": {
-      "index": 132,
+    "133": {
+      "index": 133,
       "name": "Marisa (Crimson Flash)",
       "color": "R",
       "hp_base": 18,
@@ -3192,8 +3216,8 @@ var data  = {
       "base_c": 36,
       "base_proc": 19
     },
-    "133": {
-      "index": 133,
+    "134": {
+      "index": 134,
       "name": "Marth (Altean Prince)",
       "color": "R",
       "hp_base": 19,
@@ -3216,8 +3240,8 @@ var data  = {
       "base_c": 51,
       "base_proc": 0
     },
-    "134": {
-      "index": 134,
+    "135": {
+      "index": 135,
       "name": "Marth (Enigmatic Blade)",
       "color": "R",
       "hp_base": 19,
@@ -3240,8 +3264,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "135": {
-      "index": 135,
+    "136": {
+      "index": 136,
       "name": "Mathilda (Legendary Knight)",
       "color": "B",
       "hp_base": 16,
@@ -3264,8 +3288,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 0
     },
-    "136": {
-      "index": 136,
+    "137": {
+      "index": 137,
       "name": "Matthew (Faithful Spy)",
       "color": "N",
       "hp_base": 17,
@@ -3288,8 +3312,8 @@ var data  = {
       "base_c": 35,
       "base_proc": 0
     },
-    "137": {
-      "index": 137,
+    "138": {
+      "index": 138,
       "name": "Merric (Wind Mage)",
       "color": "G",
       "hp_base": 19,
@@ -3312,8 +3336,8 @@ var data  = {
       "base_c": 50,
       "base_proc": 24
     },
-    "138": {
-      "index": 138,
+    "139": {
+      "index": 139,
       "name": "Mia (Lady of Blades)",
       "color": "R",
       "hp_base": 16,
@@ -3336,8 +3360,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 32
     },
-    "139": {
-      "index": 139,
+    "140": {
+      "index": 140,
       "name": "Micaiah (Priestess of Dawn)",
       "color": "B",
       "hp_base": 16,
@@ -3360,8 +3384,8 @@ var data  = {
       "base_c": 15,
       "base_proc": 0
     },
-    "140": {
-      "index": 140,
+    "141": {
+      "index": 141,
       "name": "Michalis (Ambitious King)",
       "color": "G",
       "hp_base": 19,
@@ -3384,8 +3408,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 7
     },
-    "141": {
-      "index": 141,
+    "142": {
+      "index": 142,
       "name": "Minerva (Red Dragoon)",
       "color": "G",
       "hp_base": 18,
@@ -3408,8 +3432,8 @@ var data  = {
       "base_c": 62,
       "base_proc": 47
     },
-    "142": {
-      "index": 142,
+    "143": {
+      "index": 143,
       "name": "Mist (Helpful Sister)",
       "color": "N",
       "hp_base": 17,
@@ -3432,8 +3456,56 @@ var data  = {
       "base_c": 49,
       "base_proc": 33
     },
-    "143": {
-      "index": 143,
+    "144": {
+      "index": 144,
+      "name": "Morgan (Lad from Afar)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 7,
+      "spd_base": 8,
+      "def_base": 5,
+      "res_base": 7,
+      "hpGP": 5,
+      "atkGP": 8,
+      "spdGP": 8,
+      "defGP": 3,
+      "resGP": 5,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "RT",
+      "legendary": 0,
+      "base_weap": 238,
+      "base_a": 0,
+      "base_b": 17,
+      "base_c": 49,
+      "base_proc": 14
+    },
+    "145": {
+      "index": 145,
+      "name": "Morgan (Lass from Afar)",
+      "color": "B",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 6,
+      "def_base": 3,
+      "res_base": 9,
+      "hpGP": 5,
+      "atkGP": 8,
+      "spdGP": 7,
+      "defGP": 2,
+      "resGP": 7,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "BT",
+      "legendary": 0,
+      "base_weap": 40,
+      "base_a": 40,
+      "base_b": 25,
+      "base_c": 2,
+      "base_proc": 28
+    },
+    "146": {
+      "index": 146,
       "name": "Myrrh (Great Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -3456,8 +3528,8 @@ var data  = {
       "base_c": 33,
       "base_proc": 9
     },
-    "144": {
-      "index": 144,
+    "147": {
+      "index": 147,
       "name": "Narcian (Wyvern General)",
       "color": "G",
       "hp_base": 18,
@@ -3480,8 +3552,8 @@ var data  = {
       "base_c": 43,
       "base_proc": 52
     },
-    "145": {
-      "index": 145,
+    "148": {
+      "index": 148,
       "name": "Navarre (Scarlet Sword)",
       "color": "R",
       "hp_base": 18,
@@ -3504,8 +3576,8 @@ var data  = {
       "base_c": 58,
       "base_proc": 8
     },
-    "146": {
-      "index": 146,
+    "149": {
+      "index": 149,
       "name": "Nephenee (Fierce Halberdier)",
       "color": "B",
       "hp_base": 18,
@@ -3528,8 +3600,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 34
     },
-    "147": {
-      "index": 147,
+    "150": {
+      "index": 150,
       "name": "Niles (Cruel to be Kind)",
       "color": "N",
       "hp_base": 18,
@@ -3552,8 +3624,8 @@ var data  = {
       "base_c": 50,
       "base_proc": 28
     },
-    "148": {
-      "index": 148,
+    "151": {
+      "index": 151,
       "name": "Ninian (Oracle of Destiny)",
       "color": "B",
       "hp_base": 16,
@@ -3576,8 +3648,8 @@ var data  = {
       "base_c": 22,
       "base_proc": 0
     },
-    "149": {
-      "index": 149,
+    "152": {
+      "index": 152,
       "name": "Nino (Pious Mage)",
       "color": "G",
       "hp_base": 16,
@@ -3600,8 +3672,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 0
     },
-    "150": {
-      "index": 150,
+    "153": {
+      "index": 153,
       "name": "Nowi (Eternal Witch)",
       "color": "R",
       "hp_base": 17,
@@ -3624,8 +3696,8 @@ var data  = {
       "base_c": 34,
       "base_proc": 0
     },
-    "151": {
-      "index": 151,
+    "154": {
+      "index": 154,
       "name": "Nowi (Eternal Youth)",
       "color": "B",
       "hp_base": 17,
@@ -3648,8 +3720,8 @@ var data  = {
       "base_c": 57,
       "base_proc": 0
     },
-    "152": {
-      "index": 152,
+    "155": {
+      "index": 155,
       "name": "Oboro (Fierce Fighter)",
       "color": "B",
       "hp_base": 18,
@@ -3672,8 +3744,8 @@ var data  = {
       "base_c": 57,
       "base_proc": 0
     },
-    "153": {
-      "index": 153,
+    "156": {
+      "index": 156,
       "name": "Odin (Potent Force)",
       "color": "B",
       "hp_base": 19,
@@ -3696,8 +3768,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 34
     },
-    "154": {
-      "index": 154,
+    "157": {
+      "index": 157,
       "name": "Ogma (Loyal Blade)",
       "color": "R",
       "hp_base": 21,
@@ -3720,8 +3792,8 @@ var data  = {
       "base_c": 46,
       "base_proc": 37
     },
-    "155": {
-      "index": 155,
+    "158": {
+      "index": 158,
       "name": "Oliver (Admirer of Beauty)",
       "color": "B",
       "hp_base": 18,
@@ -3744,8 +3816,8 @@ var data  = {
       "base_c": 2,
       "base_proc": 6
     },
-    "156": {
-      "index": 156,
+    "159": {
+      "index": 159,
       "name": "Olivia (Blushing Beauty)",
       "color": "R",
       "hp_base": 17,
@@ -3768,8 +3840,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 0
     },
-    "157": {
-      "index": 157,
+    "160": {
+      "index": 160,
       "name": "Olivia (Festival Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -3792,8 +3864,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "158": {
-      "index": 158,
+    "161": {
+      "index": 161,
       "name": "Olwen (Blue Mage Knight)",
       "color": "B",
       "hp_base": 17,
@@ -3816,8 +3888,8 @@ var data  = {
       "base_c": 60,
       "base_proc": 0
     },
-    "159": {
-      "index": 159,
+    "162": {
+      "index": 162,
       "name": "Oscar (Agile Horseman)",
       "color": "B",
       "hp_base": 18,
@@ -3840,8 +3912,8 @@ var data  = {
       "base_c": 52,
       "base_proc": 0
     },
-    "160": {
-      "index": 160,
+    "163": {
+      "index": 163,
       "name": "Palla (Eldest Whitewing)",
       "color": "R",
       "hp_base": 18,
@@ -3864,8 +3936,8 @@ var data  = {
       "base_c": 28,
       "base_proc": 34
     },
-    "161": {
-      "index": 161,
+    "164": {
+      "index": 164,
       "name": "Peri (Playful Slayer)",
       "color": "B",
       "hp_base": 16,
@@ -3888,8 +3960,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 19
     },
-    "162": {
-      "index": 162,
+    "165": {
+      "index": 165,
       "name": "Priscilla (Delicate Princess)",
       "color": "N",
       "hp_base": 17,
@@ -3912,8 +3984,8 @@ var data  = {
       "base_c": 48,
       "base_proc": 50
     },
-    "163": {
-      "index": 163,
+    "166": {
+      "index": 166,
       "name": "Raigh (Dark Child)",
       "color": "R",
       "hp_base": 17,
@@ -3936,8 +4008,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "164": {
-      "index": 164,
+    "167": {
+      "index": 167,
       "name": "Raven (Peerless Fighter)",
       "color": "G",
       "hp_base": 19,
@@ -3960,8 +4032,8 @@ var data  = {
       "base_c": 56,
       "base_proc": 48
     },
-    "165": {
-      "index": 165,
+    "168": {
+      "index": 168,
       "name": "Rebecca (Wildflower)",
       "color": "N",
       "hp_base": 18,
@@ -3984,8 +4056,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "166": {
-      "index": 166,
+    "169": {
+      "index": 169,
       "name": "Reinhardt (Thunder's Fist)",
       "color": "B",
       "hp_base": 16,
@@ -4008,8 +4080,8 @@ var data  = {
       "base_c": 27,
       "base_proc": 7
     },
-    "167": {
-      "index": 167,
+    "170": {
+      "index": 170,
       "name": "Rhajat (Black Magician)",
       "color": "G",
       "hp_base": 17,
@@ -4032,8 +4104,8 @@ var data  = {
       "base_c": 43,
       "base_proc": 0
     },
-    "168": {
-      "index": 168,
+    "171": {
+      "index": 171,
       "name": "Robin (Fell Reincarnation)",
       "color": "G",
       "hp_base": 24,
@@ -4056,8 +4128,8 @@ var data  = {
       "base_c": 61,
       "base_proc": 29
     },
-    "169": {
-      "index": 169,
+    "172": {
+      "index": 172,
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -4080,8 +4152,8 @@ var data  = {
       "base_c": 1,
       "base_proc": 0
     },
-    "170": {
-      "index": 170,
+    "173": {
+      "index": 173,
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -4104,8 +4176,8 @@ var data  = {
       "base_c": 48,
       "base_proc": 9
     },
-    "171": {
-      "index": 171,
+    "174": {
+      "index": 174,
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -4128,8 +4200,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 29
     },
-    "172": {
-      "index": 172,
+    "175": {
+      "index": 175,
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -4152,8 +4224,8 @@ var data  = {
       "base_c": 37,
       "base_proc": 0
     },
-    "173": {
-      "index": 173,
+    "176": {
+      "index": 176,
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -4176,8 +4248,8 @@ var data  = {
       "base_c": 16,
       "base_proc": 0
     },
-    "174": {
-      "index": 174,
+    "177": {
+      "index": 177,
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -4200,8 +4272,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 17
     },
-    "175": {
-      "index": 175,
+    "178": {
+      "index": 178,
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -4224,8 +4296,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "176": {
-      "index": 176,
+    "179": {
+      "index": 179,
       "name": "Roy (Youthful Gifts)",
       "color": "N",
       "hp_base": 17,
@@ -4248,8 +4320,8 @@ var data  = {
       "base_c": 10,
       "base_proc": 0
     },
-    "177": {
-      "index": 177,
+    "180": {
+      "index": 180,
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -4272,8 +4344,8 @@ var data  = {
       "base_c": 35,
       "base_proc": 3
     },
-    "178": {
-      "index": 178,
+    "181": {
+      "index": 181,
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -4296,8 +4368,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 1
     },
-    "179": {
-      "index": 179,
+    "182": {
+      "index": 182,
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -4320,8 +4392,8 @@ var data  = {
       "base_c": 51,
       "base_proc": 0
     },
-    "180": {
-      "index": 180,
+    "183": {
+      "index": 183,
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -4344,8 +4416,8 @@ var data  = {
       "base_c": 12,
       "base_proc": 18
     },
-    "181": {
-      "index": 181,
+    "184": {
+      "index": 184,
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -4368,8 +4440,8 @@ var data  = {
       "base_c": 21,
       "base_proc": 50
     },
-    "182": {
-      "index": 182,
+    "185": {
+      "index": 185,
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -4392,8 +4464,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 0
     },
-    "183": {
-      "index": 183,
+    "186": {
+      "index": 186,
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -4416,8 +4488,8 @@ var data  = {
       "base_c": 58,
       "base_proc": 0
     },
-    "184": {
-      "index": 184,
+    "187": {
+      "index": 187,
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -4440,8 +4512,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "185": {
-      "index": 185,
+    "188": {
+      "index": 188,
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -4464,8 +4536,8 @@ var data  = {
       "base_c": 31,
       "base_proc": 51
     },
-    "186": {
-      "index": 186,
+    "189": {
+      "index": 189,
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -4488,8 +4560,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "187": {
-      "index": 187,
+    "190": {
+      "index": 190,
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -4512,8 +4584,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "188": {
-      "index": 188,
+    "191": {
+      "index": 191,
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4536,8 +4608,8 @@ var data  = {
       "base_c": 58,
       "base_proc": 28
     },
-    "189": {
-      "index": 189,
+    "192": {
+      "index": 192,
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -4560,8 +4632,8 @@ var data  = {
       "base_c": 21,
       "base_proc": 0
     },
-    "190": {
-      "index": 190,
+    "193": {
+      "index": 193,
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -4584,8 +4656,8 @@ var data  = {
       "base_c": 19,
       "base_proc": 16
     },
-    "191": {
-      "index": 191,
+    "194": {
+      "index": 194,
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -4608,8 +4680,8 @@ var data  = {
       "base_c": 8,
       "base_proc": 0
     },
-    "192": {
-      "index": 192,
+    "195": {
+      "index": 195,
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -4632,8 +4704,8 @@ var data  = {
       "base_c": 14,
       "base_proc": 0
     },
-    "193": {
-      "index": 193,
+    "196": {
+      "index": 196,
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -4656,8 +4728,8 @@ var data  = {
       "base_c": 4,
       "base_proc": 14
     },
-    "194": {
-      "index": 194,
+    "197": {
+      "index": 197,
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4680,8 +4752,8 @@ var data  = {
       "base_c": 45,
       "base_proc": 33
     },
-    "195": {
-      "index": 195,
+    "198": {
+      "index": 198,
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -4704,8 +4776,8 @@ var data  = {
       "base_c": 17,
       "base_proc": 8
     },
-    "196": {
-      "index": 196,
+    "199": {
+      "index": 199,
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -4728,8 +4800,8 @@ var data  = {
       "base_c": 41,
       "base_proc": 34
     },
-    "197": {
-      "index": 197,
+    "200": {
+      "index": 200,
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -4752,8 +4824,8 @@ var data  = {
       "base_c": 24,
       "base_proc": 14
     },
-    "198": {
-      "index": 198,
+    "201": {
+      "index": 201,
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -4776,8 +4848,8 @@ var data  = {
       "base_c": 24,
       "base_proc": 24
     },
-    "199": {
-      "index": 199,
+    "202": {
+      "index": 202,
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -4800,8 +4872,8 @@ var data  = {
       "base_c": 47,
       "base_proc": 19
     },
-    "200": {
-      "index": 200,
+    "203": {
+      "index": 203,
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4824,8 +4896,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "201": {
-      "index": 201,
+    "204": {
+      "index": 204,
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -4848,8 +4920,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "202": {
-      "index": 202,
+    "205": {
+      "index": 205,
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -4872,8 +4944,8 @@ var data  = {
       "base_c": 48,
       "base_proc": 0
     },
-    "203": {
-      "index": 203,
+    "206": {
+      "index": 206,
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -4896,8 +4968,8 @@ var data  = {
       "base_c": 18,
       "base_proc": 0
     },
-    "204": {
-      "index": 204,
+    "207": {
+      "index": 207,
       "name": "Takumi (Empty Vessel)",
       "color": "N",
       "hp_base": 15,
@@ -4920,8 +4992,8 @@ var data  = {
       "base_c": 45,
       "base_proc": 52
     },
-    "205": {
-      "index": 205,
+    "208": {
+      "index": 208,
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -4944,8 +5016,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 34
     },
-    "206": {
-      "index": 206,
+    "209": {
+      "index": 209,
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -4968,8 +5040,8 @@ var data  = {
       "base_c": 58,
       "base_proc": 52
     },
-    "207": {
-      "index": 207,
+    "210": {
+      "index": 210,
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -4992,8 +5064,8 @@ var data  = {
       "base_c": 29,
       "base_proc": 34
     },
-    "208": {
-      "index": 208,
+    "211": {
+      "index": 211,
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -5016,8 +5088,8 @@ var data  = {
       "base_c": 40,
       "base_proc": 28
     },
-    "209": {
-      "index": 209,
+    "212": {
+      "index": 212,
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -5040,8 +5112,8 @@ var data  = {
       "base_c": 50,
       "base_proc": 52
     },
-    "210": {
-      "index": 210,
+    "213": {
+      "index": 213,
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -5064,8 +5136,8 @@ var data  = {
       "base_c": 11,
       "base_proc": 21
     },
-    "211": {
-      "index": 211,
+    "214": {
+      "index": 214,
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -5088,8 +5160,8 @@ var data  = {
       "base_c": 50,
       "base_proc": 9
     },
-    "212": {
-      "index": 212,
+    "215": {
+      "index": 215,
       "name": "Tiki (Summer Scion)",
       "color": "G",
       "hp_base": 18,
@@ -5112,8 +5184,8 @@ var data  = {
       "base_c": 6,
       "base_proc": 48
     },
-    "213": {
-      "index": 213,
+    "216": {
+      "index": 216,
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -5136,8 +5208,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "214": {
-      "index": 214,
+    "217": {
+      "index": 217,
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -5160,8 +5232,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 0
     },
-    "215": {
-      "index": 215,
+    "218": {
+      "index": 218,
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -5184,8 +5256,8 @@ var data  = {
       "base_c": 57,
       "base_proc": 23
     },
-    "216": {
-      "index": 216,
+    "219": {
+      "index": 219,
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -5208,8 +5280,8 @@ var data  = {
       "base_c": 38,
       "base_proc": 32
     },
-    "217": {
-      "index": 217,
+    "220": {
+      "index": 220,
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -5232,8 +5304,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 3
     },
-    "218": {
-      "index": 218,
+    "221": {
+      "index": 221,
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -5256,8 +5328,8 @@ var data  = {
       "base_c": 0,
       "base_proc": 25
     },
-    "219": {
-      "index": 219,
+    "222": {
+      "index": 222,
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -5280,8 +5352,8 @@ var data  = {
       "base_c": 48,
       "base_proc": 6
     },
-    "220": {
-      "index": 220,
+    "223": {
+      "index": 223,
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -5304,8 +5376,8 @@ var data  = {
       "base_c": 21,
       "base_proc": 0
     },
-    "221": {
-      "index": 221,
+    "224": {
+      "index": 224,
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -5328,8 +5400,8 @@ var data  = {
       "base_c": 36,
       "base_proc": 9
     },
-    "222": {
-      "index": 222,
+    "225": {
+      "index": 225,
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -5352,8 +5424,8 @@ var data  = {
       "base_c": 38,
       "base_proc": 4
     },
-    "223": {
-      "index": 223,
+    "226": {
+      "index": 226,
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -5375,79 +5447,7 @@ var data  = {
       "base_b": 53,
       "base_c": 0,
       "base_proc": 41
-    }/*,
-    "224": {
-      "index": 224,
-      "name": "Chrom (Knight Exalt)",
-      "color": "R",
-      "hp_base": "",
-      "atk_base": "",
-      "spd_base": "",
-      "def_base": "",
-      "res_base": "",
-      "hpGP": "",
-      "atkGP": "",
-      "spdGP": "",
-      "defGP": "",
-      "resGP": "",
-      "n_lock": 0,
-      "type": "C",
-      "weap": "S",
-      "legendary": 0,
-      "base_weap": 418,
-      "base_a": 30,
-      "base_b": 9,
-      "base_c": 54,
-      "base_proc": 2
-    },
-    "225": {
-      "index": 225,
-      "name": "Morgan (Lad from Afar)",
-      "color": "R",
-      "hp_base": "",
-      "atk_base": "",
-      "spd_base": "",
-      "def_base": "",
-      "res_base": "",
-      "hpGP": "",
-      "atkGP": "",
-      "spdGP": "",
-      "defGP": "",
-      "resGP": "",
-      "n_lock": 0,
-      "type": "I",
-      "weap": "RT",
-      "legendary": 0,
-      "base_weap": 238,
-      "base_a": 0,
-      "base_b": 17,
-      "base_c": 49,
-      "base_proc": 14
-    },
-    "226": {
-      "index": 226,
-      "name": "Morgan (Lass from Afar)",
-      "color": "B",
-      "hp_base": "",
-      "atk_base": "",
-      "spd_base": "",
-      "def_base": "",
-      "res_base": "",
-      "hpGP": "",
-      "atkGP": "",
-      "spdGP": "",
-      "defGP": "",
-      "resGP": "",
-      "n_lock": 0,
-      "type": "F",
-      "weap": "BT",
-      "legendary": 0,
-      "base_weap": 40,
-      "base_a": 40,
-      "base_b": 25,
-      "base_c": 2,
-      "base_proc": 28
-    }*/
+    }
   },
   "Optimized_Chars": {
     "0": {
@@ -5873,7 +5873,7 @@ var data  = {
     "30": {
       "index": 30,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 66,
@@ -5887,7 +5887,7 @@ var data  = {
     "31": {
       "index": 31,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 197,
@@ -5901,7 +5901,7 @@ var data  = {
     "32": {
       "index": 32,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 498,
@@ -5915,7 +5915,7 @@ var data  = {
     "33": {
       "index": 33,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 41,
+      "base_index": 42,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 65,
@@ -5929,7 +5929,7 @@ var data  = {
     "34": {
       "index": 34,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 41,
+      "base_index": 42,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 196,
@@ -5943,7 +5943,7 @@ var data  = {
     "35": {
       "index": 35,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 44,
+      "base_index": 45,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -5957,7 +5957,7 @@ var data  = {
     "36": {
       "index": 36,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 44,
+      "base_index": 45,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 335,
@@ -5971,7 +5971,7 @@ var data  = {
     "37": {
       "index": 37,
       "name": "Corrin (Novice Vacationer)",
-      "base_index": 45,
+      "base_index": 46,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 33,
@@ -5985,7 +5985,7 @@ var data  = {
     "38": {
       "index": 38,
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Res",
       "bane": "Def",
       "weapon": 150,
@@ -5999,7 +5999,7 @@ var data  = {
     "39": {
       "index": 39,
       "name": "Delthea (Free Spirit)",
-      "base_index": 47,
+      "base_index": 48,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 130,
@@ -6013,7 +6013,7 @@ var data  = {
     "40": {
       "index": 40,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 49,
+      "base_index": 50,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 524,
@@ -6027,7 +6027,7 @@ var data  = {
     "41": {
       "index": 41,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 49,
+      "base_index": 50,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 524,
@@ -6041,7 +6041,7 @@ var data  = {
     "42": {
       "index": 42,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 29,
@@ -6055,7 +6055,7 @@ var data  = {
     "43": {
       "index": 43,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 497,
@@ -6069,7 +6069,7 @@ var data  = {
     "44": {
       "index": 44,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 66,
@@ -6083,7 +6083,7 @@ var data  = {
     "45": {
       "index": 45,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 528,
@@ -6097,7 +6097,7 @@ var data  = {
     "46": {
       "index": 46,
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 52,
+      "base_index": 53,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -6111,7 +6111,7 @@ var data  = {
     "47": {
       "index": 47,
       "name": "Eirika (Restoration Lady)",
-      "base_index": 53,
+      "base_index": 54,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 435,
@@ -6125,7 +6125,7 @@ var data  = {
     "48": {
       "index": 48,
       "name": "Eldigan (Lionheart)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 356,
@@ -6139,7 +6139,7 @@ var data  = {
     "49": {
       "index": 49,
       "name": "Elincia (Lost Princess)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
@@ -6153,7 +6153,7 @@ var data  = {
     "50": {
       "index": 50,
       "name": "Elincia (Lost Princess)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 198,
@@ -6167,7 +6167,7 @@ var data  = {
     "51": {
       "index": 51,
       "name": "Elise (Budding Flower)",
-      "base_index": 56,
+      "base_index": 57,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 225,
@@ -6181,7 +6181,7 @@ var data  = {
     "52": {
       "index": 52,
       "name": "Ephraim (Legendary Lord)",
-      "base_index": 60,
+      "base_index": 61,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 204,
@@ -6195,7 +6195,7 @@ var data  = {
     "53": {
       "index": 53,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 444,
@@ -6209,7 +6209,7 @@ var data  = {
     "54": {
       "index": 54,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 444,
@@ -6223,7 +6223,7 @@ var data  = {
     "55": {
       "index": 55,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -6237,7 +6237,7 @@ var data  = {
     "56": {
       "index": 56,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -6251,7 +6251,7 @@ var data  = {
     "57": {
       "index": 57,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -6265,7 +6265,7 @@ var data  = {
     "58": {
       "index": 58,
       "name": "Faye (Devoted Heart)",
-      "base_index": 64,
+      "base_index": 65,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 250,
@@ -6279,7 +6279,7 @@ var data  = {
     "59": {
       "index": 59,
       "name": "Felicia (Maid Mayhem)",
-      "base_index": 65,
+      "base_index": 66,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 187,
@@ -6293,7 +6293,7 @@ var data  = {
     "60": {
       "index": 60,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 67,
+      "base_index": 68,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 326,
@@ -6307,7 +6307,7 @@ var data  = {
     "61": {
       "index": 61,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 67,
+      "base_index": 68,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 326,
@@ -6321,7 +6321,7 @@ var data  = {
     "62": {
       "index": 62,
       "name": "Florina (Lovely Flier)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 29,
@@ -6335,7 +6335,7 @@ var data  = {
     "63": {
       "index": 63,
       "name": "Frederick (Polite Knight)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 64,
@@ -6349,7 +6349,7 @@ var data  = {
     "64": {
       "index": 64,
       "name": "Frederick (Polite Knight)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 475,
@@ -6363,7 +6363,7 @@ var data  = {
     "65": {
       "index": 65,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 76,
+      "base_index": 77,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 48,
@@ -6377,7 +6377,7 @@ var data  = {
     "66": {
       "index": 66,
       "name": "Hardin (Dark Emperor)",
-      "base_index": 80,
+      "base_index": 81,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 218,
@@ -6391,7 +6391,7 @@ var data  = {
     "67": {
       "index": 67,
       "name": "Hector (General of Ostia)",
-      "base_index": 82,
+      "base_index": 83,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 6,
@@ -6405,7 +6405,7 @@ var data  = {
     "68": {
       "index": 68,
       "name": "Hector (Just Here to Fight)",
-      "base_index": 83,
+      "base_index": 84,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 31,
@@ -6419,7 +6419,7 @@ var data  = {
     "69": {
       "index": 69,
       "name": "Henry (Happy Vampire)",
-      "base_index": 84,
+      "base_index": 85,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 240,
@@ -6433,7 +6433,7 @@ var data  = {
     "70": {
       "index": 70,
       "name": "Hinoka (Warrior Princess)",
-      "base_index": 87,
+      "base_index": 88,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 284,
@@ -6447,7 +6447,7 @@ var data  = {
     "71": {
       "index": 71,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
@@ -6461,7 +6461,7 @@ var data  = {
     "72": {
       "index": 72,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
@@ -6475,7 +6475,7 @@ var data  = {
     "73": {
       "index": 73,
       "name": "Ike (Vanguard Legend)",
-      "base_index": 89,
+      "base_index": 90,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 378,
@@ -6489,7 +6489,7 @@ var data  = {
     "74": {
       "index": 74,
       "name": "Ike (Young Mercenary)",
-      "base_index": 90,
+      "base_index": 91,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 378,
@@ -6503,7 +6503,7 @@ var data  = {
     "75": {
       "index": 75,
       "name": "Inigo (Indigo Dancer)",
-      "base_index": 91,
+      "base_index": 92,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 246,
@@ -6517,7 +6517,7 @@ var data  = {
     "76": {
       "index": 76,
       "name": "Innes (Regal Strategician)",
-      "base_index": 92,
+      "base_index": 93,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 362,
@@ -6531,7 +6531,7 @@ var data  = {
     "77": {
       "index": 77,
       "name": "Jaffar (Angel of Death)",
-      "base_index": 93,
+      "base_index": 94,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 141,
@@ -6545,7 +6545,7 @@ var data  = {
     "78": {
       "index": 78,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 95,
+      "base_index": 96,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 65,
@@ -6559,7 +6559,7 @@ var data  = {
     "79": {
       "index": 79,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 95,
+      "base_index": 96,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 251,
@@ -6573,7 +6573,7 @@ var data  = {
     "80": {
       "index": 80,
       "name": "Jeorge (Perfect Shot)",
-      "base_index": 97,
+      "base_index": 98,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 372,
@@ -6587,7 +6587,7 @@ var data  = {
     "81": {
       "index": 81,
       "name": "Julia (Naga's Blood)",
-      "base_index": 99,
+      "base_index": 100,
       "boon": "Res",
       "bane": "Def",
       "weapon": 150,
@@ -6601,7 +6601,7 @@ var data  = {
     "82": {
       "index": 82,
       "name": "Julia (Naga's Blood)",
-      "base_index": 99,
+      "base_index": 100,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 150,
@@ -6615,7 +6615,7 @@ var data  = {
     "83": {
       "index": 83,
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 100,
+      "base_index": 101,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 376,
@@ -6629,7 +6629,7 @@ var data  = {
     "84": {
       "index": 84,
       "name": "L'Arachel (Princess of Light)",
-      "base_index": 104,
+      "base_index": 105,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 33,
@@ -6643,7 +6643,7 @@ var data  = {
     "85": {
       "index": 85,
       "name": "L'Arachel (Princess of Light)",
-      "base_index": 104,
+      "base_index": 105,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 287,
@@ -6657,7 +6657,7 @@ var data  = {
     "86": {
       "index": 86,
       "name": "Leo (Sorcerous Prince)",
-      "base_index": 109,
+      "base_index": 110,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 380,
@@ -6671,7 +6671,7 @@ var data  = {
     "87": {
       "index": 87,
       "name": "Lilina (Blush of Youth)",
-      "base_index": 111,
+      "base_index": 112,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 240,
@@ -6685,7 +6685,7 @@ var data  = {
     "88": {
       "index": 88,
       "name": "Linde (Light Mage)",
-      "base_index": 113,
+      "base_index": 114,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 33,
@@ -6699,7 +6699,7 @@ var data  = {
     "89": {
       "index": 89,
       "name": "Lucina (Brave Princess)",
-      "base_index": 118,
+      "base_index": 119,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 216,
@@ -6713,7 +6713,7 @@ var data  = {
     "90": {
       "index": 90,
       "name": "Lucina (Future Witness)",
-      "base_index": 119,
+      "base_index": 120,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 178,
@@ -6727,7 +6727,7 @@ var data  = {
     "91": {
       "index": 91,
       "name": "Lukas (Sharp Soldier)",
-      "base_index": 122,
+      "base_index": 123,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 496,
@@ -6741,7 +6741,7 @@ var data  = {
     "92": {
       "index": 92,
       "name": "Lute (Prodigy)",
-      "base_index": 124,
+      "base_index": 125,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 541,
@@ -6755,7 +6755,7 @@ var data  = {
     "93": {
       "index": 93,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 352,
@@ -6769,7 +6769,7 @@ var data  = {
     "94": {
       "index": 94,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 196,
@@ -6783,7 +6783,7 @@ var data  = {
     "95": {
       "index": 95,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 65,
@@ -6797,7 +6797,7 @@ var data  = {
     "96": {
       "index": 96,
       "name": "Lyn (Lady of the Plains)",
-      "base_index": 127,
+      "base_index": 128,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 516,
@@ -6811,7 +6811,7 @@ var data  = {
     "97": {
       "index": 97,
       "name": "Maria (Minerva's Sister)",
-      "base_index": 131,
+      "base_index": 132,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 182,
@@ -6825,7 +6825,7 @@ var data  = {
     "98": {
       "index": 98,
       "name": "Mia (Lady of Blades)",
-      "base_index": 138,
+      "base_index": 139,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 394,
@@ -6839,7 +6839,7 @@ var data  = {
     "99": {
       "index": 99,
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 530,
@@ -6853,7 +6853,7 @@ var data  = {
     "100": {
       "index": 100,
       "name": "Michalis (Ambitious King)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "None",
       "bane": "None",
       "weapon": 272,
@@ -6867,7 +6867,7 @@ var data  = {
     "101": {
       "index": 101,
       "name": "Michalis (Ambitious King)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "None",
       "bane": "None",
       "weapon": 272,
@@ -6881,7 +6881,7 @@ var data  = {
     "102": {
       "index": 102,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 274,
@@ -6895,7 +6895,7 @@ var data  = {
     "103": {
       "index": 103,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 272,
@@ -6909,7 +6909,7 @@ var data  = {
     "104": {
       "index": 104,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 143,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 227,
@@ -6923,7 +6923,7 @@ var data  = {
     "105": {
       "index": 105,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 143,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 227,
@@ -6937,7 +6937,7 @@ var data  = {
     "106": {
       "index": 106,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 148,
+      "base_index": 151,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 336,
@@ -6951,7 +6951,7 @@ var data  = {
     "107": {
       "index": 107,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 148,
+      "base_index": 151,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 336,
@@ -6965,7 +6965,7 @@ var data  = {
     "108": {
       "index": 108,
       "name": "Nino (Pious Mage)",
-      "base_index": 149,
+      "base_index": 152,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 240,
@@ -6979,7 +6979,7 @@ var data  = {
     "109": {
       "index": 109,
       "name": "Nowi (Eternal Witch)",
-      "base_index": 150,
+      "base_index": 153,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -6993,7 +6993,7 @@ var data  = {
     "110": {
       "index": 110,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -7007,7 +7007,7 @@ var data  = {
     "111": {
       "index": 111,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -7021,7 +7021,7 @@ var data  = {
     "112": {
       "index": 112,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -7035,7 +7035,7 @@ var data  = {
     "113": {
       "index": 113,
       "name": "Raven (Peerless Fighter)",
-      "base_index": 164,
+      "base_index": 167,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
@@ -7049,7 +7049,7 @@ var data  = {
     "114": {
       "index": 114,
       "name": "Raven (Peerless Fighter)",
-      "base_index": 164,
+      "base_index": 167,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
@@ -7063,7 +7063,7 @@ var data  = {
     "115": {
       "index": 115,
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 166,
+      "base_index": 169,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 149,
@@ -7077,7 +7077,7 @@ var data  = {
     "116": {
       "index": 116,
       "name": "Robin (Fell Reincarnation)",
-      "base_index": 168,
+      "base_index": 171,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 161,
@@ -7091,7 +7091,7 @@ var data  = {
     "117": {
       "index": 117,
       "name": "Robin (Fell Reincarnation)",
-      "base_index": 168,
+      "base_index": 171,
       "boon": "Res",
       "bane": "Spd",
       "weapon": 161,
@@ -7105,7 +7105,7 @@ var data  = {
     "118": {
       "index": 118,
       "name": "Robin (High Deliverer)",
-      "base_index": 170,
+      "base_index": 173,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 39,
@@ -7119,7 +7119,7 @@ var data  = {
     "119": {
       "index": 119,
       "name": "Roy (Brave Lion)",
-      "base_index": 174,
+      "base_index": 177,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 42,
@@ -7133,7 +7133,7 @@ var data  = {
     "120": {
       "index": 120,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 182,
+      "base_index": 185,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 112,
@@ -7147,7 +7147,7 @@ var data  = {
     "121": {
       "index": 121,
       "name": "Shiro (Raw Talent)",
-      "base_index": 192,
+      "base_index": 195,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 68,
@@ -7161,7 +7161,7 @@ var data  = {
     "122": {
       "index": 122,
       "name": "Siegbert (Future King)",
-      "base_index": 193,
+      "base_index": 196,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 137,
@@ -7175,7 +7175,7 @@ var data  = {
     "123": {
       "index": 123,
       "name": "Sigurd (Holy Knight)",
-      "base_index": 194,
+      "base_index": 197,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 151,
@@ -7189,7 +7189,7 @@ var data  = {
     "124": {
       "index": 124,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 195,
+      "base_index": 198,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 198,
@@ -7203,7 +7203,7 @@ var data  = {
     "125": {
       "index": 125,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 197,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 386,
@@ -7217,7 +7217,7 @@ var data  = {
     "126": {
       "index": 126,
       "name": "Takumi (Wild Card)",
-      "base_index": 206,
+      "base_index": 209,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 213,
@@ -7231,7 +7231,7 @@ var data  = {
     "127": {
       "index": 127,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 498,
@@ -7245,7 +7245,7 @@ var data  = {
     "128": {
       "index": 128,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 66,
@@ -7259,7 +7259,7 @@ var data  = {
     "129": {
       "index": 129,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 197,
@@ -7273,7 +7273,7 @@ var data  = {
     "130": {
       "index": 130,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 540,
@@ -7287,7 +7287,7 @@ var data  = {
     "131": {
       "index": 131,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 540,
@@ -7301,7 +7301,7 @@ var data  = {
     "132": {
       "index": 132,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 208,
+      "base_index": 211,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 77,
@@ -7315,7 +7315,7 @@ var data  = {
     "133": {
       "index": 133,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 208,
+      "base_index": 211,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 380,
@@ -7329,7 +7329,7 @@ var data  = {
     "134": {
       "index": 134,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 209,
+      "base_index": 212,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -7343,7 +7343,7 @@ var data  = {
     "135": {
       "index": 135,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 334,
@@ -7357,7 +7357,7 @@ var data  = {
     "136": {
       "index": 136,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 334,
@@ -7371,7 +7371,7 @@ var data  = {
     "137": {
       "index": 137,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 334,
@@ -7385,7 +7385,7 @@ var data  = {
     "138": {
       "index": 138,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -7399,7 +7399,7 @@ var data  = {
     "139": {
       "index": 139,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -7413,7 +7413,7 @@ var data  = {
     "140": {
       "index": 140,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -7427,7 +7427,7 @@ var data  = {
     "141": {
       "index": 141,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 213,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 159,
@@ -7441,7 +7441,7 @@ var data  = {
     "142": {
       "index": 142,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 222,
+      "base_index": 225,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
@@ -7455,7 +7455,7 @@ var data  = {
     "143": {
       "index": 143,
       "name": "Lissa (Pure Joy)",
-      "base_index": 114,
+      "base_index": 115,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 64,
@@ -7469,7 +7469,7 @@ var data  = {
     "144": {
       "index": 144,
       "name": "Lissa (Pure Joy)",
-      "base_index": 114,
+      "base_index": 115,
       "boon": "Def",
       "bane": "HP",
       "weapon": 476,
@@ -114746,7 +114746,7 @@ var data  = {
     "38": {
       "index": 38,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 66,
@@ -114760,7 +114760,7 @@ var data  = {
     "39": {
       "index": 39,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 197,
@@ -114774,7 +114774,7 @@ var data  = {
     "40": {
       "index": 40,
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 40,
+      "base_index": 41,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 498,
@@ -114788,7 +114788,7 @@ var data  = {
     "41": {
       "index": 41,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 41,
+      "base_index": 42,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 65,
@@ -114802,7 +114802,7 @@ var data  = {
     "42": {
       "index": 42,
       "name": "Cordelia (Perfect Bride)",
-      "base_index": 41,
+      "base_index": 42,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 196,
@@ -114816,7 +114816,7 @@ var data  = {
     "43": {
       "index": 43,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 44,
+      "base_index": 45,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -114830,7 +114830,7 @@ var data  = {
     "44": {
       "index": 44,
       "name": "Corrin (Fateful Princess)",
-      "base_index": 44,
+      "base_index": 45,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 335,
@@ -114844,7 +114844,7 @@ var data  = {
     "45": {
       "index": 45,
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Res",
       "bane": "Def",
       "weapon": 150,
@@ -114858,7 +114858,7 @@ var data  = {
     "46": {
       "index": 46,
       "name": "Delthea (Free Spirit)",
-      "base_index": 47,
+      "base_index": 48,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 130,
@@ -114872,7 +114872,7 @@ var data  = {
     "47": {
       "index": 47,
       "name": "Dorcas (Serene Warrior)",
-      "base_index": 49,
+      "base_index": 50,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 524,
@@ -114886,7 +114886,7 @@ var data  = {
     "48": {
       "index": 48,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 29,
@@ -114900,7 +114900,7 @@ var data  = {
     "49": {
       "index": 49,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 497,
@@ -114914,7 +114914,7 @@ var data  = {
     "50": {
       "index": 50,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 66,
@@ -114928,7 +114928,7 @@ var data  = {
     "51": {
       "index": 51,
       "name": "Effie (Army of One)",
-      "base_index": 51,
+      "base_index": 52,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 528,
@@ -114942,7 +114942,7 @@ var data  = {
     "52": {
       "index": 52,
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 52,
+      "base_index": 53,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -114956,7 +114956,7 @@ var data  = {
     "53": {
       "index": 53,
       "name": "Eirika (Restoration Lady)",
-      "base_index": 53,
+      "base_index": 54,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 435,
@@ -114970,7 +114970,7 @@ var data  = {
     "54": {
       "index": 54,
       "name": "Eldigan (Lionheart)",
-      "base_index": 54,
+      "base_index": 55,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 356,
@@ -114984,7 +114984,7 @@ var data  = {
     "55": {
       "index": 55,
       "name": "Elincia (Lost Princess)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
@@ -114998,7 +114998,7 @@ var data  = {
     "56": {
       "index": 56,
       "name": "Elincia (Lost Princess)",
-      "base_index": 55,
+      "base_index": 56,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 198,
@@ -115012,7 +115012,7 @@ var data  = {
     "57": {
       "index": 57,
       "name": "Elise (Budding Flower)",
-      "base_index": 56,
+      "base_index": 57,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 225,
@@ -115026,7 +115026,7 @@ var data  = {
     "58": {
       "index": 58,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 444,
@@ -115040,7 +115040,7 @@ var data  = {
     "59": {
       "index": 59,
       "name": "Ephraim (Restoration Lord)",
-      "base_index": 61,
+      "base_index": 62,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 444,
@@ -115054,7 +115054,7 @@ var data  = {
     "60": {
       "index": 60,
       "name": "Est (Junior Whitewing)",
-      "base_index": 62,
+      "base_index": 63,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 66,
@@ -115068,7 +115068,7 @@ var data  = {
     "61": {
       "index": 61,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -115082,7 +115082,7 @@ var data  = {
     "62": {
       "index": 62,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -115096,7 +115096,7 @@ var data  = {
     "63": {
       "index": 63,
       "name": "Fae (Divine Dragon)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 334,
@@ -115110,7 +115110,7 @@ var data  = {
     "64": {
       "index": 64,
       "name": "Faye (Devoted Heart)",
-      "base_index": 64,
+      "base_index": 65,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 250,
@@ -115124,7 +115124,7 @@ var data  = {
     "65": {
       "index": 65,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 67,
+      "base_index": 68,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 326,
@@ -115138,7 +115138,7 @@ var data  = {
     "66": {
       "index": 66,
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 67,
+      "base_index": 68,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 326,
@@ -115152,7 +115152,7 @@ var data  = {
     "67": {
       "index": 67,
       "name": "Florina (Lovely Flier)",
-      "base_index": 68,
+      "base_index": 69,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 29,
@@ -115166,7 +115166,7 @@ var data  = {
     "68": {
       "index": 68,
       "name": "Frederick (Polite Knight)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 64,
@@ -115180,7 +115180,7 @@ var data  = {
     "69": {
       "index": 69,
       "name": "Frederick (Polite Knight)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 475,
@@ -115194,7 +115194,7 @@ var data  = {
     "70": {
       "index": 70,
       "name": "Gaius (Thief Exposed)",
-      "base_index": 72,
+      "base_index": 73,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 196,
@@ -115208,7 +115208,7 @@ var data  = {
     "71": {
       "index": 71,
       "name": "Gaius (Thief Exposed)",
-      "base_index": 72,
+      "base_index": 73,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 65,
@@ -115222,7 +115222,7 @@ var data  = {
     "72": {
       "index": 72,
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 76,
+      "base_index": 77,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 48,
@@ -115236,7 +115236,7 @@ var data  = {
     "73": {
       "index": 73,
       "name": "Hector (General of Ostia)",
-      "base_index": 82,
+      "base_index": 83,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 6,
@@ -115250,7 +115250,7 @@ var data  = {
     "74": {
       "index": 74,
       "name": "Hector (Just Here to Fight)",
-      "base_index": 83,
+      "base_index": 84,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 31,
@@ -115264,7 +115264,7 @@ var data  = {
     "75": {
       "index": 75,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
@@ -115278,7 +115278,7 @@ var data  = {
     "76": {
       "index": 76,
       "name": "Ike (Brave Mercenary)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
@@ -115292,7 +115292,7 @@ var data  = {
     "77": {
       "index": 77,
       "name": "Innes (Regal Strategician)",
-      "base_index": 92,
+      "base_index": 93,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 362,
@@ -115306,7 +115306,7 @@ var data  = {
     "78": {
       "index": 78,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 95,
+      "base_index": 96,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 65,
@@ -115320,7 +115320,7 @@ var data  = {
     "79": {
       "index": 79,
       "name": "Jakob (Devoted Monster)",
-      "base_index": 95,
+      "base_index": 96,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 251,
@@ -115334,7 +115334,7 @@ var data  = {
     "80": {
       "index": 80,
       "name": "Jeorge (Perfect Shot)",
-      "base_index": 97,
+      "base_index": 98,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 372,
@@ -115348,7 +115348,7 @@ var data  = {
     "81": {
       "index": 81,
       "name": "Julia (Naga's Blood)",
-      "base_index": 99,
+      "base_index": 100,
       "boon": "Res",
       "bane": "Def",
       "weapon": 150,
@@ -115362,7 +115362,7 @@ var data  = {
     "82": {
       "index": 82,
       "name": "Julia (Naga's Blood)",
-      "base_index": 99,
+      "base_index": 100,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 150,
@@ -115376,7 +115376,7 @@ var data  = {
     "83": {
       "index": 83,
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 100,
+      "base_index": 101,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 376,
@@ -115390,7 +115390,7 @@ var data  = {
     "84": {
       "index": 84,
       "name": "Leo (Sorcerous Prince)",
-      "base_index": 109,
+      "base_index": 110,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 380,
@@ -115404,7 +115404,7 @@ var data  = {
     "85": {
       "index": 85,
       "name": "Linde (Light Mage)",
-      "base_index": 113,
+      "base_index": 114,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 33,
@@ -115418,7 +115418,7 @@ var data  = {
     "86": {
       "index": 86,
       "name": "Lukas (Sharp Soldier)",
-      "base_index": 122,
+      "base_index": 123,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 496,
@@ -115432,7 +115432,7 @@ var data  = {
     "87": {
       "index": 87,
       "name": "Lute (Prodigy)",
-      "base_index": 124,
+      "base_index": 125,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 541,
@@ -115446,7 +115446,7 @@ var data  = {
     "88": {
       "index": 88,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 352,
@@ -115460,7 +115460,7 @@ var data  = {
     "89": {
       "index": 89,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 196,
@@ -115474,7 +115474,7 @@ var data  = {
     "90": {
       "index": 90,
       "name": "Lyn (Brave Lady)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 65,
@@ -115488,7 +115488,7 @@ var data  = {
     "91": {
       "index": 91,
       "name": "Lyn (Lady of the Plains)",
-      "base_index": 127,
+      "base_index": 128,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 516,
@@ -115502,7 +115502,7 @@ var data  = {
     "92": {
       "index": 92,
       "name": "Maria (Minerva's Sister)",
-      "base_index": 131,
+      "base_index": 132,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 182,
@@ -115516,7 +115516,7 @@ var data  = {
     "93": {
       "index": 93,
       "name": "Mia (Lady of Blades)",
-      "base_index": 138,
+      "base_index": 139,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 394,
@@ -115530,7 +115530,7 @@ var data  = {
     "94": {
       "index": 94,
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 530,
@@ -115544,7 +115544,7 @@ var data  = {
     "95": {
       "index": 95,
       "name": "Michalis (Ambitious King)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "None",
       "bane": "None",
       "weapon": 272,
@@ -115558,7 +115558,7 @@ var data  = {
     "96": {
       "index": 96,
       "name": "Michalis (Ambitious King)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "None",
       "bane": "None",
       "weapon": 272,
@@ -115572,7 +115572,7 @@ var data  = {
     "97": {
       "index": 97,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 274,
@@ -115586,7 +115586,7 @@ var data  = {
     "98": {
       "index": 98,
       "name": "Minerva (Red Dragoon)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 272,
@@ -115600,7 +115600,7 @@ var data  = {
     "99": {
       "index": 99,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 143,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 227,
@@ -115614,7 +115614,7 @@ var data  = {
     "100": {
       "index": 100,
       "name": "Myrrh (Great Dragon)",
-      "base_index": 143,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 227,
@@ -115628,7 +115628,7 @@ var data  = {
     "101": {
       "index": 101,
       "name": "Niles (Cruel to be Kind)",
-      "base_index": 147,
+      "base_index": 150,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 251,
@@ -115642,7 +115642,7 @@ var data  = {
     "102": {
       "index": 102,
       "name": "Ninian (Oracle of Destiny)",
-      "base_index": 148,
+      "base_index": 151,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 336,
@@ -115656,7 +115656,7 @@ var data  = {
     "103": {
       "index": 103,
       "name": "Nino (Pious Mage)",
-      "base_index": 149,
+      "base_index": 152,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 240,
@@ -115670,7 +115670,7 @@ var data  = {
     "104": {
       "index": 104,
       "name": "Nowi (Eternal Witch)",
-      "base_index": 150,
+      "base_index": 153,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -115684,7 +115684,7 @@ var data  = {
     "105": {
       "index": 105,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -115698,7 +115698,7 @@ var data  = {
     "106": {
       "index": 106,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -115712,7 +115712,7 @@ var data  = {
     "107": {
       "index": 107,
       "name": "Nowi (Eternal Youth)",
-      "base_index": 151,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 334,
@@ -115726,7 +115726,7 @@ var data  = {
     "108": {
       "index": 108,
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 166,
+      "base_index": 169,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 149,
@@ -115740,7 +115740,7 @@ var data  = {
     "109": {
       "index": 109,
       "name": "Robin (High Deliverer)",
-      "base_index": 170,
+      "base_index": 173,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 39,
@@ -115754,7 +115754,7 @@ var data  = {
     "110": {
       "index": 110,
       "name": "Roy (Brave Lion)",
-      "base_index": 174,
+      "base_index": 177,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 42,
@@ -115768,7 +115768,7 @@ var data  = {
     "111": {
       "index": 111,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 182,
+      "base_index": 185,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 112,
@@ -115782,7 +115782,7 @@ var data  = {
     "112": {
       "index": 112,
       "name": "Shanna (Sprightly Flier)",
-      "base_index": 188,
+      "base_index": 191,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 197,
@@ -115796,7 +115796,7 @@ var data  = {
     "113": {
       "index": 113,
       "name": "Shiro (Raw Talent)",
-      "base_index": 192,
+      "base_index": 195,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 68,
@@ -115810,7 +115810,7 @@ var data  = {
     "114": {
       "index": 114,
       "name": "Siegbert (Future King)",
-      "base_index": 193,
+      "base_index": 196,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 137,
@@ -115824,7 +115824,7 @@ var data  = {
     "115": {
       "index": 115,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 195,
+      "base_index": 198,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 198,
@@ -115838,7 +115838,7 @@ var data  = {
     "116": {
       "index": 116,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 197,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 386,
@@ -115852,7 +115852,7 @@ var data  = {
     "117": {
       "index": 117,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 498,
@@ -115866,7 +115866,7 @@ var data  = {
     "118": {
       "index": 118,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 66,
@@ -115880,7 +115880,7 @@ var data  = {
     "119": {
       "index": 119,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 197,
@@ -115894,7 +115894,7 @@ var data  = {
     "120": {
       "index": 120,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 540,
@@ -115908,7 +115908,7 @@ var data  = {
     "121": {
       "index": 121,
       "name": "Tana (Winged Princess)",
-      "base_index": 207,
+      "base_index": 210,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 540,
@@ -115922,7 +115922,7 @@ var data  = {
     "122": {
       "index": 122,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 208,
+      "base_index": 211,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 77,
@@ -115936,7 +115936,7 @@ var data  = {
     "123": {
       "index": 123,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 208,
+      "base_index": 211,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 380,
@@ -115950,7 +115950,7 @@ var data  = {
     "124": {
       "index": 124,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 209,
+      "base_index": 212,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 380,
@@ -115964,7 +115964,7 @@ var data  = {
     "125": {
       "index": 125,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 334,
@@ -115978,7 +115978,7 @@ var data  = {
     "126": {
       "index": 126,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 334,
@@ -115992,7 +115992,7 @@ var data  = {
     "127": {
       "index": 127,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 210,
+      "base_index": 213,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 334,
@@ -116006,7 +116006,7 @@ var data  = {
     "128": {
       "index": 128,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -116020,7 +116020,7 @@ var data  = {
     "129": {
       "index": 129,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -116034,7 +116034,7 @@ var data  = {
     "130": {
       "index": 130,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 211,
+      "base_index": 214,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 334,
@@ -116048,7 +116048,7 @@ var data  = {
     "131": {
       "index": 131,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 213,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 159,
@@ -116062,7 +116062,7 @@ var data  = {
     "132": {
       "index": 132,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 222,
+      "base_index": 225,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
