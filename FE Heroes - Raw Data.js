@@ -5485,7 +5485,7 @@ var data = {
       "b": 26,
       "c": 31,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "1": {
@@ -5499,7 +5499,7 @@ var data = {
       "b": 5,
       "c": 1,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "2": {
@@ -5513,7 +5513,7 @@ var data = {
       "b": 51,
       "c": 1,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "3": {
@@ -5541,7 +5541,7 @@ var data = {
       "b": 57,
       "c": 31,
       "proc": 40,
-      "seal": 57,
+      "seal": 59,
       "reduce_cd": 1
     },
     "5": {
@@ -5555,7 +5555,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 40,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "6": {
@@ -5569,7 +5569,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 40,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "7": {
@@ -5583,7 +5583,7 @@ var data = {
       "b": 24,
       "c": 34,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "8": {
@@ -5597,7 +5597,7 @@ var data = {
       "b": 56,
       "c": 18,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "9": {
@@ -5611,7 +5611,7 @@ var data = {
       "b": 56,
       "c": 31,
       "proc": 34,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "10": {
@@ -5625,7 +5625,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 29,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "11": {
@@ -5639,7 +5639,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "12": {
@@ -5653,7 +5653,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 4,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "13": {
@@ -5695,7 +5695,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 28,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "16": {
@@ -5723,7 +5723,7 @@ var data = {
       "b": 50,
       "c": 28,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "18": {
@@ -5737,7 +5737,7 @@ var data = {
       "b": 15,
       "c": 34,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "19": {
@@ -5765,7 +5765,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "21": {
@@ -5807,7 +5807,7 @@ var data = {
       "b": 39,
       "c": 31,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "24": {
@@ -5849,7 +5849,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "27": {
@@ -5863,7 +5863,7 @@ var data = {
       "b": 53,
       "c": 59,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "28": {
@@ -5877,7 +5877,7 @@ var data = {
       "b": 51,
       "c": 59,
       "proc": 29,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "29": {
@@ -5919,7 +5919,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 17,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "32": {
@@ -5933,7 +5933,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "33": {
@@ -5975,7 +5975,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "36": {
@@ -5989,7 +5989,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "37": {
@@ -6003,7 +6003,7 @@ var data = {
       "b": 15,
       "c": 23,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "38": {
@@ -6017,7 +6017,7 @@ var data = {
       "b": 36,
       "c": 2,
       "proc": 18,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "39": {
@@ -6073,7 +6073,7 @@ var data = {
       "b": 53,
       "c": 59,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "43": {
@@ -6087,7 +6087,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "44": {
@@ -6115,7 +6115,7 @@ var data = {
       "b": 51,
       "c": 59,
       "proc": 29,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "46": {
@@ -6129,7 +6129,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "47": {
@@ -6143,7 +6143,7 @@ var data = {
       "b": 36,
       "c": 35,
       "proc": 34,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "48": {
@@ -6185,7 +6185,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "51": {
@@ -6213,7 +6213,7 @@ var data = {
       "b": 48,
       "c": 32,
       "proc": 2,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "53": {
@@ -6227,7 +6227,7 @@ var data = {
       "b": 57,
       "c": 35,
       "proc": 34,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "54": {
@@ -6241,7 +6241,7 @@ var data = {
       "b": 36,
       "c": 35,
       "proc": 29,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "55": {
@@ -6297,7 +6297,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "59": {
@@ -6311,7 +6311,7 @@ var data = {
       "b": 36,
       "c": 31,
       "proc": 18,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "60": {
@@ -6325,7 +6325,7 @@ var data = {
       "b": 47,
       "c": 15,
       "proc": 27,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 2
     },
     "61": {
@@ -6353,7 +6353,7 @@ var data = {
       "b": 36,
       "c": 28,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "63": {
@@ -6409,7 +6409,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "67": {
@@ -6423,7 +6423,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "68": {
@@ -6437,7 +6437,7 @@ var data = {
       "b": 57,
       "c": 1,
       "proc": 9,
-      "seal": 57,
+      "seal": 59,
       "reduce_cd": 0
     },
     "69": {
@@ -6465,7 +6465,7 @@ var data = {
       "b": 15,
       "c": 34,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "71": {
@@ -6479,7 +6479,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "72": {
@@ -6493,7 +6493,7 @@ var data = {
       "b": 3,
       "c": 38,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "73": {
@@ -6507,7 +6507,7 @@ var data = {
       "b": 25,
       "c": 14,
       "proc": 39,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "74": {
@@ -6521,7 +6521,7 @@ var data = {
       "b": 36,
       "c": 31,
       "proc": 2,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "75": {
@@ -6535,7 +6535,7 @@ var data = {
       "b": 6,
       "c": 31,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "76": {
@@ -6549,7 +6549,7 @@ var data = {
       "b": 25,
       "c": 47,
       "proc": 28,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "77": {
@@ -6563,7 +6563,7 @@ var data = {
       "b": 35,
       "c": 43,
       "proc": 32,
-      "seal": 61,
+      "seal": 64,
       "reduce_cd": 0
     },
     "78": {
@@ -6619,7 +6619,7 @@ var data = {
       "b": 36,
       "c": 2,
       "proc": 18,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "82": {
@@ -6661,7 +6661,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "85": {
@@ -6675,7 +6675,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "86": {
@@ -6703,7 +6703,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "88": {
@@ -6717,7 +6717,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "89": {
@@ -6745,7 +6745,7 @@ var data = {
       "b": 39,
       "c": 31,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "91": {
@@ -6759,7 +6759,7 @@ var data = {
       "b": 25,
       "c": 31,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "92": {
@@ -6773,7 +6773,7 @@ var data = {
       "b": 15,
       "c": 41,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "93": {
@@ -6829,7 +6829,7 @@ var data = {
       "b": 57,
       "c": 31,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "97": {
@@ -6857,7 +6857,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "99": {
@@ -6871,7 +6871,7 @@ var data = {
       "b": 25,
       "c": 41,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "100": {
@@ -6885,7 +6885,7 @@ var data = {
       "b": 36,
       "c": 28,
       "proc": 34,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "101": {
@@ -6899,7 +6899,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 34,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "102": {
@@ -6913,7 +6913,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "103": {
@@ -6927,7 +6927,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "104": {
@@ -6941,7 +6941,7 @@ var data = {
       "b": 36,
       "c": 34,
       "proc": 19,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "105": {
@@ -6969,7 +6969,7 @@ var data = {
       "b": 56,
       "c": 22,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "107": {
@@ -6983,7 +6983,7 @@ var data = {
       "b": 49,
       "c": 22,
       "proc": 28,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "108": {
@@ -6997,7 +6997,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "109": {
@@ -7011,7 +7011,7 @@ var data = {
       "b": 15,
       "c": 34,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "110": {
@@ -7025,7 +7025,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "111": {
@@ -7039,7 +7039,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "112": {
@@ -7053,7 +7053,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 34,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "113": {
@@ -7067,7 +7067,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "114": {
@@ -7081,7 +7081,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "115": {
@@ -7095,7 +7095,7 @@ var data = {
       "b": 28,
       "c": 32,
       "proc": 34,
-      "seal": 57,
+      "seal": 59,
       "reduce_cd": 0
     },
     "116": {
@@ -7109,7 +7109,7 @@ var data = {
       "b": 5,
       "c": 61,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "117": {
@@ -7123,7 +7123,7 @@ var data = {
       "b": 51,
       "c": 61,
       "proc": 29,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "118": {
@@ -7137,7 +7137,7 @@ var data = {
       "b": 49,
       "c": 31,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "119": {
@@ -7193,7 +7193,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "123": {
@@ -7221,7 +7221,7 @@ var data = {
       "b": 49,
       "c": 31,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "125": {
@@ -7235,7 +7235,7 @@ var data = {
       "b": 36,
       "c": 31,
       "proc": 14,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "126": {
@@ -7249,7 +7249,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "127": {
@@ -7263,7 +7263,7 @@ var data = {
       "b": 15,
       "c": 29,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "128": {
@@ -7291,7 +7291,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "130": {
@@ -7305,7 +7305,7 @@ var data = {
       "b": 15,
       "c": 29,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "131": {
@@ -7361,7 +7361,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 62,
+      "seal": 65,
       "reduce_cd": 0
     },
     "135": {
@@ -7389,7 +7389,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "137": {
@@ -7403,7 +7403,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "138": {
@@ -7417,7 +7417,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "139": {
@@ -7431,7 +7431,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "140": {
@@ -7445,7 +7445,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 34,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "141": {
@@ -7459,7 +7459,7 @@ var data = {
       "b": 25,
       "c": 32,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "142": {
@@ -7473,7 +7473,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 4,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "143": {
@@ -7501,7 +7501,7 @@ var data = {
       "b": 5,
       "c": 44,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     }
   },
@@ -113275,6 +113275,50 @@ var data = {
     },
     "15": {
       "index": 15,
+      "name": "Def Tactic 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, grants Def+2/4/6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team &leq; 2."
+    },
+    "16": {
+      "index": 16,
       "name": "Defense +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113317,8 +113361,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+1."
     },
-    "16": {
-      "index": 16,
+    "17": {
+      "index": 17,
       "name": "Defense +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113361,8 +113405,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+2."
     },
-    "17": {
-      "index": 17,
+    "18": {
+      "index": 18,
       "name": "Defense +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113405,8 +113449,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+3."
     },
-    "18": {
-      "index": 18,
+    "19": {
+      "index": 19,
       "name": "Deflect Magic 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113449,8 +113493,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 30%."
     },
-    "19": {
-      "index": 19,
+    "20": {
+      "index": 20,
       "name": "Deflect Magic 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113493,8 +113537,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 50%."
     },
-    "20": {
-      "index": 20,
+    "21": {
+      "index": 21,
       "name": "Deflect Magic 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113537,8 +113581,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using magic, damage from second attack onward reduced by 80%."
     },
-    "21": {
-      "index": 21,
+    "22": {
+      "index": 22,
       "name": "Deflect Melee 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113581,8 +113625,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 30%."
     },
-    "22": {
-      "index": 22,
+    "23": {
+      "index": 23,
       "name": "Deflect Melee 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113625,8 +113669,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 50%."
     },
-    "23": {
-      "index": 23,
+    "24": {
+      "index": 24,
       "name": "Deflect Melee 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113669,8 +113713,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a sword, lance, or axe, damage from second attack onward reduced by 80%."
     },
-    "24": {
-      "index": 24,
+    "25": {
+      "index": 25,
       "name": "Deflect Missile 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113713,8 +113757,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 30%."
     },
-    "25": {
-      "index": 25,
+    "26": {
+      "index": 26,
       "name": "Deflect Missile 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113757,8 +113801,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 50%."
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "name": "Deflect Missile 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113801,8 +113845,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit receives consecutive attacks from a foe using a bow or dagger, damage from second attack onward reduced by 80%."
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "name": "Distant Def 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113845,8 +113889,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+2 during combat."
     },
-    "28": {
-      "index": 28,
+    "29": {
+      "index": 29,
       "name": "Distant Def 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113889,8 +113933,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+4 during combat."
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "name": "Distant Def 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113933,8 +113977,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
     },
-    "30": {
-      "index": 30,
+    "31": {
+      "index": 31,
       "name": "Drive Def 1/2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -113977,8 +114021,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants allies within 2 spaces Def+2/3 during combat."
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Fortify Def 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114021,8 +114065,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def+2/3/4 through their next actions at the start of each turn."
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Fortify Res 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114065,8 +114109,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Res+2/3/4 through their next actions at the start of each turn."
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Fortress Res 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -114109,8 +114153,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3. Inflicts Atk-3."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "Fortress Res 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -114153,8 +114197,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+4. Inflicts Atk-3."
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "Fortress Res 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -114197,8 +114241,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+5. Inflicts Atk-3."
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "Guidance 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114241,8 +114285,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "If unit has 100%/&geq; 50%/&geq; 0% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit."
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "Hardy Bearing 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114285,8 +114329,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. If unit has 100% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Hardy Bearing 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114329,8 +114373,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. If unit has &geq; 50% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Hardy Bearing 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114373,8 +114417,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Heavy Blade 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114417,8 +114461,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Heavy Blade 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114461,8 +114505,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Heavy Blade 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114505,8 +114549,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Hone Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114549,8 +114593,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk+2/3/4 through their next actions at the start of each turn."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Hone Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114593,8 +114637,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd+2/3/4 through their next actions at the start of each turn."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "HP +3",
       "hp_boost_perm": 3,
       "atk_boost_perm": 0,
@@ -114637,8 +114681,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +3 to max HP."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "HP +4",
       "hp_boost_perm": 4,
       "atk_boost_perm": 0,
@@ -114681,8 +114725,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +4 to max HP."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "HP +5",
       "hp_boost_perm": 5,
       "atk_boost_perm": 0,
@@ -114725,8 +114769,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +5 to max HP."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Iote's Shield",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114769,8 +114813,52 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
+      "name": "Obstruct 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Prevents foes from moving through adjacent spaces while this unit's HP &geq; 90/70/50%"
+    },
+    "51": {
+      "index": 51,
       "name": "Panic Ploy 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114813,8 +114901,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5/3/1 or more lower than unit through foe's next action."
     },
-    "50": {
-      "index": 50,
+    "52": {
+      "index": 52,
       "name": "Phantom Spd 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114857,8 +114945,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +5 over actual value."
     },
-    "51": {
-      "index": 51,
+    "53": {
+      "index": 53,
       "name": "Phantom Spd 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114901,8 +114989,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +8 over actual value."
     },
-    "52": {
-      "index": 52,
+    "54": {
+      "index": 54,
       "name": "Phantom Spd 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114945,8 +115033,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
     },
-    "53": {
-      "index": 53,
+    "55": {
+      "index": 55,
       "name": "Poison Strike 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -114989,8 +115077,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts 5/7/10 damage to foe after any combat this unit initiates."
     },
-    "54": {
-      "index": 54,
+    "56": {
+      "index": 56,
       "name": "Quick Riposte 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115033,8 +115121,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 90%."
     },
-    "55": {
-      "index": 55,
+    "57": {
+      "index": 57,
       "name": "Quick Riposte 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115077,8 +115165,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 80%."
     },
-    "56": {
-      "index": 56,
+    "58": {
+      "index": 58,
       "name": "Quick Riposte 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115121,8 +115209,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 70%."
     },
-    "57": {
-      "index": 57,
+    "59": {
+      "index": 59,
       "name": "Quickened Pulse",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115165,8 +115253,52 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Special cooldown count -1 at start of Turn 1."
     },
-    "58": {
-      "index": 58,
+    "60": {
+      "index": 60,
+      "name": "Res Ploy 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3/4/5 until the end of foe's next action."
+    },
+    "61": {
+      "index": 61,
       "name": "Resistance +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115209,8 +115341,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+1."
     },
-    "59": {
-      "index": 59,
+    "62": {
+      "index": 62,
       "name": "Resistance +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115253,8 +115385,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+2."
     },
-    "60": {
-      "index": 60,
+    "63": {
+      "index": 63,
       "name": "Resistance +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115297,8 +115429,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3."
     },
-    "61": {
-      "index": 61,
+    "64": {
+      "index": 64,
       "name": "Savage Blow 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115341,8 +115473,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, foes within 2 spaces of target take 3/5/7 damage after combat."
     },
-    "62": {
-      "index": 62,
+    "65": {
+      "index": 65,
       "name": "Seal Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115385,8 +115517,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Atk-3/5/7 through its next action."
     },
-    "63": {
-      "index": 63,
+    "66": {
+      "index": 66,
       "name": "Speed +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115429,8 +115561,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+1."
     },
-    "64": {
-      "index": 64,
+    "67": {
+      "index": 67,
       "name": "Speed +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115473,8 +115605,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+2."
     },
-    "65": {
-      "index": 65,
+    "68": {
+      "index": 68,
       "name": "Speed +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115517,8 +115649,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+3."
     },
-    "66": {
-      "index": 66,
+    "69": {
+      "index": 69,
       "name": "Spur Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115561,8 +115693,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk+2/3/4 during combat."
     },
-    "67": {
-      "index": 67,
+    "70": {
+      "index": 70,
       "name": "Spur Def 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115605,8 +115737,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def+2/3/4 during combat."
     },
-    "68": {
-      "index": 68,
+    "71": {
+      "index": 71,
       "name": "Spur Res 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115649,8 +115781,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Res+2/3/4 during combat."
     },
-    "69": {
-      "index": 69,
+    "72": {
+      "index": 72,
       "name": "Spur Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115693,8 +115825,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd+2/3/4 during combat."
     },
-    "70": {
-      "index": 70,
+    "73": {
+      "index": 73,
       "name": "Threaten Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115737,8 +115869,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Atk-3/4/5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "71": {
-      "index": 71,
+    "74": {
+      "index": 74,
       "name": "Threaten Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -115888,7 +116020,7 @@ var data = {
       "b": 57,
       "c": 46,
       "proc": 37,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "4": {
@@ -115902,7 +116034,7 @@ var data = {
       "b": 57,
       "c": 46,
       "proc": 34,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "5": {
@@ -115916,7 +116048,7 @@ var data = {
       "b": 55,
       "c": 31,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "6": {
@@ -115930,7 +116062,7 @@ var data = {
       "b": 5,
       "c": 1,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "7": {
@@ -115944,7 +116076,7 @@ var data = {
       "b": 51,
       "c": 1,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "8": {
@@ -115986,7 +116118,7 @@ var data = {
       "b": 36,
       "c": 31,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "11": {
@@ -116042,7 +116174,7 @@ var data = {
       "b": 57,
       "c": 31,
       "proc": 40,
-      "seal": 57,
+      "seal": 59,
       "reduce_cd": 1
     },
     "15": {
@@ -116056,7 +116188,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 40,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "16": {
@@ -116070,7 +116202,7 @@ var data = {
       "b": 24,
       "c": 34,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "17": {
@@ -116084,7 +116216,7 @@ var data = {
       "b": 56,
       "c": 18,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "18": {
@@ -116098,7 +116230,7 @@ var data = {
       "b": 56,
       "c": 31,
       "proc": 34,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "19": {
@@ -116112,7 +116244,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 29,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "20": {
@@ -116126,7 +116258,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "21": {
@@ -116140,7 +116272,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 4,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "22": {
@@ -116182,7 +116314,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 28,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "25": {
@@ -116210,7 +116342,7 @@ var data = {
       "b": 50,
       "c": 28,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "27": {
@@ -116238,7 +116370,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "29": {
@@ -116266,7 +116398,7 @@ var data = {
       "b": 39,
       "c": 31,
       "proc": 32,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "31": {
@@ -116294,7 +116426,7 @@ var data = {
       "b": 36,
       "c": 28,
       "proc": 9,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "33": {
@@ -116322,7 +116454,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "35": {
@@ -116336,7 +116468,7 @@ var data = {
       "b": 53,
       "c": 59,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "36": {
@@ -116350,7 +116482,7 @@ var data = {
       "b": 51,
       "c": 59,
       "proc": 29,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "37": {
@@ -116392,7 +116524,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 17,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "40": {
@@ -116406,7 +116538,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "41": {
@@ -116448,7 +116580,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "44": {
@@ -116462,7 +116594,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "45": {
@@ -116476,7 +116608,7 @@ var data = {
       "b": 36,
       "c": 2,
       "proc": 18,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "46": {
@@ -116518,7 +116650,7 @@ var data = {
       "b": 53,
       "c": 59,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "49": {
@@ -116532,7 +116664,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 29,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "50": {
@@ -116560,7 +116692,7 @@ var data = {
       "b": 51,
       "c": 59,
       "proc": 29,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "52": {
@@ -116574,7 +116706,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "53": {
@@ -116588,7 +116720,7 @@ var data = {
       "b": 36,
       "c": 35,
       "proc": 34,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "54": {
@@ -116630,7 +116762,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "57": {
@@ -116658,7 +116790,7 @@ var data = {
       "b": 57,
       "c": 35,
       "proc": 34,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "59": {
@@ -116672,7 +116804,7 @@ var data = {
       "b": 36,
       "c": 35,
       "proc": 29,
-      "seal": 49,
+      "seal": 51,
       "reduce_cd": 0
     },
     "60": {
@@ -116742,7 +116874,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "65": {
@@ -116756,7 +116888,7 @@ var data = {
       "b": 47,
       "c": 15,
       "proc": 27,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 2
     },
     "66": {
@@ -116784,7 +116916,7 @@ var data = {
       "b": 36,
       "c": 28,
       "proc": 28,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "68": {
@@ -116868,7 +117000,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "74": {
@@ -116882,7 +117014,7 @@ var data = {
       "b": 57,
       "c": 59,
       "proc": 34,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "75": {
@@ -116896,7 +117028,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "76": {
@@ -116910,7 +117042,7 @@ var data = {
       "b": 3,
       "c": 38,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "77": {
@@ -116924,7 +117056,7 @@ var data = {
       "b": 25,
       "c": 47,
       "proc": 28,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "78": {
@@ -116980,7 +117112,7 @@ var data = {
       "b": 36,
       "c": 2,
       "proc": 18,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "82": {
@@ -117036,7 +117168,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "86": {
@@ -117050,7 +117182,7 @@ var data = {
       "b": 25,
       "c": 31,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "87": {
@@ -117064,7 +117196,7 @@ var data = {
       "b": 15,
       "c": 41,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "88": {
@@ -117120,7 +117252,7 @@ var data = {
       "b": 57,
       "c": 31,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "92": {
@@ -117148,7 +117280,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 34,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "94": {
@@ -117162,7 +117294,7 @@ var data = {
       "b": 25,
       "c": 41,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "95": {
@@ -117176,7 +117308,7 @@ var data = {
       "b": 36,
       "c": 28,
       "proc": 37,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "96": {
@@ -117190,7 +117322,7 @@ var data = {
       "b": 25,
       "c": 28,
       "proc": 37,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "97": {
@@ -117204,7 +117336,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "98": {
@@ -117218,7 +117350,7 @@ var data = {
       "b": 15,
       "c": 28,
       "proc": 34,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "99": {
@@ -117232,7 +117364,7 @@ var data = {
       "b": 36,
       "c": 34,
       "proc": 19,
-      "seal": 48,
+      "seal": 49,
       "reduce_cd": 0
     },
     "100": {
@@ -117260,7 +117392,7 @@ var data = {
       "b": 8,
       "c": 2,
       "proc": 28,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "102": {
@@ -117274,7 +117406,7 @@ var data = {
       "b": 56,
       "c": 22,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "103": {
@@ -117288,7 +117420,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "104": {
@@ -117302,7 +117434,7 @@ var data = {
       "b": 15,
       "c": 34,
       "proc": 19,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "105": {
@@ -117316,7 +117448,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "106": {
@@ -117330,7 +117462,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "107": {
@@ -117344,7 +117476,7 @@ var data = {
       "b": 36,
       "c": 38,
       "proc": 34,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "108": {
@@ -117358,7 +117490,7 @@ var data = {
       "b": 28,
       "c": 32,
       "proc": 34,
-      "seal": 57,
+      "seal": 59,
       "reduce_cd": 0
     },
     "109": {
@@ -117372,7 +117504,7 @@ var data = {
       "b": 49,
       "c": 31,
       "proc": 9,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "110": {
@@ -117386,7 +117518,7 @@ var data = {
       "b": 15,
       "c": 32,
       "proc": 17,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "111": {
@@ -117414,7 +117546,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 32,
-      "seal": 62,
+      "seal": 65,
       "reduce_cd": 0
     },
     "113": {
@@ -117456,7 +117588,7 @@ var data = {
       "b": 49,
       "c": 31,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "116": {
@@ -117470,7 +117602,7 @@ var data = {
       "b": 36,
       "c": 31,
       "proc": 14,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "117": {
@@ -117484,7 +117616,7 @@ var data = {
       "b": 15,
       "c": 29,
       "proc": 17,
-      "seal": 42,
+      "seal": 43,
       "reduce_cd": 0
     },
     "118": {
@@ -117512,7 +117644,7 @@ var data = {
       "b": 26,
       "c": 28,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "120": {
@@ -117526,7 +117658,7 @@ var data = {
       "b": 15,
       "c": 29,
       "proc": 32,
-      "seal": 65,
+      "seal": 68,
       "reduce_cd": 0
     },
     "121": {
@@ -117582,7 +117714,7 @@ var data = {
       "b": 15,
       "c": 31,
       "proc": 19,
-      "seal": 62,
+      "seal": 65,
       "reduce_cd": 0
     },
     "125": {
@@ -117610,7 +117742,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "127": {
@@ -117624,7 +117756,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "128": {
@@ -117638,7 +117770,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 9,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "129": {
@@ -117652,7 +117784,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 19,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "130": {
@@ -117666,7 +117798,7 @@ var data = {
       "b": 36,
       "c": 22,
       "proc": 34,
-      "seal": 29,
+      "seal": 30,
       "reduce_cd": 0
     },
     "131": {
@@ -117680,7 +117812,7 @@ var data = {
       "b": 25,
       "c": 32,
       "proc": 19,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     },
     "132": {
@@ -117694,7 +117826,7 @@ var data = {
       "b": 5,
       "c": 59,
       "proc": 4,
-      "seal": 56,
+      "seal": 58,
       "reduce_cd": 0
     }
   }
