@@ -19,7 +19,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 70,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 50,
       "base_c": 0,
       "base_proc": 1
@@ -45,7 +45,7 @@ var data = {
       "base_weap": 166,
       "base_a": 16,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 48,
       "base_proc": 48
     },
     "2": {
@@ -67,7 +67,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 221,
-      "base_a": 51,
+      "base_a": 52,
       "base_b": 0,
       "base_c": 14,
       "base_proc": 37
@@ -115,7 +115,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 495,
-      "base_a": 24,
+      "base_a": 25,
       "base_b": 0,
       "base_c": 1,
       "base_proc": 47
@@ -141,7 +141,7 @@ var data = {
       "base_weap": 375,
       "base_a": 0,
       "base_b": 51,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 3
     },
     "6": {
@@ -187,7 +187,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 163,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 29,
       "base_c": 0,
       "base_proc": 0
@@ -235,9 +235,9 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 576,
-      "base_a": 51,
+      "base_a": 52,
       "base_b": 0,
-      "base_c": 54,
+      "base_c": 55,
       "base_proc": 34
     },
     "10": {
@@ -259,7 +259,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 18,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 16,
       "base_c": 0,
       "base_proc": 40
@@ -285,7 +285,7 @@ var data = {
       "base_weap": 379,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 49
     },
     "12": {
@@ -331,7 +331,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 559,
-      "base_a": 57,
+      "base_a": 58,
       "base_b": 0,
       "base_c": 18,
       "base_proc": 0
@@ -355,7 +355,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 439,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 25,
       "base_proc": 0
@@ -381,7 +381,7 @@ var data = {
       "base_weap": 68,
       "base_a": 0,
       "base_b": 28,
-      "base_c": 47,
+      "base_c": 48,
       "base_proc": 0
     },
     "16": {
@@ -403,7 +403,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 272,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 0
@@ -427,7 +427,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 26,
-      "base_a": 61,
+      "base_a": 62,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 5
@@ -475,7 +475,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 4,
-      "base_a": 50,
+      "base_a": 51,
       "base_b": 57,
       "base_c": 0,
       "base_proc": 4
@@ -499,7 +499,7 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 250,
-      "base_a": 24,
+      "base_a": 25,
       "base_b": 40,
       "base_c": 0,
       "base_proc": 29
@@ -573,7 +573,7 @@ var data = {
       "base_weap": 71,
       "base_a": 0,
       "base_b": 57,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 16
     },
     "24": {
@@ -597,7 +597,7 @@ var data = {
       "base_weap": 68,
       "base_a": 15,
       "base_b": 0,
-      "base_c": 44,
+      "base_c": 45,
       "base_proc": 13
     },
     "25": {
@@ -619,9 +619,9 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 298,
-      "base_a": 44,
+      "base_a": 45,
       "base_b": 0,
-      "base_c": 63,
+      "base_c": 64,
       "base_proc": 13
     },
     "26": {
@@ -667,7 +667,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 227,
-      "base_a": 31,
+      "base_a": 32,
       "base_b": 0,
       "base_c": 28,
       "base_proc": 23
@@ -765,7 +765,7 @@ var data = {
       "base_weap": 399,
       "base_a": 23,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 6
     },
     "32": {
@@ -811,9 +811,9 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 203,
-      "base_a": 62,
+      "base_a": 63,
       "base_b": 0,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 0
     },
     "34": {
@@ -861,7 +861,7 @@ var data = {
       "base_weap": 179,
       "base_a": 19,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 2
     },
     "36": {
@@ -907,9 +907,9 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 440,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 9,
-      "base_c": 55,
+      "base_c": 56,
       "base_proc": 2
     },
     "38": {
@@ -957,7 +957,7 @@ var data = {
       "base_weap": 484,
       "base_a": 0,
       "base_b": 27,
-      "base_c": 52,
+      "base_c": 53,
       "base_proc": 0
     },
     "40": {
@@ -979,7 +979,7 @@ var data = {
       "weap": "ST",
       "legendary": 0,
       "base_weap": 185,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 51
@@ -1005,7 +1005,7 @@ var data = {
       "base_weap": 102,
       "base_a": 0,
       "base_b": 36,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 19
     },
     "42": {
@@ -1051,7 +1051,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 70,
-      "base_a": 57,
+      "base_a": 58,
       "base_b": 35,
       "base_c": 0,
       "base_proc": 17
@@ -1101,7 +1101,7 @@ var data = {
       "base_weap": 267,
       "base_a": 7,
       "base_b": 0,
-      "base_c": 50,
+      "base_c": 51,
       "base_proc": 0
     },
     "46": {
@@ -1171,7 +1171,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 441,
-      "base_a": 56,
+      "base_a": 57,
       "base_b": 0,
       "base_c": 24,
       "base_proc": 14
@@ -1197,7 +1197,7 @@ var data = {
       "base_weap": 154,
       "base_a": 0,
       "base_b": 37,
-      "base_c": 45,
+      "base_c": 46,
       "base_proc": 0
     },
     "50": {
@@ -1243,7 +1243,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 70,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 17,
       "base_c": 0,
       "base_proc": 0
@@ -1267,7 +1267,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 546,
-      "base_a": 25,
+      "base_a": 26,
       "base_b": 37,
       "base_c": 37,
       "base_proc": 13
@@ -1293,7 +1293,7 @@ var data = {
       "base_weap": 71,
       "base_a": 0,
       "base_b": 33,
-      "base_c": 60,
+      "base_c": 61,
       "base_proc": 38
     },
     "54": {
@@ -1339,7 +1339,7 @@ var data = {
       "weap": "RT",
       "legendary": 0,
       "base_weap": 226,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 16,
       "base_c": 40,
       "base_proc": 0
@@ -1387,7 +1387,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 369,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 33,
       "base_c": 0,
       "base_proc": 22
@@ -1459,7 +1459,7 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 285,
-      "base_a": 45,
+      "base_a": 46,
       "base_b": 0,
       "base_c": 26,
       "base_proc": 0
@@ -1483,7 +1483,7 @@ var data = {
       "weap": "L",
       "legendary": 1,
       "base_weap": 97,
-      "base_a": 26,
+      "base_a": 27,
       "base_b": 0,
       "base_c": 27,
       "base_proc": 0
@@ -1509,7 +1509,7 @@ var data = {
       "base_weap": 156,
       "base_a": 0,
       "base_b": 1,
-      "base_c": 61,
+      "base_c": 62,
       "base_proc": 47
     },
     "63": {
@@ -1531,7 +1531,7 @@ var data = {
       "weap": "L",
       "legendary": 1,
       "base_weap": 208,
-      "base_a": 52,
+      "base_a": 53,
       "base_b": 49,
       "base_c": 22,
       "base_proc": 48
@@ -1557,7 +1557,7 @@ var data = {
       "base_weap": 463,
       "base_a": 0,
       "base_b": 45,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 34
     },
     "65": {
@@ -1605,7 +1605,7 @@ var data = {
       "base_weap": 342,
       "base_a": 0,
       "base_b": 40,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 0
     },
     "67": {
@@ -1651,7 +1651,7 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 188,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 18
@@ -1675,7 +1675,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 329,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 35,
       "base_c": 0,
       "base_proc": 18
@@ -1867,7 +1867,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 393,
-      "base_a": 28,
+      "base_a": 29,
       "base_b": 27,
       "base_c": 0,
       "base_proc": 0
@@ -1915,9 +1915,9 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 582,
-      "base_a": 62,
+      "base_a": 63,
       "base_b": 0,
-      "base_c": 55,
+      "base_c": 56,
       "base_proc": 0
     },
     "80": {
@@ -1939,7 +1939,7 @@ var data = {
       "weap": "GT",
       "legendary": 1,
       "base_weap": 52,
-      "base_a": 29,
+      "base_a": 30,
       "base_b": 12,
       "base_c": 42,
       "base_proc": 18
@@ -2011,7 +2011,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 7,
-      "base_a": 39,
+      "base_a": 40,
       "base_b": 34,
       "base_c": 0,
       "base_proc": 0
@@ -2061,7 +2061,7 @@ var data = {
       "base_weap": 326,
       "base_a": 16,
       "base_b": 0,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 22
     },
     "86": {
@@ -2179,7 +2179,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 433,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 38
@@ -2227,9 +2227,9 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 560,
-      "base_a": 49,
+      "base_a": 50,
       "base_b": 3,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 2
     },
     "93": {
@@ -2251,7 +2251,7 @@ var data = {
       "weap": "S",
       "legendary": 1,
       "base_weap": 400,
-      "base_a": 59,
+      "base_a": 60,
       "base_b": 43,
       "base_c": 15,
       "base_proc": 39
@@ -2275,7 +2275,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 400,
-      "base_a": 32,
+      "base_a": 33,
       "base_b": 50,
       "base_c": 0,
       "base_proc": 2
@@ -2323,7 +2323,7 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 378,
-      "base_a": 29,
+      "base_a": 30,
       "base_b": 8,
       "base_c": 0,
       "base_proc": 28
@@ -2347,9 +2347,9 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 142,
-      "base_a": 39,
+      "base_a": 40,
       "base_b": 0,
-      "base_c": 59,
+      "base_c": 60,
       "base_proc": 19
     },
     "98": {
@@ -2371,7 +2371,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 484,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 1
@@ -2445,7 +2445,7 @@ var data = {
       "base_weap": 385,
       "base_a": 0,
       "base_b": 42,
-      "base_c": 52,
+      "base_c": 53,
       "base_proc": 5
     },
     "102": {
@@ -2491,7 +2491,7 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 376,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 0,
       "base_c": 11,
       "base_proc": 14
@@ -2515,7 +2515,7 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 392,
-      "base_a": 58,
+      "base_a": 59,
       "base_b": 14,
       "base_c": 0,
       "base_proc": 41
@@ -2539,7 +2539,7 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 337,
-      "base_a": 46,
+      "base_a": 47,
       "base_b": 31,
       "base_c": 29,
       "base_proc": 19
@@ -2587,7 +2587,7 @@ var data = {
       "weap": "RT",
       "legendary": 0,
       "base_weap": 403,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 18
@@ -2637,7 +2637,7 @@ var data = {
       "base_weap": 297,
       "base_a": 0,
       "base_b": 40,
-      "base_c": 43,
+      "base_c": 44,
       "base_proc": 22
     },
     "110": {
@@ -2661,7 +2661,7 @@ var data = {
       "base_weap": 1,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 49
     },
     "111": {
@@ -2707,7 +2707,7 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 331,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 34,
       "base_c": 0,
       "base_proc": 41
@@ -2757,7 +2757,7 @@ var data = {
       "base_weap": 73,
       "base_a": 0,
       "base_b": 37,
-      "base_c": 44,
+      "base_c": 45,
       "base_proc": 6
     },
     "115": {
@@ -2779,7 +2779,7 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 500,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 26,
       "base_c": 0,
       "base_proc": 29
@@ -2803,7 +2803,7 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 242,
-      "base_a": 34,
+      "base_a": 35,
       "base_b": 0,
       "base_c": 4,
       "base_proc": 5
@@ -2829,7 +2829,7 @@ var data = {
       "base_weap": 63,
       "base_a": 6,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 48,
       "base_proc": 21
     },
     "118": {
@@ -2851,7 +2851,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 17,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 25,
       "base_proc": 0
@@ -2925,7 +2925,7 @@ var data = {
       "base_weap": 415,
       "base_a": 0,
       "base_b": 35,
-      "base_c": 56,
+      "base_c": 57,
       "base_proc": 28
     },
     "122": {
@@ -2947,7 +2947,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 329,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 51,
       "base_c": 0,
       "base_proc": 19
@@ -2971,7 +2971,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 220,
-      "base_a": 51,
+      "base_a": 52,
       "base_b": 0,
       "base_c": 19,
       "base_proc": 2
@@ -2997,7 +2997,7 @@ var data = {
       "base_weap": 179,
       "base_a": 21,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 48,
       "base_proc": 32
     },
     "125": {
@@ -3019,7 +3019,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 53,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 46,
       "base_c": 0,
       "base_proc": 0
@@ -3043,7 +3043,7 @@ var data = {
       "weap": "ST",
       "legendary": 0,
       "base_weap": 379,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 33
@@ -3067,7 +3067,7 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 328,
-      "base_a": 28,
+      "base_a": 29,
       "base_b": 34,
       "base_c": 0,
       "base_proc": 47
@@ -3091,7 +3091,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 71,
-      "base_a": 26,
+      "base_a": 27,
       "base_b": 0,
       "base_c": 39,
       "base_proc": 9
@@ -3115,7 +3115,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 563,
-      "base_a": 36,
+      "base_a": 37,
       "base_b": 0,
       "base_c": 42,
       "base_proc": 0
@@ -3139,7 +3139,7 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 367,
-      "base_a": 54,
+      "base_a": 55,
       "base_b": 41,
       "base_c": 3,
       "base_proc": 13
@@ -3189,7 +3189,7 @@ var data = {
       "base_weap": 535,
       "base_a": 18,
       "base_b": 0,
-      "base_c": 52,
+      "base_c": 53,
       "base_proc": 17
     },
     "133": {
@@ -3307,7 +3307,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 576,
-      "base_a": 35,
+      "base_a": 36,
       "base_b": 0,
       "base_c": 37,
       "base_proc": 19
@@ -3333,7 +3333,7 @@ var data = {
       "base_weap": 167,
       "base_a": 0,
       "base_b": 20,
-      "base_c": 52,
+      "base_c": 53,
       "base_proc": 0
     },
     "139": {
@@ -3427,9 +3427,9 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 164,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 0,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 24
     },
     "143": {
@@ -3451,7 +3451,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 416,
-      "base_a": 27,
+      "base_a": 28,
       "base_b": 51,
       "base_c": 0,
       "base_proc": 32
@@ -3499,9 +3499,9 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 278,
-      "base_a": 38,
+      "base_a": 39,
       "base_b": 0,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 7
     },
     "146": {
@@ -3523,9 +3523,9 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 278,
-      "base_a": 39,
+      "base_a": 40,
       "base_b": 0,
-      "base_c": 63,
+      "base_c": 64,
       "base_proc": 47
     },
     "147": {
@@ -3549,7 +3549,7 @@ var data = {
       "base_weap": 527,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 50,
+      "base_c": 51,
       "base_proc": 33
     },
     "148": {
@@ -3573,7 +3573,7 @@ var data = {
       "base_weap": 247,
       "base_a": 0,
       "base_b": 18,
-      "base_c": 50,
+      "base_c": 51,
       "base_proc": 14
     },
     "149": {
@@ -3595,7 +3595,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 40,
-      "base_a": 40,
+      "base_a": 41,
       "base_b": 26,
       "base_c": 2,
       "base_proc": 28
@@ -3619,7 +3619,7 @@ var data = {
       "weap": "D",
       "legendary": 0,
       "base_weap": 236,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 34,
       "base_proc": 9
@@ -3645,7 +3645,7 @@ var data = {
       "base_weap": 163,
       "base_a": 0,
       "base_b": 29,
-      "base_c": 44,
+      "base_c": 45,
       "base_proc": 52
     },
     "152": {
@@ -3669,7 +3669,7 @@ var data = {
       "base_weap": 329,
       "base_a": 0,
       "base_b": 16,
-      "base_c": 59,
+      "base_c": 60,
       "base_proc": 8
     },
     "153": {
@@ -3715,9 +3715,9 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 327,
-      "base_a": 58,
+      "base_a": 59,
       "base_b": 0,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 28
     },
     "155": {
@@ -3763,7 +3763,7 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 249,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 0,
       "base_c": 32,
       "base_proc": 0
@@ -3813,7 +3813,7 @@ var data = {
       "base_weap": 347,
       "base_a": 17,
       "base_b": 0,
-      "base_c": 58,
+      "base_c": 59,
       "base_proc": 0
     },
     "159": {
@@ -3837,7 +3837,7 @@ var data = {
       "base_weap": 284,
       "base_a": 0,
       "base_b": 45,
-      "base_c": 58,
+      "base_c": 59,
       "base_proc": 0
     },
     "160": {
@@ -3885,7 +3885,7 @@ var data = {
       "base_weap": 71,
       "base_a": 18,
       "base_b": 0,
-      "base_c": 47,
+      "base_c": 48,
       "base_proc": 37
     },
     "162": {
@@ -3907,7 +3907,7 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 451,
-      "base_a": 41,
+      "base_a": 42,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 6
@@ -3979,9 +3979,9 @@ var data = {
       "weap": "BT",
       "legendary": 0,
       "base_weap": 153,
-      "base_a": 58,
+      "base_a": 59,
       "base_b": 0,
-      "base_c": 61,
+      "base_c": 62,
       "base_proc": 0
     },
     "166": {
@@ -4005,7 +4005,7 @@ var data = {
       "base_weap": 439,
       "base_a": 0,
       "base_b": 29,
-      "base_c": 53,
+      "base_c": 54,
       "base_proc": 0
     },
     "167": {
@@ -4051,9 +4051,9 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 328,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 0,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 19
     },
     "169": {
@@ -4077,7 +4077,7 @@ var data = {
       "base_weap": 382,
       "base_a": 0,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 50
     },
     "170": {
@@ -4099,7 +4099,7 @@ var data = {
       "weap": "RT",
       "legendary": 0,
       "base_weap": 409,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 46,
       "base_c": 0,
       "base_proc": 0
@@ -4125,7 +4125,7 @@ var data = {
       "base_weap": 19,
       "base_a": 21,
       "base_b": 0,
-      "base_c": 57,
+      "base_c": 58,
       "base_proc": 48
     },
     "172": {
@@ -4197,7 +4197,7 @@ var data = {
       "base_weap": 314,
       "base_a": 23,
       "base_b": 0,
-      "base_c": 44,
+      "base_c": 45,
       "base_proc": 0
     },
     "175": {
@@ -4221,11 +4221,35 @@ var data = {
       "base_weap": 165,
       "base_a": 0,
       "base_b": 52,
-      "base_c": 62,
+      "base_c": 63,
       "base_proc": 29
     },
     "176": {
       "index": 176,
+      "name": "Robin (Fell Vessel)",
+      "color": "N",
+      "hp_base": 16,
+      "atk_base": 8,
+      "spd_base": 9,
+      "def_base": 8,
+      "res_base": 6,
+      "hpGP": 7,
+      "atkGP": 7,
+      "spdGP": 8,
+      "defGP": 6,
+      "resGP": 5,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "D",
+      "legendary": 1,
+      "base_weap": 165,
+      "base_a": 24,
+      "base_b": 8,
+      "base_c": 43,
+      "base_proc": 9
+    },
+    "177": {
+      "index": 177,
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -4248,8 +4272,8 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "177": {
-      "index": 177,
+    "178": {
+      "index": 178,
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -4269,11 +4293,11 @@ var data = {
       "base_weap": 39,
       "base_a": 21,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 9
     },
-    "178": {
-      "index": 178,
+    "179": {
+      "index": 179,
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -4296,8 +4320,8 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "179": {
-      "index": 179,
+    "180": {
+      "index": 180,
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -4315,13 +4339,13 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 148,
-      "base_a": 35,
+      "base_a": 36,
       "base_b": 0,
       "base_c": 38,
       "base_proc": 0
     },
-    "180": {
-      "index": 180,
+    "181": {
+      "index": 181,
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -4344,8 +4368,8 @@ var data = {
       "base_c": 17,
       "base_proc": 0
     },
-    "181": {
-      "index": 181,
+    "182": {
+      "index": 182,
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -4363,13 +4387,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 46,
-      "base_a": 48,
+      "base_a": 49,
       "base_b": 16,
       "base_c": 0,
       "base_proc": 17
     },
-    "182": {
-      "index": 182,
+    "183": {
+      "index": 183,
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -4387,13 +4411,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 32,
-      "base_a": 57,
+      "base_a": 58,
       "base_b": 45,
       "base_c": 0,
       "base_proc": 0
     },
-    "183": {
-      "index": 183,
+    "184": {
+      "index": 184,
       "name": "Roy (Youthful Gifts)",
       "color": "N",
       "hp_base": 17,
@@ -4416,8 +4440,8 @@ var data = {
       "base_c": 10,
       "base_proc": 0
     },
-    "184": {
-      "index": 184,
+    "185": {
+      "index": 185,
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -4440,8 +4464,8 @@ var data = {
       "base_c": 36,
       "base_proc": 3
     },
-    "185": {
-      "index": 185,
+    "186": {
+      "index": 186,
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -4459,13 +4483,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 505,
-      "base_a": 37,
+      "base_a": 38,
       "base_b": 48,
       "base_c": 0,
       "base_proc": 1
     },
-    "186": {
-      "index": 186,
+    "187": {
+      "index": 187,
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -4485,11 +4509,11 @@ var data = {
       "base_weap": 530,
       "base_a": 0,
       "base_b": 36,
-      "base_c": 52,
+      "base_c": 53,
       "base_proc": 0
     },
-    "187": {
-      "index": 187,
+    "188": {
+      "index": 188,
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -4507,13 +4531,13 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 330,
-      "base_a": 60,
+      "base_a": 61,
       "base_b": 26,
       "base_c": 12,
       "base_proc": 18
     },
-    "188": {
-      "index": 188,
+    "189": {
+      "index": 189,
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -4536,8 +4560,8 @@ var data = {
       "base_c": 22,
       "base_proc": 50
     },
-    "189": {
-      "index": 189,
+    "190": {
+      "index": 190,
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -4555,13 +4579,13 @@ var data = {
       "weap": "RT",
       "legendary": 0,
       "base_weap": 113,
-      "base_a": 57,
+      "base_a": 58,
       "base_b": 0,
       "base_c": 32,
       "base_proc": 0
     },
-    "190": {
-      "index": 190,
+    "191": {
+      "index": 191,
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -4579,13 +4603,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 7,
-      "base_a": 57,
+      "base_a": 58,
       "base_b": 0,
-      "base_c": 59,
+      "base_c": 60,
       "base_proc": 0
     },
-    "191": {
-      "index": 191,
+    "192": {
+      "index": 192,
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -4603,13 +4627,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 558,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 7,
       "base_c": 0,
       "base_proc": 0
     },
-    "192": {
-      "index": 192,
+    "193": {
+      "index": 193,
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -4632,8 +4656,8 @@ var data = {
       "base_c": 32,
       "base_proc": 51
     },
-    "193": {
-      "index": 193,
+    "194": {
+      "index": 194,
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -4651,13 +4675,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 433,
-      "base_a": 28,
+      "base_a": 29,
       "base_b": 43,
       "base_c": 0,
       "base_proc": 0
     },
-    "194": {
-      "index": 194,
+    "195": {
+      "index": 195,
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -4675,13 +4699,13 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 14,
-      "base_a": 33,
+      "base_a": 34,
       "base_b": 6,
       "base_c": 0,
       "base_proc": 0
     },
-    "195": {
-      "index": 195,
+    "196": {
+      "index": 196,
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4701,11 +4725,11 @@ var data = {
       "base_weap": 328,
       "base_a": 0,
       "base_b": 16,
-      "base_c": 59,
+      "base_c": 60,
       "base_proc": 28
     },
-    "196": {
-      "index": 196,
+    "197": {
+      "index": 197,
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -4723,13 +4747,13 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 199,
-      "base_a": 47,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 22,
       "base_proc": 0
     },
-    "197": {
-      "index": 197,
+    "198": {
+      "index": 198,
       "name": "Sharena (Spring Princess)",
       "color": "G",
       "hp_base": 18,
@@ -4747,13 +4771,13 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 368,
-      "base_a": 55,
+      "base_a": 56,
       "base_b": 30,
-      "base_c": 43,
+      "base_c": 44,
       "base_proc": 0
     },
-    "198": {
-      "index": 198,
+    "199": {
+      "index": 199,
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -4771,13 +4795,13 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 326,
-      "base_a": 53,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 20,
       "base_proc": 16
     },
-    "199": {
-      "index": 199,
+    "200": {
+      "index": 200,
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -4800,8 +4824,8 @@ var data = {
       "base_c": 8,
       "base_proc": 0
     },
-    "200": {
-      "index": 200,
+    "201": {
+      "index": 201,
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -4819,13 +4843,13 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 72,
-      "base_a": 50,
+      "base_a": 51,
       "base_b": 0,
       "base_c": 15,
       "base_proc": 0
     },
-    "201": {
-      "index": 201,
+    "202": {
+      "index": 202,
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -4848,8 +4872,8 @@ var data = {
       "base_c": 4,
       "base_proc": 14
     },
-    "202": {
-      "index": 202,
+    "203": {
+      "index": 203,
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -4869,11 +4893,11 @@ var data = {
       "base_weap": 155,
       "base_a": 14,
       "base_b": 13,
-      "base_c": 46,
+      "base_c": 47,
       "base_proc": 33
     },
-    "203": {
-      "index": 203,
+    "204": {
+      "index": 204,
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -4896,8 +4920,8 @@ var data = {
       "base_c": 18,
       "base_proc": 8
     },
-    "204": {
-      "index": 204,
+    "205": {
+      "index": 205,
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -4915,13 +4939,13 @@ var data = {
       "weap": "GT",
       "legendary": 0,
       "base_weap": 140,
-      "base_a": 41,
+      "base_a": 42,
       "base_b": 0,
       "base_c": 42,
       "base_proc": 34
     },
-    "205": {
-      "index": 205,
+    "206": {
+      "index": 206,
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -4939,13 +4963,13 @@ var data = {
       "weap": "RT",
       "legendary": 0,
       "base_weap": 194,
-      "base_a": 58,
+      "base_a": 59,
       "base_b": 0,
       "base_c": 25,
       "base_proc": 14
     },
-    "206": {
-      "index": 206,
+    "207": {
+      "index": 207,
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -4968,8 +4992,8 @@ var data = {
       "base_c": 25,
       "base_proc": 24
     },
-    "207": {
-      "index": 207,
+    "208": {
+      "index": 208,
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -4987,13 +5011,13 @@ var data = {
       "weap": "K",
       "legendary": 0,
       "base_weap": 391,
-      "base_a": 39,
+      "base_a": 40,
       "base_b": 0,
-      "base_c": 48,
+      "base_c": 49,
       "base_proc": 19
     },
-    "208": {
-      "index": 208,
+    "209": {
+      "index": 209,
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -5016,8 +5040,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "209": {
-      "index": 209,
+    "210": {
+      "index": 210,
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -5035,13 +5059,13 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 439,
-      "base_a": 42,
+      "base_a": 43,
       "base_b": 37,
       "base_c": 0,
       "base_proc": 0
     },
-    "210": {
-      "index": 210,
+    "211": {
+      "index": 211,
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -5061,11 +5085,11 @@ var data = {
       "base_weap": 439,
       "base_a": 0,
       "base_b": 50,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 0
     },
-    "211": {
-      "index": 211,
+    "212": {
+      "index": 212,
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -5088,8 +5112,8 @@ var data = {
       "base_c": 19,
       "base_proc": 0
     },
-    "212": {
-      "index": 212,
+    "213": {
+      "index": 213,
       "name": "Takumi (Empty Vessel)",
       "color": "N",
       "hp_base": 15,
@@ -5107,13 +5131,13 @@ var data = {
       "weap": "B",
       "legendary": 0,
       "base_weap": 494,
-      "base_a": 30,
+      "base_a": 31,
       "base_b": 0,
-      "base_c": 46,
+      "base_c": 47,
       "base_proc": 52
     },
-    "213": {
-      "index": 213,
+    "214": {
+      "index": 214,
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -5136,8 +5160,8 @@ var data = {
       "base_c": 0,
       "base_proc": 34
     },
-    "214": {
-      "index": 214,
+    "215": {
+      "index": 215,
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -5157,11 +5181,11 @@ var data = {
       "base_weap": 214,
       "base_a": 13,
       "base_b": 0,
-      "base_c": 59,
+      "base_c": 60,
       "base_proc": 52
     },
-    "215": {
-      "index": 215,
+    "216": {
+      "index": 216,
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -5179,13 +5203,13 @@ var data = {
       "weap": "L",
       "legendary": 0,
       "base_weap": 562,
-      "base_a": 43,
+      "base_a": 44,
       "base_b": 0,
       "base_c": 30,
       "base_proc": 34
     },
-    "216": {
-      "index": 216,
+    "217": {
+      "index": 217,
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -5208,8 +5232,8 @@ var data = {
       "base_c": 41,
       "base_proc": 28
     },
-    "217": {
-      "index": 217,
+    "218": {
+      "index": 218,
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -5229,11 +5253,11 @@ var data = {
       "base_weap": 402,
       "base_a": 15,
       "base_b": 0,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 52
     },
-    "218": {
-      "index": 218,
+    "219": {
+      "index": 219,
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -5256,8 +5280,8 @@ var data = {
       "base_c": 11,
       "base_proc": 21
     },
-    "219": {
-      "index": 219,
+    "220": {
+      "index": 220,
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -5277,11 +5301,11 @@ var data = {
       "base_weap": 347,
       "base_a": 18,
       "base_b": 0,
-      "base_c": 51,
+      "base_c": 52,
       "base_proc": 9
     },
-    "220": {
-      "index": 220,
+    "221": {
+      "index": 221,
       "name": "Tiki (Summer Scion)",
       "color": "G",
       "hp_base": 18,
@@ -5304,8 +5328,8 @@ var data = {
       "base_c": 6,
       "base_proc": 48
     },
-    "221": {
-      "index": 221,
+    "222": {
+      "index": 222,
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -5328,8 +5352,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "222": {
-      "index": 222,
+    "223": {
+      "index": 223,
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -5352,8 +5376,8 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "223": {
-      "index": 223,
+    "224": {
+      "index": 224,
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -5373,11 +5397,11 @@ var data = {
       "base_weap": 45,
       "base_a": 16,
       "base_b": 0,
-      "base_c": 58,
+      "base_c": 59,
       "base_proc": 23
     },
-    "224": {
-      "index": 224,
+    "225": {
+      "index": 225,
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -5400,8 +5424,8 @@ var data = {
       "base_c": 39,
       "base_proc": 32
     },
-    "225": {
-      "index": 225,
+    "226": {
+      "index": 226,
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -5424,8 +5448,8 @@ var data = {
       "base_c": 0,
       "base_proc": 3
     },
-    "226": {
-      "index": 226,
+    "227": {
+      "index": 227,
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -5448,8 +5472,8 @@ var data = {
       "base_c": 0,
       "base_proc": 25
     },
-    "227": {
-      "index": 227,
+    "228": {
+      "index": 228,
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -5469,11 +5493,11 @@ var data = {
       "base_weap": 456,
       "base_a": 1,
       "base_b": 0,
-      "base_c": 49,
+      "base_c": 50,
       "base_proc": 6
     },
-    "228": {
-      "index": 228,
+    "229": {
+      "index": 229,
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -5496,8 +5520,8 @@ var data = {
       "base_c": 22,
       "base_proc": 0
     },
-    "229": {
-      "index": 229,
+    "230": {
+      "index": 230,
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -5515,13 +5539,13 @@ var data = {
       "weap": "A",
       "legendary": 0,
       "base_weap": 352,
-      "base_a": 26,
+      "base_a": 27,
       "base_b": 0,
       "base_c": 37,
       "base_proc": 9
     },
-    "230": {
-      "index": 230,
+    "231": {
+      "index": 231,
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -5539,13 +5563,13 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 4,
-      "base_a": 25,
+      "base_a": 26,
       "base_b": 53,
       "base_c": 39,
       "base_proc": 4
     },
-    "231": {
-      "index": 231,
+    "232": {
+      "index": 232,
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -5563,7 +5587,7 @@ var data = {
       "weap": "S",
       "legendary": 0,
       "base_weap": 157,
-      "base_a": 39,
+      "base_a": 40,
       "base_b": 54,
       "base_c": 0,
       "base_proc": 41
@@ -5647,7 +5671,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 40,
@@ -5661,7 +5685,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 30,
+      "a": 31,
       "b": 16,
       "c": 32,
       "proc": 40,
@@ -5689,7 +5713,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 559,
-      "a": 57,
+      "a": 58,
       "b": 57,
       "c": 19,
       "proc": 34,
@@ -5731,7 +5755,7 @@ var data = {
       "boon": "Def",
       "bane": "Spd",
       "weapon": 497,
-      "a": 50,
+      "a": 51,
       "b": 26,
       "c": 29,
       "proc": 29,
@@ -5745,9 +5769,9 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 4,
-      "a": 49,
+      "a": 50,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 4,
       "seal": 58,
       "reduce_cd": 0
@@ -5773,7 +5797,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 573,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 29,
       "proc": 34,
@@ -5815,7 +5839,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 255,
-      "a": 57,
+      "a": 58,
       "b": 51,
       "c": 29,
       "proc": 19,
@@ -5829,7 +5853,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 249,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 35,
       "proc": 19,
@@ -5857,7 +5881,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 249,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -5871,7 +5895,7 @@ var data = {
       "boon": "Atk",
       "bane": "HP",
       "weapon": 255,
-      "a": 57,
+      "a": 58,
       "b": 6,
       "c": 33,
       "proc": 19,
@@ -5885,7 +5909,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 399,
-      "a": 30,
+      "a": 31,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -5899,7 +5923,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 399,
-      "a": 39,
+      "a": 40,
       "b": 40,
       "c": 32,
       "proc": 32,
@@ -5943,7 +5967,7 @@ var data = {
       "weapon": 498,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 58,
       "reduce_cd": 0
@@ -5957,7 +5981,7 @@ var data = {
       "weapon": 437,
       "a": 22,
       "b": 54,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 30,
       "reduce_cd": 0
@@ -5971,7 +5995,7 @@ var data = {
       "weapon": 437,
       "a": 22,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 30,
       "reduce_cd": 0
@@ -5985,7 +6009,7 @@ var data = {
       "weapon": 68,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -5997,7 +6021,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 70,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -6011,7 +6035,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 17,
@@ -6025,7 +6049,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 520,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 17,
@@ -6039,7 +6063,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 69,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -6053,7 +6077,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 200,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -6067,7 +6091,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -6081,7 +6105,7 @@ var data = {
       "boon": "Atk",
       "bane": "HP",
       "weapon": 350,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -6095,7 +6119,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 33,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 24,
       "proc": 19,
@@ -6123,7 +6147,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 134,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 16,
       "proc": 13,
@@ -6137,7 +6161,7 @@ var data = {
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 546,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 37,
       "proc": 29,
@@ -6151,7 +6175,7 @@ var data = {
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 546,
-      "a": 25,
+      "a": 26,
       "b": 37,
       "c": 37,
       "proc": 9,
@@ -6167,7 +6191,7 @@ var data = {
       "weapon": 29,
       "a": 22,
       "b": 54,
-      "c": 60,
+      "c": 61,
       "proc": 28,
       "seal": 30,
       "reduce_cd": 0
@@ -6181,7 +6205,7 @@ var data = {
       "weapon": 519,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 58,
       "reduce_cd": 0
@@ -6195,7 +6219,7 @@ var data = {
       "weapon": 70,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -6209,7 +6233,7 @@ var data = {
       "weapon": 550,
       "a": 22,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 30,
       "reduce_cd": 0
@@ -6221,7 +6245,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -6235,7 +6259,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 457,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 36,
       "proc": 34,
@@ -6249,7 +6273,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 372,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 33,
       "proc": 9,
@@ -6263,7 +6287,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 32,
@@ -6277,7 +6301,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 202,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 32,
@@ -6291,7 +6315,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 234,
-      "a": 47,
+      "a": 48,
       "b": 59,
       "c": 33,
       "proc": 33,
@@ -6333,7 +6357,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 466,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 36,
       "proc": 29,
@@ -6347,7 +6371,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 39,
       "proc": 28,
@@ -6361,7 +6385,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 39,
       "proc": 19,
@@ -6375,7 +6399,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 39,
       "proc": 34,
@@ -6417,7 +6441,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 336,
-      "a": 59,
+      "a": 60,
       "b": 48,
       "c": 16,
       "proc": 27,
@@ -6431,7 +6455,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 336,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 16,
       "proc": 9,
@@ -6501,9 +6525,9 @@ var data = {
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 227,
-      "a": 49,
+      "a": 50,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 58,
       "reduce_cd": 0
@@ -6517,7 +6541,7 @@ var data = {
       "weapon": 6,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 30,
       "reduce_cd": 0
@@ -6557,7 +6581,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 293,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 35,
       "proc": 34,
@@ -6585,7 +6609,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 560,
-      "a": 49,
+      "a": 50,
       "b": 3,
       "c": 39,
       "proc": 9,
@@ -6599,7 +6623,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 400,
-      "a": 59,
+      "a": 60,
       "b": 26,
       "c": 15,
       "proc": 39,
@@ -6613,7 +6637,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 400,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 32,
       "proc": 2,
@@ -6627,7 +6651,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 255,
-      "a": 57,
+      "a": 58,
       "b": 6,
       "c": 32,
       "proc": 19,
@@ -6643,7 +6667,7 @@ var data = {
       "weapon": 378,
       "a": 3,
       "b": 26,
-      "c": 48,
+      "c": 49,
       "proc": 28,
       "seal": 58,
       "reduce_cd": 0
@@ -6655,9 +6679,9 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 145,
-      "a": 39,
+      "a": 40,
       "b": 36,
-      "c": 44,
+      "c": 45,
       "proc": 32,
       "seal": 64,
       "reduce_cd": 0
@@ -6671,7 +6695,7 @@ var data = {
       "weapon": 69,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -6685,7 +6709,7 @@ var data = {
       "weapon": 260,
       "a": 13,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 13,
       "reduce_cd": 0
@@ -6697,7 +6721,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 388,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -6739,9 +6763,9 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 392,
-      "a": 54,
+      "a": 55,
       "b": 8,
-      "c": 44,
+      "c": 45,
       "proc": 19,
       "seal": 6,
       "reduce_cd": 0
@@ -6753,7 +6777,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 33,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -6767,7 +6791,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 297,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 33,
       "proc": 32,
@@ -6795,7 +6819,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 249,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -6809,7 +6833,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 33,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -6823,7 +6847,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 220,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 19,
       "proc": 29,
@@ -6851,7 +6875,7 @@ var data = {
       "boon": "Def",
       "bane": "Spd",
       "weapon": 518,
-      "a": 49,
+      "a": 50,
       "b": 26,
       "c": 32,
       "proc": 9,
@@ -6865,7 +6889,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 563,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 42,
       "proc": 32,
@@ -6879,7 +6903,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 367,
-      "a": 54,
+      "a": 55,
       "b": 41,
       "c": 33,
       "proc": 32,
@@ -6893,7 +6917,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 200,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 33,
       "proc": 32,
@@ -6907,7 +6931,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 69,
-      "a": 39,
+      "a": 40,
       "b": 41,
       "c": 33,
       "proc": 32,
@@ -6921,7 +6945,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
-      "a": 39,
+      "a": 40,
       "b": 58,
       "c": 32,
       "proc": 34,
@@ -6937,7 +6961,7 @@ var data = {
       "weapon": 186,
       "a": 4,
       "b": 59,
-      "c": 45,
+      "c": 46,
       "proc": 33,
       "seal": 6,
       "reduce_cd": 0
@@ -6949,7 +6973,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 416,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 34,
@@ -6991,7 +7015,7 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 281,
-      "a": 50,
+      "a": 51,
       "b": 26,
       "c": 29,
       "proc": 34,
@@ -7005,7 +7029,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 283,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 17,
@@ -7019,7 +7043,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 281,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 34,
@@ -7061,7 +7085,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 351,
-      "a": 57,
+      "a": 58,
       "b": 57,
       "c": 23,
       "proc": 19,
@@ -7075,7 +7099,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 351,
-      "a": 57,
+      "a": 58,
       "b": 50,
       "c": 23,
       "proc": 28,
@@ -7089,7 +7113,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 249,
-      "a": 30,
+      "a": 31,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -7103,7 +7127,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 35,
       "proc": 19,
@@ -7117,7 +7141,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 39,
       "proc": 9,
@@ -7131,7 +7155,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 39,
       "proc": 19,
@@ -7145,7 +7169,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 39,
       "proc": 34,
@@ -7159,7 +7183,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -7173,7 +7197,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 22,
-      "a": 30,
+      "a": 31,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -7201,9 +7225,9 @@ var data = {
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 165,
-      "a": 59,
+      "a": 60,
       "b": 5,
-      "c": 62,
+      "c": 63,
       "proc": 9,
       "seal": 58,
       "reduce_cd": 0
@@ -7217,7 +7241,7 @@ var data = {
       "weapon": 165,
       "a": 14,
       "b": 52,
-      "c": 62,
+      "c": 63,
       "proc": 29,
       "seal": 30,
       "reduce_cd": 0
@@ -7225,11 +7249,11 @@ var data = {
     "118": {
       "index": 118,
       "name": "Robin (High Deliverer)",
-      "base_index": 177,
+      "base_index": 178,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 39,
-      "a": 57,
+      "a": 58,
       "b": 50,
       "c": 32,
       "proc": 9,
@@ -7239,11 +7263,11 @@ var data = {
     "119": {
       "index": 119,
       "name": "Roy (Brave Lion)",
-      "base_index": 181,
+      "base_index": 182,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 46,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 17,
@@ -7253,7 +7277,7 @@ var data = {
     "120": {
       "index": 120,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 189,
+      "base_index": 190,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 116,
@@ -7267,11 +7291,11 @@ var data = {
     "121": {
       "index": 121,
       "name": "Shiro (Raw Talent)",
-      "base_index": 200,
+      "base_index": 201,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 72,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 15,
       "proc": 29,
@@ -7281,11 +7305,11 @@ var data = {
     "122": {
       "index": 122,
       "name": "Siegbert (Future King)",
-      "base_index": 201,
+      "base_index": 202,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 141,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 32,
@@ -7295,7 +7319,7 @@ var data = {
     "123": {
       "index": 123,
       "name": "Sigurd (Holy Knight)",
-      "base_index": 202,
+      "base_index": 203,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 155,
@@ -7309,11 +7333,11 @@ var data = {
     "124": {
       "index": 124,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 203,
+      "base_index": 204,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 202,
-      "a": 39,
+      "a": 40,
       "b": 50,
       "c": 32,
       "proc": 32,
@@ -7323,11 +7347,11 @@ var data = {
     "125": {
       "index": 125,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 205,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 408,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 32,
       "proc": 14,
@@ -7337,7 +7361,7 @@ var data = {
     "126": {
       "index": 126,
       "name": "Takumi (Wild Card)",
-      "base_index": 214,
+      "base_index": 215,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 217,
@@ -7351,11 +7375,11 @@ var data = {
     "127": {
       "index": 127,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 520,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 17,
@@ -7365,11 +7389,11 @@ var data = {
     "128": {
       "index": 128,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 70,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -7379,11 +7403,11 @@ var data = {
     "129": {
       "index": 129,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 32,
@@ -7393,11 +7417,11 @@ var data = {
     "130": {
       "index": 130,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 562,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -7407,7 +7431,7 @@ var data = {
     "131": {
       "index": 131,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 562,
@@ -7421,13 +7445,13 @@ var data = {
     "132": {
       "index": 132,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 216,
+      "base_index": 217,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 81,
       "a": 13,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 2,
       "reduce_cd": 0
@@ -7435,7 +7459,7 @@ var data = {
     "133": {
       "index": 133,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 216,
+      "base_index": 217,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 402,
@@ -7449,11 +7473,11 @@ var data = {
     "134": {
       "index": 134,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 217,
+      "base_index": 218,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -7463,11 +7487,11 @@ var data = {
     "135": {
       "index": 135,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -7477,11 +7501,11 @@ var data = {
     "136": {
       "index": 136,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -7491,11 +7515,11 @@ var data = {
     "137": {
       "index": 137,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -7505,11 +7529,11 @@ var data = {
     "138": {
       "index": 138,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -7519,11 +7543,11 @@ var data = {
     "139": {
       "index": 139,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -7533,11 +7557,11 @@ var data = {
     "140": {
       "index": 140,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 23,
       "proc": 34,
@@ -7547,7 +7571,7 @@ var data = {
     "141": {
       "index": 141,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 163,
@@ -7561,13 +7585,13 @@ var data = {
     "142": {
       "index": 142,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 230,
+      "base_index": 231,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
-      "a": 49,
+      "a": 50,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 4,
       "seal": 58,
       "reduce_cd": 0
@@ -7595,7 +7619,7 @@ var data = {
       "weapon": 498,
       "a": 22,
       "b": 5,
-      "c": 45,
+      "c": 46,
       "proc": 9,
       "seal": 58,
       "reduce_cd": 0
@@ -105257,6 +105281,73 @@ var data = {
     },
     "24": {
       "index": 24,
+      "name": "Dragonskin",
+      "atk_boost_off": 0,
+      "spd_boost_off": 0,
+      "def_boost_off": 0,
+      "res_boost_off": 0,
+      "atk_boost_def": 0,
+      "spd_boost_def": 0,
+      "def_boost_def": 4,
+      "res_boost_def": 4,
+      "cd_charge_def": 0,
+      "brazen_atk_boost": 0,
+      "brazen_spd_boost": 0,
+      "brazen_def_boost": 0,
+      "brazen_res_boost": 0,
+      "brazen_atk_thresh": 0,
+      "brazen_spd_thresh": 0,
+      "brazen_def_thresh": 0,
+      "brazen_res_thresh": 0,
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "any_range_counter": 0,
+      "defiant_atk": 0,
+      "defiant_spd": 0,
+      "defiant_def": 0,
+      "defiant_res": 0,
+      "negate_mov_eff": 0,
+      "wt_amp": 0,
+      "burn": 0,
+      "atk_bonus_cd_thresh": 0,
+      "spd_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "earth_boost_bonus": 0,
+      "fire_boost_bonus": 0,
+      "wind_boost_bonus": 0,
+      "water_boost_bonus": 0,
+      "atk_bond": 0,
+      "spd_bond": 0,
+      "def_bond": 0,
+      "res_bond": 0,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "bow_can_inherit": 0,
+      "dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "desc": "Neutralizes \"effective against fliers\" bonuses. Grants Def/Res+4 during combat if foe initiates combat."
+    },
+    "25": {
+      "index": 25,
       "name": "Earth Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105322,8 +105413,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Def+6 during combat."
     },
-    "25": {
-      "index": 25,
+    "26": {
+      "index": 26,
       "name": "Fierce Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105389,8 +105480,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk+6 during combat when this unit is attacked."
     },
-    "26": {
-      "index": 26,
+    "27": {
+      "index": 27,
       "name": "Fire Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105456,8 +105547,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Atk+6 during combat."
     },
-    "27": {
-      "index": 27,
+    "28": {
+      "index": 28,
       "name": "Flashing Blade 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105523,8 +105614,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Spd - foe's Spd &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "28": {
-      "index": 28,
+    "29": {
+      "index": 29,
       "name": "Fortress Def 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105590,8 +105681,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+5. Inflicts Atk-3."
     },
-    "29": {
-      "index": 29,
+    "30": {
+      "index": 30,
       "name": "Fortress Res 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105657,8 +105748,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+5. Inflicts Atk-3."
     },
-    "30": {
-      "index": 30,
+    "31": {
+      "index": 31,
       "name": "Fury 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105724,8 +105815,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Spd/Def/Res+3. Unit takes 6 damage after combat."
     },
-    "31": {
-      "index": 31,
+    "32": {
+      "index": 32,
       "name": "Grani's Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105791,8 +105882,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against cavalry\" bonuses."
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Heavy Blade 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105858,8 +105949,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "HP +5",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105925,8 +106016,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +5 to max HP."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
       "name": "HP/Atk 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -105992,8 +106083,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Atk+2."
     },
-    "35": {
-      "index": 35,
+    "36": {
+      "index": 36,
       "name": "HP/Def 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106059,8 +106150,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Def+2."
     },
-    "36": {
-      "index": 36,
+    "37": {
+      "index": 37,
       "name": "HP/Res 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106126,8 +106217,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Res+2"
     },
-    "37": {
-      "index": 37,
+    "38": {
+      "index": 38,
       "name": "HP/Spd 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106193,8 +106284,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants HP+4, Spd+2."
     },
-    "38": {
-      "index": 38,
+    "39": {
+      "index": 39,
       "name": "Iote's Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106260,8 +106351,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
-    "39": {
-      "index": 39,
+    "40": {
+      "index": 40,
       "name": "Life and Death 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106327,8 +106418,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Spd+5. Inflicts Def/Res-5."
     },
-    "40": {
-      "index": 40,
+    "41": {
+      "index": 41,
       "name": "Mirror Stance 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106383,7 +106474,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -106394,8 +106485,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Res+4 during combat if foe initiates combat."
     },
-    "41": {
-      "index": 41,
+    "42": {
+      "index": 42,
       "name": "Mirror Strike 2",
       "atk_boost_off": 4,
       "spd_boost_off": 0,
@@ -106461,8 +106552,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Res+4 during combat if unit initiates combat."
     },
-    "42": {
-      "index": 42,
+    "43": {
+      "index": 43,
       "name": "Resistance +3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106528,8 +106619,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3.       "
     },
-    "43": {
-      "index": 43,
+    "44": {
+      "index": 44,
       "name": "Spd/Def 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106595,8 +106686,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Def+2."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Spd/Def Bond 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106662,8 +106753,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Def+5 to this unit during combat if unit is adjacent to an ally."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Spd/Res 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106729,8 +106820,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Res+2."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Spd/Res Bond 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106796,8 +106887,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "This skill does absolutely nothing."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Speed +3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106863,8 +106954,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+3."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Steady Blow 2",
       "atk_boost_off": 0,
       "spd_boost_off": 4,
@@ -106930,8 +107021,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Spd/Def+4 during battle."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Steady Breath",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -106997,8 +107088,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If attacked, unit granted Def+4 during combat; also gains Special cooldown charge +1. (If using other similar skill, only highest value applied.)"
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Steady Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107064,8 +107155,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Def+6 during combat when this unit is attacked."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Sturdy Blow 2",
       "atk_boost_off": 4,
       "spd_boost_off": 0,
@@ -107131,8 +107222,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Def+4 during combat if unit initiates combat."
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Sturdy Stance 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107187,7 +107278,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -107198,8 +107289,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Atk/Def+4 during combat if foe initiates combat."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Svalinn Shield",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107265,8 +107356,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Neutralizes \"effective against armored\" bonuses."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Swift Sparrow 2",
       "atk_boost_off": 4,
       "spd_boost_off": 4,
@@ -107332,8 +107423,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Atk/Spd+4 during battle."
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Swift Stance 2",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107388,7 +107479,7 @@ var data = {
       "gt_can_inherit": 1,
       "bow_can_inherit": 1,
       "dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
+      "stf_can_inherit": 0,
       "rbrth_can_inherit": 1,
       "bbrth_can_inherit": 1,
       "gbrth_can_inherit": 1,
@@ -107399,8 +107490,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd/Res+4 during combat if foe initiates combat."
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Swift Strike 2",
       "atk_boost_off": 0,
       "spd_boost_off": 4,
@@ -107466,8 +107557,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates combat, unit granted Spd/Res+4 during battle."
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Triangle Adept 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107533,8 +107624,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Gives Atk+20% if weapon-triangle advantage, Atk-20% if disadvantage."
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Warding Blow 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107600,8 +107691,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+6 during combat if unit initiates attack."
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Warding Breath",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107667,8 +107758,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+4 during combat if unit is attacked. Also grants Special cooldown charge +1 per attack. (Does not stack. Only highest value applied.)"
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Warding Stance 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107734,8 +107825,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+6 during combat when this unit is attacked."
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Water Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -107801,8 +107892,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat."
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Wind Boost 3",
       "atk_boost_off": 0,
       "spd_boost_off": 0,
@@ -114332,6 +114423,32 @@ var data = {
     },
     "43": {
       "index": 43,
+      "name": "Res Smoke 3",
+      "atk_start_inflict": 0,
+      "spd_start_inflict": 0,
+      "def_start_inflict": 0,
+      "res_start_inflict": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "bow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "After combat, inflicts Res-7 on foes within 2 spaces of target through their next actions."
+    },
+    "44": {
+      "index": 44,
       "name": "Res Tactic 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114356,8 +114473,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At start of turn, grants Res+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team &leq; 2."
     },
-    "44": {
-      "index": 44,
+    "45": {
+      "index": 45,
       "name": "Savage Blow 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114382,8 +114499,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, foes within 2 spaces of target take 7 damage after combat."
     },
-    "45": {
-      "index": 45,
+    "46": {
+      "index": 46,
       "name": "Spd Ploy 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114408,8 +114525,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Spd-5 until the end of foe's next action."
     },
-    "46": {
-      "index": 46,
+    "47": {
+      "index": 47,
       "name": "Spd Smoke 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114434,8 +114551,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, inflicts Spd-7 on foes within 2 spaces of target through their next actions."
     },
-    "47": {
-      "index": 47,
+    "48": {
+      "index": 48,
       "name": "Spur Atk 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114460,8 +114577,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk+4 during combat."
     },
-    "48": {
-      "index": 48,
+    "49": {
+      "index": 49,
       "name": "Spur Atk/Spd 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114486,8 +114603,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk/Spd +3 during combat."
     },
-    "49": {
-      "index": 49,
+    "50": {
+      "index": 50,
       "name": "Spur Def 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114512,8 +114629,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def+4 during combat.        "
     },
-    "50": {
-      "index": 50,
+    "51": {
+      "index": 51,
       "name": "Spur Def/Res 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114538,8 +114655,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def/Res +3 during combat."
     },
-    "51": {
-      "index": 51,
+    "52": {
+      "index": 52,
       "name": "Spur Res 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114564,8 +114681,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Res+4 during combat."
     },
-    "52": {
-      "index": 52,
+    "53": {
+      "index": 53,
       "name": "Spur Spd 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114590,8 +114707,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd+4 during combat."
     },
-    "53": {
-      "index": 53,
+    "54": {
+      "index": 54,
       "name": "Spur Spd/Def 2",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114616,8 +114733,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd/Def +3 during combat."
     },
-    "54": {
-      "index": 54,
+    "55": {
+      "index": 55,
       "name": "Sword Exp. 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114642,8 +114759,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit survives, all sword users on team get 2x EXP. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "55": {
-      "index": 55,
+    "56": {
+      "index": 56,
       "name": "Sword Valor 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114668,8 +114785,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit survives, all sword users on team get 2x SP. (If similar skill effects also used, only highest multiplier applied.)"
     },
-    "56": {
-      "index": 56,
+    "57": {
+      "index": 57,
       "name": "Threaten Atk 3",
       "atk_start_inflict": 5,
       "spd_start_inflict": 0,
@@ -114694,8 +114811,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Atk-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "57": {
-      "index": 57,
+    "58": {
+      "index": 58,
       "name": "Threaten Def 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114720,8 +114837,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Def-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "58": {
-      "index": 58,
+    "59": {
+      "index": 59,
       "name": "Threaten Res 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114746,8 +114863,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Res-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "59": {
-      "index": 59,
+    "60": {
+      "index": 60,
       "name": "Threaten Spd 3",
       "atk_start_inflict": 0,
       "spd_start_inflict": 5,
@@ -114772,8 +114889,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Spd-5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "60": {
-      "index": 60,
+    "61": {
+      "index": 61,
       "name": "Ward Armor",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114798,8 +114915,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants armored allies within 2 spaces Def/Res+4 during combat."
     },
-    "61": {
-      "index": 61,
+    "62": {
+      "index": 62,
       "name": "Ward Cavalry",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114824,8 +114941,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Grants cavalry allies within 2 spaces Def/Res+4 during combat."
     },
-    "62": {
-      "index": 62,
+    "63": {
+      "index": 63,
       "name": "Ward Dragons",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -114850,8 +114967,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants dragon allies within 2 spaces Def/Res+4 during combat."
     },
-    "63": {
-      "index": 63,
+    "64": {
+      "index": 64,
       "name": "Ward Fliers",
       "atk_start_inflict": 0,
       "spd_start_inflict": 0,
@@ -118229,6 +118346,16 @@ var data = {
       "spd_boost_perm": 0,
       "def_boost_perm": 0,
       "res_boost_perm": 0
+    },
+    "5": {
+      "index": 5,
+      "name": "Robin",
+      "element": "Earth",
+      "hp_boost_perm": 3,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 3,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0
     }
   },
   "Optimized_Backup": {
@@ -118239,7 +118366,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 70,
-      "a": 39,
+      "a": 40,
       "b": 29,
       "c": 33,
       "proc": 32,
@@ -118253,7 +118380,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 50,
       "c": 33,
       "proc": 32,
@@ -118269,7 +118396,7 @@ var data = {
       "weapon": 71,
       "a": 16,
       "b": 1,
-      "c": 47,
+      "c": 48,
       "proc": 32,
       "seal": 6,
       "reduce_cd": 0
@@ -118281,9 +118408,9 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 578,
-      "a": 49,
+      "a": 50,
       "b": 58,
-      "c": 47,
+      "c": 48,
       "proc": 37,
       "seal": 58,
       "reduce_cd": 0
@@ -118295,9 +118422,9 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 578,
-      "a": 49,
+      "a": 50,
       "b": 58,
-      "c": 47,
+      "c": 48,
       "proc": 34,
       "seal": 58,
       "reduce_cd": 0
@@ -118309,7 +118436,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 176,
-      "a": 39,
+      "a": 40,
       "b": 56,
       "c": 32,
       "proc": 34,
@@ -118365,7 +118492,7 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 68,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -118395,7 +118522,7 @@ var data = {
       "weapon": 71,
       "a": 16,
       "b": 22,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 6,
       "reduce_cd": 0
@@ -118407,9 +118534,9 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 561,
-      "a": 30,
+      "a": 31,
       "b": 39,
-      "c": 45,
+      "c": 46,
       "proc": 28,
       "seal": 14,
       "reduce_cd": 0
@@ -118421,7 +118548,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 580,
-      "a": 39,
+      "a": 40,
       "b": 58,
       "c": 32,
       "proc": 34,
@@ -118449,7 +118576,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 18,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 40,
@@ -118477,7 +118604,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 559,
-      "a": 57,
+      "a": 58,
       "b": 57,
       "c": 19,
       "proc": 34,
@@ -118519,7 +118646,7 @@ var data = {
       "boon": "Def",
       "bane": "Spd",
       "weapon": 497,
-      "a": 50,
+      "a": 51,
       "b": 26,
       "c": 29,
       "proc": 29,
@@ -118533,9 +118660,9 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 4,
-      "a": 49,
+      "a": 50,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 4,
       "seal": 58,
       "reduce_cd": 0
@@ -118561,7 +118688,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 573,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 29,
       "proc": 34,
@@ -118603,7 +118730,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 255,
-      "a": 57,
+      "a": 58,
       "b": 51,
       "c": 29,
       "proc": 19,
@@ -118631,7 +118758,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 249,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -118645,7 +118772,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 399,
-      "a": 39,
+      "a": 40,
       "b": 40,
       "c": 32,
       "proc": 32,
@@ -118659,7 +118786,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 399,
-      "a": 39,
+      "a": 40,
       "b": 40,
       "c": 32,
       "proc": 32,
@@ -118717,7 +118844,7 @@ var data = {
       "weapon": 498,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 58,
       "reduce_cd": 0
@@ -118731,7 +118858,7 @@ var data = {
       "weapon": 437,
       "a": 22,
       "b": 54,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 30,
       "reduce_cd": 0
@@ -118745,7 +118872,7 @@ var data = {
       "weapon": 437,
       "a": 22,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 30,
       "reduce_cd": 0
@@ -118759,7 +118886,7 @@ var data = {
       "weapon": 68,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -118771,7 +118898,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 70,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -118785,7 +118912,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 17,
@@ -118799,7 +118926,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 520,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 17,
@@ -118813,7 +118940,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 69,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 32,
@@ -118827,7 +118954,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 200,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -118841,7 +118968,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -118855,7 +118982,7 @@ var data = {
       "boon": "Atk",
       "bane": "HP",
       "weapon": 350,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -118869,7 +118996,7 @@ var data = {
       "boon": "Res",
       "bane": "Def",
       "weapon": 154,
-      "a": 60,
+      "a": 61,
       "b": 37,
       "c": 2,
       "proc": 18,
@@ -118883,7 +119010,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 134,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 16,
       "proc": 13,
@@ -118897,7 +119024,7 @@ var data = {
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 546,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 37,
       "proc": 29,
@@ -118913,7 +119040,7 @@ var data = {
       "weapon": 29,
       "a": 22,
       "b": 54,
-      "c": 60,
+      "c": 61,
       "proc": 28,
       "seal": 30,
       "reduce_cd": 0
@@ -118927,7 +119054,7 @@ var data = {
       "weapon": 519,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 58,
       "reduce_cd": 0
@@ -118941,7 +119068,7 @@ var data = {
       "weapon": 70,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -118955,7 +119082,7 @@ var data = {
       "weapon": 550,
       "a": 22,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 30,
       "reduce_cd": 0
@@ -118967,7 +119094,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 33,
       "proc": 19,
@@ -118981,7 +119108,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 457,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 36,
       "proc": 34,
@@ -118995,7 +119122,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 372,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 33,
       "proc": 9,
@@ -119009,7 +119136,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 5,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 32,
@@ -119023,7 +119150,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 202,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 32,
@@ -119037,7 +119164,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 234,
-      "a": 47,
+      "a": 48,
       "b": 59,
       "c": 33,
       "proc": 33,
@@ -119065,7 +119192,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 466,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 36,
       "proc": 29,
@@ -119093,7 +119220,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 39,
       "proc": 28,
@@ -119107,7 +119234,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 39,
       "proc": 19,
@@ -119121,7 +119248,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 39,
       "proc": 34,
@@ -119149,7 +119276,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 336,
-      "a": 59,
+      "a": 60,
       "b": 48,
       "c": 16,
       "proc": 27,
@@ -119163,7 +119290,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 336,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 16,
       "proc": 9,
@@ -119219,7 +119346,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 200,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -119233,7 +119360,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 69,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 13,
       "proc": 32,
@@ -119263,7 +119390,7 @@ var data = {
       "weapon": 6,
       "a": 22,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 9,
       "seal": 30,
       "reduce_cd": 0
@@ -119277,7 +119404,7 @@ var data = {
       "weapon": 31,
       "a": 22,
       "b": 58,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 58,
       "reduce_cd": 0
@@ -119303,7 +119430,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 560,
-      "a": 49,
+      "a": 50,
       "b": 3,
       "c": 39,
       "proc": 9,
@@ -119319,7 +119446,7 @@ var data = {
       "weapon": 378,
       "a": 3,
       "b": 26,
-      "c": 48,
+      "c": 49,
       "proc": 28,
       "seal": 58,
       "reduce_cd": 0
@@ -119333,7 +119460,7 @@ var data = {
       "weapon": 69,
       "a": 16,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 34,
       "seal": 6,
       "reduce_cd": 0
@@ -119347,7 +119474,7 @@ var data = {
       "weapon": 260,
       "a": 13,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 13,
       "reduce_cd": 0
@@ -119359,7 +119486,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 388,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 32,
       "proc": 32,
@@ -119373,7 +119500,7 @@ var data = {
       "boon": "Res",
       "bane": "Def",
       "weapon": 154,
-      "a": 60,
+      "a": 61,
       "b": 37,
       "c": 2,
       "proc": 18,
@@ -119401,9 +119528,9 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 392,
-      "a": 54,
+      "a": 55,
       "b": 8,
-      "c": 44,
+      "c": 45,
       "proc": 19,
       "seal": 6,
       "reduce_cd": 0
@@ -119429,7 +119556,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 33,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -119443,7 +119570,7 @@ var data = {
       "boon": "Def",
       "bane": "Spd",
       "weapon": 518,
-      "a": 49,
+      "a": 50,
       "b": 26,
       "c": 32,
       "proc": 9,
@@ -119457,7 +119584,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 563,
-      "a": 54,
+      "a": 55,
       "b": 16,
       "c": 42,
       "proc": 32,
@@ -119471,7 +119598,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 367,
-      "a": 54,
+      "a": 55,
       "b": 41,
       "c": 33,
       "proc": 32,
@@ -119485,7 +119612,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 200,
-      "a": 39,
+      "a": 40,
       "b": 8,
       "c": 33,
       "proc": 32,
@@ -119499,7 +119626,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 69,
-      "a": 39,
+      "a": 40,
       "b": 41,
       "c": 33,
       "proc": 32,
@@ -119513,7 +119640,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 538,
-      "a": 39,
+      "a": 40,
       "b": 58,
       "c": 32,
       "proc": 34,
@@ -119529,7 +119656,7 @@ var data = {
       "weapon": 186,
       "a": 4,
       "b": 59,
-      "c": 45,
+      "c": 46,
       "proc": 33,
       "seal": 6,
       "reduce_cd": 0
@@ -119541,7 +119668,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 416,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 34,
@@ -119583,7 +119710,7 @@ var data = {
       "boon": "None",
       "bane": "None",
       "weapon": 281,
-      "a": 50,
+      "a": 51,
       "b": 26,
       "c": 29,
       "proc": 37,
@@ -119597,7 +119724,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 283,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 17,
@@ -119611,7 +119738,7 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "weapon": 281,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 29,
       "proc": 34,
@@ -119653,7 +119780,7 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "weapon": 260,
-      "a": 60,
+      "a": 61,
       "b": 8,
       "c": 2,
       "proc": 28,
@@ -119667,7 +119794,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 351,
-      "a": 57,
+      "a": 58,
       "b": 57,
       "c": 23,
       "proc": 19,
@@ -119681,7 +119808,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 249,
-      "a": 30,
+      "a": 31,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -119695,7 +119822,7 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 35,
       "proc": 19,
@@ -119709,7 +119836,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 39,
       "proc": 9,
@@ -119723,7 +119850,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 39,
       "proc": 19,
@@ -119737,7 +119864,7 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 39,
       "proc": 34,
@@ -119761,11 +119888,11 @@ var data = {
     "109": {
       "index": 109,
       "name": "Robin (High Deliverer)",
-      "base_index": 177,
+      "base_index": 178,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 39,
-      "a": 57,
+      "a": 58,
       "b": 50,
       "c": 32,
       "proc": 9,
@@ -119775,11 +119902,11 @@ var data = {
     "110": {
       "index": 110,
       "name": "Roy (Brave Lion)",
-      "base_index": 181,
+      "base_index": 182,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 46,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 17,
@@ -119789,7 +119916,7 @@ var data = {
     "111": {
       "index": 111,
       "name": "Sanaki (Begnion's Apostle)",
-      "base_index": 189,
+      "base_index": 190,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 116,
@@ -119803,11 +119930,11 @@ var data = {
     "112": {
       "index": 112,
       "name": "Shanna (Sprightly Flier)",
-      "base_index": 195,
+      "base_index": 196,
       "boon": "Atk",
       "bane": "Def",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 32,
@@ -119817,11 +119944,11 @@ var data = {
     "113": {
       "index": 113,
       "name": "Shiro (Raw Talent)",
-      "base_index": 200,
+      "base_index": 201,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 72,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 15,
       "proc": 29,
@@ -119831,11 +119958,11 @@ var data = {
     "114": {
       "index": 114,
       "name": "Siegbert (Future King)",
-      "base_index": 201,
+      "base_index": 202,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 141,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 33,
       "proc": 32,
@@ -119845,11 +119972,11 @@ var data = {
     "115": {
       "index": 115,
       "name": "Soleil (Adorable Adorer)",
-      "base_index": 203,
+      "base_index": 204,
       "boon": "Spd",
       "bane": "Res",
       "weapon": 202,
-      "a": 39,
+      "a": 40,
       "b": 50,
       "c": 32,
       "proc": 32,
@@ -119859,11 +119986,11 @@ var data = {
     "116": {
       "index": 116,
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 205,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 408,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 32,
       "proc": 14,
@@ -119873,11 +120000,11 @@ var data = {
     "117": {
       "index": 117,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 520,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 17,
@@ -119887,11 +120014,11 @@ var data = {
     "118": {
       "index": 118,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 70,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -119901,11 +120028,11 @@ var data = {
     "119": {
       "index": 119,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 201,
-      "a": 39,
+      "a": 40,
       "b": 27,
       "c": 29,
       "proc": 32,
@@ -119915,11 +120042,11 @@ var data = {
     "120": {
       "index": 120,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 562,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 30,
       "proc": 32,
@@ -119929,7 +120056,7 @@ var data = {
     "121": {
       "index": 121,
       "name": "Tana (Winged Princess)",
-      "base_index": 215,
+      "base_index": 216,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 562,
@@ -119943,13 +120070,13 @@ var data = {
     "122": {
       "index": 122,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 216,
+      "base_index": 217,
       "boon": "Def",
       "bane": "Spd",
       "weapon": 81,
       "a": 13,
       "b": 52,
-      "c": 60,
+      "c": 61,
       "proc": 29,
       "seal": 2,
       "reduce_cd": 0
@@ -119957,7 +120084,7 @@ var data = {
     "123": {
       "index": 123,
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 216,
+      "base_index": 217,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 402,
@@ -119971,11 +120098,11 @@ var data = {
     "124": {
       "index": 124,
       "name": "Tharja (Dark Shadow)",
-      "base_index": 217,
+      "base_index": 218,
       "boon": "Spd",
       "bane": "Def",
       "weapon": 402,
-      "a": 39,
+      "a": 40,
       "b": 16,
       "c": 32,
       "proc": 19,
@@ -119985,11 +120112,11 @@ var data = {
     "125": {
       "index": 125,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -119999,11 +120126,11 @@ var data = {
     "126": {
       "index": 126,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -120013,11 +120140,11 @@ var data = {
     "127": {
       "index": 127,
       "name": "Tiki (Dragon Scion)",
-      "base_index": 218,
+      "base_index": 219,
       "boon": "Spd",
       "bane": "HP",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -120027,11 +120154,11 @@ var data = {
     "128": {
       "index": 128,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 49,
+      "a": 50,
       "b": 37,
       "c": 23,
       "proc": 9,
@@ -120041,11 +120168,11 @@ var data = {
     "129": {
       "index": 129,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 57,
+      "a": 58,
       "b": 37,
       "c": 23,
       "proc": 19,
@@ -120055,11 +120182,11 @@ var data = {
     "130": {
       "index": 130,
       "name": "Tiki (Naga's Voice)",
-      "base_index": 219,
+      "base_index": 220,
       "boon": "Atk",
       "bane": "Spd",
       "weapon": 349,
-      "a": 30,
+      "a": 31,
       "b": 37,
       "c": 23,
       "proc": 34,
@@ -120069,7 +120196,7 @@ var data = {
     "131": {
       "index": 131,
       "name": "Titania (Mighty Mercenary)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Atk",
       "bane": "HP",
       "weapon": 163,
@@ -120083,13 +120210,13 @@ var data = {
     "132": {
       "index": 132,
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 230,
+      "base_index": 231,
       "boon": "Atk",
       "bane": "Res",
       "weapon": 4,
-      "a": 49,
+      "a": 50,
       "b": 5,
-      "c": 60,
+      "c": 61,
       "proc": 4,
       "seal": 58,
       "reduce_cd": 0
