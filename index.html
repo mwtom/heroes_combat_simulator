@@ -424,7 +424,7 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Buff:
+              Field Buff:
             </td>
             <td>
               N/A
@@ -444,7 +444,7 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Bonus:
+              Combat Buff:
             </td>
             <td>
               N/A
@@ -737,12 +737,12 @@ $(document).ready(function() {
             </li>
           </ul>
         </div>
-        <table id="Enemy_Override_Table">
-          <tr>
-            <td>
+        <div class="table" id="Enemy_Override_Table">
+          <div class="row">
+            <div class="cell row_header">
               Boon:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyBoon'>
                 <option value='None'>None</option>
                 <option value='HP'>HP</option>
@@ -751,13 +751,13 @@ $(document).ready(function() {
                 <option value='Def'>Def</option>
                 <option value='Res'>Res</option>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               Bane:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyBane'>
                 <option value='None'>None</option>
                 <option value='HP'>HP</option>
@@ -766,69 +766,69 @@ $(document).ready(function() {
                 <option value='Def'>Def</option>
                 <option value='Res'>Res</option>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               Weapon:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyWeapon'>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               Special:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemySpecial'>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               A Passive:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyA'>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               B Passive:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyB'>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               C Passive:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyC'>
               </select>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell row_header">
               Sacred Seal:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemySeal'>
               </select>
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td id="EnemyBlessingLabel">
+            </div>
+          </div>
+        </div>
+        <div class="table">
+          <div class="row">
+            <div class="cell row_header" id="EnemyBlessingLabel">
               Blessing:
-            </td>
-            <td>
+            </div>
+            <div class="cell">
               <select class='Customizer' id='EnemyBlessing'>
                 <option value="0">
                   (None)
@@ -840,36 +840,36 @@ $(document).ready(function() {
                   Fire
                 </option>
               </select>
-            </td>
-          </tr>
-          <tr class="EnemyLegAlly">
-            <td>
-              Leg. Foe 1:
-            </td>
-            <td>
+            </div>
+          </div>
+          <div class="row EnemyLegAlly">
+            <div class="cell row_header">
+              Leg. Enemy 1:
+            </div>
+            <div class="cell">
               <select id="EnemyLegAlly1" class="Customizer">
               </select>
-            </td>
-          </tr>
-          <tr class="EnemyLegAlly">
-            <td>
-              Leg. Foe 2:
-            </td>
-            <td>
+            </div>
+          </div>
+          <div class="row EnemyLegAlly">
+            <div class="cell row_header">
+              Leg. Enemy 2:
+            </div>
+            <div class="cell">
               <select id="EnemyLegAlly2" class="Customizer">
               </select>
-            </td>
-          </tr>
-          <tr class="EnemyLegAlly">
-            <td>
-              Leg. Foe 3:
-            </td>
-            <td>
+            </div>
+          </div>
+          <div class="row EnemyLegAlly">
+            <div class="cell row_header">
+              Leg. Enemy 3:
+            </div>
+            <div class="cell">
               <select id="EnemyLegAlly3" class="Customizer">
               </select>
-            </td>
-          </tr>
-        </table>
+            </div>
+          </div>
+        </div>
         <br>
         <table>
           <tr>
@@ -891,7 +891,7 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Buff:
+              Field Buff:
             </td>
             <td>
               <input type="number" id="EnemyAtkBuff" class="Extras" value="0" />
@@ -908,7 +908,7 @@ $(document).ready(function() {
           </tr>
           <tr>
             <td>
-              Bonus (Aura):
+              Combat Buff:
             </td>
             <td>
               <input type="number" id="EnemyAtkBonus" class="Extras" value="0" />

@@ -86,11 +86,6 @@ body {
 #Optimized_Disclaimer {
   display: none;
 }
-/* Align the enemy blessing input with the
-   the Enemy Overrides table */
-#EnemyBlessingLabel {
-  width: 80px;
-}
 /*#CharHP, #CharAtk, #CharSpd, #CharDef, #CharRes {
   text-align: center;
 }*/
