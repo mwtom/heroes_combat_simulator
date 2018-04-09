@@ -937,9 +937,9 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       mitigated_dmg += mitigated_temp;
       dmg -= mitigated_temp;
     }
-    // Distant consecutive hit mitigation (Crusader's Ward)
-    if (defender.get_distant_consec_hit_mitig() > 0 && combat_range == 2) {
-      combat_log += defender.get_name() + " receives " + (defender.get_distant_consec_hit_mitig() * 100) + "% less damage from consecutive hits from 2 spaces away!<br>";
+    // 2-Range enemy consecutive hit mitigation (Crusader's Ward)
+    if (defender.get_distant_consec_hit_mitig() > 0 && attacker.get_range() == 2) {
+      combat_log += defender.get_name() + " receives " + (defender.get_distant_consec_hit_mitig() * 100) + "% less damage from consecutive hits from foes with a 2-range weapon!<br>";
       mitigated_temp = Math.floor(dmg * defender.get_distant_consec_hit_mitig());
       mitigated_dmg += mitigated_temp;
       dmg -= mitigated_temp;
