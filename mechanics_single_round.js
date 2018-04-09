@@ -406,17 +406,17 @@ function execute_phase(player, enemy, player_initiating) {
 
   skill_string = "<div class=\"weapon_icon\">";
   skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weap_name();
-  skill_string += "<span class=\"weapon_desc\">" + enemy.weapon.desc + "</div>";
+  skill_string += "<span class=\"weapon_desc\">" + enemy.weapon.desc + "</span></div>";
   skill_string += "<div class=\"special_icon\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_proc_name();
-  skill_string += "<span class=\"special_desc\">" + enemy.proc.desc + "</div>";
+  skill_string += "<span class=\"special_desc\">" + enemy.proc.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.a_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.a_skill.name) + ": " + enemy.a_skill.desc + "</div>";
+  skill_string += "<span class=\"skill_desc\">" + clean(enemy.a_skill.name) + ": " + enemy.a_skill.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.b_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.b_skill.name) + ": " + enemy.b_skill.desc + "</div>";
+  skill_string += "<span class=\"skill_desc\">" + clean(enemy.b_skill.name) + ": " + enemy.b_skill.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.c_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.c_skill.name) + ": " + enemy.c_skill.desc + "</div>";
+  skill_string += "<span class=\"skill_desc\">" + clean(enemy.c_skill.name) + ": " + enemy.c_skill.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_seal_path(enemy.seal.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.seal.name) + ": " + enemy.seal.desc + "</div>";
+  skill_string += "<span class=\"skill_desc\">" + clean(enemy.seal.name) + ": " + enemy.seal.desc + "</span></div>";
 
   // Apply any start-of-turn buffs to the attacker.
   // apply_start_buffs(attacker);

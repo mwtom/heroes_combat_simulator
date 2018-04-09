@@ -39,6 +39,9 @@ function reset_enemy_overrides() {
 
   document.getElementById("EnemyMergeLv").value = 0;
 
+  document.getElementById("EnemyBoon").value='None';
+  document.getElementById("EnemyBane").value='None';
+
   document.getElementById("EnemyAtkBuff").value = 0;
   document.getElementById("EnemySpdBuff").value = 0;
   document.getElementById("EnemyDefBuff").value = 0;
@@ -75,6 +78,10 @@ function fill_skill_menus() {
   if (Weapons[Characters[unit_id].base_weap].evolves_into != 0) {
     msg = msg + "<option value='" + Weapons[Characters[unit_id].base_weap].evolves_into + "'>" + Weapons[Weapons[Characters[unit_id].base_weap].evolves_into].name + "</option>";
   }
+  document.getElementById("player_weapon_img").innerHTML = "<img src=\"images/weapon_icon.png\" class=\"icon\" />";
+  document.getElementById("player_weapon_desc").innerHTML = Weapons[Characters[unit_id].base_weap].desc;
+  document.getElementById("player_weapon_refined_img").innerHTML = "";
+  document.getElementById("player_weapon_refined_desc").innerHTML = "";
   // Find weapons that the current selection (the base weapon) can be refined into,
   // and add them to the "WeaponUpgradeCell" <td> tag.
   find_upgrades(Characters[unit_id].base_weap);
@@ -100,6 +107,8 @@ function fill_skill_menus() {
 
   // Populate the Special list.
   msg = msg + "<option value='" + Characters[unit_id].base_proc + "'>" + Procs[Characters[unit_id].base_proc].name + "</option>";
+  document.getElementById("player_special_img").innerHTML = "<img src=\"images/special_icon.png\" class=\"icon\" />";
+  document.getElementById("player_special_desc").innerHTML = Procs[Characters[unit_id].base_proc].desc;
   for (var i = 0; i < Procs.length; i++) {
     if (i != Characters[unit_id].base_proc) {
       if (verify_legality(Characters[unit_id], Procs[i]) || document.getElementById("RuleBreaker").checked) {
@@ -112,6 +121,8 @@ function fill_skill_menus() {
 
   // Populate the A Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_a + "'>" + A_Passives[Characters[unit_id].base_a].name + "</option>";
+  document.getElementById("player_a_img").innerHTML = "<img src=\"" + process_skill_path(A_Passives[Characters[unit_id].base_a].name) + "\" class=\"icon\" />";
+  document.getElementById("player_a_desc").innerHTML = A_Passives[Characters[unit_id].base_a].desc;
   for (var i = 0; i < A_Passives.length; i++) {
     if (i != Characters[unit_id].base_a) {
       if(verify_legality(Characters[unit_id], A_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -124,6 +135,8 @@ function fill_skill_menus() {
 
   // Populate the B Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_b + "'>" + B_Passives[Characters[unit_id].base_b].name + "</option>";
+  document.getElementById("player_b_img").innerHTML = "<img src=\"" + process_skill_path(B_Passives[Characters[unit_id].base_b].name) + "\" class=\"icon\" />";
+  document.getElementById("player_b_desc").innerHTML = B_Passives[Characters[unit_id].base_b].desc;
   for (var i = 0; i < B_Passives.length; i++) {
     if (i != Characters[unit_id].base_b) {
       if(verify_legality(Characters[unit_id], B_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -136,6 +149,8 @@ function fill_skill_menus() {
 
   // Populate the C Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_c + "'>" + C_Passives[Characters[unit_id].base_c].name + "</option>";
+  document.getElementById("player_c_img").innerHTML = "<img src=\"" + process_skill_path(C_Passives[Characters[unit_id].base_c].name) + "\" class=\"icon\" />";
+  document.getElementById("player_c_desc").innerHTML = C_Passives[Characters[unit_id].base_c].desc;
   for (var i = 0; i < C_Passives.length; i++) {
     if (i != Characters[unit_id].base_c) {
       if(verify_legality(Characters[unit_id], C_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -147,6 +162,8 @@ function fill_skill_menus() {
   msg = "";
 
   // Populate the Sacred Seal list.
+  document.getElementById("player_seal_img").innerHTML = "<img src=\"" + process_seal_path(Seals[0].name) + "\" class=\"icon\" />";
+  document.getElementById("player_seal_desc").innerHTML = Seals[0].desc;
   for (var i = 0; i < Seals.length; i++) {
     if (verify_legality(Characters[unit_id], Seals[i]) || document.getElementById("RuleBreaker").checked) {
       msg = msg + "<option value='" + i + "'>" + Seals[i].name + "</option>";
@@ -458,4 +475,41 @@ function process_blessing_bonuses(blessing) {
     output += "Res +" + blessing.res_boost_perm + " ";
   }
   return output;
+}
+
+/*  Input:
+      -skill_type: string, determines which DOM IDs to insert into.
+      -id: int, the ID of the skill.
+    Output:
+      -None.
+      -Inserts a skill image and description to the appropriate DOM elements.
+*/
+function set_skill_icon(skill_type, skill) {
+  var img_id = skill_type + "_img";
+  var desc_id = skill_type + "_desc";
+  var img_path;
+
+  switch (skill_type) {
+    case "player_weapon":
+      img_path = "images/weapon_icon.png";
+      document.getElementById("player_weapon_refined_img").innerHTML = "";
+      document.getElementById("player_weapon_refined_desc").innerHTML = "";
+      break;
+    case "player_weapon_refined":
+      img_path = "images/weapon_icon.png";
+      document.getElementById("player_weapon_img").innerHTML = "";
+      document.getElementById("player_weapon_desc").innerHTML = "";
+      break;
+    case "player_special":
+      img_path = "images/special_icon.png";
+      break;
+    case "player_seal":
+      img_path = process_seal_path(skill.name);
+      break;
+    default:
+      img_path = process_skill_path(skill.name);
+  }
+
+  document.getElementById(img_id).innerHTML = "<img src=\"" + img_path + "\" class=\"icon\" />";
+  document.getElementById(desc_id).innerHTML = skill.desc;
 }
