@@ -123,20 +123,38 @@ $(document).ready(function() {
     }
   });
   /* When skill select fields are changed, update the skill icon/description */
+  $("#EnemyWeapon").change(function() {
+    set_skill_icon("enemy_weapon", Weapons[document.getElementById("EnemyWeapon").value]);
+  });
   $("#Special").change(function() {
     set_skill_icon("player_special", Procs[document.getElementById("Special").value]);
+  });
+  $("#EnemySpecial").change(function() {
+    set_skill_icon("enemy_special", Procs[document.getElementById("EnemySpecial").value]);
   });
   $("#A").change(function() {
     set_skill_icon("player_a", A_Passives[document.getElementById("A").value]);
   });
+  $("#EnemyA").change(function() {
+    set_skill_icon("enemy_a", A_Passives[document.getElementById("EnemyA").value]);
+  });
   $("#B").change(function() {
     set_skill_icon("player_b", B_Passives[document.getElementById("B").value]);
-  })
+  });
+  $("#EnemyB").change(function() {
+    set_skill_icon("enemy_b", B_Passives[document.getElementById("EnemyB").value]);
+  });
   $("#C").change(function() {
     set_skill_icon("player_c", C_Passives[document.getElementById("C").value]);
   });
+  $("#EnemyC").change(function() {
+    set_skill_icon("enemy_c", C_Passives[document.getElementById("EnemyC").value]);
+  });
   $("#Seal").change(function() {
     set_skill_icon("player_seal", Seals[document.getElementById("Seal").value]);
+  });
+  $("#EnemySeal").change(function() {
+    set_skill_icon("enemy_seal", Seals[document.getElementById("EnemySeal").value]);
   });
   /* End of skill icon/description changing */
   $("input.Foe_Type").change(function() {
@@ -733,7 +751,7 @@ $(document).ready(function() {
               This feature is EXPERIMENTAL. Not every unit has a build, and some still need them.
             </li>
             <li>
-              Builds are based on the simulator author's biased opinions, with an attempt to strike a balance between builds that are good, and builds a player might encounter in the Arena.
+              Builds are based on the simulator author's biased opinions.
             </li>
           </ul>
         </div>
@@ -741,6 +759,9 @@ $(document).ready(function() {
           <div class="row">
             <div class="cell row_header">
               Boon:
+            </div>
+            <div class="cell skill_icon">
+              <!-- This field is intentionally left blank. -->
             </div>
             <div class="cell">
               <select class='Customizer' id='EnemyBoon'>
@@ -757,6 +778,9 @@ $(document).ready(function() {
             <div class="cell row_header">
               Bane:
             </div>
+            <div class="cell skill_icon">
+              <!-- This field is intentionally left blank. -->
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemyBane'>
                 <option value='None'>None</option>
@@ -772,6 +796,11 @@ $(document).ready(function() {
             <div class="cell row_header">
               Weapon:
             </div>
+            <div class="cell skill_icon" id="enemy_weapon">
+              <span id="enemy_weapon_img"></span>
+              <span class="skill_desc" id="enemy_weapon_desc">
+              </span>
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemyWeapon'>
               </select>
@@ -780,6 +809,11 @@ $(document).ready(function() {
           <div class="row">
             <div class="cell row_header">
               Special:
+            </div>
+            <div class="cell skill_icon" id="enemy_special">
+              <span id="enemy_special_img"></span>
+              <span class="skill_desc" id="enemy_special_desc">
+              </span>
             </div>
             <div class="cell">
               <select class='Customizer' id='EnemySpecial'>
@@ -790,6 +824,11 @@ $(document).ready(function() {
             <div class="cell row_header">
               A Passive:
             </div>
+            <div class="cell skill_icon" id="enemy_a">
+              <span id="enemy_a_img"></span>
+              <span class="skill_desc" id="enemy_a_desc">
+              </span>
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemyA'>
               </select>
@@ -798,6 +837,11 @@ $(document).ready(function() {
           <div class="row">
             <div class="cell row_header">
               B Passive:
+            </div>
+            <div class="cell skill_icon" id="enemy_b">
+              <span id="enemy_b_img"></span>
+              <span class="skill_desc" id="enemy_b_desc">
+              </span>
             </div>
             <div class="cell">
               <select class='Customizer' id='EnemyB'>
@@ -808,6 +852,11 @@ $(document).ready(function() {
             <div class="cell row_header">
               C Passive:
             </div>
+            <div class="cell skill_icon" id="enemy_c">
+              <span id="enemy_c_img"></span>
+              <span class="skill_desc" id="enemy_c_desc">
+              </span>
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemyC'>
               </select>
@@ -817,28 +866,25 @@ $(document).ready(function() {
             <div class="cell row_header">
               Sacred Seal:
             </div>
+            <div class="cell skill_icon" id="enemy_seal">
+              <span id="enemy_seal_img"></span>
+              <span class="skill_desc" id="enemy_seal_desc">
+              </span>
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemySeal'>
               </select>
             </div>
           </div>
-        </div>
-        <div class="table">
           <div class="row">
             <div class="cell row_header" id="EnemyBlessingLabel">
               Blessing:
             </div>
+            <div class="cell skill_icon">
+              <!-- This field is intentionally left blank. -->
+            </div>
             <div class="cell">
               <select class='Customizer' id='EnemyBlessing'>
-                <option value="0">
-                  (None)
-                </option>
-                <option value="1">
-                  Earth
-                </option>
-                <option value="2">
-                  Fire
-                </option>
               </select>
             </div>
           </div>
@@ -870,7 +916,7 @@ $(document).ready(function() {
             </div>
           </div>
         </div>
-        <br>
+        <br />
         <table>
           <tr>
             <th>

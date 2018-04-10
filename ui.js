@@ -209,6 +209,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemyWeapon").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_weapon", Weapons[0]);
 
   // Populate the Special list.
   for (var i = 0; i < Procs.length; i++) {
@@ -216,6 +217,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemySpecial").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_special", Procs[0]);
 
   // Populate the A Passive list.
   for (var i = 0; i < A_Passives.length; i++) {
@@ -223,6 +225,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemyA").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_a", A_Passives[0]);
 
   // Populate the B Passive list.
   for (var i = 0; i < B_Passives.length; i++) {
@@ -230,6 +233,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemyB").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_b", B_Passives[0]);
 
   // Populate the C Passive list.
   for (var i = 0; i < C_Passives.length; i++) {
@@ -237,6 +241,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemyC").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_c", C_Passives[0]);
 
   // Populate the Sacred Seal list.
   for (var i = 0; i < Seals.length; i++) {
@@ -244,6 +249,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemySeal").innerHTML = msg;
   msg = "";
+  set_skill_icon("enemy_seal", Seals[0]);
 
   msg = "<option value=\"(None)\">(None)</option>";
   msg += "<option value=\"Earth\">Earth</option>";
@@ -500,10 +506,19 @@ function set_skill_icon(skill_type, skill) {
       document.getElementById("player_weapon_img").innerHTML = "";
       document.getElementById("player_weapon_desc").innerHTML = "";
       break;
+    case "enemy_weapon":
+      img_path = "images/weapon_icon.png";
+      break;
     case "player_special":
       img_path = "images/special_icon.png";
       break;
+    case "enemy_special":
+      img_path = "images/special_icon.png";
+      break;
     case "player_seal":
+      img_path = process_seal_path(skill.name);
+      break;
+    case "enemy_seal":
       img_path = process_seal_path(skill.name);
       break;
     default:
