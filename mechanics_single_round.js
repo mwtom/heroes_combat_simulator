@@ -465,6 +465,13 @@ function execute_phase(player, enemy, player_initiating) {
     if (attacker.get_HP() == 0) {
       return combat_log;
     }
+    if (defender.get_brave_def()) {
+      combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+      calculate_damage(defender, attacker, false, true, false);
+    }
+    if (attacker.get_HP() == 0) {
+      return combat_log;
+    }
   }
 
   // The attacker launches his/her first strike.
@@ -509,12 +516,26 @@ function execute_phase(player, enemy, player_initiating) {
         if (attacker.get_HP() == 0) {
           return combat_log;
         }
+        if (defender.get_brave_def()) {
+          combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+          calculate_damage(defender, attacker, false, true, false);
+        }
+        if (attacker.get_HP() == 0) {
+          return combat_log;
+        }
       }
     }
     // Otherwise, perform an attack like normal.
     else {
       combat_log += defender.get_name() + " attacks!<br>";
       calculate_damage(defender, attacker, false, false, true);
+      if (attacker.get_HP() == 0) {
+        return combat_log;
+      }
+      if (defender.get_brave_def()) {
+        combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+        calculate_damage(defender, attacker, false, true, false);
+      }
       if (attacker.get_HP() == 0) {
         return combat_log;
       }
@@ -544,6 +565,13 @@ function execute_phase(player, enemy, player_initiating) {
   if (can_counter && defender_follow_up == 1 && !vantage_flag) {
     combat_log += defender.get_name() + " performs a follow up attack!<br>";
     calculate_damage(defender, attacker, false, !attacker_follow_up, false);
+    if (attacker.get_HP() == 0) {
+      return combat_log;
+    }
+    if (defender.get_brave_def()) {
+      combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+      calculate_damage(defender, attacker, false, true, false);
+    }
     if (attacker.get_HP() == 0) {
       return combat_log;
     }
@@ -889,6 +917,9 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   if (attacker_skill_procced) {
     dmg += attacker.get_skill_dmg_bonus();
   }
+  // TENTATIVE LOCATION FOR LIGHT BRAND DAMAGE.
+  // THIS PLACEMENT ASSUMES IT IS NOT AFFECTED BY ENEMY DEFENSES.
+  dmg += attacker.get_light_brand_dmg_bonus(defender, attacker_active);
 
   // If the unit has a damage reduction skill compatible with the current
   // combat range off cooldown, activate and apply it.

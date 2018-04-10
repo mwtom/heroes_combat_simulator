@@ -78,10 +78,7 @@ function fill_skill_menus() {
   if (Weapons[Characters[unit_id].base_weap].evolves_into != 0) {
     msg = msg + "<option value='" + Weapons[Characters[unit_id].base_weap].evolves_into + "'>" + Weapons[Weapons[Characters[unit_id].base_weap].evolves_into].name + "</option>";
   }
-  document.getElementById("player_weapon_img").innerHTML = "<img src=\"images/weapon_icon.png\" class=\"icon\" />";
-  document.getElementById("player_weapon_desc").innerHTML = Weapons[Characters[unit_id].base_weap].desc;
-  document.getElementById("player_weapon_refined_img").innerHTML = "";
-  document.getElementById("player_weapon_refined_desc").innerHTML = "";
+  set_skill_icon("player_weapon", Weapons[Characters[unit_id].base_weap]);
   // Find weapons that the current selection (the base weapon) can be refined into,
   // and add them to the "WeaponUpgradeCell" <td> tag.
   find_upgrades(Characters[unit_id].base_weap);
@@ -499,12 +496,12 @@ function set_skill_icon(skill_type, skill) {
     case "player_weapon":
       img_path = "images/weapon_icon.png";
       document.getElementById("player_weapon_refined_img").innerHTML = "";
-      document.getElementById("player_weapon_refined_desc").innerHTML = "";
+      document.getElementById("player_weapon_refined_desc").innerHTML = "No Refinement selected/available.";
       break;
     case "player_weapon_refined":
       img_path = "images/weapon_icon.png";
       document.getElementById("player_weapon_img").innerHTML = "";
-      document.getElementById("player_weapon_desc").innerHTML = "";
+      document.getElementById("player_weapon_desc").innerHTML = "See the selected Weapon Refinement for the weapon effect.";
       break;
     case "enemy_weapon":
       img_path = "images/weapon_icon.png";

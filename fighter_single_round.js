@@ -1035,7 +1035,7 @@ Fighter.prototype.def_follow_up_inhibition_applies = function (attacker_active, 
   if (this.weapon.brynhildr_def_thresh > 0 && enemy.get_range() == 2 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= this.weapon.brynhildr_def_thresh)) {
   	return true;
   }
-  
+
   else {
     return false;
   }
@@ -1275,6 +1275,9 @@ Fighter.prototype.get_weap = function() {
 Fighter.prototype.get_brave = function() {
   return this.weapon.brave;
 };
+Fighter.prototype.get_brave_def = function () {
+  return this.weapon.brave_def;
+};
 Fighter.prototype.get_heal_on_hit = function() {
   return this.weapon.heal_on_hit;
 };
@@ -1325,6 +1328,13 @@ Fighter.prototype.get_skill_dmg_bonus = function() {
     combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
   }
   return dmg;
+};
+Fighter.prototype.get_light_brand_dmg_bonus = function (enemy, attacker_active) {
+  if (this.weapon.light_brand_bonus > 0 && (enemy.calculate_def(!attacker_active, this, true) >= (enemy.calculate_res(!attacker_active, this, true) + 5))) {
+    combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.light_brand_bonus + " damage to his/her attack.<br>";
+    return this.weapon.light_brand_bonus;
+  }
+  return 0;
 };
 Fighter.prototype.get_heal_after_attack = function() {
   return this.weapon.heal_after_attack;
