@@ -300,7 +300,7 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
   // Sets an initial value for atk.
   var atk = this.get_perm_atk() + this.get_assumed_atk_boost() - this.atk_debuff;
   // If buffs are not positive or not negated, add buffs.
-  if (this.atk_buff < 0 || !this.check_buff_negate(enemy)) {
+  if (this.atk_buff < 0 || this.check_buff_negate(enemy) == "") {
     atk += this.atk_buff;
   }
 
@@ -360,7 +360,7 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
 
     // If the unit has a -blade tome, and buffs are not negative or negated,
     // add buffs to atk.
-    if (this.get_blade() == 1 && !this.check_buff_negate(enemy)) {
+    if (this.get_blade() == 1 && this.check_buff_negate(enemy) == "") {
       if (this.atk_buff > 0) {
         atk += this.atk_buff;
       }
@@ -392,8 +392,7 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
   }
 
   // If the atk value is negative, and the unit does not have a -blade tome,
-  // set it to 0. Note that this function is used for Heavy Blade calculation,
-  // which does not factor in -blade tome bonuses.
+  // set it to 0.
   if (atk < 0 && this.get_blade() != 1) {
     atk = 0;
   }
@@ -527,7 +526,7 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
   // Sets an inital value for effective speed.
   var e_spd = this.get_perm_spd() + this.get_assumed_spd_boost() - this.spd_debuff;
   // If buffs are not positive or not negated, add buffs.
-  if (this.spd_buff < 0 || !this.check_buff_negate(enemy)) {
+  if (this.spd_buff < 0 || this.check_buff_negate(enemy) == "") {
     e_spd += this.spd_buff;
   }
 
@@ -580,7 +579,6 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       }
     }
 
-
     // If the unit gets a Spd bonus when below a certain HP threshold, apply it.
     if (this.start_HP / this.hp_max <= this.a_skill.brazen_spd_thresh) {
       e_spd += this.a_skill.brazen_spd_boost;
@@ -608,7 +606,7 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
   // Sets an initial value for the effective def.
   var e_def = this.get_perm_def() + this.get_assumed_def_boost() - this.def_debuff;
   // If buffs are not positive or not negated, add buffs.
-  if (this.def_buff < 0 || !this.check_buff_negate(enemy)) {
+  if (this.def_buff < 0 || this.check_buff_negate(enemy) == "") {
     e_def += this.def_buff;
   }
 
@@ -664,8 +662,8 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     }
 
     // Special case! Account for Tyrfing if necessary.
-    if (this.hp < Math.floor(this.hp/2)) {
-      e_def += this.weapon.def_boost_under50();
+    if (this.get_start_HP() <= Math.floor(this.get_HP_max()/2)) {
+      e_def += this.weapon.def_boost_below50;
     }
 
     // If the unit gets a Def bonus when below a certain HP threshold, apply it.
@@ -695,7 +693,7 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
   // Sets an initial value for the effective res.
   var e_res = this.get_perm_res() + this.get_assumed_res_boost() - this.res_debuff;
   // If buffs are not positive or not negated, add buffs.
-  if (this.res_buff < 0 || !this.check_buff_negate(enemy)) {
+  if (this.res_buff < 0 || this.check_buff_negate(enemy) == "") {
     e_res += this.res_buff;
   }
 
@@ -764,6 +762,198 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
 
 /* ************************** END OF STAT CALCULATION ************************** */
 
+/* Input:
+    -attacker_flag: whether or not this unit is the active unit.
+    -enemy: this unit's enemy.
+    -in_combat: whether or not this scenario is being evaluated in or out of combat.
+   Output:
+    -String detailing the status of this unit's field and combat buffs, and weapon
+     triangle status.
+*/
+Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_combat) {
+  var report = "", temp = "";
+  var enemy_range = enemy.get_range();
+  // The names of combat_buff properties, to be passed into the combat_buff_reporting
+  // function. This should be an array of 4 elements, one for each stat, in the order
+  // Atk, Spd, Def, Res.
+  var property_names;
+
+  // Reporting for a reversed buff status effect.
+  if (this.buffs_reversed) {
+    report += this.get_name() + "'s field buffs are reversed this combat!<br>";
+  }
+  // Reporting for buff neutralization by the enemy.
+  if (this.check_buff_negate(enemy) != "" && !this.buffs_reversed) {
+    report += this.get_name() + "'s field buffs are neutralized by " + enemy.get_name() + "'s " + this.check_buff_negate(enemy) + "!<br>";
+  }
+  if (in_combat) {
+    // Reporting for full HP stat bonuses.
+    if (this.get_start_HP() == this.get_HP_max()) {
+      property_names = new Array("atk_boost_full_hp", "spd_boost_full_hp", "def_boost_full_hp", "res_boost_full_hp");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+    }
+    // Reporting for <100% HP stat bonuses.
+    else {
+      property_names = new Array("atk_boost_damaged", "spd_boost_damaged", "def_boost_damaged", "res_boost_damaged");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+    }
+    // Reporting for "Brazen" stat bonuses.
+    if (this.start_HP / this.hp_max <= .8) {
+      property_names = new Array("brazen_atk_boost", "brazen_spd_boost", "brazen_def_boost", "brazen_res_boost");
+      report += this.combat_buff_reporting (this.get_name(), this.a_skill, property_names);
+    }
+    // Reporting for stat bonuses granted when enemy is at full HP.
+    if (enemy.get_start_HP() == enemy.get_HP_max()) {
+      property_names = new Array("atk_boost_enemy_full_hp", "spd_boost_enemy_full_hp", "def_boost_enemy_full_hp", "res_boost_enemy_full_hp");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+    }
+    // Reporting for adjacency stat bonus effects (inverse spur, bonds).
+    if (this.get_adj_allies() > 0) {
+      if (this.get_inverse_spur()) {
+        report += this.get_name() + " receives a combat buff of Atk/Spd/Def/Res+" + this.get_adj_allies() * 2 + " from " + this.weapon.name + "!<br />";
+      }
+      property_names = new Array("atk_bond", "spd_bond", "def_bond", "res_bond");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+    }
+    // Reporting for "[Element] Boost" effects.
+    if (this.get_start_HP() - enemy.get_start_HP() >= 3) {
+      property_names = new Array("fire_boost_bonus", "wind_boost_bonus", "earth_boost_bonus", "water_boost_bonus");
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+    }
+    // Reporting for Conditional Effects.
+    if (this.conditional_effects) {
+      property_names = new Array("cond_atk_bonus", "cond_spd_bonus", "cond_def_bonus", "cond_res_bonus");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+    }
+    // Reporting for bonuses granted when this unit initiates combat.
+    if (attacker_flag) {
+      property_names = new Array("atk_boost_off", "spd_boost_off", "def_boost_off", "res_boost_off");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+
+      if (enemy_range > 1) {
+        property_names = new Array("distant_atk_off_bonus", "distant_spd_off_bonus", "distant_def_off_bonus", "distant_res_off_bonus");
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      }
+    }
+    // Reporting for bonuses granted when the enemy initiates combat.
+    else {
+      property_names = new Array("atk_boost_def", "spd_boost_def", "def_boost_def", "res_boost_def");
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+
+      if (enemy_range > 1) {
+        property_names = new Array("distant_atk_def_bonus", "distant_spd_def_bonus", "distant_def_def_bonus", "distant_res_def_bonus");
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names);
+      }
+      else {
+        property_names = new Array("close_atk_def_bonus", "close_spd_def_bonus", "close_def_bonus", "close_res_bonus");
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names);
+
+        // SPECIAL CASE! Vidofnir provides Def+7 when an enemy wielding an Axe, Lance, or Sword
+        // initiates combat.
+        if ((enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") && this.get_def_boost_def_vs_ALS() > 0) {
+          report += this.get_name() + " receives a combat buff of Def+" + this.get_def_boost_def_vs_ALS() + " from " + this.weapon.name + "!<br />";
+        }
+      }
+    }
+    // SPECIAL CASE! Tyrfing provides Def+4 when the unit's HP is 50% or lower
+    // at the start of combat.
+    if ((this.get_start_HP() <= Math.floor(this.get_HP_max()/2)) && this.weapon.def_boost_below50 > 0) {
+      report += this.get_name() + " receives a combat buff of Def+" + this.weapon.def_boost_below50 + " from " + this.weapon.name + "!<br />";
+    }
+
+    var bonus_atk = 0;
+    // Reporting for -blade tome buff to Atk conversion.
+    if (this.get_blade() && this.check_buff_negate(enemy) == "") {
+      if (this.atk_buff > 0) {
+        bonus_atk += this.atk_buff;
+      }
+      if (this.spd_buff > 0) {
+        bonus_atk += this.spd_buff;
+      }
+      if (this.def_buff > 0) {
+        bonus_atk += this.def_buff;
+      }
+      if (this.res_buff > 0) {
+        bonus_atk += this.res_buff;
+      }
+
+      if (bonus_atk > 0) {
+        report += this.get_name() + " receives bonus Atk = the total value of his/her buffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
+        bonus_atk = 0;
+      }
+    }
+    // Reporting for enemy debuff to Atk conversion.
+    if (this.weapon.enemy_debuffs_to_atk) {
+      if (enemy.get_atk_debuff() > 0) {
+        bonus_atk += enemy.get_atk_debuff();
+      }
+      if (enemy.get_spd_debuff() > 0) {
+        bonus_atk += enemy.get_spd_debuff();
+      }
+      if (enemy.get_def_debuff() > 0) {
+        bonus_atk += enemy.get_spd_debuff();
+      }
+      if (enemy.get_res_debuff() > 0) {
+        bonus_atk += enemy.get_res_debuff();
+      }
+
+      if (bonus_atk > 0) {
+        report += this.get_name() + " receives bonus Atk = the total value of the enemy's debuffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
+        bonus_atk = 0;
+      }
+    }
+  }
+
+  /* Triangle advantage info */
+
+  return report;
+};
+/* Input:
+    -unit_name: Name of the unit being assessed combat buffs.
+    -skill: Skill that potentially provides the combat buffs.
+    -properties: A 4-element array that holds the names of the properties that
+                 potentially hold the values of combat buffs. The properties
+                 should be in the order Atk, Spd, Def, Res.
+
+   Output:
+    -String detailing all combat buffs received from the skill.
+*/
+Fighter.prototype.combat_buff_reporting = function (unit_name, skill, properties) {
+  var output = "";
+  if (skill[properties[0]] > 0) {
+    output += "Atk+" + skill[properties[0]];
+  }
+  if (skill[properties[1]] > 0) {
+    if (output != "") {
+      output += "/";
+    }
+    output += "Spd+" + skill[properties[1]];
+  }
+  if (skill[properties[2]] > 0) {
+    if (output != "") {
+      output += "/";
+    }
+    output += "Def+" + skill[properties[2]];
+  }
+  if (skill[properties[3]] > 0) {
+    if (output != "") {
+      output += "/";
+    }
+    output += "Res+" + skill[properties[3]];
+  }
+  if (output != "") {
+    output = unit_name + " receives a combat buff of " + output + " from " + skill.name + "!<br />";
+  }
+  return output;
+};
+
 // Subtracts combat damage from the unit's HP.
 Fighter.prototype.apply_damage = function(dmg) {
   this.hp -= dmg;
@@ -790,9 +980,11 @@ Fighter.prototype.add_HP = function(health) {
     this.hp = this.hp_max;
   }
 };
-// Checks to see if the unit's buffs are negated by the enemy
+// Checks to see if the unit's buffs are negated by the enemy.
+// Returns either an empty string (buffs are not negated), or the source
+// of buff negation.
 Fighter.prototype.check_buff_negate = function (enemy) {
-  var weap_type_negate = false, mov_type_negate = false;
+  var weap_type_negate = "", mov_type_negate = "";
   switch (this.get_weap()) {
     case "S":
       weap_type_negate = enemy.get_negate_srd_buffs();
@@ -855,8 +1047,15 @@ Fighter.prototype.check_buff_negate = function (enemy) {
       break;
   }
 
-  return (weap_type_negate || mov_type_negate);
+  if (weap_type_negate != "") {
+    return weap_type_negate;
+  }
+  else {
+    return mov_type_negate;
+  }
+  //return (weap_type_negate || mov_type_negate);
 };
+
 /* Checks to see if the unit meets the stat requirements for skills that increase
  * skill charge rates (Heavy Blade, Ayra's Blade, etc.)
  *
@@ -1822,55 +2021,191 @@ Fighter.prototype.get_first_tome_hit_mitig = function () {
   return this.weapon.first_tome_hit_mitig;
 };
 Fighter.prototype.get_negate_srd_buffs = function () {
-  return Math.max(this.weapon.negate_srd_buffs, this.b_skill.negate_srd_buffs);
+  var source = "";
+  if (this.weapon.negate_srd_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_srd_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_srd_buffs, this.b_skill.negate_srd_buffs);
 };
 Fighter.prototype.get_negate_lnc_buffs = function () {
-  return Math.max(this.weapon.negate_lnc_buffs, this.b_skill.negate_lnc_buffs);
+  var source = "";
+  if (this.weapon.negate_lnc_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_lnc_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_lnc_buffs, this.b_skill.negate_lnc_buffs);
 };
 Fighter.prototype.get_negate_axe_buffs = function () {
-  return Math.max(this.weapon.negate_axe_buffs, this.b_skill.negate_axe_buffs);
+  var source = "";
+  if (this.weapon.negate_axe_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_axe_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_axe_buffs, this.b_skill.negate_axe_buffs);
 };
 Fighter.prototype.get_negate_rt_buffs = function () {
-  return Math.max(this.weapon.negate_rt_buffs, this.b_skill.negate_rt_buffs);
+  var source = "";
+  if (this.weapon.negate_rt_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_rt_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_rt_buffs, this.b_skill.negate_rt_buffs);
 };
 Fighter.prototype.get_negate_bt_buffs = function () {
-  return Math.max(this.weapon.negate_bt_buffs, this.b_skill.negate_bt_buffs);
+  var source = "";
+  if (this.weapon.negate_bt_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_bt_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_bt_buffs, this.b_skill.negate_bt_buffs);
 };
 Fighter.prototype.get_negate_gt_buffs = function () {
-  return Math.max(this.weapon.negate_gt_buffs, this.b_skill.negate_gt_buffs);
+  var source = "";
+  if (this.weapon.negate_gt_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_gt_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_gt_buffs, this.b_skill.negate_gt_buffs);
 };
 Fighter.prototype.get_negate_bow_buffs = function () {
-  return Math.max(this.weapon.negate_bow_buffs, this.b_skill.negate_bow_buffs);
+  var source = "";
+  if (this.weapon.negate_bow_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_bow_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_bow_buffs, this.b_skill.negate_bow_buffs);
 };
 Fighter.prototype.get_negate_dgr_buffs = function () {
-  return Math.max(this.weapon.negate_dgr_buffs, this.b_skill.negate_dgr_buffs);
+  var source = "";
+  if (this.weapon.negate_dgr_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_dgr_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_dgr_buffs, this.b_skill.negate_dgr_buffs);
 };
 Fighter.prototype.get_negate_stf_buffs = function () {
-  return Math.max(this.weapon.negate_stf_buffs, this.b_skill.negate_stf_buffs);
+  var source = "";
+  if (this.weapon.negate_stf_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_stf_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_stf_buffs, this.b_skill.negate_stf_buffs);
 };
 Fighter.prototype.get_negate_rbrth_buffs = function () {
-  return Math.max(this.weapon.negate_rbrth_buffs, this.b_skill.negate_rbrth_buffs);
+  var source = "";
+  if (this.weapon.negate_rbrth_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_rbrth_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_rbrth_buffs, this.b_skill.negate_rbrth_buffs);
 };
 Fighter.prototype.get_negate_bbrth_buffs = function () {
-  return Math.max(this.weapon.negate_bbrth_buffs, this.b_skill.negate_bbrth_buffs);
+  var source = "";
+  if (this.weapon.negate_bbrth_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_bbrth_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_bbrth_buffs, this.b_skill.negate_bbrth_buffs);
 };
 Fighter.prototype.get_negate_gbrth_buffs = function () {
-  return Math.max(this.weapon.negate_gbrth_buffs, this.b_skill.negate_gbrth_buffs);
+  var source = "";
+  if (this.weapon.negate_gbrth_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_gbrth_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_gbrth_buffs, this.b_skill.negate_gbrth_buffs);
 };
 Fighter.prototype.get_negate_nbrth_buffs = function () {
-  return Math.max(this.weapon.negate_nbrth_buffs, this.b_skill.negate_nbrth_buffs);
+  var source = "";
+  if (this.weapon.negate_nbrth_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_nbrth_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_nbrth_buffs, this.b_skill.negate_nbrth_buffs);
 };
 Fighter.prototype.get_negate_inf_buffs = function () {
-  return Math.max(this.weapon.negate_inf_buffs, this.b_skill.negate_inf_buffs);
+  var source = "";
+  if (this.weapon.negate_inf_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_inf_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_inf_buffs, this.b_skill.negate_inf_buffs);
 };
 Fighter.prototype.get_negate_fly_buffs = function () {
-  return Math.max(this.weapon.negate_fly_buffs, this.b_skill.negate_fly_buffs);
+  var source = "";
+  if (this.weapon.negate_fly_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_fly_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_fly_buffs, this.b_skill.negate_fly_buffs);
 };
 Fighter.prototype.get_negate_cav_buffs = function () {
-  return Math.max(this.weapon.negate_cav_buffs, this.b_skill.negate_cav_buffs);
+  var source = "";
+  if (this.weapon.negate_cav_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_cav_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_cav_buffs, this.b_skill.negate_cav_buffs);
 };
 Fighter.prototype.get_negate_arm_buffs = function () {
-  return Math.max(this.weapon.negate_arm_buffs, this.b_skill.negate_arm_buffs);
+  var source = "";
+  if (this.weapon.negate_arm_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_arm_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+  //return Math.max(this.weapon.negate_arm_buffs, this.b_skill.negate_arm_buffs);
 };
 Fighter.prototype.get_cd_charge_def = function () {
   return this.a_skill.cd_charge_def;

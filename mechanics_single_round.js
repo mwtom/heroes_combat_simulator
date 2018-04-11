@@ -437,6 +437,10 @@ function execute_phase(player, enemy, player_initiating) {
   attacker.set_start_HP(attacker.get_HP());
   defender.set_start_HP(defender.get_HP());
 
+
+  combat_log += attacker.precombat_report_stats(true, defender, true);
+  combat_log += defender.precombat_report_stats(false, attacker, true);
+
   // Determine whether or not the defender can counter.
   var can_counter = check_counter(attacker, defender);
 
@@ -917,8 +921,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   if (attacker_skill_procced) {
     dmg += attacker.get_skill_dmg_bonus();
   }
-  // TENTATIVE LOCATION FOR LIGHT BRAND DAMAGE.
-  // THIS PLACEMENT ASSUMES IT IS NOT AFFECTED BY ENEMY DEFENSES.
+  // Apply bonus damage from Light Brand, which is not affected by enemy defenses.
   dmg += attacker.get_light_brand_dmg_bonus(defender, attacker_active);
 
   // If the unit has a damage reduction skill compatible with the current
