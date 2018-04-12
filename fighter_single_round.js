@@ -920,11 +920,81 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
     }
   }
 
-  /* Triangle advantage info */
+  var atk = this.calculate_atk(attacker_flag, enemy, in_combat);
+  if (atk < 0) {
+    atk = 0;
+  }
+
+  // Reporting for effective attack modifications (effective damage, triangle advantage)
+  if (this.check_effective_damage(enemy)) {
+    atk += Math.floor(atk * .5);
+    report += this.get_name() + " receives a +50% Atk bonus from Effective Damage dealt by " + this.weapon.name + " (" + atk + " Atk)!<br />";
+  }
+  else if (this.effective_damage_canceled(enemy)) {
+    report += this.get_name() + "'s Effective Damage from his/her " + this.weapon.name + " is neutralized by " + enemy.get_name() + "'s " + enemy.a_skill.name + " (" + atk + " Atk)!<br />";
+  }
+
+  var wt_result = this.wt_check(enemy);
+  if (wt_result == 1) {
+    // Reporting for self-canceled Triangle Affinity skills.
+    if (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 1) {
+      report += this.name + "'s " + this.b_skill.name + " cancels his/her own Triangle Affinity skill!<br />";
+    }
+
+    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
+    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
+      // If the enemy has an effect that cancels ALL foe triangle affinity,
+      // effective atk is not amplified by the user's Triangle Affinity skill.
+      if (enemy.get_foe_affinity_cancel() == 1 || enemy.get_disadv_foe_affinity_cancel() == 1) {
+        atk += Math.floor(atk * .2);
+        report += this.name + "'s Triangle Affinity skill is canceled by " + enemy.get_name() + "'s " + enemy.b_skill.name + ", and receives a +20% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
+      }
+      // Otherwise, if the foe does not have a skill that reverses Triangle
+      // Affinity skills when at a disadvantage, apply a +40% bonus to effective atk.
+      // If the foe DOES have such a skill, the matchup is effectively neutral.
+      else if (enemy.get_disadv_foe_affinity_reverse() == 0) {
+        atk += Math.floor(atk * .4);
+        report += this.name + " receives a +40% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
+      }
+      else {
+        report += this.name + "'s Triangle Affinity skill is reversed by " + enemy.get_name() + "'s " + enemy.b_skill.name + ", and receives a +0% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
+      }
+    }
+    else {
+      atk += Math.floor(atk * .2);
+      report += this.name + " receives a +20% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
+    }
+  }
+  else if (wt_result == -1) {
+    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
+    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
+      // If the unit has a skill that cancels foe's Triangle Affinity skills,
+      // only a 20% penalty is applied to e_atk.
+      if (this.get_foe_affinity_cancel() == 1 || this.get_disadv_foe_affinity_cancel() == 1) {
+        atk -= Math.floor(atk * .2);
+        report += this.name + "'s " + this.b_skill.name + " cancels " + enemy.get_name() + "'s Triangle Affinity skill, and receives a -20% Atk pentalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
+      }
+      // Otherwise, if the unit does not have a skill that reverses Triangle
+      // Affinity skills when at a disadvantage, apply a -40% penalty to e_atk.
+      // If the unit DOES have such a skill, the matchup is effectively neutral.
+      else if (this.get_disadv_foe_affinity_reverse() == 0) {
+        atk -= Math.floor(atk * .4);
+        report += this.name + " receives a -40% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
+      }
+      else {
+        report += this.name + "'s " + this.b_skill.name + " reverses " + enemy.get_name() + "'s Triangle Affinity skill, and receives a -0% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
+      }
+    }
+    else {
+      atk -= Math.floor(atk * .2);
+      report += this.name + " receives a -20% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
+    }
+  }
 
   return report;
 };
-/* Input:
+/* Helper function for precombat_report_stats.
+  Input:
     -unit_name: Name of the unit being assessed combat buffs.
     -skill: Skill that potentially provides the combat buffs.
     -properties: A 4-element array that holds the names of the properties that
@@ -961,6 +1031,24 @@ Fighter.prototype.combat_buff_reporting = function (unit_name, skill, properties
     output = unit_name + " receives a combat buff of " + output + " from " + skill.name + "!<br />";
   }
   return output;
+};
+// Helper function for precombat_report_stats.
+// Input: This unit's enemy.
+// Output: Whether or not this unit's effective damage is canceled by an enemy skill.
+Fighter.prototype.effective_damage_canceled = function (enemy) {
+  if (this.weapon.inf_eff && enemy.get_type() == "I" && enemy.get_negate_mov_eff()) {
+    return true;
+  }
+  if (this.weapon.cav_eff && enemy.get_type() == "C" && enemy.get_negate_mov_eff()) {
+    return true;
+  }
+  if (this.weapon.fly_eff && enemy.get_type() == "F" && enemy.get_negate_mov_eff()) {
+    return true;
+  }
+  if (this.weapon.arm_eff && enemy.get_type() == "A" && enemy.get_negate_mov_eff()) {
+    return true;
+  }
+  return false;
 };
 
 // Subtracts combat damage from the unit's HP.
