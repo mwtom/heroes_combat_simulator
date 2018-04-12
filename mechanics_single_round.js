@@ -108,13 +108,15 @@ function simulate() {
         // Skill validation on enemy overrides. Use default skills if override skill is invalid.
         weap_selected = document.getElementById("EnemyWeapon").value;
         // A weapon override is valid if one of the following applies:
-        //    -The weapon's type matches the unit's weapon type, and the weapon is non-exclusive.
-        //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon, or
-        //     inheritance restrictions have been removed by the user.
+        //    -The weapon is inheritable by the character, or is upgraded/evolved from a weapon that
+        //     is inheritable by the character.
+        //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon
+        //    -Inheritance restrictions have been removed by the user.
         if (weap_selected != 0 &&
-            ((enemy_pool[i].weap == Weapons[weap_selected].type && !Weapons[weap_selected].char_lock
+            (verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].upgraded_from]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
               ||
-              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap) || Weapons[weap_selected].upgraded_from == enemy_pool[i].base_weap) || document.getElementById("RuleBreaker").checked)) {
+              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap || Weapons[weap_selected].upgraded_from == enemy_pool[i].base_weap)
+              || document.getElementById("RuleBreaker").checked) {
           weap = Weapons[weap_selected];
         }
         else {
@@ -341,13 +343,43 @@ function passes_filter_reqs(character) {
         return false;
       }
       break;
-    case "D":
-      if ((color == "R" && !document.getElementById("R Breath").checked) || (color == "B" && !document.getElementById("B Breath").checked) || (color == "G" && !document.getElementById("G Breath").checked) || (color == "N" && !document.getElementById("N Breath").checked)) {
+    case "RD":
+      if (!document.getElementById("R Breath").checked) {
         return false;
       }
       break;
-    case "B":
-      if (!document.getElementById("Bow").checked) {
+    case "BD":
+      if (!document.getElementById("B Breath").checked) {
+        return false;
+      }
+      break;
+    case "GD":
+      if (!document.getElementById("G Breath").checked) {
+        return false;
+      }
+      break;
+    case "ND":
+      if (!document.getElementById("N Breath").checked) {
+        return false;
+      }
+      break;
+    case "RB":
+      if (!document.getElementById("R Bow").checked) {
+        return false;
+      }
+      break;
+    case "BB":
+      if (!document.getElementById("B Bow").checked) {
+        return false;
+      }
+      break;
+    case "GB":
+      if (!document.getElementById("G Bow").checked) {
+        return false;
+      }
+      break;
+    case "NB":
+      if (!document.getElementById("N Bow").checked) {
         return false;
       }
       break;

@@ -80,7 +80,7 @@ function fill_skill_menus() {
   }
   set_skill_icon("player_weapon", Weapons[Characters[unit_id].base_weap]);
   // Find weapons that the current selection (the base weapon) can be refined into,
-  // and add them to the "WeaponUpgradeCell" <td> tag.
+  // and add them to the "WeaponUpgradeCell" DOM element.
   find_upgrades(Characters[unit_id].base_weap);
   // Note that iteration starts at 1, to exclude the (None) weapon.
   for (var i = 1; i < Weapons.length; i++) {
@@ -89,12 +89,12 @@ function fill_skill_menus() {
     // 2) Must not be a weapon upgrade (handled separately).
     // 3) Must not be a weapon evolution (handled separately).
     // 4) Must satisfy one of the following:
-    //      -The weapon type must match the unit's weapon type, and the weapon cannot be exclusive.
+    //      -The weapon type must be inheritable by the unit.
     //      -The "Remove Inheritance Restrictions" checkbox must be selected.
     if (i != Characters[unit_id].base_weap
         && Weapons[i].upgraded_from == 0
         && Characters[unit_id].base_weap != Weapons[i].evolved_from
-        && ((Characters[unit_id].weap == Weapons[i].type && !Weapons[i].char_lock) || document.getElementById("RuleBreaker").checked))
+        && (verify_legality(Characters[unit_id], Weapons[i]) || document.getElementById("RuleBreaker").checked))
     {
       msg = msg + "<option value='" + i + "'>" + Weapons[i].name + "</option>";
     }
@@ -317,8 +317,23 @@ function verify_legality(unit, skill) {
         return false;
       }
       break;
-    case "B":
-      if (!skill.bow_can_inherit) {
+    case "RB":
+      if (!skill.rbow_can_inherit) {
+        return false;
+      }
+      break;
+    case "BB":
+      if (!skill.bbow_can_inherit) {
+        return false;
+      }
+      break;
+    case "GB":
+      if (!skill.gbow_can_inherit) {
+        return false;
+      }
+      break;
+    case "NB":
+      if (!skill.nbow_can_inherit) {
         return false;
       }
       break;
@@ -332,8 +347,23 @@ function verify_legality(unit, skill) {
         return false;
       }
       break;
+    case "RD":
+      if (!skill.rbrth_can_inherit) {
+        return false;
+      }
+      break;
+    case "BD":
+      if (!skill.bbrth_can_inherit) {
+        return false;
+      }
+      break;
+    case "GD":
+      if (!skill.gbrth_can_inherit) {
+        return false;
+      }
+      break;
     default:
-      if ((unit.color == "R" && !skill.rbrth_can_inherit) || (unit.color == "B" && !skill.bbrth_can_inherit) || (unit.color == "G" && !skill.gbrth_can_inherit) || (unit.color == "N" && !skill.nbrth_can_inherit)) {
+      if (unit.color == "N" && !skill.nbrth_can_inherit) {
         return false;
       }
   }
@@ -369,7 +399,10 @@ function select_all_weapons() {
   document.getElementById("B Breath").checked = true;
   document.getElementById("G Breath").checked = true;
   document.getElementById("N Breath").checked = true;
-  document.getElementById("Bow").checked = true;
+  document.getElementById("R Bow").checked = true;
+  document.getElementById("B Bow").checked = true;
+  document.getElementById("G Bow").checked = true;
+  document.getElementById("N Bow").checked = true;
   document.getElementById("Dagger").checked = true;
   document.getElementById("Staff").checked = true;
 }
@@ -386,7 +419,10 @@ function deselect_all_weapons() {
   document.getElementById("B Breath").checked = false;
   document.getElementById("G Breath").checked = false;
   document.getElementById("N Breath").checked = false;
-  document.getElementById("Bow").checked = false;
+  document.getElementById("R Bow").checked = false;
+  document.getElementById("B Bow").checked = false;
+  document.getElementById("G Bow").checked = false;
+  document.getElementById("N Bow").checked = false;
   document.getElementById("Dagger").checked = false;
   document.getElementById("Staff").checked = false;
 }

@@ -480,19 +480,28 @@ Fighter.prototype.check_effective_damage = function (enemy) {
   if (this.weapon.gt_eff && enemy.get_weap() == "GT") {
     return true;
   }
-  if (this.weapon.rbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "R")) {
+  if (this.weapon.rbrth_eff && enemy.get_weap() == "RD") {
     return true;
   }
-  if (this.weapon.bbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "B")) {
+  if (this.weapon.bbrth_eff && enemy.get_weap() == "BD") {
     return true;
   }
-  if (this.weapon.gbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "G")) {
+  if (this.weapon.gbrth_eff && enemy.get_weap() == "GD") {
     return true;
   }
-  if (this.weapon.nbrth_eff && (enemy.get_weap() == "D" && enemy.get_color() == "N")) {
+  if (this.weapon.nbrth_eff && enemy.get_weap() == "ND") {
     return true;
   }
-  if (this.weapon.bow_eff && enemy.get_weap() == "B") {
+  if (this.weapon.rbow_eff && enemy.get_weap() == "RB") {
+    return true;
+  }
+  if (this.weapon.bbow_eff && enemy.get_weap() == "BB") {
+    return true;
+  }
+  if (this.weapon.gbow_eff && enemy.get_weap() == "GB") {
+    return true;
+  }
+  if (this.weapon.nbow_eff && enemy.get_weap() == "NB") {
     return true;
   }
   if (this.weapon.dgr_eff && enemy.get_weap() == "K") {
@@ -1004,8 +1013,17 @@ Fighter.prototype.check_buff_negate = function (enemy) {
     case "GT":
       weap_type_negate = enemy.get_negate_gt_buffs();
       break;
-    case "B":
-      weap_type_negate = enemy.get_negate_bow_buffs();
+    case "RB":
+      weap_type_negate = enemy.get_negate_rbow_buffs();
+      break;
+    case "BB":
+      weap_type_negate = enemy.get_negate_bbow_buffs();
+      break;
+    case "GB":
+      weap_type_negate = enemy.get_negate_gbow_buffs();
+      break;
+    case "NB":
+      weap_type_negate = enemy.get_negate_nbow_buffs();
       break;
     case "K":
       weap_type_negate = enemy.get_negate_dgr_buffs();
@@ -1013,23 +1031,17 @@ Fighter.prototype.check_buff_negate = function (enemy) {
     case "ST":
       weap_type_negate = enemy.get_negate_stf_buffs();
       break;
-    case "D":
-      if (this.get_color == "R") {
-        weap_type_negate = enemy.get_negate_rbrth_buffs();
-        break;
-      }
-      else if (this.get_color == "B") {
-        weap_type_negate = enemy.get_negate_bbrth_buffs();
-        break;
-      }
-      else if (this.get_color == "G"){
-        weap_type_negate = enemy.get_negate_gbrth_buffs();
-        break;
-      }
-      else {
-        weap_type_negate = enemy.get_negate_nbrth_buffs();
-        break;
-      }
+    case "RD":
+      weap_type_negate = enemy.get_negate_rbrth_buffs();
+      break;
+    case "BD":
+      weap_type_negate = enemy.get_negate_bbrth_buffs();
+      break;
+    case "GD":
+      weap_type_negate = enemy.get_negate_gbrth_buffs();
+      break;
+    default:
+      weap_type_negate = enemy.get_negate_nbrth_buffs();
   }
 
   switch (this.get_type()) {
@@ -1560,8 +1572,17 @@ Fighter.prototype.negates_counter = function (enemy) {
     case "GT":
       weap_type_negate = this.get_negate_gt_counter();
       break;
-    case "B":
-      weap_type_negate = this.get_negate_bow_counter();
+    case "RB":
+      weap_type_negate = this.get_negate_rbow_counter();
+      break;
+    case "BB":
+      weap_type_negate = this.get_negate_bbow_counter();
+      break;
+    case "GB":
+      weap_type_negate = this.get_negate_gbow_counter();
+      break;
+    case "NB":
+      weap_type_negate = this.get_negate_nbow_counter();
       break;
     case "K":
       weap_type_negate = this.get_negate_dgr_counter();
@@ -1569,22 +1590,17 @@ Fighter.prototype.negates_counter = function (enemy) {
     case "ST":
       weap_type_negate = this.get_negate_stf_counter();
       break;
-    case "D":
-      if (enemy.get_color == "R") {
-        weap_type_negate = this.get_negate_rbrth_counter();
-        break;
-      }
-      else if (enemy.get_color == "B") {
-        weap_type_negate = this.get_negate_bbrth_counter();
-        break;
-      }
-      else if (enemy.get_color == "G") {
-        weap_type_negate = this.get_negate_gbrth_counter();
-        break;
-      }
-      else {
-        weap_type_negate = this.get_negate_nbrth_counter();
-      }
+    case "RD":
+      weap_type_negate = this.get_negate_rbrth_counter();
+      break;
+    case "BD":
+      weap_type_negate = this.get_negate_bbrth_counter();
+      break;
+    case "GD":
+      weap_type_negate = this.get_negate_gbrth_counter();
+      break;
+    default:
+      weap_type_negate = this.get_negate_nbrth_counter();
   }
 
   switch (enemy.get_type()) {
@@ -1670,11 +1686,38 @@ Fighter.prototype.get_negate_gt_counter = function () {
   }
   return "";
 };
-Fighter.prototype.get_negate_bow_counter = function () {
-  if (this.weapon.negate_bow_counter) {
+Fighter.prototype.get_negate_rbow_counter = function () {
+  if (this.weapon.negate_rbow_counter) {
     return this.weapon.name;
   }
-  if (this.b_skill.negate_bow_counter) {
+  if (this.b_skill.negate_rbow_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_bbow_counter = function () {
+  if (this.weapon.negate_bbow_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_bbow_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_gbow_counter = function () {
+  if (this.weapon.negate_gbow_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_gbow_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_nbow_counter = function () {
+  if (this.weapon.negate_nbow_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_nbow_counter) {
     return this.b_skill.name;
   }
   return "";
@@ -2086,16 +2129,45 @@ Fighter.prototype.get_negate_gt_buffs = function () {
   return source;
   //return Math.max(this.weapon.negate_gt_buffs, this.b_skill.negate_gt_buffs);
 };
-Fighter.prototype.get_negate_bow_buffs = function () {
+Fighter.prototype.get_negate_rbow_buffs = function () {
   var source = "";
-  if (this.weapon.negate_bow_buffs) {
+  if (this.weapon.negate_rbow_buffs) {
     source = this.weapon.name;
   }
-  else if (this.b_skill.negate_bow_buffs) {
+  else if (this.b_skill.negate_rbow_buffs) {
     source = this.b_skill.name;
   }
   return source;
-  //return Math.max(this.weapon.negate_bow_buffs, this.b_skill.negate_bow_buffs);
+};
+Fighter.prototype.get_negate_bbow_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_bbow_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_bbow_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+};
+Fighter.prototype.get_negate_gbow_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_gbow_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_gbow_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+};
+Fighter.prototype.get_negate_nbow_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_nbow_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_nbow_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
 };
 Fighter.prototype.get_negate_dgr_buffs = function () {
   var source = "";
