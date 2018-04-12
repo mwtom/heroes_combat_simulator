@@ -1291,7 +1291,8 @@ Fighter.prototype.apply_precombat_dmg = function(attacker, defender, mult) {
   var def;
 
   atk = attacker.calculate_atk(true, defender, false);
-  if (attacker.get_weap() == "S" || attacker.get_weap() == "L" || attacker.get_weap() == "A" || attacker.get_weap() == "B" || attacker.get_weap() == "K") {
+  if (attacker.get_weap() == "S" || attacker.get_weap() == "L" || attacker.get_weap() == "A" ||
+      attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "K") {
     def = defender.calculate_def(false, attacker, false);
   }
   else {

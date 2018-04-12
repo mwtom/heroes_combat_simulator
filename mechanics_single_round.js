@@ -682,7 +682,8 @@ function check_counter(attacker, defender) {
     var phantom_spd_msg_def = defender.get_name() + "'s " + defender.get_skl_compare_spd_boost_source()  + " adds " + phantom_spd_defender + " Spd for ";
 
     // Windsweep handling.
-    if (attacker.get_windsweep_threshold() > 0 && (defender.get_weap() == "S" || defender.get_weap() == "L" || defender.get_weap() == "A" || defender.get_weap() == "B" || defender.get_weap() == "K")) {
+    if (attacker.get_windsweep_threshold() > 0 && (defender.get_weap() == "S" || defender.get_weap() == "L" || defender.get_weap() == "A"
+        || defender.get_weap() == "RB" || defender.get_weap() == "BB" || defender.get_weap() == "GB" || defender.get_weap() == "NB" || defender.get_weap() == "K")) {
       if (((attacker.calculate_spd(true, defender, true) + phantom_spd_attacker) - (defender.calculate_spd(false, attacker, true) + phantom_spd_defender)) >= attacker.get_windsweep_threshold()) {
         if (result) {
           if (phantom_spd_attacker > 0) {
@@ -698,7 +699,9 @@ function check_counter(attacker, defender) {
     }
 
     // Watersweep handling.
-    if (attacker.get_watersweep_threshold() > 0 && (defender.get_weap() == "GT" || defender.get_weap() == "RT" || defender.get_weap() == "BT" || defender.get_weap() == "ST" || defender.get_weap() == "D")) {
+    if (attacker.get_watersweep_threshold() > 0
+        && (defender.get_weap() == "GT" || defender.get_weap() == "RT" || defender.get_weap() == "BT" || defender.get_weap() == "ST"
+            || defender.get_weap() == "RD" || defender.get_weap() == "BD" || defender.get_weap() == "GD" || defender.get_weap() == "ND")) {
       if (((attacker.calculate_spd(true, defender, true) + phantom_spd_attacker) - (defender.calculate_spd(false, attacker, true) + phantom_spd_defender)) >= attacker.get_watersweep_threshold()) {
         if (result) {
           if (phantom_spd_attacker > 0) {
@@ -844,7 +847,9 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   }
   else {
     // Load in the defensive stat that corresponds to the enemy's weapon damage type.
-    if (attacker.get_weap() == "ST" || attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "D") {
+    if (attacker.get_weap() == "ST" || attacker.get_weap() == "RT" || attacker.get_weap() == "BT"
+        || attacker.get_weap() == "GT" || attacker.get_weap() == "RD" || attacker.get_weap() == "BD"
+        || attacker.get_weap() == "GD" || attacker.get_weap() == "ND") {
       def = defender.calculate_res(!attacker_active, attacker, true);
       defense_stat = "Res";
     }
@@ -997,7 +1002,7 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       dmg -= mitigated_temp;
     }
     // Bow/Dagger consecutive hit mitigation (Deflect Missile)
-    if (defender.get_missile_consec_hit_mitig() > 0 && (attacker.get_weap() == "B" || attacker.get_weap() == "K")) {
+    if (defender.get_missile_consec_hit_mitig() > 0 && (attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "K")) {
       combat_log += defender.get_name() + " receives " + (defender.get_missile_consec_hit_mitig() * 100) + "% less damage from consecutive hits from bows and daggers!<br>";
       mitigated_temp = Math.floor(dmg * defender.get_missile_consec_hit_mitig());
       mitigated_dmg += mitigated_temp;
@@ -1022,7 +1027,8 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
     // Ranged Cav/Armor first hit mitigation (Thani)
     if (defender.get_thani_mitigation()
         && (attacker.get_type() == "C" || attacker.get_type() == "A")
-        && (attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "K" || attacker.get_weap() == "B" || attacker.get_weap() == "ST")) {
+        && (attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "K"
+        || attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "ST")) {
       combat_log += defender.get_name() + " receives " + (defender.get_thani_mitigation() * 100) + "% less damage from the first hit from ranged Cavalry or Armored enemies!<br>";
       mitigated_temp = Math.floor(dmg * defender.get_thani_mitigation());
       mitigated_dmg += mitigated_temp;
