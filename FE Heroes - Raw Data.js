@@ -5749,7 +5749,7 @@ var data = {
       "b": 27,
       "c": 33,
       "proc": 34,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "1": {
@@ -5763,7 +5763,7 @@ var data = {
       "b": 5,
       "c": 1,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "2": {
@@ -5805,7 +5805,7 @@ var data = {
       "b": 59,
       "c": 33,
       "proc": 40,
-      "seal": 59,
+      "seal": 63,
       "reduce_cd": 1
     },
     "5": {
@@ -5819,7 +5819,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 40,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "6": {
@@ -5833,7 +5833,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 40,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "7": {
@@ -5847,7 +5847,7 @@ var data = {
       "b": 25,
       "c": 36,
       "proc": 34,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "8": {
@@ -5861,7 +5861,7 @@ var data = {
       "b": 58,
       "c": 19,
       "proc": 34,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "9": {
@@ -5875,7 +5875,7 @@ var data = {
       "b": 58,
       "c": 33,
       "proc": 34,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "10": {
@@ -5889,7 +5889,7 @@ var data = {
       "b": 26,
       "c": 30,
       "proc": 29,
-      "seal": 49,
+      "seal": 53,
       "reduce_cd": 0
     },
     "11": {
@@ -5903,7 +5903,7 @@ var data = {
       "b": 26,
       "c": 30,
       "proc": 29,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "12": {
@@ -5917,7 +5917,7 @@ var data = {
       "b": 5,
       "c": 63,
       "proc": 4,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "13": {
@@ -5959,7 +5959,7 @@ var data = {
       "b": 26,
       "c": 30,
       "proc": 28,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "16": {
@@ -6001,7 +6001,7 @@ var data = {
       "b": 16,
       "c": 36,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "19": {
@@ -6029,7 +6029,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "21": {
@@ -6071,7 +6071,7 @@ var data = {
       "b": 40,
       "c": 33,
       "proc": 32,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "24": {
@@ -6113,7 +6113,7 @@ var data = {
       "b": 5,
       "c": 63,
       "proc": 29,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "27": {
@@ -6183,7 +6183,7 @@ var data = {
       "b": 27,
       "c": 30,
       "proc": 17,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "32": {
@@ -6197,7 +6197,7 @@ var data = {
       "b": 16,
       "c": 30,
       "proc": 17,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "33": {
@@ -6267,7 +6267,7 @@ var data = {
       "b": 16,
       "c": 24,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "38": {
@@ -6351,7 +6351,7 @@ var data = {
       "b": 5,
       "c": 63,
       "proc": 29,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "44": {
@@ -6393,7 +6393,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "47": {
@@ -6407,7 +6407,7 @@ var data = {
       "b": 37,
       "c": 37,
       "proc": 34,
-      "seal": 51,
+      "seal": 55,
       "reduce_cd": 0
     },
     "48": {
@@ -6449,7 +6449,7 @@ var data = {
       "b": 27,
       "c": 30,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "51": {
@@ -6477,7 +6477,7 @@ var data = {
       "b": 50,
       "c": 34,
       "proc": 2,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "53": {
@@ -6491,7 +6491,7 @@ var data = {
       "b": 59,
       "c": 37,
       "proc": 34,
-      "seal": 51,
+      "seal": 55,
       "reduce_cd": 0
     },
     "54": {
@@ -6505,7 +6505,7 @@ var data = {
       "b": 37,
       "c": 37,
       "proc": 29,
-      "seal": 51,
+      "seal": 55,
       "reduce_cd": 0
     },
     "55": {
@@ -6589,7 +6589,7 @@ var data = {
       "b": 49,
       "c": 16,
       "proc": 27,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 2
     },
     "61": {
@@ -6673,7 +6673,7 @@ var data = {
       "b": 5,
       "c": 63,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "67": {
@@ -6701,7 +6701,7 @@ var data = {
       "b": 59,
       "c": 1,
       "proc": 9,
-      "seal": 59,
+      "seal": 63,
       "reduce_cd": 0
     },
     "69": {
@@ -6729,7 +6729,7 @@ var data = {
       "b": 16,
       "c": 36,
       "proc": 34,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "71": {
@@ -6757,7 +6757,7 @@ var data = {
       "b": 3,
       "c": 40,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "73": {
@@ -6771,7 +6771,7 @@ var data = {
       "b": 26,
       "c": 15,
       "proc": 39,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "74": {
@@ -6813,7 +6813,7 @@ var data = {
       "b": 26,
       "c": 51,
       "proc": 28,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "77": {
@@ -6827,7 +6827,7 @@ var data = {
       "b": 36,
       "c": 46,
       "proc": 32,
-      "seal": 64,
+      "seal": 68,
       "reduce_cd": 0
     },
     "78": {
@@ -6925,7 +6925,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "85": {
@@ -6939,7 +6939,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "86": {
@@ -6967,7 +6967,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "88": {
@@ -6981,7 +6981,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "89": {
@@ -7009,7 +7009,7 @@ var data = {
       "b": 40,
       "c": 33,
       "proc": 32,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "91": {
@@ -7023,7 +7023,7 @@ var data = {
       "b": 26,
       "c": 33,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "92": {
@@ -7037,7 +7037,7 @@ var data = {
       "b": 16,
       "c": 43,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "93": {
@@ -7093,7 +7093,7 @@ var data = {
       "b": 59,
       "c": 33,
       "proc": 34,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "97": {
@@ -7121,7 +7121,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 34,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "99": {
@@ -7135,7 +7135,7 @@ var data = {
       "b": 26,
       "c": 43,
       "proc": 19,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "100": {
@@ -7149,7 +7149,7 @@ var data = {
       "b": 37,
       "c": 30,
       "proc": 34,
-      "seal": 49,
+      "seal": 53,
       "reduce_cd": 0
     },
     "101": {
@@ -7163,7 +7163,7 @@ var data = {
       "b": 26,
       "c": 30,
       "proc": 34,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "102": {
@@ -7177,7 +7177,7 @@ var data = {
       "b": 16,
       "c": 30,
       "proc": 17,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "103": {
@@ -7191,7 +7191,7 @@ var data = {
       "b": 16,
       "c": 30,
       "proc": 34,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "104": {
@@ -7205,7 +7205,7 @@ var data = {
       "b": 37,
       "c": 36,
       "proc": 19,
-      "seal": 49,
+      "seal": 53,
       "reduce_cd": 0
     },
     "105": {
@@ -7233,7 +7233,7 @@ var data = {
       "b": 58,
       "c": 23,
       "proc": 19,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "107": {
@@ -7247,7 +7247,7 @@ var data = {
       "b": 51,
       "c": 23,
       "proc": 28,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "108": {
@@ -7261,7 +7261,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "109": {
@@ -7275,7 +7275,7 @@ var data = {
       "b": 16,
       "c": 36,
       "proc": 19,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "110": {
@@ -7331,7 +7331,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 32,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "114": {
@@ -7345,7 +7345,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 32,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "115": {
@@ -7359,7 +7359,7 @@ var data = {
       "b": 29,
       "c": 34,
       "proc": 34,
-      "seal": 59,
+      "seal": 63,
       "reduce_cd": 0
     },
     "116": {
@@ -7373,7 +7373,7 @@ var data = {
       "b": 5,
       "c": 65,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "117": {
@@ -7401,7 +7401,7 @@ var data = {
       "b": 51,
       "c": 33,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "119": {
@@ -7457,7 +7457,7 @@ var data = {
       "b": 16,
       "c": 34,
       "proc": 32,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "123": {
@@ -7485,7 +7485,7 @@ var data = {
       "b": 51,
       "c": 33,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "125": {
@@ -7513,7 +7513,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 34,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "127": {
@@ -7527,7 +7527,7 @@ var data = {
       "b": 16,
       "c": 31,
       "proc": 17,
-      "seal": 43,
+      "seal": 47,
       "reduce_cd": 0
     },
     "128": {
@@ -7555,7 +7555,7 @@ var data = {
       "b": 27,
       "c": 30,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "130": {
@@ -7569,7 +7569,7 @@ var data = {
       "b": 16,
       "c": 31,
       "proc": 32,
-      "seal": 68,
+      "seal": 73,
       "reduce_cd": 0
     },
     "131": {
@@ -7625,7 +7625,7 @@ var data = {
       "b": 16,
       "c": 33,
       "proc": 19,
-      "seal": 65,
+      "seal": 70,
       "reduce_cd": 0
     },
     "135": {
@@ -7723,7 +7723,7 @@ var data = {
       "b": 26,
       "c": 34,
       "proc": 19,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "142": {
@@ -7737,7 +7737,7 @@ var data = {
       "b": 5,
       "c": 63,
       "proc": 4,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     },
     "143": {
@@ -7765,7 +7765,7 @@ var data = {
       "b": 5,
       "c": 47,
       "proc": 9,
-      "seal": 58,
+      "seal": 62,
       "reduce_cd": 0
     }
   },
@@ -120242,12 +120242,12 @@ var data = {
       "arm_eff": 0,
       "range": 2,
       "type": "BT",
-      "char_lock": 0,
+      "char_lock": 1,
       "srd_can_inherit": 0,
       "lnc_can_inherit": 0,
       "axe_can_inherit": 0,
       "rt_can_inherit": 0,
-      "bt_can_inherit": 1,
+      "bt_can_inherit": 0,
       "gt_can_inherit": 0,
       "rbow_can_inherit": 0,
       "bbow_can_inherit": 0,
@@ -140875,6 +140875,53 @@ var data = {
     },
     "31": {
       "index": 31,
+      "name": "Drive Atk 1/2",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Grants Atk+2 to allies within 2 spaces during combat."
+    },
+    "32": {
+      "index": 32,
       "name": "Drive Def 1/2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -140920,8 +140967,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants allies within 2 spaces Def+2/3 during combat."
     },
-    "32": {
-      "index": 32,
+    "33": {
+      "index": 33,
       "name": "Fortify Def 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -140967,8 +141014,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def+2/3/4 through their next actions at the start of each turn."
     },
-    "33": {
-      "index": 33,
+    "34": {
+      "index": 34,
       "name": "Fortify Res 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141014,8 +141061,149 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Res+2/3/4 through their next actions at the start of each turn."
     },
-    "34": {
-      "index": 34,
+    "35": {
+      "index": 35,
+      "name": "Fortress Def 1",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": -3,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 3,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+3. Inflicts Atk-3."
+    },
+    "36": {
+      "index": 36,
+      "name": "Fortress Def 2",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": -3,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 4,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+4. Inflicts Atk-3."
+    },
+    "37": {
+      "index": 37,
+      "name": "Fortress Def 3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": -3,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 5,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Grants Def+5. Inflicts Atk-3."
+    },
+    "38": {
+      "index": 38,
       "name": "Fortress Res 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -141061,8 +141249,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3. Inflicts Atk-3."
     },
-    "35": {
-      "index": 35,
+    "39": {
+      "index": 39,
       "name": "Fortress Res 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -141108,8 +141296,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+4. Inflicts Atk-3."
     },
-    "36": {
-      "index": 36,
+    "40": {
+      "index": 40,
       "name": "Fortress Res 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": -3,
@@ -141155,8 +141343,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+5. Inflicts Atk-3."
     },
-    "37": {
-      "index": 37,
+    "41": {
+      "index": 41,
       "name": "Guidance 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141202,8 +141390,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "If unit has 100%/&geq; 50%/&geq; 0% HP, infantry and armored allies within 2 spaces can move to a space adjacent to unit."
     },
-    "38": {
-      "index": 38,
+    "42": {
+      "index": 42,
       "name": "Hardy Bearing 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141249,8 +141437,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. If unit has 100% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
-    "39": {
-      "index": 39,
+    "43": {
+      "index": 43,
       "name": "Hardy Bearing 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141296,8 +141484,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. If unit has &geq; 50% HP at start of battle, enemy skills that change attack priority are also disabled."
     },
-    "40": {
-      "index": 40,
+    "44": {
+      "index": 44,
       "name": "Hardy Bearing 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141343,8 +141531,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Disables skills that change unit's attack priority. Enemy skills that change attack priority are also disabled."
     },
-    "41": {
-      "index": 41,
+    "45": {
+      "index": 45,
       "name": "Heavy Blade 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141390,8 +141578,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 5, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "42": {
-      "index": 42,
+    "46": {
+      "index": 46,
       "name": "Heavy Blade 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141437,8 +141625,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 3, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "43": {
-      "index": 43,
+    "47": {
+      "index": 47,
       "name": "Heavy Blade 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141484,8 +141672,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit's Atk - foe's Atk &geq; 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
     },
-    "44": {
-      "index": 44,
+    "48": {
+      "index": 48,
       "name": "Hone Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141531,8 +141719,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk+2/3/4 through their next actions at the start of each turn."
     },
-    "45": {
-      "index": 45,
+    "49": {
+      "index": 49,
       "name": "Hone Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141578,8 +141766,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd+2/3/4 through their next actions at the start of each turn."
     },
-    "46": {
-      "index": 46,
+    "50": {
+      "index": 50,
       "name": "HP +3",
       "hp_boost_perm": 3,
       "atk_boost_perm": 0,
@@ -141625,8 +141813,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +3 to max HP."
     },
-    "47": {
-      "index": 47,
+    "51": {
+      "index": 51,
       "name": "HP +4",
       "hp_boost_perm": 4,
       "atk_boost_perm": 0,
@@ -141672,8 +141860,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +4 to max HP."
     },
-    "48": {
-      "index": 48,
+    "52": {
+      "index": 52,
       "name": "HP +5",
       "hp_boost_perm": 5,
       "atk_boost_perm": 0,
@@ -141719,8 +141907,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants +5 to max HP."
     },
-    "49": {
-      "index": 49,
+    "53": {
+      "index": 53,
       "name": "Iote's Shield",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141766,8 +141954,8 @@ var data = {
       "arm_can_inherit": 0,
       "desc": "Neutralizes \"effective against fliers\" bonuses."
     },
-    "50": {
-      "index": 50,
+    "54": {
+      "index": 54,
       "name": "Obstruct 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141813,8 +142001,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Prevents foes from moving through adjacent spaces while this unit's HP &geq; 90/70/50%"
     },
-    "51": {
-      "index": 51,
+    "55": {
+      "index": 55,
       "name": "Panic Ploy 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141860,8 +142048,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At start of turn, bonuses become penalties on all foes in cardinal directions with HP 5/3/1 or more lower than unit through foe's next action."
     },
-    "52": {
-      "index": 52,
+    "56": {
+      "index": 56,
       "name": "Phantom Spd 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141907,8 +142095,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +5 over actual value."
     },
-    "53": {
-      "index": 53,
+    "57": {
+      "index": 57,
       "name": "Phantom Spd 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -141954,8 +142142,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +8 over actual value."
     },
-    "54": {
-      "index": 54,
+    "58": {
+      "index": 58,
       "name": "Phantom Spd 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142001,8 +142189,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "When any skill compares this unit's Spd stat to another unit's, this unit's Spd stat is counted as +10 over actual value."
     },
-    "55": {
-      "index": 55,
+    "59": {
+      "index": 59,
       "name": "Poison Strike 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142048,8 +142236,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts 5/7/10 damage to foe after any combat this unit initiates."
     },
-    "56": {
-      "index": 56,
+    "60": {
+      "index": 60,
       "name": "Quick Riposte 1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142095,8 +142283,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 90%."
     },
-    "57": {
-      "index": 57,
+    "61": {
+      "index": 61,
       "name": "Quick Riposte 2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142142,8 +142330,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 80%."
     },
-    "58": {
-      "index": 58,
+    "62": {
+      "index": 62,
       "name": "Quick Riposte 3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142189,8 +142377,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Unit automatically makes a follow-up attack if attacked at HP &geq; 70%."
     },
-    "59": {
-      "index": 59,
+    "63": {
+      "index": 63,
       "name": "Quickened Pulse",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142236,8 +142424,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Special cooldown count -1 at start of Turn 1."
     },
-    "60": {
-      "index": 60,
+    "64": {
+      "index": 64,
       "name": "Res Ploy 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142283,8 +142471,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "At start of turn, all foes in cardinal directions with Res 1 or more lower than unit suffer Res-3/4/5 until the end of foe's next action."
     },
-    "61": {
-      "index": 61,
+    "65": {
+      "index": 65,
       "name": "Resistance +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142330,8 +142518,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+1."
     },
-    "62": {
-      "index": 62,
+    "66": {
+      "index": 66,
       "name": "Resistance +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142377,8 +142565,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+2."
     },
-    "63": {
-      "index": 63,
+    "67": {
+      "index": 67,
       "name": "Resistance +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142424,8 +142612,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Res+3."
     },
-    "64": {
-      "index": 64,
+    "68": {
+      "index": 68,
       "name": "Savage Blow 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142471,8 +142659,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "If unit initiates attack, foes within 2 spaces of target take 3/5/7 damage after combat."
     },
-    "65": {
-      "index": 65,
+    "69": {
+      "index": 69,
       "name": "Seal Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142518,8 +142706,55 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "After combat, foe suffers Atk-3/5/7 through its next action."
     },
-    "66": {
-      "index": 66,
+    "70": {
+      "index": 70,
+      "name": "Seal Spd 1/2/3",
+      "hp_boost_perm": 0,
+      "atk_boost_perm": 0,
+      "spd_boost_perm": 0,
+      "def_boost_perm": 0,
+      "res_boost_perm": 0,
+      "cd_reduce": 0,
+      "skl_compare_spd_boost": 0,
+      "distant_def_def_bonus": 0,
+      "distant_res_def_bonus": 0,
+      "close_def_bonus": 0,
+      "close_res_bonus": 0,
+      "hardy_bearing_thresh": 0,
+      "tome_consec_hit_mitig": 0,
+      "ALS_consec_hit_mitig": 0,
+      "missile_consec_hit_mitig": 0,
+      "brash_assault_thresh": 0,
+      "negate_mov_eff": 0,
+      "atk_bonus_cd_thresh": 0,
+      "bonus_cd_amt": 0,
+      "follow_up_off": 0,
+      "follow_up_def": 0,
+      "follow_up_thresh": 0,
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "dgr_can_inherit": 1,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "desc": "Inflicts Spd-3/5/7 on foe through its next action after combat."
+    },
+    "71": {
+      "index": 71,
       "name": "Speed +1",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142565,8 +142800,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+1."
     },
-    "67": {
-      "index": 67,
+    "72": {
+      "index": 72,
       "name": "Speed +2",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142612,8 +142847,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+2."
     },
-    "68": {
-      "index": 68,
+    "73": {
+      "index": 73,
       "name": "Speed +3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142659,8 +142894,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants Spd+3."
     },
-    "69": {
-      "index": 69,
+    "74": {
+      "index": 74,
       "name": "Spur Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142706,8 +142941,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Atk+2/3/4 during combat."
     },
-    "70": {
-      "index": 70,
+    "75": {
+      "index": 75,
       "name": "Spur Def 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142753,8 +142988,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Def+2/3/4 during combat."
     },
-    "71": {
-      "index": 71,
+    "76": {
+      "index": 76,
       "name": "Spur Res 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142800,8 +143035,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Res+2/3/4 during combat."
     },
-    "72": {
-      "index": 72,
+    "77": {
+      "index": 77,
       "name": "Spur Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142847,8 +143082,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Grants adjacent allies Spd+2/3/4 during combat."
     },
-    "73": {
-      "index": 73,
+    "78": {
+      "index": 78,
       "name": "Threaten Atk 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
@@ -142894,8 +143129,8 @@ var data = {
       "arm_can_inherit": 1,
       "desc": "Inflicts Atk-3/4/5 on foes within 2 spaces through their next actions at the start of each turn."
     },
-    "74": {
-      "index": 74,
+    "79": {
+      "index": 79,
       "name": "Threaten Spd 1/2/3",
       "hp_boost_perm": 0,
       "atk_boost_perm": 0,
