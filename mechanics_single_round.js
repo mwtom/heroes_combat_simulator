@@ -113,10 +113,10 @@ function simulate() {
         //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon
         //    -Inheritance restrictions have been removed by the user.
         if (weap_selected != 0 &&
-            (verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].upgraded_from]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
+            ((verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].upgraded_from]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
               ||
               (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap || Weapons[weap_selected].upgraded_from == enemy_pool[i].base_weap)
-              || document.getElementById("RuleBreaker").checked) {
+              || document.getElementById("RuleBreaker").checked)) {
           weap = Weapons[weap_selected];
         }
         else {
