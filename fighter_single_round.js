@@ -328,10 +328,6 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       atk += this.get_atk_bond();
     }
 
-    if (this.conditional_effects) {
-      atk += this.get_cond_atk_bonus();
-    }
-
     // If the unit in question is the attacker, make sure to include offensive
     // atk bonuses.
     if (attacker_flag) {
@@ -339,12 +335,18 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         atk += this.get_distant_atk_off_bonus();
       }
+      if (this.conditional_effects) {
+        atk += this.get_cond_atk_off_bonus();
+      }
     }
     // If the unit is not the attacker, include defensive atk bonuses.
     else {
       atk += this.get_atk_boost_def();
       if (enemy_range > 1) {
         atk += this.get_distant_atk_def_bonus();
+      }
+      if (this.conditional_effects) {
+        atk += this.get_cond_atk_def_bonus();
       }
     }
 
@@ -568,10 +570,6 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       e_spd += this.get_spd_bond();
     }
 
-    if (this.conditional_effects) {
-      e_spd += this.get_cond_spd_bonus();
-    }
-
     // If the unit in question is attacking, make sure to include
     // offensive speed bonuses.
     if (attacker_flag) {
@@ -579,12 +577,18 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_spd += this.get_distant_spd_off_bonus();
       }
+      if (this.conditional_effects) {
+        e_spd += this.get_cond_spd_off_bonus();
+      }
     }
     // If the unit is not attacking, include defensive speed bonuses.
     else {
       e_spd += this.get_spd_boost_def();
       if (enemy_range > 1) {
         e_spd += this.get_distant_spd_def_bonus();
+      }
+      if (this.conditional_effects) {
+        e_spd += this.get_cond_spd_def_bonus();
       }
     }
 
@@ -641,6 +645,9 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_def += this.get_distant_def_off_bonus();
       }
+      if (this.conditional_effects) {
+        e_def += this.get_cond_def_off_bonus();
+      }
     }
     // If the unit in question is defending, add defensive def bonuses.
     else {
@@ -656,10 +663,9 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       if (enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") {
         e_def += this.get_def_boost_def_vs_ALS();
       }
-    }
-
-    if (this.conditional_effects) {
-      e_def += this.get_cond_def_bonus();
+      if (this.conditional_effects) {
+        e_def += this.get_cond_def_def_bonus();
+      }
     }
 
     // If the unit in question is at full HP, and has an effect that increases Def at full HP, include it.
@@ -722,16 +728,15 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       e_res += this.get_res_bond();
     }
 
-    if (this.conditional_effects) {
-      e_res += this.get_cond_res_bonus();
-    }
-
     // If the unit in question is attacking, make sure to include
     // offensive res bonuses.
     if (attacker_flag == 1) {
       e_res += this.get_res_boost_off();
       if (enemy_range > 1) {
         e_res += this.get_distant_res_off_bonus();
+      }
+      if (this.conditional_effects) {
+        e_res += this.get_cond_res_off_bonus();
       }
     }
     // If the unit in question is defending, make sure to include
@@ -744,11 +749,14 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       if (enemy_range == 1) {
         e_res += this.get_close_res_bonus();
       }
-
-      // If the unit gets a Res bonus when below a certain HP threshold, apply it.
-      if (this.start_HP / this.hp_max <= this.a_skill.brazen_res_thresh) {
-        e_res += this.a_skill.brazen_res_boost;
+      if (this.conditional_effects) {
+        e_res += this.get_cond_res_def_bonus();
       }
+    }
+
+    // If the unit gets a Res bonus when below a certain HP threshold, apply it.
+    if (this.start_HP / this.hp_max <= this.a_skill.brazen_res_thresh) {
+      e_res += this.a_skill.brazen_res_boost;
     }
 
     // If the unit in question is at full HP, and has an effect that increases Res at full HP, include it.
@@ -830,11 +838,6 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       property_names = new Array("fire_boost_bonus", "wind_boost_bonus", "earth_boost_bonus", "water_boost_bonus");
       report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
     }
-    // Reporting for Conditional Effects.
-    if (this.conditional_effects) {
-      property_names = new Array("cond_atk_bonus", "cond_spd_bonus", "cond_def_bonus", "cond_res_bonus");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-    }
     // Reporting for bonuses granted when this unit initiates combat.
     if (attacker_flag) {
       property_names = new Array("atk_boost_off", "spd_boost_off", "def_boost_off", "res_boost_off");
@@ -844,6 +847,13 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       if (enemy_range > 1) {
         property_names = new Array("distant_atk_off_bonus", "distant_spd_off_bonus", "distant_def_off_bonus", "distant_res_off_bonus");
         report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      }
+
+      // Reporting for Conditional Effects.
+      if (this.conditional_effects) {
+        property_names = new Array("cond_atk_off_bonus", "cond_spd_off_bonus", "cond_def_off_bonus", "cond_res_off_bonus");
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
       }
     }
     // Reporting for bonuses granted when the enemy initiates combat.
@@ -869,6 +879,13 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
         if ((enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") && this.get_def_boost_def_vs_ALS() > 0) {
           report += this.get_name() + " receives a combat buff of Def+" + this.get_def_boost_def_vs_ALS() + " from " + this.weapon.name + "!<br />";
         }
+      }
+
+      // Reporting for Conditional Effects.
+      if (this.conditional_effects) {
+        property_names = new Array("cond_atk_def_bonus", "cond_spd_def_bonus", "cond_def_def_bonus", "cond_res_def_bonus");
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
       }
     }
     // SPECIAL CASE! Tyrfing provides Def+4 when the unit's HP is 50% or lower
@@ -2389,17 +2406,29 @@ Fighter.prototype.get_def_bond = function () {
 Fighter.prototype.get_res_bond = function () {
   return this.a_skill.res_bond + this.weapon.res_bond;
 };
-Fighter.prototype.get_cond_atk_bonus = function () {
-  return this.weapon.cond_atk_bonus;
+Fighter.prototype.get_cond_atk_off_bonus = function () {
+  return this.weapon.cond_atk_off_bonus + this.a_skill.cond_atk_off_bonus;
 };
-Fighter.prototype.get_cond_spd_bonus = function () {
-  return this.weapon.cond_spd_bonus;
+Fighter.prototype.get_cond_spd_off_bonus = function () {
+  return this.weapon.cond_spd_off_bonus + this.a_skill.cond_spd_off_bonus;
 };
-Fighter.prototype.get_cond_def_bonus = function () {
-  return this.weapon.cond_def_bonus;
+Fighter.prototype.get_cond_def_off_bonus = function () {
+  return this.weapon.cond_def_off_bonus + this.a_skill.cond_def_off_bonus;
 };
-Fighter.prototype.get_cond_res_bonus = function () {
-  return this.weapon.cond_res_bonus;
+Fighter.prototype.get_cond_res_off_bonus = function () {
+  return this.weapon.cond_res_off_bonus + this.a_skill.cond_res_off_bonus;
+};
+Fighter.prototype.get_cond_atk_def_bonus = function () {
+  return this.weapon.cond_atk_def_bonus + this.a_skill.cond_atk_def_bonus;
+};
+Fighter.prototype.get_cond_spd_def_bonus = function () {
+  return this.weapon.cond_spd_def_bonus + this.a_skill.cond_spd_def_bonus;
+};
+Fighter.prototype.get_cond_def_def_bonus = function () {
+  return this.weapon.cond_def_def_bonus + this.a_skill.cond_def_def_bonus;
+};
+Fighter.prototype.get_cond_res_def_bonus = function () {
+  return this.weapon.cond_res_def_bonus + this.a_skill.cond_res_def_bonus;
 };
 Fighter.prototype.get_thani_mitigation = function () {
   return this.weapon.thani_mitigation;

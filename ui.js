@@ -443,8 +443,9 @@ function deselect_all_mov_types() {
 }
 
 function check_special_effects() {
-  var special_effect_text = "None.";
-  var Weapon;
+  var special_effect_text = "";
+  var cond_effect_found = false;
+  var Weapon, A_Skill;
   if (Weapons[parseInt(document.getElementById("Weapon").value)].cond_effect && parseInt(document.getElementById("WeaponUpgrade").value) == 0) {
     Weapon = Weapons[parseInt(document.getElementById("Weapon").value)];
   }
@@ -452,8 +453,25 @@ function check_special_effects() {
     Weapon = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)];
   }
   if (typeof(Weapon) != "undefined") {
-    special_effect_text = Weapon.name + ": " + Weapon.cond_eff_text;
+    cond_effect_found = true;
+    special_effect_text += "<b>" + Weapon.name + "</b>: " + Weapon.cond_eff_text;
   }
+
+  if (A_Passives[parseInt(document.getElementById("A").value)].cond_effect) {
+    A_Skill = A_Passives[parseInt(document.getElementById("A").value)];
+  }
+  if (typeof(A_Skill) != "undefined") {
+    if (cond_effect_found) {
+      special_effect_text += "<br />";
+    }
+    cond_effect_found = true;
+    special_effect_text += "<b>" + A_Skill.name + "</b>: " + A_Skill.cond_eff_text;
+  }
+
+  if (!cond_effect_found) {
+    special_effet_text = "None.";
+  }
+
   document.getElementById("conditional_effect_details").innerHTML = special_effect_text;
 }
 
