@@ -377,6 +377,8 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       }
     }
 
+    // If this unit's weapon has an effect that adds enemy debuffs to atk,
+    // add the enemy debuffs to atk.
     if (this.weapon.enemy_debuffs_to_atk) {
       if (enemy.get_atk_debuff() > 0) {
         atk += enemy.get_atk_debuff();
@@ -391,6 +393,10 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
         atk += enemy.get_res_debuff();
       }
     }
+
+    // If the enemy unit has an effect that lowers this unit's atk in
+    // combat, apply it.
+    atk -= enemy.inflicts_combat_atk_penalty(this);
   }
 
   // If the atk value is negative, and the unit does not have a -blade tome,
@@ -482,16 +488,16 @@ Fighter.prototype.check_effective_damage = function (enemy) {
   if (this.weapon.gt_eff && enemy.get_weap() == "GT") {
     return true;
   }
-  if (this.weapon.rbrth_eff && enemy.get_weap() == "RD") {
+  if (this.weapon.rbrth_eff && (enemy.get_weap() == "RD" || enemy.weapon.loptous)) {
     return true;
   }
-  if (this.weapon.bbrth_eff && enemy.get_weap() == "BD") {
+  if (this.weapon.bbrth_eff && (enemy.get_weap() == "BD" || enemy.weapon.loptous)) {
     return true;
   }
-  if (this.weapon.gbrth_eff && enemy.get_weap() == "GD") {
+  if (this.weapon.gbrth_eff && (enemy.get_weap() == "GD" || enemy.weapon.loptous)) {
     return true;
   }
-  if (this.weapon.nbrth_eff && enemy.get_weap() == "ND") {
+  if (this.weapon.nbrth_eff && (enemy.get_weap() == "ND" || enemy.weapon.loptous)) {
     return true;
   }
   if (this.weapon.rbow_eff && enemy.get_weap() == "RB") {
@@ -935,6 +941,10 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
         bonus_atk = 0;
       }
     }
+    // Special case! Reporting for when this unit's Loptous inflicts an Atk penalty on the enemy.
+    if (enemy.weapon.loptous && (!this.weapon.rbrth_eff && !this.weapon.bbrth_eff && !this.weapon.gbrth_eff && !this.weapon.nbrth_eff)) {
+      report += this.get_name() + " receives a Atk-6 penalty due to not having a dragon effective weapon from " + enemy.name + "'s " + enemy.weapon.name + "!<br />";
+    }
   }
 
   var atk = this.calculate_atk(attacker_flag, enemy, in_combat);
@@ -1361,6 +1371,19 @@ Fighter.prototype.double_lion_applies = function () {
     return true;
   }
   return false;
+};
+// Determines the magnitude of the atk penalty that this unit inflicts on
+// his/her enemy.
+Fighter.prototype.inflicts_combat_atk_penalty = function (enemy) {
+  var penalty = 0;
+
+  // If the user has Loptous, then a -6 Atk penalty is inflicted on all foes that do not
+  // have dragon-effective weaponry.
+  if (this.weapon.loptous && (!enemy.weapon.rbrth_eff && !enemy.weapon.bbrth_eff && !enemy.weapon.gbrth_eff && !enemy.weapon.nbrth_eff)) {
+    penalty = 6;
+  }
+
+  return penalty;
 };
 // Calculates the permanent raw atk of the unit, active in all scenarios.
 Fighter.prototype.get_perm_atk = function () {
