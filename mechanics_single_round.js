@@ -44,6 +44,7 @@ function simulate() {
   Attacker.set_assumed_def_buff(document.getElementById("DefBuff").value);
   Attacker.set_assumed_res_buff(document.getElementById("ResBuff").value);
   Attacker.set_adj_allies(document.getElementById("AdjAllies").value);
+  Attacker.set_two_space_allies(document.getElementById("TwoSpaceAllies").value);
 
   Attacker.set_assumed_atk_boost(document.getElementById("AtkBonus").value);
   Attacker.set_assumed_spd_boost(document.getElementById("SpdBonus").value);
@@ -184,6 +185,7 @@ function simulate() {
       Defender.set_assumed_def_buff(document.getElementById("EnemyDefBuff").value);
       Defender.set_assumed_res_buff(document.getElementById("EnemyResBuff").value);
       Defender.set_adj_allies(document.getElementById("EnemyAdjAllies").value);
+      Defender.set_two_space_allies(document.getElementById("EnemyTwoSpaceAllies").value);
 
       Defender.set_assumed_atk_boost(document.getElementById("EnemyAtkBonus").value);
       Defender.set_assumed_spd_boost(document.getElementById("EnemySpdBonus").value);

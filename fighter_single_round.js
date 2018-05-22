@@ -187,8 +187,9 @@ class Fighter {
     this.assumed_def_debuff = 0;
     this.assumed_res_debuff = 0;
 
-    // adjacent allies
+    // nearby allies
     this.adj_allies = 0;
+    this.two_space_allies = 0;
 
     // Calculate and store the unit's maximum HP.
     this.hp += this.weapon.hp_boost_perm + this.a_skill.hp_boost_perm + this.seal.hp_boost_perm;
@@ -316,6 +317,11 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     // If the unit has a inverse spur effect, add 2x adjacent allies to atk.
     if (this.get_inverse_spur() == 1) {
       atk += this.get_adj_allies() * 2;
+    }
+
+    // Apply effects that boost atk based on enemies in 2 spaces.
+    if (this.get_atk_bonus_nearby_ally() > 0) {
+      atk += this.get_atk_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
     }
 
     // If the unit's HP is 3+ higher than the enemy's, apply any Fire Boost bonuses.
@@ -553,6 +559,11 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       e_spd += this.get_adj_allies() * 2;
     }
 
+    // Apply effects that boost spd based on enemies in 2 spaces.
+    if (this.get_spd_bonus_nearby_ally() > 0) {
+      e_spd += this.get_spd_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
+    }
+
     // If the unit gets a Spd bonus when the enemy is at full HP, apply it.
     if (enemy.get_start_HP() == enemy.get_HP_max()) {
       e_spd += this.get_spd_boost_enemy_full_hp();
@@ -633,6 +644,11 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     // If the unit has a inverse spur effect, add 2x adjacent allies to effective def.
     if (this.get_inverse_spur() == 1) {
       e_def += this.get_adj_allies() * 2;
+    }
+
+    // Apply effects that boost def based on enemies in 2 spaces.
+    if (this.get_def_bonus_nearby_ally() > 0) {
+      e_def += this.get_def_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
     }
 
     // Apply any Earth Boost bonuses, if necessary.
@@ -724,6 +740,11 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       e_res += this.get_adj_allies() * 2;
     }
 
+    // Apply effects that boost spd based on enemies in 2 spaces.
+    if (this.get_res_bonus_nearby_ally() > 0) {
+      e_res += this.get_res_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
+    }
+
     // Apply any Water Boost bonuses, if necessary.
     if ((this.get_start_HP() - enemy_start_hp) >= 3) {
       e_res += this.get_water_boost_bonus();
@@ -801,6 +822,9 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
   // Atk, Spd, Def, Res.
   var property_names;
 
+  // The magnitude of the buff.
+  var magnitudes;
+
   // Reporting for a reversed buff status effect.
   if (this.buffs_reversed) {
     report += this.get_name() + "'s field buffs are reversed this combat!<br>";
@@ -813,22 +837,26 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
     // Reporting for full HP stat bonuses.
     if (this.get_start_HP() == this.get_HP_max()) {
       property_names = new Array("atk_boost_full_hp", "spd_boost_full_hp", "def_boost_full_hp", "res_boost_full_hp");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
     }
     // Reporting for <100% HP stat bonuses.
     else {
       property_names = new Array("atk_boost_damaged", "spd_boost_damaged", "def_boost_damaged", "res_boost_damaged");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
     }
     // Reporting for "Brazen" stat bonuses.
     if (this.start_HP / this.hp_max <= .8) {
       property_names = new Array("brazen_atk_boost", "brazen_spd_boost", "brazen_def_boost", "brazen_res_boost");
-      report += this.combat_buff_reporting (this.get_name(), this.a_skill, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting (this.get_name(), this.a_skill, property_names, magnitudes);
     }
     // Reporting for stat bonuses granted when enemy is at full HP.
     if (enemy.get_start_HP() == enemy.get_HP_max()) {
       property_names = new Array("atk_boost_enemy_full_hp", "spd_boost_enemy_full_hp", "def_boost_enemy_full_hp", "res_boost_enemy_full_hp");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
     }
     // Reporting for adjacency stat bonus effects (inverse spur, bonds).
     if (this.get_adj_allies() > 0) {
@@ -836,49 +864,66 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
         report += this.get_name() + " receives a combat buff of Atk/Spd/Def/Res+" + this.get_adj_allies() * 2 + " from " + this.weapon.name + "!<br />";
       }
       property_names = new Array("atk_bond", "spd_bond", "def_bond", "res_bond");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
+    }
+    // Reporting for nearby stat bonus effects (Inverse drives).
+    if (this.get_atk_bonus_nearby_ally() > 0 || this.get_spd_bonus_nearby_ally() > 0 || this.get_def_bonus_nearby_ally() > 0 || this.get_res_bonus_nearby_ally() > 0) {
+      if (this.get_adj_allies() + this.get_two_space_allies() > 0) {
+        property_names = new Array("atk_bonus_nearby_ally", "spd_bonus_nearby_ally", "def_bonus_nearby_ally", "res_bonus_nearby_ally");
+        var mag = Math.min((this.get_adj_allies() + this.get_two_space_allies()), 3);
+        magnitudes = new Array(mag, mag, mag, mag);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+      }
     }
     // Reporting for "[Element] Boost" effects.
     if (this.get_start_HP() - enemy.get_start_HP() >= 3) {
       property_names = new Array("fire_boost_bonus", "wind_boost_bonus", "earth_boost_bonus", "water_boost_bonus");
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
     }
     // Reporting for bonuses granted when this unit initiates combat.
     if (attacker_flag) {
       property_names = new Array("atk_boost_off", "spd_boost_off", "def_boost_off", "res_boost_off");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
 
       if (enemy_range > 1) {
         property_names = new Array("distant_atk_off_bonus", "distant_spd_off_bonus", "distant_def_off_bonus", "distant_res_off_bonus");
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
       }
 
       // Reporting for Conditional Effects.
       if (this.conditional_effects) {
         property_names = new Array("cond_atk_off_bonus", "cond_spd_off_bonus", "cond_def_off_bonus", "cond_res_off_bonus");
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
       }
     }
     // Reporting for bonuses granted when the enemy initiates combat.
     else {
       property_names = new Array("atk_boost_def", "spd_boost_def", "def_boost_def", "res_boost_def");
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+      magnitudes = new Array(1, 1, 1, 1);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
 
       if (enemy_range > 1) {
         property_names = new Array("distant_atk_def_bonus", "distant_spd_def_bonus", "distant_def_def_bonus", "distant_res_def_bonus");
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names);
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names, magnitudes);
       }
       else {
         property_names = new Array("close_atk_def_bonus", "close_spd_def_bonus", "close_def_bonus", "close_res_bonus");
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names);
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names, magnitudes);
 
         // SPECIAL CASE! Vidofnir provides Def+7 when an enemy wielding an Axe, Lance, or Sword
         // initiates combat.
@@ -890,8 +935,9 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       // Reporting for Conditional Effects.
       if (this.conditional_effects) {
         property_names = new Array("cond_atk_def_bonus", "cond_spd_def_bonus", "cond_def_def_bonus", "cond_res_def_bonus");
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names);
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
       }
     }
     // SPECIAL CASE! Tyrfing provides Def+4 when the unit's HP is 50% or lower
@@ -1027,32 +1073,35 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
     -properties: A 4-element array that holds the names of the properties that
                  potentially hold the values of combat buffs. The properties
                  should be in the order Atk, Spd, Def, Res.
+    -magnitude: A multiplier for each combat buff. Usually 1, but sometimes
+                a combat buff will scale based on an unkown factor (ex. Inverse
+                Drives).
 
    Output:
     -String detailing all combat buffs received from the skill.
 */
-Fighter.prototype.combat_buff_reporting = function (unit_name, skill, properties) {
+Fighter.prototype.combat_buff_reporting = function (unit_name, skill, properties, magnitudes) {
   var output = "";
   if (skill[properties[0]] > 0) {
-    output += "Atk+" + skill[properties[0]];
+    output += "Atk+" + skill[properties[0]]*magnitudes[0];
   }
   if (skill[properties[1]] > 0) {
     if (output != "") {
       output += "/";
     }
-    output += "Spd+" + skill[properties[1]];
+    output += "Spd+" + skill[properties[1]]*magnitudes[1];
   }
   if (skill[properties[2]] > 0) {
     if (output != "") {
       output += "/";
     }
-    output += "Def+" + skill[properties[2]];
+    output += "Def+" + skill[properties[2]]*magnitudes[2];
   }
   if (skill[properties[3]] > 0) {
     if (output != "") {
       output += "/";
     }
-    output += "Res+" + skill[properties[3]];
+    output += "Res+" + skill[properties[3]]*magnitudes[3];
   }
   if (output != "") {
     output = unit_name + " receives a combat buff of " + output + " from " + skill.name + "!<br />";
@@ -2120,6 +2169,21 @@ Fighter.prototype.get_inverse_spur = function () {
 Fighter.prototype.get_adj_allies = function () {
   return this.adj_allies;
 };
+Fighter.prototype.get_two_space_allies = function () {
+  return this.two_space_allies;
+};
+Fighter.prototype.get_atk_bonus_nearby_ally = function () {
+  return this.weapon.atk_bonus_nearby_ally;
+};
+Fighter.prototype.get_spd_bonus_nearby_ally = function () {
+  return this.weapon.spd_bonus_nearby_ally;
+};
+Fighter.prototype.get_def_bonus_nearby_ally = function () {
+  return this.weapon.def_bonus_nearby_ally;
+};
+Fighter.prototype.get_res_bonus_nearby_ally = function () {
+  return this.weapon.res_bonus_nearby_ally;
+};
 Fighter.prototype.get_earth_boost_bonus = function () {
   return this.a_skill.earth_boost_bonus;
 };
@@ -2587,6 +2651,15 @@ Fighter.prototype.set_adj_allies = function (val) {
     val = parseInt(val);
   }
   this.adj_allies = val;
+};
+Fighter.prototype.set_two_space_allies = function (val) {
+  if (val == "") {
+    val = 0;
+  }
+  else {
+    val = parseInt(val);
+  }
+  this.two_space_allies = val;
 };
 Fighter.prototype.set_next_atk_bonus_dmg = function (val) {
   this.next_atk_bonus_dmg = val;
