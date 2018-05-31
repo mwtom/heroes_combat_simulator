@@ -1708,6 +1708,10 @@ Fighter.prototype.get_skill_dmg_bonus = function() {
   if (dmg > 0) {
     combat_log += this.name + "'s " + this.weapon.name + " adds +" + dmg + " damage to his/her attack.<br>";
   }
+  if (this.b_skill.skill_dmg_bonus > 0) {
+    dmg += this.b_skill.skill_dmg_bonus;
+    combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.skill_dmg_bonus + " damage to his/her attack.<br>";
+  }
   if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.proc.activates_on_hit) {
     dmg += this.b_skill.wrath_skill_dmg_bonus;
     combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
