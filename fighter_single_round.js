@@ -400,6 +400,23 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       }
     }
 
+    // If this unit's weapon has an effect that adds enemy buffs to atk,
+    // add the enemy buffs to atk.
+    if (this.weapon.enemy_buffs_to_atk) {
+      if (enemy.get_atk_buff() > 0) {
+        atk += enemy.get_atk_buff();
+      }
+      if (enemy.get_spd_buff() > 0) {
+        atk += enemy.get_spd_buff();
+      }
+      if (enemy.get_def_buff() > 0) {
+        atk += enemy.get_def_buff();
+      }
+      if (enemy.get_res_buff() > 0) {
+        atk += enemy.get_res_buff();
+      }
+    }
+
     // If the enemy unit has an effect that lowers this unit's atk in
     // combat, apply it.
     atk -= enemy.inflicts_combat_atk_penalty(this);
@@ -984,6 +1001,26 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
 
       if (bonus_atk > 0) {
         report += this.get_name() + " receives bonus Atk = the total value of the enemy's debuffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
+        bonus_atk = 0;
+      }
+    }
+    // Reporting for enemy buff to Atk conversion.
+    if (this.weapon.enemy_buffs_to_atk) {
+      if (enemy.get_atk_buff() > 0) {
+        bonus_atk += enemy.get_atk_buff();
+      }
+      if (enemy.get_spd_buff() > 0) {
+        bonus_atk += enemy.get_spd_buff();
+      }
+      if (enemy.get_def_buff() > 0) {
+        bonus_atk += enemy.get_spd_buff();
+      }
+      if (enemy.get_res_buff() > 0) {
+        bonus_atk += enemy.get_res_buff();
+      }
+
+      if (bonus_atk > 0) {
+        report += this.get_name() + " receives bonus Atk = the total value of the enemy's buffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
         bonus_atk = 0;
       }
     }
@@ -1728,6 +1765,18 @@ Fighter.prototype.get_light_brand_dmg_bonus = function (enemy, attacker_active) 
     return this.weapon.light_brand_bonus;
   }
   return 0;
+};
+Fighter.prototype.get_excess_spd_to_dmg = function (enemy, attacker_active) {
+  var own_spd = this.calculate_spd(attacker_active, enemy, true) + this.get_skl_compare_spd_boost();
+  var enemy_spd = enemy.calculate_spd(!attacker_active, this, true) + enemy.get_skl_compare_spd_boost();
+  bonus_dmg = 0;
+  if (this.weapon.excess_spd_to_dmg > 0 && own_spd > enemy_spd) {
+    bonus_dmg = Math.min(7, Math.floor((own_spd - enemy_spd) * .7));
+  }
+  if (bonus_dmg > 0) {
+    combat_log += this.name + "'s " + this.weapon.name + " adds +" + bonus_dmg + " damage to his/her attack.<br>";
+  }
+  return bonus_dmg;
 };
 Fighter.prototype.get_heal_after_attack = function() {
   return this.weapon.heal_after_attack;

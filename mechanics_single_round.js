@@ -960,6 +960,9 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
   if (attacker_skill_procced) {
     dmg += attacker.get_skill_dmg_bonus();
   }
+  // Apply bonus damage from effects like Giga Excalibur, which are assumed to be
+  // unaffected by enemy defenses.
+  dmg += attacker.get_excess_spd_to_dmg(defender, attacker_active);
   // Apply bonus damage from Light Brand, which is not affected by enemy defenses.
   dmg += attacker.get_light_brand_dmg_bonus(defender, attacker_active);
 
