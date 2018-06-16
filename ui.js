@@ -95,7 +95,7 @@ function fill_skill_menus() {
         && Weapons[i].upgraded_from == 0
         && Characters[unit_id].base_weap != Weapons[i].evolved_from
         && (verify_legality(Characters[unit_id], Weapons[i]) || document.getElementById("RuleBreaker").checked)
-        && (!Weapons[i].TCC || document.getElementById("tcc").checked))
+        && (!Weapons[i].tcc || document.getElementById("tcc").checked))
     {
       msg = msg + "<option value='" + i + "'>" + Weapons[i].name + "</option>";
     }
