@@ -952,6 +952,14 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
     attacker_skill_procced = true;
   }
 
+  // ODIN'S GRIMOIRE HANDLING - REMOVE LATER.
+  if (attacker_skill_procced && attacker.weapon.rend_heaven) {
+    var grimoire_dmg = Math.floor(defender.calculate_atk(!attacker_active, attacker, true)*.5);
+    combat_log += "Odin's Grimoire adds +" + grimoire_dmg + " to his attack upon Special Activation!<br>";
+    dmg += grimoire_dmg;
+  }
+  // END OF ODIN'S GRIMOIRE HANDLING.
+
   // If damage is less than 0, make it 0.
   if (dmg < 0) {
     dmg = 0;

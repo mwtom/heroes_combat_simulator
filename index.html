@@ -90,7 +90,7 @@ $(document).ready(function() {
   });
   // Reload available skills when the Inheritance Breaker
   // checkbox is clicked.
-  $("#RuleBreaker").click(function() {
+  $("#RuleBreaker, #tcc").click(function() {
     fill_skill_menus();
     $(".LegAlly").toggle(false);
   });
@@ -395,6 +395,11 @@ $(document).ready(function() {
           <input type="checkbox" id="RuleBreaker" />
           <label for="RuleBreaker">
             Break Inheritance Restrictions
+          </label>
+          <br />
+          <input type="checkbox" id="tcc" />
+          <label for="tcc">
+            Theorycrafter's Corner (enables pre-created customized skills)
           </label>
         </div>
       </div>
@@ -916,31 +921,42 @@ $(document).ready(function() {
               </select>
             </div>
           </div>
-          <div class="row EnemyLegAlly">
-            <div class="cell row_header">
-              Leg. Enemy 1:
+          <div class="EnemyLegAlly">
+            <div class="row">
+              <div class="cell row_header">
+                Leg. Enemy 1:
+              </div>
+              <div class="cell skill_icon">
+                <!-- This field is intentionally left blank. -->
+              </div>
+              <div class="cell">
+                <select id="EnemyLegAlly1" class="Customizer">
+                </select>
+              </div>
             </div>
-            <div class="cell">
-              <select id="EnemyLegAlly1" class="Customizer">
-              </select>
+            <div class="row">
+              <div class="cell row_header">
+                Leg. Enemy 2:
+              </div>
+              <div class="cell skill_icon">
+                <!-- This field is intentionally left blank. -->
+              </div>
+              <div class="cell">
+                <select id="EnemyLegAlly2" class="Customizer">
+                </select>
+              </div>
             </div>
-          </div>
-          <div class="row EnemyLegAlly">
-            <div class="cell row_header">
-              Leg. Enemy 2:
-            </div>
-            <div class="cell">
-              <select id="EnemyLegAlly2" class="Customizer">
-              </select>
-            </div>
-          </div>
-          <div class="row EnemyLegAlly">
-            <div class="cell row_header">
-              Leg. Enemy 3:
-            </div>
-            <div class="cell">
-              <select id="EnemyLegAlly3" class="Customizer">
-              </select>
+            <div class="row">
+              <div class="cell row_header">
+                Leg. Enemy 3:
+              </div>
+              <div class="cell skill_icon">
+                <!-- This field is intentionally left blank. -->
+              </div>
+              <div class="cell">
+                <select id="EnemyLegAlly3" class="Customizer">
+                </select>
+              </div>
             </div>
           </div>
         </div>
