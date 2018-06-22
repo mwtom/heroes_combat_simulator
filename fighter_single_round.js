@@ -856,6 +856,7 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       property_names = new Array("atk_boost_full_hp", "spd_boost_full_hp", "def_boost_full_hp", "res_boost_full_hp");
       magnitudes = new Array(1, 1, 1, 1);
       report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
     }
     // Reporting for <100% HP stat bonuses.
     else {
@@ -2160,16 +2161,16 @@ Fighter.prototype.get_cd_charge_hp_thresh = function (skill) {
   return skill.cd_charge_hp_thresh;
 };
 Fighter.prototype.get_atk_boost_full_hp = function () {
-  return this.weapon.atk_boost_full_hp;
+  return this.weapon.atk_boost_full_hp + this.a_skill.atk_boost_full_hp;
 };
 Fighter.prototype.get_spd_boost_full_hp = function () {
-  return this.weapon.spd_boost_full_hp;
+  return this.weapon.spd_boost_full_hp + this.a_skill.spd_boost_full_hp;
 };
 Fighter.prototype.get_def_boost_full_hp = function () {
-  return this.weapon.def_boost_full_hp;
+  return this.weapon.def_boost_full_hp + this.a_skill.def_boost_full_hp;
 };
 Fighter.prototype.get_res_boost_full_hp = function () {
-  return this.weapon.res_boost_full_hp;
+  return this.weapon.res_boost_full_hp + this.a_skill.res_boost_full_hp;
 };
 Fighter.prototype.get_burn_full_hp = function () {
   return this.weapon.burn_full_hp;
