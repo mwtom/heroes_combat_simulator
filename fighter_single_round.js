@@ -198,7 +198,7 @@ class Fighter {
     // Set up the unit's special cooldown.
     this.cooldown = 0;
     this.reset_cooldown();
-    //this.cooldown -= this.seal.cd_reduce;
+    this.cooldown -= this.seal.cd_reduce;
 
     // damage_dealt is a logging variable, used to report amount of damage dealt
     // by the unit during combat (for % HP calculations).
@@ -1453,6 +1453,12 @@ Fighter.prototype.def_follow_up_inhibition_applies = function (attacker_active, 
     return false;
   }
 };
+Fighter.prototype.cond_follow_up_inhibition_applies = function (attacker_active, enemy) {
+  if (this.conditional_effects) {
+    return this.weapon.cond_foe_follow_up_inhibit;
+  }
+  return false;
+};
 Fighter.prototype.double_lion_applies = function () {
   if (this.weapon.double_lion && this.start_HP == this.hp_max) {
     return true;
@@ -1541,7 +1547,7 @@ Fighter.prototype.revive = function() {
   this.reset_debuffs();
   this.reset_buffs();
   this.damage_dealt = 0;
-  //this.cooldown -= this.seal.cd_reduce;
+  this.cooldown -= this.seal.cd_reduce;
 };
 
 /* TO DO: See if the instances of these functions can be replaced with the set methods below. */

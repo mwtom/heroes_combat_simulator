@@ -752,6 +752,9 @@ function check_follow_up(unit1, unit2, unit1_active, can_counter) {
   if (unit2.def_follow_up_inhibition_applies(!unit1_active, unit1, true)) {
     inhibitor += 1;
   }
+  if (unit2.cond_follow_up_inhibition_applies(!unit1_active, unit1)) {
+    inhibitor += 1;
+  }
   if (unit2.breaker_applies(unit1.get_weap()) > 0) {
     inhibitor += unit2.breaker_applies(unit1.get_weap());
   }
