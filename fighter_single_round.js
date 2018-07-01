@@ -198,7 +198,7 @@ class Fighter {
     // Set up the unit's special cooldown.
     this.cooldown = 0;
     this.reset_cooldown();
-    this.cooldown -= this.seal.cd_reduce;
+    this.cooldown -= this.get_cd_reduce();
 
     // damage_dealt is a logging variable, used to report amount of damage dealt
     // by the unit during combat (for % HP calculations).
@@ -1547,7 +1547,7 @@ Fighter.prototype.revive = function() {
   this.reset_debuffs();
   this.reset_buffs();
   this.damage_dealt = 0;
-  this.cooldown -= this.seal.cd_reduce;
+  this.cooldown -= this.get_cd_reduce();;
 };
 
 /* TO DO: See if the instances of these functions can be replaced with the set methods below. */
@@ -2579,6 +2579,9 @@ Fighter.prototype.get_cond_res_def_bonus = function () {
 };
 Fighter.prototype.get_thani_mitigation = function () {
   return this.weapon.thani_mitigation;
+};
+Fighter.prototype.get_cd_reduce = function () {
+  return this.seal.cd_reduce + this.b_skill.cd_reduce;
 };
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;
