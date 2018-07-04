@@ -2583,6 +2583,32 @@ Fighter.prototype.get_thani_mitigation = function () {
 Fighter.prototype.get_cd_reduce = function () {
   return this.seal.cd_reduce + this.b_skill.cd_reduce;
 };
+Fighter.prototype.apply_ploys = function (enemy) {
+  var res = this.get_perm_res() + this.res_buff - this.res_debuff;
+  var enemy_res = enemy.get_perm_res();
+
+  if (res < enemy_res) {
+    this.set_assumed_atk_debuff(enemy.get_atk_ploy());
+    this.set_assumed_spd_debuff(enemy.get_spd_ploy());
+    this.set_assumed_def_debuff(enemy.get_def_ploy());
+    this.set_assumed_res_debuff(enemy.get_res_ploy());
+
+    return true;
+  }
+  return false;
+};
+Fighter.prototype.get_atk_ploy = function () {
+  return Math.max(this.c_skill.atk_ploy, this.seal.atk_ploy);
+};
+Fighter.prototype.get_spd_ploy = function () {
+  return Math.max(this.c_skill.spd_ploy, this.seal.spd_ploy);
+};
+Fighter.prototype.get_def_ploy = function () {
+  return Math.max(this.c_skill.def_ploy, this.seal.def_ploy);
+};
+Fighter.prototype.get_res_ploy = function () {
+  return Math.max(this.c_skill.res_ploy, this.seal.res_ploy);
+};
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;
 };*/

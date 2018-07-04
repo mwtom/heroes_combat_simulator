@@ -425,18 +425,27 @@ function passes_filter_reqs(character) {
 // (end of phase or one unit dies), the combat log is returned.
 function execute_phase(player, enemy, player_initiating) {
   var attacker, defender;
-  if (player_initiating) {
-    attacker = player;
-    defender = enemy;
-  }
-  else {
-    attacker = enemy;
-    defender = player;
-  }
 
   combat_log += "Enemy Stats: +" + enemy.boon + "/-" + enemy.bane;
   combat_log += ", " + enemy.get_HP_max() + " HP, " + enemy.get_perm_atk() + " Atk, ";
   combat_log += enemy.get_perm_spd() + " Spd, " + enemy.get_perm_def() + " Def, " + enemy.get_perm_res() + " Res.<br>";
+
+  if (this.document.getElementById("Ploys").checked) {
+    if (enemy.apply_ploys(player)) {
+      if (player.get_atk_ploy() > 0) {
+        combat_log += enemy.get_name() + " receives an Atk debuff of " + player.get_atk_ploy() + " from " + player.get_name() + "'s Atk Ploy!<br />";
+      }
+      if (player.get_spd_ploy() > 0) {
+        combat_log += enemy.get_name() + " receives an Spd debuff of " + player.get_spd_ploy() + " from " + player.get_name() + "'s Spd Ploy!<br />";
+      }
+      if (player.get_def_ploy() > 0) {
+        combat_log += enemy.get_name() + " receives an Def debuff of " + player.get_def_ploy() + " from " + player.get_name() + "'s Def Ploy!<br />";
+      }
+      if (player.get_res_ploy() > 0) {
+        combat_log += enemy.get_name() + " receives an Res debuff of " + player.get_res_ploy() + " from " + player.get_name() + "'s Res Ploy!<br />";
+      }
+    }
+  }
 
   skill_string = "<div class=\"weapon_icon\">";
   skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weap_name();
@@ -451,6 +460,15 @@ function execute_phase(player, enemy, player_initiating) {
   skill_string += "<span class=\"skill_desc\">" + clean(enemy.c_skill.name) + ": " + enemy.c_skill.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_seal_path(enemy.seal.name) + " class=\"icon\" />";
   skill_string += "<span class=\"skill_desc\">" + clean(enemy.seal.name) + ": " + enemy.seal.desc + "</span></div>";
+
+  if (player_initiating) {
+    attacker = player;
+    defender = enemy;
+  }
+  else {
+    attacker = enemy;
+    defender = player;
+  }
 
   // Apply any start-of-turn buffs to the attacker.
   // apply_start_buffs(attacker);
