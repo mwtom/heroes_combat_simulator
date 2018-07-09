@@ -433,16 +433,16 @@ function execute_phase(player, enemy, player_initiating) {
   if (this.document.getElementById("Ploys").checked) {
     if (enemy.apply_ploys(player)) {
       if (player.get_atk_ploy() > 0) {
-        combat_log += enemy.get_name() + " receives an Atk debuff of " + player.get_atk_ploy() + " from " + player.get_name() + "'s Atk Ploy!<br />";
+        combat_log += enemy.get_name() + " receives an Atk debuff of " + player.get_atk_ploy() + " from " + player.get_name() + "'s Atk Ploy effect!<br />";
       }
       if (player.get_spd_ploy() > 0) {
-        combat_log += enemy.get_name() + " receives an Spd debuff of " + player.get_spd_ploy() + " from " + player.get_name() + "'s Spd Ploy!<br />";
+        combat_log += enemy.get_name() + " receives an Spd debuff of " + player.get_spd_ploy() + " from " + player.get_name() + "'s Spd Ploy effect!<br />";
       }
       if (player.get_def_ploy() > 0) {
-        combat_log += enemy.get_name() + " receives an Def debuff of " + player.get_def_ploy() + " from " + player.get_name() + "'s Def Ploy!<br />";
+        combat_log += enemy.get_name() + " receives an Def debuff of " + player.get_def_ploy() + " from " + player.get_name() + "'s Def Ploy effect!<br />";
       }
       if (player.get_res_ploy() > 0) {
-        combat_log += enemy.get_name() + " receives an Res debuff of " + player.get_res_ploy() + " from " + player.get_name() + "'s Res Ploy!<br />";
+        combat_log += enemy.get_name() + " receives an Res debuff of " + player.get_res_ploy() + " from " + player.get_name() + "'s Res Ploy effect!<br />";
       }
     }
   }

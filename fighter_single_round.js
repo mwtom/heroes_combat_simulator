@@ -2533,7 +2533,7 @@ Fighter.prototype.get_negate_arm_buffs = function () {
   //return Math.max(this.weapon.negate_arm_buffs, this.b_skill.negate_arm_buffs);
 };
 Fighter.prototype.get_cd_charge_def = function () {
-  return this.a_skill.cd_charge_def;
+  return Math.max(this.weapon.cd_charge_def, this.a_skill.cd_charge_def);
 };
 Fighter.prototype.get_hardy_bearing_thresh = function () {
   return this.seal.hardy_bearing_thresh;
@@ -2598,16 +2598,16 @@ Fighter.prototype.apply_ploys = function (enemy) {
   return false;
 };
 Fighter.prototype.get_atk_ploy = function () {
-  return Math.max(this.c_skill.atk_ploy, this.seal.atk_ploy);
+  return Math.max(this.weapon.atk_ploy, this.c_skill.atk_ploy, this.seal.atk_ploy);
 };
 Fighter.prototype.get_spd_ploy = function () {
-  return Math.max(this.c_skill.spd_ploy, this.seal.spd_ploy);
+  return Math.max(this.weapon.spd_ploy, this.c_skill.spd_ploy, this.seal.spd_ploy);
 };
 Fighter.prototype.get_def_ploy = function () {
-  return Math.max(this.c_skill.def_ploy, this.seal.def_ploy);
+  return Math.max(this.weapon.def_ploy, this.c_skill.def_ploy, this.seal.def_ploy);
 };
 Fighter.prototype.get_res_ploy = function () {
-  return Math.max(this.c_skill.res_ploy, this.seal.res_ploy);
+  return Math.max(this.weapon.res_ploy, this.c_skill.res_ploy, this.seal.res_ploy);
 };
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;
