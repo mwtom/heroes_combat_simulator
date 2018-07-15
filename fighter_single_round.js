@@ -2120,6 +2120,9 @@ Fighter.prototype.get_spd_bonus_cd = function (enemy, attacker_flag, is_attackin
   if (this.a_skill.spd_bonus_cd_thresh > 0 && ((this.calculate_spd(attacker_flag, enemy, true) - enemy.calculate_spd(!attacker_flag, this, true) + this.get_skl_compare_spd_boost()) >= this.a_skill.spd_bonus_cd_thresh)) {
     bonus_cd = Math.max(bonus_cd, this.a_skill.bonus_cd_amt);
   }
+  if (this.seal.spd_bonus_cd_thresh > 0 && ((this.calculate_spd(attacker_flag, enemy, true) - enemy.calculate_spd(!attacker_flag, this, true) + this.get_skl_compare_spd_boost()) >= this.seal.spd_bonus_cd_thresh)) {
+    bonus_cd = Math.max(bonus_cd, this.seal.bonus_cd_amt);
+  }
   return bonus_cd;
 };
 Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking) {
