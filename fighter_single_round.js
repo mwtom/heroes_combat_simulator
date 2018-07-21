@@ -362,8 +362,8 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets an Atk bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= this.a_skill.brazen_atk_thresh) {
-      atk += this.a_skill.brazen_atk_boost;
+    if (this.start_HP / this.hp_max <= .8) {
+      atk += this.get_brazen_atk_boost();
     }
 
     // If the unit has a -blade tome, and buffs are not negative or negated,
@@ -627,8 +627,8 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets a Spd bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= this.a_skill.brazen_spd_thresh) {
-      e_spd += this.a_skill.brazen_spd_boost;
+    if (this.start_HP / this.hp_max <= .8) {
+      e_spd += this.get_brazen_spd_boost();
     }
   }
 
@@ -721,8 +721,8 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets a Def bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= this.a_skill.brazen_def_thresh) {
-      e_def += this.a_skill.brazen_def_boost;
+    if (this.start_HP / this.hp_max <= .8) {
+      e_def += this.get_brazen_def_boost();
     }
   }
 
@@ -799,8 +799,8 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
     }
 
     // If the unit gets a Res bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= this.a_skill.brazen_res_thresh) {
-      e_res += this.a_skill.brazen_res_boost;
+    if (this.start_HP / this.hp_max <= .8) {
+      e_res += this.get_brazen_res_boost();
     }
 
     // If the unit in question is at full HP, and has an effect that increases Res at full HP, include it.
@@ -868,7 +868,8 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
     if (this.start_HP / this.hp_max <= .8) {
       property_names = new Array("brazen_atk_boost", "brazen_spd_boost", "brazen_def_boost", "brazen_res_boost");
       magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting (this.get_name(), this.a_skill, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
+      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
     }
     // Reporting for stat bonuses granted when enemy is at full HP.
     if (enemy.get_start_HP() == enemy.get_HP_max()) {
@@ -2555,6 +2556,18 @@ Fighter.prototype.get_def_bond = function () {
 };
 Fighter.prototype.get_res_bond = function () {
   return this.a_skill.res_bond + this.weapon.res_bond;
+};
+Fighter.prototype.get_brazen_atk_boost = function () {
+  return this.weapon.brazen_atk_boost + this.a_skill.brazen_atk_boost;
+};
+Fighter.prototype.get_brazen_spd_boost = function () {
+  return this.weapon.brazen_spd_boost + this.a_skill.brazen_spd_boost;
+};
+Fighter.prototype.get_brazen_def_boost = function () {
+  return this.weapon.brazen_def_boost + this.a_skill.brazen_def_boost;
+};
+Fighter.prototype.get_brazen_res_boost = function () {
+  return this.weapon.brazen_res_boost + this.a_skill.brazen_res_boost;
 };
 Fighter.prototype.get_cond_atk_off_bonus = function () {
   return this.weapon.cond_atk_off_bonus + this.a_skill.cond_atk_off_bonus;
