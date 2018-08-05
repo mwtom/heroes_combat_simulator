@@ -341,6 +341,9 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         atk += this.get_distant_atk_off_bonus();
       }
+      else {
+        atk += this.get_close_atk_off_bonus();
+      }
       if (this.conditional_effects) {
         atk += this.get_cond_atk_off_bonus();
       }
@@ -350,6 +353,9 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       atk += this.get_atk_boost_def();
       if (enemy_range > 1) {
         atk += this.get_distant_atk_def_bonus();
+      }
+      else {
+        atk += this.get_close_atk_def_bonus();
       }
       if (this.conditional_effects) {
         atk += this.get_cond_atk_def_bonus();
@@ -611,6 +617,9 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_spd += this.get_distant_spd_off_bonus();
       }
+      else {
+        e_spd += this.get_close_spd_off_bonus();
+      }
       if (this.conditional_effects) {
         e_spd += this.get_cond_spd_off_bonus();
       }
@@ -620,6 +629,9 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
       e_spd += this.get_spd_boost_def();
       if (enemy_range > 1) {
         e_spd += this.get_distant_spd_def_bonus();
+      }
+      else {
+        e_spd += this.get_close_spd_def_bonus();
       }
       if (this.conditional_effects) {
         e_spd += this.get_cond_spd_def_bonus();
@@ -684,6 +696,9 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_def += this.get_distant_def_off_bonus();
       }
+      else {
+        e_def += this.get_close_def_off_bonus();
+      }
       if (this.conditional_effects) {
         e_def += this.get_cond_def_off_bonus();
       }
@@ -694,8 +709,8 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_def += this.get_distant_def_def_bonus();
       }
-      if (enemy_range == 1) {
-        e_def += this.get_close_def_bonus();
+      else {
+        e_def += this.get_close_def_def_bonus();
       }
       // Special case! Vidofnir provides a def bonus when defending, but only against
       // Axes, Lances, and Swords.
@@ -779,6 +794,9 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_res += this.get_distant_res_off_bonus();
       }
+      else {
+        e_res += this.get_close_res_off_bonus();
+      }
       if (this.conditional_effects) {
         e_res += this.get_cond_res_off_bonus();
       }
@@ -790,8 +808,8 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
       if (enemy_range > 1) {
         e_res += this.get_distant_res_def_bonus();
       }
-      if (enemy_range == 1) {
-        e_res += this.get_close_res_bonus();
+      else {
+        e_res += this.get_close_res_def_bonus();
       }
       if (this.conditional_effects) {
         e_res += this.get_cond_res_def_bonus();
@@ -914,6 +932,11 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
         magnitudes = new Array(1, 1, 1, 1);
         report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
       }
+      else {
+        property_names = new Array("close_atk_off_bonus", "close_spd_off_bonus", "close_def_off_bonus", "close_spd_off_bonus");
+        magnitudes = new Array(1, 1, 1, 1);
+        report += this.combat_buff_reporting(this.get_name() , this.weapon, property_names, magnitudes);
+      }
 
       // Reporting for Conditional Effects.
       if (this.conditional_effects) {
@@ -938,7 +961,7 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
         report += this.combat_buff_reporting(this.get_name(), this.seal, property_names, magnitudes);
       }
       else {
-        property_names = new Array("close_atk_def_bonus", "close_spd_def_bonus", "close_def_bonus", "close_res_bonus");
+        property_names = new Array("close_atk_def_bonus", "close_spd_def_bonus", "close_def_def_bonus", "close_res_def_bonus");
         magnitudes = new Array(1, 1, 1, 1);
         report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
         report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
@@ -2221,11 +2244,29 @@ Fighter.prototype.get_distant_def_def_bonus = function () {
 Fighter.prototype.get_distant_res_def_bonus = function () {
   return this.a_skill.distant_res_def_bonus + this.seal.distant_res_def_bonus + this.weapon.distant_res_def_bonus;
 };
-Fighter.prototype.get_close_def_bonus = function () {
-  return this.a_skill.close_def_bonus + this.seal.close_def_bonus;
+Fighter.prototype.get_close_atk_off_bonus = function () {
+  return this.weapon.close_atk_off_bonus;
 };
-Fighter.prototype.get_close_res_bonus = function () {
-  return this.a_skill.close_res_bonus + this.seal.close_res_bonus;
+Fighter.prototype.get_close_spd_off_bonus = function () {
+  return this.weapon.close_spd_off_bonus;
+};
+Fighter.prototype.get_close_def_off_bonus = function () {
+  return this.weapon.close_def_off_bonus;
+};
+Fighter.prototype.get_close_res_off_bonus = function () {
+  return this.weapon.close_res_off_bonus;
+};
+Fighter.prototype.get_close_atk_def_bonus = function () {
+  return this.weapon.close_atk_def_bonus;
+};
+Fighter.prototype.get_close_spd_def_bonus = function () {
+  return this.weapon.close_spd_def_bonus;
+};
+Fighter.prototype.get_close_def_def_bonus = function () {
+  return this.weapon.close_def_def_bonus + this.a_skill.close_def_def_bonus + this.seal.close_def_def_bonus;
+};
+Fighter.prototype.get_close_res_def_bonus = function () {
+  return this.weapon.close_res_def_bonus + this.a_skill.close_res_def_bonus + this.seal.close_res_def_bonus;
 };
 Fighter.prototype.get_inverse_spur = function () {
   return this.weapon.inverse_spur;
