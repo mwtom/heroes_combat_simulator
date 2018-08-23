@@ -338,8 +338,23 @@ function verify_legality(unit, skill) {
         return false;
       }
       break;
-    case "K":
-      if (!skill.dgr_can_inherit) {
+    case "RK":
+      if (!skill.r_dgr_can_inherit) {
+        return false;
+      }
+      break;
+    case "BK":
+      if (!skill.b_dgr_can_inherit) {
+        return false;
+      }
+      break;
+    case "GK":
+      if (!skill.g_dgr_can_inherit) {
+        return false;
+      }
+      break;
+    case "NK":
+      if (!skill.n_dgr_can_inherit) {
         return false;
       }
       break;
@@ -404,7 +419,10 @@ function select_all_weapons() {
   document.getElementById("B Bow").checked = true;
   document.getElementById("G Bow").checked = true;
   document.getElementById("N Bow").checked = true;
-  document.getElementById("Dagger").checked = true;
+  document.getElementById("R Dagger").checked = true;
+  document.getElementById("B Dagger").checked = true;
+  document.getElementById("G Dagger").checked = true;
+  document.getElementById("N Dagger").checked = true;
   document.getElementById("Staff").checked = true;
 }
 
@@ -424,7 +442,10 @@ function deselect_all_weapons() {
   document.getElementById("B Bow").checked = false;
   document.getElementById("G Bow").checked = false;
   document.getElementById("N Bow").checked = false;
-  document.getElementById("Dagger").checked = false;
+  document.getElementById("R Dagger").checked = false;
+  document.getElementById("B Dagger").checked = false;
+  document.getElementById("G Dagger").checked = false;
+  document.getElementById("N Dagger").checked = false;
   document.getElementById("Staff").checked = false;
 }
 

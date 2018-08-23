@@ -541,7 +541,16 @@ Fighter.prototype.check_effective_damage = function (enemy) {
   if (this.weapon.nbow_eff && enemy.get_weap() == "NB") {
     return true;
   }
-  if (this.weapon.dgr_eff && enemy.get_weap() == "K") {
+  if (this.weapon.r_dgr_eff && enemy.get_weap() == "RK") {
+    return true;
+  }
+  if (this.weapon.b_dgr_eff && enemy.get_weap() == "BK") {
+    return true;
+  }
+  if (this.weapon.g_dgr_eff && enemy.get_weap() == "GK") {
+    return true;
+  }
+  if (this.weapon.n_dgr_eff && enemy.get_weap() == "NK") {
     return true;
   }
   if (this.weapon.stf_eff && enemy.get_weap() == "ST") {
@@ -1251,8 +1260,17 @@ Fighter.prototype.check_buff_negate = function (enemy) {
     case "NB":
       weap_type_negate = enemy.get_negate_nbow_buffs();
       break;
-    case "K":
-      weap_type_negate = enemy.get_negate_dgr_buffs();
+    case "RK":
+      weap_type_negate = enemy.get_negate_r_dgr_buffs();
+      break;
+    case "BK":
+      weap_type_negate = enemy.get_negate_b_dgr_buffs();
+      break;
+    case "GK":
+      weap_type_negate = enemy.get_negate_g_dgr_buffs();
+      break;
+    case "NK":
+      weap_type_negate = enemy.get_negate_n_dgr_buffs();
       break;
     case "ST":
       weap_type_negate = enemy.get_negate_stf_buffs();
@@ -1306,7 +1324,7 @@ Fighter.prototype.check_buff_negate = function (enemy) {
  *  -The highest bonus cooldown value out of all applicable factors.
  */
 Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
-  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking), this.get_special_bonus_cd(enemy));
+  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking), this.get_special_bonus_cd(enemy), this.get_cond_bonus_cd(is_attacking));
 };
 // Initializes a counter to hold the number of active sources of generic (i.e. not tied to
 // any conditions besides initiating or defending) guaranteed follow-up. Increments the
@@ -1342,12 +1360,22 @@ Fighter.prototype.brash_assault_applies = function(can_counter) {
 };
 // Checks to see if the unit meets the HP requirement for Hardy Bearing.
 Fighter.prototype.hardy_bearing_applies = function () {
-  var hp_thresh = this.get_hardy_bearing_thresh();
-  return (hp_thresh != 0) && ((this.start_HP / this.hp_max) >= hp_thresh);
+  if (this.weapon.hardy_bearing_thresh != 0 || this.seal.hardy_bearing_thresh != 0) {
+    return ((this.startHP / this.hp_max) >= this.weapon.hardy_bearing_thresh)
+            ||
+            ((this.start_HP / this.hp_max) >= this.seal.hardy_bearing_thresh);
+  }
+  return false;
 };
 // Gets the source of the unit's Hardy Bearing effect.
 Fighter.prototype.get_hardy_bearing_source = function () {
-  return this.seal.name;
+  if (this.weapon.hardy_bearing_thresh != 0) {
+    return this.weapon.name;
+  }
+  if (this.seal.hardy_bearing_thresh != 0) {
+    return this.seal.name;
+  }
+  return false;
 };
 // Checks to see if the unit meets the HP requirement for Desperation, and Desperation is not
 // negated by a Hardy Bearing effect.
@@ -1484,7 +1512,7 @@ Fighter.prototype.cond_follow_up_inhibition_applies = function (attacker_active,
   return false;
 };
 Fighter.prototype.double_lion_applies = function () {
-  if (this.weapon.double_lion && this.start_HP == this.hp_max) {
+  if ((this.weapon.double_lion || this.b_skill.double_lion) && this.start_HP == this.hp_max) {
     return true;
   }
   return false;
@@ -1537,7 +1565,8 @@ Fighter.prototype.apply_precombat_dmg = function(attacker, defender, mult) {
 
   atk = attacker.calculate_atk(true, defender, false);
   if (attacker.get_weap() == "S" || attacker.get_weap() == "L" || attacker.get_weap() == "A" ||
-      attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "K") {
+      attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" ||
+      attacker.get_weap() == "RK" || attacker.get_weap() == "BK" || attacker.get_weap() == "GK" || attacker.get_weap() == "NK") {
     def = defender.calculate_def(false, attacker, false);
   }
   else {
@@ -1846,8 +1875,17 @@ Fighter.prototype.negates_counter = function (enemy) {
     case "NB":
       weap_type_negate = this.get_negate_nbow_counter();
       break;
-    case "K":
-      weap_type_negate = this.get_negate_dgr_counter();
+    case "RK":
+      weap_type_negate = this.get_negate_r_dgr_counter();
+      break;
+    case "BK":
+      weap_type_negate = this.get_negate_b_dgr_counter();
+      break;
+    case "GK":
+      weap_type_negate = this.get_negate_g_dgr_counter();
+      break;
+    case "NK":
+      weap_type_negate = this.get_negate_n_dgr_counter();
       break;
     case "ST":
       weap_type_negate = this.get_negate_stf_counter();
@@ -1984,11 +2022,38 @@ Fighter.prototype.get_negate_nbow_counter = function () {
   }
   return "";
 };
-Fighter.prototype.get_negate_dgr_counter = function () {
-  if (this.weapon.negate_dgr_counter) {
+Fighter.prototype.get_negate_r_dgr_counter = function () {
+  if (this.weapon.negate_r_dgr_counter) {
     return this.weapon.name;
   }
-  if (this.b_skill.negate_dgr_counter) {
+  if (this.b_skill.negate_r_dgr_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_b_dgr_counter = function () {
+  if (this.weapon.negate_b_dgr_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_b_dgr_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_g_dgr_counter = function () {
+  if (this.weapon.negate_g_dgr_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_g_dgr_counter) {
+    return this.b_skill.name;
+  }
+  return "";
+};
+Fighter.prototype.get_negate_n_dgr_counter = function () {
+  if (this.weapon.negate_n_dgr_counter) {
+    return this.weapon.name;
+  }
+  if (this.b_skill.negate_n_dgr_counter) {
     return this.b_skill.name;
   }
   return "";
@@ -2152,8 +2217,12 @@ Fighter.prototype.get_spd_bonus_cd = function (enemy, attacker_flag, is_attackin
 Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking) {
   var bonus_cd = 0;
 
+  if (this.b_skill.cd_charge_off > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_off_thresh && attacker_flag) {
+    bonus_cd = this.b_skill.cd_charge_off;
+  }
+
   if (this.b_skill.cd_charge_off_per_atk > 0 && attacker_flag && is_attacking) {
-    bonus_cd = this.b_skill.cd_charge_off_per_atk;
+    bonus_cd = Math.max(bonus_cd, this.b_skill.cd_charge_off_per_atk);
   }
 
   return bonus_cd;
@@ -2161,7 +2230,7 @@ Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking
 Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking) {
   var bonus_cd = 0;
   // Steady Breath
-  if (this.get_cd_charge_def() > 0 && !attacker_flag) {
+  if (this.get_cd_charge_def() > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_def_thresh && !attacker_flag) {
     bonus_cd = this.get_cd_charge_def();
   }
   if (this.b_skill.cd_charge_def_per_atk > 0 && !attacker_flag && is_attacking) {
@@ -2192,6 +2261,13 @@ Fighter.prototype.get_cd_charge_def_per_atk = function () {
 };
 Fighter.prototype.get_cd_charge_hp_thresh = function (skill) {
   return skill.cd_charge_hp_thresh;
+};
+Fighter.prototype.get_cond_bonus_cd = function (is_attacking) {
+  if (this.conditional_effects && is_attacking) {
+    return this.weapon.cond_bonus_cd_per_atk;
+  }
+
+  return 0;
 };
 Fighter.prototype.get_atk_boost_full_hp = function () {
   return this.weapon.atk_boost_full_hp + this.a_skill.atk_boost_full_hp;
@@ -2467,16 +2543,45 @@ Fighter.prototype.get_negate_nbow_buffs = function () {
   }
   return source;
 };
-Fighter.prototype.get_negate_dgr_buffs = function () {
+Fighter.prototype.get_negate_r_dgr_buffs = function () {
   var source = "";
-  if (this.weapon.negate_dgr_buffs) {
+  if (this.weapon.negate_r_dgr_buffs) {
     source = this.weapon.name;
   }
-  else if (this.b_skill.negate_dgr_buffs) {
+  else if (this.b_skill.negate_r_dgr_buffs) {
     source = this.b_skill.name;
   }
   return source;
-  //return Math.max(this.weapon.negate_dgr_buffs, this.b_skill.negate_dgr_buffs);
+};
+Fighter.prototype.get_negate_b_dgr_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_b_dgr_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_b_dgr_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+};
+Fighter.prototype.get_negate_g_dgr_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_g_dgr_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_g_dgr_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
+};
+Fighter.prototype.get_negate_n_dgr_buffs = function () {
+  var source = "";
+  if (this.weapon.negate_n_dgr_buffs) {
+    source = this.weapon.name;
+  }
+  else if (this.b_skill.negate_n_dgr_buffs) {
+    source = this.b_skill.name;
+  }
+  return source;
 };
 Fighter.prototype.get_negate_stf_buffs = function () {
   var source = "";
@@ -2581,7 +2686,14 @@ Fighter.prototype.get_cd_charge_def = function () {
   return Math.max(this.weapon.cd_charge_def, this.a_skill.cd_charge_def);
 };
 Fighter.prototype.get_hardy_bearing_thresh = function () {
-  return this.seal.hardy_bearing_thresh;
+  var thresh = 0;
+  if (this.weapon.hardy_bearing_thresh != 0) {
+    thresh = this.weapon.hardy_bearing_thresh;
+  }
+  if (this.seal.hardy_bearing_thresh != 0) {
+    thresh = this.seal.hardy_bearing_thresh;
+  }
+  return thresh;
 };
 Fighter.prototype.get_wrath_threshold = function () {
   return this.b_skill.wrath_threshold;
@@ -2665,6 +2777,21 @@ Fighter.prototype.get_def_ploy = function () {
 };
 Fighter.prototype.get_res_ploy = function () {
   return Math.max(this.weapon.res_ploy, this.c_skill.res_ploy, this.seal.res_ploy);
+};
+Fighter.prototype.get_brave_source = function (is_active) {
+  if (is_active) {
+    if (this.weapon.brave || this.weapon.double_lion) {
+      return this.weapon.name;
+    }
+    if (this.b_skill.double_lion) {
+      return this.b_skill.name;
+    }
+  }
+  else {
+    if (this.weapon.brave_def) {
+      return this.weapon.name;
+    }
+  }
 };
 /*Fighter.prototype.get_effect_source = function () {
   return this.effect_source;

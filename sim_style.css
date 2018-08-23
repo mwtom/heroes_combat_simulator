@@ -180,13 +180,13 @@ body {
 @media screen and (min-width: 800px) {
   #UI {
     position: relative;
-    width: 1135px;
+    width: 1170px;
   }
   .MenuBar {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    width: 375px;
+    width: 385px;
     vertical-align: top;
   }
   #results {
@@ -196,11 +196,11 @@ body {
 
 @media screen and (max-width: 800px) {
   #UI {
-    width: 375px;
+    width: 390px;
     height: 1500px;
   }
   .MenuBar {
-    width: 375px;
+    width: 385px;
   }
   #results {
     margin-left: 380px;

@@ -385,8 +385,23 @@ function passes_filter_reqs(character) {
         return false;
       }
       break;
-    case "K":
-      if (!document.getElementById("Dagger").checked) {
+    case "RK":
+      if (!document.getElementById("R Dagger").checked) {
+        return false;
+      }
+      break;
+    case "BK":
+      if (!document.getElementById("B Dagger").checked) {
+        return false;
+      }
+      break;
+    case "GK":
+      if (!document.getElementById("G Dagger").checked) {
+        return false;
+      }
+      break;
+    case "NK":
+      if (!document.getElementById("N Dagger").checked) {
         return false;
       }
       break;
@@ -522,7 +537,7 @@ function execute_phase(player, enemy, player_initiating) {
       return combat_log;
     }
     if (defender.get_brave_def()) {
-      combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+      combat_log += defender.get_name() + "'s " + defender.get_brave_source(false) + " allows an immediate second strike!<br>";
       calculate_damage(defender, attacker, false, true, false);
     }
     if (attacker.get_HP() == 0) {
@@ -538,7 +553,7 @@ function execute_phase(player, enemy, player_initiating) {
   }
   // Weapons with brave effects strike twice when initiating.
   if (attacker.get_brave() == 1 || attacker.double_lion_applies()) {
-    combat_log += attacker.get_name() + "'s " + attacker.get_weap_name() + " allows an immediate second strike!<br>";
+    combat_log += attacker.get_name() + "'s " + attacker.get_brave_source(true) + " allows an immediate second strike!<br>";
     calculate_damage(attacker, defender, true, true, false);
   }
   if (defender.get_HP() == 0) {
@@ -554,7 +569,7 @@ function execute_phase(player, enemy, player_initiating) {
     }
     // Weapons with brave effects strike twice when initiating.
     if (attacker.get_brave() == 1) {
-      combat_log += attacker.get_name() + "'s " + attacker.get_weap_name() + " allows an immediate second strike!<br>";
+      combat_log += attacker.get_name() + "'s " + attacker.get_brave_source(true) + " allows an immediate second strike!<br>";
       calculate_damage(attacker, defender, true, true, false);
       if (defender.get_HP() == 0) {
         return combat_log;
@@ -573,7 +588,7 @@ function execute_phase(player, enemy, player_initiating) {
           return combat_log;
         }
         if (defender.get_brave_def()) {
-          combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+          combat_log += defender.get_name() + "'s " + defender.get_brave_source(false) + " allows an immediate second strike!<br>";
           calculate_damage(defender, attacker, false, true, false);
         }
         if (attacker.get_HP() == 0) {
@@ -589,7 +604,7 @@ function execute_phase(player, enemy, player_initiating) {
         return combat_log;
       }
       if (defender.get_brave_def()) {
-        combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+        combat_log += defender.get_name() + "'s " + defender.get_brave_source(false) + " allows an immediate second strike!<br>";
         calculate_damage(defender, attacker, false, true, false);
       }
       if (attacker.get_HP() == 0) {
@@ -608,7 +623,7 @@ function execute_phase(player, enemy, player_initiating) {
     }
     // Weapons with brave effects strike twice when initiating.
     if (attacker.get_brave() == 1 || attacker.double_lion_applies()) {
-      combat_log += attacker.get_name() + "'s " + attacker.get_weap_name() + " allows an immediate second strike!<br>";
+      combat_log += attacker.get_name() + "'s " + attacker.get_brave_source(true) + " allows an immediate second strike!<br>";
       calculate_damage(attacker, defender, true, true, false);
       if (defender.get_HP() == 0) {
         return combat_log;
@@ -625,7 +640,7 @@ function execute_phase(player, enemy, player_initiating) {
       return combat_log;
     }
     if (defender.get_brave_def()) {
-      combat_log += defender.get_name() + "'s " + defender.get_weap_name() + " allows an immediate second strike!<br>";
+      combat_log += defender.get_name() + "'s " + defender.get_brave_source(false) + " allows an immediate second strike!<br>";
       calculate_damage(defender, attacker, false, true, false);
     }
     if (attacker.get_HP() == 0) {
@@ -703,7 +718,8 @@ function check_counter(attacker, defender) {
 
     // Windsweep handling.
     if (attacker.get_windsweep_threshold() > 0 && (defender.get_weap() == "S" || defender.get_weap() == "L" || defender.get_weap() == "A"
-        || defender.get_weap() == "RB" || defender.get_weap() == "BB" || defender.get_weap() == "GB" || defender.get_weap() == "NB" || defender.get_weap() == "K")) {
+        || defender.get_weap() == "RB" || defender.get_weap() == "BB" || defender.get_weap() == "GB" || defender.get_weap() == "NB"
+        || defender.get_weap() == "RK" || defender.get_weap() == "BK" || defender.get_weap() == "GK" || defender.get_weap() == "NK")) {
       if (((attacker.calculate_spd(true, defender, true) + phantom_spd_attacker) - (defender.calculate_spd(false, attacker, true) + phantom_spd_defender)) >= attacker.get_windsweep_threshold()) {
         if (result) {
           if (phantom_spd_attacker > 0) {
@@ -1036,7 +1052,8 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
       dmg -= mitigated_temp;
     }
     // Bow/Dagger consecutive hit mitigation (Deflect Missile)
-    if (defender.get_missile_consec_hit_mitig() > 0 && (attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "K")) {
+    if (defender.get_missile_consec_hit_mitig() > 0 && (attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB"
+        || attacker.get_weap() == "RK" || attacker.get_weap() == "BK" || attacker.get_weap() == "GK" || attacker.get_weap() == "NK")) {
       combat_log += defender.get_name() + " receives " + (defender.get_missile_consec_hit_mitig() * 100) + "% less damage from consecutive hits from bows and daggers!<br>";
       mitigated_temp = Math.floor(dmg * defender.get_missile_consec_hit_mitig());
       mitigated_dmg += mitigated_temp;
@@ -1061,7 +1078,8 @@ function calculate_damage(attacker, defender, attacker_active, consec_hit, first
     // Ranged Cav/Armor first hit mitigation (Thani)
     if (defender.get_thani_mitigation()
         && (attacker.get_type() == "C" || attacker.get_type() == "A")
-        && (attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT" || attacker.get_weap() == "K"
+        && (attacker.get_weap() == "RT" || attacker.get_weap() == "BT" || attacker.get_weap() == "GT"
+        || attacker.get_weap() == "RK" || attacker.get_weap() == "BK" || attacker.get_weap() == "GK" || attacker.get_weap() == "NK"
         || attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" || attacker.get_weap() == "ST")) {
       combat_log += defender.get_name() + " receives " + (defender.get_thani_mitigation() * 100) + "% less damage from the first hit from ranged Cavalry or Armored enemies!<br>";
       mitigated_temp = Math.floor(dmg * defender.get_thani_mitigation());
