@@ -2229,10 +2229,17 @@ Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking
 };
 Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking) {
   var bonus_cd = 0;
-  // Steady Breath
-  if (this.get_cd_charge_def() > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_def_thresh && !attacker_flag) {
-    bonus_cd = this.get_cd_charge_def();
+
+  if (this.weapon.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.weapon.cd_charge_def_thresh && !attacker_flag) {
+    bonus_cd = this.weapon.cd_charge_def;
   }
+  if (this.a_skill.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.a_skill.cd_charge_def_thresh && !attacker_flag) {
+    bonus_cd = Math.max(bonus_cd, this.a_skill.cd_charge_def);
+  }
+  if (this.b_skill.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_def_thresh && !attacker_flag) {
+    bonus_cd = this.b_skill.cd_charge_def;
+  }
+
   if (this.b_skill.cd_charge_def_per_atk > 0 && !attacker_flag && is_attacking) {
     bonus_cd = Math.max(bonus_cd, this.b_skill.cd_charge_def_per_atk);
   }
@@ -2682,8 +2689,11 @@ Fighter.prototype.get_negate_arm_buffs = function () {
   return source;
   //return Math.max(this.weapon.negate_arm_buffs, this.b_skill.negate_arm_buffs);
 };
+Fighter.prototype.get_cd_charge_off = function () {
+
+};
 Fighter.prototype.get_cd_charge_def = function () {
-  return Math.max(this.weapon.cd_charge_def, this.a_skill.cd_charge_def);
+  return Math.max(this.weapon.cd_charge_def, this.a_skill.cd_charge_def, this.b_skill.cd_charge_def);
 };
 Fighter.prototype.get_hardy_bearing_thresh = function () {
   var thresh = 0;
