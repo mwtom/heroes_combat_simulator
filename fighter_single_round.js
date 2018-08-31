@@ -407,8 +407,8 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
     }
 
     // If this unit's weapon has an effect that adds enemy buffs to atk,
-    // add the enemy buffs to atk.
-    if (this.weapon.enemy_buffs_to_atk) {
+    // and enemy buffs are not negated, add the enemy buffs to atk.
+    if (this.weapon.enemy_buffs_to_atk && enemy.check_buff_negate(this) == "") {
       if (enemy.get_atk_buff() > 0) {
         atk += enemy.get_atk_buff();
       }
@@ -420,6 +420,15 @@ Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
       }
       if (enemy.get_res_buff() > 0) {
         atk += enemy.get_res_buff();
+      }
+    }
+
+    // If this unit has an effect that adds field buffs to unit's stats as
+    // combat buffs, and unit's field buffs are not negative or negated,
+    // add the unit's Atk field buff to Atk.
+    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
+      if (this.atk_buff > 0) {
+        atk += this.atk_buff;
       }
     }
 
@@ -651,6 +660,15 @@ Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
     if (this.start_HP / this.hp_max <= .8) {
       e_spd += this.get_brazen_spd_boost();
     }
+
+    // If this unit has an effect that adds field buffs to unit's stats as
+    // combat buffs, and unit's field buffs are not negative or negated,
+    // add the unit's Spd field buff to Spd.
+    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
+      if (this.spd_buff > 0) {
+        e_spd += this.spd_buff;
+      }
+    }
   }
 
   // If the effective spd is negative, set it to 0.
@@ -748,6 +766,15 @@ Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
     if (this.start_HP / this.hp_max <= .8) {
       e_def += this.get_brazen_def_boost();
     }
+
+    // If this unit has an effect that adds field buffs to unit's stats as
+    // combat buffs, and unit's field buffs are not negative or negated,
+    // add the unit's Def field buff to Def.
+    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
+      if (this.def_buff > 0) {
+        e_def += this.def_buff;
+      }
+    }
   }
 
   // If the effective def is negative, set it to 0.
@@ -836,6 +863,15 @@ Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
     }
     else {
       e_res += this.get_res_boost_damaged();
+    }
+
+    // If this unit has an effect that adds field buffs to unit's stats as
+    // combat buffs, and unit's field buffs are not negative or negated,
+    // add the unit's Res field buff to Res.
+    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
+      if (this.res_buff > 0) {
+        e_res += this.res_buff;
+      }
     }
   }
 
@@ -928,6 +964,21 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       property_names = new Array("fire_boost_bonus", "wind_boost_bonus", "earth_boost_bonus", "water_boost_bonus");
       magnitudes = new Array(1, 1, 1, 1);
       report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
+    }
+    // Reporting for field buff to combat buff conversion effects.
+    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
+      if (this.atk_buff > 0) {
+        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Atk field buff to Atk (" + this.atk_buff + "), as a combat buff!<br>";
+      }
+      if (this.spd_buff > 0) {
+        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Spd field buff to Spd (" + this.spd_buff + "), as a combat buff!<br>";
+      }
+      if (this.def_buff > 0) {
+        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Def field buff to Def (" + this.def_buff + "), as a combat buff!<br>";
+      }
+      if (this.res_buff > 0) {
+        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Res field buff to Res (" + this.res_buff + "), as a combat buff!<br>";
+      }
     }
     // Reporting for bonuses granted when this unit initiates combat.
     if (attacker_flag) {
@@ -1039,7 +1090,7 @@ Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_co
       }
     }
     // Reporting for enemy buff to Atk conversion.
-    if (this.weapon.enemy_buffs_to_atk) {
+    if (this.weapon.enemy_buffs_to_atk && enemy.check_buff_negate(this) == "") {
       if (enemy.get_atk_buff() > 0) {
         bonus_atk += enemy.get_atk_buff();
       }
@@ -1483,12 +1534,167 @@ Fighter.prototype.wary_fighter_applies = function () {
 // Checks to see if the unit has a breaker for the enemy weapon type, and if so, checks to see if
 // the unit meets the HP requirement to have it active.
 Fighter.prototype.breaker_applies = function(enemy_weap) {
-  var inhibitor_count = 0;
+  var inhibitor_count = 0, b_breaker = false, weap_breaker = false;
 
-  if (((this.start_HP / this.hp_max) >= this.b_skill.breaker_thresh) && this.b_skill.breaker == enemy_weap) {
+  switch (enemy_weap) {
+    case "S":
+      if (this.b_skill.srd_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.srd_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "L":
+      if (this.b_skill.lnc_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.lnc_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "A":
+      if (this.b_skill.axe_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.axe_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "RT":
+      if (this.b_skill.rt_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.rt_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "BT":
+      if (this.b_skill.bt_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.bt_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "GT":
+      if (this.b_skill.gt_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.gt_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "RB":
+      if (this.b_skill.rbow_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.rbow_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "BB":
+      if (this.b_skill.bbow_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.bbow_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "GB":
+      if (this.b_skill.gbow_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.gbow_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "NB":
+      if (this.b_skill.nbow_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.nbow_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "RK":
+      if (this.b_skill.rdgr_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.rdgr_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "BK":
+      if (this.b_skill.bdgr_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.bdgr_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "GK":
+      if (this.b_skill.gdgr_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.gdgr_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "NK":
+      if (this.b_skill.ndgr_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.ndgr_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "ST":
+      if (this.b_skill.stf_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.stf_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "RD":
+      if (this.b_skill.rbrth_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.rbrth_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "BD":
+      if (this.b_skill.bbrth_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.bbrth_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    case "GD":
+      if (this.b_skill.gbrth_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.gbrth_breaker) {
+        weap_breaker = true;
+      }
+      break;
+    default:
+      if (this.b_skill.nbrth_breaker) {
+        b_breaker = true;
+      }
+      if (this.weapon.nbrth_breaker) {
+        weap_breaker = true;
+      }
+      break;
+  }
+
+  if (b_breaker && ((this.start_HP / this.hp_max) >= this.b_skill.breaker_thresh)) {
     inhibitor_count += 1;
   }
-  if (((this.start_HP / this.hp_max) >= this.weapon.breaker_thresh) && this.weapon.breaker == enemy_weap) {
+  if (weap_breaker && ((this.start_HP / this.hp_max) >= this.weapon.breaker_thresh)) {
     inhibitor_count += 1;
   }
   return inhibitor_count;
