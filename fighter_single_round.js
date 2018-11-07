@@ -1,7 +1,7 @@
 // The Fighter class, a fusion of the base stats of a character
 // and the stats & properties of their skills.
 class Fighter {
-  constructor(char, boon, bane, weap, a, b, c, seal, proc, summoner_support, merge_lv, conditional_effects, blessings) {
+  constructor(char, boon, bane, weap, a, b, c, seal, special, summoner_support, merge_lv, conditional_effects, blessings) {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
@@ -85,11 +85,11 @@ class Fighter {
     }
 
     // Apply blessing bonuses.
-    this.hp += blessings[0].hp_boost_perm + blessings[1].hp_boost_perm + blessings[2].hp_boost_perm;
-    this.atk += blessings[0].atk_boost_perm + blessings[1].atk_boost_perm + blessings[2].atk_boost_perm;
-    this.spd += blessings[0].spd_boost_perm + blessings[1].spd_boost_perm + blessings[2].spd_boost_perm;
-    this.def += blessings[0].def_boost_perm + blessings[1].def_boost_perm + blessings[2].def_boost_perm;
-    this.res += blessings[0].res_boost_perm + blessings[1].res_boost_perm + blessings[2].res_boost_perm;
+    this.hp += blessings[0].hp_mod + blessings[1].hp_mod + blessings[2].hp_mod;
+    this.atk += blessings[0].atk_mod + blessings[1].atk_mod + blessings[2].atk_mod;
+    this.spd += blessings[0].spd_mod + blessings[1].spd_mod + blessings[2].spd_mod;
+    this.def += blessings[0].def_mod + blessings[1].def_mod + blessings[2].def_mod;
+    this.res += blessings[0].res_mod + blessings[1].res_mod + blessings[2].res_mod;
 
     // If a merge level greater than 0 is specified, add stats accordingly.
     if (merge_lv > 0) {
@@ -152,8 +152,73 @@ class Fighter {
     this.a_skill = a;
     this.b_skill = b;
     this.c_skill = c;
-    this.proc = proc;
+    this.special = special;
     this.seal = seal;
+
+    /* ********** ARRAYS FOR SKILL EFFECTS. *********** */
+
+    // Combat buffs & debuffs.
+    this.atk_boost_effects = new Array();
+    this.spd_boost_effects = new Array();
+    this.def_boost_effects = new Array();
+    this.res_boost_effects = new Array();
+    this.atk_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
+    this.phantom_spd_effects = new Array();
+
+    // Follow up guarantors and inhibitors.
+    this.follow_up_effects = new Array();
+    this.u_follow_up_inhibit_effects = new Array();
+    this.e_follow_up_inhibit_effects = new Array();
+
+    // Effective damage.
+    this.eff_effects = new Array();
+    this.negate_eff_effects = new Array();
+
+    // Cooldown charge bonuses and inhibitors.
+    this.cd_bonus_effects = new Array();
+    this.cd_inhibit_effects = new Array();
+
+    // Counterattack negation.
+    this.negate_counterattack_effects = new Array();
+    this.negate_self_counterattack_effects = new Array();
+
+    // Mitigation effects.
+    this.first_hit_mit_effects = new Array();
+    this.consec_hit_mit_effects = new Array();
+    this.bonus_mit_effects = new Array();
+
+    // Weapon Triangle related effects.
+    this.triangle_mod_effects = new Array(); // Note: flat triangle mod.
+    this.u_affinity_mod_effects = new Array(); // Note: multiplier for triangle mod.
+    this.e_affinity_mod_effects = new Array(); // Note: multiplier for triangle mod.
+    this.colorless_wta_effects = new Array();
+
+    // Combat order effects.
+    this.strike_twice_effects = new Array();
+    this.desperation_effects = new Array();
+    this.strike_first_effects = new Array();
+    this.u_hardy_bearing_effects = new Array();
+    this.e_hardy_bearing_effects = new Array();
+
+    // Various in-combat effects.
+    this.arc_effects = new Array(); // Any-range counter.
+    this.negate_buffs_effects = new Array();
+    this.bonus_dmg_effects = new Array();
+    this.adaptive_dmg_effects = new Array();
+    this.negate_stf_penalty_effects = new Array();
+    this.extra_weap_type_effects = new Array();
+    this.hp_restore_effects = new Array();
+
+    // Various out-of-combat effects.
+    this.atk_ploy_effects = new Array();
+    this.spd_ploy_effects = new Array();
+    this.def_ploy_effects = new Array();
+    this.res_ploy_effects = new Array();
+    this.pulse_effects = new Array();
+
+    /* ******* END OF ARRAYS FOR SKILL EFFECTS. ******* */
+
+    this.process_skill_effects();
 
     // set default values for buffs & debuffs.
     this.atk_buff = 0;
@@ -192,7 +257,7 @@ class Fighter {
     this.two_space_allies = 0;
 
     // Calculate and store the unit's maximum HP.
-    this.hp += this.weapon.hp_boost_perm + this.a_skill.hp_boost_perm + this.seal.hp_boost_perm;
+    this.hp += this.weapon.hp_mod + this.a_skill.hp_mod + this.seal.hp_mod;
     this.hp_max = this.hp;
 
     // Set up the unit's special cooldown.
@@ -257,6 +322,166 @@ Fighter.prototype.calculate_stat = function(stat_base, stat_GP, case_type) {
   }
   growth_rate = Math.floor(growth * (1 + (.07 * (5 - 3)))) / 100;
   return (base + Math.floor(39 * growth_rate));
+};
+// Adds each skill effect to the appropriate array.
+Fighter.prototype.process_skill_effects = function () {
+  var skills = new Array(this.weapon, this.special, this.a_skill, this.b_skill, this.c_skill);
+  for (var i = 0; i < skills.length; i++) {
+    if (skills[i].effect_1 != 0) {
+      this.add_to_array(skills[i].effect_1, skills[i].conditions_1);
+    }
+    if (skills[i].effect_2 != 0) {
+      this.add_to_array(skills[i].effect_2, skills[i].conditions_2);
+    }
+    if (skills[i].effect_3 != 0) {
+      this.add_to_array(skills[i].effect_3, skills[i].conditions_3);
+    }
+  }
+};
+// Helper function to determine the appropriate array
+// to add an effect to.
+Fighter.prototype.add_to_array = function (e, c) {
+  var temp_effect;
+  var array;
+  var temp = "";
+
+  // Read the effect string into the temp variable until the end of the string.
+  // Stop reading when reaching "+", "=", or "&".
+  // Process each separate effect into the appropriate array, and reset the temp variable.
+  for (var i = 0; i < e.length; i++) {
+    if (e[i] == "+" || e[i] == "=" || e[i] == "&" || i == e.length-1) {
+      if (i == e.length-1) {
+        temp += e[i];
+      }
+      switch (temp) {
+        case "atk":
+          array = this.atk_boost_effects;
+          break;
+        case "spd":
+          array = this.spd_boost_effects;
+          break;
+        case "def":
+          array = this.def_boost_effects;
+          break;
+        case "res":
+          array = this.res_boost_effects;
+          break;
+        case "e_atk":
+          array = this.atk_penalty_effects;
+          break;
+        case "phantom_spd":
+          array = this.phantom_spd_effects;
+          break;
+        case "follow_up":
+          array = this.follow_up_effects;
+          break;
+        case "u_follow_up_inhibit":
+          array = this.u_follow_up_inhibit_effects;
+          break;
+        case "e_follow_up_inhibit":
+          array = this.e_follow_up_inhibit_effects;
+          break;
+        case "eff":
+          array = this.eff_effects;
+          break;
+        case "negate_eff":
+          array = this.negate_eff_effects;
+          break;
+        case "cd_bonus":
+          array = this.cd_bonus_effects;
+          break;
+        case "cd_inhibit":
+          array = this.cd_inhibit_effects;
+          break;
+        case "negate_counterattack":
+          array = this.negate_counterattack_effects;
+          break;
+        case "negate_self_counterattack":
+          array = this.negate_self_counterattack_effects;
+          break;
+        case "first_hit_mit":
+          array = this.first_hit_mit_effects;
+          break;
+        case "consec_hit_mit":
+          array = this.consec_hit_mit_effects;
+          break;
+        case "bonus_mit_effects":
+          array = this.bonus_mit_effects;
+          break;
+        case "triangle_mod":
+          array = this.triangle_mod_effects;
+          break;
+        case "u_affinity_mod":
+          array = this.u_affinity_mod_effects;
+          break;
+        case "e_affinity_mod":
+          array = this.e_affinity_mod_effects;
+          break;
+        case "colorless_wta":
+          array = this.colorless_wta_effects;
+          break;
+        case "strike_twice":
+          array = this.strike_twice_effects;
+          break;
+        case "u_hardy_bearing":
+          array = this.u_hardy_bearing_effects;
+          break;
+        case "e_hardy_bearing":
+          array = this.e_hardy_bearing_effects;
+          break;
+        case "arc":
+          array = this.arc_effects;
+          break;
+        case "negate_buffs":
+          array = this.negate_buffs_effects;
+          break;
+        case "bonus_dmg":
+          array = this.bonus_dmg_effects;
+          break;
+        case "adaptive_dmg":
+          array = this.adaptive_dmg_effects;
+          break;
+        case "negate_stf_penalty":
+          array = this.negate_stf_penalty_effects;
+          break;
+        case "extra_weap_type":
+          array = this.extra_weap_type_effects;
+          break;
+        case "hp_restore":
+          array = this.hp_restore_effects;
+          break;
+        case "atk_ploy":
+          array = this.atk_ploy_effects;
+          break;
+        case "spd_ploy":
+          array = this.spd_ploy_effects;
+          break;
+        case "def_ploy":
+          array = this.def_ploy_effects;
+          break;
+        case "res_ploy":
+          array = this.res_ploy_effects;
+          break;
+        case "pulse":
+          array = this.pulse_effects;
+          break;
+      }
+
+      // Run to the beginning of the next effect, if any/necessary.
+      // Add the effect to the appropriate array.
+      if (e[i] != "&" && i != e.length-1) {
+        for (; i < e.length && e[i] != "&"; i++) {
+          temp += e[i];
+        }
+      }
+      temp_effect = new Effect(temp, c);
+      array.push(temp_effect);
+      temp = "";
+    }
+    else {
+      temp += e[i];
+    }
+  }
 };
 // Resets the skill cooldown timer.
 Fighter.prototype.reset_cooldown = function() {
