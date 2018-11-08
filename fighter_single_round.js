@@ -200,6 +200,14 @@ class Fighter {
     this.u_hardy_bearing_effects = new Array();
     this.e_hardy_bearing_effects = new Array();
 
+    // Effects for specials, or effects usually related to specials..
+    this.spec_dmg_effects = new Array();
+    this.precombat_dmg_effects = new Array();
+    this.dmg_mit_effects = new Array();
+    this.miracle_effects = new Array();
+    this.dmg_store_effecs = new Array();
+    this.hp_restore_effects = new Array();
+
     // Various in-combat effects.
     this.arc_effects = new Array(); // Any-range counter.
     this.negate_buffs_effects = new Array();
@@ -207,7 +215,6 @@ class Fighter {
     this.adaptive_dmg_effects = new Array();
     this.negate_stf_penalty_effects = new Array();
     this.extra_weap_type_effects = new Array();
-    this.hp_restore_effects = new Array();
 
     // Various out-of-combat effects.
     this.atk_ploy_effects = new Array();
@@ -278,6 +285,7 @@ class Fighter {
     this.next_atk_bonus_dmg = 0;
 
     this.conditional_effects = conditional_effects;
+    this.buffs_negated = false;
   }
 }
 // Sorts arr2 in descending order, swapping the elements of arr1 in the same pattern.
@@ -465,6 +473,21 @@ Fighter.prototype.add_to_array = function (e, c) {
         case "pulse":
           array = this.pulse_effects;
           break;
+        case "spec_dmg":
+          array = this.spec_dmg_effects;
+          break;
+        case "precombat_dmg":
+          array = this.precombat_dmg_effects;
+          break;
+        case "dmg_mit":
+          array = this.dmg_mit_effects;
+          break;
+        case "miracle":
+          array = this.miracle_effects;
+          break;
+        case "dmg_store":
+          array = this.dmg_store_effects;
+          break;
       }
 
       // Run to the beginning of the next effect, if any/necessary.
@@ -483,9 +506,200 @@ Fighter.prototype.add_to_array = function (e, c) {
     }
   }
 };
+Fighter.prototype.evaluate_conditions(c, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
+  if (c == "0") {
+    return true;
+  }
+
+  // An array to hold evaluation results for sub-conditions.
+  var evaluations = new Array();
+  var temp = "";
+  var check = "";
+  var array_to_eval = new Array();
+  var result = false;
+  var range = 0;
+  var expected;
+
+  for (var i = 0; i < c.length; i++) {
+    if (c[i] == "=" || c[i] == ">" || c[i] == "<" || c[i] == "&" || c[i] == "|" || c[i] == "!" || i == c.length - 1) {
+      if (i == c.length - 1) {
+        temp += c[i];
+      }
+      switch (temp) {
+        case "init":
+          check += c[i + 1] + c[i + 2] + c[i + 3];
+          if (check = "off" && unit_initiating) {
+            evaluations.push(true);
+          }
+          else if (check="def" && !unit_initiating) {
+            evaluations.push(true);
+          }
+          else {
+            evaluations.push(false);
+          }
+          i += 3;
+          break;
+        case "e_weap":
+          for (i += 1; i < c.length && c[i] != "&" && c[i] != "|") {
+            check += c[i];
+          }
+          array_to_eval = check.split(",");
+          for (var j = 0; j < array_to_eval.length; j++) {
+            if (enemy.get_weap() == array_to_eval[j]) {
+              result = true;
+              break;
+            }
+          }
+          evaluations.push(result);
+          break;
+        case "e_mov":
+          for (i += 1; i < c.length && c[i] != "&" && c[i] != "|") {
+            check += c[i];
+          }
+          array_to_eval = check.split(",");
+          for (var j = 0; j < array_to_eval.length; j++) {
+            if (enemy.get_type() == array_to_eval[j]) {
+              result = true;
+              break;
+            }
+          }
+          evaluations.push(result);
+          break;
+        case "cond":
+          evaluations.push(this.conditional_effects);
+          break;
+        case "attacker":
+          check += c[i + 1];
+          if (check = "u" && unit_attacking) {
+            evaluations.push(true);
+          }
+          else if (check="e" && !unit_attacking) {
+            evaluations.push(true);
+          }
+          else {
+            evaluations.push(false);
+          }
+          i += 1;
+          break;
+        case "spec_trigger":
+          check += c[i + 1] + c[i + 2] + c[i + 3];
+          if (check = "atk" && unit_attacking) {
+            evaluations.push(true);
+          }
+          else if (check="def" && !unit_attacking) {
+            evaluations.push(true);
+          }
+          else {
+            evaluations.push(false);
+          }
+          i += 3;
+          break;
+        case "spec_activating":
+          evaluations.push(spec_activating);
+          break;
+        case "combat_range":
+          check += c[i + 1];
+          if (unit_initiating) {
+            range = unit.get_range();
+          }
+          else {
+            range = enemy.get_range();
+          }
+          evaluations.push(check == range);
+          i += 1;
+          break;
+        case "type":
+          break;
+        case "e_range":
+          check += c[i + 1];
+          evaluations.push(check == enemy.get_range());
+          i += 1;
+          break;
+        case "u_buffs_active":
+          evaluations.push(!this.buffs_negated && (this.atk_buff > 0 || this.spd_buff > 0 || this.def_buff > 0 || this.res_buff > 0))
+          break;
+        case "e_buffs_active":
+          evaluations.push(!enemy.get_buffs_negated() && (enemy.get_atk_buff() > 0 || enemy.get_spd_buff() > 0 || enemy.get_def_buff() > 0 || enemy.get_res_buff() > 0))
+          break;
+        case "adj":
+          break;
+        case "e_counter":
+          check += c[i + 1];
+          evaluations.push((check == "T" && e_counter) || (check == "F" && !e_counter));
+          i += 1;
+          break;
+        case "e_eff_weap":
+          if (c[i] == "!") {
+            i += 1;
+            expected = false;
+          }
+          else {
+            expected = true;
+          }
+          for (; i < c.length && c[i] != "&" && c[i] != "|") {
+            check += c[i];
+          }
+          array_to_eval = check.split(",")
+          for (var i = 0; i < array_to_eval.length; i++) {
+            if (!(expected == enemy.check_eff(array_to_eval[i]))) {
+              evaluations.push(false);
+              break;
+            }
+          }
+          if (i == array_to_eval.length) {
+            evaluation.push(true);
+          }
+          break;
+        case "wt_type":
+          check += c[i + 1];
+          evaluations.push((check == "A" && this.wt_check() == 1) || (check == "D" && this.wt_check() == -1) || (check == "N" && this.wt_check() == 0));
+          i += 1;
+          break;
+        case "cd":
+          check += c[i + 1];
+          evaluations.push(check == this.cooldown);
+          i += 1;
+          break;
+        default:
+          for (; i < c.length && c[i] != "&" && c[i] != "|"; i++) {
+            temp += c[i];
+          }
+          evaluations.push(evaluate_expression(temp));
+          break;
+      }
+      check = "";
+      result = false;
+      range = 0;
+      negate = true;
+    }
+    else {
+      temp += c[i];
+    }
+  }
+}
+Fighter.prototype.evaluate_expression(e) = function () {
+  // The number of unclosed parentheses counted.
+  var unclosed_paren_count = 0;
+  var expression = "";
+
+  /*
+  if (c[i] == "(") {
+    unclosed_paren_count += 1;
+    for (; unclosed_paren_count > 0; i++) {
+      expression += c[i];
+
+      if (c[i] == ")") {
+        unclosed_paren_count -= 1;
+      }
+      else if (c[i] == "(") {
+        unclosed_paren_count += 1;
+      }
+    }
+  }*/
+};
 // Resets the skill cooldown timer.
 Fighter.prototype.reset_cooldown = function() {
-  this.cooldown = this.proc.cooldown_max + this.weapon.skill_cd_increase - this.weapon.skill_cd_reduction;
+  this.cooldown = this.special.cooldown_max + this.weapon.skill_cd_increase - this.weapon.skill_cd_reduction;
 };
 // Decrements the skill cooldown timer.
 Fighter.prototype.decrement_cooldown = function() {
@@ -2031,7 +2245,8 @@ Fighter.prototype.revive = function() {
   this.reset_debuffs();
   this.reset_buffs();
   this.damage_dealt = 0;
-  this.cooldown -= this.get_cd_reduce();;
+  this.cooldown -= this.get_cd_reduce();
+  this.buffs_negated = false;
 };
 
 /* TO DO: See if the instances of these functions can be replaced with the set methods below. */
@@ -2050,6 +2265,9 @@ Fighter.prototype.apply_res_buff = function(val) {
 /* End of functions that might need removing. */
 
 // Get methods.
+Fighter.prototype.get_buffs_negated = function () {
+  return this.buffs_negated;
+};
 Fighter.prototype.get_name = function() {
   return this.name;
 };
@@ -2132,56 +2350,56 @@ Fighter.prototype.get_next_atk_bonus_dmg = function () {
   return this.next_atk_bonus_dmg;
 };
 Fighter.prototype.get_proc_name = function() {
-  return this.proc.name;
+  return this.special.name;
 };
 Fighter.prototype.get_dmg_mult_proc = function() {
-  return this.proc.dmg_mult_proc;
+  return this.special.dmg_mult_proc;
 };
 Fighter.prototype.get_dmg_taken_mult_proc = function() {
-  return this.proc.dmg_taken_mult_proc;
+  return this.special.dmg_taken_mult_proc;
 };
 Fighter.prototype.get_spd_as_dmg_proc = function () {
-  return this.proc.spd_as_dmg_proc;
+  return this.special.spd_as_dmg_proc;
 };
 Fighter.prototype.get_def_as_dmg_proc = function() {
-  return this.proc.def_as_dmg_proc;
+  return this.special.def_as_dmg_proc;
 };
 Fighter.prototype.get_res_as_dmg_proc = function() {
-  return this.proc.res_as_dmg_proc;
+  return this.special.res_as_dmg_proc;
 };
 Fighter.prototype.get_def_reduce_proc = function() {
-  return this.proc.def_reduce_proc;
+  return this.special.def_reduce_proc;
 };
 Fighter.prototype.get_second_turn_proc = function() {
-  return this.proc.second_turn_proc;
+  return this.special.second_turn_proc;
 };
 Fighter.prototype.get_precombat_atk_mult_proc = function() {
-  return this.proc.precombat_atk_mult_proc;
+  return this.special.precombat_atk_mult_proc;
 };
 Fighter.prototype.get_heal_on_hit_proc = function() {
   // Add any skill-based augmentations (ex. Solar Brace), if applicable.
-  var to_return = this.proc.heal_on_hit_proc;
+  var to_return = this.special.heal_on_hit_proc;
 
-  if (this.b_skill.spec_bonus_heal > 0 && this.proc.activates_on_hit) {
+  if (this.b_skill.spec_bonus_heal > 0 && this.special.activates_on_hit) {
     to_return += this.b_skill.spec_bonus_heal;
   }
 
   return to_return;
 };
 Fighter.prototype.get_atk_mult_proc = function() {
-  return this.proc.atk_mult_proc;
+  return this.special.atk_mult_proc;
 };
 Fighter.prototype.get_one_rng_reduce_proc = function() {
-  return this.proc.one_rng_reduce_proc;
+  return this.special.one_rng_reduce_proc;
 };
 Fighter.prototype.get_two_rng_reduce_proc = function() {
-  return this.proc.two_rng_reduce_proc;
+  return this.special.two_rng_reduce_proc;
 };
 Fighter.prototype.get_miracle_proc = function() {
-  return this.proc.miracle_proc;
+  return this.special.miracle_proc;
 };
 Fighter.prototype.get_mitig_to_dmg_proc = function () {
-  return this.proc.mitig_to_dmg_proc;
+  return this.special.mitig_to_dmg_proc;
 };
 Fighter.prototype.get_any_range_counter = function() {
   return Math.max(this.weapon.any_range_counter, this.a_skill.any_range_counter);
@@ -2240,11 +2458,11 @@ Fighter.prototype.get_skill_dmg_bonus = function() {
     dmg += this.b_skill.skill_dmg_bonus;
     combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.skill_dmg_bonus + " damage to his/her attack.<br>";
   }
-  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.proc.activates_on_hit) {
+  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.special.activates_on_hit) {
     dmg += this.b_skill.wrath_skill_dmg_bonus;
     combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
   }
-  if (this.weapon.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.weapon.wrath_threshold && this.proc.activates_on_hit) {
+  if (this.weapon.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.weapon.wrath_threshold && this.special.activates_on_hit) {
     dmg += this.weapon.wrath_skill_dmg_bonus;
     combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
   }
