@@ -506,196 +506,159 @@ Fighter.prototype.add_to_array = function (e, c) {
     }
   }
 };
-Fighter.prototype.evaluate_conditions(c, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
+/* Inputs:
+ *   -c: String. Condition(s) to evaluate.
+ *   -enemy: Fighter object. The enemy.
+ *   -unit_initiating: Boolean. Whether or not this unit is initiating combat.
+ *   -unit_attacking: Boolean. Whether or not this unit is attacking (i.e. dealing damage)
+ *   -spec_activating: Boolean. Whether or not this unit's special is activating.
+ *   -e_counter: Boolean. Whether or not the enemy can counterattack.
+ *
+ * Outputs:
+ *   -Boolean. Whether c evaluates to true.
+
+Algorithm
+ get next key term
+ get full sub-condition
+ if it's the last sub-condition, evaluate it.
+ if it's not the last sub-condition, get the logical operator joining it to the next.
+ evaluate as necessary.
+ */
+Fighter.prototype.evaluate_conditions = function(c, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
   if (c == "0") {
     return true;
   }
 
-  // An array to hold evaluation results for sub-conditions.
-  var evaluations = new Array();
-  var temp = "";
-  var check = "";
-  var array_to_eval = new Array();
-  var result = false;
-  var range = 0;
-  var expected;
+  var key_term = "";
+  var operator = "";
+  var comparison = "";
+  var remainder = "";
 
   for (var i = 0; i < c.length; i++) {
     if (c[i] == "=" || c[i] == ">" || c[i] == "<" || c[i] == "&" || c[i] == "|" || c[i] == "!" || i == c.length - 1) {
+      // If an operator is encountered, log it into the operator variable.
+      // Then, log the rest of the sub-condition into the comparison variable.
+      if (!(c[i] == "&" || c[i] == "|" || i == c.length - 1)) {
+        if (c[i] != "=") {
+          operator = c[i] + c[i + 1];
+          i += 2;
+        }
+        else {
+          operator = c[i];
+          i += 1;
+        }
+        for (; i != c.length - 1 && c[i] != "&" && c[i] != "|") {
+          comparison += c[i];
+        }
+      }
+      // Base case. Evaluate the final condition.
       if (i == c.length - 1) {
-        temp += c[i];
+        return this.evaluate_subcondition(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter);
       }
-      switch (temp) {
-        case "init":
-          check += c[i + 1] + c[i + 2] + c[i + 3];
-          if (check = "off" && unit_initiating) {
-            evaluations.push(true);
-          }
-          else if (check="def" && !unit_initiating) {
-            evaluations.push(true);
-          }
-          else {
-            evaluations.push(false);
-          }
-          i += 3;
-          break;
-        case "e_weap":
-          for (i += 1; i < c.length && c[i] != "&" && c[i] != "|") {
-            check += c[i];
-          }
-          array_to_eval = check.split(",");
-          for (var j = 0; j < array_to_eval.length; j++) {
-            if (enemy.get_weap() == array_to_eval[j]) {
-              result = true;
-              break;
-            }
-          }
-          evaluations.push(result);
-          break;
-        case "e_mov":
-          for (i += 1; i < c.length && c[i] != "&" && c[i] != "|") {
-            check += c[i];
-          }
-          array_to_eval = check.split(",");
-          for (var j = 0; j < array_to_eval.length; j++) {
-            if (enemy.get_type() == array_to_eval[j]) {
-              result = true;
-              break;
-            }
-          }
-          evaluations.push(result);
-          break;
-        case "cond":
-          evaluations.push(this.conditional_effects);
-          break;
-        case "attacker":
-          check += c[i + 1];
-          if (check = "u" && unit_attacking) {
-            evaluations.push(true);
-          }
-          else if (check="e" && !unit_attacking) {
-            evaluations.push(true);
-          }
-          else {
-            evaluations.push(false);
-          }
-          i += 1;
-          break;
-        case "spec_trigger":
-          check += c[i + 1] + c[i + 2] + c[i + 3];
-          if (check = "atk" && unit_attacking) {
-            evaluations.push(true);
-          }
-          else if (check="def" && !unit_attacking) {
-            evaluations.push(true);
-          }
-          else {
-            evaluations.push(false);
-          }
-          i += 3;
-          break;
-        case "spec_activating":
-          evaluations.push(spec_activating);
-          break;
-        case "combat_range":
-          check += c[i + 1];
-          if (unit_initiating) {
-            range = unit.get_range();
-          }
-          else {
-            range = enemy.get_range();
-          }
-          evaluations.push(check == range);
-          i += 1;
-          break;
-        case "type":
-          break;
-        case "e_range":
-          check += c[i + 1];
-          evaluations.push(check == enemy.get_range());
-          i += 1;
-          break;
-        case "u_buffs_active":
-          evaluations.push(!this.buffs_negated && (this.atk_buff > 0 || this.spd_buff > 0 || this.def_buff > 0 || this.res_buff > 0))
-          break;
-        case "e_buffs_active":
-          evaluations.push(!enemy.get_buffs_negated() && (enemy.get_atk_buff() > 0 || enemy.get_spd_buff() > 0 || enemy.get_def_buff() > 0 || enemy.get_res_buff() > 0))
-          break;
-        case "adj":
-          break;
-        case "e_counter":
-          check += c[i + 1];
-          evaluations.push((check == "T" && e_counter) || (check == "F" && !e_counter));
-          i += 1;
-          break;
-        case "e_eff_weap":
-          if (c[i] == "!") {
-            i += 1;
-            expected = false;
-          }
-          else {
-            expected = true;
-          }
-          for (; i < c.length && c[i] != "&" && c[i] != "|") {
-            check += c[i];
-          }
-          array_to_eval = check.split(",")
-          for (var i = 0; i < array_to_eval.length; i++) {
-            if (!(expected == enemy.check_eff(array_to_eval[i]))) {
-              evaluations.push(false);
-              break;
-            }
-          }
-          if (i == array_to_eval.length) {
-            evaluation.push(true);
-          }
-          break;
-        case "wt_type":
-          check += c[i + 1];
-          evaluations.push((check == "A" && this.wt_check() == 1) || (check == "D" && this.wt_check() == -1) || (check == "N" && this.wt_check() == 0));
-          i += 1;
-          break;
-        case "cd":
-          check += c[i + 1];
-          evaluations.push(check == this.cooldown);
-          i += 1;
-          break;
-        default:
-          for (; i < c.length && c[i] != "&" && c[i] != "|"; i++) {
-            temp += c[i];
-          }
-          evaluations.push(evaluate_expression(temp));
-          break;
+      else {
+        // Log the rest of the condition statement into the remainder variable.
+        for (; i < c.length; i++)
+          remainder += c[i];
+        if (c[i] == "&")
+          return this.evaluate_subcondtion(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) && this.evaluate_conditions(remainder, enemy, unit_initiating, unit_attacking, spec_activating, e_counter));
+        else
+          return this.evaluate_subcondtion(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) || this.evaluate_conditions(remainder, enemy, unit_initiating, unit_attacking, spec_activating, e_counter));
       }
-      check = "";
-      result = false;
-      range = 0;
-      negate = true;
     }
     else {
-      temp += c[i];
+      key_term += c[i];
     }
   }
 }
-Fighter.prototype.evaluate_expression(e) = function () {
+Fighter.prototype.evaluate_subcondition = function (condition, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
+  var array_to_eval = new Array();
+  var range = 0;
+  var expected;
+
+  switch (condition) {
+    case "init":
+      return (comparison == "off" && unit_initiating) || (comparison == "def" && !unit_initiating);
+    case "e_weap":
+      array_to_eval = comparison.split(",");
+      for (var i = 0; i < array_to_eval.length; i++)
+        if (enemy.get_weap() == array_to_eval[i])
+          return true;
+      return false;
+    case "e_mov":
+      array_to_eval = comparison.split(",");
+      for (var i = 0; i < array_to_eval.length; i++)
+        if (enemy.get_type() == array_to_eval[i])
+          return true;
+      return false;
+    case "cond":
+      return this.conditional_effects;
+    case "attacker":
+      return (comparison == "u" && unit_attacking) || (comparison == "e" && !unit_attacking);
+    case "spec_trigger":
+      return (comparison == "atk" && unit_attacking) || (comparison == "def" && !unit_attacking);
+    case "spec_activating":
+      return spec_activating;
+    case "combat_range":
+      if (unit_initiating) {
+        range = unit.get_range();
+      }
+      else {
+        range = enemy.get_range();
+      }
+      return comparison == range;
+    case "type":
+      // Recall: type is used for determining which types of effective damage a unit's skill
+      //         negates. It is evaluated separately from this function.
+      return false;
+    case "e_range":
+      return comparison == enemy.get_range();
+    case "u_buffs_active":
+      return (!this.buffs_negated && (this.atk_buff > 0 || this.spd_buff > 0 || this.def_buff > 0 || this.res_buff > 0));
+    case "e_buffs_active":
+      return (!enemy.get_buffs_negated() && (enemy.get_atk_buff() > 0 || enemy.get_spd_buff() > 0 || enemy.get_def_buff() > 0 || enemy.get_res_buff() > 0));
+    case "adj":
+      break;
+    case "e_counter":
+      return (comparison == "T" && e_counter) || (ccomparison == "F" && !e_counter);
+    case "e_eff_weap":
+      if (operator == "!=")
+        expected = false;
+      else
+        expected = true;
+      array_to_eval = comparison.split(",")
+      for (var i = 0; i < array_to_eval.length; i++)
+        if (!(expected == enemy.check_eff(array_to_eval[i])))
+          return false;
+      return true;
+    case "wt_type":
+      return (comparison == "A" && this.wt_check() == 1) || (comparison == "D" && this.wt_check() == -1) || (comparison == "N" && this.wt_check() == 0);
+    case "cd":
+      return comparison == this.cooldown;
+    default:
+      return evaluate_expression(condition + operator + comparison);
+  }
+};
+Fighter.prototype.evaluate_expression = function (e) {
   // The number of unclosed parentheses counted.
   var unclosed_paren_count = 0;
   var expression = "";
 
-  /*
-  if (c[i] == "(") {
-    unclosed_paren_count += 1;
-    for (; unclosed_paren_count > 0; i++) {
-      expression += c[i];
+  for (var i = 0; i < e.length; i++) {
+    if (c[i] == "(") {
+      unclosed_paren_count += 1;
+      for (; unclosed_paren_count > 0; i++) {
+        expression += e[i];
 
-      if (c[i] == ")") {
-        unclosed_paren_count -= 1;
+        if (e[i] == ")") {
+          unclosed_paren_count -= 1;
+        }
+        else if (e[i] == "(") {
+          unclosed_paren_count += 1;
+        }
       }
-      else if (c[i] == "(") {
-        unclosed_paren_count += 1;
-      }
+
     }
-  }*/
+  }
 };
 // Resets the skill cooldown timer.
 Fighter.prototype.reset_cooldown = function() {
