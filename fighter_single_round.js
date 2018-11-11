@@ -516,13 +516,6 @@ Fighter.prototype.add_to_array = function (e, c) {
  *
  * Outputs:
  *   -Boolean. Whether c evaluates to true.
-
-Algorithm
- get next key term
- get full sub-condition
- if it's the last sub-condition, evaluate it.
- if it's not the last sub-condition, get the logical operator joining it to the next.
- evaluate as necessary.
  */
 Fighter.prototype.evaluate_conditions = function(c, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
   if (c == "0") {
