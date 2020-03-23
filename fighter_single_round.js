@@ -5,11 +5,11 @@ class Fighter {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
-    this.hp = this.calculate_stat(char.hp_base, char.hpGP, "neutral");
-    this.atk = this.calculate_stat(char.atk_base, char.atkGP, "neutral");
-    this.spd = this.calculate_stat(char.spd_base, char.spdGP, "neutral");
-    this.def = this.calculate_stat(char.def_base, char.defGP, "neutral");
-    this.res = this.calculate_stat(char.res_base, char.resGP, "neutral");
+    this.hp = this.calculate_stat(char.hp_base, char.hpGrowth, "neutral");
+    this.atk = this.calculate_stat(char.atk_base, char.atkGrowth, "neutral");
+    this.spd = this.calculate_stat(char.spd_base, char.spdGrowth, "neutral");
+    this.def = this.calculate_stat(char.def_base, char.defGrowth, "neutral");
+    this.res = this.calculate_stat(char.res_base, char.resGrowth, "neutral");
     this.hp_base = char.hp_base;
     this.atk_base = char.atk_base;
     this.spd_base = char.spd_base;
@@ -29,50 +29,53 @@ class Fighter {
     if (char.n_lock != 1 && (boon != bane)) {
       switch (boon) {
         case "HP":
-          this.hp = this.calculate_stat(char.hp_base, char.hpGP, "boon");
+          this.hp = this.calculate_stat(char.hp_base, char.hpGrowth, "boon");
           this.hp_base += 1;
           break;
         case "Atk":
-          this.atk = this.calculate_stat(char.atk_base, char.atkGP, "boon");
+          this.atk = this.calculate_stat(char.atk_base, char.atkGrowth, "boon");
           this.atk_base += 1;
           break;
         case "Spd":
-          this.spd = this.calculate_stat(char.spd_base, char.spdGP, "boon");
+          this.spd = this.calculate_stat(char.spd_base, char.spdGrowth, "boon");
           this.spd_base += 1;
           break;
         case "Def":
-          this.def = this.calculate_stat(char.def_base, char.defGP, "boon");
+          this.def = this.calculate_stat(char.def_base, char.defGrowth, "boon");
           this.def_base += 1;
           break;
         case "Res":
-          this.res = this.calculate_stat(char.res_base, char.resGP, "boon");
+          this.res = this.calculate_stat(char.res_base, char.resGrowth, "boon");
           this.res_base += 1;
           break;
         // No default case, since "None" is a valid boon selection.
       }
-      switch (bane) {
-        case "HP":
-          this.hp = this.calculate_stat(char.hp_base, char.hpGP, "bane");
-          this.hp_base -= 1;
-          break;
-        case "Atk":
-          this.atk = this.calculate_stat(char.atk_base, char.atkGP, "bane");
-          this.atk_base -= 1;
-          break;
-        case "Spd":
-          this.spd = this.calculate_stat(char.spd_base, char.spdGP, "bane");
-          this.spd_base -= 1;
-          break;
-        case "Def":
-          this.def = this.calculate_stat(char.def_base, char.defGP, "bane");
-          this.def_base -= 1;
-          break;
-        case "Res":
-          this.res = this.calculate_stat(char.res_base, char.resGP, "bane");
-          this.res_base -= 1;
-          break;
-        // No default case, since "None" is a valid bane selection.
+      if (merge_lv <= 0) {
+        switch (bane) {
+          case "HP":
+            this.hp = this.calculate_stat(char.hp_base, char.hpGrowth, "bane");
+            this.hp_base -= 1;
+            break;
+          case "Atk":
+            this.atk = this.calculate_stat(char.atk_base, char.atkGrowth, "bane");
+            this.atk_base -= 1;
+            break;
+          case "Spd":
+            this.spd = this.calculate_stat(char.spd_base, char.spdGrowth, "bane");
+            this.spd_base -= 1;
+            break;
+          case "Def":
+            this.def = this.calculate_stat(char.def_base, char.defGrowth, "bane");
+            this.def_base -= 1;
+            break;
+          case "Res":
+            this.res = this.calculate_stat(char.res_base, char.resGrowth, "bane");
+            this.res_base -= 1;
+            break;
+          // No default case, since "None" is a valid bane selection.
+        }
       }
+
     }
 
     // Apply Rank S Summoner Support bonuses.
@@ -145,8 +148,8 @@ class Fighter {
     }
 
     // set various fighter properties.
-    this.type = char.type;
-    this.weap = char.weap;
+    this.weapon_type = char.weap;
+    this.movement_type = char.type;
 
     this.weapon = weap;
     this.a_skill = a;
@@ -157,127 +160,241 @@ class Fighter {
 
     /* ********** ARRAYS FOR SKILL EFFECTS. *********** */
 
-    // Combat buffs & debuffs.
-    this.atk_boost_effects = new Array();
-    this.spd_boost_effects = new Array();
-    this.def_boost_effects = new Array();
-    this.res_boost_effects = new Array();
-    this.atk_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
+    // Stat bonuses and penalties.
+    this.permanent_stat_boost_effects = new Array();
+    this.flat_stat_boost_effects = new Array();
+    this.scaled_stat_boost_effects = new Array
+    this.stat_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
     this.phantom_spd_effects = new Array();
+    this.bonus_multiplier_effects = new Array();
 
     // Follow up guarantors and inhibitors.
-    this.follow_up_effects = new Array();
-    this.u_follow_up_inhibit_effects = new Array();
+    this.follow_up_guarantor_effects = new Array();
+    this.follow_up_inhibit_effects = new Array();
     this.e_follow_up_inhibit_effects = new Array();
 
-    // Effective damage.
-    this.eff_effects = new Array();
-    this.negate_eff_effects = new Array();
+    // Special charge accelerators and inhibitors.
+    this.special_charge_accelerator_effects = new Array();
+    this.special_charge_inhibitor_effects = new Array();
 
-    // Cooldown charge bonuses and inhibitors.
-    this.cd_bonus_effects = new Array();
-    this.cd_inhibit_effects = new Array();
+    // Counterattack effects.
+    this.counterattack_effects = new Array();
+    this.counterattack_preventer_effects = new Array();
+    this.e_counterattack_preventer_effects = new Array();
 
-    // Counterattack negation.
-    this.negate_counterattack_effects = new Array();
-    this.negate_self_counterattack_effects = new Array();
+    // Additional damage effects
+    this.bonus_damage_effects = new Array();
+    this.damage_boost_effects = new Array();
+    this.precombat_damage_effects = new Array();
 
-    // Mitigation effects.
-    this.first_hit_mit_effects = new Array();
-    this.consec_hit_mit_effects = new Array();
-    this.bonus_mit_effects = new Array();
+    // Mitigation effects
+    this.static_mitigation_effects = new Array();
+    this.flat_percent_mitigation_effects = new Array();
+    this.scaled_percent_mitigation_effects = new Array();
+    this.flat_percent_precombat_mitigation_effects = new Array();
+    this.scaled_percent_precombat_mitigation_effects = new Array();
+    this.mitigation_mirror_effects = new Array();
 
-    // Weapon Triangle related effects.
-    this.triangle_mod_effects = new Array(); // Note: flat triangle mod.
-    this.u_affinity_mod_effects = new Array(); // Note: multiplier for triangle mod.
-    this.e_affinity_mod_effects = new Array(); // Note: multiplier for triangle mod.
-    this.colorless_wta_effects = new Array();
+    // Healing effects
+    this.heal_on_hit_effects = new Array();
 
-    // Combat order effects.
-    this.strike_twice_effects = new Array();
+    // Atk multiplier effects
+    this.weapon_eff_effects = new Array();
+    this.mov_eff_effects = new Array();
+    this.weapon_eff_susceptible_effects = new Array();
+    this.triangle_amplifier_effects = new Array();
+    this.e_triangle_reverser_effects = new Array();
+
+    // Combat order effects
+    this.vantage_effects = new Array();
     this.desperation_effects = new Array();
-    this.strike_first_effects = new Array();
-    this.u_hardy_bearing_effects = new Array();
-    this.e_hardy_bearing_effects = new Array();
+    this.inverse_desperation_effects = new Array();
 
-    // Effects for specials, or effects usually related to specials..
-    this.spec_dmg_effects = new Array();
-    this.precombat_dmg_effects = new Array();
-    this.dmg_mit_effects = new Array();
-    this.miracle_effects = new Array();
-    this.dmg_store_effecs = new Array();
-    this.hp_restore_effects = new Array();
+    // Neutralization effects
+    this.neutralize_bonus_effects = new Array();
+    this.neutralize_penalty_effects = new Array();
+    this.nullify_penalty_effects = new Array();
+    this.neutralize_triangle_amplifier_effects = new Array();
+    //this.neutralize_e_triangle_amplifier_effects = new Array();
+    this.neutralize_weap_eff_effects = new Array();
+    this.neutralize_mov_eff_effects = new Array();
+    this.neutralize_adaptive_damage_effects = new Array();
+    this.neutralize_follow_up_guarantor_effects = new Array();
+    this.neutralize_follow_up_inhibitor_effects = new Array();
+    this.neutralize_counterattack_preventer_effects = new Array();
+    this.neutralize_scaled_mitigation_effects = new Array();
+    this.neutralize_special_charge_inhibitor_effects = new Array();
+    this.neutralize_special_charge_accelerator_effects = new Array();
+    this.neutralize_combat_order_alteration_effects = new Array();
+    this.neutralize_wrathful_staff_effects = new Array();
 
-    // Various in-combat effects.
-    this.arc_effects = new Array(); // Any-range counter.
-    this.negate_buffs_effects = new Array();
-    this.bonus_dmg_effects = new Array();
-    this.adaptive_dmg_effects = new Array();
-    this.negate_stf_penalty_effects = new Array();
-    this.extra_weap_type_effects = new Array();
-
-    // Various out-of-combat effects.
-    this.atk_ploy_effects = new Array();
-    this.spd_ploy_effects = new Array();
-    this.def_ploy_effects = new Array();
-    this.res_ploy_effects = new Array();
+    // Misc. effects
+    this.activate_special_effect = null;
+    this.adaptive_damage_effects = new Array();
     this.pulse_effects = new Array();
+    this.stat_ploy_effects = new Array();
+    this.panic_ploy_effects = new Array();
+    this.endure_effects = new Array();
+    this.wrathful_staff_effects = new Array();
+    this.colorless_wta_effects = new Array();
+    this.extra_movement_effects = new Array();
+    this.strike_twice_effects = new Array();
 
     /* ******* END OF ARRAYS FOR SKILL EFFECTS. ******* */
 
     this.process_skill_effects();
 
-    // set default values for buffs & debuffs.
+    // set default values for field buffs.
     this.atk_buff = 0;
     this.spd_buff = 0;
     this.def_buff = 0;
     this.res_buff = 0;
 
-    // set default values for debuffs.
-    this.atk_debuff = 0;
-    this.spd_debuff = 0;
-    this.def_debuff = 0;
-    this.res_debuff = 0;
-    this.buffs_reversed = false;
+    // set default values for penalties.
+    this.atk_penalty = 0;
+    this.spd_penalty = 0;
+    this.def_penalty = 0;
+    this.res_penalty = 0;
 
     // default values for assumed variables, to be set by the user.
-    // buffs
+    // field buffs
     this.assumed_atk_buff = 0;
     this.assumed_spd_buff = 0;
     this.assumed_def_buff = 0;
     this.assumed_res_buff = 0;
 
-    // auras
+    // combat buffs
     this.assumed_atk_boost = 0;
     this.assumed_spd_boost = 0;
     this.assumed_def_boost = 0;
     this.assumed_res_boost = 0;
 
-    // debuffs
-    this.assumed_atk_debuff = 0;
-    this.assumed_spd_debuff = 0;
-    this.assumed_def_debuff = 0;
-    this.assumed_res_debuff = 0;
+    // penalties
+    this.assumed_atk_penalty = 0;
+    this.assumed_spd_penalty = 0;
+    this.assumed_def_penalty = 0;
+    this.assumed_res_penalty = 0;
 
-    // nearby allies
-    this.adj_allies = 0;
-    this.two_space_allies = 0;
-
-    // Calculate and store the unit's maximum HP.
-    this.hp += this.weapon.hp_mod + this.a_skill.hp_mod + this.seal.hp_mod;
-    this.hp_max = this.hp;
-
-    // Set up the unit's special cooldown.
-    this.cooldown = 0;
-    this.reset_cooldown();
-    this.cooldown -= this.get_cd_reduce();
+    // Set up the unit's special type and cooldown.
+    this.special_type = special.activation_type;
+    this.cooldown_max = special.cooldown_max + weap.cooldown_mod + a.cooldown_mod + b.cooldown_mod + c.cooldown_mod;
+    this.cooldown = this.cooldown_max;
 
     // damage_dealt is a logging variable, used to report amount of damage dealt
     // by the unit during combat (for % HP calculations).
     this.damage_dealt = 0;
 
     // start_HP helps determine if skills such as breakers or wrathful staff apply.
-    this.start_HP = 0;
+    this.start_hp = 0;
+
+    // Flags related to during-combat events.
+    this.range = this.weapon.range;
+    this.targeting = ""; // "def" or "res", depending on what the weapon targets.
+    this.initiating = false;
+    this.attacking = false;
+    this.first_hit = false;
+    this.hitting_consecutively = false;
+    this.special_activating = false;
+    this.control = "";
+
+    this.can_counterattack = false;
+    this.can_follow_up = false;
+    this.desperation_active = false;
+    this.vantage_active = false;
+    this.has_triangle_amplifier = false;
+    this.deals_adaptive_damage = false;
+    this.deals_effective_damage = false;
+    this.strikes_twice = false;
+    this.prevents_counterattack = false;
+    this.prevents_e_counterattack = false;
+    this.transformed = false;
+    this.triangle_status = "n"; // "a" = unit has triangle advantage, "d" = disadvantage, "n" = neutral
+    this.has_colorless_wta = false;
+    this.mitigation_mirror_active = false;
+    this.inhibits_special_charge = false;
+    this.accelerates_special_charge = false;
+    this.wrathful_staff_active = false;
+    this.atk_buff_neutralized = false;
+    this.spd_buff_neutralized = false;
+    this.def_buff_neutralized = false;
+    this.res_buff_neutralized = false;
+    this.atk_penalty_neutralized = false;
+    this.spd_penalty_neutralized = false;
+    this.def_penalty_neutralized = false;
+    this.res_penalty_neutralized = false;
+    //this.atk_penalty_nullified = false;
+    //this.spd_penalty_nullified = false;
+    //this.def_penalty_nullified = false;
+    //this.res_penalty_nullified = false;
+
+    this.neutralizes_wrathful_staff = false;
+    this.neutralizes_adaptive_damage = false;
+    this.neutralizes_counterattack_preventers = false;
+    this.neutralizes_follow_up_guarantors = false;
+    this.neutralizes_follow_up_inhibitors = false;
+    this.neutralizes_special_charge_accelerators = false;
+    this.neutralizes_special_charge_inhibitors = false;
+    this.neutralizes_weapon_effective = false;
+    this.neutralizes_movement_effective = false;
+    this.neutralizes_triangle_amplifier = false;
+    this.neutralizes_scaled_mitigation = false;
+    this.reverses_triangle_amplifier = false;
+
+    // The unit's permanent stats (includes base stats and stats from skills, but not field or combat buffs and penalties).
+    this.max_hp = 0;
+    this.permanent_atk = 0;
+    this.permanent_spd = 0;
+    this.permanent_def = 0;
+    this.permanent_res = 0;
+
+    // The unit's printed stats (includes base stats, stats from skills, and field buffs and penalties).
+    this.printed_atk = 0;
+    this.printed_spd = 0;
+    this.printed_def = 0;
+    this.printed_res = 0;
+
+    // The unit's combat stats.
+    this.combat_atk = 0;
+    this.combat_spd = 0;
+    this.combat_def = 0;
+    this.combat_res = 0;
+    this.phantom_spd = 0;
+
+    // The unit's effective attack.
+    this.effective_atk = 0;
+
+    // Positive Status effects
+    this.bonus_mov_active = false;
+
+    // Negative Status effects
+    this.panic_active = false;
+    this.guard_active = false;
+    this.isolation_active = false;
+    this.gravity_active = false;
+    this.flash_active = false;
+    this.trilemma_active = false;
+
+    // Weapon and movement types that the Fighter deals effective datamge to
+    this.weapon_effective = new Array();
+    this.movement_effective = new Array();
+    this.weapon_effective_susceptible = new Array();
+
+    // User Input variables
+    this.weap_user_number_input = 0;
+    this.weap_user_boolean_input = false;
+    this.a_user_number_input = 0;
+    this.a_user_boolean_input = false;
+    this.b_user_number_input = 0;
+    this.b_user_boolean_input = false;
+    this.c_user_number_input = 0;
+    this.c_user_boolean_input = false;
+    this.seal_user_number_input = 0;
+    this.seal_user_boolean_input = false;
+    this.spec_user_number_input = 0;
+    this.spec_user_boolean_input = false;
+
+    // Damage the unit is dealing to the enemy.
+    this.damage = 0;
 
     // next_atk_bonus_dmg is a variable used to handle damage that is carried over
     // from a previous action (ex. Ice Mirror is a defensive special that grants damage
@@ -309,7 +426,7 @@ Fighter.prototype.two_array_sort = function (arr1, arr2) {
   return arr1;
 };
 // Function for boon/bane stat calculations
-Fighter.prototype.calculate_stat = function(stat_base, stat_GP, case_type) {
+Fighter.prototype.calculate_stat = function(stat_base, stat_Growth, case_type) {
   // Formula is:
   // [base stat] + Math.floor(39 * Math.floor([growth rate] * (1 + .7 * (rarity - 3))))
   // This simulator assumes a rarity of 5. Note that boon stats mean +1 base point/GP, and
@@ -318,3103 +435,1715 @@ Fighter.prototype.calculate_stat = function(stat_base, stat_GP, case_type) {
   switch (case_type) {
     case "boon":
       base = stat_base + 1;
-      growth = (stat_GP + 5) * 5;
+      growth = stat_Growth + 5;
       break;
     case "bane":
       base = stat_base - 1;
-      growth = (stat_GP + 3) * 5;
+      growth = stat_Growth - 5;
       break;
     default:
       base = stat_base;
-      growth = (stat_GP + 4) * 5;
+      growth = stat_Growth;
   }
   growth_rate = Math.floor(growth * (1 + (.07 * (5 - 3)))) / 100;
   return (base + Math.floor(39 * growth_rate));
 };
 // Adds each skill effect to the appropriate array.
 Fighter.prototype.process_skill_effects = function () {
-  var skills = new Array(this.weapon, this.special, this.a_skill, this.b_skill, this.c_skill);
+  var skills = new Array(this.weapon, this.special, this.a_skill, this.b_skill, this.c_skill, this.seal);
+  //console.log(skills);
   for (var i = 0; i < skills.length; i++) {
-    if (skills[i].effect_1 != 0) {
-      this.add_to_array(skills[i].effect_1, skills[i].conditions_1);
-    }
-    if (skills[i].effect_2 != 0) {
-      this.add_to_array(skills[i].effect_2, skills[i].conditions_2);
-    }
-    if (skills[i].effect_3 != 0) {
-      this.add_to_array(skills[i].effect_3, skills[i].conditions_3);
-    }
+  //  console.log("Dealing with " + skills[i].name);
+    if (skills[i].skill_definition != "empty")
+      this.add_to_array(skills[i].skill_definition, skills[i].name);
   }
 };
-// Helper function to determine the appropriate array
-// to add an effect to.
-Fighter.prototype.add_to_array = function (e, c) {
-  var temp_effect;
-  var array;
-  var temp = "";
+// Processes the skill description strings and sorts effects into the proper arrays.
+Fighter.prototype.add_to_array = function (sd, n) {
+  var reader = "";
+  var identifier = "";
+  var effects = new Array();
+  var condition_string = "";
+  var i = 1;
 
-  // Read the effect string into the temp variable until the end of the string.
-  // Stop reading when reaching "+", "=", or "&".
-  // Process each separate effect into the appropriate array, and reset the temp variable.
-  for (var i = 0; i < e.length; i++) {
-    if (e[i] == "+" || e[i] == "=" || e[i] == "&" || i == e.length-1) {
-      if (i == e.length-1) {
-        temp += e[i];
-      }
-      switch (temp) {
-        case "atk":
-          array = this.atk_boost_effects;
-          break;
-        case "spd":
-          array = this.spd_boost_effects;
-          break;
-        case "def":
-          array = this.def_boost_effects;
-          break;
-        case "res":
-          array = this.res_boost_effects;
-          break;
-        case "e_atk":
-          array = this.atk_penalty_effects;
-          break;
-        case "phantom_spd":
-          array = this.phantom_spd_effects;
-          break;
-        case "follow_up":
-          array = this.follow_up_effects;
-          break;
-        case "u_follow_up_inhibit":
-          array = this.u_follow_up_inhibit_effects;
-          break;
-        case "e_follow_up_inhibit":
-          array = this.e_follow_up_inhibit_effects;
-          break;
-        case "eff":
-          array = this.eff_effects;
-          break;
-        case "negate_eff":
-          array = this.negate_eff_effects;
-          break;
-        case "cd_bonus":
-          array = this.cd_bonus_effects;
-          break;
-        case "cd_inhibit":
-          array = this.cd_inhibit_effects;
-          break;
-        case "negate_counterattack":
-          array = this.negate_counterattack_effects;
-          break;
-        case "negate_self_counterattack":
-          array = this.negate_self_counterattack_effects;
-          break;
-        case "first_hit_mit":
-          array = this.first_hit_mit_effects;
-          break;
-        case "consec_hit_mit":
-          array = this.consec_hit_mit_effects;
-          break;
-        case "bonus_mit_effects":
-          array = this.bonus_mit_effects;
-          break;
-        case "triangle_mod":
-          array = this.triangle_mod_effects;
-          break;
-        case "u_affinity_mod":
-          array = this.u_affinity_mod_effects;
-          break;
-        case "e_affinity_mod":
-          array = this.e_affinity_mod_effects;
-          break;
-        case "colorless_wta":
-          array = this.colorless_wta_effects;
-          break;
-        case "strike_twice":
-          array = this.strike_twice_effects;
-          break;
-        case "u_hardy_bearing":
-          array = this.u_hardy_bearing_effects;
-          break;
-        case "e_hardy_bearing":
-          array = this.e_hardy_bearing_effects;
-          break;
-        case "arc":
-          array = this.arc_effects;
-          break;
-        case "negate_buffs":
-          array = this.negate_buffs_effects;
-          break;
-        case "bonus_dmg":
-          array = this.bonus_dmg_effects;
-          break;
-        case "adaptive_dmg":
-          array = this.adaptive_dmg_effects;
-          break;
-        case "negate_stf_penalty":
-          array = this.negate_stf_penalty_effects;
-          break;
-        case "extra_weap_type":
-          array = this.extra_weap_type_effects;
-          break;
-        case "hp_restore":
-          array = this.hp_restore_effects;
-          break;
-        case "atk_ploy":
-          array = this.atk_ploy_effects;
-          break;
-        case "spd_ploy":
-          array = this.spd_ploy_effects;
-          break;
-        case "def_ploy":
-          array = this.def_ploy_effects;
-          break;
-        case "res_ploy":
-          array = this.res_ploy_effects;
-          break;
-        case "pulse":
-          array = this.pulse_effects;
-          break;
-        case "spec_dmg":
-          array = this.spec_dmg_effects;
-          break;
-        case "precombat_dmg":
-          array = this.precombat_dmg_effects;
-          break;
-        case "dmg_mit":
-          array = this.dmg_mit_effects;
-          break;
-        case "miracle":
-          array = this.miracle_effects;
-          break;
-        case "dmg_store":
-          array = this.dmg_store_effects;
-          break;
+  // Run until the end of the string is reached.
+  for (; i < sd.length; i++) {
+    // If a ";" is encountered, then the condition string has been reached. Run until the end of
+    // the condition string, set the "conditions" property of all effects in the effect array,
+    // and sort all effects into the appropriate places. Then clear out the effects array and
+    // condition string in preparation for the next set of effects (if any).
+    if (sd[i] == ";") {
+      if (reader != "") {
+        effects.push(new Effect(reader, "", n, reader));
+        reader = "";
       }
 
-      // Run to the beginning of the next effect, if any/necessary.
-      // Add the effect to the appropriate array.
-      if (e[i] != "&" && i != e.length-1) {
-        for (; i < e.length && e[i] != "&"; i++) {
-          temp += e[i];
-        }
+      for (i += 1; sd[i] != "}"; i++)
+        condition_string += sd[i];
+
+      effects.forEach((item) => {
+        item.conditions = condition_string;
+        this.sort_effect(item);
+      });
+
+      effects = new Array();
+      condition_string = "";
+    }
+    // If a "(" is encountered, then an identifier has been fully loaded into the reader.
+    // Set the identifier, then load the rest of the effect into the reader and push it to
+    // the effects array. Clear out the reader and identifier in preparation for the next
+    // effect.
+    else if (sd[i] == "(") {
+      identifier = reader;
+      var unclosed_parentheses = 1;
+      reader += sd[i];
+      for (i += 1; unclosed_parentheses != 0; i++) {
+        reader += sd[i];
+        if (sd[i] == "(")
+          unclosed_parentheses += 1;
+        else if (sd[i] == ")")
+          unclosed_parentheses -= 1;
       }
-      temp_effect = new Effect(temp, c);
-      array.push(temp_effect);
-      temp = "";
+
+      effects.push(new Effect(reader, "", n, identifier));
+
+      reader = "";
+      identifier = "";
+
+      // sd[i] is now either "," or ";". i is incremented at the end of the conditional statements,
+      // so if a ";" is encountered, rewind i by 1 so it is caught on the loop's next iteration. There
+      // is no need to rewind i for a ",", as the function's state is already set up for the next effect.
+      if (sd[i] == ";")
+        i -= 1;
     }
-    else {
-      temp += e[i];
+    // If a "," is encountered, then an identifier has been fully loaded into the reader, and is
+    // in fact identical to the effect string. Push the effect to the effects array, and clear out the
+    // reader in preparation for the next effect.
+    else if (sd[i] == ",") {
+      effects.push(new Effect(reader, "", n, reader));
+      reader = "";
     }
+    else if (sd[i] != "{")
+      reader += sd[i];
   }
 };
-/* Inputs:
- *   -c: String. Condition(s) to evaluate.
- *   -enemy: Fighter object. The enemy.
- *   -unit_initiating: Boolean. Whether or not this unit is initiating combat.
- *   -unit_attacking: Boolean. Whether or not this unit is attacking (i.e. dealing damage)
- *   -spec_activating: Boolean. Whether or not this unit's special is activating.
- *   -e_counter: Boolean. Whether or not the enemy can counterattack.
- *
- * Outputs:
- *   -Boolean. Whether c evaluates to true.
- */
-Fighter.prototype.evaluate_conditions = function(c, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
-  if (c == "0") {
-    return true;
-  }
 
-  var key_term = "";
-  var operator = "";
-  var comparison = "";
-  var remainder = "";
-
-  for (var i = 0; i < c.length; i++) {
-    if (c[i] == "=" || c[i] == ">" || c[i] == "<" || c[i] == "&" || c[i] == "|" || c[i] == "!" || i == c.length - 1) {
-      // If an operator is encountered, log it into the operator variable.
-      // Then, log the rest of the sub-condition into the comparison variable.
-      if (!(c[i] == "&" || c[i] == "|" || i == c.length - 1)) {
-        if (c[i] != "=") {
-          operator = c[i] + c[i + 1];
-          i += 2;
-        }
-        else {
-          operator = c[i];
-          i += 1;
-        }
-        for (; i != c.length - 1 && c[i] != "&" && c[i] != "|") {
-          comparison += c[i];
-        }
-      }
-      // Base case. Evaluate the final condition.
-      if (i == c.length - 1) {
-        return this.evaluate_subcondition(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter);
-      }
-      else {
-        // Log the rest of the condition statement into the remainder variable.
-        for (; i < c.length; i++)
-          remainder += c[i];
-        if (c[i] == "&")
-          return this.evaluate_subcondtion(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) && this.evaluate_conditions(remainder, enemy, unit_initiating, unit_attacking, spec_activating, e_counter));
-        else
-          return this.evaluate_subcondtion(key_term, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) || this.evaluate_conditions(remainder, enemy, unit_initiating, unit_attacking, spec_activating, e_counter));
-      }
-    }
-    else {
-      key_term += c[i];
-    }
-  }
-}
-Fighter.prototype.evaluate_subcondition = function (condition, operator, comparison, enemy, unit_initiating, unit_attacking, spec_activating, e_counter) {
-  var array_to_eval = new Array();
-  var range = 0;
-  var expected;
-
-  switch (condition) {
-    case "init":
-      return (comparison == "off" && unit_initiating) || (comparison == "def" && !unit_initiating);
-    case "e_weap":
-      array_to_eval = comparison.split(",");
-      for (var i = 0; i < array_to_eval.length; i++)
-        if (enemy.get_weap() == array_to_eval[i])
-          return true;
-      return false;
-    case "e_mov":
-      array_to_eval = comparison.split(",");
-      for (var i = 0; i < array_to_eval.length; i++)
-        if (enemy.get_type() == array_to_eval[i])
-          return true;
-      return false;
-    case "cond":
-      return this.conditional_effects;
-    case "attacker":
-      return (comparison == "u" && unit_attacking) || (comparison == "e" && !unit_attacking);
-    case "spec_trigger":
-      return (comparison == "atk" && unit_attacking) || (comparison == "def" && !unit_attacking);
-    case "spec_activating":
-      return spec_activating;
-    case "combat_range":
-      if (unit_initiating) {
-        range = unit.get_range();
-      }
-      else {
-        range = enemy.get_range();
-      }
-      return comparison == range;
-    case "type":
-      // Recall: type is used for determining which types of effective damage a unit's skill
-      //         negates. It is evaluated separately from this function.
-      return false;
-    case "e_range":
-      return comparison == enemy.get_range();
-    case "u_buffs_active":
-      return (!this.buffs_negated && (this.atk_buff > 0 || this.spd_buff > 0 || this.def_buff > 0 || this.res_buff > 0));
-    case "e_buffs_active":
-      return (!enemy.get_buffs_negated() && (enemy.get_atk_buff() > 0 || enemy.get_spd_buff() > 0 || enemy.get_def_buff() > 0 || enemy.get_res_buff() > 0));
-    case "adj":
+// Inserts an effect in to the appropriate array based on the "identifier" property.
+Fighter.prototype.sort_effect = function (effect) {
+  switch (effect.identifier) {
+    case "flat_stat_boost":
+      this.flat_stat_boost_effects.push(effect);
       break;
-    case "e_counter":
-      return (comparison == "T" && e_counter) || (ccomparison == "F" && !e_counter);
-    case "e_eff_weap":
-      if (operator == "!=")
-        expected = false;
-      else
-        expected = true;
-      array_to_eval = comparison.split(",")
-      for (var i = 0; i < array_to_eval.length; i++)
-        if (!(expected == enemy.check_eff(array_to_eval[i])))
-          return false;
-      return true;
-    case "wt_type":
-      return (comparison == "A" && this.wt_check() == 1) || (comparison == "D" && this.wt_check() == -1) || (comparison == "N" && this.wt_check() == 0);
-    case "cd":
-      return comparison == this.cooldown;
-    default:
-      return evaluate_expression(condition + operator + comparison);
+    case "scaled_stat_boost":
+      this.scaled_stat_boost_effects.push(effect);
+      break;
+    case "bonus_damage":
+      this.bonus_damage_effects.push(effect);
+      break;
+    case "damage_boost":
+      this.damage_boost_effects.push(effect);
+      break;
+    case "precombat_damage":
+      this.precombat_damage_effects.push(effect);
+      break;
+    case "stat_penalty":
+      this.stat_penalty_effects.push(effect);
+      break;
+    case "static_mitigation":
+      this.static_mitigation_effects.push(effect);
+      break;
+    case "flat_percent_mitigation":
+      this.flat_percent_mitigation_effects.push(effect);
+      break;
+    case "scaled_percent_mitigation":
+      this.scaled_percent_mitigation_effects.push(effect);
+      break;
+    case "flat_percent_precombat_mitigation":
+      this.flat_percent_precombat_mitigation_effects.push(effect);
+      break;
+    case "scaled_percent_precombat_mitigation":
+      this.scaled_percent_precombat_mitigation_effects.push(effect);
+      break;
+    case "heal_on_hit":
+      this.heal_on_hit_effects.push(effect);
+      break;
+    case "weap_eff":
+      this.weapon_eff_effects.push(effect);
+      break;
+    case "mov_eff":
+      this.mov_eff_effects.push(effect);
+      break;
+    case "weap_eff_susceptible":
+      this.weapon_eff_susceptible_effects.push(effect);
+      break;
+    case "pulse":
+      this.pulse_effects.push(effect);
+      break;
+    case "panic_ploy":
+      this.panic_ploy_effects.push(effect);
+      break;
+    case "stat_ploy":
+      this.stat_ploy_effects.push(effect);
+      break;
+    case "phantom_spd":
+      this.phantom_spd_effects.push(effect);
+      break;
+    case "neutralize_bonuses":
+      this.neutralize_bonus_effects.push(effect);
+      break;
+    case "neutralize_penalties":
+      this.neutralize_penalty_effects.push(effect);
+      break;
+    case "nullify_penalties":
+      this.nullify_penalty_effects.push(effect);
+      break;
+    case "neutralize_weapon_effective":
+      this.neutralize_weap_eff_effects.push(effect);
+      break;
+    case "neutralize_movement_effective":
+      this.neutralize_mov_eff_effects.push(effect);
+      break;
+    case "multiply_bonus":
+      this.bonus_multiplier_effects.push(effect);
+      break;
+    case "activate_special":
+      this.activate_special_effect = effect;
+      break;
+    case "triangle_amplifier":
+      this.triangle_amplifier_effects.push(effect);
+      break;
+    case "adaptive_damage":
+      this.adaptive_damage_effects.push(effect);
+      break;
+    case "counterattack":
+      this.counterattack_effects.push(effect);
+      break;
+    case "strike_twice":
+      this.strike_twice_effects.push(effect);
+      break;
+    case "follow_up_guarantor":
+      this.follow_up_guarantor_effects.push(effect);
+      break;
+    case "follow_up_inhibitor":
+      this.follow_up_inhibit_effects.push(effect);
+      break;
+    case "e_follow_up_inhibitor":
+      this.e_follow_up_inhibit_effects.push(effect);
+      break;
+    case "special_charge_accelerator":
+      this.special_charge_accelerator_effects.push(effect);
+      break;
+    case "special_charge_inhibitor":
+      this.special_charge_inhibitor_effects.push(effect);
+      break;
+    case "counterattack_preventer":
+      this.counterattack_preventer_effects.push(effect);
+      break;
+    case "e_counterattack_preventer":
+      this.e_counterattack_preventer_effects.push(effect);
+      break;
+    case "desperation":
+      this.desperation_effects.push(effect);
+      break;
+    case "inverse_desperation":
+      this.inverse_desperation_effects.push(effect);
+      break;
+    case "vantage":
+      this.vantage_effects.push(effect);
+      break;
+    case "endure":
+      this.endure_effects.push(effect);
+      break;
+    case "colorless_wta":
+      this.colorless_wta_effects.push(effect);
+      break;
+    case "e_triangle_reverser":
+      this.e_triangle_reverser_effects.push(effect);
+      break;
+    case "wrathful_staff":
+      this.wrathful_staff_effects.push(effect);
+      break;
+    case "mitigation_mirror":
+      this.mitigation_mirror_effects.push(effect);
+      break;
+    case "extra_movement":
+      this.extra_movement_effects.push(effect);
+      break;
+    case "neutralize_adaptive_damage":
+      this.neutralize_adaptive_damage_effects.push(effect);
+      break;
+    case "neutralize_follow_up_guarantors":
+      this.neutralize_follow_up_guarantor_effects.push(effect);
+      break;
+    case "neutralize_follow_up_inhibitors":
+      this.neutralize_follow_up_inhibitor_effects.push(effect);
+      break;
+    case "neutralize_counterattack_preventers":
+      this.neutralize_counterattack_preventer_effects.push(effect);
+      break;
+    case "neutralize_triangle_amplifier":
+      this.neutralize_triangle_amplifier_effects.push(effect);
+      break;
+    case "neutralize_scaled_mitigation":
+      this.neutralize_scaled_mitigation_effects.push(effect);
+      break;
+    case "neutralize_special_charge_inhibitors":
+      this.neutralize_special_charge_inhibitor_effects.push(effect);
+      break;
+    case "neutralize_special_charge_accelerators":
+      this.neutralize_special_charge_accelerator_effects.push(effect);
+      break;
+    case "neutralize_combat_order_alteration":
+      this.neutralize_combat_order_alteration_effects.push(effect);
+      break;
+    case "neutralize_wrathful_staff":
+      this.neutralize_wrathful_staff_effects.push(effect);
+      break;
   }
 };
-Fighter.prototype.evaluate_expression = function (e) {
-  // The number of unclosed parentheses counted.
-  var unclosed_paren_count = 0;
-  var expression = "";
 
-  for (var i = 0; i < e.length; i++) {
-    if (c[i] == "(") {
-      unclosed_paren_count += 1;
-      for (; unclosed_paren_count > 0; i++) {
-        expression += e[i];
+/* ******* CONDITION EVALUATION ******* */
 
-        if (e[i] == ")") {
-          unclosed_paren_count -= 1;
-        }
-        else if (e[i] == "(") {
-          unclosed_paren_count += 1;
-        }
-      }
+Fighter.prototype.eval_conditions = function(conditions, e) {
+  //console.log("eval_conditions called on " + conditions);
 
+  var reader = "";
+  var i = 1;
+
+  for (; conditions[i] != "]" && i < conditions.length; i++)
+    reader += conditions[i];
+  i += 1;
+
+  if (i == conditions.length)
+    return this.eval_condition_group(reader, e);
+  else if (conditions[i + 1] == "&")
+    return this.eval_condition_group(reader, e) && this.eval_conditions(conditions.substring(i + 2, conditions.length), e);
+  else
+    return this.eval_condition_group(reader, e) || this.eval_conditions(conditions.substring(i + 2, conditions.length), e);
+};
+
+Fighter.prototype.eval_condition_group = function(condition_group, e) {
+  //console.log("eval_condition_group called on " + condition_group);
+
+  var reader = "";
+  var i = 0;
+
+  for (; condition_group[i] != "&" && condition_group[i] != "|" && i < condition_group.length; i++)
+    reader += condition_group[i];
+
+  if (i == condition_group.length)
+    return this.eval_condition(reader, e);
+  else if (condition_group[i] == "&")
+    return this.eval_condition(reader, e) && this.eval_condition_group(condition_group.substring(i + 1, condition_group.length), e);
+  else
+    return this.eval_condition(reader, e) || this.eval_condition_group(condition_group.substring(i + 1, condition_group.length), e);
+};
+
+Fighter.prototype.eval_condition = function(condition, e) {
+  //console.log("eval_condition called on " + condition);
+
+  var reader = "";
+  var i = 0;
+
+  for (; condition[i] != "(" && i < condition.length; i++)
+    reader += condition[i];
+
+  switch(reader) {
+    case "not":
+      return !this.eval_condition(condition.substring(4, condition.length - 1), e);
+    case "comp":
+      return this.comparison_evaluator(condition.substring(i + 1, condition.length - 1), e);
+    case "hp_thresh":
+      return this.hp_threshold_evaluator(condition.substring(i + 1, condition.length - 1), e, "self");
+    case "e_hp_thresh":
+      return this.hp_threshold_evaluator(condition.substring(i + 1, condition.length - 1), e, "enemy");
+    case "boolean_check":
+      return this.boolean_evaluator(condition.substring(i + 1, condition.length - 1), e);
+    case "state_check":
+      return this.state_evaluator(condition.substring(i + 1, condition.length - 1), e);
+    case "e_weap_check":
+      return this.e_weap_check(condition.substring(i + 1, condition.length - 1), e);
+    case "e_mov_check":
+      return this.e_mov_check(condition.substring(i + 1, condition.length - 1), e);
+    case "e_weap_eff_check":
+      return this.e_weap_eff_check(condition.substring(i + 1, condition.length - 1), e);
+    case "e_mov_eff_check":
+      return this.e_mov_eff_check(condition.substring(i + 1, condition.length - 1), e);
+//    case "user_boolean_input":
+//      return this.user_boolean_input_check(condition.substring(i + 1, condition.length - 1));
+    case "transformed":
+      return false;
+    case "0":
+      return true;
+    default:
+      return false;
+  }
+};
+
+Fighter.prototype.comparison_evaluator = function(comparison_string, e) {
+  //console.log("comparison_evaluator called on " + comparison_string);
+
+  var term1 = "";
+  var operator = "";
+  var term2 = "";
+
+  var comparison_operators = ["=", ">", "<"];
+
+  var i = 0;
+
+  for (; !comparison_operators.includes(comparison_string[i]) && i < comparison_string.length; i++)
+    term1 += comparison_string[i];
+  for (; comparison_operators.includes(comparison_string[i]) && i < comparison_string.length; i++)
+    operator += comparison_string[i];
+  for (; i < comparison_string.length; i++)
+    term2 += comparison_string[i];
+
+  switch(operator) {
+    case "=":
+      return this.parse_num_expr(term1, e) == this.parse_num_expr(term2, e);
+    case ">":
+      return this.parse_num_expr(term1, e) > this.parse_num_expr(term2, e);
+    case "<":
+      return this.parse_num_expr(term1, e) < this.parse_num_expr(term2, e);
+    case ">=":
+      return this.parse_num_expr(term1, e) >= this.parse_num_expr(term2, e);
+    case "<=":
+      return this.parse_num_expr(term1, e) >= this.parse_num_expr(term2, e);
+    default:
+      return false;
+  }
+};
+
+/* Function hp_threshold_evaluator
+ * Inputs:
+ *  -threshold_string: [String] A string in the format [Threshold],[Comparison Operator].
+ *  -e:                [Fighter] The opposing fighter.
+ * Outputs:
+ *  -[Boolean]: Whether the unit meets the threshold requirement.
+ */
+Fighter.prototype.hp_threshold_evaluator = function(threshold_string, e, mode) {
+  //console.log("hp_threshold_evaluator called on " + threshold_string);
+
+  var threshold = "";
+  var operator = "";
+  var type = "";
+  var i = 0;
+
+  // Load the threshold and operator into variables.
+  for (; threshold_string[i] != ","; i++)
+    threshold += threshold_string[i];
+  for (i += 1; threshold_string[i] != ","; i++)
+    operator += threshold_string[i];
+  for (i += 1; i < threshold_string.length; i++)
+    type += threshold_string[i];
+
+  // Evaluate the hp percentage.
+  if (type == "start" && mode == "self")
+    hp_percentage = this.start_hp / this.max_hp * 100;
+  else if (type == "now" && mode == "self")
+    hp_percentage = this.hp / this.max_hp * 100;
+  else if (type == "start" && mode == "enemy")
+    hp_percentage = e.start_hp / e.max_hp * 100;
+  else if (type == "now" && mode == "enemy")
+    hp_percentage = e.hp / e.max_hp * 100;
+
+  switch(operator) {
+    case ">":
+      return hp_percentage > parseInt(threshold);
+    case "<":
+      return hp_percentage < parseInt(threshold);
+    case ">=":
+      return hp_percentage >= parseInt(threshold);
+    case "<=":
+      return hp_percentage <= parseInt(threshold);
+    case "=":
+      return hp_percentage == parseInt(threshold);
+    default:
+      return false;
+  }
+};
+
+/* Function boolean_evaluator
+ * Inputs:
+ *   -boolean_string: [String] A string in the format [Boolean value],[True or False]
+ *   -e:              [Fighter] The opposing fighter.
+ * Outputs:
+ *   -[Boolean]: Whether the [Boolean value] matches [True or False].
+ */
+Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
+  //console.log("boolean_evaluator called on " + boolean_string);
+
+  var boolean_value = "";
+  var comparison_value = "";
+  var i = 0;
+
+  var evaluated_boolean = false;
+
+  for (; boolean_string[i] != ","; i++)
+    boolean_value += boolean_string[i];
+  for (i += 1; i < boolean_string.length; i++)
+    comparison_value += boolean_string[i];
+
+  switch(boolean_value) {
+    case "initiating":
+      evaluated_boolean = this.initiating;
+      break;
+    case "attacking":
+      evaluated_boolean = this.attacking;
+      break;
+    case "special_activating":
+      evaluated_boolean = this.special_activating;
+      break;
+    case "has_penalty":
+      evaluated_boolean = this.has_penalty();
+      break;
+    case "has_negative_status":
+      evaluated_boolean = this.has_negative_status();
+      break;
+    case "has_extra_movement":
+      evaluated_boolean = this.bonus_mov_active;
+      break;
+    case "e_has_penalty":
+      evaluated_boolean = e.has_penalty();
+      break;
+    case "e_has_negative_status":
+      evaluated_boolean = e.has_negative_status();
+      break;
+    case "e_has_extra_movement":
+      evaluated_boolean = e.bonus_mov_active;
+      break;
+    case "e_can_counterattack":
+      evaluated_boolean = e.can_counterattack;
+      break;
+    case "weap_boolean_input":
+      evaluated_boolean = this.weap_user_boolean_input;
+      break;
+    case "a_boolean_input":
+      evaluated_boolean = this.a_user_boolean_input;
+      break;
+    case "b_boolean_input":
+      evaluated_boolean = this.b_user_boolean_input;
+      break;
+    case "c_boolean_input":
+      evaluated_boolean = this.c_user_boolean_input;
+      break;
+    case "seal_boolean_input":
+      evaluated_boolean = this.seal_user_boolean_input;
+      break;
+    case "spec_boolean_input":
+      evaluated_boolean = this.spec_user_boolean_input;
+      break;
+    default:
+      console.log("A check has been requested for an invalid boolean_value: " + boolean_value);
+      return false;
+  }
+
+  if (comparison_value == "true")
+    return evaluated_boolean;
+  else
+    return !evaluated_boolean;
+};
+
+Fighter.prototype.state_evaluator = function(state_string, e) {
+  //console.log("state_evaluator called on " + state_string);
+
+  var state_variable = "";
+  var state_requirement = "";
+  var i = 0;
+
+  for (; state_string[i] != ","; i++)
+    state_variable += state_string[i];
+  for (i += 1; i < state_string.length; i++)
+    state_requirement += state_string[i];
+
+  switch (state_variable) {
+    case "special_type":
+      return this.special_type == state_requirement;
+    case "hit_type":
+      if (state_requirement == "first")
+        return this.first_hit;
+      else if (state_requirement == "consecutive")
+        return this.hitting_consecutively;
+      else
+        return false;
+    case "e_hit_type":
+      if (state_requirement == "first")
+        return e.first_hit;
+      else if (state_requirement == "consecutive")
+        return e.hitting_consecutively;
+      else
+        return false;
+    case "control":
+      if (state_requirement == "player")
+        return this.control == "player";
+      else if (state_requirement == "enemy")
+        return this.control == "enemy";
+      else
+        return this.control == phase;
+    case "targeting":
+      return this.targeting == state_requirement;
+    case "triangle_status":
+      return this.triangle_status == state_requirement;
+    default:
+      return false;
+  }
+};
+
+Fighter.prototype.e_weap_check = function(weap_string, e) {
+  //console.log("e_weap_check called on " + weap_string);
+
+  var reader = "";
+  var weapon_list = [];
+  var i = 0;
+  var weapon_found = false;
+
+  for (; i < weap_string.length; i++) {
+    if (weap_string[i] == ",") {
+      weapon_list.push(reader);
+      reader = "";
+    }
+    else if (i == (weap_string.length - 1)) {
+      weapon_list.push(reader + weap_string[i]);
+      reader = "";
+    }
+    else
+      reader += weap_string[i];
+  }
+
+  weapon_list.forEach((item) => {
+    if ((item == "P" && physical_weapons.includes(e.weapon_type)) || (item == "M" && magical_weapons.includes(e.weapon_type)) ||
+        (item == "1rng" && one_range_weapons.includes(e.weapon_type)) || (item == "2rng" && two_range_weapons.includes(e.weapon_type)))
+      weapon_found = true;
+    else if (e.weapon_type == item)
+      weapon_found = true;
+  });
+
+  return weapon_found;
+};
+
+Fighter.prototype.e_mov_check = function(mov_string, e) {
+  //console.log("e_mov_check called on " + mov_string);
+
+  var reader = "";
+  var mov_list = [];
+  var i = 0;
+
+  for (; i < mov_string.length; i++) {
+    if (mov_string[i] == ",") {
+      mov_list.push(reader);
+      reader = "";
+    }
+    else if (i == (mov_string.length - 1)) {
+      mov_list.push(reader + mov_string[i]);
+      reader = "";
+    }
+    else
+      reader += mov_string[i];
+  }
+
+  return mov_list.includes(e.get_movement_type());
+};
+
+Fighter.prototype.e_weap_eff_check = function(effective_string, e) {
+  //console.log("e_weap_eff_check called on " + effective_string);
+
+  var reader = "";
+  var eff_list = [];
+  var i = 0;
+
+  for (; i < effective_string.length; i++) {
+    if (effective_string[i] == ",") {
+      eff_list.push(reader);
+      reader = "";
+    }
+    else if (i == (effective_string.length -1)) {
+      eff_list.push(reader + effective_string[i]);
+      reader = "";
+    }
+    else
+      reader += effective_string[i];
+  }
+
+  for (i = 0; i < eff_list.length; i++) {
+    if (e.weapon_effective.includes(eff_list[i]))
+      return true;
+  }
+
+  return false;
+};
+
+Fighter.prototype.e_mov_eff_check = function(effective_string, e) {
+  //console.log("e_mov_eff_check called on " + effective_string);
+
+  var reader = "";
+  var eff_list = [];
+  var i = 0;
+
+  for (; i < effective_string.length; i++) {
+    if (effective_string[i] == ",") {
+      eff_list.push(reader);
+      reader = "";
+    }
+    else if (i == (effective_string.length -1)) {
+      eff_list.push(reader + effective_string[i]);
+      reader = "";
+    }
+    else
+      reader += effective_string[i];
+  }
+
+  for (i = 0; i < eff_list.length; i++) {
+    if (this.movement_effective.includes(eff_list[i]))
+      return true;
+  }
+
+  return false;
+};
+
+/*
+Fighter.prototype.user_boolean_input_check = function(user_input_string) {
+  switch(user_input_string) {
+    case "weap_boolean_input":
+      return this.weap_user_boolean_input;
+    case "a_boolean_input":
+      return this.a_user_boolean_input;
+    case "b_boolean_input":
+      return this.b_user_boolean_input;
+    case "c_boolean_input":
+      return this.c_user_boolean_input;
+    case "seal_boolean_input":
+      return this.seal_user_boolean_input;
+    case "spec_boolean_input":
+      return this.spec_user_boolean_input";
+    default:
+      console.log("Unidentified user_input_string in user_boolean_input_check: " + user_input_string);
+      return false;
+  }
+}; */
+
+/* Function parse_num_expr
+ * Inputs:
+ *  -num_expr: [String] The numeric expression to process.
+ *  -e:        [Fighter] The opposing fighter.
+ * Outputs:
+ *  -[Integer] The value of the numeric expression.
+ */
+Fighter.prototype.parse_num_expr = function(num_expr, e) {
+  //console.log("parse_num_expr called on " + num_expr);
+
+  // reader holds characters from the string, which help identify what to do next.
+  var reader = "";
+
+  // # of found open & close parentheses as the string is processed.
+  // Used for parenthesis matching.
+  var open_parentheses_found = 0;
+  var close_parentheses_found = 0;
+
+  // Characters that are considered (mathematic) operators
+  var operators = ["+", "-", "*", "/"];
+
+  // String indexes.
+  var i = 0, j = 0, k = 0;
+
+  // Log characters into the reader until the first "(", an operator,
+  // or the end of the string, are encountered.
+  for (; num_expr[i] != "(" && !operators.includes(num_expr[i]) && i < num_expr.length; i++)
+    reader += num_expr[i];
+
+  // Base case: if no parentheses or operators were encountered, the
+  // function is dealing with a basic number or number substitution.
+  if (i == num_expr.length)
+    return this.process_numeric_value(reader, e);
+
+  // If the reader's value is "max", the function is dealing with a "max" operation.
+  // If the max operation is the last portion of the string, it should be processed and returned.
+  // Otherwise, it should be processed, and its value should be pre-pended to the rest of the string.
+  // The new string should be evaluated with parse_num_expr.
+  if (reader == "max") {
+    reader = "";
+    open_parentheses_found = 1;
+
+    for (j = i + 1; open_parentheses_found != close_parentheses_found; j++) {
+      if (num_expr[j] == "(")
+        open_parentheses_found += 1;
+      else if (num_expr[j] == ")")
+        close_parentheses_found += 1;
+    }
+
+    // NOTE: j is now either the length of the string, or num_expr[j] is an operator.
+
+    // Retrieve the comparison value for the max function, which ends at j - 2, and starts after the "," character.
+    // (Note that the comparison value is read in backwards)
+    for (k = j - 2; num_expr[k] != ","; k--)
+      reader = num_expr[k] + reader;
+
+    if (j == num_expr.length)
+      return Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader));
+    else
+      return this.parse_num_expr(Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader)).toString() + num_expr.substring(j, num_expr.length), e);
+  }
+
+  // If the reader's value is "min", the function is dealing with a "min" operation.
+  // This should be handled similarly to the "max" operation, but the absolute value should
+  // be taken, as negative numbers will break the function.
+  if (reader == "min") {
+    reader = "";
+    open_parentheses_found = 1;
+
+    for (j = i + 1; open_parentheses_found != close_parentheses_found; j++) {
+      if (num_expr[j] == "(")
+        open_parentheses_found += 1;
+      else if (num_expr[j] == ")")
+        close_parentheses_found += 1;
+    }
+
+    // NOTE: j is now either the length of the string, or num_expr[j] is an operator.
+
+    // Retrieve the comparison value for the min function, which ends at j - 2, and starts after the "," character.
+    // (Note that the comparison value is read in backwards)
+    for (k = j - 2; num_expr[k] != ","; k--)
+      reader = num_expr[k] + reader;
+
+    if (j == num_expr.length) {
+      return Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader)));
+    }
+    else {
+      return this.parse_num_expr(Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader))).toString() + num_expr.substring(j, num_expr.length), e);
     }
   }
+
+  // If an operator was encountered, then the reader must contain a number or basic number substitution.
+  // Process the reader as a numeric value, and then perform the appropriate math operation using the result
+  // of the reader's processing as the first term, and the rest of the string as the second term.
+  if (operators.includes(num_expr[i])) {
+    switch (num_expr[i]) {
+      case "+":
+        return this.process_numeric_value(reader, e) + this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e);
+      case "-":
+        return this.process_numeric_value(reader, e) - this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e);
+      case "*":
+        return Math.floor(this.process_numeric_value(reader, e) * this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+      case "/":
+        return Math.floor(this.process_numeric_value(reader, e) / this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+      default:
+        return 0;
+    }
+  }
+
+  // If the first character was "(", then the function is dealing with an enclosed term.
+  // The enclosed term should be extracted, and evaluated with parse_num_expr.
+  // If the term is the last part of the numeric expression string, no further action is needed.
+  // Otherwise, the result should be pre-pended to the rest of the string and evaluated with parse_num_expr.
+  if (reader == "") {
+    i += 1;
+    for (open_parentheses_found = 1; open_parentheses_found != close_parentheses_found; i++) {
+      if (num_expr[i] == "(")
+        open_parentheses_found += 1;
+      if (num_expr[i] == ")")
+        close_parentheses_found += 1;
+    }
+
+    if (i == num_expr.length)
+      return this.parse_num_expr(num_expr.substring(1, num_expr.length - 1), e);
+    else
+      return this.parse_num_expr(this.parse_num_expr(num_expr.substring(1, i - 1), e).toString() + num_expr.substring(i, num_expr.length));
+  }
 };
-// Resets the skill cooldown timer.
-Fighter.prototype.reset_cooldown = function() {
-  this.cooldown = this.special.cooldown_max + this.weapon.skill_cd_increase - this.weapon.skill_cd_reduction;
+
+Fighter.prototype.process_numeric_value = function(reader, e) {
+  //console.log("process_numeric_value called on " + reader);
+  switch (reader) {
+    case "max_hp":
+      return this.max_hp;
+    case "hp":
+      return this.hp;
+    case "start_hp":
+      return this.start_hp;
+    case "e_start_hp":
+      return e.start_hp;
+    case "e_max_hp":
+      return this.enemy.max_hp;
+    case "e_hp":
+      return this.enemy.hp;
+    case "cd":
+      return this.cooldown;
+    case "cd_max":
+      return this.cooldown_max;
+    case "e_cd":
+      return e.get_cooldown();
+    case "e_cd_max":
+      return e.cooldown_max;
+    case "printed_atk":
+      return this.printed_atk;
+    case "printed_spd":
+      return this.printed_spd + this.phantom_spd;
+    case "printed_def":
+      return this.printed_res;
+    case "printed_res":
+      return this.printed_res;
+    case "permanent_atk":
+      return this.permanent_atk;
+    case "permanent_spd":
+      return this.permanent_spd;
+    case "permanent_def":
+      return this.permanent_def;
+    case "permanent_res":
+      return this.permanent_res;
+    case "e_permanent_atk":
+      return e.get_permanent_atk();
+    case "e_permanent_spd":
+      return e.get_permanent_spd();
+    case "e_permanent_def":
+      return e.get_permanent_def();
+    case "e_permanent_res":
+      return e.get_permanent_res();
+    case "e_printed_atk":
+      return e.get_printed_atk();
+    case "e_printed_spd":
+      return e.get_printed_spd() + e.get_phantom_spd();
+    case "e_printed_def":
+      return e.get_printed_def();
+    case "e_printed_res":
+      return e.get_printed_res();
+    case "combat_atk":
+      if (in_combat)
+        return this.combat_atk;
+      else
+        return this.printed_atk;
+    case "combat_spd":
+      if (in_combat)
+        return this.combat_spd + this.phantom_spd;
+      else
+        return this.printed_spd + this.phantom_spd;
+    case "combat_def":
+      if (in_combat)
+        return this.combat_def;
+      else
+        return this.printed_def;
+    case "combat_res":
+      if (in_combat)
+        return this.combat_res;
+      else
+        return this.printed_res;
+    case "e_combat_atk":
+      if (in_combat)
+        return e.get_combat_atk();
+      else
+        return e.get_printed_atk();
+    case "e_combat_spd":
+      if (in_combat)
+        return e.get_combat_spd() + e.get_phantom_spd();
+      else
+        return e.get_printed_spd() + e.get_phantom_spd();
+    case "e_combat_def":
+      if (in_combat)
+        return e.get_combat_def();
+      else
+        return e.get_printed_def();
+    case "e_combat_res":
+      if (in_combat)
+        return e.get_combat_res();
+      else
+        return e.get_printed_res();
+    case "atk_buff":
+      return this.get_buff_value("atk");
+    case "spd_buff":
+      return this.get_buff_value("spd");
+    case "def_buff":
+      return this.get_buff_value("def");
+    case "res_buff":
+      return this.get_buff_value("res");
+    case "e_atk_buff":
+      return e.get_buff_value("atk");
+    case "e_spd_buff":
+      return e.get_buff_value("spd");
+    case "e_def_buff":
+      return e.get_buff_value("def");
+    case "e_res_buff":
+      return e.get_buff_value("res");
+    case "atk_penalty":
+      return this.atk_penalty;
+    case "spd_penalty":
+      return this.spd_penalty;
+    case "def_penalty":
+      return this.def_penalty;
+    case "res_penalty":
+      return this.res_penalty;
+    case "e_atk_penalty":
+      return e.atk_penalty;
+    case "e_spd_penalty":
+      return e.spd_penalty;
+    case "e_def_penalty":
+      return e.def_penalty;
+    case "e_res_penalty":
+      return e.res_penalty;
+    case "weap_number_input":
+      return this.weap_user_number_input;
+    case "a_number_input":
+      return this.a_user_number_input;
+    case "b_number_input":
+      return this.b_user_number_input;
+    case "c_number_input":
+      return this.c_user_number_input;
+    case "seal_number_input":
+      return this.seal_user_number_input;
+    case "spec_number_input":
+      return this.spec_user_number_input;
+    case "damage":
+      return this.damage;
+    case "e_damage":
+      return e.damage;
+    case "turn":
+      return turn; // Global Variable, or perhaps DOM reference?
+    case "combat_range":
+      if (this.initiating)
+        return this.range;
+      else
+        return e.get_range();
+    case "cooldown_count":
+      return this.cooldown;
+    default:
+      return parseFloat(reader);
+  }
+};
+
+Fighter.prototype.has_penalty = function() {
+  return (this.atk_penalty > 0) || (this.spd_penalty > 0) || (this.def_penalty > 0) || (this.res_penalty > 0);
+};
+
+Fighter.prototype.has_negative_status = function() {
+  return this.panic_active || this.guard_active || this.isolation_active || this.gravity_active || this.flash_active || this.trilemma_active;
+};
+
+Fighter.prototype.get_buff_value = function (stat) {
+  var value;
+  var is_neutralized;
+
+  switch (stat) {
+    case "atk":
+      value = this.atk_buff;
+      is_neutralized = this.atk_buff_neutralized;
+      break;
+    case "spd":
+      value = this.spd_buff;
+      is_neutralized = this.spd_buff_neutralized;
+      break;
+    case "def":
+      value = this.def_buff;
+      is_neutralized = this.def_buff_neutralized;
+      break;
+    case "res":
+      value = this.res_buff;
+      is_neutralized = this.res_buff_neutralized;
+      break;
+  }
+
+  if (this.panic_active && value > 0)
+    return value * -1;
+  else if (is_neutralized && value > 0)
+    return 0;
+  else
+    return value;
+};
+// Retrieves value of a given stat penalty. This should only be used for calculating
+// combat stats.
+Fighter.prototype.get_penalty_value = function (stat) {
+  var value;
+  var is_neutralized;
+
+  switch (stat) {
+    case "atk":
+      value = this.atk_penalty;
+      is_neutralized = this.atk_penalty_neutralized;
+      break;
+    case "spd":
+      value = this.spd_penalty;
+      is_neutralized = this.spd_penalty_neutralized;
+      break;
+    case "def":
+      value = this.def_penalty;
+      is_neutralized = this.def_penalty_neutralized;
+      break;
+    case "res":
+      value = this.res_penalty;
+      is_neutralized = this.res_penalty_neutralized;
+      break;
+  }
+
+  if (is_neutralized)
+    return 0;
+  else
+    return value;
+};
+
+/* ******* END OF CONDITION EVALUATION ******* */
+
+// Calculates the unit's permanent stats.
+Fighter.prototype.calculate_permanent_stats = function () {
+  this.max_hp = this.hp + this.weapon.hp_mod + this.a_skill.hp_mod + this.seal.hp_mod;
+  this.hp = this.max_hp;
+  this.permanent_atk = this.atk + this.weapon.atk_mod + this.a_skill.atk_mod + this.seal.atk_mod;
+  this.permanent_spd = this.spd + this.weapon.spd_mod + this.a_skill.spd_mod + this.seal.spd_mod;
+  this.permanent_def = this.def + this.weapon.def_mod + this.a_skill.def_mod + this.seal.def_mod;
+  this.permanent_res = this.res + this.weapon.res_mod + this.a_skill.res_mod + this.seal.res_mod;
+};
+// Calculates the unit's printed stats.
+Fighter.prototype.calculate_printed_stats = function () {
+  this.printed_atk = this.permanent_atk + this.get_buff_value("atk") - this.atk_penalty;
+  this.printed_spd = this.permanent_spd + this.get_buff_value("spd") - this.spd_penalty;
+  this.printed_def = this.permanent_def + this.get_buff_value("def") - this.def_penalty;
+  this.printed_res = this.permanent_res + this.get_buff_value("res") - this.res_penalty;
+};
+// Base combat stats are the sum of the printed stats and user-specified combat buffs.
+Fighter.prototype.calculate_base_combat_stats = function () {
+  this.combat_atk = this.permanent_atk + this.get_buff_value("atk") + this.assumed_atk_boost - this.get_penalty_value("atk");
+  this.combat_spd = this.permanent_spd + this.get_buff_value("spd") + this.assumed_spd_boost - this.get_penalty_value("spd");
+  this.combat_def = this.permanent_def + this.get_buff_value("def") + this.assumed_def_boost - this.get_penalty_value("def");
+  this.combat_res = this.permanent_res + this.get_buff_value("res") + this.assumed_res_boost - this.get_penalty_value("res");
+};
+// Apply user-specified values for field buffs and penalties.
+Fighter.prototype.apply_assumed_values = function () {
+  this.atk_buff = this.assumed_atk_buff;
+  this.spd_buff = this.assumed_spd_buff;
+  this.def_buff = this.assumed_def_buff;
+  this.res_buff = this.assumed_res_buff;
+
+  this.atk_penalty = this.assumed_atk_penalty;
+  this.spd_penalty = this.assumed_spd_penalty;
+  this.def_penalty = this.assumed_def_penalty;
+  this.res_penalty = this.assumed_res_penalty;
+};
+// Reduces HP without KOing (Poison Strike, Deathly Dagger, etc.)
+Fighter.prototype.reduce_hp = function(value) {
+  this.hp -= value;
+  if (this.hp <= 0) {
+    this.hp = 1;
+  }
+};
+Fighter.prototype.apply_damage = function (damage) {
+  this.hp -= damage;
+  if (this.hp < 0)
+    this.hp = 0;
+};
+// Revives a unit, resetting everything to default values (overridden by user input when applicable).
+Fighter.prototype.revive = function() {
+  this.hp = this.max_hp;
+  this.reset_cooldown();
+  this.apply_assumed_values();
+  this.reset_flags();
+  this.damage_dealt = 0;
+
 };
 // Decrements the skill cooldown timer.
 Fighter.prototype.decrement_cooldown = function() {
   if (this.cooldown > 0)
     this.cooldown -= 1;
 };
-// Resets debuffs to the assumed values (set by user).
-Fighter.prototype.reset_debuffs = function() {
-  this.atk_debuff = this.assumed_atk_debuff;
-  this.spd_debuff = this.assumed_spd_debuff;
-  this.def_debuff = this.assumed_def_debuff;
-  this.res_debuff = this.assumed_res_debuff;
-  this.buffs_reversed = false;
+// Resets the skill cooldown timer.
+Fighter.prototype.reset_cooldown = function() {
+  this.cooldown = this.cooldown_max;
 };
-// Resets buffs to the assumed values (set by user).
-Fighter.prototype.reset_buffs = function() {
-  this.atk_buff = this.assumed_atk_buff;
-  this.spd_buff = this.assumed_spd_buff;
-  this.def_buff = this.assumed_def_buff;
-  this.res_buff = this.assumed_res_buff;
+Fighter.prototype.reset_flags = function () {
+  this.targeting = ""; // "def" or "res", depending on what the weapon targets.
+  this.initiating = false;
+  this.attacking = false;
+  this.first_hit = false;
+  this.hitting_consecutively = false;
+  this.special_activating = false;
+
+  this.can_counterattack = false;
+  this.can_follow_up = false;
+  this.desperation_active = false;
+  this.vantage_active = false;
+  this.has_triangle_amplifier = false;
+  this.deals_adaptive_damage = false;
+  this.deals_effective_damage = false;
+  this.strikes_twice = false;
+  this.prevents_counterattack = false;
+  this.prevents_e_counterattack = false;
+  this.transformed = false;
+  this.triangle_status = "n"; // "a" = unit has triangle advantage, "d" = disadvantage, "n" = neutral
+  this.has_colorless_wta = false;
+  this.mitigation_mirror_active = false;
+  this.inhibits_special_charge = false;
+  this.accelerates_special_charge = false;
+  this.wrathful_staff_active = false;
+  this.atk_buff_neutralized = false;
+  this.spd_buff_neutralized = false;
+  this.def_buff_neutralized = false;
+  this.res_buff_neutralized = false;
+  this.atk_penalty_neutralized = false;
+  this.spd_penalty_neutralized = false;
+  this.def_penalty_neutralized = false;
+  this.res_penalty_neutralized = false;
+  //this.atk_penalty_nullified = false;
+  //this.spd_penalty_nullified = false;
+  //this.def_penalty_nullified = false;
+  //this.res_penalty_nullified = false;
+
+  this.neutralizes_wrathful_staff = false;
+  this.neutralizes_adaptive_damage = false;
+  this.neutralizes_counterattack_preventers = false;
+  this.neutralizes_follow_up_guarantors = false;
+  this.neutralizes_follow_up_inhibitors = false;
+  this.neutralizes_special_charge_accelerators = false;
+  this.neutralizes_special_charge_inhibitors = false;
+  this.neutralizes_weapon_effective = false;
+  this.neutralizes_movement_effective = false;
+  this.neutralizes_triangle_amplifier = false;
+  this.neutralizes_scaled_mitigation = false;
+  this.reverses_triangle_amplifier = false;
+
+  // The unit's printed stats (includes base stats, stats from skills, and field buffs and penalties).
+  this.printed_atk = 0;
+  this.printed_spd = 0;
+  this.printed_def = 0;
+  this.printed_res = 0;
+
+  // The unit's combat stats.
+  this.combat_atk = 0;
+  this.combat_spd = 0;
+  this.combat_def = 0;
+  this.combat_res = 0;
+  this.phantom_spd = 0;
+
+  // The unit's effective attack.
+  this.effective_atk = 0;
+};
+// Adds the value of a numeric expression to the unit's Phantom Spd.
+Fighter.prototype.add_phantom_spd = function (effect_string, e) {
+  //phantom_spd			= "phantom_spd(", numeric_expression, ")"
+  var reader = "";
+
+  for (var i = 12; i < effect_string.length - 1; i++)
+    reader += effect_string[i];
+
+  this.phantom_spd += this.parse_num_expr(reader, e);
+};
+// Populates the effective damage arrays.
+Fighter.prototype.apply_eff_damage_effects = function () {
+  for (var i = 0; i < this.weapon_eff_effects.length; i++)
+    this.add_to_eff_array(this.weapon_eff_effects[i].effect, "weapon");
+  for (var i = 0; i < this.mov_eff_effects.length; i++)
+    this.add_to_eff_array(this.mov_eff_effects[i].effect, "movment");
+  for (var i = 0; i < this.weapon_eff_susceptible_effects.length; i++)
+    this.add_to_susc_array(this.weapon_eff_susceptible_effects[i].effect);
+};
+Fighter.prototype.add_to_eff_array = function (effect_string, type) {
+//weapon_effective		= "weap_eff(", weapon_type, { ",", weapon_type }, ")"
+//movement_effective		= "mov_eff(", move_type, { ",", move_type }, ")"
+  var reader = "";
+  var i;
+  if (type == "weapon")
+    i = 9;
+  else
+    i = 8;
+
+  for (; i < effect_string.length; i++) {
+    if (effect_string[i] == "," || i == effect_string.length - 1) {
+      if (type == "weapon")
+        this.weapon_effective.push(reader);
+      else
+        this.movement_effective.push(reader);
+      reader = "";
+    }
+    else
+      reader += effect_string[i];
+  }
+};
+Fighter.prototype.add_to_susc_array = function (effect_string) {
+  var reader = "";
+  // The first 21 characters of effect_string are "weap_eff_susceptible(".
+  var i = 21;
+
+  for (; i < effect_string.length; i++) {
+    if (effect_string[i] == "," || i == effect_string.length - 1) {
+      this.weapon_effective_susceptible.push(reader);
+      reader = "";
+    }
+    else
+      reader += effect_string[i];
+  }
+};
+// Applies a stat ploy effect to the unit, if it is greater than or equal to the current penalty for that stat.
+// Returns a string detailing the action taken.
+Fighter.prototype.apply_stat_ploy = function (ploy_string) {
+  var reader = "";
+  var i = 10;
+  var stat = "";
+  var value = "";
+  var value_int = 0;
+
+  for (; ploy_string[i] != ","; i++)
+    stat += ploy_string[i];
+  for (i += 1; ploy_string[i] != ")"; i++)
+    value += ploy_string[i];
+
+  value_int = parseInt(value);
+
+  switch (stat) {
+    case "e_atk_penalty":
+      if (this.atk_penalty < value_int) {
+        this.atk_penalty = value_int;
+        return "-" + value_int + " Atk";
+      }
+    case "e_spd_penalty":
+      if (this.spd_penalty < value_int) {
+        this.spd_penalty = value_int;
+        return "-" + value_int + " Spd";
+      }
+    case "e_def_penalty":
+      if (this.def_penalty < value_int) {
+        this.def_penalty = value_int;
+        return "-" + value_int + " Def";
+      }
+    case "e_res_penalty":
+      if (this.res_penalty < value_int) {
+        this.res_penalty = value_int;
+        return "-" + value_int + " Res";
+      }
+  }
+
+  return "";
+};
+Fighter.prototype.apply_flat_stat_boost = function (effect_string, e) {
+  var stat = "";
+  var value_string = "";
+  // The first 16 characters of the effect_string are "flat_stat_boost()"
+  var i = 16;
+
+  for (; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; i < effect_string.length - 1; i++)
+    value_string += effect_string[i];
+
+  var value = this.parse_num_expr(value_string, e);
+
+  switch (stat) {
+    case "combat_atk":
+      this.combat_atk += value;
+      return "+" + value + " Atk bonus";
+    case "combat_spd":
+      this.combat_spd += value;
+      return "+" + value + " Spd bonus";
+    case "combat_def":
+      this.combat_def += value;
+      return "+" + value + " Def bonus";
+    case "combat_res":
+      this.combat_res += value;
+      return "+" + value + " Res bonus";
+  }
+};
+Fighter.prototype.apply_scaled_stat_boost = function (effect_string, e) {
+  //scaled_stat_boost		= "scaled_stat_boost(", user_combat_stat, ",", numeric_expression, ( number | user_number_input ), ", max=", ( number | "none" ), ")"
+  var stat = "";
+  var base_value_string = "";
+  var scale_factor_string = "";
+  var max_string = "";
+
+  var base_value = 0;
+  var scale_factor = 0;
+  var max = 0;
+
+  var value = 0;
+
+  // The first 18 characters are "scaled_stat_boost("
+  var i = 18;
+
+  for (; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; effect_string[i] != ";"; i++)
+    base_value_string += effect_string[i];
+  for (i += 1; effect_string[i] != ","; i++)
+    scale_factor_string += effect_string[i];
+  for (i += 5; i < effect_string.length - 1; i++)
+    max_string += effect_string[i];
+
+  base_value = this.parse_num_expr(base_value_string, e);
+  scale_factor = this.parse_num_expr(scale_factor_string, e);
+  if (max_string != "none") {
+    max = parseInt(max_string);
+    value = Math.min((base_value * scale_factor), max);
+  }
+  else
+    value = base_value * scale_factor;
+
+  switch (stat) {
+    case "combat_atk":
+      this.combat_atk += value;
+      return "+" + value + " Atk bonus";
+    case "combat_spd":
+      this.combat_spd += value;
+      return "+" + value + " Spd bonus";
+    case "combat_def":
+      this.combat_def += value;
+      return "+" + value + " Def bonus";
+    case "combat_res":
+      this.combat_res += value;
+      return "+" + value + " Res bonus";
+  }
+};
+Fighter.prototype.apply_stat_penalty = function (effect_string, e) {
+// stat_penalty			= "stat_penalty(", enemy_combat_stat, ",", ( numeric_expression ), ")"
+  var stat = "";
+  var value_string = "";
+  // The first 13 characters of effect_string are "stat_penalty("
+  var i = 13;
+
+  for (; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; i < effect_string.length - 1; i++)
+    value_string += effect_string[i];
+
+  var value = e.parse_num_expr(value_string, this);
+
+  switch(stat) {
+    case "e_combat_atk":
+      this.combat_atk -= value;
+      if (this.combat_atk < 0)
+        this.combat_atk = 0;
+      return "-" + value + " Atk penalty";
+    case "e_combat_spd":
+      this.combat_spd -= value;
+      if (this.combat_spd < 0)
+        this.combat_spd = 0;
+      return "-" + value + " Spd penalty";
+    case "e_combat_def":
+      this.combat_def -= value;
+      if (this.combat_def < 0)
+        this.combat_def = 0;
+      return "-" + value + " Def penalty";
+    case "e_combat_res":
+      this.combat_res -= value;
+      if (this.combat_res < 0)
+        this.combat_res = 0;
+      return "-" + value + " Res penalty";
+  }
+};
+Fighter.prototype.calculate_precombat_damage = function (effect_string, e) {
+  var reader = "";
+
+  for (var i = 17; i < effect_string.length - 1; i++)
+    reader += effect_string[i];
+
+  return this.parse_num_expr(reader, e);
+};
+// Calculates and returns extra damage from an effect.
+Fighter.prototype.calculate_extra_damage = function (effect_string, e) {
+  var damage_string = "";
+  var max_string = "";
+  // The first 13 characters of effect_string are "bonus_damage(" or "damage_boost(".
+  var i = 13;
+
+  for (; effect_string[i] != ";"; i++)
+    damage_string += effect_string[i];
+  for (i += 5; i < effect_string.length - 1; i++)
+    max_string += effect_string[i];
+
+  if (max_string != "none")
+    return Math.min(this.parse_num_expr(damage_string, e), parseInt(max_string));
+  else
+    return this.parse_num_expr(damage_string, e);
+};
+// Calculates the effective attack of a unit, including effective damage,
+// weapon triangle, etc.
+Fighter.prototype.calculate_effective_atk = function (e) {
+  var atk = this.combat_atk;
+
+  if (this.deals_effective_damage)
+    atk += Math.floor(atk * .5);
+
+  if (this.triangle_status == "a") {
+    if (!this.has_triangle_amplifier && !e.get_triangle_amplifier_flag())
+      atk += Math.floor(atk * .2);
+    else if ((this.has_triangle_amplifier && !e.get_reverse_triangle_amplifier_flag()) || e.get_triangle_amplifier_flag())
+      atk += Math.floor(atk * .4);
+  }
+  else if (this.triangle_status == "d") {
+    if (!this.has_triangle_amplifier && !e.get_triangle_amplifier_flag())
+      atk -= Math.floor(atk * .2);
+    else if ((e.get_triangle_amplifier_flag() && !this.reverses_triangle_amplifier) || this.has_triangle_amplifier)
+      atk -= Math.floor(atk * .4);
+  }
+
+  this.effective_atk = atk;
+};
+// Calculate and return the flat percent damage mitigation value.
+Fighter.prototype.calculate_flat_percent_mitigation = function (effect_string, e) {
+  var value = "";
+  var i = 0;
+
+  for (; effect_string[i] != "("; i++);
+  for (i += 1; i < effect_string.length - 1; i++)
+    value += effect_string[i];
+
+  return this.parse_num_expr(value, e);
+};
+// Calculate and return the scaled percent damage mitigation value.
+Fighter.prototype.calculate_scaled_percent_mitigation = function (effect_string, e) {
+  var mitigation_string = "";
+  var max_string = "";
+  var i = 0;
+
+  for (; effect_string[i] != "("; i++);
+  for (i += 1; effect_string[i] != ";"; i++)
+    mitigation_string += effect_string[i];
+  for (i += 5; i < effect_string.length - 1; i++)
+    max_string += effect_string[i];
+
+  if (max_string != "none")
+    return Math.min(this.parse_num_expr(mitigation_string, e), parseInt(max_string));
+  else
+    return this.parse_num_expr(mitigation_string, e);
+};
+Fighter.prototype.calculate_static_mitigation = function (effect_string, e) {
+  var mitigation_string = "";
+  // The first 18 characters of effect_string are "static_mitigation("
+  var i = 18;
+
+  for (; i < effect_string.length - 1; i++)
+    mitigation_string += effect_string[i];
+
+  return this.parse_num_expr(mitigation_string, e);
+};
+Fighter.prototype.add_next_hit_damage = function (value) {
+  this.next_atk_bonus_dmg += value;
+};
+Fighter.prototype.apply_heal = function (effect_string, e) {
+  var prev_hp = this.hp;
+  var heal_string = "";
+  // The first 12 characters of effect_string are "heal_on_hit(".
+  var i = 12;
+
+  for (; i < effect_string.length - 1; i++)
+    heal_string += effect_string[i];
+
+  this.hp += this.parse_num_expr(heal_string, e);
+  if (this.hp > this.max_hp)
+    this.hp = this.max_hp;
+
+  return prev_hp;
 };
 // Adds a given damage value to the damage dealt variable, which is used for end-of-simulation logging.
 Fighter.prototype.add_dmg_value = function (val) {
   this.damage_dealt += val;
 };
-
-/* ***************************** STAT CALCULATION ***************************** */
-
-// Calculates the attack of the unit; does not include effective damage,
-// weapon triangle, etc.
-Fighter.prototype.calculate_atk = function(attacker_flag, enemy, in_combat) {
-  var enemy_range = enemy.get_range();
-
-  // Reverses buffs if applicable.
- if (this.buffs_reversed) {
-    this.atk_buff *= -1;
-  }
-  // Sets an initial value for atk.
-  var atk = this.get_perm_atk() + this.get_assumed_atk_boost() - this.atk_debuff;
-  // If buffs are not positive or not negated, add buffs.
-  if (this.atk_buff < 0 || this.check_buff_negate(enemy) == "") {
-    atk += this.atk_buff;
-  }
-
-  if (in_combat) {
-    // If the unit in question is at full HP, and has an effect that increases Atk at full HP, include it.
-    if (this.get_start_HP() == this.get_HP_max()) {
-      atk += this.get_atk_boost_full_hp();
-    }
-    else {
-      atk += this.get_atk_boost_damaged();
-    }
-
-    // If the unit has a inverse spur effect, add 2x adjacent allies to atk.
-    if (this.get_inverse_spur() == 1) {
-      atk += this.get_adj_allies() * 2;
-    }
-
-    // Apply effects that boost atk based on enemies in 2 spaces.
-    if (this.get_atk_bonus_nearby_ally() > 0) {
-      atk += this.get_atk_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
-    }
-
-    // If the unit's HP is 3+ higher than the enemy's, apply any Fire Boost bonuses.
-    if (this.get_start_HP() - enemy.get_start_HP() >= 3) {
-      atk += this.get_fire_boost_bonus();
-    }
-
-    // If the unit has a "Bond" skill that boosts Atk, and has at least one adjacent ally, apply it.
-    if (this.get_atk_bond() > 0 && this.adj_allies > 0) {
-      atk += this.get_atk_bond();
-    }
-
-    // If the unit in question is the attacker, make sure to include offensive
-    // atk bonuses.
-    if (attacker_flag) {
-      atk += this.get_atk_boost_off();
-      if (enemy_range > 1) {
-        atk += this.get_distant_atk_off_bonus();
-      }
-      else {
-        atk += this.get_close_atk_off_bonus();
-      }
-      if (this.conditional_effects) {
-        atk += this.get_cond_atk_off_bonus();
-      }
-    }
-    // If the unit is not the attacker, include defensive atk bonuses.
-    else {
-      atk += this.get_atk_boost_def();
-      if (enemy_range > 1) {
-        atk += this.get_distant_atk_def_bonus();
-      }
-      else {
-        atk += this.get_close_atk_def_bonus();
-      }
-      if (this.conditional_effects) {
-        atk += this.get_cond_atk_def_bonus();
-      }
-    }
-
-    // If the unit gets an Atk bonus when the enemy is at full HP, apply it.
-    if (enemy.get_start_HP() == enemy.get_HP_max()) {
-      atk += this.get_atk_boost_enemy_full_hp();
-    }
-
-    // If the unit gets an Atk bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= .8) {
-      atk += this.get_brazen_atk_boost();
-    }
-
-    // If the unit has a -blade tome, and buffs are not negative or negated,
-    // add buffs to atk.
-    if (this.get_blade() == 1 && this.check_buff_negate(enemy) == "") {
-      if (this.atk_buff > 0) {
-        atk += this.atk_buff;
-      }
-      if (this.spd_buff > 0) {
-        atk += this.spd_buff;
-      }
-      if (this.def_buff > 0) {
-        atk += this.def_buff;
-      }
-      if (this.res_buff > 0) {
-        atk += this.res_buff;
-      }
-    }
-
-    // If this unit's weapon has an effect that adds enemy debuffs to atk,
-    // add the enemy debuffs to atk.
-    if (this.weapon.enemy_debuffs_to_atk) {
-      if (enemy.get_atk_debuff() > 0) {
-        atk += enemy.get_atk_debuff();
-      }
-      if (enemy.get_spd_debuff() > 0) {
-        atk += enemy.get_spd_debuff();
-      }
-      if (enemy.get_def_debuff() > 0) {
-        atk += enemy.get_spd_debuff();
-      }
-      if (enemy.get_res_debuff() > 0) {
-        atk += enemy.get_res_debuff();
-      }
-    }
-
-    // If this unit's weapon has an effect that adds enemy buffs to atk,
-    // and enemy buffs are not negated, add the enemy buffs to atk.
-    if (this.weapon.enemy_buffs_to_atk && enemy.check_buff_negate(this) == "") {
-      if (enemy.get_atk_buff() > 0) {
-        atk += enemy.get_atk_buff();
-      }
-      if (enemy.get_spd_buff() > 0) {
-        atk += enemy.get_spd_buff();
-      }
-      if (enemy.get_def_buff() > 0) {
-        atk += enemy.get_def_buff();
-      }
-      if (enemy.get_res_buff() > 0) {
-        atk += enemy.get_res_buff();
-      }
-    }
-
-    // If this unit has an effect that adds field buffs to unit's stats as
-    // combat buffs, and unit's field buffs are not negative or negated,
-    // add the unit's Atk field buff to Atk.
-    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
-      if (this.atk_buff > 0) {
-        atk += this.atk_buff;
-      }
-    }
-
-    // If the enemy unit has an effect that lowers this unit's atk in
-    // combat, apply it.
-    atk -= enemy.inflicts_combat_atk_penalty(this);
-  }
-
-  // If the atk value is negative, and the unit does not have a -blade tome,
-  // set it to 0.
-  if (atk < 0 && this.get_blade() != 1) {
-    atk = 0;
-  }
-
-  return atk;
-};
-// Calculates the effective attack of a unit, including effective damage,
-// weapon triangle, etc.
-Fighter.prototype.calculate_effective_atk = function (atk, enemy) {
-  // Set an initial effective atk value.
-  var e_atk = atk;
-
-  // If effective atk is negative, set it to 0.
-  if (e_atk < 0) {
-    e_atk = 0;
-  }
-
-  // Factor in effective damage, if applicable.
-  if (this.check_effective_damage(enemy)) {
-    e_atk += Math.floor(e_atk * .5);
-  }
-
-  // Factor in the weapon triangle bonuses/penalties.
-  var wt_result = this.wt_check(enemy);
-  if (wt_result == 1) {
-    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
-    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
-      // If the enemy has an effect that cancels ALL foe triangle affinity,
-      // e_atk is not amplified by the user's Triangle Affinity skill.
-      if (enemy.get_foe_affinity_cancel() == 1 || enemy.get_disadv_foe_affinity_cancel() == 1) {
-        e_atk += Math.floor(e_atk * .2);
-      }
-      // Otherwise, if the foe does not have a skill that reverses Triangle
-      // Affinity skills when at a disadvantage, apply a +40% bonus to e_atk.
-      // If the foe DOES have such a skill, the matchup is effectively neutral.
-      else if (enemy.get_disadv_foe_affinity_reverse() == 0) {
-        e_atk += Math.floor(e_atk * .4);
-      }
-    }
-    else {
-      e_atk += Math.floor(e_atk * .2);
-    }
-  }
-  else if (wt_result == -1) {
-    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
-    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
-      // If the unit has a skill that cancels foe's Triangle Affinity skills,
-      // only a 20% penalty is applied to e_atk.
-      if (this.get_foe_affinity_cancel() == 1 || this.get_disadv_foe_affinity_cancel() == 1){
-        e_atk -= Math.floor(e_atk * .2);
-      }
-      // Otherwise, if the unit does not have a skill that reverses Triangle
-      // Affinity skills when at a disadvantage, apply a -40% penalty to e_atk.
-      // If the unit DOES have such a skill, the matchup is effectively neutral.
-      else if (this.get_disadv_foe_affinity_reverse() == 0) {
-        e_atk -= Math.floor(e_atk * .4);
-      }
-    }
-    else {
-      e_atk -= Math.floor(e_atk * .2);
-    }
-  }
-
-  // Return the effective atk.
-  return e_atk;
-};
-// Helper function for atk calculation, checks to see if the unit deals effective damage
-// to the enemy.
-Fighter.prototype.check_effective_damage = function (enemy) {
-  if (this.weapon.srd_eff && enemy.get_weap() == "S") {
-    return true;
-  }
-  if (this.weapon.lnc_eff && enemy.get_weap() == "L") {
-    return true;
-  }
-  if (this.weapon.axe_eff && enemy.get_weap() == "A") {
-    return true;
-  }
-  if (this.weapon.rt_eff && enemy.get_weap() == "RT") {
-    return true;
-  }
-  if (this.weapon.bt_eff && enemy.get_weap() == "BT") {
-    return true;
-  }
-  if (this.weapon.gt_eff && enemy.get_weap() == "GT") {
-    return true;
-  }
-  if (this.weapon.rbrth_eff && (enemy.get_weap() == "RD" || enemy.weapon.loptous)) {
-    return true;
-  }
-  if (this.weapon.bbrth_eff && (enemy.get_weap() == "BD" || enemy.weapon.loptous)) {
-    return true;
-  }
-  if (this.weapon.gbrth_eff && (enemy.get_weap() == "GD" || enemy.weapon.loptous)) {
-    return true;
-  }
-  if (this.weapon.nbrth_eff && (enemy.get_weap() == "ND" || enemy.weapon.loptous)) {
-    return true;
-  }
-  if (this.weapon.rbow_eff && enemy.get_weap() == "RB") {
-    return true;
-  }
-  if (this.weapon.bbow_eff && enemy.get_weap() == "BB") {
-    return true;
-  }
-  if (this.weapon.gbow_eff && enemy.get_weap() == "GB") {
-    return true;
-  }
-  if (this.weapon.nbow_eff && enemy.get_weap() == "NB") {
-    return true;
-  }
-  if (this.weapon.r_dgr_eff && enemy.get_weap() == "RK") {
-    return true;
-  }
-  if (this.weapon.b_dgr_eff && enemy.get_weap() == "BK") {
-    return true;
-  }
-  if (this.weapon.g_dgr_eff && enemy.get_weap() == "GK") {
-    return true;
-  }
-  if (this.weapon.n_dgr_eff && enemy.get_weap() == "NK") {
-    return true;
-  }
-  if (this.weapon.stf_eff && enemy.get_weap() == "ST") {
-    return true;
-  }
-  if (this.weapon.inf_eff && enemy.get_type() == "I" && !enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.cav_eff && enemy.get_type() == "C" && !enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.fly_eff && enemy.get_type() == "F" && !enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.arm_eff && enemy.get_type() == "A" && !enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  return false;
-};
-// Calculates the effective speed of the unit.
-Fighter.prototype.calculate_spd = function(attacker_flag, enemy, in_combat) {
-  var enemy_range = enemy.get_range();
-
-  // Reverses buffs if applicable.
-  if (this.buffs_reversed) {
-    this.spd_buff *= -1;
-  }
-  // Sets an inital value for effective speed.
-  var e_spd = this.get_perm_spd() + this.get_assumed_spd_boost() - this.spd_debuff;
-  // If buffs are not positive or not negated, add buffs.
-  if (this.spd_buff < 0 || this.check_buff_negate(enemy) == "") {
-    e_spd += this.spd_buff;
-  }
-
-  if (in_combat) {
-    // If the unit has a inverse spur effect, add 2x adjacent allies to effective spd.
-    if (this.get_inverse_spur() == 1) {
-      e_spd += this.get_adj_allies() * 2;
-    }
-
-    // Apply effects that boost spd based on enemies in 2 spaces.
-    if (this.get_spd_bonus_nearby_ally() > 0) {
-      e_spd += this.get_spd_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
-    }
-
-    // If the unit gets a Spd bonus when the enemy is at full HP, apply it.
-    if (enemy.get_start_HP() == enemy.get_HP_max()) {
-      e_spd += this.get_spd_boost_enemy_full_hp();
-    }
-
-    // If the unit's HP is 3+ higher than the enemy's, apply any Wind Boost bonuses
-    if (this.get_start_HP() - enemy.get_start_HP() >= 3) {
-      e_spd += this.get_wind_boost_bonus();
-    }
-
-    // If the unit in question is at full HP, and has an effect that increases Spd at full HP, include it.
-    if (this.get_start_HP() == this.get_HP_max()) {
-      e_spd += this.get_spd_boost_full_hp();
-    }
-    else {
-      e_spd += this.get_spd_boost_damaged();
-    }
-
-    // If the unit has a "Bond" skill that boosts Spd, and has at least one adjacent ally, apply it.
-    if (this.get_spd_bond() > 0 && this.adj_allies > 0) {
-      e_spd += this.get_spd_bond();
-    }
-
-    // If the unit in question is attacking, make sure to include
-    // offensive speed bonuses.
-    if (attacker_flag) {
-      e_spd += this.get_spd_boost_off();
-      if (enemy_range > 1) {
-        e_spd += this.get_distant_spd_off_bonus();
-      }
-      else {
-        e_spd += this.get_close_spd_off_bonus();
-      }
-      if (this.conditional_effects) {
-        e_spd += this.get_cond_spd_off_bonus();
-      }
-    }
-    // If the unit is not attacking, include defensive speed bonuses.
-    else {
-      e_spd += this.get_spd_boost_def();
-      if (enemy_range > 1) {
-        e_spd += this.get_distant_spd_def_bonus();
-      }
-      else {
-        e_spd += this.get_close_spd_def_bonus();
-      }
-      if (this.conditional_effects) {
-        e_spd += this.get_cond_spd_def_bonus();
-      }
-    }
-
-    // If the unit gets a Spd bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= .8) {
-      e_spd += this.get_brazen_spd_boost();
-    }
-
-    // If this unit has an effect that adds field buffs to unit's stats as
-    // combat buffs, and unit's field buffs are not negative or negated,
-    // add the unit's Spd field buff to Spd.
-    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
-      if (this.spd_buff > 0) {
-        e_spd += this.spd_buff;
-      }
-    }
-  }
-
-  // If the effective spd is negative, set it to 0.
-  if (e_spd < 0) {
-    e_spd = 0;
-  }
-
-  // Return the effective spd.
-  return e_spd;
-};
-// Calculates the effective def of the unit.
-Fighter.prototype.calculate_def = function(attacker_flag, enemy, in_combat) {
-  var enemy_range = enemy.get_range();
-
-  var enemy_start_hp = enemy.get_start_HP();
-
-  // Reverses buffs if applicable.
-  if (this.buffs_reversed) {
-    this.def_buff *= -1;
-  }
-  // Sets an initial value for the effective def.
-  var e_def = this.get_perm_def() + this.get_assumed_def_boost() - this.def_debuff;
-  // If buffs are not positive or not negated, add buffs.
-  if (this.def_buff < 0 || this.check_buff_negate(enemy) == "") {
-    e_def += this.def_buff;
-  }
-
-  if (in_combat) {
-    // If the unit has a inverse spur effect, add 2x adjacent allies to effective def.
-    if (this.get_inverse_spur() == 1) {
-      e_def += this.get_adj_allies() * 2;
-    }
-
-    // Apply effects that boost def based on enemies in 2 spaces.
-    if (this.get_def_bonus_nearby_ally() > 0) {
-      e_def += this.get_def_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
-    }
-
-    // Apply any Earth Boost bonuses, if necessary.
-    if ((this.get_start_HP() - enemy_start_hp) >= 3) {
-      e_def += this.get_earth_boost_bonus();
-    }
-
-    // If the unit has a "Bond" skill that boosts Def, and has at least one adjacent ally, apply it.
-    if (this.get_def_bond() > 0 && this.adj_allies > 0) {
-      e_def += this.get_def_bond();
-    }
-
-    // If the unit in quesiton is attacking, add offensive def bonuses.
-    if (attacker_flag) {
-      e_def += this.get_def_boost_off();
-      if (enemy_range > 1) {
-        e_def += this.get_distant_def_off_bonus();
-      }
-      else {
-        e_def += this.get_close_def_off_bonus();
-      }
-      if (this.conditional_effects) {
-        e_def += this.get_cond_def_off_bonus();
-      }
-    }
-    // If the unit in question is defending, add defensive def bonuses.
-    else {
-      e_def += this.get_def_boost_def();
-      if (enemy_range > 1) {
-        e_def += this.get_distant_def_def_bonus();
-      }
-      else {
-        e_def += this.get_close_def_def_bonus();
-      }
-      // Special case! Vidofnir provides a def bonus when defending, but only against
-      // Axes, Lances, and Swords.
-      if (enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") {
-        e_def += this.get_def_boost_def_vs_ALS();
-      }
-      if (this.conditional_effects) {
-        e_def += this.get_cond_def_def_bonus();
-      }
-    }
-
-    // If the unit in question is at full HP, and has an effect that increases Def at full HP, include it.
-    if (this.get_start_HP() == this.get_HP_max()) {
-      e_def += this.get_def_boost_full_hp();
-    }
-    else {
-      e_def += this.get_def_boost_damaged();
-    }
-
-    // Special case! Account for Tyrfing if necessary.
-    if (this.get_start_HP() <= Math.floor(this.get_HP_max()/2)) {
-      e_def += this.weapon.def_boost_below50;
-    }
-
-    // If the unit gets a Def bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= .8) {
-      e_def += this.get_brazen_def_boost();
-    }
-
-    // If this unit has an effect that adds field buffs to unit's stats as
-    // combat buffs, and unit's field buffs are not negative or negated,
-    // add the unit's Def field buff to Def.
-    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
-      if (this.def_buff > 0) {
-        e_def += this.def_buff;
-      }
-    }
-  }
-
-  // If the effective def is negative, set it to 0.
-  if (e_def < 0) {
-    e_def = 0;
-  }
-
-  // Return the effective def.
-  return e_def;
-};
-// Calculates the effective res of the unit.
-Fighter.prototype.calculate_res = function(attacker_flag, enemy, in_combat) {
-  var enemy_range = enemy.get_range();
-
-  var enemy_start_hp = enemy.get_start_HP();
-
-  // Reverse buffs if applicable.
-  if (this.buffs_reversed) {
-    this.res_buff *= -1;
-  }
-  // Sets an initial value for the effective res.
-  var e_res = this.get_perm_res() + this.get_assumed_res_boost() - this.res_debuff;
-  // If buffs are not positive or not negated, add buffs.
-  if (this.res_buff < 0 || this.check_buff_negate(enemy) == "") {
-    e_res += this.res_buff;
-  }
-
-  if (in_combat) {
-    // If the unit has a inverse spur effect, add 2x adjacent allies to effective res.
-    if (this.get_inverse_spur() == 1) {
-      e_res += this.get_adj_allies() * 2;
-    }
-
-    // Apply effects that boost spd based on enemies in 2 spaces.
-    if (this.get_res_bonus_nearby_ally() > 0) {
-      e_res += this.get_res_bonus_nearby_ally() * Math.min((this.adj_allies+this.two_space_allies),3);
-    }
-
-    // Apply any Water Boost bonuses, if necessary.
-    if ((this.get_start_HP() - enemy_start_hp) >= 3) {
-      e_res += this.get_water_boost_bonus();
-    }
-
-    // If the unit has a "Bond" skill that boosts Res, and has at least one adjacent ally, apply it.
-    if (this.get_res_bond() > 0 && this.adj_allies > 0) {
-      e_res += this.get_res_bond();
-    }
-
-    // If the unit in question is attacking, make sure to include
-    // offensive res bonuses.
-    if (attacker_flag == 1) {
-      e_res += this.get_res_boost_off();
-      if (enemy_range > 1) {
-        e_res += this.get_distant_res_off_bonus();
-      }
-      else {
-        e_res += this.get_close_res_off_bonus();
-      }
-      if (this.conditional_effects) {
-        e_res += this.get_cond_res_off_bonus();
-      }
-    }
-    // If the unit in question is defending, make sure to include
-    // defensive res bonuses.
-    else {
-      e_res += this.get_res_boost_def();
-      if (enemy_range > 1) {
-        e_res += this.get_distant_res_def_bonus();
-      }
-      else {
-        e_res += this.get_close_res_def_bonus();
-      }
-      if (this.conditional_effects) {
-        e_res += this.get_cond_res_def_bonus();
-      }
-    }
-
-    // If the unit gets a Res bonus when below a certain HP threshold, apply it.
-    if (this.start_HP / this.hp_max <= .8) {
-      e_res += this.get_brazen_res_boost();
-    }
-
-    // If the unit in question is at full HP, and has an effect that increases Res at full HP, include it.
-    if (this.get_start_HP() == this.get_HP_max()) {
-      e_res += this.get_res_boost_full_hp();
-    }
-    else {
-      e_res += this.get_res_boost_damaged();
-    }
-
-    // If this unit has an effect that adds field buffs to unit's stats as
-    // combat buffs, and unit's field buffs are not negative or negated,
-    // add the unit's Res field buff to Res.
-    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
-      if (this.res_buff > 0) {
-        e_res += this.res_buff;
-      }
-    }
-  }
-
-  // If the effective res is negative, set it to 0.
-  if (e_res < 0) {
-    e_res = 0;
-  }
-
-  // Return the effective res.
-  return e_res;
-};
-
-/* ************************** END OF STAT CALCULATION ************************** */
-
-/* Input:
-    -attacker_flag: whether or not this unit is the active unit.
-    -enemy: this unit's enemy.
-    -in_combat: whether or not this scenario is being evaluated in or out of combat.
-   Output:
-    -String detailing the status of this unit's field and combat buffs, and weapon
-     triangle status.
-*/
-Fighter.prototype.precombat_report_stats = function (attacker_flag, enemy, in_combat) {
-  var report = "", temp = "";
-  var enemy_range = enemy.get_range();
-  // The names of combat_buff properties, to be passed into the combat_buff_reporting
-  // function. This should be an array of 4 elements, one for each stat, in the order
-  // Atk, Spd, Def, Res.
-  var property_names;
-
-  // The magnitude of the buff.
-  var magnitudes;
-
-  // Reporting for a reversed buff status effect.
-  if (this.buffs_reversed) {
-    report += this.get_name() + "'s field buffs are reversed this combat!<br>";
-  }
-  // Reporting for buff neutralization by the enemy.
-  if (this.check_buff_negate(enemy) != "" && !this.buffs_reversed) {
-    report += this.get_name() + "'s field buffs are neutralized by " + enemy.get_name() + "'s " + this.check_buff_negate(enemy) + "!<br>";
-  }
-  if (in_combat) {
-    // Reporting for full HP stat bonuses.
-    if (this.get_start_HP() == this.get_HP_max()) {
-      property_names = new Array("atk_boost_full_hp", "spd_boost_full_hp", "def_boost_full_hp", "res_boost_full_hp");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-    }
-    // Reporting for <100% HP stat bonuses.
-    else {
-      property_names = new Array("atk_boost_damaged", "spd_boost_damaged", "def_boost_damaged", "res_boost_damaged");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-    }
-    // Reporting for "Brazen" stat bonuses.
-    if (this.start_HP / this.hp_max <= .8) {
-      property_names = new Array("brazen_atk_boost", "brazen_spd_boost", "brazen_def_boost", "brazen_res_boost");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-    }
-    // Reporting for stat bonuses granted when enemy is at full HP.
-    if (enemy.get_start_HP() == enemy.get_HP_max()) {
-      property_names = new Array("atk_boost_enemy_full_hp", "spd_boost_enemy_full_hp", "def_boost_enemy_full_hp", "res_boost_enemy_full_hp");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-    }
-    // Reporting for adjacency stat bonus effects (inverse spur, bonds).
-    if (this.get_adj_allies() > 0) {
-      if (this.get_inverse_spur()) {
-        report += this.get_name() + " receives a combat buff of Atk/Spd/Def/Res+" + this.get_adj_allies() * 2 + " from " + this.weapon.name + "!<br />";
-      }
-      property_names = new Array("atk_bond", "spd_bond", "def_bond", "res_bond");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-    }
-    // Reporting for nearby stat bonus effects (Inverse drives).
-    if (this.get_atk_bonus_nearby_ally() > 0 || this.get_spd_bonus_nearby_ally() > 0 || this.get_def_bonus_nearby_ally() > 0 || this.get_res_bonus_nearby_ally() > 0) {
-      if (this.get_adj_allies() + this.get_two_space_allies() > 0) {
-        property_names = new Array("atk_bonus_nearby_ally", "spd_bonus_nearby_ally", "def_bonus_nearby_ally", "res_bonus_nearby_ally");
-        var mag = Math.min((this.get_adj_allies() + this.get_two_space_allies()), 3);
-        magnitudes = new Array(mag, mag, mag, mag);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      }
-    }
-    // Reporting for "[Element] Boost" effects.
-    if (this.get_start_HP() - enemy.get_start_HP() >= 3) {
-      property_names = new Array("fire_boost_bonus", "wind_boost_bonus", "earth_boost_bonus", "water_boost_bonus");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-    }
-    // Reporting for field buff to combat buff conversion effects.
-    if (this.weapon.fld_buffs_to_cmbt_buffs && this.check_buff_negate(enemy) == "") {
-      if (this.atk_buff > 0) {
-        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Atk field buff to Atk (" + this.atk_buff + "), as a combat buff!<br>";
-      }
-      if (this.spd_buff > 0) {
-        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Spd field buff to Spd (" + this.spd_buff + "), as a combat buff!<br>";
-      }
-      if (this.def_buff > 0) {
-        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Def field buff to Def (" + this.def_buff + "), as a combat buff!<br>";
-      }
-      if (this.res_buff > 0) {
-        report += this.get_name() + "'s " + this.weapon.name + " adds the value of his/her Res field buff to Res (" + this.res_buff + "), as a combat buff!<br>";
-      }
-    }
-    // Reporting for bonuses granted when this unit initiates combat.
-    if (attacker_flag) {
-      property_names = new Array("atk_boost_off", "spd_boost_off", "def_boost_off", "res_boost_off");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-
-      if (enemy_range > 1) {
-        property_names = new Array("distant_atk_off_bonus", "distant_spd_off_bonus", "distant_def_off_bonus", "distant_res_off_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      }
-      else {
-        property_names = new Array("close_atk_off_bonus", "close_spd_off_bonus", "close_def_off_bonus", "close_spd_off_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name() , this.weapon, property_names, magnitudes);
-      }
-
-      // Reporting for Conditional Effects.
-      if (this.conditional_effects) {
-        property_names = new Array("cond_atk_off_bonus", "cond_spd_off_bonus", "cond_def_off_bonus", "cond_res_off_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-      }
-    }
-    // Reporting for bonuses granted when the enemy initiates combat.
-    else {
-      property_names = new Array("atk_boost_def", "spd_boost_def", "def_boost_def", "res_boost_def");
-      magnitudes = new Array(1, 1, 1, 1);
-      report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-      report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-
-      if (enemy_range > 1) {
-        property_names = new Array("distant_atk_def_bonus", "distant_spd_def_bonus", "distant_def_def_bonus", "distant_res_def_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names, magnitudes);
-      }
-      else {
-        property_names = new Array("close_atk_def_bonus", "close_spd_def_bonus", "close_def_def_bonus", "close_res_def_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.seal, property_names, magnitudes);
-
-        // SPECIAL CASE! Vidofnir provides Def+7 when an enemy wielding an Axe, Lance, or Sword
-        // initiates combat.
-        if ((enemy.get_weap() == "A" || enemy.get_weap() == "L" || enemy.get_weap() == "S") && this.get_def_boost_def_vs_ALS() > 0) {
-          report += this.get_name() + " receives a combat buff of Def+" + this.get_def_boost_def_vs_ALS() + " from " + this.weapon.name + "!<br />";
-        }
-      }
-
-      // Reporting for Conditional Effects.
-      if (this.conditional_effects) {
-        property_names = new Array("cond_atk_def_bonus", "cond_spd_def_bonus", "cond_def_def_bonus", "cond_res_def_bonus");
-        magnitudes = new Array(1, 1, 1, 1);
-        report += this.combat_buff_reporting(this.get_name(), this.weapon, property_names, magnitudes);
-        report += this.combat_buff_reporting(this.get_name(), this.a_skill, property_names, magnitudes);
-      }
-    }
-    // SPECIAL CASE! Tyrfing provides Def+4 when the unit's HP is 50% or lower
-    // at the start of combat.
-    if ((this.get_start_HP() <= Math.floor(this.get_HP_max()/2)) && this.weapon.def_boost_below50 > 0) {
-      report += this.get_name() + " receives a combat buff of Def+" + this.weapon.def_boost_below50 + " from " + this.weapon.name + "!<br />";
-    }
-
-    var bonus_atk = 0;
-    // Reporting for -blade tome buff to Atk conversion.
-    if (this.get_blade() && this.check_buff_negate(enemy) == "") {
-      if (this.atk_buff > 0) {
-        bonus_atk += this.atk_buff;
-      }
-      if (this.spd_buff > 0) {
-        bonus_atk += this.spd_buff;
-      }
-      if (this.def_buff > 0) {
-        bonus_atk += this.def_buff;
-      }
-      if (this.res_buff > 0) {
-        bonus_atk += this.res_buff;
-      }
-
-      if (bonus_atk > 0) {
-        report += this.get_name() + " receives bonus Atk = the total value of his/her buffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
-        bonus_atk = 0;
-      }
-    }
-    // Reporting for enemy debuff to Atk conversion.
-    if (this.weapon.enemy_debuffs_to_atk) {
-      if (enemy.get_atk_debuff() > 0) {
-        bonus_atk += enemy.get_atk_debuff();
-      }
-      if (enemy.get_spd_debuff() > 0) {
-        bonus_atk += enemy.get_spd_debuff();
-      }
-      if (enemy.get_def_debuff() > 0) {
-        bonus_atk += enemy.get_spd_debuff();
-      }
-      if (enemy.get_res_debuff() > 0) {
-        bonus_atk += enemy.get_res_debuff();
-      }
-
-      if (bonus_atk > 0) {
-        report += this.get_name() + " receives bonus Atk = the total value of the enemy's debuffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
-        bonus_atk = 0;
-      }
-    }
-    // Reporting for enemy buff to Atk conversion.
-    if (this.weapon.enemy_buffs_to_atk && enemy.check_buff_negate(this) == "") {
-      if (enemy.get_atk_buff() > 0) {
-        bonus_atk += enemy.get_atk_buff();
-      }
-      if (enemy.get_spd_buff() > 0) {
-        bonus_atk += enemy.get_spd_buff();
-      }
-      if (enemy.get_def_buff() > 0) {
-        bonus_atk += enemy.get_spd_buff();
-      }
-      if (enemy.get_res_buff() > 0) {
-        bonus_atk += enemy.get_res_buff();
-      }
-
-      if (bonus_atk > 0) {
-        report += this.get_name() + " receives bonus Atk = the total value of the enemy's buffs (" + bonus_atk + ") from " + this.weapon.name + "!<br />";
-        bonus_atk = 0;
-      }
-    }
-    // Special case! Reporting for when this unit's Loptous inflicts an Atk penalty on the enemy.
-    if (enemy.weapon.loptous && (!this.weapon.rbrth_eff && !this.weapon.bbrth_eff && !this.weapon.gbrth_eff && !this.weapon.nbrth_eff)) {
-      report += this.get_name() + " receives a Atk-6 penalty due to not having a dragon effective weapon from " + enemy.name + "'s " + enemy.weapon.name + "!<br />";
-    }
-  }
-
-  var atk = this.calculate_atk(attacker_flag, enemy, in_combat);
-  if (atk < 0) {
-    atk = 0;
-  }
-
-  // Reporting for effective attack modifications (effective damage, triangle advantage)
-  if (this.check_effective_damage(enemy)) {
-    atk += Math.floor(atk * .5);
-    report += this.get_name() + " receives a +50% Atk bonus from Effective Damage dealt by " + this.weapon.name + " (" + atk + " Atk)!<br />";
-  }
-  else if (this.effective_damage_canceled(enemy)) {
-    report += this.get_name() + "'s Effective Damage from his/her " + this.weapon.name + " is neutralized by " + enemy.get_name() + "'s " + enemy.a_skill.name + " (" + atk + " Atk)!<br />";
-  }
-
-  var wt_result = this.wt_check(enemy);
-  if (wt_result == 1) {
-    // Reporting for self-canceled Triangle Affinity skills.
-    if (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 1) {
-      report += this.name + "'s " + this.b_skill.name + " cancels his/her own Triangle Affinity skill!<br />";
-    }
-
-    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
-    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
-      // If the enemy has an effect that cancels ALL foe triangle affinity,
-      // effective atk is not amplified by the user's Triangle Affinity skill.
-      if (enemy.get_foe_affinity_cancel() == 1 || enemy.get_disadv_foe_affinity_cancel() == 1) {
-        atk += Math.floor(atk * .2);
-        report += this.name + "'s Triangle Affinity skill is canceled by " + enemy.get_name() + "'s " + enemy.b_skill.name + ", and receives a +20% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
-      }
-      // Otherwise, if the foe does not have a skill that reverses Triangle
-      // Affinity skills when at a disadvantage, apply a +40% bonus to effective atk.
-      // If the foe DOES have such a skill, the matchup is effectively neutral.
-      else if (enemy.get_disadv_foe_affinity_reverse() == 0) {
-        atk += Math.floor(atk * .4);
-        report += this.name + " receives a +40% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
-      }
-      else {
-        report += this.name + "'s Triangle Affinity skill is reversed by " + enemy.get_name() + "'s " + enemy.b_skill.name + ", and receives a +0% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
-      }
-    }
-    else {
-      atk += Math.floor(atk * .2);
-      report += this.name + " receives a +20% Atk bonus from Triangle Advantage (" + atk + " Atk)!<br />";
-    }
-  }
-  else if (wt_result == -1) {
-    // If the enemy or the unit has a non-self-canceled Triangle Affinity effect...
-    if ((enemy.get_wt_amp() == 1 && enemy.get_self_affinity_cancel() == 0) || (this.get_wt_amp() == 1 && this.get_self_affinity_cancel() == 0)) {
-      // If the unit has a skill that cancels foe's Triangle Affinity skills,
-      // only a 20% penalty is applied to e_atk.
-      if (this.get_foe_affinity_cancel() == 1 || this.get_disadv_foe_affinity_cancel() == 1) {
-        atk -= Math.floor(atk * .2);
-        report += this.name + "'s " + this.b_skill.name + " cancels " + enemy.get_name() + "'s Triangle Affinity skill, and receives a -20% Atk pentalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
-      }
-      // Otherwise, if the unit does not have a skill that reverses Triangle
-      // Affinity skills when at a disadvantage, apply a -40% penalty to e_atk.
-      // If the unit DOES have such a skill, the matchup is effectively neutral.
-      else if (this.get_disadv_foe_affinity_reverse() == 0) {
-        atk -= Math.floor(atk * .4);
-        report += this.name + " receives a -40% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
-      }
-      else {
-        report += this.name + "'s " + this.b_skill.name + " reverses " + enemy.get_name() + "'s Triangle Affinity skill, and receives a -0% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
-      }
-    }
-    else {
-      atk -= Math.floor(atk * .2);
-      report += this.name + " receives a -20% Atk penalty from Triangle Disadvantage (" + atk + " Atk)!<br />";
-    }
-  }
-
-  return report;
-};
-/* Helper function for precombat_report_stats.
-  Input:
-    -unit_name: Name of the unit being assessed combat buffs.
-    -skill: Skill that potentially provides the combat buffs.
-    -properties: A 4-element array that holds the names of the properties that
-                 potentially hold the values of combat buffs. The properties
-                 should be in the order Atk, Spd, Def, Res.
-    -magnitude: A multiplier for each combat buff. Usually 1, but sometimes
-                a combat buff will scale based on an unkown factor (ex. Inverse
-                Drives).
-
-   Output:
-    -String detailing all combat buffs received from the skill.
-*/
-Fighter.prototype.combat_buff_reporting = function (unit_name, skill, properties, magnitudes) {
-  var output = "";
-  if (skill[properties[0]] > 0) {
-    output += "Atk+" + skill[properties[0]]*magnitudes[0];
-  }
-  if (skill[properties[1]] > 0) {
-    if (output != "") {
-      output += "/";
-    }
-    output += "Spd+" + skill[properties[1]]*magnitudes[1];
-  }
-  if (skill[properties[2]] > 0) {
-    if (output != "") {
-      output += "/";
-    }
-    output += "Def+" + skill[properties[2]]*magnitudes[2];
-  }
-  if (skill[properties[3]] > 0) {
-    if (output != "") {
-      output += "/";
-    }
-    output += "Res+" + skill[properties[3]]*magnitudes[3];
-  }
-  if (output != "") {
-    output = unit_name + " receives a combat buff of " + output + " from " + skill.name + "!<br />";
-  }
-  return output;
-};
-// Helper function for precombat_report_stats.
-// Input: This unit's enemy.
-// Output: Whether or not this unit's effective damage is canceled by an enemy skill.
-Fighter.prototype.effective_damage_canceled = function (enemy) {
-  if (this.weapon.inf_eff && enemy.get_type() == "I" && enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.cav_eff && enemy.get_type() == "C" && enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.fly_eff && enemy.get_type() == "F" && enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  if (this.weapon.arm_eff && enemy.get_type() == "A" && enemy.get_negate_mov_eff()) {
-    return true;
-  }
-  return false;
-};
-
-// Subtracts combat damage from the unit's HP.
-Fighter.prototype.apply_damage = function(dmg) {
-  this.hp -= dmg;
-  if (this.hp < 0) {
-    this.hp = 0;
-  }
-  return dmg;
-};
-// Checks to see who has the weapon triangle advantage.
-// Returns 1 if this unit has WTA. Returns -1 if enemy has WTA.
-// Returns 0 if neither has WTA.
-Fighter.prototype.wt_check = function(enemy) {
-  if ((this.color == "R" && enemy.get_color() == "G") || (this.color == "G" && enemy.get_color() == "B") || (this.color == "B" && enemy.get_color() == "R") || (this.get_colorless_wta() == 1 && enemy.get_color() == "N"))
-    return 1;
-  else if ((this.color == "G" && enemy.get_color() == "R") || (this.color == "R" && enemy.get_color() == "B") || (this.color == "B" && enemy.get_color() == "G") || (enemy.get_colorless_wta() == 1 && this.color == "N"))
-    return -1;
-  else
-    return 0;
-};
-// Adds HP to the unit.
-Fighter.prototype.add_HP = function(health) {
-  this.hp += health;
-  if (this.hp > this.hp_max) {
-    this.hp = this.hp_max;
-  }
-};
-// Checks to see if the unit's buffs are negated by the enemy.
-// Returns either an empty string (buffs are not negated), or the source
-// of buff negation.
-Fighter.prototype.check_buff_negate = function (enemy) {
-  var weap_type_negate = "", mov_type_negate = "";
-  switch (this.get_weap()) {
-    case "S":
-      weap_type_negate = enemy.get_negate_srd_buffs();
-      break;
-    case "L":
-      weap_type_negate = enemy.get_negate_lnc_buffs();
-      break;
-    case "A":
-      weap_type_negate = enemy.get_negate_axe_buffs();
-      break;
-    case "RT":
-      weap_type_negate = enemy.get_negate_rt_buffs();
-      break;
-    case "BT":
-      weap_type_negate = enemy.get_negate_bt_buffs();
-      break;
-    case "GT":
-      weap_type_negate = enemy.get_negate_gt_buffs();
-      break;
-    case "RB":
-      weap_type_negate = enemy.get_negate_rbow_buffs();
-      break;
-    case "BB":
-      weap_type_negate = enemy.get_negate_bbow_buffs();
-      break;
-    case "GB":
-      weap_type_negate = enemy.get_negate_gbow_buffs();
-      break;
-    case "NB":
-      weap_type_negate = enemy.get_negate_nbow_buffs();
-      break;
-    case "RK":
-      weap_type_negate = enemy.get_negate_r_dgr_buffs();
-      break;
-    case "BK":
-      weap_type_negate = enemy.get_negate_b_dgr_buffs();
-      break;
-    case "GK":
-      weap_type_negate = enemy.get_negate_g_dgr_buffs();
-      break;
-    case "NK":
-      weap_type_negate = enemy.get_negate_n_dgr_buffs();
-      break;
-    case "ST":
-      weap_type_negate = enemy.get_negate_stf_buffs();
-      break;
-    case "RD":
-      weap_type_negate = enemy.get_negate_rbrth_buffs();
-      break;
-    case "BD":
-      weap_type_negate = enemy.get_negate_bbrth_buffs();
-      break;
-    case "GD":
-      weap_type_negate = enemy.get_negate_gbrth_buffs();
-      break;
-    default:
-      weap_type_negate = enemy.get_negate_nbrth_buffs();
-  }
-
-  switch (this.get_type()) {
-    case "A":
-      mov_type_negate = enemy.get_negate_arm_buffs();
-      break;
-    case "C":
-      mov_type_negate = enemy.get_negate_cav_buffs();
-      break;
-    case "I":
-      mov_type_negate = enemy.get_negate_inf_buffs();
-      break;
-    case "F":
-      mov_type_negate = enemy.get_negate_fly_buffs();
-      break;
-  }
-
-  if (weap_type_negate != "") {
-    return weap_type_negate;
-  }
-  else {
-    return mov_type_negate;
-  }
-  //return (weap_type_negate || mov_type_negate);
-};
-
-/* Checks to see if the unit meets the stat requirements for skills that increase
- * skill charge rates (Heavy Blade, Ayra's Blade, etc.)
- *
- * Input:
- *  -enemy: the enemy unit.
- *  -attacker_active: True when this unit is the active unit. False otherwise.
- *  -is_attacking: True when this unit is dealing damage. False when this unit is
- *                 receiving damage.
- * Output:
- *  -The highest bonus cooldown value out of all applicable factors.
- */
-Fighter.prototype.bonus_cd_applies = function (enemy, attacker_active, is_attacking) {
-  return Math.max(this.get_atk_bonus_cd(enemy, attacker_active, is_attacking), this.get_spd_bonus_cd(enemy, attacker_active, is_attacking), this.get_attacking_bonus_cd(attacker_active, is_attacking), this.get_defending_bonus_cd(attacker_active, is_attacking), this.get_special_bonus_cd(enemy), this.get_cond_bonus_cd(is_attacking));
-};
-// Initializes a counter to hold the number of active sources of generic (i.e. not tied to
-// any conditions besides initiating or defending) guaranteed follow-up. Increments the
-// counter for each active source, returning the counter at the end.
-Fighter.prototype.follow_up_thresh_applies = function (is_active) {
-  var counter = 0;
-  if ((is_active && this.b_skill.follow_up_off) || (!is_active && this.b_skill.follow_up_def)) {
-    if (this.start_HP / this.hp_max >= this.b_skill.follow_up_thresh) {
-      counter += 1;
-    }
-  }
-  if ((is_active && this.weapon.follow_up_off) || (!is_active && this.weapon.follow_up_def)) {
-    if (this.start_HP / this.hp_max >= this.weapon.follow_up_thresh) {
-      counter += 1;
-    }
-  }
-  if ((is_active && this.seal.follow_up_off) || (!is_active && this.seal.follow_up_def)) {
-    if (this.start_HP / this.hp_max >= this.seal.follow_up_thresh) {
-      counter += 1;
-    }
-  }
-  if (this.conditional_effects && ((is_active && this.weapon.cond_follow_up_off) || (!is_active && this.weapon.cond_follow_up_def))) {
-    if (this.start_HP / this.hp_max >= this.weapon.cond_follow_up_thresh) {
-      counter += 1;
-    }
-  }
-  return counter;
-};
-// Checks to see if the unit meets the HP requirement for Brash Assault.
-Fighter.prototype.brash_assault_applies = function(can_counter) {
-  var hp_thresh = Math.max(this.weapon.brash_assault_thresh, this.b_skill.brash_assault_thresh, this.seal.brash_assault_thresh);
-  return (hp_thresh > 0 && (this.start_HP / this.hp_max <= hp_thresh) && can_counter);
-};
-// Checks to see if the unit meets the HP requirement for Hardy Bearing.
-Fighter.prototype.hardy_bearing_applies = function () {
-  if (this.weapon.hardy_bearing_thresh != 0 || this.seal.hardy_bearing_thresh != 0) {
-    return ((this.startHP / this.hp_max) >= this.weapon.hardy_bearing_thresh)
-            ||
-            ((this.start_HP / this.hp_max) >= this.seal.hardy_bearing_thresh);
-  }
-  return false;
-};
-// Gets the source of the unit's Hardy Bearing effect.
-Fighter.prototype.get_hardy_bearing_source = function () {
-  if (this.weapon.hardy_bearing_thresh != 0) {
-    return this.weapon.name;
-  }
-  if (this.seal.hardy_bearing_thresh != 0) {
-    return this.seal.name;
-  }
-  return false;
-};
-// Checks to see if the unit meets the HP requirement for Desperation, and Desperation is not
-// negated by a Hardy Bearing effect.
-Fighter.prototype.desperation_applies = function(enemy) {
-  var desperation_thresh = Math.max(this.weapon.desperation_thresh, this.b_skill.desperation_thresh);
-  var result = ((this.start_HP / this.hp_max) <= desperation_thresh);
-  if (result) {
-    if (this.get_hardy_bearing_thresh() != 0) {
-      combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_desperation_source() + ")!<br>";
-      return false;
-    }
-    if (enemy.hardy_bearing_applies()) {
-      combat_log += enemy.get_name() + "'s " + enemy.get_hardy_bearing_source() + " negates " + this.get_name() + "'s order-of-combat altering effects (" + this.get_desperation_source() + ")!<br>";
-      return false;
-    }
-  }
-  return result;
-};
-Fighter.prototype.get_desperation_source = function () {
-  var source = "", thresh = 0;
-  if (this.weapon.desperation_thresh > 0) {
-    thresh = this.weapon.desperation_thresh;
-    source = this.weapon.name;
-  }
-  if (this.b_skill.desperation_thresh > 0) {
-    if (this.b_skill.desperation_thresh > thresh) {
-      thresh = this.b_skill.desperation_thresh;
-      source = this.b_skill.name;
-    }
-  }
-  return source;
-};
-// Checks to see if the unit meets the HP requirement for Vantage, and Vantage is not negated
-// by a Hardy Bearing effect.
-Fighter.prototype.vantage_applies = function(enemy) {
-  var vantage_thresh = this.b_skill.vantage_thresh;
-  var result = ((this.hp / this.hp_max) <= vantage_thresh);
-  if (result) {
-    if (this.get_hardy_bearing_thresh() != 0) {
-      combat_log += this.get_name() + "'s " + this.get_hardy_bearing_source() + " negates his/her order-of-combat altering effects (" + this.get_vantage_source() + ")!<br>";
-      return false;
-    }
-    if (enemy.hardy_bearing_applies()) {
-      combat_log += enemy.get_name() + "'s " + enemy.get_hardy_bearing_source() + " negates " + this.get_name() + "'s order-of-combat altering effects (" + this.get_vantage_source() + ")!<br>";
-      return false;
-    }
-  }
-
-  return result;
-};
-// Gets the source of the unit's Vantage effect.
-Fighter.prototype.get_vantage_source = function () {
-  return this.b_skill.name;
-};
-// Checks to see if the unit meets the HP requirement for Guard.
-Fighter.prototype.guard_applies = function () {
-  return ((this.start_HP >= (this.hp_max * this.get_guard_threshold())) && this.get_guard_threshold() > 0);
-};
-Fighter.prototype.get_guard_source = function () {
-  return this.b_skill.name;
-};
-// Checks to see if the unit meets the HP requirement for Wrathful Staff.
-Fighter.prototype.wrathful_staff_applies = function () {
-  if (this.weapon.wrathful_staff_threshold != 0 || this.b_skill.wrathful_staff_threshold != 0) {
-    return ((this.start_HP / this.hp_max) >= this.weapon.wrathful_staff_threshold)
-           ||
-           ((this.start_HP / this.hp_max) >= this.b_skill.wrathful_staff_threshold);
-  }
-  else {
+// Checks if this unit deals weapon effective damage to the enemy.
+Fighter.prototype.check_weapon_effective = function (e) {
+  if (this.weapon_effective.length == 0)
     return false;
-  }
-};
-Fighter.prototype.get_wrathful_staff_source = function () {
-  if ((this.start_HP / this.hp_max) >= this.weapon.wrathful_staff_threshold && this.weapon.wrathful_staff_threshold != 0) {
-    return this.weapon.name;
-  }
-  if ((this.start_HP / this.hp_max) >= this.b_skill.wrathful_staff_threshold && this.b_skill.wrathful_staff_threshold != 0) {
-    return this.b_skill.name;
-  }
-};
-// Checks to see if the unit meets the HP requirement for Dazzling Staff.
-Fighter.prototype.dazzling_staff_applies = function () {
-  if (this.weapon.dazzling_staff_threshold != 0 || this.b_skill.dazzling_staff_threshold != 0) {
-    return ((this.start_HP / this.hp_max) >= this.weapon.dazzling_staff_threshold)
-           ||
-           ((this.start_HP / this.hp_max) >= this.b_skill.dazzling_staff_threshold);
-  }
-  else {
-    return false;
-  }
-};
-Fighter.prototype.get_dazzling_staff_source = function () {
-  if ((this.start_HP / this.hp_max) >= this.weapon.dazzling_staff_threshold && this.weapon.dazzling_staff_threshold != 0) {
-    return this.weapon.name;
-  }
-  if ((this.start_HP / this.hp_max) >= this.b_skill.dazzling_staff_threshold && this.b_skill.dazzling_staff_threshold != 0) {
-    return this.b_skill.name;
-  }
-};
-// Checks to see if the unit meets the HP requirement for Wary Fighter.
-Fighter.prototype.wary_fighter_applies = function () {
-  var wary_fighter_thresh = this.b_skill.wary_fighter_thresh;
-  return (wary_fighter_thresh > 0) && (this.start_HP / this.hp_max >= wary_fighter_thresh);
-};
-// Checks to see if the unit has a breaker for the enemy weapon type, and if so, checks to see if
-// the unit meets the HP requirement to have it active.
-Fighter.prototype.breaker_applies = function(enemy_weap) {
-  var inhibitor_count = 0, b_breaker = false, weap_breaker = false;
 
-  switch (enemy_weap) {
-    case "S":
-      if (this.b_skill.srd_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.srd_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "L":
-      if (this.b_skill.lnc_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.lnc_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "A":
-      if (this.b_skill.axe_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.axe_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "RT":
-      if (this.b_skill.rt_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.rt_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "BT":
-      if (this.b_skill.bt_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.bt_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "GT":
-      if (this.b_skill.gt_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.gt_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "RB":
-      if (this.b_skill.rbow_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.rbow_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "BB":
-      if (this.b_skill.bbow_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.bbow_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "GB":
-      if (this.b_skill.gbow_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.gbow_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "NB":
-      if (this.b_skill.nbow_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.nbow_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "RK":
-      if (this.b_skill.rdgr_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.rdgr_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "BK":
-      if (this.b_skill.bdgr_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.bdgr_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "GK":
-      if (this.b_skill.gdgr_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.gdgr_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "NK":
-      if (this.b_skill.ndgr_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.ndgr_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "ST":
-      if (this.b_skill.stf_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.stf_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "RD":
-      if (this.b_skill.rbrth_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.rbrth_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "BD":
-      if (this.b_skill.bbrth_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.bbrth_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    case "GD":
-      if (this.b_skill.gbrth_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.gbrth_breaker) {
-        weap_breaker = true;
-      }
-      break;
-    default:
-      if (this.b_skill.nbrth_breaker) {
-        b_breaker = true;
-      }
-      if (this.weapon.nbrth_breaker) {
-        weap_breaker = true;
-      }
-      break;
+  var enemy_susceptibilities = new Array();
+  if (e.get_weap_susceptible_list() != undefined) {
+    e.get_weap_susceptible_list().forEach((item) => {
+      enemy_susceptibilities.push(item);
+    });
+  }
+  enemy_susceptibilities.push(e.get_weapon_type());
+
+  var susc_string = "";
+  if (enemy_susceptibilities.length > 0) {
+    for (var i = 0; i < enemy_susceptibilities.length; i++)
+      susc_string += enemy_susceptibilities[i] + " ";
   }
 
-  if (b_breaker && ((this.start_HP / this.hp_max) >= this.b_skill.breaker_thresh)) {
-    inhibitor_count += 1;
-  }
-  if (weap_breaker && ((this.start_HP / this.hp_max) >= this.weapon.breaker_thresh)) {
-    inhibitor_count += 1;
-  }
-  return inhibitor_count;
-};
-Fighter.prototype.def_follow_up_inhibition_applies = function (attacker_active, enemy, in_combat) {
-  if (this.weapon.great_flame_def_thresh > 0 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= this.weapon.great_flame_def_thresh)) {
-    return true;
-  }
-  if (this.weapon.brynhildr_def_thresh > 0 && enemy.get_range() == 2 && (this.calculate_def(attacker_active, enemy, in_combat) - enemy.calculate_def(!attacker_active, this, in_combat) >= this.weapon.brynhildr_def_thresh)) {
-  	return true;
-  }
+  for (var i = 0; i < enemy_susceptibilities.length; i++)
+    if (this.weapon_effective.includes(enemy_susceptibilities[i]))
+      return true;
 
-  else {
-    return false;
-  }
-};
-Fighter.prototype.cond_follow_up_inhibition_applies = function (attacker_active, enemy) {
-  if (this.conditional_effects) {
-    return this.weapon.cond_foe_follow_up_inhibit;
-  }
   return false;
 };
-Fighter.prototype.double_lion_applies = function () {
-  if ((this.weapon.double_lion || this.b_skill.double_lion) && this.start_HP == this.hp_max) {
-    return true;
-  }
-  return false;
-};
-// Determines the magnitude of the atk penalty that this unit inflicts on
-// his/her enemy.
-Fighter.prototype.inflicts_combat_atk_penalty = function (enemy) {
-  var penalty = 0;
-
-  // If the user has Loptous, then a -6 Atk penalty is inflicted on all foes that do not
-  // have dragon-effective weaponry.
-  if (this.weapon.loptous && (!enemy.weapon.rbrth_eff && !enemy.weapon.bbrth_eff && !enemy.weapon.gbrth_eff && !enemy.weapon.nbrth_eff)) {
-    penalty = 6;
-  }
-
-  return penalty;
-};
-// Calculates the permanent raw atk of the unit, active in all scenarios.
-Fighter.prototype.get_perm_atk = function () {
-  return this.atk + this.weapon.atk_boost_perm + this.a_skill.atk_boost_perm + this.seal.atk_boost_perm;
-};
-// Calculates the permanent raw spd of the unit, active in all scenarios.
-Fighter.prototype.get_perm_spd = function () {
-  return this.spd + this.weapon.spd_boost_perm + this.a_skill.spd_boost_perm + this.seal.spd_boost_perm;
-};
-// Calculates the permanent raw def of the unit, active in all scenarios.
-Fighter.prototype.get_perm_def = function () {
-  return this.def + this.weapon.def_boost_perm + this.a_skill.def_boost_perm + this.seal.def_boost_perm;
-};
-// Calculates the permanent raw res of the unit, active in all scenarios.
-Fighter.prototype.get_perm_res = function () {
-  return this.res + this.weapon.res_boost_perm + this.a_skill.res_boost_perm + this.seal.res_boost_perm;
-};
-// Applies burn damage.
-Fighter.prototype.apply_burn = function() {
-  var val = this.get_burn() - this.weapon.heal_after_attack();
-
-  if (this.get_start_HP() == this.get_HP_max()) {
-    val += this.get_burn_full_hp();
-  }
-  this.hp -= val;
-  if (this.hp <= 0) {
-    this.hp = 1;
-  }
-};
-// Applies damage from a pre-combat special (AoE).
-Fighter.prototype.apply_precombat_dmg = function(attacker, defender, mult) {
-  var atk;
-  var def;
-
-  atk = attacker.calculate_atk(true, defender, false);
-  if (attacker.get_weap() == "S" || attacker.get_weap() == "L" || attacker.get_weap() == "A" ||
-      attacker.get_weap() == "RB" || attacker.get_weap() == "BB" || attacker.get_weap() == "GB" || attacker.get_weap() == "NB" ||
-      attacker.get_weap() == "RK" || attacker.get_weap() == "BK" || attacker.get_weap() == "GK" || attacker.get_weap() == "NK") {
-    def = defender.calculate_def(false, attacker, false);
-  }
-  else {
-    def = defender.calculate_res(false, attacker, false) + defender.get_res_buff() + defender.get_assumed_res_boost() - defender.get_res_debuff();
-  }
-
-  // Calculate the dmg for the special.
-  var dmg = Math.floor((atk - def) * mult);
-  // If dmg is negative, set it to 0. Note that calculate_atk() will not zero negative values
-  // if the unit has a -blade tome, and that -blade tome bonuses are applied in the
-  // calculate_effective_atk() function to avoid conflicts with Heavy Blade (or similar).
-  if (dmg < 0) {
-    dmg = 0;
-  }
-  dmg += attacker.get_skill_dmg_bonus();
-  defender.reduce_HP(dmg);
-
-  return dmg;
-};
-// Reduces HP without KOing (Poison Strike, Deathly Dagger, etc.)
-Fighter.prototype.reduce_HP = function(value) {
-  this.hp -= value;
-  if (this.hp <= 0) {
-    this.hp = 1;
-  }
-};
-// Revives a unit, resetting everything to default values (overridden by user input when applicable).
-Fighter.prototype.revive = function() {
-  this.hp = this.hp_max;
-  this.reset_cooldown();
-  this.reset_debuffs();
-  this.reset_buffs();
-  this.damage_dealt = 0;
-  this.cooldown -= this.get_cd_reduce();
-  this.buffs_negated = false;
-};
-
-/* TO DO: See if the instances of these functions can be replaced with the set methods below. */
-Fighter.prototype.apply_atk_buff = function(val) {
-  this.atk_buff = Math.max(this.atk_buff, val);
-};
-Fighter.prototype.apply_spd_buff = function(val) {
-  this.spd_buff = Math.max(this.spd_buff, val);
-};
-Fighter.prototype.apply_def_buff = function(val) {
-  this.def_buff = Math.max(this.def_buff, val);
-};
-Fighter.prototype.apply_res_buff = function(val) {
-  this.res_buff = Math.max(this.res_buff, val);
-};
-/* End of functions that might need removing. */
 
 // Get methods.
-Fighter.prototype.get_buffs_negated = function () {
-  return this.buffs_negated;
+Fighter.prototype.get_dmg_dealt = function () {
+  return this.damage_dealt;
 };
-Fighter.prototype.get_name = function() {
-  return this.name;
+Fighter.prototype.get_max_hp = function () {
+  return this.max_hp;
 };
-Fighter.prototype.get_HP = function() {
+Fighter.prototype.get_hp = function () {
   return this.hp;
 };
-Fighter.prototype.get_HP_max = function() {
-  return this.hp_max;
+Fighter.prototype.get_permanent_atk = function () {
+  return this.permanent_atk;
 };
-Fighter.prototype.get_atk_buff = function() {
-  return this.atk_buff;
+Fighter.prototype.get_permanent_spd = function () {
+  return this.permanent_spd;
 };
-Fighter.prototype.get_spd_buff = function() {
-  return this.spd_buff;
+Fighter.prototype.get_permanent_def = function () {
+  return this.permanent_def;
 };
-Fighter.prototype.get_def_buff = function() {
-  return this.def_buff;
+Fighter.prototype.get_permanent_res = function () {
+  return this.permanent_res;
 };
-Fighter.prototype.get_res_buff = function() {
-  return this.res_buff;
+Fighter.prototype.get_printed_atk = function () {
+  return this.printed_atk;
 };
-Fighter.prototype.get_atk_debuff = function() {
-  return this.atk_debuff;
+Fighter.prototype.get_printed_spd = function () {
+  return this.printed_spd;
 };
-Fighter.prototype.get_spd_debuff = function () {
-  return this.spd_debuff;
+Fighter.prototype.get_printed_def = function () {
+  return this.printed_def;
 };
-Fighter.prototype.get_def_debuff = function() {
-  return this.def_debuff;
+Fighter.prototype.get_printed_res = function () {
+  return this.printed_res;
 };
-Fighter.prototype.get_res_debuff = function () {
-  return this.res_debuff;
+Fighter.prototype.get_combat_atk = function () {
+  return this.combat_atk;
 };
-Fighter.prototype.get_atk_boost_off = function () {
-  return this.weapon.atk_boost_off + this.a_skill.atk_boost_off;
+Fighter.prototype.get_combat_spd = function () {
+  return this.combat_spd;
 };
-Fighter.prototype.get_spd_boost_off = function () {
-  return this.weapon.spd_boost_off + this.a_skill.spd_boost_off;
+Fighter.prototype.get_combat_def = function () {
+  return this.combat_def;
 };
-Fighter.prototype.get_def_boost_off = function () {
-  return this.weapon.def_boost_off + this.a_skill.def_boost_off;
+Fighter.prototype.get_combat_res = function () {
+  return this.combat_res;
 };
-Fighter.prototype.get_res_boost_off = function () {
-  return this.weapon.res_boost_off + this.a_skill.res_boost_off;
+Fighter.prototype.get_phantom_spd = function () {
+  return this.phantom_spd;
 };
-Fighter.prototype.get_atk_boost_def = function () {
-  return this.weapon.atk_boost_def + this.a_skill.atk_boost_def;
+Fighter.prototype.get_effective_atk = function () {
+  return this.effective_atk;
 };
-Fighter.prototype.get_spd_boost_def = function () {
-  return this.weapon.spd_boost_def + this.a_skill.spd_boost_def;
+Fighter.prototype.get_cooldown = function () {
+  return this.cooldown;
 };
-Fighter.prototype.get_def_boost_def = function () {
-  return this.weapon.def_boost_def + this.a_skill.def_boost_def;
+Fighter.prototype.get_name = function () {
+  return this.name;
 };
-Fighter.prototype.get_res_boost_def = function () {
-  return this.weapon.res_boost_def + this.a_skill.res_boost_def;
-};
-Fighter.prototype.get_color = function() {
+Fighter.prototype.get_color = function () {
   return this.color;
 };
-Fighter.prototype.get_colorless_wta = function() {
-  return this.weapon.colorless_wta;
+Fighter.prototype.get_targeting_flag = function () {
+  return this.targeting;
 };
-Fighter.prototype.get_type = function() {
-  return this.type;
+Fighter.prototype.get_weapon_name = function () {
+  return this.weapon.name;
 };
-Fighter.prototype.get_wt_amp = function() {
-  return Math.max(this.weapon.wt_amp + this.a_skill.wt_amp);
+Fighter.prototype.get_special_name = function () {
+  return this.special.name;
 };
-Fighter.prototype.get_negate_mov_eff = function() {
-  return this.a_skill.negate_mov_eff || this.seal.negate_mov_eff;
+Fighter.prototype.get_a_skill_name = function () {
+  return this.a_skill.name;
 };
-Fighter.prototype.get_range = function() {
-  return this.weapon.range;
+Fighter.prototype.get_b_skill_name = function () {
+  return this.b_skill.name;
 };
-Fighter.prototype.get_cooldown = function() {
-  return this.cooldown;
+Fighter.prototype.get_c_skill_name = function () {
+  return this.c_skill.name;
+};
+Fighter.prototype.get_seal_name = function () {
+  return this.seal.name;
+};
+Fighter.prototype.get_movement_type = function () {
+  return this.movement_type;
+};
+Fighter.prototype.get_weapon_type = function () {
+  return this.weapon_type;
+};
+Fighter.prototype.get_range = function () {
+  return this.range;
+};
+Fighter.prototype.get_weap_susceptible_list = function () {
+  return this.weapon_effective_susceptible;
 };
 Fighter.prototype.get_next_atk_bonus_dmg = function () {
   return this.next_atk_bonus_dmg;
 };
-Fighter.prototype.get_proc_name = function() {
-  return this.special.name;
+Fighter.prototype.get_damage = function () {
+  return this.damage;
 };
-Fighter.prototype.get_dmg_mult_proc = function() {
-  return this.special.dmg_mult_proc;
+Fighter.prototype.get_initiating_flag = function () {
+  return this.initiating;
 };
-Fighter.prototype.get_dmg_taken_mult_proc = function() {
-  return this.special.dmg_taken_mult_proc;
+Fighter.prototype.get_attacking_flag = function () {
+  return this.attacking;
 };
-Fighter.prototype.get_spd_as_dmg_proc = function () {
-  return this.special.spd_as_dmg_proc;
+Fighter.prototype.get_special_type = function () {
+  return this.special.activation_type;
 };
-Fighter.prototype.get_def_as_dmg_proc = function() {
-  return this.special.def_as_dmg_proc;
+Fighter.prototype.get_triangle_status = function () {
+  return this.triangle_status;
 };
-Fighter.prototype.get_res_as_dmg_proc = function() {
-  return this.special.res_as_dmg_proc;
+Fighter.prototype.get_colorless_wta_flag = function () {
+  return this.has_colorless_wta;
 };
-Fighter.prototype.get_def_reduce_proc = function() {
-  return this.special.def_reduce_proc;
+Fighter.prototype.get_wrathful_staff_active_flag = function () {
+  return this.wrathful_staff_active;
 };
-Fighter.prototype.get_second_turn_proc = function() {
-  return this.special.second_turn_proc;
+Fighter.prototype.get_desperation_flag = function () {
+  return this.desperation_active;
 };
-Fighter.prototype.get_precombat_atk_mult_proc = function() {
-  return this.special.precombat_atk_mult_proc;
+Fighter.prototype.get_vantage_flag = function () {
+  return this.vantage_active;
 };
-Fighter.prototype.get_heal_on_hit_proc = function() {
-  // Add any skill-based augmentations (ex. Solar Brace), if applicable.
-  var to_return = this.special.heal_on_hit_proc;
+Fighter.prototype.get_strike_twice_flag = function () {
+  return this.strikes_twice;
+};
+Fighter.prototype.get_triangle_amplifier_flag = function () {
+  return this.has_triangle_amplifier;
+};
+Fighter.prototype.get_mitigation_mirror_flag = function () {
+  return this.mitigation_mirror_active;
+};
+Fighter.prototype.get_inhibit_special_charge_flag = function () {
+  return this.inhibits_special_charge;
+};
+Fighter.prototype.get_accelerate_special_charge_flag = function () {
+  return this.accelerates_special_charge;
+};
+Fighter.prototype.get_neutralize_wrathful_staff_flag = function () {
+  return this.neutralizes_wrathful_staff;
+};
+Fighter.prototype.get_neutralize_adaptive_damage_flag = function () {
+  return this.neutralizes_adaptive_damage;
+};
+Fighter.prototype.get_neutralize_counterattack_preventers_flag = function () {
+  return this.neutralizes_counterattack_preventers;
+};
+Fighter.prototype.get_neutralize_follow_up_guarantors_flag = function () {
+  return this.neutralizes_follow_up_guarantors;
+};
+Fighter.prototype.get_neutralize_follow_up_inhibitors_flag = function () {
+  return this.neutralizes_follow_up_inhibitors;
+};
+Fighter.prototype.get_neutralize_special_charge_accelerators_flag = function () {
+  return this.neutralizes_special_charge_accelerators;
+};
+Fighter.prototype.get_neutralize_special_charge_inhibitors_flag = function () {
+  return this.neutralizes_special_charge_inhibitors;
+};
+Fighter.prototype.get_neutralize_weapon_effective_flag = function () {
+  return this.neutralizes_weapon_effective;
+};
+Fighter.prototype.get_neutralize_movement_effective_flag = function () {
+  return this.neutralizes_movement_effective;
+};
+Fighter.prototype.get_neutralize_triangle_amplifier_flag = function () {
+  return this.neutralizes_triangle_amplifier;
+};
+Fighter.prototype.get_neutralize_scaled_mitigation_flag = function () {
+  return this.neutralizes_scaled_mitigation;
+};
+Fighter.prototype.get_reverse_triangle_amplifier_flag = function () {
+  return this.reverses_triangle_amplifier;
+};
+Fighter.prototype.get_eff_damage_flag = function () {
+  return this.deals_effective_damage;
+};
+Fighter.prototype.get_counterattack_flag = function () {
+  return this.can_counterattack;
+};
+Fighter.prototype.get_follow_up_flag = function () {
+  return this.can_follow_up;
+};
+Fighter.prototype.get_special_activating_flag = function () {
+  return this.special_activating;
+};
 
-  if (this.b_skill.spec_bonus_heal > 0 && this.special.activates_on_hit) {
-    to_return += this.b_skill.spec_bonus_heal;
-  }
-
-  return to_return;
-};
-Fighter.prototype.get_atk_mult_proc = function() {
-  return this.special.atk_mult_proc;
-};
-Fighter.prototype.get_one_rng_reduce_proc = function() {
-  return this.special.one_rng_reduce_proc;
-};
-Fighter.prototype.get_two_rng_reduce_proc = function() {
-  return this.special.two_rng_reduce_proc;
-};
-Fighter.prototype.get_miracle_proc = function() {
-  return this.special.miracle_proc;
-};
-Fighter.prototype.get_mitig_to_dmg_proc = function () {
-  return this.special.mitig_to_dmg_proc;
-};
-Fighter.prototype.get_any_range_counter = function() {
-  return Math.max(this.weapon.any_range_counter, this.a_skill.any_range_counter);
-};
-Fighter.prototype.get_weap = function() {
-  return this.weap;
-};
-Fighter.prototype.get_brave = function() {
-  return this.weapon.brave;
-};
-Fighter.prototype.get_brave_def = function () {
-  return this.weapon.brave_def;
-};
-Fighter.prototype.get_heal_on_hit = function() {
-  return this.weapon.heal_on_hit;
-};
-Fighter.prototype.get_burn = function() {
-  return this.a_skill.burn + this.weapon.burn;
-};
-Fighter.prototype.get_defiant_atk = function() {
-  return Math.max(this.weapon.defiant_atk, this.a_skill.defiant_atk);
-};
-Fighter.prototype.get_defiant_spd = function() {
-  return this.a_skill.defiant_spd;
-};
-Fighter.prototype.get_defiant_def = function() {
-  return this.a_skill.defiant_def;
-};
-Fighter.prototype.get_defiant_res = function() {
-  return this.a_skill.defiant_res;
-};
-Fighter.prototype.get_weap_name = function() {
-  return this.weapon.name;
-};
-Fighter.prototype.get_blade = function() {
-  return this.weapon.blade;
-};
-Fighter.prototype.get_hit_1rng_weaker_def_stat = function () {
-  return this.weapon.hit_1rng_weaker_def_stat;
-};
-Fighter.prototype.get_hit_2rng_weaker_def_stat = function () {
-  return this.weapon.hit_2rng_weaker_def_stat;
-};
-Fighter.prototype.get_buffs_reversed = function() {
-  return this.buffs_reversed;
-};
-Fighter.prototype.get_buff_reverse_on_hit = function() {
-  return this.weapon.buff_reverse_on_hit;
-};
-Fighter.prototype.get_skill_dmg_bonus = function() {
-  var dmg = this.weapon.skill_dmg_bonus;
-  if (dmg > 0) {
-    combat_log += this.name + "'s " + this.weapon.name + " adds +" + dmg + " damage to his/her attack.<br>";
-  }
-  if (this.b_skill.skill_dmg_bonus > 0) {
-    dmg += this.b_skill.skill_dmg_bonus;
-    combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.skill_dmg_bonus + " damage to his/her attack.<br>";
-  }
-  if (this.b_skill.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.b_skill.wrath_threshold && this.special.activates_on_hit) {
-    dmg += this.b_skill.wrath_skill_dmg_bonus;
-    combat_log += this.name + "'s " + this.b_skill.name + " adds +" + this.b_skill.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
-  }
-  if (this.weapon.wrath_skill_dmg_bonus > 0 && (this.hp/this.hp_max) <= this.weapon.wrath_threshold && this.special.activates_on_hit) {
-    dmg += this.weapon.wrath_skill_dmg_bonus;
-    combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.wrath_skill_dmg_bonus + " damage to his/her attack.<br>";
-  }
-  return dmg;
-};
-Fighter.prototype.get_light_brand_dmg_bonus = function (enemy, attacker_active) {
-  if (this.weapon.light_brand_bonus > 0 && (enemy.calculate_def(!attacker_active, this, true) >= (enemy.calculate_res(!attacker_active, this, true) + 5))) {
-    combat_log += this.name + "'s " + this.weapon.name + " adds +" + this.weapon.light_brand_bonus + " damage to his/her attack.<br>";
-    return this.weapon.light_brand_bonus;
-  }
-  return 0;
-};
-Fighter.prototype.get_excess_spd_to_dmg = function (enemy, attacker_active) {
-  var own_spd = this.calculate_spd(attacker_active, enemy, true) + this.get_skl_compare_spd_boost();
-  var enemy_spd = enemy.calculate_spd(!attacker_active, this, true) + enemy.get_skl_compare_spd_boost();
-  bonus_dmg = 0;
-  if (this.weapon.excess_spd_to_dmg > 0 && own_spd > enemy_spd) {
-    bonus_dmg = Math.min(7, Math.floor((own_spd - enemy_spd) * .7));
-  }
-  if (bonus_dmg > 0) {
-    combat_log += this.name + "'s " + this.weapon.name + " adds +" + bonus_dmg + " damage to his/her attack.<br>";
-  }
-  return bonus_dmg;
-};
-Fighter.prototype.get_heal_after_attack = function() {
-  return this.weapon.heal_after_attack;
-};
-// Checks to see if the unit negates the enemy's counterattack.
-Fighter.prototype.negates_counter = function (enemy) {
-  var weap_type_negate = "", mov_type_negate = "";
-  switch (enemy.get_weap()) {
-    case "S":
-      weap_type_negate = this.get_negate_srd_counter();
-      break;
-    case "L":
-      weap_type_negate = this.get_negate_lnc_counter();
-      break;
-    case "A":
-      weap_type_negate = this.get_negate_axe_counter();
-      break;
-    case "RT":
-      weap_type_negate = this.get_negate_rt_counter();
-      break;
-    case "BT":
-      weap_type_negate = this.get_negate_bt_counter();
-      break;
-    case "GT":
-      weap_type_negate = this.get_negate_gt_counter();
-      break;
-    case "RB":
-      weap_type_negate = this.get_negate_rbow_counter();
-      break;
-    case "BB":
-      weap_type_negate = this.get_negate_bbow_counter();
-      break;
-    case "GB":
-      weap_type_negate = this.get_negate_gbow_counter();
-      break;
-    case "NB":
-      weap_type_negate = this.get_negate_nbow_counter();
-      break;
-    case "RK":
-      weap_type_negate = this.get_negate_r_dgr_counter();
-      break;
-    case "BK":
-      weap_type_negate = this.get_negate_b_dgr_counter();
-      break;
-    case "GK":
-      weap_type_negate = this.get_negate_g_dgr_counter();
-      break;
-    case "NK":
-      weap_type_negate = this.get_negate_n_dgr_counter();
-      break;
-    case "ST":
-      weap_type_negate = this.get_negate_stf_counter();
-      break;
-    case "RD":
-      weap_type_negate = this.get_negate_rbrth_counter();
-      break;
-    case "BD":
-      weap_type_negate = this.get_negate_bbrth_counter();
-      break;
-    case "GD":
-      weap_type_negate = this.get_negate_gbrth_counter();
-      break;
-    default:
-      weap_type_negate = this.get_negate_nbrth_counter();
-  }
-
-  switch (enemy.get_type()) {
-    case "A":
-      mov_type_negate = this.get_negate_arm_counter();
-      break;
-    case "C":
-      mov_type_negate = this.get_negate_cav_counter();
-      break;
-    case "I":
-      mov_type_negate = this.get_negate_inf_counter();
-      break;
-    case "F":
-      mov_type_negate = this.get_negate_fly_counter();
-      break;
-  }
-
-  if (weap_type_negate != "") {
-    return weap_type_negate;
-  }
-  if (mov_type_negate != "") {
-    return mov_type_negate;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_self_counter = function() {
-  if (this.weapon.negate_self_counter) {
-    return this.weapon.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_srd_counter = function () {
-  if (this.weapon.negate_srd_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_srd_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_lnc_counter = function () {
-  if (this.weapon.negate_lnc_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_lnc_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_axe_counter = function () {
-  if (this.weapon.negate_axe_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_axe_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_rt_counter = function () {
-  if (this.weapon.negate_rt_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_rt_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_bt_counter = function () {
-  if (this.weapon.negate_bt_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_bt_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_gt_counter = function () {
-  if (this.weapon.negate_gt_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_gt_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_rbow_counter = function () {
-  if (this.weapon.negate_rbow_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_rbow_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_bbow_counter = function () {
-  if (this.weapon.negate_bbow_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_bbow_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_gbow_counter = function () {
-  if (this.weapon.negate_gbow_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_gbow_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_nbow_counter = function () {
-  if (this.weapon.negate_nbow_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_nbow_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_r_dgr_counter = function () {
-  if (this.weapon.negate_r_dgr_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_r_dgr_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_b_dgr_counter = function () {
-  if (this.weapon.negate_b_dgr_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_b_dgr_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_g_dgr_counter = function () {
-  if (this.weapon.negate_g_dgr_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_g_dgr_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_n_dgr_counter = function () {
-  if (this.weapon.negate_n_dgr_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_n_dgr_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_stf_counter = function () {
-  if (this.weapon.negate_stf_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_stf_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_rbrth_counter = function () {
-  if (this.weapon.negate_rbrth_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_rbrth_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_bbrth_counter = function () {
-  if (this.weapon.negate_bbrth_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_bbrth_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_gbrth_counter = function () {
-  if (this.weapon.negate_gbrth_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_gbrth_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_nbrth_counter = function () {
-  if (this.weapon.negate_nbrth_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_nbrth_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_inf_counter = function () {
-  if (this.weapon.negate_inf_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_inf_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_fly_counter = function () {
-  if (this.weapon.negate_fly_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_fly_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_cav_counter = function () {
-  if (this.weapon.negate_cav_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_cav_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_negate_arm_counter = function () {
-  if (this.weapon.negate_arm_counter) {
-    return this.weapon.name;
-  }
-  if (this.b_skill.negate_arm_counter) {
-    return this.b_skill.name;
-  }
-  return "";
-};
-Fighter.prototype.get_windsweep_threshold = function() {
-  return this.b_skill.windsweep_threshold;
-};
-Fighter.prototype.get_windsweep_source = function () {
-  return this.b_skill.name;
-};
-Fighter.prototype.get_watersweep_threshold = function () {
-  return this.b_skill.watersweep_threshold;
-};
-Fighter.prototype.get_watersweep_source = function () {
-  return this.b_skill.name;
-};
-Fighter.prototype.get_guard_threshold = function () {
-  return this.b_skill.guard_threshold;
-};
-Fighter.prototype.get_assumed_atk_boost = function () {
-  return this.assumed_atk_boost;
-};
-Fighter.prototype.get_assumed_spd_boost = function () {
-  return this.assumed_spd_boost;
-};
-Fighter.prototype.get_assumed_def_boost = function() {
-  return this.assumed_def_boost;
-};
-Fighter.prototype.get_assumed_res_boost = function() {
-  return this.assumed_res_boost;
-};
-Fighter.prototype.get_dmg_dealt = function () {
-  return this.damage_dealt;
-};
-// Gets the applicable cd bonus from Heavy Blade & similar effets.
-Fighter.prototype.get_atk_bonus_cd = function (enemy, attacker_flag, is_attacking) {
-  var bonus_cd = 0;
-  if (!is_attacking) {
-    return bonus_cd;
-  }
-  // Evaluate whether the A Passive 1) exists and 2) applies. If so, set bonus_cd to the
-  // A Passive's bonus_cd_amt value.
-  if (this.a_skill.atk_bonus_cd_thresh > 0 && ((this.calculate_atk(attacker_flag, enemy, true) - enemy.calculate_atk(!attacker_flag, this, true)) >= this.a_skill.atk_bonus_cd_thresh)) {
-    bonus_cd = this.a_skill.bonus_cd_amt;
-  }
-
-  // Evaluate whether the Weapon Heavy Blade effect 1) exists and 2) applies. If so, set
-  // bonus_cd to the max of the current value and the weapon's bonus_cd_amt value.
-  if (this.weapon.atk_bonus_cd_thresh > 0 && ((this.calculate_atk(attacker_flag, enemy, true) - enemy.calculate_atk(!attacker_flag, this, true)) >= this.weapon.atk_bonus_cd_thresh)) {
-    bonus_cd = Math.max(bonus_cd, this.weapon.bonus_cd_amt);
-  }
-
-  // Evaluate whether the Seal Heavy Blade effect 1) exists and 2) applies. If so, set
-  // bonus_cd to the max of the current value and the weapon's bonus_cd_amt value.
-  if (this.seal.atk_bonus_cd_thresh > 0 && ((this.calculate_atk(attacker_flag, enemy, true) - enemy.calculate_atk(!attacker_flag, this, true)) >= this.seal.atk_bonus_cd_thresh)) {
-    bonus_cd = Math.max(bonus_cd, this.seal.bonus_cd_amt);
-  }
-
-  return bonus_cd;
-};
-// Gets the applicable cd bonus from Ayra's Blade & similar effects.
-Fighter.prototype.get_spd_bonus_cd = function (enemy, attacker_flag, is_attacking) {
-  var bonus_cd = 0;
-  if (!is_attacking) {
-    return bonus_cd;
-  }
-  // Evaluate whether the Weapon "Flashing Blade" effect 1) exists and 2) applies. If so,
-  // set the bonus_cd to the weapon's bonus_cd_amt value.
-  if (this.weapon.spd_bonus_cd_thresh > 0 && ((this.calculate_spd(attacker_flag, enemy, true) - enemy.calculate_spd(!attacker_flag, this, true) + this.get_skl_compare_spd_boost()) >= this.weapon.spd_bonus_cd_thresh)) {
-    bonus_cd = this.weapon.bonus_cd_amt;
-  }
-  if (this.a_skill.spd_bonus_cd_thresh > 0 && ((this.calculate_spd(attacker_flag, enemy, true) - enemy.calculate_spd(!attacker_flag, this, true) + this.get_skl_compare_spd_boost()) >= this.a_skill.spd_bonus_cd_thresh)) {
-    bonus_cd = Math.max(bonus_cd, this.a_skill.bonus_cd_amt);
-  }
-  if (this.seal.spd_bonus_cd_thresh > 0 && ((this.calculate_spd(attacker_flag, enemy, true) - enemy.calculate_spd(!attacker_flag, this, true) + this.get_skl_compare_spd_boost()) >= this.seal.spd_bonus_cd_thresh)) {
-    bonus_cd = Math.max(bonus_cd, this.seal.bonus_cd_amt);
-  }
-  return bonus_cd;
-};
-Fighter.prototype.get_attacking_bonus_cd = function (attacker_flag, is_attacking) {
-  var bonus_cd = 0;
-
-  if (this.b_skill.cd_charge_off > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_off_thresh && attacker_flag) {
-    bonus_cd = this.b_skill.cd_charge_off;
-  }
-
-  if (this.b_skill.cd_charge_off_per_atk > 0 && attacker_flag && is_attacking) {
-    bonus_cd = Math.max(bonus_cd, this.b_skill.cd_charge_off_per_atk);
-  }
-
-  return bonus_cd;
-};
-Fighter.prototype.get_defending_bonus_cd = function (attacker_flag, is_attacking) {
-  var bonus_cd = 0;
-
-  if (this.weapon.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.weapon.cd_charge_def_thresh && !attacker_flag) {
-    bonus_cd = this.weapon.cd_charge_def;
-  }
-  if (this.a_skill.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.a_skill.cd_charge_def_thresh && !attacker_flag) {
-    bonus_cd = Math.max(bonus_cd, this.a_skill.cd_charge_def);
-  }
-  if (this.b_skill.cd_charge_def > 0 && (this.start_HP / this.hp_max) >= this.b_skill.cd_charge_def_thresh && !attacker_flag) {
-    bonus_cd = this.b_skill.cd_charge_def;
-  }
-
-  if (this.b_skill.cd_charge_def_per_atk > 0 && !attacker_flag && is_attacking) {
-    bonus_cd = Math.max(bonus_cd, this.b_skill.cd_charge_def_per_atk);
-  }
-  return bonus_cd;
-};
-Fighter.prototype.get_special_bonus_cd = function (enemy) {
-  var bonus_cd = 0;
-
-  if (this.weapon.felicias_plate_cd_bonus > 0 && (enemy.get_weap() == "RT" || enemy.get_weap() == "BT" || enemy.get_weap() == "GT")) {
-    bonus_cd += this.weapon.felicias_plate_cd_bonus;
-  }
-
-  return bonus_cd;
-};
-Fighter.prototype.get_bonus_cd_amt = function (skill) {
-  return skill.bonus_cd_amt;
-};
-Fighter.prototype.get_cd_charge_def_per_atk = function () {
-  var charge = 0;
-
-  if (this.b_skill.cd_charge_def_per_atk > 0 && (this.start_HP / this.hp_max >= this.get_cd_charge_hp_thresh(this.b_skill))) {
-    charge = this.b_skill.cd_charge_def_per_atk;
-  }
-
-  return charge;
-};
-Fighter.prototype.get_cd_charge_hp_thresh = function (skill) {
-  return skill.cd_charge_hp_thresh;
-};
-Fighter.prototype.get_cond_bonus_cd = function (is_attacking) {
-  if (this.conditional_effects && is_attacking) {
-    return this.weapon.cond_bonus_cd_per_atk;
-  }
-
-  return 0;
-};
-Fighter.prototype.get_atk_boost_full_hp = function () {
-  return this.weapon.atk_boost_full_hp + this.a_skill.atk_boost_full_hp;
-};
-Fighter.prototype.get_spd_boost_full_hp = function () {
-  return this.weapon.spd_boost_full_hp + this.a_skill.spd_boost_full_hp;
-};
-Fighter.prototype.get_def_boost_full_hp = function () {
-  return this.weapon.def_boost_full_hp + this.a_skill.def_boost_full_hp;
-};
-Fighter.prototype.get_res_boost_full_hp = function () {
-  return this.weapon.res_boost_full_hp + this.a_skill.res_boost_full_hp;
-};
-Fighter.prototype.get_burn_full_hp = function () {
-  return this.weapon.burn_full_hp;
-};
-Fighter.prototype.get_atk_boost_damaged = function () {
-  return this.weapon.atk_boost_damaged;
-};
-Fighter.prototype.get_spd_boost_damaged = function () {
-  return this.weapon.spd_boost_damaged;
-};
-Fighter.prototype.get_def_boost_damaged = function () {
-  return this.weapon.def_boost_damaged;
-};
-Fighter.prototype.get_res_boost_damaged = function () {
-  return this.weapon.res_boost_damaged;
-};
-Fighter.prototype.get_distant_atk_off_bonus = function () {
-  return this.weapon.distant_atk_off_bonus;
-};
-Fighter.prototype.get_distant_spd_off_bonus = function () {
-  return this.weapon.distant_spd_off_bonus;
-};
-Fighter.prototype.get_distant_def_off_bonus = function () {
-  return this.weapon.distant_def_off_bonus;
-};
-Fighter.prototype.get_distant_res_off_bonus = function () {
-  return this.weapon.distant_res_off_bonus;
-};
-Fighter.prototype.get_distant_atk_def_bonus = function () {
-  return this.weapon.distant_atk_def_bonus;
-};
-Fighter.prototype.get_distant_spd_def_bonus = function () {
-  return this.weapon.distant_spd_def_bonus;
-};
-Fighter.prototype.get_distant_def_def_bonus = function () {
-  return this.a_skill.distant_def_def_bonus + this.seal.distant_def_def_bonus + this.weapon.distant_def_def_bonus;
-};
-Fighter.prototype.get_distant_res_def_bonus = function () {
-  return this.a_skill.distant_res_def_bonus + this.seal.distant_res_def_bonus + this.weapon.distant_res_def_bonus;
-};
-Fighter.prototype.get_close_atk_off_bonus = function () {
-  return this.weapon.close_atk_off_bonus;
-};
-Fighter.prototype.get_close_spd_off_bonus = function () {
-  return this.weapon.close_spd_off_bonus;
-};
-Fighter.prototype.get_close_def_off_bonus = function () {
-  return this.weapon.close_def_off_bonus;
-};
-Fighter.prototype.get_close_res_off_bonus = function () {
-  return this.weapon.close_res_off_bonus;
-};
-Fighter.prototype.get_close_atk_def_bonus = function () {
-  return this.weapon.close_atk_def_bonus;
-};
-Fighter.prototype.get_close_spd_def_bonus = function () {
-  return this.weapon.close_spd_def_bonus;
-};
-Fighter.prototype.get_close_def_def_bonus = function () {
-  return this.weapon.close_def_def_bonus + this.a_skill.close_def_def_bonus + this.seal.close_def_def_bonus;
-};
-Fighter.prototype.get_close_res_def_bonus = function () {
-  return this.weapon.close_res_def_bonus + this.a_skill.close_res_def_bonus + this.seal.close_res_def_bonus;
-};
-Fighter.prototype.get_inverse_spur = function () {
-  return this.weapon.inverse_spur;
-};
-Fighter.prototype.get_adj_allies = function () {
-  return this.adj_allies;
-};
-Fighter.prototype.get_two_space_allies = function () {
-  return this.two_space_allies;
-};
-Fighter.prototype.get_atk_bonus_nearby_ally = function () {
-  return this.weapon.atk_bonus_nearby_ally;
-};
-Fighter.prototype.get_spd_bonus_nearby_ally = function () {
-  return this.weapon.spd_bonus_nearby_ally;
-};
-Fighter.prototype.get_def_bonus_nearby_ally = function () {
-  return this.weapon.def_bonus_nearby_ally;
-};
-Fighter.prototype.get_res_bonus_nearby_ally = function () {
-  return this.weapon.res_bonus_nearby_ally;
-};
-Fighter.prototype.get_earth_boost_bonus = function () {
-  return this.a_skill.earth_boost_bonus;
-};
-Fighter.prototype.get_water_boost_bonus = function () {
-  return this.a_skill.water_boost_bonus;
-};
-Fighter.prototype.get_wrathful_staff_threshold = function () {
-  return this.b_skill.wrathful_staff_threshold;
-};
-Fighter.prototype.get_start_HP = function () {
-  return this.start_HP;
-};
-Fighter.prototype.get_atk_boost_enemy_full_hp = function () {
-  return this.weapon.atk_boost_enemy_full_hp;
-};
-Fighter.prototype.get_spd_boost_enemy_full_hp = function () {
-  return this.weapon.spd_boost_enemy_full_hp;
-};
-Fighter.prototype.get_fire_boost_bonus = function () {
-  return this.a_skill.fire_boost_bonus;
-};
-Fighter.prototype.get_wind_boost_bonus = function () {
-  return this.a_skill.wind_boost_bonus;
-};
-Fighter.prototype.get_skl_compare_spd_boost = function() {
-  return this.seal.skl_compare_spd_boost;
-};
-Fighter.prototype.get_skl_compare_spd_boost_source = function () {
-  return this.seal.name;
-};
-Fighter.prototype.get_def_spec_cd_reduce = function () {
-  return this.b_skill.def_spec_cd_reduce;
-};
-Fighter.prototype.get_def_spec_dmg_reduce = function () {
-  return this.b_skill.def_spec_dmg_reduce;
-};
-Fighter.prototype.get_def_spec_dmg_reduce_source = function () {
-  return this.b_skill.name;
-};
-Fighter.prototype.get_self_affinity_cancel = function () {
-  return this.b_skill.self_affinity_cancel;
-};
-Fighter.prototype.get_foe_affinity_cancel = function () {
-  return this.b_skill.foe_affinity_cancel;
-};
-Fighter.prototype.get_disadv_foe_affinity_cancel = function () {
-  return this.b_skill.disadv_foe_affinity_cancel;
-};
-Fighter.prototype.get_disadv_foe_affinity_reverse = function () {
-  return this.b_skill.disadv_foe_affinity_reverse;
-};
-Fighter.prototype.get_def_boost_def_vs_ALS = function () {
-  return this.weapon.def_boost_def_vs_ALS;
-};
-Fighter.prototype.get_consec_hit_mitig = function () {
-  return this.weapon.consec_hit_mitig;
-};
-Fighter.prototype.get_ALS_consec_hit_mitig = function () {
-  return this.seal.ALS_consec_hit_mitig;
-};
-Fighter.prototype.get_tome_consec_hit_mitig = function () {
-  return this.seal.tome_consec_hit_mitig;
-};
-Fighter.prototype.get_missile_consec_hit_mitig = function () {
-  return this.seal.missile_consec_hit_mitig;
-};
-Fighter.prototype.get_distant_consec_hit_mitig = function () {
-  return this.b_skill.distant_consec_hit_mitig;
-};
-Fighter.prototype.get_first_tome_hit_mitig = function () {
-  return this.weapon.first_tome_hit_mitig;
-};
-Fighter.prototype.get_negate_srd_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_srd_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_srd_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_srd_buffs, this.b_skill.negate_srd_buffs);
-};
-Fighter.prototype.get_negate_lnc_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_lnc_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_lnc_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_lnc_buffs, this.b_skill.negate_lnc_buffs);
-};
-Fighter.prototype.get_negate_axe_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_axe_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_axe_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_axe_buffs, this.b_skill.negate_axe_buffs);
-};
-Fighter.prototype.get_negate_rt_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_rt_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_rt_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_rt_buffs, this.b_skill.negate_rt_buffs);
-};
-Fighter.prototype.get_negate_bt_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_bt_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_bt_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_bt_buffs, this.b_skill.negate_bt_buffs);
-};
-Fighter.prototype.get_negate_gt_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_gt_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_gt_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_gt_buffs, this.b_skill.negate_gt_buffs);
-};
-Fighter.prototype.get_negate_rbow_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_rbow_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_rbow_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_bbow_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_bbow_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_bbow_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_gbow_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_gbow_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_gbow_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_nbow_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_nbow_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_nbow_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_r_dgr_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_r_dgr_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_r_dgr_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_b_dgr_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_b_dgr_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_b_dgr_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_g_dgr_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_g_dgr_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_g_dgr_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_n_dgr_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_n_dgr_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_n_dgr_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-};
-Fighter.prototype.get_negate_stf_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_stf_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_stf_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_stf_buffs, this.b_skill.negate_stf_buffs);
-};
-Fighter.prototype.get_negate_rbrth_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_rbrth_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_rbrth_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_rbrth_buffs, this.b_skill.negate_rbrth_buffs);
-};
-Fighter.prototype.get_negate_bbrth_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_bbrth_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_bbrth_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_bbrth_buffs, this.b_skill.negate_bbrth_buffs);
-};
-Fighter.prototype.get_negate_gbrth_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_gbrth_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_gbrth_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_gbrth_buffs, this.b_skill.negate_gbrth_buffs);
-};
-Fighter.prototype.get_negate_nbrth_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_nbrth_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_nbrth_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_nbrth_buffs, this.b_skill.negate_nbrth_buffs);
-};
-Fighter.prototype.get_negate_inf_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_inf_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_inf_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_inf_buffs, this.b_skill.negate_inf_buffs);
-};
-Fighter.prototype.get_negate_fly_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_fly_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_fly_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_fly_buffs, this.b_skill.negate_fly_buffs);
-};
-Fighter.prototype.get_negate_cav_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_cav_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_cav_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_cav_buffs, this.b_skill.negate_cav_buffs);
-};
-Fighter.prototype.get_negate_arm_buffs = function () {
-  var source = "";
-  if (this.weapon.negate_arm_buffs) {
-    source = this.weapon.name;
-  }
-  else if (this.b_skill.negate_arm_buffs) {
-    source = this.b_skill.name;
-  }
-  return source;
-  //return Math.max(this.weapon.negate_arm_buffs, this.b_skill.negate_arm_buffs);
-};
-Fighter.prototype.get_cd_charge_off = function () {
-
-};
-Fighter.prototype.get_cd_charge_def = function () {
-  return Math.max(this.weapon.cd_charge_def, this.a_skill.cd_charge_def, this.b_skill.cd_charge_def);
-};
-Fighter.prototype.get_hardy_bearing_thresh = function () {
-  var thresh = 0;
-  if (this.weapon.hardy_bearing_thresh != 0) {
-    thresh = this.weapon.hardy_bearing_thresh;
-  }
-  if (this.seal.hardy_bearing_thresh != 0) {
-    thresh = this.seal.hardy_bearing_thresh;
-  }
-  return thresh;
-};
-Fighter.prototype.get_wrath_threshold = function () {
-  return this.b_skill.wrath_threshold;
-};
-Fighter.prototype.get_atk_bond = function () {
-  return this.a_skill.atk_bond + this.weapon.atk_bond;
-};
-Fighter.prototype.get_spd_bond = function () {
-  return this.a_skill.spd_bond + this.weapon.spd_bond;
-};
-Fighter.prototype.get_def_bond = function () {
-  return this.a_skill.def_bond + this.weapon.def_bond;
-};
-Fighter.prototype.get_res_bond = function () {
-  return this.a_skill.res_bond + this.weapon.res_bond;
-};
-Fighter.prototype.get_brazen_atk_boost = function () {
-  return this.weapon.brazen_atk_boost + this.a_skill.brazen_atk_boost;
-};
-Fighter.prototype.get_brazen_spd_boost = function () {
-  return this.weapon.brazen_spd_boost + this.a_skill.brazen_spd_boost;
-};
-Fighter.prototype.get_brazen_def_boost = function () {
-  return this.weapon.brazen_def_boost + this.a_skill.brazen_def_boost;
-};
-Fighter.prototype.get_brazen_res_boost = function () {
-  return this.weapon.brazen_res_boost + this.a_skill.brazen_res_boost;
-};
-Fighter.prototype.get_cond_atk_off_bonus = function () {
-  return this.weapon.cond_atk_off_bonus + this.a_skill.cond_atk_off_bonus;
-};
-Fighter.prototype.get_cond_spd_off_bonus = function () {
-  return this.weapon.cond_spd_off_bonus + this.a_skill.cond_spd_off_bonus;
-};
-Fighter.prototype.get_cond_def_off_bonus = function () {
-  return this.weapon.cond_def_off_bonus + this.a_skill.cond_def_off_bonus;
-};
-Fighter.prototype.get_cond_res_off_bonus = function () {
-  return this.weapon.cond_res_off_bonus + this.a_skill.cond_res_off_bonus;
-};
-Fighter.prototype.get_cond_atk_def_bonus = function () {
-  return this.weapon.cond_atk_def_bonus + this.a_skill.cond_atk_def_bonus;
-};
-Fighter.prototype.get_cond_spd_def_bonus = function () {
-  return this.weapon.cond_spd_def_bonus + this.a_skill.cond_spd_def_bonus;
-};
-Fighter.prototype.get_cond_def_def_bonus = function () {
-  return this.weapon.cond_def_def_bonus + this.a_skill.cond_def_def_bonus;
-};
-Fighter.prototype.get_cond_res_def_bonus = function () {
-  return this.weapon.cond_res_def_bonus + this.a_skill.cond_res_def_bonus;
-};
-Fighter.prototype.get_thani_mitigation = function () {
-  return this.weapon.thani_mitigation;
-};
-Fighter.prototype.get_cd_reduce = function () {
-  return this.seal.cd_reduce + this.b_skill.cd_reduce;
-};
-Fighter.prototype.apply_ploys = function (enemy) {
-  var res = this.get_perm_res() + this.res_buff - this.res_debuff;
-  var enemy_res = enemy.get_perm_res();
-
-  if (res < enemy_res) {
-    this.set_assumed_atk_debuff(enemy.get_atk_ploy());
-    this.set_assumed_spd_debuff(enemy.get_spd_ploy());
-    this.set_assumed_def_debuff(enemy.get_def_ploy());
-    this.set_assumed_res_debuff(enemy.get_res_ploy());
-
-    return true;
-  }
-  return false;
-};
-Fighter.prototype.get_atk_ploy = function () {
-  return Math.max(this.weapon.atk_ploy, this.c_skill.atk_ploy, this.seal.atk_ploy);
-};
-Fighter.prototype.get_spd_ploy = function () {
-  return Math.max(this.weapon.spd_ploy, this.c_skill.spd_ploy, this.seal.spd_ploy);
-};
-Fighter.prototype.get_def_ploy = function () {
-  return Math.max(this.weapon.def_ploy, this.c_skill.def_ploy, this.seal.def_ploy);
-};
-Fighter.prototype.get_res_ploy = function () {
-  return Math.max(this.weapon.res_ploy, this.c_skill.res_ploy, this.seal.res_ploy);
-};
-Fighter.prototype.get_brave_source = function (is_active) {
-  if (is_active) {
-    if (this.weapon.brave || this.weapon.double_lion) {
-      return this.weapon.name;
-    }
-    if (this.b_skill.double_lion) {
-      return this.b_skill.name;
-    }
-  }
-  else {
-    if (this.weapon.brave_def) {
-      return this.weapon.name;
-    }
-  }
-};
-/*Fighter.prototype.get_effect_source = function () {
-  return this.effect_source;
-};*/
 // Set methods
-Fighter.prototype.set_start_HP = function (val) {
-  this.start_HP = val;
-};
+
 Fighter.prototype.set_assumed_atk_buff = function (val) {
   if (val == "") {
     val = 0;
@@ -3491,64 +2220,294 @@ Fighter.prototype.set_assumed_res_boost = function (val) {
   }
   this.assumed_res_boost = val;
 };
-Fighter.prototype.set_assumed_atk_debuff = function (val) {
+Fighter.prototype.set_assumed_atk_penalty = function (val) {
   if (val == "") {
     val = 0;
   }
   else {
     val = parseInt(val);
   }
-  this.assumed_atk_debuff = val;
-  this.atk_debuff = val;
+  this.assumed_atk_penalty = val;
+  this.atk_penalty = val;
 };
-Fighter.prototype.set_assumed_spd_debuff = function (val) {
+Fighter.prototype.set_assumed_spd_penalty = function (val) {
   if (val == "") {
     val = 0;
   }
   else {
     val = parseInt(val);
   }
-  this.assumed_spd_debuff = val;
-  this.spd_debuff = val;
+  this.assumed_spd_penalty = val;
+  this.spd_penalty = val;
 };
-Fighter.prototype.set_assumed_def_debuff = function (val) {
+Fighter.prototype.set_assumed_def_penalty = function (val) {
   if (val == "") {
     val = 0;
   }
   else {
     val = parseInt(val);
   }
-  this.assumed_def_debuff = val;
-  this.def_debuff = val;
+  this.assumed_def_penalty = val;
+  this.def_penalty = val;
 };
-Fighter.prototype.set_assumed_res_debuff = function (val) {
+Fighter.prototype.set_assumed_res_penalty = function (val) {
   if (val == "") {
     val = 0;
   }
   else {
     val = parseInt(val);
   }
-  this.assumed_res_debuff = val;
+  this.assumed_res_penalty = val;
   this.res_debuff = val;
 };
-Fighter.prototype.set_adj_allies = function (val) {
-  if (val == "") {
-    val = 0;
+Fighter.prototype.set_start_hp = function (val) {
+  this.start_hp = val;
+};
+Fighter.prototype.set_damage = function (value) {
+  this.damage = value;
+};
+Fighter.prototype.set_initiating_flag = function (value) {
+  this.initiating = value;
+};
+Fighter.prototype.set_attacking_flag = function (value) {
+  this.attacking = value;
+};
+Fighter.prototype.set_first_hit_flag = function (value) {
+  this.first_hit = value;
+};
+Fighter.prototype.set_hitting_consecutively_flag = function (value) {
+  this.hitting_consecutively = value;
+};
+Fighter.prototype.set_special_activating_flag = function (value) {
+  this.special_activating = value;
+};
+Fighter.prototype.set_control_flag = function (value) {
+  this.control = value;
+};
+Fighter.prototype.set_targeting_flag = function (e_def, e_res) {
+  if (this.deals_adaptive_damage) {
+    if (e_def < e_res)
+      this.targeting = "def";
+    else
+      this.targeting = "res";
   }
   else {
-    val = parseInt(val);
+    if (physical_weapons.includes(this.weapon_type))
+      this.targeting = "def";
+    else {
+      this.targeting = "res";
+    }
   }
-  this.adj_allies = val;
 };
-Fighter.prototype.set_two_space_allies = function (val) {
-  if (val == "") {
-    val = 0;
-  }
-  else {
-    val = parseInt(val);
-  }
-  this.two_space_allies = val;
+Fighter.prototype.set_adaptive_damage_flag = function (value) {
+  this.deals_adaptive_damage = value;
 };
-Fighter.prototype.set_next_atk_bonus_dmg = function (val) {
-  this.next_atk_bonus_dmg = val;
+Fighter.prototype.set_strike_twice_flag = function (value) {
+  this.strikes_twice = value;
+};
+Fighter.prototype.set_counterattack_flag = function (value) {
+  this.can_counterattack = value;
+};
+Fighter.prototype.set_follow_up_flag = function (value) {
+  this.can_follow_up = value;
+};
+Fighter.prototype.set_desperation_flag = function (value) {
+  this.desperation_active = value;
+};
+Fighter.prototype.set_vantage_flag = function (value) {
+  this.vantage_active = value;
+};
+Fighter.prototype.set_triangle_status = function (value) {
+  this.triangle_status = value;
+};
+Fighter.prototype.set_colorless_wta_flag = function (value) {
+  this.has_colorless_wta = value;
+};
+Fighter.prototype.set_wrathful_staff_active_flag = function (value) {
+  this.wrathful_staff_active = value;
+};
+Fighter.prototype.set_triangle_amplifier_flag = function (value) {
+  this.has_triangle_amplifier = value
+};
+Fighter.prototype.set_mitigation_mirror_flag = function (value) {
+  this.mitigation_mirror_active = value;
+};
+Fighter.prototype.set_inhibit_special_charge_flag = function (value) {
+  this.inhibits_special_charge = value;
+};
+Fighter.prototype.set_accelerate_special_charge_flag = function () {
+  this.accelerates_special_charge = value;
+};
+Fighter.prototype.set_neutralize_wrathful_staff_flag = function (value) {
+  this.neutralizes_wrathful_staff = value;
+};
+Fighter.prototype.set_neutralize_adaptive_damage_flag = function (value) {
+  this.neutralizes_adaptive_damage = value;
+};
+Fighter.prototype.set_neutralize_counterattack_preventers_flag = function (value) {
+  this.neutralizes_counterattack_preventers = value;
+};
+Fighter.prototype.set_neutralize_follow_up_guarantors_flag = function (value) {
+  this.neutralizes_follow_up_guarantors = value;
+};
+Fighter.prototype.set_neutralize_follow_up_inhibitors_flag = function (value) {
+  this.neutralizes_follow_up_inhibitors = value;
+};
+Fighter.prototype.set_neutralize_special_charge_accelerators_flag = function (value) {
+  this.neutralizes_special_charge_accelerators = value;
+};
+Fighter.prototype.set_neutralize_special_charge_inhibitors_flag = function (value) {
+  this.neutralizes_special_charge_inhibitors = value;
+};
+Fighter.prototype.set_neutralize_weapon_effective_flag = function (value) {
+  this.neutralizes_weapon_effective = value
+};
+Fighter.prototype.set_neutralize_movement_effective_flag = function (value) {
+  this.neutralizes_movement_effective = value;
+};
+Fighter.prototype.set_neutralize_triangle_amplifier_flag = function (value) {
+  this.neutralizes_triangle_amplifier = value;
+};
+Fighter.prototype.set_reverse_triangle_amplifier_flag = function (value) {
+  this.reverses_triangle_amplifier = value;
+};
+Fighter.prototype.set_eff_damage_flag = function (value) {
+  this.deals_effective_damage = value
+};
+Fighter.prototype.set_neutralize_bonus_flags = function (effect_string) {
+  var reader = "";
+
+  // The string of actual buffs to be negated starts at string index 19.
+  // The first characters are "neutralize_bonuses(".
+  for (var i = 19; i < effect_string.length; i++) {
+    if (effect_string[i] == "," || i == effect_string.length - 1) {
+      switch (reader) {
+        case "e_atk_buff":
+          this.atk_buff_neutralized = true;
+          break;
+        case "e_spd_buff":
+          this.spd_buff_neutralized = true;
+          break;
+        case "e_def_buff":
+          this.def_buff_neutralized = true;
+          break;
+        case "e_res_buff":
+          this.res_buff_neutralized = true;
+          break;
+        default:
+          console.log("Invalid buff name " + reader + " was encountered while setting bonus neutralization flags");
+      }
+      reader = "";
+    }
+    else
+      reader += effect_string[i];
+  }
+};
+Fighter.prototype.set_neutralize_penalty_flags = function (effect_string) {
+  var reader = "";
+
+  // The first 21 characters of effect_string are "neutralize_penalties(".
+  for (var i = 21; i < effect_string.length; i++) {
+    if (effect_string[i] == "," || i == effect_string.length - 1) {
+      switch(reader) {
+        case "atk_penalty":
+          this.atk_penalty_neutralized = true;
+          break;
+        case "spd_penalty":
+          this.spd_penalty_neutralized = true;
+          break;
+        case "def_penalty":
+          this.def_penalty_neutralized = true;
+          break;
+        case "res_penalty":
+          this.res_penalty_neutralized = true;
+          break;
+        default:
+          console.log("Invalid penalty name " + reader + " was encountered while setting penalty neutralization flags.");
+      }
+      reader = "";
+    }
+    else
+      reader += effect_string[i];
+  }
+};
+Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
+  var reader = "";
+
+  // The first 18 characters of effect_string are "nullify_penalties("
+  for (var i = 18; i < effect_string.length; i++) {
+    if (effect_string[i] == "," || i == effect_string.length - 1) {
+      switch(reader) {
+        case "atk_penalty":
+          this.atk_penalty = 0;
+          break;
+        case "spd_penalty":
+          this.spd_penalty = 0;
+          break;
+        case "def_penalty":
+          this.def_penalty = 0;
+          break;
+        case "res_penalty":
+          this.res_penalty = 0;
+          break;
+        default:
+          console.log("Invalid penalty name " + reader + " was encountered while setting penalty nullification flags.");
+      }
+      reader = "";
+    }
+    else
+      reader += effect_string[i];
+  }
+};
+Fighter.prototype.set_skill_inputs = function (mode, boolean_input, number_input) {
+  switch (mode) {
+    case "weapon":
+      this.weap_user_boolean_input = boolean_input;
+      this.weap_user_number_input = number_input;
+      break;
+    case "special":
+      this.spec_user_boolean_input = boolean_input;
+      this.spec_user_number_input = number_input;
+      break;
+    case "A":
+      this.a_user_boolean_input = boolean_input;
+      this.a_user_number_input = number_input;
+      break;
+    case "B":
+      this.b_user_boolean_input = boolean_input;
+      this.b_user_number_input = number_input;
+      break;
+    case "C":
+      this.c_user_boolean_input = boolean_input;
+      this.c_user_number_input = number_input;
+      break;
+    case "S":
+      this.seal_user_boolean_input = boolean_input;
+      this.seal_user_number_input = number_input;
+      break;
+  }
+};
+Fighter.prototype.set_neutralize_scaled_mitigation_flag = function (value) {
+  this.neutralizes_scaled_mitigation = value;
+};
+Fighter.prototype.set_next_atk_bonus_dmg = function (value) {
+  this.next_atk_bonus_dmg = value;
+};
+
+// ALL CODE BEYOND THIS POINT MAY NOT BE NEEDED
+
+// Resets debuffs to the assumed values (set by user).
+Fighter.prototype.reset_debuffs = function() {
+  this.atk_penalty = this.assumed_atk_penalty;
+  this.spd_penalty = this.assumed_spd_penalty;
+  this.def_penalty = this.assumed_def_penalty;
+  this.res_penalty = this.assumed_res_penalty;
+  this.panic_active = false;
+};
+// Resets buffs to the assumed values (set by user).
+Fighter.prototype.reset_buffs = function() {
+  this.atk_buff = this.assumed_atk_buff;
+  this.spd_buff = this.assumed_spd_buff;
+  this.def_buff = this.assumed_def_buff;
+  this.res_buff = this.assumed_res_buff;
 };

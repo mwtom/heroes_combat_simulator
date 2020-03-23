@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="sim_style.css">
+<title></title>
+</head>
+<body>
+<script src="FE Heroes - Raw Data 2.0.js"></script>
+<script src="fighter_single_round.js"></script>
+<script src="mechanics_single_round.js"></script>
+<script src="ui.js"></script>
+<script src="data.js"></script>
+<script src="effect.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+  $(document).ready(function() {
+    load_data();
+    var blessings = new Array(3);
+    blessings[0] = Blessings[0];
+    blessings[1] = Blessings[0];
+    blessings[2] = Blessings[2];
+    var Attacker = new Fighter(Characters[0],
+                              "None",
+                              "None",
+                              Weapons[134],
+                              A_Passives[24],
+                              B_Passives[0],
+                              C_Passives[0],
+                              Seals[0],
+                              Procs[0],
+                              false,
+                              0,
+                              true,
+                              blessings);
+    var Defender = new Fighter(Characters[1],
+                              "None",
+                              "None",
+                              Weapons[636],
+                              A_Passives[0],
+                              B_Passives[0],
+                              C_Passives[0],
+                              Seals[0],
+                              Procs[0],
+                              false,
+                              0,
+                              true,
+                              blessings);
+    var output = Attacker.check_conditions(Attacker.atk_boost_effects, Defender, true, true, false, false);
+    document.getElementById("results").innerHTML = output;
+  });
+</script>
+<div id="results">
+</div>
+</body>
+</html>

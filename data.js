@@ -72,4 +72,11 @@ function load_data() {
   }
 }
 
+var physical_weapons = ["S", "L", "A", "RB", "BB", "GB", "NB", "RK", "BK", "GK", "NK", "RBe", "BBe", "GBe", "NBe"];
+var magical_weapons = ["RT", "BT", "GT", "NT", "ST", "RD", "BD", "GD", "ND"];
+var one_range_weapons = ["S", "L", "A", "RD", "BD", "GD", "ND", "RBe", "BBe", "GBe", "NBe"];
+var two_range_weapons = ["RT", "BT", "GT", "NT", "ST", "RB", "BB", "GB", "NB", "RK", "BK", "GK", "NK"];
+var phase = "";
+var in_combat = false;
+
 /* ************************* END OF GLOBAL VARIABLES ************************* */

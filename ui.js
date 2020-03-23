@@ -467,34 +467,99 @@ function deselect_all_mov_types() {
 function check_special_effects() {
   var special_effect_text = "";
   var cond_effect_found = false;
-  var Weapon, A_Skill;
-  if (Weapons[parseInt(document.getElementById("Weapon").value)].cond_effect && parseInt(document.getElementById("WeaponUpgrade").value) == 0) {
-    Weapon = Weapons[parseInt(document.getElementById("Weapon").value)];
-  }
-  else if (Weapons[parseInt(document.getElementById("WeaponUpgrade").value)].cond_effect) {
-    Weapon = Weapons[parseInt(document.getElementById("WeaponUpgrade").value)];
-  }
-  if (typeof(Weapon) != "undefined") {
-    cond_effect_found = true;
-    special_effect_text += "<b>" + Weapon.name + "</b>: " + Weapon.cond_eff_text;
-  }
+  var weap_index, weap_upgr_index, spec_index, a_index, b_index, c_index, seal_index;
+  weap_index = parseInt(document.getElementById("Weapon").value);
+  weap_upgr_index = parseInt(document.getElementById("WeaponUpgrade").value);
+  spec_index = parseInt(document.getElementById("Special").value);
+  a_index = parseInt(document.getElementById("A").value);
+  b_index = parseInt(document.getElementById("B").value);
+  c_index = parseInt(document.getElementById("C").value);
+  seal_index = parseInt(document.getElementById("Seal").value);
 
-  if (A_Passives[parseInt(document.getElementById("A").value)].cond_effect) {
-    A_Skill = A_Passives[parseInt(document.getElementById("A").value)];
-  }
-  if (typeof(A_Skill) != "undefined") {
-    if (cond_effect_found) {
-      special_effect_text += "<br />";
-    }
-    cond_effect_found = true;
-    special_effect_text += "<b>" + A_Skill.name + "</b>: " + A_Skill.cond_eff_text;
-  }
+  var Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  Special = Procs[spec_index];
+  A_Skill = A_Passives[a_index];
+  B_Skill = B_Passives[b_index];
+  C_Skill = C_Passives[c_index];
+  Seal = Seals[seal_index];
 
-  if (!cond_effect_found) {
-    special_effet_text = "None.";
-  }
+  if (weap_upgr_index == 0)
+    Weapon = Weapons[weap_index];
+  else
+    Weapon = Weapons[weap_upgr_index];
 
-  document.getElementById("conditional_effect_details").innerHTML = special_effect_text;
+  if (Weapon.has_number_input)
+    $(".WeapNum").toggle(true);
+  else {
+    $(".WeapNum").toggle(false);
+    document.getElementById("weap_number_input").value = 0;
+  }
+  if (Weapon.has_boolean_input)
+    $(".WeapBool").toggle(true);
+  else {
+    $(".WeapBool").toggle(false);
+    document.getElementById("weap_boolean_input").checked = false;
+  }
+  if (Special.has_number_input)
+    $(".SpecNum").toggle(true);
+  else {
+    $(".SpecNum").toggle(false);
+    document.getElementById("special_number_input").value = 0;
+  }
+  if (Special.has_boolean_input)
+    $(".SpecBool").toggle(true);
+  else {
+    $(".SpecBool").toggle(false);
+    document.getElementById("special_boolean_input").checked = false;
+  }
+  if (A_Skill.has_number_input)
+    $(".ANum").toggle(true);
+  else {
+    $(".ANum").toggle(false);
+    document.getElementById("a_number_input").value = 0;
+  }
+  if (A_Skill.has_boolean_input)
+    $(".ABool").toggle(true);
+  else {
+    $(".ABool").toggle(false);
+    document.getElementById("a_boolean_input").checked = false;
+  }
+  if (B_Skill.has_number_input)
+    $(".BNum").toggle(true);
+  else {
+    $(".BNum").toggle(false);
+    document.getElementById("b_number_input").value = 0;
+  }
+  if (B_Skill.has_boolean_input)
+    $(".BBool").toggle(true);
+  else {
+    $(".BBool").toggle(false);
+    document.getElementById("b_boolean_input").checked = false;
+  }
+  if (C_Skill.has_number_input)
+    $(".CNum").toggle(true);
+  else {
+    $(".CNum").toggle(false);
+    document.getElementById("c_number_input").value = 0;
+  }
+  if (C_Skill.has_boolean_input)
+    $(".CBool").toggle(true);
+  else {
+    $(".CBool").toggle(false);
+    document.getElementById("c_boolean_input").checked = false;
+  }
+  if (Seal.has_number_input)
+    $(".SNum").toggle(true);
+  else {
+    $(".SNum").toggle(false);
+    document.getElementById("seal_number_input").value = 0;
+  }
+  if (Seal.has_boolean_input)
+    $(".SBool").toggle(true);
+  else {
+    $(".SBool").toggle(false);
+    document.getElementById("seal_boolean_input").checked = false;
+  }
 }
 
 // Show or hide matchup details.

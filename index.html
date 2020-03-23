@@ -6,11 +6,12 @@
 <title></title>
 </head>
 <body>
-<script src="FE Heroes - Raw Data.js"></script>
+<script src="FE Heroes - Raw Data 2.0.js"></script>
 <script src="fighter_single_round.js"></script>
 <script src="mechanics_single_round.js"></script>
 <script src="ui.js"></script>
 <script src="data.js"></script>
+<script src="effect.js"></script>
 <script src="jquery-3.2.1.min.js"></script>
 <script>
 // Start up the simulator.
@@ -194,7 +195,7 @@ $(document).ready(function() {
           </div>
           <div class="row">
             <div class="cell row_header">
-              Boon:
+              Asset:
             </div>
             <div class="cell skill_icon">
               <!-- This field is intentionally left blank. -->
@@ -212,7 +213,7 @@ $(document).ready(function() {
           </div>
           <div class="row">
             <div class="cell row_header">
-              Bane:
+              Flaw:
             </div>
             <div class="cell skill_icon">
               <!-- This field is intentionally left blank. -->
@@ -256,6 +257,34 @@ $(document).ready(function() {
               </select>
             </div>
           </div>
+          <div class="row WeapBool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="weap_boolean_input" />
+              <label for="weap_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row WeapNum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="weap_number_input" />
+              <label for="weap_number_input">
+                Number Input (Weapon)
+              </label>
+            </div>
+          </div>
           <div class="row">
             <div class="cell row_header">
               Special:
@@ -268,6 +297,34 @@ $(document).ready(function() {
             <div class="cell">
               <select class='Customizer' id='Special'>
               </select>
+            </div>
+          </div>
+          <div class="row SpecBool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="special_boolean_input" />
+              <label for="special_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row SpecNum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="special_number_input" />
+              <label for="special_number_input">
+                Number Input (Special)
+              </label>
             </div>
           </div>
           <div class="row">
@@ -284,6 +341,34 @@ $(document).ready(function() {
               </select>
             </div>
           </div>
+          <div class="row ABool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="a_boolean_input" />
+              <label for="a_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row ANum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="a_number_input" />
+              <label for="a_number_input">
+                Number Input (A Passive)
+              </label>
+            </div>
+          </div>
           <div class="row">
             <div class="cell row_header">
               B Passive:
@@ -296,6 +381,34 @@ $(document).ready(function() {
             <div class="cell">
               <select class='Customizer' id='B'>
               </select>
+            </div>
+          </div>
+          <div class="row BBool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="b_boolean_input" />
+              <label for="b_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row BNum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="b_number_input" />
+              <label for="b_number_input">
+                Number Input (B Passive)
+              </label>
             </div>
           </div>
           <div class="row">
@@ -312,6 +425,34 @@ $(document).ready(function() {
               </select>
             </div>
           </div>
+          <div class="row CBool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="c_boolean_input" />
+              <label for="c_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row CNum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="c_number_input" />
+              <label for="c_number_input">
+                Number Input (C Passive)
+              </label>
+            </div>
+          </div>
           <div class="row">
             <div class="cell row_header">
               Sacred Seal:
@@ -324,6 +465,34 @@ $(document).ready(function() {
             <div class="cell">
               <select class='Customizer' id='Seal'>
               </select>
+            </div>
+          </div>
+          <div class="row SBool">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank  -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="seal_boolean_input" />
+              <label for="seal_boolean_input">
+                Active
+              </label>
+            </div>
+          </div>
+          <div class="row SNum">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="number" class="Extras" id="seal_number_input" />
+              <label for="seal_number_input">
+                Number Input (Seal)
+              </label>
             </div>
           </div>
           <div class="row">
@@ -397,15 +566,16 @@ $(document).ready(function() {
             Apply Stat Ploys to enemies if conditions are met.
           </label>
           <br />
+          <input type="checkbox" id="E_Ploys" />
+          <label for="E_Ploys">
+            Apply Stat Ploys to unit if conditions are met.
+          </label>
+          <br />
           <input type="checkbox" id="RuleBreaker" />
           <label for="RuleBreaker">
             Break Inheritance Restrictions
           </label>
           <br />
-          <input type="checkbox" id="tcc" />
-          <label for="tcc">
-            Theorycrafter's Corner (enables pre-created customized skills)
-          </label>
         </div>
       </div>
     </div>
@@ -816,7 +986,7 @@ $(document).ready(function() {
         <div class="table" id="Enemy_Override_Table">
           <div class="row">
             <div class="cell row_header">
-              Boon:
+              Asset:
             </div>
             <div class="cell skill_icon">
               <!-- This field is intentionally left blank. -->
@@ -834,7 +1004,7 @@ $(document).ready(function() {
           </div>
           <div class="row">
             <div class="cell row_header">
-              Bane:
+              Flaw:
             </div>
             <div class="cell skill_icon">
               <!-- This field is intentionally left blank. -->
