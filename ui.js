@@ -186,13 +186,24 @@ function fill_skill_menus() {
 
 function find_upgrades(weap_id) {
   var msg = "";
-  msg = "<option value='0'>(None)</option>";
-  for (var i = 1; i < Weapons.length; i++) {
-    if (Weapons[i].upgraded_from == weap_id) {
-      msg = msg + "<option value='" + i + "'>" + Weapons[i].name + "</option>";
-      upgrade_found = true;
+  msg = "<option value=\"None\">(None)</option>";
+
+  if (Weapons[weap_id].has_eff_refine)
+    msg += "<option value=\"Eff\">Effect</option>";
+
+  if (Weapons[weap_id].has_refinements) {
+    if (Weapons[weap_id].type == "ST") {
+      msg += "<option value=\"D\">Dazzling Staff</option>";
+      msg += "<option value=\"W\">Wrathful Staff</option>";
+    }
+    else {
+      msg += "<option value=\"Atk\">Atk</option>";
+      msg += "<option value=\"Spd\">Spd</option>";
+      msg += "<option value=\"Def\">Def</option>";
+      msg += "<option value=\"Res\">Res</option>";
     }
   }
+
   document.getElementById("WeaponUpgrade").innerHTML = msg;
 }
 
@@ -378,10 +389,29 @@ function verify_legality(unit, skill) {
         return false;
       }
       break;
-    default:
-      if (unit.color == "N" && !skill.nbrth_can_inherit) {
+    case "ND":
+      if (unit.color == "N" && !skill.nbrth_can_inherit)
         return false;
-      }
+      break;
+    case "RBe":
+      if (!skill.rbe_can_inherit)
+        return false;
+      break;
+    case "BBe":
+      if (!skill.bbe_can_inherit)
+        return false;
+      break;
+    case "GBe":
+      if (!skill.gbe_can_inherit)
+        return false;
+      break;
+    case "NBe":
+      if (!skill.nbe_can_inherit)
+        return false;
+      break;
+    default:
+      console.log("Invalid weapon type encountered when evaluating inheritance compatibility for " + skill.name + ": " + unit_weap_type);
+      return false;
   }
 
   return true;
@@ -467,9 +497,9 @@ function deselect_all_mov_types() {
 function check_special_effects() {
   var special_effect_text = "";
   var cond_effect_found = false;
-  var weap_index, weap_upgr_index, spec_index, a_index, b_index, c_index, seal_index;
+  var weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
   weap_index = parseInt(document.getElementById("Weapon").value);
-  weap_upgr_index = parseInt(document.getElementById("WeaponUpgrade").value);
+  weap_refine = document.getElementById("WeaponUpgrade").value;
   spec_index = parseInt(document.getElementById("Special").value);
   a_index = parseInt(document.getElementById("A").value);
   b_index = parseInt(document.getElementById("B").value);
@@ -477,29 +507,74 @@ function check_special_effects() {
   seal_index = parseInt(document.getElementById("Seal").value);
 
   var Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  Weapon = Weapons[weap_index];
   Special = Procs[spec_index];
   A_Skill = A_Passives[a_index];
   B_Skill = B_Passives[b_index];
   C_Skill = C_Passives[c_index];
   Seal = Seals[seal_index];
 
-  if (weap_upgr_index == 0)
-    Weapon = Weapons[weap_index];
-  else
-    Weapon = Weapons[weap_upgr_index];
+  if (Weapon.user_can_transform) {
+    $(".Transformed").toggle(true);
+  }
+  else {
+    $(".Transformed").toggle(false);
+    document.getElementById("transformed_input").checked = false;
+  }
 
-  if (Weapon.has_number_input)
-    $(".WeapNum").toggle(true);
+  if (weap_refine == "None") {
+    if (Weapon.base_has_number_input)
+      $(".WeapNum").toggle(true);
+    else {
+      $(".WeapNum").toggle(false);
+      document.getElementById("weap_number_input").value = 0;
+    }
+
+    if (Weapon.base_has_boolean_input)
+      $(".WeapBool").toggle(true);
+    else {
+      $(".WeapBool").toggle(false);
+      document.getElementById("weap_boolean_input").checked = false;
+    }
+  }
+  else if (weap_refine == "Eff") {
+    if (Weapon.eff_has_number_input)
+      $(".WeapNum").toggle(true);
+    else {
+      $(".WeapNum").toggle(false);
+      document.getElementById("weap_number_input").value = 0;
+    }
+
+    if (Weapon.eff_has_boolean_input)
+      $(".WeapBool").toggle(true);
+    else {
+      $(".WeapBool").toggle(false);
+      document.getElementById("weap_boolean_input").checked = false;
+    }
+  }
+  else if (weap_refine == "Atk" || weap_refine == "Spd" || weap_refine == "Def" || weap_refine == "Res") {
+    if (Weapon.ref_has_number_input)
+      $(".WeapNum").toggle(true);
+    else {
+      $(".WeapNum").toggle(false);
+      document.getElementById("weap_number_input").value = 0;
+    }
+
+    if (Weapon.ref_has_boolean_input)
+      $(".WeapBool").toggle(true);
+    else {
+      $(".WeapBool").toggle(false);
+      document.getElementById("weap_boolean_input").checked = false;
+    }
+  }
   else {
     $(".WeapNum").toggle(false);
     document.getElementById("weap_number_input").value = 0;
-  }
-  if (Weapon.has_boolean_input)
-    $(".WeapBool").toggle(true);
-  else {
+
     $(".WeapBool").toggle(false);
     document.getElementById("weap_boolean_input").checked = false;
   }
+
   if (Special.has_number_input)
     $(".SpecNum").toggle(true);
   else {

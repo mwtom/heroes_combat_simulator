@@ -116,11 +116,11 @@ $(document).ready(function() {
   // back to the "Weapon" field (accomplished by using set_skill_icon on
   // "player_weapon").
   $("#WeaponUpgrade").change(function() {
-    if (document.getElementById("WeaponUpgrade").value == 0) {
+    if (document.getElementById("WeaponUpgrade").value == "None") {
       set_skill_icon("player_weapon", Weapons[document.getElementById("Weapon").value]);
     }
     else {
-      set_skill_icon("player_weapon_refined", Weapons[document.getElementById("WeaponUpgrade").value]);
+      set_skill_icon("player_weapon_refined", Weapons[document.getElementById("Weapon").value]);
     }
   });
   /* When skill select fields are changed, update the skill icon/description */
@@ -255,6 +255,20 @@ $(document).ready(function() {
             <div class="cell">
               <select class='Customizer' id='WeaponUpgrade'>
               </select>
+            </div>
+          </div>
+          <div class="row Transformed">
+            <div class="cell row_header">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell skill_icon">
+              <!-- This is intentionally blank -->
+            </div>
+            <div class="cell">
+              <input type="checkbox" id="transformed_input" />
+              <label for="transformed_input">
+                Transformed
+              </label>
             </div>
           </div>
           <div class="row WeapBool">

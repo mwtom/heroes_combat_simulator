@@ -1,7 +1,7 @@
 // The Fighter class, a fusion of the base stats of a character
 // and the stats & properties of their skills.
 class Fighter {
-  constructor(char, boon, bane, weap, a, b, c, seal, special, summoner_support, merge_lv, conditional_effects, blessings) {
+  constructor(char, boon, bane, weap, refine, a, b, c, seal, special, summoner_support, merge_lv, conditional_effects, blessings) {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
@@ -75,7 +75,6 @@ class Fighter {
           // No default case, since "None" is a valid bane selection.
         }
       }
-
     }
 
     // Apply Rank S Summoner Support bonuses.
@@ -149,6 +148,7 @@ class Fighter {
 
     // set various fighter properties.
     this.weapon_type = char.weap;
+    this.refinement = refine;
     this.movement_type = char.type;
 
     this.weapon = weap;
@@ -162,6 +162,7 @@ class Fighter {
 
     // Stat bonuses and penalties.
     this.permanent_stat_boost_effects = new Array();
+    this.permanent_stat_penalty_effects = new Array();
     this.flat_stat_boost_effects = new Array();
     this.scaled_stat_boost_effects = new Array
     this.stat_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
@@ -242,6 +243,14 @@ class Fighter {
 
     /* ******* END OF ARRAYS FOR SKILL EFFECTS. ******* */
 
+    this.refine_hp_mod = 0;
+    this.refine_atk_mod = 0;
+    this.refine_spd_mod = 0;
+    this.refine_def_mod = 0;
+    this.refine_res_mod = 0;
+
+    if (this.refinement != "None")
+      this.process_weapon_refinement();
     this.process_skill_effects();
 
     // set default values for field buffs.
@@ -322,10 +331,10 @@ class Fighter {
     this.spd_penalty_neutralized = false;
     this.def_penalty_neutralized = false;
     this.res_penalty_neutralized = false;
-    //this.atk_penalty_nullified = false;
-    //this.spd_penalty_nullified = false;
-    //this.def_penalty_nullified = false;
-    //this.res_penalty_nullified = false;
+    this.atk_penalty_nullified = false;
+    this.spd_penalty_nullified = false;
+    this.def_penalty_nullified = false;
+    this.res_penalty_nullified = false;
 
     this.neutralizes_wrathful_staff = false;
     this.neutralizes_adaptive_damage = false;
@@ -382,6 +391,7 @@ class Fighter {
     // User Input variables
     this.weap_user_number_input = 0;
     this.weap_user_boolean_input = false;
+    this.transformed_input = false;
     this.a_user_number_input = 0;
     this.a_user_boolean_input = false;
     this.b_user_number_input = 0;
@@ -448,15 +458,77 @@ Fighter.prototype.calculate_stat = function(stat_base, stat_Growth, case_type) {
   growth_rate = Math.floor(growth * (1 + (.07 * (5 - 3)))) / 100;
   return (base + Math.floor(39 * growth_rate));
 };
+// Applies refinement stats and skills (skills only applied for staff weapons).
+Fighter.prototype.process_weapon_refinement = function () {
+  if (this.weapon.type == "ST") {
+    if (this.refinement == "D")
+      this.e_counterattack_preventer_effects.push(new Effect("e_counterattack_preventer", "[0]", this.weapon.name, "e_counterattack_preventer"));
+    if (this.refinement == "W")
+      this.wrathful_staff_effects.push(new Effect("wrathful_staff", "[0]", this.weapon.name, "wrathful_staff"));
+  }
+  else if (this.weapon.range == 1) {
+    switch (this.refinement) {
+      case "Eff":
+        this.refine_hp_mod = 3;
+        break;
+      case "Atk":
+        this.refine_hp_mod += 5;
+        this.refine_atk_mod += 2;
+        break;
+      case "Spd":
+        this.refine_hp_mod += 5;
+        this.refine_spd_mod += 3;
+        break;
+      case "Def":
+        this.refine_hp_mod += 5;
+        this.refine_def_mod += 4;
+        break;
+      case "Res":
+        this.refine_hp_mod += 5;
+        this.refine_res_mod += 4;
+        break;
+    }
+  }
+  else {
+    switch (this.refinement) {
+      case "Eff":
+        break;
+      case "Atk":
+        this.refine_hp_mod += 2;
+        this.refine_atk_mod += 1;
+        break;
+      case "Spd":
+        this.refine_hp_mod += 2;
+        this.refine_spd_mod += 2;
+        break;
+      case "Def":
+        this.refine_hp_mod += 2;
+        this.refine_def_mod += 3;
+        break;
+      case "Res":
+        this.refine_hp_mod += 2;
+        this.refine_res_mod += 3;
+        break;
+    }
+  }
+};
 // Adds each skill effect to the appropriate array.
 Fighter.prototype.process_skill_effects = function () {
-  var skills = new Array(this.weapon, this.special, this.a_skill, this.b_skill, this.c_skill, this.seal);
+  var skills = new Array(this.special, this.a_skill, this.b_skill, this.c_skill, this.seal);
   //console.log(skills);
   for (var i = 0; i < skills.length; i++) {
   //  console.log("Dealing with " + skills[i].name);
     if (skills[i].skill_definition != "empty")
       this.add_to_array(skills[i].skill_definition, skills[i].name);
   }
+
+  if (this.refinement == "Eff")
+    this.add_to_array(this.weapon.skill_desc_refine_eff, this.weapon.name);
+  else if (this.refinement != "None")
+    this.add_to_array(this.weapon.skill_desc_refine_base, this.weapon.name);
+  else
+    this.add_to_array(this.weapon.skill_definition, this.weapon.name);
+
 };
 // Processes the skill description strings and sorts effects into the proper arrays.
 Fighter.prototype.add_to_array = function (sd, n) {
@@ -531,6 +603,16 @@ Fighter.prototype.add_to_array = function (sd, n) {
 // Inserts an effect in to the appropriate array based on the "identifier" property.
 Fighter.prototype.sort_effect = function (effect) {
   switch (effect.identifier) {
+    case "permanent_stat_boost":
+      this.permanent_stat_boost_effects.push(effect);
+      break;
+    case "permanent_stat_penalty":
+      this.permanent_stat_penalty_effects.push(effect);
+      break;
+    case "accelerate_special_trigger":
+      this.cooldown_max -= 1;
+      this.cooldown -= 1;
+      break;
     case "flat_stat_boost":
       this.flat_stat_boost_effects.push(effect);
       break;
@@ -771,8 +853,6 @@ Fighter.prototype.eval_condition = function(condition, e) {
       return this.e_mov_eff_check(condition.substring(i + 1, condition.length - 1), e);
 //    case "user_boolean_input":
 //      return this.user_boolean_input_check(condition.substring(i + 1, condition.length - 1));
-    case "transformed":
-      return false;
     case "0":
       return true;
     default:
@@ -897,6 +977,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
     case "has_penalty":
       evaluated_boolean = this.has_penalty();
       break;
+    case "has_nullified_penalty":
+      evaluated_boolean = this.has_nullified_penalty();
+      break;
     case "has_negative_status":
       evaluated_boolean = this.has_negative_status();
       break;
@@ -932,6 +1015,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "spec_boolean_input":
       evaluated_boolean = this.spec_user_boolean_input;
+      break;
+    case "is_transformed":
+      evaluated_boolean = this.transformed_input;
       break;
     default:
       console.log("A check has been requested for an invalid boolean_value: " + boolean_value);
@@ -1408,9 +1494,12 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
 };
 
 Fighter.prototype.has_penalty = function() {
-  return (this.atk_penalty > 0) || (this.spd_penalty > 0) || (this.def_penalty > 0) || (this.res_penalty > 0);
+  return (this.atk_buff < 0) || (this.spd_buff < 0) || (this.def_buff < 0) || (this.res_buff < 0) ||
+         (this.atk_penalty > 0) || (this.spd_penalty > 0) || (this.def_penalty > 0) || (this.res_penalty > 0);
 };
-
+Fighter.prototype.has_nullified_penalty = function () {
+  return this.atk_penalty_nullified || this.spd_penalty_nullified || this.def_penalty_nullified || this.res_penalty_nullified;
+};
 Fighter.prototype.has_negative_status = function() {
   return this.panic_active || this.guard_active || this.isolation_active || this.gravity_active || this.flash_active || this.trilemma_active;
 };
@@ -1480,12 +1569,69 @@ Fighter.prototype.get_penalty_value = function (stat) {
 
 // Calculates the unit's permanent stats.
 Fighter.prototype.calculate_permanent_stats = function () {
-  this.max_hp = this.hp + this.weapon.hp_mod + this.a_skill.hp_mod + this.seal.hp_mod;
+  this.max_hp = this.hp + this.weapon.hp_mod + this.a_skill.hp_mod + this.seal.hp_mod + this.refine_hp_mod;
   this.hp = this.max_hp;
-  this.permanent_atk = this.atk + this.weapon.atk_mod + this.a_skill.atk_mod + this.seal.atk_mod;
-  this.permanent_spd = this.spd + this.weapon.spd_mod + this.a_skill.spd_mod + this.seal.spd_mod;
-  this.permanent_def = this.def + this.weapon.def_mod + this.a_skill.def_mod + this.seal.def_mod;
-  this.permanent_res = this.res + this.weapon.res_mod + this.a_skill.res_mod + this.seal.res_mod;
+  this.permanent_atk = this.atk + this.weapon.atk_mod + this.a_skill.atk_mod + this.seal.atk_mod + this.refine_atk_mod;
+  this.permanent_spd = this.spd + this.weapon.spd_mod + this.a_skill.spd_mod + this.seal.spd_mod + this.refine_spd_mod;
+  this.permanent_def = this.def + this.weapon.def_mod + this.a_skill.def_mod + this.seal.def_mod + this.refine_def_mod;
+  this.permanent_res = this.res + this.weapon.res_mod + this.a_skill.res_mod + this.seal.res_mod + this.refine_res_mod;
+
+  for (var i = 0; i < this.permanent_stat_boost_effects.length; i++)
+    if (this.eval_conditions(this.permanent_stat_boost_effects[i].conditions, null))
+      this.process_permanent_boost(this.permanent_stat_boost_effects[i].effect);
+  for (var i = 0; i < this.permanent_stat_penalty_effects.length; i++)
+    if (this.eval_conditions(this.permanent_stat_penalty_effects[i].conditions, null))
+      this.process_permanent_penalty(this.permanent_stat_penalty_effects[i].effect);
+};
+Fighter.prototype.process_permanent_boost = function (effect_string) {
+  var stat = "";
+  var value = "";
+  var i = 21;
+
+  for (; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; i < effect_string.length - 1; i++)
+    value += effect_string[i];
+
+  switch (stat) {
+    case "permanent_atk":
+      this.permanent_atk += parseInt(value);
+      break;
+    case "permanent_spd":
+      this.permanent_spd += parseInt(value);
+      break;
+    case "permanent_def":
+      this.permanent_def += parseInt(value);
+      break;
+    case "permanent_res":
+      this.permanent_res += parseInt(value);
+      break;
+  }
+};
+Fighter.prototype.process_permanent_penalty = function (effect_string) {
+  var stat = "";
+  var value = "";
+  var i = 23;
+
+  for (; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; i < effect_string.length - 1; i++)
+    value += effect_string[i];
+
+  switch (stat) {
+    case "permanent_atk":
+      this.permanent_atk -= parseInt(value);
+      break;
+    case "permanent_spd":
+      this.permanent_spd -= parseInt(value);
+      break;
+    case "permanent_def":
+      this.permanent_def -= parseInt(value);
+      break;
+    case "permanent_res":
+      this.permanent_res -= parseInt(value);
+      break;
+  }
 };
 // Calculates the unit's printed stats.
 Fighter.prototype.calculate_printed_stats = function () {
@@ -1576,10 +1722,10 @@ Fighter.prototype.reset_flags = function () {
   this.spd_penalty_neutralized = false;
   this.def_penalty_neutralized = false;
   this.res_penalty_neutralized = false;
-  //this.atk_penalty_nullified = false;
-  //this.spd_penalty_nullified = false;
-  //this.def_penalty_nullified = false;
-  //this.res_penalty_nullified = false;
+  this.atk_penalty_nullified = false;
+  this.spd_penalty_nullified = false;
+  this.def_penalty_nullified = false;
+  this.res_penalty_nullified = false;
 
   this.neutralizes_wrathful_staff = false;
   this.neutralizes_adaptive_damage = false;
@@ -1673,6 +1819,7 @@ Fighter.prototype.apply_stat_ploy = function (ploy_string) {
   var stat = "";
   var value = "";
   var value_int = 0;
+  var return_string = "";
 
   for (; ploy_string[i] != ","; i++)
     stat += ploy_string[i];
@@ -1682,6 +1829,38 @@ Fighter.prototype.apply_stat_ploy = function (ploy_string) {
   value_int = parseInt(value);
 
   switch (stat) {
+    case "highest":
+      if ((this.printed_atk - 15) >= this.printed_spd && (this.printed_atk - 15) >= this.printed_def && (this.printed_atk - 15) >= this.printed_res) {
+        if (this.atk_penalty < value_int) {
+          this.atk_penalty = value_int;
+          return_string += "-" + value_int + " Atk";
+        }
+      }
+      if (this.printed_spd >= (this.printed_atk - 15) && this.printed_spd >= this.printed_def && this.printed_spd >= this.printed_res) {
+        if (this.spd_penalty < value_int) {
+          this.spd_penalty = value_int;
+          if (return_string != "")
+            return_string += ", ";
+          return_string += "-" + value_int + " Spd";
+        }
+      }
+      if (this.printed_def >= (this.printed_atk - 15) && this.printed_def >= this.printed_spd && this.printed_def >= this.printed_res) {
+        if (this.def_penalty < value_int) {
+          this.def_penalty = value_int;
+          if (return_string != "")
+            return_string += ", ";
+          return_string += "-" + value_int + " Def";
+        }
+      }
+      if (this.printed_res >= (this.printed_atk - 15) && this.printed_res >= this.printed_spd && this.printed_res >= this.printed_def) {
+        if (this.res_penalty < value_int) {
+          this.res_penalty = value_int;
+          if (return_string != "")
+            return_string += ", ";
+          return_string += "-" + value_int + " Res";
+        }
+      }
+      return return_string;
     case "e_atk_penalty":
       if (this.atk_penalty < value_int) {
         this.atk_penalty = value_int;
@@ -1763,10 +1942,10 @@ Fighter.prototype.apply_scaled_stat_boost = function (effect_string, e) {
   scale_factor = this.parse_num_expr(scale_factor_string, e);
   if (max_string != "none") {
     max = parseInt(max_string);
-    value = Math.min((base_value * scale_factor), max);
+    value = Math.floor(Math.min((base_value * scale_factor), max));
   }
   else
-    value = base_value * scale_factor;
+    value = Math.floor(base_value * scale_factor);
 
   switch (stat) {
     case "combat_atk":
@@ -2141,6 +2320,9 @@ Fighter.prototype.get_follow_up_flag = function () {
 Fighter.prototype.get_special_activating_flag = function () {
   return this.special_activating;
 };
+Fighter.prototype.get_extra_movement_flag = function () {
+  return this.bonus_mov_active;
+};
 
 // Set methods
 
@@ -2433,22 +2615,44 @@ Fighter.prototype.set_neutralize_penalty_flags = function (effect_string) {
 };
 Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
   var reader = "";
+  var log_string = "";
+  var nullified_penalties = new Array();
 
   // The first 18 characters of effect_string are "nullify_penalties("
   for (var i = 18; i < effect_string.length; i++) {
     if (effect_string[i] == "," || i == effect_string.length - 1) {
       switch(reader) {
         case "atk_penalty":
+          if (this.atk_penalty > 0 || this.atk_buff < 0) {
+            this.atk_penalty_nullified = true;
+            nullified_penalties.push("Atk");
+          }
           this.atk_penalty = 0;
+          this.atk_buff = Math.max(this.atk_buff, 0);
           break;
         case "spd_penalty":
+          if (this.spd_penalty > 0 || this.spd_buff < 0) {
+            this.spd_penalty_nullified = true;
+            nullified_penalties.push("Spd");
+          }
           this.spd_penalty = 0;
+          this.spd_buff = Math.max(this.spd_buff, 0);
           break;
         case "def_penalty":
+          if (this.def_penalty > 0 || this.def_buff < 0) {
+            this.def_penalty_nullified = true;
+            nullified_penalties.push("Def");
+          }
           this.def_penalty = 0;
+          this.def_buff = Math.max(this.def_buff, 0);
           break;
         case "res_penalty":
+          if (this.res_penalty > 0 || this.res_buff < 0) {
+            this.res_penalty_nullified = true;
+            nullified_penalties.push("Res");
+          }
           this.res_penalty = 0;
+          this.res_buff = Math.max(this.res_buff, 0);
           break;
         default:
           console.log("Invalid penalty name " + reader + " was encountered while setting penalty nullification flags.");
@@ -2457,6 +2661,18 @@ Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
     }
     else
       reader += effect_string[i];
+  }
+
+  if (nullified_penalties.length == 0) {
+    return ", but there were no penalties to nullify.<br />";
+  }
+  else if (nullified_penalties.length == 1) {
+    return ". The " + nullified_penalties[0] + " penalty was nullified.<br />";
+  }
+  else {
+    for (var i = 0; i < nullified_penalties.length - 1; i++)
+      log_string += nullified_penalties[i] + ", ";
+    return ". The " + log_string + " and " + nullified_penalties[nullified_penalties.length - 1] + " penalties were nullified.<br />";
   }
 };
 Fighter.prototype.set_skill_inputs = function (mode, boolean_input, number_input) {
@@ -2492,6 +2708,12 @@ Fighter.prototype.set_neutralize_scaled_mitigation_flag = function (value) {
 };
 Fighter.prototype.set_next_atk_bonus_dmg = function (value) {
   this.next_atk_bonus_dmg = value;
+};
+Fighter.prototype.set_extra_movement_flag = function (value) {
+  this.bonus_mov_active = value;
+};
+Fighter.prototype.set_transformed_flag = function (value) {
+  this.transformed_input = value;
 };
 
 // ALL CODE BEYOND THIS POINT MAY NOT BE NEEDED

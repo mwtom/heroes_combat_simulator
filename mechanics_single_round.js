@@ -1,10 +1,5 @@
 function simulate() {
   // Builds the attacker from the values selected on the UI.
-  var selectedWeapon = Weapons[document.getElementById("Weapon").value];
-  if (document.getElementById("WeaponUpgrade").value != 0) {
-    selectedWeapon = Weapons[document.getElementById("WeaponUpgrade").value];
-  }
-
   var blessings = new Array(3);
   if (document.getElementById("Blessing").value != "(None)") {
     blessings[0] = Blessings[parseInt(document.getElementById("LegAlly1").value)];
@@ -20,7 +15,8 @@ function simulate() {
   var Attacker = new Fighter(Characters[document.getElementById("Character").value],
                             document.getElementById("Boon").value,
                             document.getElementById("Bane").value,
-                            selectedWeapon,
+                            Weapons[document.getElementById("Weapon").value],
+                            document.getElementById("WeaponUpgrade").value,
                             A_Passives[document.getElementById("A").value],
                             B_Passives[document.getElementById("B").value],
                             C_Passives[document.getElementById("C").value],
@@ -30,20 +26,6 @@ function simulate() {
                             parseInt(document.getElementById("MergeLv").value),
                             document.getElementById("conditional_effects").checked,
                             blessings);
-
-  // The attacker is controlled by the player.
-  Attacker.set_control_flag("player");
-  // Calculate the attacker's printed stats.
-  Attacker.calculate_permanent_stats();
-  // Populate the effective damage arrays.
-  Attacker.apply_eff_damage_effects();
-
-  // Add the Attacker's stat line to the proper UI elements.
-  document.getElementById("CharHP").innerHTML = Attacker.get_max_hp();
-  document.getElementById("CharAtk").innerHTML = Attacker.get_permanent_atk();
-  document.getElementById("CharSpd").innerHTML = Attacker.get_permanent_spd();
-  document.getElementById("CharDef").innerHTML = Attacker.get_permanent_def();
-  document.getElementById("CharRes").innerHTML = Attacker.get_permanent_res();
 
   // Set user-defined buffs, boosts (bonuses, in the UI), and debuffs.
   Attacker.set_assumed_atk_buff(document.getElementById("AtkBuff").value);
@@ -69,9 +51,24 @@ function simulate() {
   Attacker.set_skill_inputs("B", document.getElementById("b_boolean_input").checked, document.getElementById("b_number_input").value);
   Attacker.set_skill_inputs("C", document.getElementById("c_boolean_input").checked, document.getElementById("c_number_input").value);
   Attacker.set_skill_inputs("S", document.getElementById("seal_boolean_input").checked, document.getElementById("seal_number_input").value);
+  Attacker.set_transformed_flag(document.getElementById("transformed_input").checked);
+
+  // The attacker is controlled by the player.
+  Attacker.set_control_flag("player");
+  // Calculate the attacker's printed stats.
+  Attacker.calculate_permanent_stats();
+  // Populate the effective damage arrays.
+  Attacker.apply_eff_damage_effects();
+
+  // Add the Attacker's stat line to the proper UI elements.
+  document.getElementById("CharHP").innerHTML = Attacker.get_max_hp();
+  document.getElementById("CharAtk").innerHTML = Attacker.get_permanent_atk();
+  document.getElementById("CharSpd").innerHTML = Attacker.get_permanent_spd();
+  document.getElementById("CharDef").innerHTML = Attacker.get_permanent_def();
+  document.getElementById("CharRes").innerHTML = Attacker.get_permanent_res();
 
   // Prep & logging variables
-  var boon, bane, weap, weap_selected, a, b, c, proc, seal;
+  var boon, bane, weap, weap_selected, refine, a, b, c, proc, seal;
   var Defender;
   var orko = new Array();
   var orko_dealt = new Array();
@@ -128,15 +125,16 @@ function simulate() {
         //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon
         //    -Inheritance restrictions have been removed by the user.
         if (weap_selected != 0 &&
-            ((verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].upgraded_from]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
+            ((verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
               ||
-              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap || Weapons[weap_selected].upgraded_from == enemy_pool[i].base_weap)
+              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap)
               || document.getElementById("RuleBreaker").checked)) {
           weap = Weapons[weap_selected];
         }
         else {
           weap = Weapons[enemy_pool[i].base_weap];
         }
+        refine = "None";
         if (document.getElementById("EnemyA").value != 0 && (verify_legality(enemy_pool[i], A_Passives[document.getElementById("EnemyA").value]) || document.getElementById("RuleBreaker").checked)) {
           a = A_Passives[document.getElementById("EnemyA").value];
         }
@@ -172,6 +170,7 @@ function simulate() {
         boon = enemy_pool[i].boon;
         bane = enemy_pool[i].bane;
         weap = Weapons[enemy_pool[i].weapon];
+        refine = enemy_pool[i].refine;
         a = A_Passives[enemy_pool[i].a];
         b = B_Passives[enemy_pool[i].b];
         c = C_Passives[enemy_pool[i].c];
@@ -184,6 +183,7 @@ function simulate() {
                              boon,
                              bane,
                              weap,
+                             refine,
                              a,
                              b,
                              c,
@@ -677,10 +677,10 @@ function execute_phase(player, enemy, player_initiating) {
 
   for (var i = 0; i < attacker.nullify_penalty_effects.length; i++)
     if (attacker.eval_conditions(attacker.nullify_penalty_effects[i].conditions, defender))
-      attacker.set_nullify_penalty_flags(attacker.nullify_penalty_effects[i].effect);
+      combat_log += attacker.get_name() + "'s " + attacker.nullify_penalty_effects[i].source + " nullifies penalties" + attacker.set_nullify_penalty_flags(attacker.nullify_penalty_effects[i].effect);
   for (var i = 0; i < defender.nullify_penalty_effects.length; i++)
     if (defender.eval_conditions(defender.nullify_penalty_effects[i].conditions, attacker))
-      defender.set_nullify_penalty_flags(defender.nullify_penalty_effects[i].effect);
+      combat_log += defender.get_name() + "'s " + defender.nullify_penalty_effects[i].source + " nullifies penalties" + defender.set_nullify_penalty_flags(defender.nullify_penalty_effects[i].effect);
 
   // Set neutralize wrathful staff flags.
   for (var i = 0; i < attacker.neutralize_wrathful_staff_effects.length; i++) {
@@ -765,6 +765,19 @@ function execute_phase(player, enemy, player_initiating) {
   for (var i = 0; i < defender.scaled_stat_boost_effects.length; i++)
     if (defender.eval_conditions(defender.scaled_stat_boost_effects[i].conditions, attacker))
       combat_log += defender.get_name() + "'s " + defender.scaled_stat_boost_effects[i].source + " grants a " + defender.apply_scaled_stat_boost(defender.scaled_stat_boost_effects[i].effect, attacker) + ".<br />";
+  // Also apply any bonus movement effects.
+  for (var i = 0; i < attacker.extra_movement_effects.length; i++) {
+    if (attacker.eval_conditions(attacker.extra_movement_effects[i].conditions, defender)) {
+      attacker.set_extra_movement_flag(true);
+      break;
+    }
+  }
+  for (var i = 0; i < defender.extra_movement_effects.length; i++) {
+    if (defender.eval_conditions(defender.extra_movement_effects[i].conditions, attacker)) {
+      defender.set_extra_movement_flag(true);
+      break;
+    }
+  }
 
   // Next, apply any combat penalties applied by the other fighter.
   for (var i = 0; i < attacker.stat_penalty_effects.length; i++)
@@ -1377,7 +1390,8 @@ function calculate_damage(attacker, defender) {
     }
   }
 
-  attacker.set_damage(damage);
+  // For the purposes of heal-on-hit effects, attacker's damage is capped at defender's HP.
+  attacker.set_damage(Math.min(damage, defender.get_hp()));
 
   // Apply heal-on-hit effects for the attacker.
   for (var i = 0; i < attacker.heal_on_hit_effects.length; i++) {
@@ -1387,6 +1401,8 @@ function calculate_damage(attacker, defender) {
       combat_log += attacker.get_name() + " heals " + (attacker.get_hp() - prev_hp) + " damage, and has " + attacker.get_hp() + " HP.<br />";
     }
   }
+
+  attacker.set_damage(damage);
 
   // Charge or reset specials as necessary.
   if (attacker.get_special_activating_flag()) {

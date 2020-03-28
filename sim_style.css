@@ -83,7 +83,7 @@ body {
 .EnemyLegAlly {
   display: none;
 }
-.WeapBool, .SpecBool, .ABool, .BBool, .CBool, .SBool, .WeapNum, .SpecNum, .ANum, .BNum, .CNum, .SNum {
+.Transformed, .WeapBool, .SpecBool, .ABool, .BBool, .CBool, .SBool, .WeapNum, .SpecNum, .ANum, .BNum, .CNum, .SNum {
   display: none;
 }
 #Optimized_Disclaimer {
