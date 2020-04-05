@@ -166,6 +166,7 @@ class Fighter {
     this.flat_stat_boost_effects = new Array();
     this.scaled_stat_boost_effects = new Array
     this.stat_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
+    this.scaled_stat_penalty_effects = new Array();
     this.phantom_spd_effects = new Array();
     this.bonus_multiplier_effects = new Array();
 
@@ -228,6 +229,7 @@ class Fighter {
     this.neutralize_special_charge_accelerator_effects = new Array();
     this.neutralize_combat_order_alteration_effects = new Array();
     this.neutralize_wrathful_staff_effects = new Array();
+    this.neutralize_external_skills_effects = new Array();
 
     // Misc. effects
     this.activate_special_effect = null;
@@ -295,6 +297,11 @@ class Fighter {
 
     // start_HP helps determine if skills such as breakers or wrathful staff apply.
     this.start_hp = 0;
+
+    // counter for allies 1, 2, and 3 spaces away.
+    this.adjacent_allies = 0;
+    this.two_space_allies = 0;
+    this.three_space_allies = 0;
 
     // Flags related to during-combat events.
     this.range = this.weapon.range;
@@ -631,6 +638,9 @@ Fighter.prototype.sort_effect = function (effect) {
     case "stat_penalty":
       this.stat_penalty_effects.push(effect);
       break;
+    case "scaled_stat_penalty":
+      this.scaled_stat_penalty_effects.push(effect);
+      break;
     case "static_mitigation":
       this.static_mitigation_effects.push(effect);
       break;
@@ -781,6 +791,11 @@ Fighter.prototype.sort_effect = function (effect) {
     case "neutralize_wrathful_staff":
       this.neutralize_wrathful_staff_effects.push(effect);
       break;
+    case "neutralize_external_skills":
+      this.neutralize_external_skills_effects.push(effect);
+      break;
+    default:
+      console.log("Unexpected skill identifier encountered: " + effect.identifier);
   }
 };
 
@@ -977,6 +992,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
     case "has_penalty":
       evaluated_boolean = this.has_penalty();
       break;
+    case "has_active_penalty":
+      evaluated_boolean = this.has_active_penalty();
+      break;
     case "has_nullified_penalty":
       evaluated_boolean = this.has_nullified_penalty();
       break;
@@ -988,6 +1006,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "e_has_penalty":
       evaluated_boolean = e.has_penalty();
+      break;
+    case "e_has_active_penalty":
+      evaluated_boolean = e.has_active_penalty();
       break;
     case "e_has_negative_status":
       evaluated_boolean = e.has_negative_status();
@@ -1018,6 +1039,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "is_transformed":
       evaluated_boolean = this.transformed_input;
+      break;
+    case "in_combat":
+      evaluated_boolean = in_combat;
       break;
     default:
       console.log("A check has been requested for an invalid boolean_value: " + boolean_value);
@@ -1226,7 +1250,7 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
   var close_parentheses_found = 0;
 
   // Characters that are considered (mathematic) operators
-  var operators = ["+", "-", "*", "/"];
+  var operators = ["+", "-", "*", "/", "%"];
 
   // String indexes.
   var i = 0, j = 0, k = 0;
@@ -1311,6 +1335,9 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
         return Math.floor(this.process_numeric_value(reader, e) * this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
       case "/":
         return Math.floor(this.process_numeric_value(reader, e) / this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+      case "%":
+        //console.log(Math.floor(this.process_numeric_value(reader, e) % this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e)));
+        return Math.floor(this.process_numeric_value(reader, e) % this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
       default:
         return 0;
     }
@@ -1448,21 +1475,53 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
     case "e_res_buff":
       return e.get_buff_value("res");
     case "atk_penalty":
+      if (this.atk_penalty_nullified)
+        return 0;
       return this.atk_penalty;
     case "spd_penalty":
+      if (this.spd_penalty_nullified)
+        return 0;
       return this.spd_penalty;
     case "def_penalty":
+      if (this.def_penalty_nullified)
+        return 0;
       return this.def_penalty;
     case "res_penalty":
+      if (this.res_penalty_nullified)
+        return 0;
       return this.res_penalty;
+    case "active_atk_penalty":
+      return this.get_active_penalty_value("atk");
+    case "active_spd_penalty":
+      return this.get_active_penalty_value("spd");
+    case "active_def_penalty":
+      return this.get_active_penalty_value("def");
+    case "active_res_penalty":
+      return this.get_active_penalty_value("res");
     case "e_atk_penalty":
+      if (e.atk_penalty_nullified)
+        return 0;
       return e.atk_penalty;
     case "e_spd_penalty":
+      if (e.spd_penalty_nullified)
+        return 0;
       return e.spd_penalty;
     case "e_def_penalty":
+      if (e.def_penalty_nullified)
+        return 0;
       return e.def_penalty;
     case "e_res_penalty":
+      if (e.res_penalty_nullified)
+        return 0;
       return e.res_penalty;
+    case "e_active_atk_penalty":
+      return e.get_active_penalty_value("atk");
+    case "e_active_spd_penalty":
+      return e.get_active_penalty_value("spd");
+    case "e_active_def_penalty":
+      return e.get_active_penalty_value("def");
+    case "e_active_res_penalty":
+      return e.get_active_penalty_value("res");
     case "weap_number_input":
       return this.weap_user_number_input;
     case "a_number_input":
@@ -1480,7 +1539,7 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
     case "e_damage":
       return e.damage;
     case "turn":
-      return turn; // Global Variable, or perhaps DOM reference?
+      return turn_number; // Global Variable
     case "combat_range":
       if (this.initiating)
         return this.range;
@@ -1488,14 +1547,50 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
         return e.get_range();
     case "cooldown_count":
       return this.cooldown;
+    case "buff_sum":
+      return Math.max(this.get_buff_value("atk"), 0) + Math.max(this.get_buff_value("spd"), 0) + Math.max(this.get_buff_value("def"), 0) + Math.max(this.get_buff_value("res"), 0);
+    case "e_buff_sum":
+      return Math.max(e.get_buff_value("atk"), 0) + Math.max(e.get_buff_value("spd"), 0) + Math.max(e.get_buff_value("def"), 0) + Math.max(e.get_buff_value("res"), 0);
+    case "penalty_sum":
+      return this.atk_penalty + this.spd_penalty + this.def_penalty + this.res_penalty + Math.abs(Math.min(this.get_buff_value("atk"), 0)) + Math.abs(Math.min(this.get_buff_value("spd"), 0)) + Math.abs(Math.min(this.get_buff_value("def"), 0)) + Math.abs(Math.min(this.get_buff_value("res"), 0));
+    case "e_penalty_sum":
+      return e.atk_penalty + e.spd_penalty + e.def_penalty + e.res_penalty + Math.abs(Math.min(e.get_buff_value("atk"), 0)) + Math.abs(Math.min(e.get_buff_value("spd"), 0)) + Math.abs(Math.min(e.get_buff_value("def"), 0)) + Math.abs(Math.min(e.get_buff_value("res"), 0));
+    case "active_penalty_sum":
+      return this.get_active_penalty_value("atk") + this.get_active_penalty_value("spd") + this.get_active_penalty_value("def") + this.get_active_penalty_value("res") +
+             Math.abs(Math.min(this.get_buff_value("atk"), 0)) + Math.abs(Math.min(this.get_buff_value("spd"), 0)) + Math.abs(Math.min(this.get_buff_value("def"), 0)) + Math.abs(Math.min(this.get_buff_value("res"), 0));
+    case "e_active_penalty_sum":
+      return e.get_active_penalty_value("atk") + e.get_active_penalty_value("spd") + e.get_active_penalty_value("def") + e.get_active_penalty_value("res") +
+             Math.abs(Math.min(e.get_buff_value("atk"), 0)) + Math.abs(Math.min(e.get_buff_value("spd"), 0)) + Math.abs(Math.min(e.get_buff_value("def"), 0)) + Math.abs(Math.min(e.get_buff_value("res"), 0));
+    case "adj":
+      return this.adjacent_allies;
+    case "e_adj":
+      return e.adjacent_allies;
+    case "two_space":
+      return this.two_space_allies + this.adjacent_allies;
+    case "e_two_space":
+      return e.two_space_allies + e.adjacent_allies;
+    case "three_space":
+      return this.three_space_allies + this.two_space_allies + this.adjacent_allies;
+    case "e_three_space":
+      return e.three_space_allies + e.two_space_allies + e.adjacent_allies;
     default:
       return parseFloat(reader);
   }
 };
 
+// Checks the existence of a stat penalty on the unit.
 Fighter.prototype.has_penalty = function() {
-  return (this.atk_buff < 0) || (this.spd_buff < 0) || (this.def_buff < 0) || (this.res_buff < 0) ||
-         (this.atk_penalty > 0) || (this.spd_penalty > 0) || (this.def_penalty > 0) || (this.res_penalty > 0);
+  return ((this.atk_penalty > 0 || this.atk_buff < 0) && !this.atk_penalty_nullified) ||
+         ((this.spd_penalty > 0 || this.spd_buff < 0) && !this.spd_penalty_nullified) ||
+         ((this.def_penalty > 0 || this.def_buff < 0) && !this.def_penalty_nullified) ||
+         ((this.res_penalty > 0 || this.res_buff < 0) && !this.res_penalty_nullified);
+};
+// Checks for an active stat penalty on the unit.
+Fighter.prototype.has_active_penalty = function () {
+  return ((this.atk_penalty > 0 || this.atk_buff < 0) && !this.atk_penalty_neutralized && !this.atk_penalty_nullified) ||
+         ((this.spd_penalty > 0 || this.spd_buff < 0) && !this.spd_penalty_neutralized && !this.spd_penalty_nullified) ||
+         ((this.def_penalty > 0 || this.def_buff < 0) && !this.def_penalty_neutralized && !this.def_penalty_nullified) ||
+         ((this.res_penalty > 0 || this.res_buff < 0) && !this.res_penalty_neutralized && !this.res_penalty_nullified);
 };
 Fighter.prototype.has_nullified_penalty = function () {
   return this.atk_penalty_nullified || this.spd_penalty_nullified || this.def_penalty_nullified || this.res_penalty_nullified;
@@ -1507,59 +1602,74 @@ Fighter.prototype.has_negative_status = function() {
 Fighter.prototype.get_buff_value = function (stat) {
   var value;
   var is_neutralized;
+  var penalty_neutralized, penalty_nullified;
 
   switch (stat) {
     case "atk":
       value = this.atk_buff;
       is_neutralized = this.atk_buff_neutralized;
+      penalty_neutralized = this.atk_penalty_neutralized;
+      penalty_nullified = this.atk_penalty_nullified;
       break;
     case "spd":
       value = this.spd_buff;
       is_neutralized = this.spd_buff_neutralized;
+      penalty_neutralized = this.spd_penalty_neutralized;
+      penalty_nullified = this.spd_penalty_nullified;
       break;
     case "def":
       value = this.def_buff;
       is_neutralized = this.def_buff_neutralized;
+      penalty_neutralized = this.def_penalty_neutralized;
+      penalty_nullified = this.def_penalty_nullified;
       break;
     case "res":
       value = this.res_buff;
       is_neutralized = this.res_buff_neutralized;
+      penalty_neutralized = this.res_penalty_neutralized;
+      penalty_nullified = this.res_penalty_nullified;
       break;
   }
 
-  if (this.panic_active && value > 0)
+  if (this.panic_active && value > 0) {
+    if (penalty_neutralized || penalty_nullified)
+      return 0;
     return value * -1;
+  }
   else if (is_neutralized && value > 0)
     return 0;
   else
     return value;
 };
-// Retrieves value of a given stat penalty. This should only be used for calculating
-// combat stats.
-Fighter.prototype.get_penalty_value = function (stat) {
+// Retrieves value of an active stat penalty.
+Fighter.prototype.get_active_penalty_value = function (stat) {
   var value;
-  var is_neutralized;
+  var is_neutralized = false, is_nullified = false;
 
   switch (stat) {
     case "atk":
       value = this.atk_penalty;
       is_neutralized = this.atk_penalty_neutralized;
+      is_nullified = this.atk_penalty_nullified;
       break;
     case "spd":
       value = this.spd_penalty;
       is_neutralized = this.spd_penalty_neutralized;
+      is_nullified = this.spd_penalty_nullified;
       break;
     case "def":
       value = this.def_penalty;
       is_neutralized = this.def_penalty_neutralized;
+      is_nullified = this.def_penalty_nullified;
       break;
     case "res":
       value = this.res_penalty;
       is_neutralized = this.res_penalty_neutralized;
+      is_nullified = this.res_penalty_nullified;
       break;
   }
 
-  if (is_neutralized)
+  if (is_neutralized || is_nullified)
     return 0;
   else
     return value;
@@ -1642,10 +1752,10 @@ Fighter.prototype.calculate_printed_stats = function () {
 };
 // Base combat stats are the sum of the printed stats and user-specified combat buffs.
 Fighter.prototype.calculate_base_combat_stats = function () {
-  this.combat_atk = this.permanent_atk + this.get_buff_value("atk") + this.assumed_atk_boost - this.get_penalty_value("atk");
-  this.combat_spd = this.permanent_spd + this.get_buff_value("spd") + this.assumed_spd_boost - this.get_penalty_value("spd");
-  this.combat_def = this.permanent_def + this.get_buff_value("def") + this.assumed_def_boost - this.get_penalty_value("def");
-  this.combat_res = this.permanent_res + this.get_buff_value("res") + this.assumed_res_boost - this.get_penalty_value("res");
+  this.combat_atk = this.permanent_atk + this.get_buff_value("atk") + this.assumed_atk_boost - this.get_active_penalty_value("atk");
+  this.combat_spd = this.permanent_spd + this.get_buff_value("spd") + this.assumed_spd_boost - this.get_active_penalty_value("spd");
+  this.combat_def = this.permanent_def + this.get_buff_value("def") + this.assumed_def_boost - this.get_active_penalty_value("def");
+  this.combat_res = this.permanent_res + this.get_buff_value("res") + this.assumed_res_boost - this.get_active_penalty_value("res");
 };
 // Apply user-specified values for field buffs and penalties.
 Fighter.prototype.apply_assumed_values = function () {
@@ -1888,37 +1998,57 @@ Fighter.prototype.apply_stat_ploy = function (ploy_string) {
 Fighter.prototype.apply_flat_stat_boost = function (effect_string, e) {
   var stat = "";
   var value_string = "";
+  var stat_boosts = new Array();
+  var result_string = "";
   // The first 16 characters of the effect_string are "flat_stat_boost()"
   var i = 16;
 
-  for (; effect_string[i] != ","; i++)
-    stat += effect_string[i];
-  for (i += 1; i < effect_string.length - 1; i++)
-    value_string += effect_string[i];
+  for (; i < effect_string.length; i++) {
+    for (; effect_string[i] != ","; i++)
+      stat += effect_string[i];
+    for (i += 1; effect_string[i] != "&" && i != effect_string.length - 1; i++)
+      value_string += effect_string[i];
 
-  var value = this.parse_num_expr(value_string, e);
+    var value = this.parse_num_expr(value_string, e);
 
-  switch (stat) {
-    case "combat_atk":
-      this.combat_atk += value;
-      return "+" + value + " Atk bonus";
-    case "combat_spd":
-      this.combat_spd += value;
-      return "+" + value + " Spd bonus";
-    case "combat_def":
-      this.combat_def += value;
-      return "+" + value + " Def bonus";
-    case "combat_res":
-      this.combat_res += value;
-      return "+" + value + " Res bonus";
+    switch (stat) {
+      case "combat_atk":
+        this.combat_atk += value;
+        stat_boosts.push(new Stat_Boost(value, "Atk"));
+        break;
+      case "combat_spd":
+        this.combat_spd += value;
+        stat_boosts.push(new Stat_Boost(value, "Spd"));
+        break;
+      case "combat_def":
+        this.combat_def += value;
+        stat_boosts.push(new Stat_Boost(value, "Def"));
+        break;
+      case "combat_res":
+        this.combat_res += value;
+        stat_boosts.push(new Stat_Boost(value, "Res"));
+        break;
+    }
+
+    stat = "";
+    value_string = "";
   }
+
+  if (stat_boosts.length > 0)
+    result_string += "+" + stat_boosts[0].value + " " + stat_boosts[0].stat;
+  for (var j = 1; j < stat_boosts.length; j++) {
+    result_string += "/+" + stat_boosts[j].value + " " + stat_boosts[j].stat;
+  }
+
+  return result_string;
 };
 Fighter.prototype.apply_scaled_stat_boost = function (effect_string, e) {
-  //scaled_stat_boost		= "scaled_stat_boost(", user_combat_stat, ",", numeric_expression, ( number | user_number_input ), ", max=", ( number | "none" ), ")"
   var stat = "";
   var base_value_string = "";
   var scale_factor_string = "";
   var max_string = "";
+  var stat_boosts = new Array();
+  var result_string = "";
 
   var base_value = 0;
   var scale_factor = 0;
@@ -1928,76 +2058,184 @@ Fighter.prototype.apply_scaled_stat_boost = function (effect_string, e) {
 
   // The first 18 characters are "scaled_stat_boost("
   var i = 18;
+  for (; i < effect_string.length; i++) {
+    for (; effect_string[i] != ","; i++)
+      stat += effect_string[i];
+    for (i += 1; effect_string[i] != ";"; i++)
+      base_value_string += effect_string[i];
+    for (i += 1; effect_string[i] != ","; i++)
+      scale_factor_string += effect_string[i];
+    for (i += 5; effect_string[i] != "&" && i != effect_string.length - 1; i++)
+      max_string += effect_string[i];
 
-  for (; effect_string[i] != ","; i++)
-    stat += effect_string[i];
-  for (i += 1; effect_string[i] != ";"; i++)
-    base_value_string += effect_string[i];
-  for (i += 1; effect_string[i] != ","; i++)
-    scale_factor_string += effect_string[i];
-  for (i += 5; i < effect_string.length - 1; i++)
-    max_string += effect_string[i];
+    base_value = this.parse_num_expr(base_value_string, e);
+    scale_factor = this.parse_num_expr(scale_factor_string, e);
+    if (max_string != "none") {
+      max = parseInt(max_string);
+      value = Math.floor(Math.min((base_value * scale_factor), max));
+    }
+    else
+      value = Math.floor(base_value * scale_factor);
 
-  base_value = this.parse_num_expr(base_value_string, e);
-  scale_factor = this.parse_num_expr(scale_factor_string, e);
-  if (max_string != "none") {
-    max = parseInt(max_string);
-    value = Math.floor(Math.min((base_value * scale_factor), max));
+    switch (stat) {
+      case "combat_atk":
+        this.combat_atk += value;
+        stat_boosts.push(new Stat_Boost(value, "Atk"));
+        break;
+      case "combat_spd":
+        this.combat_spd += value;
+        stat_boosts.push(new Stat_Boost(value, "Spd"));
+        break;
+      case "combat_def":
+        this.combat_def += value;
+        stat_boosts.push(new Stat_Boost(value, "Def"));
+        break;
+      case "combat_res":
+        this.combat_res += value;
+        stat_boosts.push(new Stat_Boost(value, "Res"));
+        break;
+      default:
+        console.log("Encountered invalid stat string when evaluating combat buffs: " + stat);
+    }
+
+    stat = "";
+    base_value_string = "";
+    scale_factor_string = "";
+    max_string = "";
+    value = 0;
   }
-  else
-    value = Math.floor(base_value * scale_factor);
 
-  switch (stat) {
-    case "combat_atk":
-      this.combat_atk += value;
-      return "+" + value + " Atk bonus";
-    case "combat_spd":
-      this.combat_spd += value;
-      return "+" + value + " Spd bonus";
-    case "combat_def":
-      this.combat_def += value;
-      return "+" + value + " Def bonus";
-    case "combat_res":
-      this.combat_res += value;
-      return "+" + value + " Res bonus";
+  if (stat_boosts.length > 0)
+    result_string += "+" + stat_boosts[0].value + " " + stat_boosts[0].stat;
+  for (var j = 1; j < stat_boosts.length; j++) {
+    result_string += "/+" + stat_boosts[j].value + " " + stat_boosts[j].stat;
   }
+
+  return result_string;
 };
 Fighter.prototype.apply_stat_penalty = function (effect_string, e) {
-// stat_penalty			= "stat_penalty(", enemy_combat_stat, ",", ( numeric_expression ), ")"
   var stat = "";
   var value_string = "";
+  var stat_penalties = new Array();
+  var result_string = "";
+
   // The first 13 characters of effect_string are "stat_penalty("
   var i = 13;
 
-  for (; effect_string[i] != ","; i++)
-    stat += effect_string[i];
-  for (i += 1; i < effect_string.length - 1; i++)
-    value_string += effect_string[i];
+  for (; i < effect_string.length; i++) {
+    for (; effect_string[i] != ","; i++)
+      stat += effect_string[i];
+    for (i += 1; effect_string[i] != "&" && i != effect_string.length - 1; i++)
+      value_string += effect_string[i];
 
-  var value = e.parse_num_expr(value_string, this);
+    var value = e.parse_num_expr(value_string, this);
 
-  switch(stat) {
-    case "e_combat_atk":
-      this.combat_atk -= value;
-      if (this.combat_atk < 0)
-        this.combat_atk = 0;
-      return "-" + value + " Atk penalty";
-    case "e_combat_spd":
-      this.combat_spd -= value;
-      if (this.combat_spd < 0)
-        this.combat_spd = 0;
-      return "-" + value + " Spd penalty";
-    case "e_combat_def":
-      this.combat_def -= value;
-      if (this.combat_def < 0)
-        this.combat_def = 0;
-      return "-" + value + " Def penalty";
-    case "e_combat_res":
-      this.combat_res -= value;
-      if (this.combat_res < 0)
-        this.combat_res = 0;
-      return "-" + value + " Res penalty";
+    switch(stat) {
+      case "e_combat_atk":
+        this.combat_atk -= value;
+        if (this.combat_atk < 0)
+          this.combat_atk = 0;
+        stat_penalties.push(new Stat_Boost(value, "Atk"));
+        break;
+      case "e_combat_spd":
+        this.combat_spd -= value;
+        if (this.combat_spd < 0)
+          this.combat_spd = 0;
+        stat_penalties.push(new Stat_Boost(value, "Spd"));
+        break;
+      case "e_combat_def":
+        this.combat_def -= value;
+        if (this.combat_def < 0)
+          this.combat_def = 0;
+        stat_penalties.push(new Stat_Boost(value, "Def"));
+        break;
+      case "e_combat_res":
+        this.combat_res -= value;
+        if (this.combat_res < 0)
+          this.combat_res = 0;
+        stat_penalties.push(new Stat_Boost(value, "Res"));
+        break;
+      default:
+        console.log("Encountered invalid stat string when evaluating combat penalties: " + stat);
+    }
+
+    stat = "";
+    value_string = "";
   }
+
+  if (stat_penalties.length > 0)
+    result_string += "-" + stat_penalties[0].value + " " + stat_penalties[0].stat;
+  for (var j = 1; j < stat_penalties.length; j++) {
+    result_string += "/-" + stat_penalties[j].value + " " + stat_penalties[j].stat;
+  }
+
+  return result_string;
+};
+Fighter.prototype.apply_scaled_stat_penalty = function (effect_string, e) {
+  var stat = "";
+  var base_value_string = "";
+  var scale_factor_string = "";
+  var max_string = "";
+  var stat_penalties = new Array();
+  var result_string = "";
+
+  // The first 20 characters of effect_string are "scaled_stat_penalty("
+  var i = 20;
+
+  for (; i < effect_string.length; i++) {
+    for (; effect_string[i] != ","; i++)
+      stat += effect_string[i];
+    for (i += 1; effect_string[i] != ";"; i++)
+      base_value_string += effect_string[i];
+    for (i += 1; effect_string[i] != ","; i++)
+      scale_factor_string += effect_string[i];
+    for (i += 5; effect_string[i] != "&" && i != effect_string.length - 1; i++)
+      max_string += effect_string[i];
+
+    base_value = e.parse_num_expr(base_value_string, this);
+    scale_factor = e.parse_num_expr(scale_factor_string, this);
+    if (max_string != "none") {
+      max = parseInt(max_string);
+      value = Math.floor(Math.min((base_value * scale_factor), max));
+    }
+    else
+      value = Math.floor(base_value * scale_factor);
+
+    switch (stat) {
+      case "e_combat_atk":
+        this.combat_atk -= value;
+        stat_penalties.push(new Stat_Boost(value, "Atk"));
+        break;
+      case "e_combat_spd":
+        this.combat_spd -= value;
+        stat_penalties.push(new Stat_Boost(value, "Spd"));
+        break;
+      case "e_combat_def":
+        this.combat_def -= value;
+        stat_penalties.push(new Stat_Boost(value, "Def"));
+        break;
+      case "e_combat_res":
+        this.combat_res -= value;
+        stat_penalties.push(new Stat_Boost(value, "Res"));
+        break;
+      default:
+        console.log("Encountered invalid stat string when evaluating combat penalties: " + stat);
+    }
+
+    stat = "";
+    base_value_string = "";
+    scale_factor_string = "";
+    max_string = "";
+    value = 0;
+  }
+
+  if (stat_penalties.length > 0)
+    result_string += "-" + stat_penalties[0].value + " " + stat_penalties[0].stat;
+  for (var j = 1; j < stat_penalties.length; j++) {
+    result_string += "/-" + stat_penalties[j].value + " " + stat_penalties[j].stat;
+  }
+
+  return result_string;
 };
 Fighter.prototype.calculate_precombat_damage = function (effect_string, e) {
   var reader = "";
@@ -2587,22 +2825,36 @@ Fighter.prototype.set_neutralize_bonus_flags = function (effect_string) {
 };
 Fighter.prototype.set_neutralize_penalty_flags = function (effect_string) {
   var reader = "";
+  var log_string = "";
+  var neutralized_penalties = new Array();
 
   // The first 21 characters of effect_string are "neutralize_penalties(".
   for (var i = 21; i < effect_string.length; i++) {
     if (effect_string[i] == "," || i == effect_string.length - 1) {
       switch(reader) {
         case "atk_penalty":
-          this.atk_penalty_neutralized = true;
+          if (this.atk_penalty > 0 || this.atk_buff < 0) {
+            this.atk_penalty_neutralized = true;
+            neutralized_penalties.push("Atk")
+          }
           break;
         case "spd_penalty":
-          this.spd_penalty_neutralized = true;
+          if (this.spd_penalty > 0 || this.spd_buff < 0) {
+            this.spd_penalty_neutralized = true;
+            neutralized_penalties.push("Spd");
+          }
           break;
         case "def_penalty":
-          this.def_penalty_neutralized = true;
+          if (this.def_penalty > 0 || this.def_buff < 0) {
+            this.def_penalty_neutralized = true;
+            neutralized_penalties.push("Def");
+          }
           break;
         case "res_penalty":
-          this.res_penalty_neutralized = true;
+          if (this.res_penalty > 0 || this.res_buff < 0) {
+            this.res_penalty_neutralized = true;
+            neutralized_penalties.push("Res");
+          }
           break;
         default:
           console.log("Invalid penalty name " + reader + " was encountered while setting penalty neutralization flags.");
@@ -2611,6 +2863,18 @@ Fighter.prototype.set_neutralize_penalty_flags = function (effect_string) {
     }
     else
       reader += effect_string[i];
+  }
+
+  if (neutralized_penalties.length == 0) {
+    return ", but there were no penalties to neutralize.<br />";
+  }
+  else if (neutralized_penalties.length == 1) {
+    return ". The " + neutralized_penalties[0] + " penalty was neutralized.<br />";
+  }
+  else {
+    for (var i = 0; i < neutralized_penalties.length - 1; i++)
+      log_string += neutralized_penalties[i] + ", ";
+    return ". The " + log_string + " and " + neutralized_penalties[neutralized_penalties.length - 1] + " penalties were neutralized.<br />";
   }
 };
 Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
@@ -2627,32 +2891,32 @@ Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
             this.atk_penalty_nullified = true;
             nullified_penalties.push("Atk");
           }
-          this.atk_penalty = 0;
-          this.atk_buff = Math.max(this.atk_buff, 0);
+          //this.atk_penalty = 0;
+          //this.atk_buff = Math.max(this.atk_buff, 0);
           break;
         case "spd_penalty":
           if (this.spd_penalty > 0 || this.spd_buff < 0) {
             this.spd_penalty_nullified = true;
             nullified_penalties.push("Spd");
           }
-          this.spd_penalty = 0;
-          this.spd_buff = Math.max(this.spd_buff, 0);
+          //this.spd_penalty = 0;
+          //this.spd_buff = Math.max(this.spd_buff, 0);
           break;
         case "def_penalty":
           if (this.def_penalty > 0 || this.def_buff < 0) {
             this.def_penalty_nullified = true;
             nullified_penalties.push("Def");
           }
-          this.def_penalty = 0;
-          this.def_buff = Math.max(this.def_buff, 0);
+          //this.def_penalty = 0;
+          //this.def_buff = Math.max(this.def_buff, 0);
           break;
         case "res_penalty":
           if (this.res_penalty > 0 || this.res_buff < 0) {
             this.res_penalty_nullified = true;
             nullified_penalties.push("Res");
           }
-          this.res_penalty = 0;
-          this.res_buff = Math.max(this.res_buff, 0);
+          //this.res_penalty = 0;
+          //this.res_buff = Math.max(this.res_buff, 0);
           break;
         default:
           console.log("Invalid penalty name " + reader + " was encountered while setting penalty nullification flags.");
@@ -2715,21 +2979,8 @@ Fighter.prototype.set_extra_movement_flag = function (value) {
 Fighter.prototype.set_transformed_flag = function (value) {
   this.transformed_input = value;
 };
-
-// ALL CODE BEYOND THIS POINT MAY NOT BE NEEDED
-
-// Resets debuffs to the assumed values (set by user).
-Fighter.prototype.reset_debuffs = function() {
-  this.atk_penalty = this.assumed_atk_penalty;
-  this.spd_penalty = this.assumed_spd_penalty;
-  this.def_penalty = this.assumed_def_penalty;
-  this.res_penalty = this.assumed_res_penalty;
-  this.panic_active = false;
-};
-// Resets buffs to the assumed values (set by user).
-Fighter.prototype.reset_buffs = function() {
-  this.atk_buff = this.assumed_atk_buff;
-  this.spd_buff = this.assumed_spd_buff;
-  this.def_buff = this.assumed_def_buff;
-  this.res_buff = this.assumed_res_buff;
+Fighter.prototype.set_nearby_allies = function (one, two, three) {
+  this.adjacent_allies = parseInt(one);
+  this.two_space_allies = parseInt(two);
+  this.three_space_allies = parseInt(three);
 };

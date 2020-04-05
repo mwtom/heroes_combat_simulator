@@ -78,5 +78,6 @@ var one_range_weapons = ["S", "L", "A", "RD", "BD", "GD", "ND", "RBe", "BBe", "G
 var two_range_weapons = ["RT", "BT", "GT", "NT", "ST", "RB", "BB", "GB", "NB", "RK", "BK", "GK", "NK", "K", "B"];
 var phase = "";
 var in_combat = false;
+var turn_number = 1;
 
 /* ************************* END OF GLOBAL VARIABLES ************************* */

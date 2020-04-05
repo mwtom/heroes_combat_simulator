@@ -329,6 +329,11 @@ function verify_legality(unit, skill) {
         return false;
       }
       break;
+    case "NT":
+      if (!skill.nt_can_inherit) {
+        return false;
+      }
+      break;
     case "RB":
       if (!skill.rbow_can_inherit) {
         return false;

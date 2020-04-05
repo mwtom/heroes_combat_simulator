@@ -6,12 +6,13 @@
 <title></title>
 </head>
 <body>
-<script src="FE Heroes - Raw Data 2.0.js"></script>
-<script src="fighter_single_round.js"></script>
-<script src="mechanics_single_round.js"></script>
 <script src="ui.js"></script>
 <script src="data.js"></script>
 <script src="effect.js"></script>
+<script src="stat_boost.js"></script>
+<script src="FE Heroes - Raw Data 2.0.js"></script>
+<script src="fighter_single_round.js"></script>
+<script src="mechanics_single_round.js"></script>
 <script src="jquery-3.2.1.min.js"></script>
 <script>
 // Start up the simulator.
@@ -590,6 +591,10 @@ $(document).ready(function() {
             Break Inheritance Restrictions
           </label>
           <br />
+          <input type="number" id="Turn" class="Extras" value="1" min="1" />
+          <label for="Turn">
+            Turn Number
+          </label>
         </div>
       </div>
     </div>
@@ -726,7 +731,7 @@ $(document).ready(function() {
               Adjacent Allies:
             </td>
             <td>
-              <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="3" />
+              <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="4" />
             </td>
           </tr>
           <tr>
@@ -734,7 +739,15 @@ $(document).ready(function() {
               Allies 2 Spaces Away:
             </td>
             <td>
-              <input type="number" id="TwoSpaceAllies" value="0" class="Extras" min="0" max="3" />
+              <input type="number" id="TwoSpaceAllies" value="0" class="Extras" min="0" max="7" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Allies 3 Spaces Away:
+            </td>
+            <td>
+              <input type="number" id="ThreeSpaceAllies" value="0" class="Extras" min="0" max="7" />
             </td>
           </tr>
         </table>
@@ -1270,7 +1283,7 @@ $(document).ready(function() {
               Adjacent Allies:
             </td>
             <td>
-              <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="3" />
+              <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="4" />
             </td>
           </tr>
           <tr>
@@ -1278,9 +1291,16 @@ $(document).ready(function() {
               Allies 2 Spaces Away:
             </td>
             <td>
-              <input type="number" id="EnemyTwoSpaceAllies" value="0" class="Extras" min="0" max="3" />
+              <input type="number" id="EnemyTwoSpaceAllies" value="0" class="Extras" min="0" max="7" />
             </td>
           </tr>
+          <tr>
+            <td>
+              Allies 3 Spaces Away:
+            </td>
+            <td>
+              <input type="number" id="EnemyThreeSpaceAllies" value="0" class="Extras" min="0" max="7" />
+            </td>
         </table>
         <br>
         <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" checked />

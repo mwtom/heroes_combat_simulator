@@ -1,4 +1,7 @@
 function simulate() {
+  // Set the turn number.
+  turn_number = parseInt(document.getElementById("Turn").value);
+
   // Builds the attacker from the values selected on the UI.
   var blessings = new Array(3);
   if (document.getElementById("Blessing").value != "(None)") {
@@ -52,6 +55,7 @@ function simulate() {
   Attacker.set_skill_inputs("C", document.getElementById("c_boolean_input").checked, document.getElementById("c_number_input").value);
   Attacker.set_skill_inputs("S", document.getElementById("seal_boolean_input").checked, document.getElementById("seal_number_input").value);
   Attacker.set_transformed_flag(document.getElementById("transformed_input").checked);
+  Attacker.set_nearby_allies(document.getElementById("AdjAllies").value, document.getElementById("TwoSpaceAllies").value, document.getElementById("ThreeSpaceAllies").value);
 
   // The attacker is controlled by the player.
   Attacker.set_control_flag("player");
@@ -215,6 +219,8 @@ function simulate() {
       Defender.set_assumed_spd_penalty(document.getElementById("EnemySpdDebuff").value);
       Defender.set_assumed_def_penalty(document.getElementById("EnemyDefDebuff").value);
       Defender.set_assumed_res_penalty(document.getElementById("EnemyResDebuff").value);
+
+      Defender.set_nearby_allies(document.getElementById("EnemyAdjAllies").value, document.getElementById("EnemyTwoSpaceAllies").value, document.getElementById("EnemyThreeSpaceAllies").value);
 
       Defender.calculate_permanent_stats();
 
@@ -615,19 +621,28 @@ function execute_phase(player, enemy, player_initiating) {
       if (attacker.eval_conditions(attacker.precombat_damage_effects[i].conditions, defender)) {
         // Calculate the initial precombat_dmg value.
         var precombat_dmg = attacker.calculate_precombat_damage(attacker.precombat_damage_effects[i].effect, defender);
+        var pct_mit;
 
         // Add any valid sources of bonus damage.
-        for (var i = 0; i < attacker.bonus_damage_effects.length; i++)
-          if (attacker.eval_conditions(attacker.bonus_damage_effects[i].conditions, defender))
-            precombat_dmg += attacker.calculate_extra_damage(attacker.bonus_damage_effects[i].effect, defender);
+        for (var j = 0; j < attacker.bonus_damage_effects.length; j++)
+          if (attacker.eval_conditions(attacker.bonus_damage_effects[j].conditions, defender))
+            precombat_dmg += attacker.calculate_extra_damage(attacker.bonus_damage_effects[j].effect, defender);
 
         // Apply any mitigations.
-        for (var i = 0; i < defender.flat_percent_precombat_mitigation_effects.length; i++)
-          if (defender.eval_conditions(defender.flat_percent_precombat_mitigation_effects[i].conditions, attacker))
-            precombat_dmg -= Math.floor(precombat_dmg * defender.calculate_flat_percent_mitigation(defender.flat_percent_precombat_mitigation_effects[i].effect, attacker) / 100);
-        for (var i = 0; i < defender.scaled_percent_precombat_mitigation_effects.length; i++)
-          if (defender.eval_conditions(defender.scaled_percent_precombat_mitigation_effects[i].conditions, attacker))
-            precombat_dmg -= Math.floor(precombat_dmg * defender.calculate_scaled_percent_mitigation(defender.scaled_percent_precombat_mitigation_effects[i].effect, attacker) / 100);
+        for (var j = 0; j < defender.flat_percent_precombat_mitigation_effects.length; j++) {
+          if (defender.eval_conditions(defender.flat_percent_precombat_mitigation_effects[j].conditions, attacker)) {
+            pct_mit = defender.calculate_flat_percent_mitigation(defender.flat_percent_precombat_mitigation_effects[j].effect, attacker);
+            combat_log += defender.get_name() + "'s " + defender.flat_percent_precombat_mitigation_effects[j].source + " reduces damage by " + pct_mit + "%!<br />";
+            precombat_dmg -= Math.floor(precombat_dmg * pct_mit / 100);
+          }
+        }
+        for (var j = 0; j < defender.scaled_percent_precombat_mitigation_effects.length; j++) {
+          if (defender.eval_conditions(defender.scaled_percent_precombat_mitigation_effects[i].conditions, attacker)) {
+            pct_mit = defender.calculate_scaled_percent_mitigation(defender.scaled_percent_precombat_mitigation_effects[j].effect, attacker);
+            combat_log += defender.get_name() + "'s " + defender.scaled_percent_precombat_mitigation_effects[j].source + " reduces damage by " + pct_mit + "%!<br />";
+            precombat_dmg -= Math.floor(precombat_dmg * pct_mit / 100);
+          }
+        }
 
         defender.reduce_hp(precombat_dmg);
         combat_log += defender.get_name() + " takes non-lethal damage up to " + precombat_dmg + ", and has " + defender.get_hp() + " HP remaining.<br />";
@@ -670,10 +685,10 @@ function execute_phase(player, enemy, player_initiating) {
   // Set neutralize and nullify penalty flags.
   for (var i = 0; i < attacker.neutralize_penalty_effects.length; i++)
     if (attacker.eval_conditions(attacker.neutralize_penalty_effects[i].conditions, defender))
-      attacker.set_neutralize_penalty_flags(attacker.neutralize_penalty_effects[i].effect);
+      combat_log += attacker.get_name() + "'s " + attacker.neutralize_penalty_effects[i].source + " neutralizes penalties" + attacker.set_neutralize_penalty_flags(attacker.neutralize_penalty_effects[i].effect);
   for (var i = 0; i < defender.neutralize_penalty_effects.length; i++)
     if (defender.eval_conditions(defender.neutralize_penalty_effects[i].conditions, attacker))
-      defender.set_neutralize_penalty_flags(defender.neutralize_penalty_effects[i].effect);
+      combat_log += defender.get_name() + "'s " + defender.neutralize_penalty_effects[i].source + " neutralizes penalties" + defender.set_neutralize_penalty_flags(defender.neutralize_penalty_effects[i].effect);
 
   for (var i = 0; i < attacker.nullify_penalty_effects.length; i++)
     if (attacker.eval_conditions(attacker.nullify_penalty_effects[i].conditions, defender))
@@ -751,20 +766,56 @@ function execute_phase(player, enemy, player_initiating) {
   // Combat is now starting.
   in_combat = true;
 
+  // Re-evaluate whether the units deal adaptive damage.
+
+  // Determine whether the units neutralize adaptive damage.
+  for (var i = 0; i < attacker.neutralize_adaptive_damage_effects.length; i++) {
+    if (attacker.eval_conditions(attacker.neutralize_adaptive_damage_effects[i].conditions, defender)) {
+      attacker.set_neutralize_adaptive_damage_flag(true);
+      defender.set_adaptive_damage_flag(false);
+      break;
+    }
+  }
+  for (var i = 0; i < defender.neutralize_adaptive_damage_effects.length; i++) {
+    if (defender.eval_conditions(defender.neutralize_adaptive_damage_effects[i].conditions, attacker)) {
+      defender.set_neutralize_adaptive_damage_flag(true);
+      attacker.set_adaptive_damage_flag(false);
+      break;
+    }
+  }
+  // Determine whether the units deal adaptive damage.
+  if (!defender.get_neutralize_adaptive_damage_flag()) {
+    for (var i = 0; i < attacker.adaptive_damage_effects.length; i++) {
+      if (attacker.eval_conditions(attacker.adaptive_damage_effects[i].conditions, defender)) {
+        attacker.set_adaptive_damage_flag(true);
+        break;
+      }
+    }
+  }
+
+  if (!attacker.get_neutralize_adaptive_damage_flag()) {
+    for (var i = 0; i < defender.adaptive_damage_effects.length; i++) {
+      if (defender.eval_conditions(defender.adaptive_damage_effects[i].conditions, attacker)) {
+        defender.set_adaptive_damage_flag(true);
+        break;
+      }
+    }
+  }
+
   // Next, apply combat bonuses from the user's skills.
   for (var i = 0; i < attacker.flat_stat_boost_effects.length; i++)
     if (attacker.eval_conditions(attacker.flat_stat_boost_effects[i].conditions, defender))
       //attacker.apply_flat_stat_boost(attacker.flat_stat_boost_effects[i].effect, defender);
-      combat_log += attacker.get_name() + "'s " + attacker.flat_stat_boost_effects[i].source + " grants a " + attacker.apply_flat_stat_boost(attacker.flat_stat_boost_effects[i].effect, defender) + ".<br />";
+      combat_log += attacker.get_name() + "'s " + attacker.flat_stat_boost_effects[i].source + " grants " + attacker.apply_flat_stat_boost(attacker.flat_stat_boost_effects[i].effect, defender) + ".<br />";
   for (var i = 0; i < attacker.scaled_stat_boost_effects.length; i++)
     if (attacker.eval_conditions(attacker.scaled_stat_boost_effects[i].conditions, defender))
-      combat_log += attacker.get_name() + "'s " + attacker.scaled_stat_boost_effects[i].source + " grants a " + attacker.apply_scaled_stat_boost(attacker.scaled_stat_boost_effects[i].effect, defender) + ".<br />";
+      combat_log += attacker.get_name() + "'s " + attacker.scaled_stat_boost_effects[i].source + " grants " + attacker.apply_scaled_stat_boost(attacker.scaled_stat_boost_effects[i].effect, defender) + ".<br />";
   for (var i = 0; i < defender.flat_stat_boost_effects.length; i++)
     if (defender.eval_conditions(defender.flat_stat_boost_effects[i].conditions, attacker))
-      combat_log += defender.get_name() + "'s " + defender.flat_stat_boost_effects[i].source + " grants a " + defender.apply_flat_stat_boost(defender.flat_stat_boost_effects[i].effect, attacker) + ".<br />";
+      combat_log += defender.get_name() + "'s " + defender.flat_stat_boost_effects[i].source + " grants " + defender.apply_flat_stat_boost(defender.flat_stat_boost_effects[i].effect, attacker) + ".<br />";
   for (var i = 0; i < defender.scaled_stat_boost_effects.length; i++)
     if (defender.eval_conditions(defender.scaled_stat_boost_effects[i].conditions, attacker))
-      combat_log += defender.get_name() + "'s " + defender.scaled_stat_boost_effects[i].source + " grants a " + defender.apply_scaled_stat_boost(defender.scaled_stat_boost_effects[i].effect, attacker) + ".<br />";
+      combat_log += defender.get_name() + "'s " + defender.scaled_stat_boost_effects[i].source + " grants " + defender.apply_scaled_stat_boost(defender.scaled_stat_boost_effects[i].effect, attacker) + ".<br />";
   // Also apply any bonus movement effects.
   for (var i = 0; i < attacker.extra_movement_effects.length; i++) {
     if (attacker.eval_conditions(attacker.extra_movement_effects[i].conditions, defender)) {
@@ -782,10 +833,16 @@ function execute_phase(player, enemy, player_initiating) {
   // Next, apply any combat penalties applied by the other fighter.
   for (var i = 0; i < attacker.stat_penalty_effects.length; i++)
     if (attacker.eval_conditions(attacker.stat_penalty_effects[i].conditions, defender))
-      combat_log += attacker.get_name() + "'s " + attacker.stat_penalty_effects[i].source + " inflicts a " + defender.apply_stat_penalty(attacker.stat_penalty_effects[i].effect, attacker) + " on " + defender.get_name() + ".<br />";
+      combat_log += attacker.get_name() + "'s " + attacker.stat_penalty_effects[i].source + " inflicts " + defender.apply_stat_penalty(attacker.stat_penalty_effects[i].effect, attacker) + " on " + defender.get_name() + ".<br />";
+  for (var i = 0; i < attacker.scaled_stat_penalty_effects.length; i++)
+    if (attacker.eval_conditions(attacker.scaled_stat_penalty_effects[i].conditions, defender))
+      combat_log += attacker.get_name() + "'s " + attacker.scaled_stat_penalty_effects[i].source + " inflicts " + defender.apply_scaled_stat_penalty(attacker.scaled_stat_penalty_effects[i].effect, attacker) + " on " + defender.get_name() + ".<br />";
   for (var i = 0; i < defender.stat_penalty_effects.length; i++)
     if (defender.eval_conditions(defender.stat_penalty_effects[i].conditions, attacker))
-      combat_log += defender.get_name() + "'s " + defender.stat_penalty_effects[i].source + " inflicts a " + attacker.apply_stat_penalty(defender.stat_penalty_effects[i].effect, defender) + " on " + attacker.get_name() + ".<br />";
+      combat_log += defender.get_name() + "'s " + defender.stat_penalty_effects[i].source + " inflicts " + attacker.apply_stat_penalty(defender.stat_penalty_effects[i].effect, defender) + " on " + attacker.get_name() + ".<br />";
+  for (var i = 0; i < defender.scaled_stat_penalty_effects.length; i++)
+    if (defender.eval_conditions(defender.scaled_stat_penalty_effects[i].conditions, attacker))
+      combat_log += defender.get_name() + "'s " + defender.scaled_stat_penalty_effects[i].source + " inflicts " + attacker.apply_scaled_stat_penalty(defender.scaled_stat_penalty_effects[i].effect, defender) + " on " + attacker.get_name() + ".<br />";
 
   // Calculate effective attack stats.
   for (var i = 0; i < attacker.neutralize_triangle_amplifier_effects.length; i++) {
@@ -1081,7 +1138,7 @@ function execute_phase(player, enemy, player_initiating) {
 
   // The action is complete, remove any debuffs from the previous turn, and zero out
   // next_atk_bonus_dmg values.
-  attacker.reset_debuffs();
+  // attacker.reset_debuffs();
   attacker.set_next_atk_bonus_dmg(0);
   defender.set_next_atk_bonus_dmg(0);
 
@@ -1330,6 +1387,7 @@ function calculate_damage(attacker, defender) {
   for (var i = 0; i < attacker.neutralize_scaled_mitigation_effects.length; i++) {
     if (attacker.eval_conditions(attacker.neutralize_scaled_mitigation_effects[i].conditions, defender)) {
       attacker.set_neutralize_scaled_mitigation_flag(true);
+      combat_log += attacker.get_name() + "'s " + attacker.neutralize_scaled_mitigation_effects[i].source + " will neutralize percent-based mitigation this attack!<br />";
       break;
     }
   }
