@@ -8,11 +8,13 @@ function loadUI() {
   document.getElementById("Character").innerHTML = UImsg;
 
   fill_skill_menus();
+  fill_options_menus();
   fill_enemy_menus();
 }
 
 function reload_options() {
   fill_skill_menus();
+  fill_options_menus();
 
   document.getElementById("MergeLv").value = 0;
 
@@ -106,7 +108,7 @@ function fill_skill_menus() {
   // Populate the Special list.
   msg = msg + "<option value='" + Characters[unit_id].base_proc + "'>" + Procs[Characters[unit_id].base_proc].name + "</option>";
   document.getElementById("player_special_img").innerHTML = "<img src=\"images/special_icon.png\" class=\"icon\" />";
-  document.getElementById("player_special_desc").innerHTML = Procs[Characters[unit_id].base_proc].desc;
+  //document.getElementById("player_special_desc").innerHTML = Procs[Characters[unit_id].base_proc].desc;
   for (var i = 0; i < Procs.length; i++) {
     if (i != Characters[unit_id].base_proc) {
       if (verify_legality(Characters[unit_id], Procs[i]) || document.getElementById("RuleBreaker").checked) {
@@ -120,7 +122,7 @@ function fill_skill_menus() {
   // Populate the A Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_a + "'>" + A_Passives[Characters[unit_id].base_a].name + "</option>";
   document.getElementById("player_a_img").innerHTML = "<img src=\"" + process_skill_path(A_Passives[Characters[unit_id].base_a].name) + "\" class=\"icon\" />";
-  document.getElementById("player_a_desc").innerHTML = A_Passives[Characters[unit_id].base_a].desc;
+  //document.getElementById("player_a_desc").innerHTML = A_Passives[Characters[unit_id].base_a].desc;
   for (var i = 0; i < A_Passives.length; i++) {
     if (i != Characters[unit_id].base_a) {
       if(verify_legality(Characters[unit_id], A_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -134,7 +136,7 @@ function fill_skill_menus() {
   // Populate the B Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_b + "'>" + B_Passives[Characters[unit_id].base_b].name + "</option>";
   document.getElementById("player_b_img").innerHTML = "<img src=\"" + process_skill_path(B_Passives[Characters[unit_id].base_b].name) + "\" class=\"icon\" />";
-  document.getElementById("player_b_desc").innerHTML = B_Passives[Characters[unit_id].base_b].desc;
+  //document.getElementById("player_b_desc").innerHTML = B_Passives[Characters[unit_id].base_b].desc;
   for (var i = 0; i < B_Passives.length; i++) {
     if (i != Characters[unit_id].base_b) {
       if(verify_legality(Characters[unit_id], B_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -148,7 +150,7 @@ function fill_skill_menus() {
   // Populate the C Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_c + "'>" + C_Passives[Characters[unit_id].base_c].name + "</option>";
   document.getElementById("player_c_img").innerHTML = "<img src=\"" + process_skill_path(C_Passives[Characters[unit_id].base_c].name) + "\" class=\"icon\" />";
-  document.getElementById("player_c_desc").innerHTML = C_Passives[Characters[unit_id].base_c].desc;
+  //document.getElementById("player_c_desc").innerHTML = C_Passives[Characters[unit_id].base_c].desc;
   for (var i = 0; i < C_Passives.length; i++) {
     if (i != Characters[unit_id].base_c) {
       if(verify_legality(Characters[unit_id], C_Passives[i]) || document.getElementById("RuleBreaker").checked) {
@@ -161,7 +163,7 @@ function fill_skill_menus() {
 
   // Populate the Sacred Seal list.
   document.getElementById("player_seal_img").innerHTML = "<img src=\"" + process_seal_path(Seals[0].name) + "\" class=\"icon\" />";
-  document.getElementById("player_seal_desc").innerHTML = Seals[0].desc;
+  //document.getElementById("player_seal_desc").innerHTML = Seals[0].desc;
   for (var i = 0; i < Seals.length; i++) {
     if (verify_legality(Characters[unit_id], Seals[i]) || document.getElementById("RuleBreaker").checked) {
       msg = msg + "<option value='" + i + "'>" + Seals[i].name + "</option>";
@@ -170,18 +172,56 @@ function fill_skill_menus() {
   document.getElementById("Seal").innerHTML = msg;
   msg = "";
 
-  // If the selected chracter is not a Legendary Hero, populate the
-  // Elements/Blessings Menu.
+  // Populate the Blessings menu based on whether the hero is Legendary, Mythic, or neither.
   msg = "<option value=\"(None)\">(None)</option>";
-  if (!Characters[unit_id].legendary) {
+  if (!Characters[unit_id].legendary && !Characters[unit_id].mythic) {
     msg += "<option value=\"Earth\">Earth</option>";
     msg += "<option value=\"Fire\">Fire</option>";
     msg += "<option value=\"Water\">Water</option>";
     msg += "<option value=\"Wind\">Wind</option>";
+    msg += "<option value=\"Light\">Light</option>";
+    msg += "<option value=\"Dark\">Dark</option>";
+    msg += "<option value=\"Astra\">Astra</option>";
+    msg += "<option value=\"Anima\">Anima</option>";
+  }
+  else if (Characters[unit_id].legendary) {
+    msg += "<option value=\"Light\">Light</option>";
+    msg += "<option value=\"Dark\">Dark</option>";
+    msg += "<option value=\"Astra\">Astra</option>";
+    msg += "<option value=\"Anima\">Anima</option>";
+  }
+  else {
+    msg += "<option value=\"Earth/Fire\">Earth/Fire</option>";
+    msg += "<option value=\"Earth/Water\">Earth/Water</option>";
+    msg += "<option value=\"Earth/Wind\">Earth/Wind</option>";
+    msg += "<option value=\"Fire/Water\">Fire/Water</option>";
+    msg += "<option value=\"Fire/Wind\">Fire/Wind</option>";
+    msg += "<option value=\"Water/Wind\">Water/Wind</option>";
   }
   document.getElementById("Blessing").innerHTML = msg;
 
   check_special_effects();
+}
+
+function fill_options_menus() {
+  var char_index; //, weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
+  char_index = parseInt(document.getElementById("Character").value);
+  /*weap_index = parseInt(document.getElementById("Weapon").value);
+  weap_refine = document.getElementById("WeaponUpgrade").value;
+  spec_index = parseInt(document.getElementById("Special").value);
+  a_index = parseInt(document.getElementById("A").value);
+  b_index = parseInt(document.getElementById("B").value);
+  c_index = parseInt(document.getElementById("C").value);
+  seal_index = parseInt(document.getElementById("Seal").value);*/
+
+  var Character;//, Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  Character = Characters[char_index];
+
+  var dragonflower_options = "";
+  for (var i = 0; i <= Character.df_maximum; i++)
+    dragonflower_options += "<option value=" + i + ">" + i + "</option>";
+
+  $("#Dragonflowers").html(dragonflower_options);
 }
 
 function find_upgrades(weap_id) {
@@ -265,6 +305,10 @@ function fill_enemy_menus() {
   msg += "<option value=\"Fire\">Fire</option>";
   msg += "<option value=\"Water\">Water</option>";
   msg += "<option value=\"Wind\">Wind</option>";
+  msg += "<option value=\"Light\">Light</option>";
+  msg += "<option value=\"Dark\">Dark</option>";
+  msg += "<option value=\"Astra\">Astra</option>";
+  msg += "<option value=\"Anima\">Anima</option>";
   document.getElementById("EnemyBlessing").innerHTML = msg;
 }
 
@@ -446,6 +490,7 @@ function select_all_weapons() {
   document.getElementById("R Tome").checked = true;
   document.getElementById("B Tome").checked = true;
   document.getElementById("G Tome").checked = true;
+  document.getElementById("N Tome").checked = true;
   document.getElementById("R Breath").checked = true;
   document.getElementById("B Breath").checked = true;
   document.getElementById("G Breath").checked = true;
@@ -459,6 +504,10 @@ function select_all_weapons() {
   document.getElementById("G Dagger").checked = true;
   document.getElementById("N Dagger").checked = true;
   document.getElementById("Staff").checked = true;
+  document.getElementById("R Beast").checked = true;
+  document.getElementById("B Beast").checked = true;
+  document.getElementById("G Beast").checked = true;
+  document.getElementById("N Beast").checked = true;
 }
 
 // Unchecks all weapon-based filter checkboxes.
@@ -469,6 +518,7 @@ function deselect_all_weapons() {
   document.getElementById("R Tome").checked = false;
   document.getElementById("B Tome").checked = false;
   document.getElementById("G Tome").checked = false;
+  document.getElementById("N Tome").checked = false;
   document.getElementById("R Breath").checked = false;
   document.getElementById("B Breath").checked = false;
   document.getElementById("G Breath").checked = false;
@@ -482,6 +532,118 @@ function deselect_all_weapons() {
   document.getElementById("G Dagger").checked = false;
   document.getElementById("N Dagger").checked = false;
   document.getElementById("Staff").checked = false;
+  document.getElementById("R Beast").checked = false;
+  document.getElementById("B Beast").checked = false;
+  document.getElementById("G Beast").checked = false;
+  document.getElementById("N Beast").checked = false;
+}
+
+function select_magical_weapons() {
+  document.getElementById("R Tome").checked = true;
+  document.getElementById("B Tome").checked = true;
+  document.getElementById("G Tome").checked = true;
+  document.getElementById("N Tome").checked = true;
+  document.getElementById("R Breath").checked = true;
+  document.getElementById("B Breath").checked = true;
+  document.getElementById("G Breath").checked = true;
+  document.getElementById("N Breath").checked = true;
+  document.getElementById("Staff").checked = true;
+  document.getElementById("Sword").checked = false;
+  document.getElementById("Lance").checked = false;
+  document.getElementById("Axe").checked = false;
+  document.getElementById("R Bow").checked = false;
+  document.getElementById("B Bow").checked = false;
+  document.getElementById("G Bow").checked = false;
+  document.getElementById("N Bow").checked = false;
+  document.getElementById("R Dagger").checked = false;
+  document.getElementById("B Dagger").checked = false;
+  document.getElementById("G Dagger").checked = false;
+  document.getElementById("N Dagger").checked = false;
+  document.getElementById("R Beast").checked = false;
+  document.getElementById("B Beast").checked = false;
+  document.getElementById("G Beast").checked = false;
+  document.getElementById("N Beast").checked = false;
+}
+
+function select_physical_weapons() {
+  document.getElementById("Sword").checked = true;
+  document.getElementById("Lance").checked = true;
+  document.getElementById("Axe").checked = true;
+  document.getElementById("R Bow").checked = true;
+  document.getElementById("B Bow").checked = true;
+  document.getElementById("G Bow").checked = true;
+  document.getElementById("N Bow").checked = true;
+  document.getElementById("R Dagger").checked = true;
+  document.getElementById("B Dagger").checked = true;
+  document.getElementById("G Dagger").checked = true;
+  document.getElementById("N Dagger").checked = true;
+  document.getElementById("R Beast").checked = true;
+  document.getElementById("B Beast").checked = true;
+  document.getElementById("G Beast").checked = true;
+  document.getElementById("N Beast").checked = true;
+  document.getElementById("R Tome").checked = false;
+  document.getElementById("B Tome").checked = false;
+  document.getElementById("G Tome").checked = false;
+  document.getElementById("N Tome").checked = false;
+  document.getElementById("R Breath").checked = false;
+  document.getElementById("B Breath").checked = false;
+  document.getElementById("G Breath").checked = false;
+  document.getElementById("N Breath").checked = false;
+  document.getElementById("Staff").checked = false;
+}
+
+function select_one_range_weapons() {
+  document.getElementById("Sword").checked = true;
+  document.getElementById("Lance").checked = true;
+  document.getElementById("Axe").checked = true;
+  document.getElementById("R Breath").checked = true;
+  document.getElementById("B Breath").checked = true;
+  document.getElementById("G Breath").checked = true;
+  document.getElementById("N Breath").checked = true;
+  document.getElementById("R Beast").checked = true;
+  document.getElementById("B Beast").checked = true;
+  document.getElementById("G Beast").checked = true;
+  document.getElementById("N Beast").checked = true;
+  document.getElementById("R Tome").checked = false;
+  document.getElementById("B Tome").checked = false;
+  document.getElementById("G Tome").checked = false;
+  document.getElementById("N Tome").checked = false;
+  document.getElementById("R Bow").checked = false;
+  document.getElementById("B Bow").checked = false;
+  document.getElementById("G Bow").checked = false;
+  document.getElementById("N Bow").checked = false;
+  document.getElementById("R Dagger").checked = false;
+  document.getElementById("B Dagger").checked = false;
+  document.getElementById("G Dagger").checked = false;
+  document.getElementById("N Dagger").checked = false;
+  document.getElementById("Staff").checked = false;
+}
+
+function select_two_range_weapons() {
+  document.getElementById("R Tome").checked = true;
+  document.getElementById("B Tome").checked = true;
+  document.getElementById("G Tome").checked = true;
+  document.getElementById("N Tome").checked = true;
+  document.getElementById("R Bow").checked = true;
+  document.getElementById("B Bow").checked = true;
+  document.getElementById("G Bow").checked = true;
+  document.getElementById("N Bow").checked = true;
+  document.getElementById("R Dagger").checked = true;
+  document.getElementById("B Dagger").checked = true;
+  document.getElementById("G Dagger").checked = true;
+  document.getElementById("N Dagger").checked = true;
+  document.getElementById("Staff").checked = true;
+  document.getElementById("Sword").checked = false;
+  document.getElementById("Lance").checked = false;
+  document.getElementById("Axe").checked = false;
+  document.getElementById("R Breath").checked = false;
+  document.getElementById("B Breath").checked = false;
+  document.getElementById("G Breath").checked = false;
+  document.getElementById("N Breath").checked = false;
+  document.getElementById("R Beast").checked = false;
+  document.getElementById("B Beast").checked = false;
+  document.getElementById("G Beast").checked = false;
+  document.getElementById("N Beast").checked = false;
 }
 
 // Checks all movement-based filter checkboxes.
@@ -502,7 +664,8 @@ function deselect_all_mov_types() {
 function check_special_effects() {
   var special_effect_text = "";
   var cond_effect_found = false;
-  var weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
+  var char_index, weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
+  char_index = parseInt(document.getElementById("Character").value);
   weap_index = parseInt(document.getElementById("Weapon").value);
   weap_refine = document.getElementById("WeaponUpgrade").value;
   spec_index = parseInt(document.getElementById("Special").value);
@@ -511,13 +674,22 @@ function check_special_effects() {
   c_index = parseInt(document.getElementById("C").value);
   seal_index = parseInt(document.getElementById("Seal").value);
 
-  var Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  var Character, Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  Character = Characters[char_index];
   Weapon = Weapons[weap_index];
   Special = Procs[spec_index];
   A_Skill = A_Passives[a_index];
   B_Skill = B_Passives[b_index];
   C_Skill = C_Passives[c_index];
   Seal = Seals[seal_index];
+
+  if (Character.has_resplendent) {
+    $("#resplendent").toggle(true);
+  }
+  else {
+    $("#resplendent").toggle(false);
+    document.getElementById("resplendent_input").checked = false;
+  }
 
   if (Weapon.user_can_transform) {
     $(".Transformed").toggle(true);
@@ -657,21 +829,59 @@ function showorhide(id) {
   }
 }
 
-// Adds the Legendary Hero options to the proper drop-downs.
-
+// Adds the Legendary & Mythic Hero options to the proper drop-downs.
 function add_legendary_heroes() {
-  for (var i = 1; i < 4; i++) {
+  var blessing1, blessing2;
+  var mythic_flag = Characters[document.getElementById("Character").value].mythic;
+
+  if (mythic_flag) {
+    switch (document.getElementById("Blessing").value) {
+      case "Earth/Fire":
+        blessing1 = "Earth";
+        blessing2 = "Fire";
+        break;
+      case "Earth/Water":
+        blessing1 = "Earth";
+        blessing2 = "Water";
+        break;
+      case "Earth/Wind":
+        blessing1 = "Earth";
+        blessing2 = "Wind";
+        break;
+      case "Fire/Water":
+        blessing1 = "Fire";
+        blessing2 = "Water";
+        break;
+      case "Fire/Wind":
+        blessing1 = "Fire";
+        blessing2 = "Wind";
+        break;
+      case "Water/Wind":
+        blessing1 = "Water";
+        blessing2 = "Wind";
+        break;
+    }
+  }
+  else
+    blessing1 = document.getElementById("Blessing").value;
+
+  for (var i = 1; i < 5; i++) {
     var msg = "<option value=\"0\">(None)</option>";
     for (var j = 0; j < Blessings.length; j++) {
-      if (document.getElementById("Blessing").value == Blessings[j].element) {
-        msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
+      if (mythic_flag) {
+        if (blessing1 == Blessings[j].element || blessing2 == Blessings[j].element)
+          msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
+      }
+      else {
+        if (blessing1 == Blessings[j].element)
+          msg += "<option value=\"" + j + "\">" + Blessings[j].name + ": " + process_blessing_bonuses(Blessings[j]) + "</option>";
       }
     }
     document.getElementById("LegAlly" + i).innerHTML = msg;
   }
 }
 function add_enemy_legendary_heroes() {
-  for (var i = 1; i < 4; i++) {
+  for (var i = 1; i < 5; i++) {
     var msg = "<option value=\"0\">(None)</option>";
     for (var j = 0; j < Blessings.length; j++) {
       if (document.getElementById("EnemyBlessing").value == Blessings[j].element) {
@@ -683,20 +893,20 @@ function add_enemy_legendary_heroes() {
 }
 function process_blessing_bonuses(blessing) {
   var output = "";
-  if (blessing.hp_boost_perm > 0) {
-    output += "HP +" + blessing.hp_boost_perm + " ";
+  if (blessing.hp_mod > 0) {
+    output += "HP +" + blessing.hp_mod + " ";
   }
-  if (blessing.atk_boost_perm > 0) {
-    output += "Atk +" + blessing.atk_boost_perm + " ";
+  if (blessing.atk_mod > 0) {
+    output += "Atk +" + blessing.atk_mod + " ";
   }
-  if (blessing.spd_boost_perm > 0) {
-    output += "Spd +" + blessing.spd_boost_perm + " ";
+  if (blessing.spd_mod > 0) {
+    output += "Spd +" + blessing.spd_mod + " ";
   }
-  if (blessing.def_boost_perm > 0) {
-    output += "Def +" + blessing.def_boost_perm + " ";
+  if (blessing.def_mod > 0) {
+    output += "Def +" + blessing.def_mod + " ";
   }
-  if (blessing.res_boost_perm > 0) {
-    output += "Res +" + blessing.res_boost_perm + " ";
+  if (blessing.res_mod > 0) {
+    output += "Res +" + blessing.res_mod + " ";
   }
   return output;
 }
@@ -710,19 +920,18 @@ function process_blessing_bonuses(blessing) {
 */
 function set_skill_icon(skill_type, skill) {
   var img_id = skill_type + "_img";
-  var desc_id = skill_type + "_desc";
   var img_path;
 
   switch (skill_type) {
     case "player_weapon":
       img_path = "images/weapon_icon.png";
       document.getElementById("player_weapon_refined_img").innerHTML = "";
-      document.getElementById("player_weapon_refined_desc").innerHTML = "No Refinement selected/available.";
+      //document.getElementById("player_weapon_refined_desc").innerHTML = "No Refinement selected/available.";
       break;
     case "player_weapon_refined":
       img_path = "images/weapon_icon.png";
       document.getElementById("player_weapon_img").innerHTML = "";
-      document.getElementById("player_weapon_desc").innerHTML = "See the selected Weapon Refinement for the weapon effect.";
+      //document.getElementById("player_weapon_desc").innerHTML = "See the selected Weapon Refinement for the weapon effect.";
       break;
     case "enemy_weapon":
       img_path = "images/weapon_icon.png";
@@ -744,5 +953,4 @@ function set_skill_icon(skill_type, skill) {
   }
 
   document.getElementById(img_id).innerHTML = "<img src=\"" + img_path + "\" class=\"icon\" />";
-  document.getElementById(desc_id).innerHTML = skill.desc;
 }

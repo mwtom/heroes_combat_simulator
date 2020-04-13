@@ -37,8 +37,8 @@ $(document).ready(function() {
     $("#FiltersOptions").toggle();
   });
   // Show/Hide Special Options
-  $("#SpecialOptionsHeader").click(function() {
-    $("#SpecialOptions").toggle();
+  $("#SimulationOptionsHeader").click(function() {
+    $("#SimulationOptionsBody").toggle();
   });
   // When the Blessing input is changed, reveal or hide the
   // Legendary Hero Ally options.
@@ -78,6 +78,22 @@ $(document).ready(function() {
   // Deselect all weapon types (filter menu)
   $("#DeselectWeapType").click(function() {
     deselect_all_weapons();
+    simulate();
+  });
+  $("#SelectPhysical").click(function() {
+    select_physical_weapons();
+    simulate();
+  });
+  $("#SelectMagical").click(function() {
+    select_magical_weapons();
+    simulate();
+  });
+  $("#SelectOneRange").click(function() {
+    select_one_range_weapons();
+    simulate();
+  });
+  $("#SelectTwoRange").click(function() {
+    select_two_range_weapons();
     simulate();
   });
   // Select all movement types (filter menu)
@@ -176,1153 +192,1506 @@ $(document).ready(function() {
 });
 </script>
 <div id="PageContent">
-  <div id="UI">
-    <div id="MenuBar1" class="MenuBar">
-      <h3 id="CharacterCustomizationsHeader">
-        Character Customization
-      </h3>
-      <div id="CharacterCustomizations">
-        <div class="table">
-          <div class="row">
-            <div class="cell row_header">
-              Character:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select id='Character' class='Customizer' onChange='reload_options()'></select>
-            </div>
+  <div id="Simulator">
+    <div id="Sim_Header">
+      Fire Emblem: Heroes Combat Simulator
+    </div>
+    <div id="UI">
+      <div id="UnitOptions" class="OptionsMenu">
+        <div id="CharSkills" class="UnitMenu Menu">
+          <div id="CharSkillsHeader" class="MenuHeader">
+            Player Unit Customization
           </div>
-          <div class="row">
-            <div class="cell row_header">
-              Asset:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Boon'>
-                <option value='None'>None</option>
-                <option value='HP'>HP</option>
-                <option value='Atk'>Atk</option>
-                <option value='Spd'>Spd</option>
-                <option value='Def'>Def</option>
-                <option value='Res'>Res</option>
-              </select>
-            </div>
+          <div id="CharacterSelect">
+            Character: <select id="Character" class="CharacterSelect" onChange="reload_options()"></select>
           </div>
-          <div class="row">
-            <div class="cell row_header">
-              Flaw:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Bane'>
-                <option value='None'>None</option>
-                <option value='HP'>HP</option>
-                <option value='Atk'>Atk</option>
-                <option value='Spd'>Spd</option>
-                <option value='Def'>Def</option>
-                <option value='Res'>Res</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Weapon:
-            </div>
-            <div class="cell skill_icon" id="player_weapon">
-              <span id="player_weapon_img"></span>
-              <span class="skill_desc" id="player_weapon_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Weapon'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Weap. Refine:
-            </div>
-            <div class="cell skill_icon" id="player_weapon_refined">
-              <span id="player_weapon_refined_img"></span>
-              <span class="skill_desc" id="player_weapon_refined_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='WeaponUpgrade'>
-              </select>
-            </div>
-          </div>
-          <div class="row Transformed">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="transformed_input" />
-              <label for="transformed_input">
-                Transformed
-              </label>
-            </div>
-          </div>
-          <div class="row WeapBool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="weap_boolean_input" />
-              <label for="weap_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row WeapNum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="weap_number_input" />
-              <label for="weap_number_input">
-                Number Input (Weapon)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Special:
-            </div>
-            <div class="cell skill_icon" id="player_special">
-              <span id="player_special_img"></span>
-              <span class="skill_desc" id="player_special_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Special'>
-              </select>
-            </div>
-          </div>
-          <div class="row SpecBool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="special_boolean_input" />
-              <label for="special_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row SpecNum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="special_number_input" />
-              <label for="special_number_input">
-                Number Input (Special)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              A Passive:
-            </div>
-            <div class="cell skill_icon" id="player_a">
-              <span id="player_a_img"></span>
-              <span class="skill_desc" id="player_a_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='A'>
-              </select>
-            </div>
-          </div>
-          <div class="row ABool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="a_boolean_input" />
-              <label for="a_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row ANum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="a_number_input" />
-              <label for="a_number_input">
-                Number Input (A Passive)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              B Passive:
-            </div>
-            <div class="cell skill_icon" id="player_b">
-              <span id="player_b_img"></span>
-              <span class="skill_desc" id="player_b_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='B'>
-              </select>
-            </div>
-          </div>
-          <div class="row BBool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="b_boolean_input" />
-              <label for="b_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row BNum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="b_number_input" />
-              <label for="b_number_input">
-                Number Input (B Passive)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              C Passive:
-            </div>
-            <div class="cell skill_icon" id="player_c">
-              <span id="player_c_img"></span>
-              <span class="skill_desc" id="player_c_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='C'>
-              </select>
-            </div>
-          </div>
-          <div class="row CBool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="c_boolean_input" />
-              <label for="c_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row CNum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="c_number_input" />
-              <label for="c_number_input">
-                Number Input (C Passive)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Sacred Seal:
-            </div>
-            <div class="cell skill_icon" id="player_seal">
-              <span id="player_seal_img"></span>
-              <span class="skill_desc" id="player_seal_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Seal'>
-              </select>
-            </div>
-          </div>
-          <div class="row SBool">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank  -->
-            </div>
-            <div class="cell">
-              <input type="checkbox" id="seal_boolean_input" />
-              <label for="seal_boolean_input">
-                Active
-              </label>
-            </div>
-          </div>
-          <div class="row SNum">
-            <div class="cell row_header">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell skill_icon">
-              <!-- This is intentionally blank -->
-            </div>
-            <div class="cell">
-              <input type="number" class="Extras" id="seal_number_input" />
-              <label for="seal_number_input">
-                Number Input (Seal)
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Blessing:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='Blessing'>
-              </select>
-            </div>
-          </div>
-
-          <div class="row LegAlly">
-            <div class="cell row_header">
-              Leg. Ally 1:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select id="LegAlly1" class="Customizer">
-              </select>
-            </div>
-          </div>
-          <div class="row LegAlly">
-            <div class="cell row_header">
-              Leg. Ally 2:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select id="LegAlly2" class="Customizer">
-              </select>
-            </div>
-          </div>
-          <div class="row LegAlly">
-            <div class="cell row_header">
-              Leg. Ally 3:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select id="LegAlly3" class="Customizer">
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Simulation type:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='SimType'>
-                <option value='Offense'>Attacking</option>
-                <option value='Defense'>Defending</option>
-              </select>
+          <div id="CharSkillsOptions" class="OptionSet">
+            <div class="table">
+              <div class="row">
+                <div class="cell row_header">
+                  Asset:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Boon'>
+                    <option value='None'>None</option>
+                    <option value='HP'>HP</option>
+                    <option value='Atk'>Atk</option>
+                    <option value='Spd'>Spd</option>
+                    <option value='Def'>Def</option>
+                    <option value='Res'>Res</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Flaw:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Bane'>
+                    <option value='None'>None</option>
+                    <option value='HP'>HP</option>
+                    <option value='Atk'>Atk</option>
+                    <option value='Spd'>Spd</option>
+                    <option value='Def'>Def</option>
+                    <option value='Res'>Res</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Weapon:
+                </div>
+                <div class="cell skill_icon" id="player_weapon">
+                  <span id="player_weapon_img"></span>
+                  <!--<span class="skill_desc" id="player_weapon_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Weapon'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Refine:
+                </div>
+                <div class="cell skill_icon" id="player_weapon_refined">
+                  <span id="player_weapon_refined_img"></span>
+                  <!--<span class="skill_desc" id="player_weapon_refined_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='WeaponUpgrade'>
+                  </select>
+                </div>
+              </div>
+              <div class="row Transformed">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="transformed_input" />
+                  <label for="transformed_input">
+                    Transformed
+                  </label>
+                </div>
+              </div>
+              <div class="row WeapBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="weap_boolean_input" />
+                  <label for="weap_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row WeapNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="weap_number_input" min=0 />
+                  <label for="weap_number_input">
+                    # Input (Weapon)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Special:
+                </div>
+                <div class="cell skill_icon" id="player_special">
+                  <span id="player_special_img"></span>
+                  <!--<span class="skill_desc" id="player_special_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Special'>
+                  </select>
+                </div>
+              </div>
+              <div class="row SpecBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="special_boolean_input" />
+                  <label for="special_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row SpecNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="special_number_input" min=0 />
+                  <label for="special_number_input">
+                    # Input (Special)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  A Passive:
+                </div>
+                <div class="cell skill_icon" id="player_a">
+                  <span id="player_a_img"></span>
+                  <!--<span class="skill_desc" id="player_a_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='A'>
+                  </select>
+                </div>
+              </div>
+              <div class="row ABool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="a_boolean_input" />
+                  <label for="a_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row ANum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="a_number_input" min=0 />
+                  <label for="a_number_input">
+                    # Input (A)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  B Passive:
+                </div>
+                <div class="cell skill_icon" id="player_b">
+                  <span id="player_b_img"></span>
+                  <!--<span class="skill_desc" id="player_b_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='B'>
+                  </select>
+                </div>
+              </div>
+              <div class="row BBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="b_boolean_input" />
+                  <label for="b_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row BNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="b_number_input" min=0 />
+                  <label for="b_number_input">
+                    # Input (B)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  C Passive:
+                </div>
+                <div class="cell skill_icon" id="player_c">
+                  <span id="player_c_img"></span>
+                  <!--<span class="skill_desc" id="player_c_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='C'>
+                  </select>
+                </div>
+              </div>
+              <div class="row CBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="c_boolean_input" />
+                  <label for="c_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row CNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="c_number_input" min=0 />
+                  <label for="c_number_input">
+                    # Input (C)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Seal:
+                </div>
+                <div class="cell skill_icon" id="player_seal">
+                  <span id="player_seal_img"></span>
+                  <!--<span class="skill_desc" id="player_seal_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Seal'>
+                  </select>
+                </div>
+              </div>
+              <div class="row SBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="seal_boolean_input" />
+                  <label for="seal_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row SNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="seal_number_input" min=0 />
+                  <label for="seal_number_input">
+                    # Input (Seal)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Blessing:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='Blessing'>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <h3 class="Clickable" id="SpecialOptionsHeader">Special Options</h3>
-        <div id="SpecialOptions">
-          <input type="checkbox" id="Ploys" />
-          <label for="Ploys">
-            Apply Stat Ploys to enemies if conditions are met.
-          </label>
+        <div id="CharStats" class="UnitMenu Menu">
+          <div id="CharStatsHeader" class="MenuHeader">
+            Player Unit Stats
+          </div>
+          <div id="CharStatsOptions" class="OptionSet">
+            <table>
+              <tr>
+                <th>
+                  Stats
+                </th>
+                <th class="Extras">
+                  HP
+                </th>
+                <th class="Extras">
+                  Atk
+                </th>
+                <th class="Extras">
+                  Spd
+                </th>
+                <th class="Extras">
+                  Def
+                </th>
+                <th class="Extras">
+                  Res
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  Base (w/ skills):
+                </td>
+                <td id="CharHP" class="Extras">
+                </td>
+                <td id="CharAtk" class="Extras">
+                </td>
+                <td id="CharSpd" class="Extras">
+                </td>
+                <td id="CharDef" class="Extras">
+                </td>
+                <td id="CharRes" class="Extras">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Field Buff:
+                </td>
+                <td>
+                  N/A
+                </td>
+                <td>
+                  <input type="number" id="AtkBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="SpdBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="DefBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="ResBuff" class="Extras" value="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Combat Buff:
+                </td>
+                <td>
+                  N/A
+                </td>
+                <td>
+                  <input type="number" id="AtkBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="SpdBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="DefBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="ResBonus" class="Extras" value="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Debuff:
+                </td>
+                <td>
+                  N/A
+                </td>
+                <td>
+                  <input type="number" id="AtkDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="SpdDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="DefDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="ResDebuff" class="Extras" value="0" />
+                </td>
+              </tr>
+            </table>
+            <br>
+            <table>
+              <tr>
+                <td>
+                  Merge Level:
+                </td>
+                <td>
+                  <select id="MergeLv" class="Select_Extras">
+                    <option value=0>0</option>
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Dragonflowers:
+                </td>
+                <td>
+                  <select id="Dragonflowers" class="Select_Extras">
+                    <!-- This will be populated by functions in ui.js -->
+                  </select>
+              <tr>
+                <td>
+                  Reduce HP by:
+                </td>
+                <td>
+                  <input type='text' id='HPCut' class='ShortBox' />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Set Special Charge:
+                </td>
+                <td>
+                  <input type='text' id='SpecCharge' class='ShortBox' />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Adjacent Allies:
+                </td>
+                <td>
+                  <input type="number" id="AdjAllies" value="0" class="ShortBox" min="0" max="4" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Allies 2 Spaces Away:
+                </td>
+                <td>
+                  <input type="number" id="TwoSpaceAllies" value="0" class="ShortBox" min="0" max="7" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Allies 3 Spaces Away:
+                </td>
+                <td>
+                  <input type="number" id="ThreeSpaceAllies" value="0" class="ShortBox" min="0" max="7" />
+                </td>
+              </tr>
+            </table>
+            <input type="checkbox" id="summoner_support" name="summoner_support" />
+            <label for="summoner_support">Summoner Support</label>
+            <br>
+            <span id="resplendent">
+              <input type="checkbox" id="resplendent_input" />
+              <label for="resplendent_input">
+                Resplendent
+              </label>
+            </span>
+            <br />
+            <div class="row LegAlly">
+              L/M Ally 1:
+              <div class="cell">
+                <select id="LegAlly1" class="Customizer">
+                </select>
+              </div>
+            </div>
+            <div class="row LegAlly">
+              L/M Ally 2:
+              <div class="cell">
+                <select id="LegAlly2" class="Customizer">
+                </select>
+              </div>
+            </div>
+            <div class="row LegAlly">
+              L/M Ally 3:
+              <div class="cell">
+                <select id="LegAlly3" class="Customizer">
+                </select>
+              </div>
+            </div>
+            <div class="row LegAlly">
+              L/M Ally 4:
+              <div class="cell">
+                <select id="LegAlly4" class="Customizer">
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="EnemySkills" class="UnitMenu Menu">
+          <div id="EnemySkillsHeader" class="MenuHeader">
+            Enemy Skill Overrides
+          </div>
+          <div id="EnemySkillsOptions" class="OptionSet">
+            <input type="radio" id="Base_Foes" name="Foe_Type" class="Foe_Type" value="base" checked />
+            <label for="Base_Foes">
+              Use foes with Base Skill Sets.
+            </label>
+            <!--<br />
+            <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
+            <label for="Optimized_Foes">
+              Use foes with Performance Skill Sets.
+            </label>-->
+            <br />
+            <div id="Optimized_Disclaimer">
+              <br />
+              Disclaimers and Notes about this feature:
+              <ul>
+                <li>
+                  Nature and stat overrides are not available with this feature.
+                </li>
+                <li>
+                  Some characters will have multiple performance-focused builds, and not every unit has a build. Builds are generally optimized for ORKOs or pure survival.
+                </li>
+                <li>
+                  The idea behind this list is that if your unit can handle builds optimized for their role, it can handle non-optimized builds as well. Which builds your set cannot handle is more important than raw KO counts.
+                </li>
+                <li>
+                  Builds are based on the simulator author's biased opinions
+                </li>
+              </ul>
+            </div>
+            <div class="table" id="Enemy_Override_Table">
+              <div class="row">
+                <div class="cell row_header">
+                  Asset:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyBoon'>
+                    <option value='None'>None</option>
+                    <option value='HP'>HP</option>
+                    <option value='Atk'>Atk</option>
+                    <option value='Spd'>Spd</option>
+                    <option value='Def'>Def</option>
+                    <option value='Res'>Res</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Flaw:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyBane'>
+                    <option value='None'>None</option>
+                    <option value='HP'>HP</option>
+                    <option value='Atk'>Atk</option>
+                    <option value='Spd'>Spd</option>
+                    <option value='Def'>Def</option>
+                    <option value='Res'>Res</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Weapon:
+                </div>
+                <div class="cell skill_icon" id="enemy_weapon">
+                  <span id="enemy_weapon_img"></span>
+                  <!--<span class="skill_desc" id="enemy_weapon_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyWeapon'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Special:
+                </div>
+                <div class="cell skill_icon" id="enemy_special">
+                  <span id="enemy_special_img"></span>
+                  <!--<span class="skill_desc" id="enemy_special_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemySpecial'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  A Passive:
+                </div>
+                <div class="cell skill_icon" id="enemy_a">
+                  <span id="enemy_a_img"></span>
+                  <!--<span class="skill_desc" id="enemy_a_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyA'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  B Passive:
+                </div>
+                <div class="cell skill_icon" id="enemy_b">
+                  <span id="enemy_b_img"></span>
+                  <!--<span class="skill_desc" id="enemy_b_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyB'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  C Passive:
+                </div>
+                <div class="cell skill_icon" id="enemy_c">
+                  <span id="enemy_c_img"></span>
+                  <!--<span class="skill_desc" id="enemy_c_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyC'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
+                  Seal:
+                </div>
+                <div class="cell skill_icon" id="enemy_seal">
+                  <span id="enemy_seal_img"></span>
+                  <!--<span class="skill_desc" id="enemy_seal_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemySeal'>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header" id="EnemyBlessingLabel">
+                  Blessing:
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This field is intentionally left blank. -->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyBlessing'>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <br />
+            <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" checked />
+            <div class="tooltip">
+              <label for="enemy_conditional_effects">Apply any enemy conditional effects.</label>
+              <span class="tooltiptext">
+                A conditional effect is an effect that is only active when certain conditions are met, which cannot be specified with any other input to the
+                Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="EnemyStats" class="UnitMenu Menu">
+          <div id="EnemyStatsHeader" class="MenuHeader">
+            Enemy Stats
+          </div>
+          <div id="EnemyStatsOptions" class="OptionSet">
+            <table>
+              <tr>
+                <th>
+                  Modifier Type
+                </th>
+                <th>
+                  Atk
+                </th>
+                <th>
+                  Spd
+                </th>
+                <th>
+                  Def
+                </th>
+                <th>
+                  Res
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  Field Buff:
+                </td>
+                <td>
+                  <input type="number" id="EnemyAtkBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemySpdBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyDefBuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyResBuff" class="Extras" value="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Combat Buff:
+                </td>
+                <td>
+                  <input type="number" id="EnemyAtkBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemySpdBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyDefBonus" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyResBonus" class="Extras" value="0" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Debuff:
+                </td>
+                <td>
+                  <input type="number" id="EnemyAtkDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemySpdDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyDefDebuff" class="Extras" value="0" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyResDebuff" class="Extras" value="0" />
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table>
+              <tr>
+                <td>
+                  Merge Level:
+                </td>
+                <td>
+                  <select id="EnemyMergeLv" class="Select_Extras">
+                    <option value=0>0</option>
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Dragonflowers:
+                </td>
+                <td>
+                  <select id="EnemyDragonflowers" class="Select_Extras">
+                    <option value=0>0</option>
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                  </select>
+              <tr>
+                <td>
+                  Reduce HP by:
+                </td>
+                <td>
+                  <input type='text' id='EnemyHPCut' class='ShortBox' />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Set Special Charge:
+                </td>
+                <td>
+                  <input type='text' id='EnemySpecCharge' class='ShortBox' />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Adjacent Allies:
+                </td>
+                <td>
+                  <input type="number" id="EnemyAdjAllies" value="0" class="ShortBox" min="0" max="4" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Allies 2 Spaces Away:
+                </td>
+                <td>
+                  <input type="number" id="EnemyTwoSpaceAllies" value="0" class="ShortBox" min="0" max="7" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Allies 3 Spaces Away:
+                </td>
+                <td>
+                  <input type="number" id="EnemyThreeSpaceAllies" value="0" class="ShortBox" min="0" max="7" />
+                </td>
+            </table>
+            <br />
+            <div class="EnemyLegAlly">
+              <div class="row">
+                L/M Enemy 1:
+                <div class="cell">
+                  <select id="EnemyLegAlly1" class="Customizer">
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                L/M Enemy 2:
+                <div class="cell">
+                  <select id="EnemyLegAlly2" class="Customizer">
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                L/M Enemy 3:
+                <div class="cell">
+                  <select id="EnemyLegAlly3" class="Customizer">
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                L/M Enemy 4:
+                <div class="cell">
+                  <select id="EnemyLegAlly4" class="Customizer">
+                  </select>
+                </div>
+              </div>
+            </div>
+            <br />
+            <button id="EnemyReset">
+              Reset Enemy Overrides
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="SimulationOptions" class="OptionsMenu Menu">
+        <div id="SimulationOptionsHeader" class="MenuHeader">
+          Simulation Options
+        </div>
+        <div id="SimulationOptionsBody" class="OptionSet">
+          <div id="SimOptionsCol1" class="SimOptions" >
+            <div id="SimOptionsCol1Header" class="SimOptionsColHeader">
+              General Options
+            </div>
+            <table>
+              <tr>
+                <td>
+                  Simulation type:
+                </td>
+                <td>
+                <select id='SimType'>
+                  <option value='Offense'>Attacking</option>
+                  <option value='Defense'>Defending</option>
+                </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Turn Number:
+                </td>
+                <td>
+                  <input type="number" id="Turn" class="Extras" value="1" min="1" />
+                </td>
+              </tr>
+            </table>
+            <input type="checkbox" id="Ploys" />
+            <label for="Ploys">
+              Apply Ploy/Sabotage/etc. skills to foes.
+            </label>
+            <br />
+            <input type="checkbox" id="E_Ploys" />
+            <label for="E_Ploys">
+              Apply Ploy/Sabotage/etc. skills to unit.
+            </label>
+            <br />
+            <input type="checkbox" id="RuleBreaker" />
+            <label for="RuleBreaker">
+              Break Inheritance Restrictions
+            </label>
+          </div>
+          <div id="SimOptionsCol2" class="SimOptions">
+            <div id="SimOptionsCol2Header" class="SimOptionsColHeader">
+              Negative Statuses
+            </div>
+            <table>
+              <tr>
+                <td>
+                  Panic:
+                </td>
+                <td>
+                  <select id="PanicActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Guard:
+                </td>
+                <td>
+                  <select id="GuardActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Isolation:
+                </td>
+                <td>
+                  <select id="IsolationActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Gravity:
+                </td>
+                <td>
+                  <select id="Gravityctive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Flash:
+                </td>
+                <td>
+                  <select id="FlashActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Trilemma:
+                </td>
+                <td>
+                  <select id="TrilemmaActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="SimOptionsCol3" class="SimOptions">
+            <div id="SimOptionsCol3Header" class="SimOptionsColHeader">
+              Positive Statuses
+            </div>
+            <table>
+              <tr>
+                <td>
+                  Bonus Doubler:
+                </td>
+                <td>
+                  <select id="BDoublerActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Extra Movement:
+                </td>
+                <td>
+                  <select id="ExtraMovActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Divine Fang:
+                </td>
+                <td>
+                  <select id="DivineFangActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Neutr. Dragon/Armor Eff.:
+                </td>
+                <td>
+                  <select id="NtrDraArmEffActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="SimOptionsCol4" class="SimOptions">
+            <div id="SimOptionsCol4Header" class="SimOptionsColHeader">
+              Support Effects
+            </div>
+            <table>
+              <tr>
+                <td>
+                  Geirskögul (Eff):
+                </td>
+                <td>
+                  <select id="GeirskogulActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Infantry Breath:
+                </td>
+                <td>
+                  <select id="InfBreathActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Infantry Rush:
+                </td>
+                <td>
+                  <select id="InfRushActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Infantry Flash:
+                </td>
+                <td>
+                  <select id="InfFlashActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Inf. Hexblade:
+                </td>
+                <td>
+                  <select id="InfHexbladeActive">
+                    <option value="Neither">Neither</option>
+                    <option value="Player">Player</option>
+                    <option value="Enemy">Enemy</option>
+                    <option value="Both">Both</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="SimOptionsCol5" class="SimOptions">
+            <div id="SimOptionsCol5Header" class="SimOptionsColHeader">
+              Support Effects cont'd.
+            </div>
+            <table>
+              <tr>
+                <td>
+                </td>
+                <td>
+                  Player
+                </td>
+                <td>
+                  Enemy
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Close Guard:
+                </td>
+                <td>
+                  <input type="number" id="CGStacks" value="0" min="0" class="ShortBox" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyCGStacks" value="0" min="0" class="ShortBox" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Distant Guard:
+                </td>
+                <td>
+                  <input type="number" id="DGStacks" value="0" min="0" class="ShortBox" />
+                </td>
+                <td>
+                  <input type="number" id="EnemyDGStacks" value="0" min="0" class="ShortBox" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="Filters" class="OptionsMenu Menu">
+        <div id="FiltersHeader" class="MenuHeader">
+          Enemy Filters
+        </div>
+        <div id="FiltersOptions" class="OptionSet">
+          Color:
+          <br>
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Red" checked="true" />
+                <label for="Red">
+                  Red
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Blue" checked="true" />
+                <label for="Blue">
+                  Blue
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Green" checked="true" />
+                <label for="Green">
+                  Green
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Colorless" checked="true" />
+                <label for="Colorless">
+                  Colorless
+                </label>
+              </td>
+            </tr>
+          </table>
+          <div class="buttons">
+            <button id="SelectColor" class="SelectionButton">
+              Select All
+            </button>
+            <button id="DeselectColor" class="SelectionButton">
+              Deselect All
+            </button>
+          </div>
+          <br>
+          Weapon Type:
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Sword" checked="true" />
+                <label for="Sword">
+                  Sword
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Tome" checked="true" />
+                <label for="R Tome">
+                  R Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Breath" checked="true" />
+                <label for="R Breath">
+                  R Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Bow" checked="true" />
+                <label for="Bow">
+                  R Bow
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Dagger" checked="true" />
+                <label for="R Dagger">
+                  Red Dgr.
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="R Beast" checked="true" />
+                <label for="R Beast">
+                  Red Beast
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Lance" checked="true" />
+                <label for="Lance">
+                  Lance
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Tome" checked="true" />
+                <label for="B Tome">
+                  B Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Breath" checked="true" />
+                <label for="B Breath">
+                  B Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Bow" checked="true" />
+                <label for="Bow">
+                  B Bow
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Dagger" checked="true" />
+                <label for="B Dagger">
+                  Blue Dgr.
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="B Beast" checked="true" />
+                <label for="B Beast">
+                  Blue Beast
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Axe" checked="true" />
+                <label for="Axe">
+                  Axe
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Tome" checked="true" />
+                <label for="G Tome">
+                  G Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Breath" checked="true" />
+                <label for="G Breath">
+                  G Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Bow" checked="true" />
+                <label for="Bow">
+                  G Bow
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Dagger" checked="true" />
+                <label for="G Dagger">
+                  Green Dgr.
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="G Beast" checked="true" />
+                <label for="G Beast">
+                  Green Beast
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Staff" checked="true" />
+                <label for="Staff">
+                  Staff
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="N Tome" checked="true" />
+                <label for="N Tome">
+                  Colorless Tome
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="N Breath" checked="true" />
+                <label for="N Breath">
+                  Colorless Breath
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="N Bow" checked="true" />
+                <label for="Bow">
+                  Colorless Bow
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="N Dagger" checked="true" />
+                <label for="N Dagger">
+                  Colorless Dagger
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="N Beast" checked="true" />
+                <label for="N Beast">
+                  Colorless Beast
+                </label>
+              </td>
+            </tr>
+          </table>
+          <div class="buttons">
+            <button id="SelectWeapType" class="SelectionButton">
+              Select All
+            </button>
+            <button id="DeselectWeapType" class="SelectionButton">
+              Deselect All
+            </button>
+            <button id="SelectPhysical" class="SelectionButton">
+              Phys. Only
+            </button>
+            <button id="SelectMagical" class="SelectionButton">
+              Mag. Only
+            </button>
+            <button id="SelectOneRange" class="SelectionButton">
+              1-Rng. Only
+            </button>
+            <button id="SelectTwoRange" class="SelectionButton">
+              2-Rng. Only
+            </button>
+          </div>
           <br />
-          <input type="checkbox" id="E_Ploys" />
-          <label for="E_Ploys">
-            Apply Stat Ploys to unit if conditions are met.
-          </label>
-          <br />
-          <input type="checkbox" id="RuleBreaker" />
-          <label for="RuleBreaker">
-            Break Inheritance Restrictions
-          </label>
-          <br />
-          <input type="number" id="Turn" class="Extras" value="1" min="1" />
-          <label for="Turn">
-            Turn Number
-          </label>
+          Movement Type:
+          <table>
+            <tr>
+              <td class="FilterCell">
+                <input type="checkbox" id="Armor" checked="true" />
+                <label for="Armor">
+                  Armor
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Cavalry" checked="true" />
+                <label for="Cavalry">
+                  Cavalry
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Flier" checked="true" />
+                <label for="Flier">
+                  Flier
+                </label>
+              </td>
+              <td class="FilterCell">
+                <input type="checkbox" id="Infantry" checked="true" />
+                <label for="Infantry">
+                  Infantry
+                </label>
+              </td>
+            </tr>
+          </table>
+          <div class="buttons">
+            <button id="SelectMovType" class="SelectionButton">
+              Select All
+            </button>
+            <button id="DeselectMovType" class="SelectionButton">
+              Deselect All
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    <div id="MenuBar2" class="MenuBar">
-      <h3 id="PlayerOptionsHeader" class="Clickable">
-        Other Settings
-      </h3>
-      <div id="PlayerOptions">
-        <table>
-          <tr>
-            <th>
-              Stats
-            </th>
-            <th class="Extras">
-              HP
-            </th>
-            <th class="Extras">
-              Atk
-            </th>
-            <th class="Extras">
-              Spd
-            </th>
-            <th class="Extras">
-              Def
-            </th>
-            <th class="Extras">
-              Res
-            </th>
-          </tr>
-          <tr>
-            <td>
-              Base (w/ skills):
-            </td>
-            <td id="CharHP" class="Extras">
-            </td>
-            <td id="CharAtk" class="Extras">
-            </td>
-            <td id="CharSpd" class="Extras">
-            </td>
-            <td id="CharDef" class="Extras">
-            </td>
-            <td id="CharRes" class="Extras">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Field Buff:
-            </td>
-            <td>
-              N/A
-            </td>
-            <td>
-              <input type="number" id="AtkBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="SpdBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="DefBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="ResBuff" class="Extras" value="0" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Combat Buff:
-            </td>
-            <td>
-              N/A
-            </td>
-            <td>
-              <input type="number" id="AtkBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="SpdBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="DefBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="ResBonus" class="Extras" value="0" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Debuff:
-            </td>
-            <td>
-              N/A
-            </td>
-            <td>
-              <input type="number" id="AtkDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="SpdDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="DefDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="ResDebuff" class="Extras" value="0" />
-            </td>
-          </tr>
-        </table>
-        <br>
-        <table>
-          <tr>
-            <td>
-              Merge Level:
-            </td>
-            <td>
-              <input type="number" id="MergeLv" value="0" class="Extras" min="0" max="10" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Reduce HP by:
-            </td>
-            <td>
-              <input type='text' id='HPCut' class='ShortBox' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Set Special Charge:
-            </td>
-            <td>
-              <input type='text' id='SpecCharge' class='ShortBox' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Adjacent Allies:
-            </td>
-            <td>
-              <input type="number" id="AdjAllies" value="0" class="Extras" min="0" max="4" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Allies 2 Spaces Away:
-            </td>
-            <td>
-              <input type="number" id="TwoSpaceAllies" value="0" class="Extras" min="0" max="7" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Allies 3 Spaces Away:
-            </td>
-            <td>
-              <input type="number" id="ThreeSpaceAllies" value="0" class="Extras" min="0" max="7" />
-            </td>
-          </tr>
-        </table>
-        <input type="checkbox" id="summoner_support" name="summoner_support" />
-        <label for="summoner_support">Summoner Support</label>
-        <br>
-        <input type="checkbox" id="conditional_effects" name="conditional_effects" checked />
-        <div class="tooltip"><label for="conditional_effects">Apply the following conditional effects:</label>
-          <span class="tooltiptext">
-            A conditional effect is an effect that is only active when certain conditions are met, which cannot be specified with any other input to the
-            Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
-          </span>
-        </div>
-        <br>
-        <span id="conditional_effect_details"></span>
+    <div id="results">
+      <div id="ResultHeader" class="MenuHeader">
+        Results
       </div>
-      <h3 class="Clickable" id="FiltersHeader">Enemy Filters</h3>
-      <div id="FiltersOptions">
-        Color:
-        <br>
-        <table>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Red" checked="true" />
-              <label for="Red">
-                Red
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Blue" checked="true" />
-              <label for="Blue">
-                Blue
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Green" checked="true" />
-              <label for="Green">
-                Green
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Colorless" checked="true" />
-              <label for="Colorless">
-                Colorless
-              </label>
-            </td>
-          </tr>
-        </table>
-        <button id="SelectColor" class="SelectionButton">
-          Select All
-        </button>
-        <button id="DeselectColor" class="SelectionButton">
-          Deselect All
-        </button>
-        <br>
-        Weapon Type:
-        <table>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Sword" checked="true" />
-              <label for="Sword">
-                Sword
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Lance" checked="true" />
-              <label for="Lance">
-                Lance
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Axe" checked="true" />
-              <label for="Axe">
-                Axe
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Tome" checked="true" />
-              <label for="R Tome">
-                R Tome
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="B Tome" checked="true" />
-              <label for="B Tome">
-                B Tome
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="G Tome" checked="true" />
-              <label for="G Tome">
-                G Tome
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Breath" checked="true" />
-              <label for="R Breath">
-                R Breath
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="B Breath" checked="true" />
-              <label for="B Breath">
-                B Breath
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="G Breath" checked="true" />
-              <label for="G Breath">
-                G Breath
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="N Breath" checked="true" />
-              <label for="N Breath">
-                Colorless Brth.
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Bow" checked="true" />
-              <label for="Bow">
-                R Bow
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="B Bow" checked="true" />
-              <label for="Bow">
-                B Bow
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="G Bow" checked="true" />
-              <label for="Bow">
-                G Bow
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="N Bow" checked="true" />
-              <label for="Bow">
-                Colorless Bow
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="R Dagger" checked="true" />
-              <label for="R Dagger">
-                Red Dgr.
-              </label>
-            </td>
-          </tr>
-          <tr>
-          <td class="FilterCell">
-            <input type="checkbox" id="B Dagger" checked="true" />
-            <label for="B Dagger">
-              Blue Dgr.
-            </label>
-          </td>
-          <td class="FilterCell">
-            <input type="checkbox" id="G Dagger" checked="true" />
-            <label for="G Dagger">
-              Green Dgr.
-            </label>
-          </td>
-          <td class="FilterCell">
-            <input type="checkbox" id="N Dagger" checked="true" />
-            <label for="N Dagger">
-              Colorless Dgr.
-            </label>
-          </td>
-        </tr>
-        <tr>
-          <td class="FilterCell">
-            <input type="checkbox" id="Staff" checked="true" />
-            <label for="Staff">
-              Staff
-            </label>
-          </td>
-        </table>
-        <button id="SelectWeapType" class="SelectionButton">
-          Select All
-        </button>
-        <button id="DeselectWeapType" class="SelectionButton">
-          Deselect All
-        </button>
-        <br />
-        Movement Type:
-        <table>
-          <tr>
-            <td class="FilterCell">
-              <input type="checkbox" id="Armor" checked="true" />
-              <label for="Armor">
-                Armor
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Cavalry" checked="true" />
-              <label for="Cavalry">
-                Cavalry
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Flier" checked="true" />
-              <label for="Flier">
-                Flier
-              </label>
-            </td>
-            <td class="FilterCell">
-              <input type="checkbox" id="Infantry" checked="true" />
-              <label for="Infantry">
-                Infantry
-              </label>
-            </td>
-          </tr>
-        </table>
-        <button id="SelectMovType" class="SelectionButton">
-          Select All
-        </button>
-        <button id="DeselectMovType" class="SelectionButton">
-          Deselect All
-        </button>
-      </div>
-    </div>
-    <div id="MenuBar3" class="MenuBar">
-      <h3 id="EnemyOptionsHeader" class="Clickable">
-        Enemy Overrides
-      </h3>
-      <div id="EnemyOptions">
-        <input type="radio" id="Base_Foes" name="Foe_Type" class="Foe_Type" value="base" checked />
-        <label for="Base_Foes">
-          Use foes with Base Skill Sets.
-        </label>
-        <br />
-        <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
-        <label for="Optimized_Foes">
-          Use foes with Performance-Focused Skill Sets.
-        </label>
-        <br />
-        <div id="Optimized_Disclaimer">
-          <br />
-          Disclaimers and Notes about this feature:
-          <ul>
-            <li>
-              Nature and stat overrides are not available with this feature.
-            </li>
-            <li>
-              Some characters will have multiple performance-focused builds, and not every unit has a build. Builds are generally optimized for ORKOs or pure survival.
-            </li>
-            <li>
-              The idea behind this list is that if your unit can handle builds optimized for their role, it can handle non-optimized builds as well. Which builds your set cannot handle is more important than raw KO counts.
-            </li>
-            <li>
-              Builds are based on the simulator author's biased opinions
-            </li>
-          </ul>
-        </div>
-        <div class="table" id="Enemy_Override_Table">
-          <div class="row">
-            <div class="cell row_header">
-              Asset:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyBoon'>
-                <option value='None'>None</option>
-                <option value='HP'>HP</option>
-                <option value='Atk'>Atk</option>
-                <option value='Spd'>Spd</option>
-                <option value='Def'>Def</option>
-                <option value='Res'>Res</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Flaw:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyBane'>
-                <option value='None'>None</option>
-                <option value='HP'>HP</option>
-                <option value='Atk'>Atk</option>
-                <option value='Spd'>Spd</option>
-                <option value='Def'>Def</option>
-                <option value='Res'>Res</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Weapon:
-            </div>
-            <div class="cell skill_icon" id="enemy_weapon">
-              <span id="enemy_weapon_img"></span>
-              <span class="skill_desc" id="enemy_weapon_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyWeapon'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Special:
-            </div>
-            <div class="cell skill_icon" id="enemy_special">
-              <span id="enemy_special_img"></span>
-              <span class="skill_desc" id="enemy_special_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemySpecial'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              A Passive:
-            </div>
-            <div class="cell skill_icon" id="enemy_a">
-              <span id="enemy_a_img"></span>
-              <span class="skill_desc" id="enemy_a_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyA'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              B Passive:
-            </div>
-            <div class="cell skill_icon" id="enemy_b">
-              <span id="enemy_b_img"></span>
-              <span class="skill_desc" id="enemy_b_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyB'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              C Passive:
-            </div>
-            <div class="cell skill_icon" id="enemy_c">
-              <span id="enemy_c_img"></span>
-              <span class="skill_desc" id="enemy_c_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyC'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header">
-              Sacred Seal:
-            </div>
-            <div class="cell skill_icon" id="enemy_seal">
-              <span id="enemy_seal_img"></span>
-              <span class="skill_desc" id="enemy_seal_desc">
-              </span>
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemySeal'>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="cell row_header" id="EnemyBlessingLabel">
-              Blessing:
-            </div>
-            <div class="cell skill_icon">
-              <!-- This field is intentionally left blank. -->
-            </div>
-            <div class="cell">
-              <select class='Customizer' id='EnemyBlessing'>
-              </select>
-            </div>
-          </div>
-          <div class="EnemyLegAlly">
-            <div class="row">
-              <div class="cell row_header">
-                Leg. Enemy 1:
-              </div>
-              <div class="cell skill_icon">
-                <!-- This field is intentionally left blank. -->
-              </div>
-              <div class="cell">
-                <select id="EnemyLegAlly1" class="Customizer">
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="cell row_header">
-                Leg. Enemy 2:
-              </div>
-              <div class="cell skill_icon">
-                <!-- This field is intentionally left blank. -->
-              </div>
-              <div class="cell">
-                <select id="EnemyLegAlly2" class="Customizer">
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="cell row_header">
-                Leg. Enemy 3:
-              </div>
-              <div class="cell skill_icon">
-                <!-- This field is intentionally left blank. -->
-              </div>
-              <div class="cell">
-                <select id="EnemyLegAlly3" class="Customizer">
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br />
-        <table>
-          <tr>
-            <th>
-              Modifier Type
-            </th>
-            <th>
-              Atk
-            </th>
-            <th>
-              Spd
-            </th>
-            <th>
-              Def
-            </th>
-            <th>
-              Res
-            </th>
-          </tr>
-          <tr>
-            <td>
-              Field Buff:
-            </td>
-            <td>
-              <input type="number" id="EnemyAtkBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemySpdBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyDefBuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyResBuff" class="Extras" value="0" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Combat Buff:
-            </td>
-            <td>
-              <input type="number" id="EnemyAtkBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemySpdBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyDefBonus" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyResBonus" class="Extras" value="0" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Debuff:
-            </td>
-            <td>
-              <input type="number" id="EnemyAtkDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemySpdDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyDefDebuff" class="Extras" value="0" />
-            </td>
-            <td>
-              <input type="number" id="EnemyResDebuff" class="Extras" value="0" />
-            </td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>
-              Merge Level:
-            </td>
-            <td>
-              <input type="number" id="EnemyMergeLv" value="0" class="Extras" min="0" max="10" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Reduce HP by:
-            </td>
-            <td>
-              <input type='text' id='EnemyHPCut' class='ShortBox' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Set Special Charge:
-            </td>
-            <td>
-              <input type='text' id='EnemySpecCharge' class='ShortBox' />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Adjacent Allies:
-            </td>
-            <td>
-              <input type="number" id="EnemyAdjAllies" value="0" class="Extras" min="0" max="4" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Allies 2 Spaces Away:
-            </td>
-            <td>
-              <input type="number" id="EnemyTwoSpaceAllies" value="0" class="Extras" min="0" max="7" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Allies 3 Spaces Away:
-            </td>
-            <td>
-              <input type="number" id="EnemyThreeSpaceAllies" value="0" class="Extras" min="0" max="7" />
-            </td>
-        </table>
-        <br>
-        <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" checked />
-        <div class="tooltip">
-          <label for="enemy_conditional_effects">Apply any enemy conditional effects.</label>
-          <span class="tooltiptext">
-            A conditional effect is an effect that is only active when certain conditions are met, which cannot be specified with any other input to the
-            Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
-          </span>
-        </div>
-        <br />
-        <br />
-        <button id="EnemyReset">
-          Reset Enemy Overrides
-        </button>
+      <div id="ResultSet">
       </div>
     </div>
   </div>
-  <div id="divider">
-    <hr />
-  </div>
-  <div id="results"></div>
 </div>
 </body>
 </html>

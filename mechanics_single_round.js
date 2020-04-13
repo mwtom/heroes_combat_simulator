@@ -3,16 +3,18 @@ function simulate() {
   turn_number = parseInt(document.getElementById("Turn").value);
 
   // Builds the attacker from the values selected on the UI.
-  var blessings = new Array(3);
+  var blessings = new Array(4);
   if (document.getElementById("Blessing").value != "(None)") {
     blessings[0] = Blessings[parseInt(document.getElementById("LegAlly1").value)];
     blessings[1] = Blessings[parseInt(document.getElementById("LegAlly2").value)];
     blessings[2] = Blessings[parseInt(document.getElementById("LegAlly3").value)];
+    blessings[3] = Blessings[parseInt(document.getElementById("LegAlly4").value)];
   }
   else {
     blessings[0] = Blessings[0];
     blessings[1] = Blessings[0];
     blessings[2] = Blessings[0];
+    blessings[3] = Blessings[0];
   }
 
   var Attacker = new Fighter(Characters[document.getElementById("Character").value],
@@ -26,8 +28,9 @@ function simulate() {
                             Seals[document.getElementById("Seal").value],
                             Procs[document.getElementById("Special").value],
                             document.getElementById("summoner_support").checked,
+                            document.getElementById("resplendent_input").checked,
                             parseInt(document.getElementById("MergeLv").value),
-                            document.getElementById("conditional_effects").checked,
+                            Math.min(parseInt(document.getElementById("Dragonflowers").value), Characters[document.getElementById("Character").value].df_maximum),
                             blessings);
 
   // Set user-defined buffs, boosts (bonuses, in the UI), and debuffs.
@@ -61,8 +64,6 @@ function simulate() {
   Attacker.set_control_flag("player");
   // Calculate the attacker's printed stats.
   Attacker.calculate_permanent_stats();
-  // Populate the effective damage arrays.
-  Attacker.apply_eff_damage_effects();
 
   // Add the Attacker's stat line to the proper UI elements.
   document.getElementById("CharHP").innerHTML = Attacker.get_max_hp();
@@ -72,7 +73,7 @@ function simulate() {
   document.getElementById("CharRes").innerHTML = Attacker.get_permanent_res();
 
   // Prep & logging variables
-  var boon, bane, weap, weap_selected, refine, a, b, c, proc, seal;
+  var boon, bane, weap, weap_selected, refine, respl, a, b, c, proc, seal;
   var Defender;
   var orko = new Array();
   var orko_dealt = new Array();
@@ -107,11 +108,13 @@ function simulate() {
     blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
     blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
     blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
+    blessings[3] = Blessings[parseInt(document.getElementById("EnemyLegAlly4").value)];
   }
   else {
     blessings[0] = Blessings[0];
     blessings[1] = Blessings[0];
     blessings[2] = Blessings[0];
+    blessings[3] = Blessings[0];
   }
 
   // Iterate on all characters from the desired pool.
@@ -121,6 +124,8 @@ function simulate() {
       if (document.getElementById("Base_Foes").checked) {
         boon = document.getElementById("EnemyBoon").value;
         bane = document.getElementById("EnemyBane").value;
+        respl = false;
+
         // Skill validation on enemy overrides. Use default skills if override skill is invalid.
         weap_selected = document.getElementById("EnemyWeapon").value;
         // A weapon override is valid if one of the following applies:
@@ -175,6 +180,7 @@ function simulate() {
         bane = enemy_pool[i].bane;
         weap = Weapons[enemy_pool[i].weapon];
         refine = enemy_pool[i].refine;
+        respl = enemy_pool[i].resplendent;
         a = A_Passives[enemy_pool[i].a];
         b = B_Passives[enemy_pool[i].b];
         c = C_Passives[enemy_pool[i].c];
@@ -194,21 +200,18 @@ function simulate() {
                              seal,
                              proc,
                              false,
+                             respl,
                              parseInt(document.getElementById("EnemyMergeLv").value),
-                             document.getElementById("enemy_conditional_effects").checked,
+                             Math.min(parseInt(document.getElementById("EnemyDragonflowers").value), enemy_pool[i].df_maximum),
                              blessings);
 
       // The Defender is controlled by the enemy.
       Defender.set_control_flag("enemy");
-      // Populate the effective damage arrays.
-      Defender.apply_eff_damage_effects();
 
       Defender.set_assumed_atk_buff(document.getElementById("EnemyAtkBuff").value);
       Defender.set_assumed_spd_buff(document.getElementById("EnemySpdBuff").value);
       Defender.set_assumed_def_buff(document.getElementById("EnemyDefBuff").value);
       Defender.set_assumed_res_buff(document.getElementById("EnemyResBuff").value);
-      //Defender.set_adj_allies(document.getElementById("EnemyAdjAllies").value);
-      //Defender.set_two_space_allies(document.getElementById("EnemyTwoSpaceAllies").value);
 
       Defender.set_assumed_atk_boost(document.getElementById("EnemyAtkBonus").value);
       Defender.set_assumed_spd_boost(document.getElementById("EnemySpdBonus").value);
@@ -220,6 +223,17 @@ function simulate() {
       Defender.set_assumed_def_penalty(document.getElementById("EnemyDefDebuff").value);
       Defender.set_assumed_res_penalty(document.getElementById("EnemyResDebuff").value);
 
+      // Set boolean inputs to true if the appropriate box is checked.
+      if (document.getElementById("enemy_conditional_effects").checked) {
+        Defender.set_skill_inputs("weapon", true, 0);
+        Defender.set_skill_inputs("special", true, 0);
+        Defender.set_skill_inputs("A", true, 0);
+        Defender.set_skill_inputs("B", true, 0);
+        Defender.set_skill_inputs("C", true, 0);
+        Defender.set_skill_inputs("S", true, 0);
+        if (weap.type == "Be")
+          Defender.set_transformed_flag(true);
+      }
       Defender.set_nearby_allies(document.getElementById("EnemyAdjAllies").value, document.getElementById("EnemyTwoSpaceAllies").value, document.getElementById("EnemyThreeSpaceAllies").value);
 
       Defender.calculate_permanent_stats();
@@ -246,8 +260,259 @@ function simulate() {
         }
       }
 
+      // Apply any status effects specified on the UI.
+      switch (document.getElementById("PanicActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_panic_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_panic_flag(true);
+          break;
+        case "Both":
+          Attacker.set_panic_flag(true);
+          Defender.set_panic_flag(true);
+          break;
+      }
+      switch (document.getElementById("GuardActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_guard_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_guard_flag(true);
+          break;
+        case "Both":
+          Attacker.set_guard_flag(true);
+          Defender.set_guard_flag(true);
+          break;
+      }
+      switch (document.getElementById("IsolationActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_isolation_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_isolation_flag(true);
+          break;
+        case "Both":
+          Attacker.set_isolation_flag(true);
+          Defender.set_isolation_flag(true);
+          break;
+      }
+      switch (document.getElementById("Gravityctive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_gravity_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_gravity_flag(true);
+          break;
+        case "Both":
+          Attacker.set_gravity_flag(true);
+          Defender.set_gravity_flag(true);
+          break;
+      }
+      switch (document.getElementById("FlashActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_flash_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_flash_flag(true);
+          break;
+        case "Both":
+          Attacker.set_flash_flag(true);
+          Defender.set_flash_flag(true);
+          break;
+      }
+      switch (document.getElementById("TrilemmaActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_trilemma_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_trilemma_flag(true);
+          break;
+        case "Both":
+          Attacker.set_trilemma_flag(true);
+          Defender.set_trilemma_flag(true);
+          break;
+      }
+      switch (document.getElementById("BDoublerActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_bonus_doubler_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_bonus_doubler_flag(true);
+          break;
+        case "Both:":
+          Attacker.set_bonus_doubler_flag(true);
+          Defender.set_bonus_doubler_flag(true);
+          break;
+      }
+      switch (document.getElementById("ExtraMovActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_extra_movement_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_extra_movement_flag(true);
+          break;
+        case "Both":
+          Attacker.set_extra_movement_flag(true);
+          Defender.set_extra_movement_flag(true);
+          break;
+      }
+      switch (document.getElementById("DivineFangActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_divine_fang_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_divine_fang_flag(true);
+          break;
+        case "Both":
+          Attacker.set_divine_fang_flag(true);
+          Defender.set_divine_fang_flag(true);
+          break;
+      }
+      switch (document.getElementById("NtrDraArmEffActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_neutralize_dragon_armor_eff_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_neutralize_dragon_armor_eff_flag(true);
+          break;
+        case "Both":
+          Attacker.set_neutralize_dragon_armor_eff_flag(true);
+          Defender.set_neutralize_dragon_armor_eff_flag(true);
+          break;
+      }
+
+      // If external effects are not neutralized by either fighter, apply any that were specified on the UI.
+      for (var j = 0; j < Attacker.neutralize_external_skills_effects.length; j++) {
+        if (Attacker.eval_conditions(Attacker.neutralize_external_skills_effects[j].conditions, Defender)) {
+          combat_log += Attacker.get_name() + "'s " + Attacker.neutralize_external_skills_effects[j].source + " neutralizes the skills of " + Defender.get_name() + "'s allies during combat!<br />";
+          Attacker.set_neutralize_external_skills_flag(true);
+          break;
+        }
+      }
+      for (var j = 0; j < Defender.neutralize_external_skills_effects.length; j++) {
+        if (Defender.eval_conditions(Defender.neutralize_external_skills_effects[j].conditions, Attacker)) {
+          combat_log += Defender.get_name() + "'s " + Defender.neutralize_external_skills_effects[j].source + " neutralizes the skills of " + Attacker.get_name() + "'s allies during combat!<br />";
+          Defender.set_neutralize_external_skills_flag(true);
+          break;
+        }
+      }
+
+      if (!Attacker.get_neutralize_external_skills_flag()) {
+        switch (document.getElementById("GeirskogulActive").value) {
+          case "Enemy":
+            Defender.set_geirskogul_support_flag(true);
+            break;
+          case "Both":
+            Defender.set_geirskogul_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfBreathActive").value) {
+          case "Enemy":
+            Defender.set_inf_breath_support_flag(true);
+            break;
+          case "Both":
+            Defender.set_inf_breath_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfRushActive").value) {
+          case "Enemy":
+            Defender.set_inf_rush_support_flag(true);
+            break;
+          case "Both":
+            Defender.set_inf_rush_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfFlashActive").value) {
+          case "Enemy":
+            Defender.set_inf_flash_support_flag(true);
+            break;
+          case "Both":
+            Defender.set_inf_flash_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfHexbladeActive").value) {
+          case "Enemy":
+            Defender.set_inf_hexblade_support_flag(true);
+            break;
+          case "Both":
+            Defender.set_inf_hexblade_support_flag(true);
+            break;
+        }
+        Defender.set_cg_stacks(document.getElementById("EnemyCGStacks").value);
+        Defender.set_dg_stacks(document.getElementById("EnemyDGStacks").value);
+      }
+      if (!Defender.get_neutralize_external_skills_flag()) {
+        switch (document.getElementById("GeirskogulActive").value) {
+          case "Player":
+            Attacker.set_geirskogul_support_flag(true);
+            break;
+          case "Both":
+            Attacker.set_geirskogul_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfBreathActive").value) {
+          case "Player":
+            Attacker.set_inf_breath_support_flag(true);
+            break;
+          case "Both":
+            Attacker.set_inf_breath_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfRushActive").value) {
+          case "Player":
+            Attacker.set_inf_rush_support_flag(true);
+            break;
+          case "Both":
+            Attacker.set_inf_rush_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfFlashActive").value) {
+          case "Player":
+            Attacker.set_inf_flash_support_flag(true);
+            break;
+          case "Both":
+            Attacker.set_inf_flash_support_flag(true);
+            break;
+        }
+        switch (document.getElementById("InfHexbladeActive").value) {
+          case "Player":
+            Attacker.set_inf_hexblade_support_flag(true);
+            break;
+          case "Both":
+            Attacker.set_inf_hexblade_support_flag(true);
+            break;
+        }
+        Attacker.set_cg_stacks(document.getElementById("CGStacks").value);
+        Attacker.set_dg_stacks(document.getElementById("DGStacks").value);
+      }
+
+      // Populate the effective damage arrays.
+      Attacker.apply_eff_damage_effects();
+      Defender.apply_eff_damage_effects();
+
       // Run the simulation. The third variable determines what type of simulation should be run.
-      combat_log += execute_phase(Attacker, Defender, (document.getElementById("SimType").value == "Offense"));
+      combat_log = execute_phase(Attacker, Defender, (document.getElementById("SimType").value == "Offense"));
 
       // After combat, save the logging information to the proper arrays.
       if (Defender.get_hp() == 0) {
@@ -310,7 +575,7 @@ function simulate() {
   }
   msg += "</table>";
 
-  document.getElementById("results").innerHTML = msg;
+  document.getElementById("ResultSet").innerHTML = msg;
 }
 
 // Determines whether or not a character meets the user-defined filter requirements.
@@ -369,6 +634,11 @@ function passes_filter_reqs(character) {
       break;
     case "GT":
       if (!document.getElementById("G Tome").checked) {
+        return false;
+      }
+      break;
+    case "NT":
+      if (!document.getElementById("N Tome").checked) {
         return false;
       }
       break;
@@ -432,6 +702,26 @@ function passes_filter_reqs(character) {
         return false;
       }
       break;
+    case "RBe":
+      if (!document.getElementById("R Beast").checked) {
+        return false;
+      }
+      break;
+    case "BBe":
+      if (!document.getElementById("B Beast").checked) {
+        return false;
+      }
+      break;
+    case "GBe":
+      if (!document.getElementById("G Beast").checked) {
+        return false;
+      }
+      break;
+    case "NBe":
+      if (!document.getElementById("N Beast").checked) {
+        return false;
+      }
+      break;
     // Staff is the only other option.
     default:
       if (!document.getElementById("Staff").checked) {
@@ -466,7 +756,7 @@ function passes_filter_reqs(character) {
 // Runs through a single phase with an attacker and a defender. After combat concludes
 // (end of phase or one unit dies), the combat log is returned.
 function execute_phase(player, enemy, player_initiating) {
-  console.log(enemy.get_name());
+  //console.log(enemy.get_name());
 
   var attacker, defender;
   in_combat = false;
@@ -501,6 +791,19 @@ function execute_phase(player, enemy, player_initiating) {
   // Calculate printed stats
   player.calculate_printed_stats();
   enemy.calculate_printed_stats();
+  // Also apply any bonus movement effects.
+  for (var i = 0; i < attacker.extra_movement_effects.length; i++) {
+    if (attacker.eval_conditions(attacker.extra_movement_effects[i].conditions, defender)) {
+      attacker.set_extra_movement_flag(true);
+      break;
+    }
+  }
+  for (var i = 0; i < defender.extra_movement_effects.length; i++) {
+    if (defender.eval_conditions(defender.extra_movement_effects[i].conditions, attacker)) {
+      defender.set_extra_movement_flag(true);
+      break;
+    }
+  }
 
   // Set Phantom Spd values.
   for (var i = 0; i < player.phantom_spd_effects.length; i++)
@@ -513,7 +816,7 @@ function execute_phase(player, enemy, player_initiating) {
   // ploy_flag is true if ploys are applied.
   var ploy_flag = false;
 
-  // If Ploys are enabled, apply Stat Ploys
+  // If ploys & statuses are enabled, apply Stat Ploys
   if (this.document.getElementById("Ploys").checked) {
     for (var i = 0; i < player.stat_ploy_effects.length; i++) {
       if (player.eval_conditions(player.stat_ploy_effects[i].conditions, enemy)) {
@@ -531,12 +834,12 @@ function execute_phase(player, enemy, player_initiating) {
     }
   }
 
-  // If Ploys are enabled, apply Panic Ploy
+  // If ploys & statuses are enabled, apply Panic Ploy
   if (this.document.getElementById("Ploys").checked) {
     for (var i = 0; i < player.panic_ploy_effects.length; i++) {
       if (player.eval_conditions(player.panic_ploy_effects[i].conditions, enemy)) {
-        enemy.panic_active = true;
-        combat_log += enemy.get_name() + " is afflicted by Panic from " + player.get_name() + "'s " + player.panic_ploy_effects[i].source + "!<br />";
+        enemy.set_panic_flag(true);
+        combat_log += player.get_name() + "'s " + player.panic_ploy_effects[i].source + " inflicts Panic on " + enemy.get_name() + "!<br />";
         ploy_flag = true;
         break;
       }
@@ -545,10 +848,29 @@ function execute_phase(player, enemy, player_initiating) {
   if (this.document.getElementById("E_Ploys").checked) {
     for (var i = 0; i < enemy.panic_ploy_effects.length; i++) {
       if (enemy.eval_conditions(enemy.panic_ploy_effects[i].conditions, player)) {
-        player.panic_active = true;
-        combat_log += player.get_name() + " is afflicted by Panic from " + enemy.get_name() + "'s " + enemy.panic_ploy_effects[i].source + "!<br />";
+        player.set_panic_flag(true);
+        combat_log += enemy.get_name() + "'s " + enemy.panic_ploy_effects[i].source + " inflicts Panic on " + player.get_name() + "!<br />";
         ploy_flag = true;
         break;
+      }
+    }
+  }
+
+  // If ploys & statuses are enabled, apply Guard infliction.
+  if (this.document.getElementById("Ploys").checked) {
+    for (var i = 0; i < player.inflict_guard_effects.length; i++) {
+      if (player.eval_conditions(player.inflict_guard_effects[i].conditions, enemy)) {
+        enemy.set_guard_flag(true);
+        combat_log += player.get_name() + "'s " + player.inflict_guard_effects[i].source + " inflicts Guard on " + enemy.get_name() + "!<br />";
+        break;
+      }
+    }
+  }
+  if (this.document.getElementById("E_Ploys").checked) {
+    for (var i = 0; i < enemy.inflict_guard_effects.length; i++) {
+      if (enemy.eval_conditions(enemy.inflict_guard_effects[i].conditions, player)) {
+        player.set_guard_flag(true);
+        combat_log += enemy.get_name() + "'s " + enemy.inflict_guard_effects[i].source + " inflicts Guard on " + player.get_name() + "!<br />";
       }
     }
   }
@@ -560,18 +882,18 @@ function execute_phase(player, enemy, player_initiating) {
   }
 
   skill_string = "<div class=\"weapon_icon\">";
-  skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weapon_name();
-  skill_string += "<span class=\"weapon_desc\">" + enemy.weapon.desc + "</span></div>";
-  skill_string += "<div class=\"special_icon\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_special_name();
-  skill_string += "<span class=\"special_desc\">" + enemy.special.desc + "</span></div>";
-  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.a_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.a_skill.name) + ": " + enemy.a_skill.desc + "</span></div>";
-  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.b_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.b_skill.name) + ": " + enemy.b_skill.desc + "</span></div>";
-  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.c_skill.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.c_skill.name) + ": " + enemy.c_skill.desc + "</span></div>";
-  skill_string += "<div class=\"skill_icon\"><img src=" + process_seal_path(enemy.seal.name) + " class=\"icon\" />";
-  skill_string += "<span class=\"skill_desc\">" + clean(enemy.seal.name) + ": " + enemy.seal.desc + "</span></div>";
+  skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weapon_name() + "</div>";
+  //skill_string += "<span class=\"weapon_desc\">" + enemy.weapon.desc + "</span></div>";
+  skill_string += "<div class=\"special_icon\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_special_name() + "</div>";
+  //skill_string += "<span class=\"special_desc\">" + enemy.special.desc + "</span></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.a_skill.name) + " class=\"icon\" /></div>";
+  //skill_string += "<span class=\"skill_desc\">" + clean(enemy.a_skill.name) + ": " + enemy.a_skill.desc + "</span></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.b_skill.name) + " class=\"icon\" /></div>";
+  //skill_string += "<span class=\"skill_desc\">" + clean(enemy.b_skill.name) + ": " + enemy.b_skill.desc + "</span></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.c_skill.name) + " class=\"icon\" /></div>";
+  //skill_string += "<span class=\"skill_desc\">" + clean(enemy.c_skill.name) + ": " + enemy.c_skill.desc + "</span></div>";
+  skill_string += "<div class=\"skill_icon\"><img src=" + process_seal_path(enemy.seal.name) + " class=\"icon\" /></div>";
+  //skill_string += "<span class=\"skill_desc\">" + clean(enemy.seal.name) + ": " + enemy.seal.desc + "</span></div>";
 
   // Determine whether the units neutralize adaptive damage.
   for (var i = 0; i < attacker.neutralize_adaptive_damage_effects.length; i++) {
@@ -621,12 +943,16 @@ function execute_phase(player, enemy, player_initiating) {
       if (attacker.eval_conditions(attacker.precombat_damage_effects[i].conditions, defender)) {
         // Calculate the initial precombat_dmg value.
         var precombat_dmg = attacker.calculate_precombat_damage(attacker.precombat_damage_effects[i].effect, defender);
-        var pct_mit;
+        var bonus_dmg, pct_mit;
 
         // Add any valid sources of bonus damage.
-        for (var j = 0; j < attacker.bonus_damage_effects.length; j++)
-          if (attacker.eval_conditions(attacker.bonus_damage_effects[j].conditions, defender))
-            precombat_dmg += attacker.calculate_extra_damage(attacker.bonus_damage_effects[j].effect, defender);
+        for (var j = 0; j < attacker.bonus_damage_effects.length; j++) {
+          if (attacker.eval_conditions(attacker.bonus_damage_effects[j].conditions, defender)) {
+            bonus_dmg = attacker.calculate_extra_damage(attacker.bonus_damage_effects[j].effect, defender);
+            combat_log += attacker.get_name() + "'s " + attacker.bonus_damage_effects[j].source + " adds +" + bonus_dmg + " damage!<br />";
+            precombat_dmg += bonus_dmg;
+          }
+        }
 
         // Apply any mitigations.
         for (var j = 0; j < defender.flat_percent_precombat_mitigation_effects.length; j++) {
@@ -816,19 +1142,6 @@ function execute_phase(player, enemy, player_initiating) {
   for (var i = 0; i < defender.scaled_stat_boost_effects.length; i++)
     if (defender.eval_conditions(defender.scaled_stat_boost_effects[i].conditions, attacker))
       combat_log += defender.get_name() + "'s " + defender.scaled_stat_boost_effects[i].source + " grants " + defender.apply_scaled_stat_boost(defender.scaled_stat_boost_effects[i].effect, attacker) + ".<br />";
-  // Also apply any bonus movement effects.
-  for (var i = 0; i < attacker.extra_movement_effects.length; i++) {
-    if (attacker.eval_conditions(attacker.extra_movement_effects[i].conditions, defender)) {
-      attacker.set_extra_movement_flag(true);
-      break;
-    }
-  }
-  for (var i = 0; i < defender.extra_movement_effects.length; i++) {
-    if (defender.eval_conditions(defender.extra_movement_effects[i].conditions, attacker)) {
-      defender.set_extra_movement_flag(true);
-      break;
-    }
-  }
 
   // Next, apply any combat penalties applied by the other fighter.
   for (var i = 0; i < attacker.stat_penalty_effects.length; i++)
@@ -1193,6 +1506,7 @@ function check_counter(attacker, defender) {
   // Evaluate counterattack effects.
   for (var i = 0; i < defender.counterattack_effects.length; i++) {
     if (defender.eval_conditions(defender.counterattack_effects[i].conditions, attacker)) {
+      combat_log += defender.get_name() + " can counterattack regardless of foe's range due to " + defender.counterattack_effects[i].source + "!<br />";
       can_counterattack = true;
       break;
     }
@@ -1201,6 +1515,7 @@ function check_counter(attacker, defender) {
   // Determine whether the defender neutralizes counterattack prevention.
   for (var i = 0; i < defender.neutralize_counterattack_preventer_effects.length; i++) {
     if (defender.eval_conditions(defender.neutralize_counterattack_preventer_effects[i].conditions, attacker)) {
+      combat_log += defender.get_name() + "'s " + defender.neutralize_counterattack_preventer_effects[i].source + " neutralizes counterattack prevention effects!<br />";
       defender.set_neutralize_counterattack_preventers_flag(true);
       break;
     }
@@ -1210,11 +1525,13 @@ function check_counter(attacker, defender) {
   if (!defender.get_neutralize_counterattack_preventers_flag()) {
     for (var i = 0; i < defender.counterattack_preventer_effects.length; i++) {
       if (defender.eval_conditions(defender.counterattack_preventer_effects[i].conditions, attacker)) {
+        combat_log += defender.get_name() + "'s " + defender.counterattack_preventer_effects[i].source + " prevents their own counterattack!<br />";
         can_counterattack = false;
       }
     }
     for (var i = 0; i < attacker.e_counterattack_preventer_effects.length; i++) {
       if (attacker.eval_conditions(attacker.e_counterattack_preventer_effects[i].conditions, defender)) {
+        combat_log += attacker.get_name() + " prevents " + defender.get_name() + " from counterattacking with " + attacker.e_counterattack_preventer_effects[i].source + "!<br />";
         can_counterattack = false;
       }
     }
@@ -1228,12 +1545,15 @@ function check_follow_up(unit1, unit2) {
   var follow_up_counter = 0;
 
   // Evaluate the standard Spd check.
-  if ((unit1.get_combat_spd() - unit2.get_combat_spd()) >= 5)
+  if ((unit1.get_combat_spd() - unit2.get_combat_spd()) >= 5) {
+    combat_log += unit1.get_name() + " has at least five more Spd than " + unit2.get_name() + ", allowing a follow-up attack!<br />";
     follow_up_counter += 1;
+  }
 
   // Determine whether unit1 neutralizes follow up inhibitors.
   for (var i = 0; i < unit1.neutralize_follow_up_inhibitor_effects.length; i++) {
     if (unit1.eval_conditions(unit1.neutralize_follow_up_inhibitor_effects[i].conditions, unit2)) {
+      combat_log += unit1.get_name() + " neutralizes effects that inhibit their follow-up with " + unit1.neutralize_follow_up_inhibitor_effects[i].source + "!<br />";
       unit1.set_neutralize_follow_up_inhibitors_flag(true);
       break;
     }
@@ -1242,28 +1562,44 @@ function check_follow_up(unit1, unit2) {
   // If unit1 does not neutralize follow up inhibitors, apply any active enemy follow up inhibitors from unit2.
   // Also apply any active self follow up inhibitors from unit1.
   if (!unit1.get_neutralize_follow_up_inhibitors_flag()) {
-    for (var i = 0; i < unit2.e_follow_up_inhibit_effects.length; i++)
-      if (unit2.eval_conditions(unit2.e_follow_up_inhibit_effects[i].conditions, unit1))
+    for (var i = 0; i < unit2.e_follow_up_inhibit_effects.length; i++) {
+      if (unit2.eval_conditions(unit2.e_follow_up_inhibit_effects[i].conditions, unit1)) {
+        combat_log += unit2.get_name() + " inhibits " + unit1.get_name() + "'s ability to perform a follow-up with " + unit2.e_follow_up_inhibit_effects[i].source + "!<br />";
         follow_up_counter -= 1;
+      }
+    }
 
-    for (var i = 0; i < unit1.follow_up_inhibit_effects.length; i++)
-      if (unit1.eval_conditions(unit1.follow_up_inhibit_effects[i].conditions, unit2))
+    for (var i = 0; i < unit1.follow_up_inhibit_effects.length; i++) {
+      if (unit1.eval_conditions(unit1.follow_up_inhibit_effects[i].conditions, unit2)) {
+        combat_log += unit1.get_name() + " inhibits their own ability to perform a follow-up with " + unit1.follow_up_inhibit_effects[i].source + "!<br />";
         follow_up_counter -= 1;
+      }
+    }
   }
 
   // Determine whether unit2 neutralizes enemy follow up guarantors.
   for (var i = 0; i < unit2.neutralize_follow_up_guarantor_effects.length; i++) {
     if (unit2.eval_conditions(unit2.neutralize_follow_up_guarantor_effects[i].conditions, unit1)) {
+      combat_log += unit2.get_name() + " neutralizes effects that guarantee " + unit1.get_name() + "'s follow-up with " + unit2.neutralize_follow_up_guarantor_effects[i].source + "!<br />";
       unit2.set_neutralize_follow_up_guarantors_flag(true);
       break;
     }
   }
 
   // If unit2 does not neutralize enemy follow up guarantors, apply any active follow up guarantors from unit1.
-  if (!unit2.get_neutralize_follow_up_guarantors_flag())
-    for (var i = 0; i < unit1.follow_up_guarantor_effects.length; i++)
-      if (unit1.eval_conditions(unit1.follow_up_guarantor_effects[i].conditions, unit2))
+  if (!unit2.get_neutralize_follow_up_guarantors_flag()) {
+    for (var i = 0; i < unit1.follow_up_guarantor_effects.length; i++) {
+      if (unit1.eval_conditions(unit1.follow_up_guarantor_effects[i].conditions, unit2)) {
+        combat_log += unit1.get_name() + "'s " + unit1.follow_up_guarantor_effects[i].source + " guarantees a follow-up attack!<br />";
         follow_up_counter += 1;
+      }
+    }
+  }
+
+  if (follow_up_counter > 0)
+    combat_log += "After evaluating follow-up effects, " + unit1.get_name() + " will perform a follow-up attack!<br />";
+  else
+    combat_log += "After evaluating follow-up effects, " + unit1.get_name() + " is unable to perform a follow-up attack!<br />";
 
   return follow_up_counter > 0;
 
@@ -1335,15 +1671,17 @@ function calculate_damage(attacker, defender) {
 
   // Determine whether the attacker's special should activate.
   if (attacker.get_special_type() == "attack") {
-    if (attacker.eval_conditions(attacker.activate_special_effect.conditions, defender))
+    if (attacker.eval_conditions(attacker.activate_special_effect.conditions, defender)) {
       attacker.set_special_activating_flag(true);
+      combat_log += attacker.get_name() + "'s " + attacker.get_special_name() + " activates!<br />";
+    }
   }
 
   // Apply damage boost from specials, if applicable.
   for (var i = 0; i < attacker.damage_boost_effects.length; i++) {
     if (attacker.eval_conditions(attacker.damage_boost_effects[i].conditions, defender)) {
       damage_boost = attacker.calculate_extra_damage(attacker.damage_boost_effects[i].effect, defender);
-      combat_log += attacker.get_name() + "'s " + attacker.damage_boost_effects[i].source + " activates, dealing +" + damage_boost + " damage!<br />";
+      combat_log += attacker.get_name() + "'s " + attacker.damage_boost_effects[i].source + " deals +" + damage_boost + " damage!<br />";
       damage += damage_boost;
     }
   }
@@ -1485,6 +1823,10 @@ function calculate_damage(attacker, defender) {
           break;
         }
       }
+      // If the special charge inhibition flag is not already set, apply the attacker's guard status, if active.
+      if (!defender.get_inhibit_special_charge_flag() && attacker.get_guard_flag()) {
+        combat_log += attacker.get_name() + "'s Guard status condition inhibits special charge by -1!<br />";
+      }
     }
 
     // Decrement the cooldown if the defender does not inhibit the attacker's special charge.
@@ -1534,6 +1876,10 @@ function calculate_damage(attacker, defender) {
           break;
         }
       }
+      // If the special charge inhibition flag is not already set, apply the guard status, if active.
+      if (!attacker.get_inhibit_special_charge_flag() && defender.get_guard_flag()) {
+        combat_log += defender.get_name() + "'s Guard status condition inhibits special charge by -1!<br />";
+      }
     }
 
     // Decrement the cooldown if the attacker does not inhibit the defender's special charge.
@@ -1573,6 +1919,9 @@ function calculate_damage(attacker, defender) {
 
   combat_log += "<span class='" + span_class + "'>" + defender.get_name() + " takes " + damage + " damage, and has " + defender.get_hp() + " HP remaining.<br></span>";
   attacker.add_dmg_value(damage);
+
+  attacker.reset_single_hit_flags();
+  defender.reset_single_hit_flags();
 
   /*
   // Variable initializations.
