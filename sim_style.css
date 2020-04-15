@@ -1,183 +1,241 @@
-#PageContent {
-  width: 1240px;
-  margin: auto;
+body {
+  background-image: linear-gradient(to right,#000000,#00004d,#000000);
+  color: #DEDEDE;
 }
+
 #Sim_Header{
   margin: auto;
-  width: 1230px;
   text-align: center;
-  font-size: 20pt;
+  font-size: 1.5rem;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: .625rem;
 }
-#UI {
-  margin: auto;
-}
-#results {
-  background-color: rgb(20,20,30);
-  margin: auto;
-  margin-left: 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #FFFFFF;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-#ResultSet {
-  padding-left: 5px;
-}
-#CharSkills, #EnemySkills {
-  width: 290px;
-}
-#CharStats, #EnemyStats {
-  width: 290px;
-}
-.OptionsMenu {
-  margin-bottom: 10px;
-}
-.OptionSet {
-  margin-left: 5px;
-}
-.Menu {
-  background-color: rgb(20,20,30);
-}
+
 .UnitMenu {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 5px;
+  width: 19rem;
+  height: 31.8125rem;
   border-style: solid;
-  border-width: 2px;
-  border-color: #FFFFFF;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-width: .125rem;
+  border-radius: .625rem;
 }
 .MenuHeader{
   margin: auto;
   text-align: center;
-  font-size: 16pt;
+  font-size: 1.25rem;
   font-weight: bold;
   border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom-width: .125rem;
   border-bottom-color: #FFFFFF;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+  margin-bottom: .625rem;
+}
+.Menu {
+  background-color: rgb(20,20,30);
 }
 #CharacterSelect {
-  padding-left: 5px;
+  padding-left: .375rem;
 }
-.CharacterSelect {
-  width: 207px;
+.OptionSet {
+  margin-left: .375rem;
 }
-#UnitOptions {
-  margin-left: 12px;
-  padding-left: 2px;
-}
+
 #SimulationOptions, #Filters {
-  width: 1200px;
-  margin: auto;
   border-style: solid;
-  border-width: 2px;
+  border-width: .125rem;
   border-color: #FFFFFF;
-  border-radius: 10px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-.SimOptions {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
+  border-radius: .625rem;
+  padding-bottom: .375rem;
+  margin-top: .625rem;
+  margin-bottom: .625rem;
 }
 .SimOptionsColHeader {
   font-weight: bold;
-  text-align: center;
+  margin-bottom: .125rem;
 }
-.Customizer {
-  width: 175px;
+.FilterGroup {
+  margin-bottom: .5rem;
 }
-.Select_Extras {
-  width: 40px;
-}
-.Extras {
-  width: 30px;
-}
-.cell {
-  display: inline-block;
-  height: 26px;
-}
-.row {
-  height: 26px;
-}
-.row_header {
-  width: 70px;
-}
-.results_table {
-  width: 1000px;
-}
-.tempHidden {
-  display: none;
-}
-.log {
-  position: relative;
-  left: 25px;
-}
-.attacker_dmg {
-  color: blue;
-}
-.defender_dmg {
-  color: red;
-}
-.ShortBox {
-  width: 38px;
-}
-.Clickable {
-  border-style: outset;
-  border-color: darkblue;
-  background-color: #3D3D3D;
-}
-.FilterCell {
-  width: 180px;
+.buttons {
+  margin-top: .25rem;
 }
 .SelectionButton {
-  width: 90px;
+  width: 5.5rem;
 }
-input, select {
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom-style: solid;
-  border-width: 1px;
-  text-align: left;
+
+#Results {
+  background-color: rgb(20,20,30);
+  border-style: solid;
+  border-width: .125rem;
+  border-color: #FFFFFF;
+  border-radius: .625rem;
+  margin-bottom: .625rem;
 }
-input.ShortBox {
-  padding-left: 2px;
+#ResultSet {
+  padding-left: .375rem;
+  margin: auto;
 }
-body {
-  /*background-image: url(images/_background.jpg);*/
-  background-image: linear-gradient(to right,#000000,#00004d,#000000);/*#27004D,#00004d,#000000);*/
-  color: #DEDEDE;
+
+/* Media queries */
+@media screen and (min-width: 60rem) {
+  #Sim_Header {
+    width: 82rem;
+  }
+
+  #UI {
+    position: relative;
+    margin: auto;
+    width: 82rem;
+  }
+  .UnitMenu {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    margin-right: 1rem;
+  }
+
+  #SimulationOptions, #Filters {
+    position: relative;
+    width: 80.5rem;
+  }
+  .SimOptions {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: .375rem;
+  }
+  .SimOptionsColHeader {
+    text-align: center;
+  }
+  .NarrowRow {
+    width: 12rem;
+  }
+  .ColorColumn {
+    display: inline-block;
+  }
+  .FilterCell {
+    width: 10rem;
+  }
+
+  #ResultsContainer {
+    position: relative;
+    margin: auto;
+    width: 82rem;
+  }
+  #Results {
+    position: relative;
+    width: 80.5rem;
+  }
 }
+
+@media screen and (max-width: 60rem) {
+  #PageContent {
+    width: 85rem;
+  }
+
+  #Sim_Header {
+    width: 80rem;
+    margin: auto;
+  }
+
+  #Simulator {
+    width: 80rem;
+  }
+
+  #UI {
+    width: 21rem;
+  }
+
+  #SimulationOptions, #Filters {
+    width: 19rem;
+  }
+  .SimOptions {
+    margin-bottom: .375rem;
+  }
+  .NarrowRow {
+    width: 17rem;
+  }
+  .FilterCell {
+    width: 9rem;
+  }
+
+  #ResultsContainer {
+    width: 50rem;
+  }
+
+  .Container1 {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/* Sizing for div table elements */
+.cell {
+  height: 1.5rem;
+  vertical-align: top;
+}
+.row {
+  height: 1.5rem;
+}
+.row div {
+  display: inline-block;
+}
+.row_header {
+  width: 6rem;
+}
+.WideRow {
+  width: 17rem;
+}
+.OptionInputField {
+  float: right;
+}
+.FilterCell {
+  display: inline-block;
+}
+.result_cell {
+  display: inline-block;
+  width: 12rem;
+}
+
+/* Sizing for input fields */
+.CharacterSelect {
+  width: 13.6rem;
+  margin-bottom: .37rem;
+}
+.Customizer {
+  width: 10rem;
+}
+.Extras, .ShortBox {
+  width: 2rem;
+}
+.Select_Extras {
+  width: 2.25rem;
+}
+
+/* Sizing for skill icons */
 .icon {
-  height: 25px;
-  width: 25px;
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .weapon_icon {
   display: inline-block;
-  position: relative;
-  width: 185px;
+  vertical-align: top;
+  height: 1.5rem;
+  width: 1.5rem;
   margin-left: 20px;
 }
 .special_icon {
   display: inline-block;
-  position: relative;
+  vertical-align: top;
   width: 150px;
 }
 .skill_icon {
   display: inline-block;
-  position: relative;
-  width: 25px;
-  vertical-align: -15%;
+  vertical-align: top;
+  width: 1.5rem;
 }
+
+/* Display settings for toggle-able simulator elements */
 .LegAlly {
   display: none;
 }
@@ -190,16 +248,14 @@ body {
 #Optimized_Disclaimer {
   display: none;
 }
-
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 280px;
+    width: 17.5rem;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -213,32 +269,17 @@ body {
     left: 50%;
     margin-left: -140px;
 }
-
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
-@media screen and (min-width: 800px) {
-  #UI {
-    position: relative;
-    width: 1230px;
-  }
-  #results {
-    width: 1205px;
-  }
-  .UnitMenu {
-    height: 480px;
-  }
+.tempHidden {
+  display: none;
 }
 
-@media screen and (max-width: 800px) {
-  #UI {
-    width: 390px;
-    height: 1500px;
-  }
-  #results {
-    margin-left: 380px;
-    margin-top: -1495px;
-    width: 500px;
-  }
+/* Coloring for the combat log */
+.attacker_dmg {
+  color: blue;
+}
+.defender_dmg {
+  color: red;
 }

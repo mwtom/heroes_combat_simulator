@@ -881,10 +881,10 @@ function execute_phase(player, enemy, player_initiating) {
     enemy.calculate_printed_stats();
   }
 
-  skill_string = "<div class=\"weapon_icon\">";
+  skill_string = "<div class=\"result_cell\">";
   skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weapon_name() + "</div>";
   //skill_string += "<span class=\"weapon_desc\">" + enemy.weapon.desc + "</span></div>";
-  skill_string += "<div class=\"special_icon\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_special_name() + "</div>";
+  skill_string += "<div class=\"result_cell\"><img src=\"images/special_icon.png\" class=\"icon\" />" + enemy.get_special_name() + "</div>";
   //skill_string += "<span class=\"special_desc\">" + enemy.special.desc + "</span></div>";
   skill_string += "<div class=\"skill_icon\"><img src=" + process_skill_path(enemy.a_skill.name) + " class=\"icon\" /></div>";
   //skill_string += "<span class=\"skill_desc\">" + clean(enemy.a_skill.name) + ": " + enemy.a_skill.desc + "</span></div>";
@@ -1238,9 +1238,16 @@ function execute_phase(player, enemy, player_initiating) {
 
   // Determine whether one or both units perform a follow up attack.
   attacker.set_follow_up_flag(check_follow_up(attacker, defender));
+
   if (defender.get_counterattack_flag()) {
     defender.set_follow_up_flag(check_follow_up(defender, attacker));
   }
+
+  if (attacker.get_follow_up_flag())
+    combat_log += attacker.get_name() + " will perform a follow-up attack!<br />";
+  if (defender.get_counterattack_flag() && defender.get_follow_up_flag())
+    combat_log += defender.get_name() + " will perform a follow-up attack!<br />";
+
 
   // Determine whether either unit neutralizes combat order alteration effects.
   var combat_order_alteration_neutralized = false;
@@ -1553,7 +1560,7 @@ function check_follow_up(unit1, unit2) {
   // Determine whether unit1 neutralizes follow up inhibitors.
   for (var i = 0; i < unit1.neutralize_follow_up_inhibitor_effects.length; i++) {
     if (unit1.eval_conditions(unit1.neutralize_follow_up_inhibitor_effects[i].conditions, unit2)) {
-      combat_log += unit1.get_name() + " neutralizes effects that inhibit their follow-up with " + unit1.neutralize_follow_up_inhibitor_effects[i].source + "!<br />";
+      combat_log += unit1.get_name() + "'s " + unit1.neutralize_follow_up_inhibitor_effects[i].source + " neutralizes effects that inhibit their follow-up!<br />";
       unit1.set_neutralize_follow_up_inhibitors_flag(true);
       break;
     }
@@ -1564,14 +1571,14 @@ function check_follow_up(unit1, unit2) {
   if (!unit1.get_neutralize_follow_up_inhibitors_flag()) {
     for (var i = 0; i < unit2.e_follow_up_inhibit_effects.length; i++) {
       if (unit2.eval_conditions(unit2.e_follow_up_inhibit_effects[i].conditions, unit1)) {
-        combat_log += unit2.get_name() + " inhibits " + unit1.get_name() + "'s ability to perform a follow-up with " + unit2.e_follow_up_inhibit_effects[i].source + "!<br />";
+        combat_log += unit2.get_name() + "'s " + unit2.e_follow_up_inhibit_effects[i].source + " inhibits " + unit1.get_name() + "'s ability to perform a follow-up!<br />";
         follow_up_counter -= 1;
       }
     }
 
     for (var i = 0; i < unit1.follow_up_inhibit_effects.length; i++) {
       if (unit1.eval_conditions(unit1.follow_up_inhibit_effects[i].conditions, unit2)) {
-        combat_log += unit1.get_name() + " inhibits their own ability to perform a follow-up with " + unit1.follow_up_inhibit_effects[i].source + "!<br />";
+        combat_log += unit1.get_name() + "'s " + unit1.follow_up_inhibit_effects[i].source + " inhibits their own ability to perform a follow-up!<br />";
         follow_up_counter -= 1;
       }
     }
@@ -1580,7 +1587,7 @@ function check_follow_up(unit1, unit2) {
   // Determine whether unit2 neutralizes enemy follow up guarantors.
   for (var i = 0; i < unit2.neutralize_follow_up_guarantor_effects.length; i++) {
     if (unit2.eval_conditions(unit2.neutralize_follow_up_guarantor_effects[i].conditions, unit1)) {
-      combat_log += unit2.get_name() + " neutralizes effects that guarantee " + unit1.get_name() + "'s follow-up with " + unit2.neutralize_follow_up_guarantor_effects[i].source + "!<br />";
+      combat_log += unit2.get_name() + "'s" + unit2.neutralize_follow_up_guarantor_effects[i].source + " neutralizes effects that guarantee " + unit1.get_name() + "'s follow-up!<br />";
       unit2.set_neutralize_follow_up_guarantors_flag(true);
       break;
     }
@@ -1596,23 +1603,7 @@ function check_follow_up(unit1, unit2) {
     }
   }
 
-  if (follow_up_counter > 0)
-    combat_log += "After evaluating follow-up effects, " + unit1.get_name() + " will perform a follow-up attack!<br />";
-  else
-    combat_log += "After evaluating follow-up effects, " + unit1.get_name() + " is unable to perform a follow-up attack!<br />";
-
   return follow_up_counter > 0;
-
- /* Old inhibitor logic, might need to bring this back?
-  if (inhibitor > 0) {
-    return false;
-  }
-  else if (inhibitor == 0) {
-    return normal_follow_up;
-  }
-  else {
-    return true;
-  }*/
 }
 
 /*

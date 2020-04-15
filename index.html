@@ -196,7 +196,7 @@ $(document).ready(function() {
     <div id="Sim_Header">
       Fire Emblem: Heroes Combat Simulator
     </div>
-    <div id="UI">
+    <div id="UI" class="Container1">
       <div id="UnitOptions" class="OptionsMenu">
         <div id="CharSkills" class="UnitMenu Menu">
           <div id="CharSkillsHeader" class="MenuHeader">
@@ -566,7 +566,7 @@ $(document).ready(function() {
               </tr>
               <tr>
                 <td>
-                  Base (w/ skills):
+                  Base:
                 </td>
                 <td id="CharHP" class="Extras">
                 </td>
@@ -1131,27 +1131,25 @@ $(document).ready(function() {
             <div id="SimOptionsCol1Header" class="SimOptionsColHeader">
               General Options
             </div>
-            <table>
-              <tr>
-                <td>
-                  Simulation type:
-                </td>
-                <td>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Simulation type:
+              </div>
+              <div class="cell OptionInputField">
                 <select id='SimType'>
                   <option value='Offense'>Attacking</option>
                   <option value='Defense'>Defending</option>
                 </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Turn Number:
-                </td>
-                <td>
-                  <input type="number" id="Turn" class="Extras" value="1" min="1" />
-                </td>
-              </tr>
-            </table>
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Turn Number:
+              </div>
+              <div class="cell OptionInputField">
+                <input type="number" id="Turn" class="Extras" value="1" min="1" />
+              </div>
+            </div>
             <input type="checkbox" id="Ploys" />
             <label for="Ploys">
               Apply Ploy/Sabotage/etc. skills to foes.
@@ -1171,256 +1169,255 @@ $(document).ready(function() {
             <div id="SimOptionsCol2Header" class="SimOptionsColHeader">
               Negative Statuses
             </div>
-            <table>
-              <tr>
-                <td>
-                  Panic:
-                </td>
-                <td>
-                  <select id="PanicActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Guard:
-                </td>
-                <td>
-                  <select id="GuardActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Isolation:
-                </td>
-                <td>
-                  <select id="IsolationActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Gravity:
-                </td>
-                <td>
-                  <select id="Gravityctive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Flash:
-                </td>
-                <td>
-                  <select id="FlashActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Trilemma:
-                </td>
-                <td>
-                  <select id="TrilemmaActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-            </table>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Panic:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="PanicActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Guard:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="GuardActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Isolation:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="IsolationActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Gravity:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="Gravityctive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Flash:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="FlashActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Trilemma:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="TrilemmaActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
           </div>
           <div id="SimOptionsCol3" class="SimOptions">
             <div id="SimOptionsCol3Header" class="SimOptionsColHeader">
               Positive Statuses
             </div>
-            <table>
-              <tr>
-                <td>
-                  Bonus Doubler:
-                </td>
-                <td>
-                  <select id="BDoublerActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Extra Movement:
-                </td>
-                <td>
-                  <select id="ExtraMovActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Divine Fang:
-                </td>
-                <td>
-                  <select id="DivineFangActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Neutr. Dragon/Armor Eff.:
-                </td>
-                <td>
-                  <select id="NtrDraArmEffActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-            </table>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Bonus Doubler:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="BDoublerActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Extra Movement:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="ExtraMovActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Divine Fang:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="DivineFangActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Neutr. Dragon/Armor Eff.:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="NtrDraArmEffActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
           </div>
           <div id="SimOptionsCol4" class="SimOptions">
             <div id="SimOptionsCol4Header" class="SimOptionsColHeader">
               Support Effects
             </div>
-            <table>
-              <tr>
-                <td>
-                  Geirskögul (Eff):
-                </td>
-                <td>
-                  <select id="GeirskogulActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Infantry Breath:
-                </td>
-                <td>
-                  <select id="InfBreathActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Infantry Rush:
-                </td>
-                <td>
-                  <select id="InfRushActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Infantry Flash:
-                </td>
-                <td>
-                  <select id="InfFlashActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Inf. Hexblade:
-                </td>
-                <td>
-                  <select id="InfHexbladeActive">
-                    <option value="Neither">Neither</option>
-                    <option value="Player">Player</option>
-                    <option value="Enemy">Enemy</option>
-                    <option value="Both">Both</option>
-                  </select>
-                </td>
-              </tr>
-            </table>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Geirskögul (Eff):
+              </div>
+              <div class="cell OptionInputField">
+                <select id="GeirskogulActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Infantry Breath:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="InfBreathActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Infantry Rush:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="InfRushActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Infantry Flash:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="InfFlashActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
+            <div class="row NarrowRow">
+              <div class="cell OptionLabel">
+                Inf. Hexblade:
+              </div>
+              <div class="cell OptionInputField">
+                <select id="InfHexbladeActive">
+                  <option value="Neither">Neither</option>
+                  <option value="Player">Player</option>
+                  <option value="Enemy">Enemy</option>
+                  <option value="Both">Both</option>
+                </select>
+              </div>
+            </div>
           </div>
           <div id="SimOptionsCol5" class="SimOptions">
             <div id="SimOptionsCol5Header" class="SimOptionsColHeader">
               Support Effects cont'd.
             </div>
-            <table>
-              <tr>
-                <td>
-                </td>
-                <td>
-                  Player
-                </td>
-                <td>
-                  Enemy
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Close Guard:
-                </td>
-                <td>
-                  <input type="number" id="CGStacks" value="0" min="0" class="ShortBox" />
-                </td>
-                <td>
-                  <input type="number" id="EnemyCGStacks" value="0" min="0" class="ShortBox" />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Distant Guard:
-                </td>
-                <td>
-                  <input type="number" id="DGStacks" value="0" min="0" class="ShortBox" />
-                </td>
-                <td>
-                  <input type="number" id="EnemyDGStacks" value="0" min="0" class="ShortBox" />
-                </td>
-              </tr>
-            </table>
+            <div class="row WideRow">
+              <div class="cell OptionInputField">
+                Player Enemy
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Close Guard:
+              </div>
+              <div class="cell OptionInputField">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="number" id="CGStacks" value="0" min="0" class="ShortBox" />
+                    </td>
+                    <td>
+                      <input type="number" id="EnemyCGStacks" value="0" min="0" class="ShortBox" />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row WideRow">
+              <div class="cell OptionLabel">
+                Distant Guard:
+              </div>
+              <div class="cell OptionInputField">
+                <table>
+                  <tr>
+                    <td>
+                      <input type="number" id="DGStacks" value="0" min="0" class="ShortBox" />
+                    </td>
+                    <td>
+                      <input type="number" id="EnemyDGStacks" value="0" min="0" class="ShortBox" />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1429,266 +1426,291 @@ $(document).ready(function() {
           Enemy Filters
         </div>
         <div id="FiltersOptions" class="OptionSet">
-          Color:
-          <br>
-          <table>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Red" checked="true" />
-                <label for="Red">
-                  Red
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Blue" checked="true" />
-                <label for="Blue">
-                  Blue
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Green" checked="true" />
-                <label for="Green">
-                  Green
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Colorless" checked="true" />
-                <label for="Colorless">
-                  Colorless
-                </label>
-              </td>
-            </tr>
-          </table>
-          <div class="buttons">
-            <button id="SelectColor" class="SelectionButton">
-              Select All
-            </button>
-            <button id="DeselectColor" class="SelectionButton">
-              Deselect All
-            </button>
+          <div id="ColorFilters" class="FilterGroup">
+            Color:
+            <br />
+            <div class="FilterCell">
+              <input type="checkbox" id="Red" checked="true" />
+              <label for="Red">
+                Red
+              </label>
+            </div>
+            <div class="FilterCell">
+              <input type="checkbox" id="Blue" checked="true" />
+              <label for="Blue">
+                Blue
+              </label>
+            </div>
+            <div class="FilterCell">
+              <input type="checkbox" id="Green" checked="true" />
+              <label for="Green">
+                Green
+              </label>
+            </div>
+            <div class="FilterCell">
+              <input type="checkbox" id="Colorless" checked="true" />
+              <label for="Colorless">
+                Colorless
+              </label>
+            </div>
+            <div class="buttons">
+              <button id="SelectColor" class="SelectionButton">
+                Select All
+              </button>
+              <button id="DeselectColor" class="SelectionButton">
+                Deselect All
+              </button>
+            </div>
           </div>
-          <br>
-          Weapon Type:
-          <table>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Sword" checked="true" />
-                <label for="Sword">
-                  Sword
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="R Tome" checked="true" />
-                <label for="R Tome">
-                  R Tome
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="R Breath" checked="true" />
-                <label for="R Breath">
-                  R Breath
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="R Bow" checked="true" />
-                <label for="Bow">
-                  R Bow
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="R Dagger" checked="true" />
-                <label for="R Dagger">
-                  Red Dgr.
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="R Beast" checked="true" />
-                <label for="R Beast">
-                  Red Beast
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Lance" checked="true" />
-                <label for="Lance">
-                  Lance
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="B Tome" checked="true" />
-                <label for="B Tome">
-                  B Tome
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="B Breath" checked="true" />
-                <label for="B Breath">
-                  B Breath
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="B Bow" checked="true" />
-                <label for="Bow">
-                  B Bow
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="B Dagger" checked="true" />
-                <label for="B Dagger">
-                  Blue Dgr.
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="B Beast" checked="true" />
-                <label for="B Beast">
-                  Blue Beast
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Axe" checked="true" />
-                <label for="Axe">
-                  Axe
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="G Tome" checked="true" />
-                <label for="G Tome">
-                  G Tome
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="G Breath" checked="true" />
-                <label for="G Breath">
-                  G Breath
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="G Bow" checked="true" />
-                <label for="Bow">
-                  G Bow
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="G Dagger" checked="true" />
-                <label for="G Dagger">
-                  Green Dgr.
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="G Beast" checked="true" />
-                <label for="G Beast">
-                  Green Beast
-                </label>
-              </td>
-            </tr>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Staff" checked="true" />
-                <label for="Staff">
-                  Staff
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="N Tome" checked="true" />
-                <label for="N Tome">
-                  Colorless Tome
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="N Breath" checked="true" />
-                <label for="N Breath">
-                  Colorless Breath
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="N Bow" checked="true" />
-                <label for="Bow">
-                  Colorless Bow
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="N Dagger" checked="true" />
-                <label for="N Dagger">
-                  Colorless Dagger
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="N Beast" checked="true" />
-                <label for="N Beast">
-                  Colorless Beast
-                </label>
-              </td>
-            </tr>
-          </table>
-          <div class="buttons">
-            <button id="SelectWeapType" class="SelectionButton">
-              Select All
-            </button>
-            <button id="DeselectWeapType" class="SelectionButton">
-              Deselect All
-            </button>
-            <button id="SelectPhysical" class="SelectionButton">
-              Phys. Only
-            </button>
-            <button id="SelectMagical" class="SelectionButton">
-              Mag. Only
-            </button>
-            <button id="SelectOneRange" class="SelectionButton">
-              1-Rng. Only
-            </button>
-            <button id="SelectTwoRange" class="SelectionButton">
-              2-Rng. Only
-            </button>
+          <div id="WeaponFilters" class="FilterGroup">
+            Weapon Type:
+            <br />
+            <div class="ColorRow">
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="Sword" checked="true" />
+                  <label for="Sword">
+                    Sword
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="R Tome" checked="true" />
+                  <label for="R Tome">
+                    R Tome
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="R Breath" checked="true" />
+                  <label for="R Breath">
+                    R Breath
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="R Bow" checked="true" />
+                  <label for="Bow">
+                    R Bow
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="R Dagger" checked="true" />
+                  <label for="R Dagger">
+                    Red Dgr.
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="R Beast" checked="true" />
+                  <label for="R Beast">
+                    Red Beast
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="ColorRow">
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="Lance" checked="true" />
+                  <label for="Lance">
+                    Lance
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="B Tome" checked="true" />
+                  <label for="B Tome">
+                    B Tome
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="B Breath" checked="true" />
+                  <label for="B Breath">
+                    B Breath
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="B Bow" checked="true" />
+                  <label for="Bow">
+                    B Bow
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="B Dagger" checked="true" />
+                  <label for="B Dagger">
+                    Blue Dgr.
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="B Beast" checked="true" />
+                  <label for="B Beast">
+                    Blue Beast
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="ColorRow">
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="Axe" checked="true" />
+                  <label for="Axe">
+                    Axe
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="G Tome" checked="true" />
+                  <label for="G Tome">
+                    G Tome
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="G Breath" checked="true" />
+                  <label for="G Breath">
+                    G Breath
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="G Bow" checked="true" />
+                  <label for="Bow">
+                    G Bow
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="G Dagger" checked="true" />
+                  <label for="G Dagger">
+                    Green Dgr.
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="G Beast" checked="true" />
+                  <label for="G Beast">
+                    Green Beast
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="ColorRow">
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="Staff" checked="true" />
+                  <label for="Staff">
+                    Staff
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="N Tome" checked="true" />
+                  <label for="N Tome">
+                    Colorless Tome
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="N Breath" checked="true" />
+                  <label for="N Breath">
+                    Colorless Breath
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="N Bow" checked="true" />
+                  <label for="Bow">
+                    Colorless Bow
+                  </label>
+                </div>
+              </div>
+              <div class="ColorColumn">
+                <div class="FilterCell">
+                  <input type="checkbox" id="N Dagger" checked="true" />
+                  <label for="N Dagger">
+                    Colorless Dagger
+                  </label>
+                </div>
+                <div class="FilterCell">
+                  <input type="checkbox" id="N Beast" checked="true" />
+                  <label for="N Beast">
+                    Colorless Beast
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button id="SelectWeapType" class="SelectionButton">
+                Select All
+              </button>
+              <button id="DeselectWeapType" class="SelectionButton">
+                Deselect All
+              </button>
+              <button id="SelectPhysical" class="SelectionButton">
+                Phys. Only
+              </button>
+              <button id="SelectMagical" class="SelectionButton">
+                Mag. Only
+              </button>
+              <button id="SelectOneRange" class="SelectionButton">
+                1-Rng. Only
+              </button>
+              <button id="SelectTwoRange" class="SelectionButton">
+                2-Rng. Only
+              </button>
+            </div>
           </div>
-          <br />
-          Movement Type:
-          <table>
-            <tr>
-              <td class="FilterCell">
-                <input type="checkbox" id="Armor" checked="true" />
-                <label for="Armor">
-                  Armor
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Cavalry" checked="true" />
-                <label for="Cavalry">
-                  Cavalry
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Flier" checked="true" />
-                <label for="Flier">
-                  Flier
-                </label>
-              </td>
-              <td class="FilterCell">
-                <input type="checkbox" id="Infantry" checked="true" />
-                <label for="Infantry">
-                  Infantry
-                </label>
-              </td>
-            </tr>
-          </table>
-          <div class="buttons">
-            <button id="SelectMovType" class="SelectionButton">
-              Select All
-            </button>
-            <button id="DeselectMovType" class="SelectionButton">
-              Deselect All
-            </button>
+          <div id="MovementFilters" class="FilterGroup">
+            Movement Type:
+            <table>
+              <tr>
+                <td class="FilterCell">
+                  <input type="checkbox" id="Armor" checked="true" />
+                  <label for="Armor">
+                    Armor
+                  </label>
+                </td>
+                <td class="FilterCell">
+                  <input type="checkbox" id="Cavalry" checked="true" />
+                  <label for="Cavalry">
+                    Cavalry
+                  </label>
+                </td>
+                <td class="FilterCell">
+                  <input type="checkbox" id="Flier" checked="true" />
+                  <label for="Flier">
+                    Flier
+                  </label>
+                </td>
+                <td class="FilterCell">
+                  <input type="checkbox" id="Infantry" checked="true" />
+                  <label for="Infantry">
+                    Infantry
+                  </label>
+                </td>
+              </tr>
+            </table>
+            <div class="buttons">
+              <button id="SelectMovType" class="SelectionButton">
+                Select All
+              </button>
+              <button id="DeselectMovType" class="SelectionButton">
+                Deselect All
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="results">
-      <div id="ResultHeader" class="MenuHeader">
-        Results
-      </div>
-      <div id="ResultSet">
+    <div id="ResultsContainer" class="Container1">
+      <div id="Results">
+        <div id="ResultHeader" class="MenuHeader">
+          Results
+        </div>
+        <div id="ResultSet">
+        </div>
       </div>
     </div>
   </div>
