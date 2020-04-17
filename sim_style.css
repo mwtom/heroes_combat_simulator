@@ -12,8 +12,8 @@ body {
 }
 
 .UnitMenu {
-  width: 19rem;
-  height: 31.8125rem;
+  width: 20rem;
+  height: 33rem;
   border-style: solid;
   border-width: .125rem;
   border-radius: .625rem;
@@ -79,13 +79,13 @@ body {
 /* Media queries */
 @media screen and (min-width: 60rem) {
   #Sim_Header {
-    width: 82rem;
+    width: 86rem;
   }
 
   #UI {
     position: relative;
     margin: auto;
-    width: 82rem;
+    width: 86rem;
   }
   .UnitMenu {
     display: inline-block;
@@ -96,7 +96,7 @@ body {
 
   #SimulationOptions, #Filters {
     position: relative;
-    width: 80.5rem;
+    width: 84.5rem;
   }
   .SimOptions {
     display: inline-block;
@@ -119,26 +119,26 @@ body {
   #ResultsContainer {
     position: relative;
     margin: auto;
-    width: 82rem;
+    width: 86rem;
   }
   #Results {
     position: relative;
-    width: 80.5rem;
+    width: 84.5rem;
   }
 }
 
 @media screen and (max-width: 60rem) {
   #PageContent {
-    width: 85rem;
+    width: 75rem;
   }
 
   #Sim_Header {
-    width: 80rem;
+    width: 75rem;
     margin: auto;
   }
 
   #Simulator {
-    width: 80rem;
+    width: 74rem;
   }
 
   #UI {
@@ -146,7 +146,7 @@ body {
   }
 
   #SimulationOptions, #Filters {
-    width: 19rem;
+    width: 20rem;
   }
   .SimOptions {
     margin-bottom: .375rem;
@@ -204,11 +204,15 @@ body {
 .Customizer {
   width: 10rem;
 }
-.Extras, .ShortBox {
+.Extras {
   width: 2rem;
 }
-.Select_Extras {
+
+.ShortBox {
   width: 2.25rem;
+}
+.Select_Extras {
+  width: 2.5rem;
 }
 
 /* Sizing for skill icons */

@@ -38,15 +38,18 @@ function load_data() {
     optimized_unit.spd_base = base_unit.spd_base;
     optimized_unit.def_base = base_unit.def_base;
     optimized_unit.res_base = base_unit.res_base;
-    optimized_unit.hpGP = base_unit.hpGP;
-    optimized_unit.atkGP = base_unit.atkGP;
-    optimized_unit.spdGP = base_unit.spdGP;
-    optimized_unit.defGP = base_unit.defGP;
-    optimized_unit.resGP = base_unit.resGP;
+    optimized_unit.hpGrowth = base_unit.hpGrowth;
+    optimized_unit.atkGrowth = base_unit.atkGrowth;
+    optimized_unit.spdGrowth = base_unit.spdGrowth;
+    optimized_unit.defGrowth = base_unit.defGrowth;
+    optimized_unit.resGrowth = base_unit.resGrowth;
     optimized_unit.n_lock = base_unit.n_lock;
     optimized_unit.type = base_unit.type;
     optimized_unit.weap = base_unit.weap;
     optimized_unit.legendary = base_unit.legendary;
+    optimized_unit.mythic = base_unit.mythic;
+    optimized_unit.has_resplendent = base_unit.has_resplendent;
+    optimized_unit.df_maximum = base_unit.df_maximum;
     Optimized_Chars.push(optimized_unit);
   }
   for (item in data.Weapons) {
