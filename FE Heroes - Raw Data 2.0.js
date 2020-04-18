@@ -15759,17 +15759,16 @@ var data = {
       "weap_name": "Imbued Koma",
       "refine": "None",
       "a_name": "Close Counter",
-      "b_name": "Special Spiral 3",
-      "c_name": "Joint Drive Atk",
+      "b_name": "Quick Riposte 3",
+      "c_name": "Time's Pulse 3",
       "special": "Open the Future",
-      "seal_name": "Quick Riposte 3",
+      "seal_name": "Quickened Pulse",
       "weapon": 237,
       "a": 45,
-      "b": 108,
-      "c": 78,
+      "b": 78,
+      "c": 132,
       "proc": 39,
-      "seal": 80,
-      "pulse": 2
+      "seal": 81
     },
     "1": {
       "name": "Alm (Hero of Prophecy)",
@@ -15789,8 +15788,7 @@ var data = {
       "b": 63,
       "c": 132,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "2": {
       "name": "Alm (Imperial Ascent)",
@@ -15810,8 +15808,7 @@ var data = {
       "b": 65,
       "c": 132,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "3": {
       "name": "Alm (Lovebird Duo)",
@@ -15831,8 +15828,7 @@ var data = {
       "b": 27,
       "c": 132,
       "proc": 34,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "4": {
       "name": "Alm (Lovebird Duo)",
@@ -15852,8 +15848,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 34,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "5": {
       "name": "Alm (Saint-King)",
@@ -15873,8 +15868,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 34,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "6": {
       "name": "Alm (Saint-King)",
@@ -15894,8 +15888,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 34,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "7": {
       "name": "Alm (Saint-King)",
@@ -15915,8 +15908,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 34,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "8": {
       "name": "Altena (Luminous Rider)",
@@ -15936,8 +15928,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "9": {
       "name": "Altina (Dawn's Trueblade)",
@@ -15957,8 +15948,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 52,
-      "seal": 18,
-      "pulse": 0
+      "seal": 18
     },
     "10": {
       "name": "Altina (Dawn's Trueblade)",
@@ -15978,8 +15968,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 52,
-      "seal": 65,
-      "pulse": 0
+      "seal": 65
     },
     "11": {
       "name": "Amelia (Rose of the War)",
@@ -15999,8 +15988,7 @@ var data = {
       "b": 107,
       "c": 2,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "12": {
       "name": "Anna (Wealth-Wisher)",
@@ -16020,8 +16008,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "13": {
       "name": "Anna (Wealth-Wisher)",
@@ -16041,8 +16028,7 @@ var data = {
       "b": 66,
       "c": 132,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "14": {
       "name": "Anna (Wealth-Wisher)",
@@ -16062,8 +16048,7 @@ var data = {
       "b": 37,
       "c": 132,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "15": {
       "name": "Annette (Overachiever)",
@@ -16083,8 +16068,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 20,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "16": {
       "name": "Ares (Black Knight)",
@@ -16104,8 +16088,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 10,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "17": {
       "name": "Aversa (Dark One)",
@@ -16125,8 +16108,7 @@ var data = {
       "b": 110,
       "c": 78,
       "proc": 45,
-      "seal": 72,
-      "pulse": 0
+      "seal": 72
     },
     "18": {
       "name": "Ayra (Astra's Wielder)",
@@ -16146,8 +16128,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 42,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "19": {
       "name": "Azura (Lady of the Lake)",
@@ -16167,8 +16148,7 @@ var data = {
       "b": 118,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "20": {
       "name": "Azura (Vallite Songstress)",
@@ -16188,8 +16168,7 @@ var data = {
       "b": 118,
       "c": 64,
       "proc": 45,
-      "seal": 112,
-      "pulse": 0
+      "seal": 112
     },
     "21": {
       "name": "Azura (Vallite Songstress)",
@@ -16209,8 +16188,7 @@ var data = {
       "b": 118,
       "c": 64,
       "proc": 45,
-      "seal": 112,
-      "pulse": 0
+      "seal": 112
     },
     "22": {
       "name": "Barst (The Hatchet)",
@@ -16230,8 +16208,7 @@ var data = {
       "b": 119,
       "c": 132,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "23": {
       "name": "Berkut (Purgatorial Prince)",
@@ -16251,8 +16228,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 45,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "24": {
       "name": "Bernadetta (Eternal Loner)",
@@ -16272,8 +16248,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "25": {
       "name": "Bernadetta (Eternal Loner)",
@@ -16293,8 +16268,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "26": {
       "name": "Beruka (Quiet Assassin)",
@@ -16314,8 +16288,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 29,
-      "seal": 104,
-      "pulse": 0
+      "seal": 104
     },
     "27": {
       "name": "Bramimond (The Enigma)",
@@ -16335,8 +16308,7 @@ var data = {
       "b": 64,
       "c": 72,
       "proc": 45,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "28": {
       "name": "Bramimond (The Enigma)",
@@ -16356,8 +16328,7 @@ var data = {
       "b": 67,
       "c": 72,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "29": {
       "name": "Bramimond (The Enigma)",
@@ -16377,8 +16348,7 @@ var data = {
       "b": 64,
       "c": 72,
       "proc": 45,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "30": {
       "name": "Brunnya (Devoted General)",
@@ -16398,8 +16368,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "31": {
       "name": "Byleth (Proven Professor)",
@@ -16419,8 +16388,7 @@ var data = {
       "b": 117,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "32": {
       "name": "Byleth (Proven Professor)",
@@ -16440,8 +16408,7 @@ var data = {
       "b": 116,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "33": {
       "name": "Caeda (Talys's Heart)",
@@ -16461,8 +16428,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "34": {
       "name": "Caeda (Talys's Heart)",
@@ -16482,8 +16448,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 33,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "35": {
       "name": "Caineghis (Gallia's Lion King)",
@@ -16503,8 +16468,7 @@ var data = {
       "b": 113,
       "c": 78,
       "proc": 10,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "36": {
       "name": "Caineghis (Gallia's Lion King)",
@@ -16524,8 +16488,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "37": {
       "name": "Camilla (Bewitching Beauty)",
@@ -16545,8 +16508,7 @@ var data = {
       "b": 48,
       "c": 78,
       "proc": 45,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "38": {
       "name": "Camilla (Bewitching Beauty)",
@@ -16566,8 +16528,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 45,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "39": {
       "name": "Camilla (Flower of Fantasy)",
@@ -16587,8 +16548,7 @@ var data = {
       "b": 110,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "40": {
       "name": "Camilla (Light of Nohr)",
@@ -16608,8 +16568,7 @@ var data = {
       "b": 120,
       "c": 78,
       "proc": 0,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "41": {
       "name": "Catria (Middle Whitewing)",
@@ -16629,8 +16588,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "42": {
       "name": "Catria (Mild Middle Sister)",
@@ -16650,8 +16608,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "43": {
       "name": "Cecilia (Festive Instructor)",
@@ -16671,8 +16628,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "44": {
       "name": "Cecilia (Festive Instructor)",
@@ -16692,8 +16648,7 @@ var data = {
       "b": 113,
       "c": 78,
       "proc": 28,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "45": {
       "name": "Ced (Hero on the Wind)",
@@ -16713,8 +16668,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "46": {
       "name": "Ced (Hero on the Wind)",
@@ -16734,8 +16688,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "47": {
       "name": "Celica (Caring Princess)",
@@ -16755,8 +16708,7 @@ var data = {
       "b": 37,
       "c": 78,
       "proc": 45,
-      "seal": 19,
-      "pulse": 0
+      "seal": 19
     },
     "48": {
       "name": "Celica (Queen of Valentia)",
@@ -16776,8 +16728,7 @@ var data = {
       "b": 101,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "49": {
       "name": "Celica (Queen of Valentia)",
@@ -16797,8 +16748,7 @@ var data = {
       "b": 101,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "50": {
       "name": "Celica (Warrior Priestess)",
@@ -16818,8 +16768,7 @@ var data = {
       "b": 39,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "51": {
       "name": "Cherche (Wyvern Friend)",
@@ -16839,8 +16788,7 @@ var data = {
       "b": 8,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "52": {
       "name": "Chrom (Crowned Exalt)",
@@ -16860,8 +16808,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "53": {
       "name": "Chrom (Crowned Exalt)",
@@ -16881,8 +16828,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "54": {
       "name": "Chrom (Crowned Exalt)",
@@ -16902,8 +16848,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "55": {
       "name": "Chrom (Crowned Exalt)",
@@ -16923,8 +16868,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "56": {
       "name": "Clair (Highborn Flier)",
@@ -16944,8 +16888,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "57": {
       "name": "Clair (Highborn Flier)",
@@ -16965,8 +16908,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 33,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "58": {
       "name": "Claude (The Schemer)",
@@ -16986,8 +16928,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "59": {
       "name": "Conrad (Masked Knight)",
@@ -17007,8 +16948,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "60": {
       "name": "Conrad (Masked Knight)",
@@ -17028,8 +16968,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "61": {
       "name": "Conrad (Unmasked Knight)",
@@ -17049,8 +16988,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "62": {
       "name": "Conrad (Unmasked Knight)",
@@ -17070,8 +17008,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 19,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "63": {
       "name": "Cordelia (Knight Paragon)",
@@ -17091,8 +17028,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "64": {
       "name": "Cordelia (Knight Paragon)",
@@ -17112,8 +17048,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "65": {
       "name": "Cordelia (Knight Paragon)",
@@ -17133,8 +17068,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "66": {
       "name": "Corrin (Dream Prince)",
@@ -17154,8 +17088,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "67": {
       "name": "Corrin (Dream Prince)",
@@ -17175,8 +17108,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "68": {
       "name": "Corrin (Dream Princess)",
@@ -17196,8 +17128,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "69": {
       "name": "Corrin (Dream Princess)",
@@ -17217,8 +17148,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "70": {
       "name": "Corrin (Wailing Soul)",
@@ -17238,8 +17168,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "71": {
       "name": "Corrin (Wailing Soul)",
@@ -17259,8 +17188,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "72": {
       "name": "Death Knight (The Reaper)",
@@ -17280,8 +17208,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 33,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "73": {
       "name": "Deirdre (Lady of the Forest)",
@@ -17301,8 +17228,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "74": {
       "name": "Deirdre (Lady of the Forest)",
@@ -17322,8 +17248,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 45,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "75": {
       "name": "Delthea (Tatarrah's Puppet)",
@@ -17343,8 +17268,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "76": {
       "name": "Dimitri (The Protector)",
@@ -17364,8 +17288,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "77": {
       "name": "Dozla (Harvest Attendant)",
@@ -17385,8 +17308,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "78": {
       "name": "Duma (God of Strength)",
@@ -17406,8 +17328,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 33,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "79": {
       "name": "Duma (God of Strength)",
@@ -17427,8 +17348,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 33,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "80": {
       "name": "Duma (God of Strength)",
@@ -17448,8 +17368,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 33,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "81": {
       "name": "Edelgard (The Future)",
@@ -17469,8 +17388,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 10,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "82": {
       "name": "Edelgard (The Future)",
@@ -17490,8 +17408,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 29,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "83": {
       "name": "Eir (Merciful Death)",
@@ -17511,8 +17428,7 @@ var data = {
       "b": 70,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "84": {
       "name": "Eirika (Anamnesis Lady)",
@@ -17532,8 +17448,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "85": {
       "name": "Eirika (Anamnesis Lady)",
@@ -17553,8 +17468,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "86": {
       "name": "Eirika (Graceful Resolve)",
@@ -17574,8 +17488,7 @@ var data = {
       "b": 68,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "87": {
       "name": "Eleonora (Shooting Starlet)",
@@ -17595,8 +17508,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "88": {
       "name": "Elincia (Lost Princess)",
@@ -17616,8 +17528,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "89": {
       "name": "Elise (Bubbling Flower)",
@@ -17637,8 +17548,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "90": {
       "name": "Eliwood (Blazing Knight)",
@@ -17658,8 +17568,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "91": {
       "name": "Eliwood (Blazing Knight)",
@@ -17679,8 +17588,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "92": {
       "name": "Eliwood (Knight of Lycia)",
@@ -17700,8 +17608,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 12,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "93": {
       "name": "Eliwood (Marquess Pherae)",
@@ -17721,8 +17628,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "94": {
       "name": "Ephraim (Dynastic Duo)",
@@ -17742,8 +17648,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "95": {
       "name": "Ephraim (Legendary Lord)",
@@ -17763,8 +17668,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "96": {
       "name": "Ephraim (Sacred Twin Lord)",
@@ -17784,8 +17688,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 29,
-      "seal": 3,
-      "pulse": 0
+      "seal": 3
     },
     "97": {
       "name": "Ephraim (Sparkling Gallantly)",
@@ -17805,8 +17708,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 29,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "98": {
       "name": "Ephraim (Sparkling Gallantly)",
@@ -17826,8 +17728,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "99": {
       "name": "Est (Junior Whitewing)",
@@ -17847,8 +17748,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "100": {
       "name": "Est (Springtime Flier)",
@@ -17868,8 +17768,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "101": {
       "name": "Est (Springtime Flier)",
@@ -17889,8 +17788,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "102": {
       "name": "Ewan (Eager Student)",
@@ -17910,8 +17808,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 45,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "103": {
       "name": "Eyvel (Mistress of Fiana)",
@@ -17931,8 +17828,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "104": {
       "name": "Eyvel (Mistress of Fiana)",
@@ -17952,8 +17848,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "105": {
       "name": "Fae (Holiday Dear)",
@@ -17973,8 +17868,7 @@ var data = {
       "b": 113,
       "c": 78,
       "proc": 36,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "106": {
       "name": "Faye (Devoted Heart)",
@@ -17994,8 +17888,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "107": {
       "name": "Faye (Drawn Heartstring)",
@@ -18015,8 +17908,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "108": {
       "name": "Faye (Drawn Heartstring)",
@@ -18036,8 +17928,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "109": {
       "name": "Faye (Drawn Heartstring)",
@@ -18057,8 +17948,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "110": {
       "name": "Faye (Drawn Heartstring)",
@@ -18078,8 +17968,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "111": {
       "name": "Felicia (Maid Mayhem)",
@@ -18099,8 +17988,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 19,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "112": {
       "name": "Felicia (Maid Mayhem)",
@@ -18120,8 +18008,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 19,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "113": {
       "name": "Felicia (Off the Menu)",
@@ -18141,8 +18028,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 19,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "114": {
       "name": "Felicia (Off the Menu)",
@@ -18162,8 +18048,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 19,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "115": {
       "name": "Fiora (Airborne Warrior)",
@@ -18183,8 +18068,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "116": {
       "name": "Fiora (Airborne Warrior)",
@@ -18204,8 +18088,7 @@ var data = {
       "b": 76,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "117": {
       "name": "Fir (Student of Spring)",
@@ -18225,8 +18108,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "118": {
       "name": "Fir (Sword Student)",
@@ -18246,8 +18128,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "119": {
       "name": "Fjorm (Princess of Ice)",
@@ -18267,8 +18148,7 @@ var data = {
       "b": 99,
       "c": 78,
       "proc": 27,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "120": {
       "name": "Fjorm (Princess of Ice)",
@@ -18288,8 +18168,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "121": {
       "name": "Flora (Cold as Ice)",
@@ -18309,8 +18188,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "122": {
       "name": "Flora (Cold as Ice)",
@@ -18330,8 +18208,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "123": {
       "name": "Flora (Signature Dish)",
@@ -18351,8 +18228,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 28,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "124": {
       "name": "Flora (Signature Dish)",
@@ -18372,8 +18248,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "125": {
       "name": "Forsyth (Loyal Lieutenant)",
@@ -18393,8 +18268,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "126": {
       "name": "Forsyth (Loyal Lieutenant)",
@@ -18414,8 +18288,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "127": {
       "name": "Garon (King of Nohr)",
@@ -18435,8 +18308,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "128": {
       "name": "Gunnthr\xE1 (Voice of Dreams)",
@@ -18456,8 +18328,7 @@ var data = {
       "b": 26,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "129": {
       "name": "Hana (Focused Samurai)",
@@ -18477,8 +18348,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "130": {
       "name": "Hardin (Dark Emperor)",
@@ -18498,8 +18368,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 33,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "131": {
       "name": "Hawkeye (Desert Guardian)",
@@ -18519,8 +18388,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "132": {
       "name": "Hector (Brave Warrior)",
@@ -18540,8 +18408,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "133": {
       "name": "Hector (Brave Warrior)",
@@ -18561,8 +18428,7 @@ var data = {
       "b": 115,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "134": {
       "name": "Hector (Dressed-Up Duo)",
@@ -18582,8 +18448,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 11,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "135": {
       "name": "Hector (General of Ostia)",
@@ -18603,8 +18468,7 @@ var data = {
       "b": 115,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "136": {
       "name": "Hector (Just Here to Fight)",
@@ -18624,8 +18488,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 45,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "137": {
       "name": "Hector (Marquess of Ostia)",
@@ -18645,8 +18508,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "138": {
       "name": "Henry (Happy Vampire)",
@@ -18666,8 +18528,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 11,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "139": {
       "name": "Henry (Happy Vampire)",
@@ -18687,8 +18548,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 11,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "140": {
       "name": "Hilda (Idle Maiden)",
@@ -18708,8 +18568,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "141": {
       "name": "Hinoka (Blue Sky Warrior)",
@@ -18729,8 +18588,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "142": {
       "name": "Hr\xEDd (Icy Blade)",
@@ -18750,8 +18608,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "143": {
       "name": "Iago (Nohr's Tactician)",
@@ -18771,8 +18628,7 @@ var data = {
       "b": 110,
       "c": 78,
       "proc": 45,
-      "seal": 69,
-      "pulse": 0
+      "seal": 69
     },
     "144": {
       "name": "Idunn (Dark Priestess)",
@@ -18792,8 +18648,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "145": {
       "name": "Idunn (Dark Priestess)",
@@ -18813,8 +18668,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "146": {
       "name": "Idunn (Dark Priestess)",
@@ -18834,8 +18688,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "147": {
       "name": "Idunn (Dragonkin Duo)",
@@ -18855,8 +18708,7 @@ var data = {
       "b": 113,
       "c": 78,
       "proc": 10,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "148": {
       "name": "Igrene (Nabata Protector)",
@@ -18876,8 +18728,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 8,
-      "seal": 64,
-      "pulse": 0
+      "seal": 64
     },
     "149": {
       "name": "Ike (Brave Mercenary)",
@@ -18897,8 +18748,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "150": {
       "name": "Ike (Brave Mercenary)",
@@ -18918,8 +18768,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "151": {
       "name": "Ike (Stalwart Heart)",
@@ -18939,8 +18788,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 41,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "152": {
       "name": "Ilyana (Treat Harvester)",
@@ -18960,8 +18808,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 28,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "153": {
       "name": "Ilyana (Treat Harvester)",
@@ -18981,8 +18828,7 @@ var data = {
       "b": 113,
       "c": 78,
       "proc": 28,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "154": {
       "name": "Innes (Regal Strategician)",
@@ -19002,8 +18848,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "155": {
       "name": "Ishtar (Thunder's Waltz)",
@@ -19023,8 +18868,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "156": {
       "name": "Itsuki (Finding a Path)",
@@ -19044,8 +18888,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "157": {
       "name": "Julia (Crusader of Light)",
@@ -19065,8 +18908,7 @@ var data = {
       "b": 59,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "158": {
       "name": "Julia (Crusader of Light)",
@@ -19086,8 +18928,7 @@ var data = {
       "b": 59,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "159": {
       "name": "Julia (Naga's Blood)",
@@ -19107,8 +18948,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "160": {
       "name": "Julia (Naga's Blood)",
@@ -19128,8 +18968,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "161": {
       "name": "Julius (Scion of Darkness)",
@@ -19149,8 +18988,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "162": {
       "name": "Kagero (Honorable Ninja)",
@@ -19170,8 +19008,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 12,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "163": {
       "name": "Kana (Dragon Princess)",
@@ -19191,8 +19028,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "164": {
       "name": "Karel (Sword Demon)",
@@ -19212,8 +19048,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 45,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "165": {
       "name": "Karla (Sword Vassal)",
@@ -19233,8 +19068,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "166": {
       "name": "Keaton (Lupine Collector)",
@@ -19254,8 +19088,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 36,
-      "seal": 17,
-      "pulse": 0
+      "seal": 17
     },
     "167": {
       "name": "Kiria (Cool Fa\xE7ade)",
@@ -19275,8 +19108,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 33,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "168": {
       "name": "Klein (Silver Nobleman)",
@@ -19296,8 +19128,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "169": {
       "name": "Kronya (Gleaming Blade)",
@@ -19317,8 +19148,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 45,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "170": {
       "name": "L'Arachel (Harvest Princess)",
@@ -19338,8 +19168,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "171": {
       "name": "L\xEDf (Lethal Swordsman)",
@@ -19359,8 +19188,7 @@ var data = {
       "b": 32,
       "c": 132,
       "proc": 39,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "172": {
       "name": "Laegjarn (Burning Sun)",
@@ -19380,8 +19208,7 @@ var data = {
       "b": 110,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "173": {
       "name": "Laegjarn (Sheathed Steel)",
@@ -19401,8 +19228,7 @@ var data = {
       "b": 110,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "174": {
       "name": "Laevatein (Bonfire Blaze)",
@@ -19422,8 +19248,7 @@ var data = {
       "b": 8,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "175": {
       "name": "Laevatein (Searing Steel)",
@@ -19443,8 +19268,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 45,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "176": {
       "name": "Larcei (Keen Kin)",
@@ -19464,8 +19288,7 @@ var data = {
       "b": 82,
       "c": 78,
       "proc": 42,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "177": {
       "name": "Larcei (Keen Kin)",
@@ -19485,8 +19308,7 @@ var data = {
       "b": 82,
       "c": 78,
       "proc": 42,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "178": {
       "name": "Leif (Prince of Leonster)",
@@ -19506,8 +19328,7 @@ var data = {
       "b": 85,
       "c": 132,
       "proc": 29,
-      "seal": 81,
-      "pulse": 0
+      "seal": 81
     },
     "179": {
       "name": "Leif (Unifier of Thracia)",
@@ -19527,8 +19348,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 37,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "180": {
       "name": "Leif (Unifier of Thracia)",
@@ -19548,8 +19368,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 37,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "181": {
       "name": "Leila (Rose amid Fangs)",
@@ -19569,8 +19388,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "182": {
       "name": "Leila (Rose amid Fangs)",
@@ -19590,8 +19408,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "183": {
       "name": "Leila (Rose amid Fangs)",
@@ -19611,8 +19428,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "184": {
       "name": "Leila (Rose amid Fangs)",
@@ -19632,8 +19448,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "185": {
       "name": "Leila (Rose amid Fangs)",
@@ -19653,8 +19468,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "186": {
       "name": "Leila (Rose amid Fangs)",
@@ -19674,8 +19488,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "187": {
       "name": "Leila (Rose amid Fangs)",
@@ -19695,8 +19508,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "188": {
       "name": "Leo (Sorcerous Prince)",
@@ -19716,8 +19528,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "189": {
       "name": "Lethe (Gallia's Valkyrie)",
@@ -19737,8 +19548,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "190": {
       "name": "Lethe (New Year's Claw)",
@@ -19758,8 +19568,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 36,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "191": {
       "name": "Lethe (New Year's Claw)",
@@ -19779,8 +19588,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "192": {
       "name": "Lewyn (Guiding Breeze)",
@@ -19800,8 +19608,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "193": {
       "name": "Lilina (Delightful Noble)",
@@ -19821,8 +19628,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "194": {
       "name": "Lilith (Astral Daughter)",
@@ -19842,8 +19648,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "195": {
       "name": "Linde (Light Mage)",
@@ -19863,8 +19668,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "196": {
       "name": "Lucina (Brave Princess)",
@@ -19884,8 +19688,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "197": {
       "name": "Lucina (Future Witness)",
@@ -19905,8 +19708,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "198": {
       "name": "Lucina (Glorious Archer)",
@@ -19926,8 +19728,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "199": {
       "name": "Lute (Prodigy)",
@@ -19947,8 +19748,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "200": {
       "name": "Lute (Prodigy)",
@@ -19968,8 +19768,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "201": {
       "name": "Lyn (Brave Lady)",
@@ -19989,8 +19788,7 @@ var data = {
       "b": 90,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "202": {
       "name": "Lyn (Brave Lady)",
@@ -20010,8 +19808,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "203": {
       "name": "Lyn (Lady of the Beach)",
@@ -20031,8 +19828,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "204": {
       "name": "Lysithea (Child Prodigy)",
@@ -20052,8 +19848,7 @@ var data = {
       "b": 67,
       "c": 132,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "205": {
       "name": "Lysithea (Child Prodigy)",
@@ -20073,8 +19868,7 @@ var data = {
       "b": 67,
       "c": 132,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "206": {
       "name": "Lysithea (Child Prodigy)",
@@ -20094,8 +19888,7 @@ var data = {
       "b": 67,
       "c": 132,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "207": {
       "name": "Mamori (Microwavin' Idol)",
@@ -20115,8 +19908,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "208": {
       "name": "Mareeta (Sword of Stars)",
@@ -20136,8 +19928,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "209": {
       "name": "Mareeta (Sword of Stars)",
@@ -20157,8 +19948,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "210": {
       "name": "Marth (Hero-King)",
@@ -20178,8 +19968,7 @@ var data = {
       "b": 12,
       "c": 78,
       "proc": 16,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "211": {
       "name": "Marth (Hero-King)",
@@ -20199,8 +19988,7 @@ var data = {
       "b": 12,
       "c": 78,
       "proc": 16,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "212": {
       "name": "Marth (Hero-King)",
@@ -20220,8 +20008,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 16,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "213": {
       "name": "Marth (Royal Altean Duo)",
@@ -20241,8 +20028,7 @@ var data = {
       "b": 30,
       "c": 78,
       "proc": 16,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "214": {
       "name": "Micaiah (Priestess of Dawn)",
@@ -20262,8 +20048,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "215": {
       "name": "Micaiah (Queen of Dawn)",
@@ -20283,8 +20068,7 @@ var data = {
       "b": 121,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "216": {
       "name": "Micaiah (Summer's Dawn)",
@@ -20304,8 +20088,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "217": {
       "name": "Midori (Reliable Chemist)",
@@ -20325,8 +20108,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "218": {
       "name": "Midori (Reliable Chemist)",
@@ -20346,8 +20128,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "219": {
       "name": "Minerva (Red Dragoon)",
@@ -20367,8 +20148,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "220": {
       "name": "Morgan (Lass from Afar)",
@@ -20388,8 +20168,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "221": {
       "name": "Morgan (Lass from Afar)",
@@ -20409,8 +20188,7 @@ var data = {
       "b": 42,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "222": {
       "name": "Myrrh (Great Dragon)",
@@ -20430,8 +20208,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 36,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "223": {
       "name": "Myrrh (Great Dragon)",
@@ -20451,8 +20228,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 36,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "224": {
       "name": "Myrrh (Spooky Monster)",
@@ -20472,8 +20248,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "225": {
       "name": "Naesala (Sky's Shadow)",
@@ -20493,8 +20268,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "226": {
       "name": "Naga (Dragon Divinity)",
@@ -20514,8 +20288,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "227": {
       "name": "Nagi (Dragon Avatar)",
@@ -20535,8 +20308,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "228": {
       "name": "Nah (Little Miss)",
@@ -20556,8 +20328,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "229": {
       "name": "Nailah (Unflinching Eye)",
@@ -20577,8 +20348,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "230": {
       "name": "Narcian (Vernal General)",
@@ -20598,8 +20368,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "231": {
       "name": "Narcian (Vernal General)",
@@ -20619,8 +20388,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "232": {
       "name": "Niles (Forbidden Tease)",
@@ -20640,8 +20408,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "233": {
       "name": "Nino (Flower of Frost)",
@@ -20661,8 +20428,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "234": {
       "name": "Nino (Flower of Frost)",
@@ -20682,8 +20448,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "235": {
       "name": "Nino (Pale Flower)",
@@ -20703,8 +20468,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "236": {
       "name": "Nino (Pale Flower)",
@@ -20724,8 +20488,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "237": {
       "name": "Norne (The Volunteer)",
@@ -20745,8 +20508,7 @@ var data = {
       "b": 71,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "238": {
       "name": "Nowi (Eternal Youth)",
@@ -20766,8 +20528,7 @@ var data = {
       "b": 42,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "239": {
       "name": "Olwen (Righteous Knight)",
@@ -20787,8 +20548,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "240": {
       "name": "Ophelia (Dramatic Heroine)",
@@ -20808,8 +20568,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 8,
-      "seal": 64,
-      "pulse": 3
+      "seal": 64
     },
     "241": {
       "name": "Osian (Scolded Soldier)",
@@ -20829,8 +20588,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "242": {
       "name": "Palla (Eldest Bun-Bun)",
@@ -20850,8 +20608,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "243": {
       "name": "Palla (Eldest Bun-Bun)",
@@ -20871,8 +20628,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "244": {
       "name": "Palla (Eldest Whitewing)",
@@ -20892,8 +20648,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "245": {
       "name": "Pent (Fancy Fianc\xE9)",
@@ -20913,8 +20668,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "246": {
       "name": "Perceval (Knightly Ideal)",
@@ -20934,8 +20688,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "247": {
       "name": "Petra (Princess of Brigid)",
@@ -20955,8 +20708,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "248": {
       "name": "Raven (Peerless Fighter)",
@@ -20976,8 +20728,7 @@ var data = {
       "b": 99,
       "c": 78,
       "proc": 40,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "249": {
       "name": "Raven (Peerless Fighter)",
@@ -20997,8 +20748,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 33,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "250": {
       "name": "Reinhardt (Lightning's Rondo)",
@@ -21018,8 +20768,7 @@ var data = {
       "b": 8,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "251": {
       "name": "Reinhardt (Thunder's Fist)",
@@ -21039,8 +20788,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "252": {
       "name": "Reinhardt (Thunder's Sword)",
@@ -21060,8 +20808,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "253": {
       "name": "Reinhardt (Thunder's Sword)",
@@ -21081,8 +20828,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 45,
-      "seal": 53,
-      "pulse": 0
+      "seal": 53
     },
     "254": {
       "name": "Rinkah (Scion of Flame)",
@@ -21102,8 +20848,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 10,
-      "seal": 12,
-      "pulse": 0
+      "seal": 12
     },
     "255": {
       "name": "Rinkah (Scion of Flame)",
@@ -21123,8 +20868,7 @@ var data = {
       "b": 27,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "256": {
       "name": "Robin (Fell Reincarnation)",
@@ -21144,8 +20888,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "257": {
       "name": "Ross (His Father's Son)",
@@ -21165,8 +20908,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "258": {
       "name": "Roy (Blazing Lion)",
@@ -21186,8 +20928,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "259": {
       "name": "Roy (Brave Lion)",
@@ -21207,8 +20948,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 12,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "260": {
       "name": "Rudolf (Emperor of Rigel)",
@@ -21228,8 +20968,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "261": {
       "name": "Rudolf (Emperor of Rigel)",
@@ -21249,8 +20988,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "262": {
       "name": "Ryoma (Supreme Samurai)",
@@ -21270,8 +21008,7 @@ var data = {
       "b": 17,
       "c": 78,
       "proc": 45,
-      "seal": 65,
-      "pulse": 0
+      "seal": 65
     },
     "263": {
       "name": "Ryoma (Supreme Samurai)",
@@ -21291,8 +21028,7 @@ var data = {
       "b": 17,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "264": {
       "name": "Seliph (Heir of Light)",
@@ -21312,8 +21048,7 @@ var data = {
       "b": 112,
       "c": 78,
       "proc": 53,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "265": {
       "name": "Selkie (Free Spirit)",
@@ -21333,8 +21068,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "266": {
       "name": "Selkie (New Year's Spirit)",
@@ -21354,8 +21088,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "267": {
       "name": "Shannan (Wielder of Astra)",
@@ -21375,8 +21108,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 31,
-      "seal": 13,
-      "pulse": 0
+      "seal": 13
     },
     "268": {
       "name": "Shannan (Wielder of Astra)",
@@ -21396,8 +21128,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 31,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "269": {
       "name": "Siegbert (Future King)",
@@ -21417,8 +21148,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "270": {
       "name": "Sigurd (Holy Knight)",
@@ -21438,8 +21168,7 @@ var data = {
       "b": 28,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "271": {
       "name": "Silas (Loyal Knight)",
@@ -21459,8 +21188,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "272": {
       "name": "Silas (Loyal Knight)",
@@ -21480,8 +21208,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "273": {
       "name": "Sirius (Mysterious Knight)",
@@ -21501,8 +21228,7 @@ var data = {
       "b": 65,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "274": {
       "name": "Sonya (Vengeful Mage)",
@@ -21522,8 +21248,7 @@ var data = {
       "b": 64,
       "c": 132,
       "proc": 19,
-      "seal": 81,
-      "pulse": 0
+      "seal": 81
     },
     "275": {
       "name": "Sophia (Nabata Prophet)",
@@ -21543,8 +21268,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "276": {
       "name": "Sothis (Girl on the Throne)",
@@ -21564,8 +21288,7 @@ var data = {
       "b": 119,
       "c": 132,
       "proc": 47,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "277": {
       "name": "Sothis (Silver Specter)",
@@ -21585,8 +21308,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 47,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "278": {
       "name": "Surtr (Ruler of Flame)",
@@ -21606,8 +21328,7 @@ var data = {
       "b": 115,
       "c": 78,
       "proc": 45,
-      "seal": 42,
-      "pulse": 0
+      "seal": 42
     },
     "279": {
       "name": "Surtr (Ruler of Flame)",
@@ -21627,8 +21348,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "280": {
       "name": "Surtr (Ruler of Flame)",
@@ -21648,8 +21368,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "281": {
       "name": "Tailtiu (Thunder Noble)",
@@ -21669,8 +21388,7 @@ var data = {
       "b": 72,
       "c": 132,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "282": {
       "name": "Tana (Noble and Nimble)",
@@ -21690,8 +21408,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "283": {
       "name": "Tana (Winged Princess)",
@@ -21711,8 +21428,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 45,
-      "seal": 25,
-      "pulse": 0
+      "seal": 25
     },
     "284": {
       "name": "Tharja (\"Normal Girl\")",
@@ -21732,8 +21448,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 45,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "285": {
       "name": "Tharja (Dark Shadow)",
@@ -21753,8 +21468,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "286": {
       "name": "Thrasir (Omnicidal Witch)",
@@ -21774,8 +21488,7 @@ var data = {
       "b": 56,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "287": {
       "name": "Thrasir (Omnicidal Witch)",
@@ -21795,8 +21508,7 @@ var data = {
       "b": 56,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "288": {
       "name": "Thrasir (Omnicidal Witch)",
@@ -21816,8 +21528,7 @@ var data = {
       "b": 56,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "289": {
       "name": "Tibarn (Lord of the Air)",
@@ -21837,8 +21548,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "290": {
       "name": "Tiki (Beachside Scion)",
@@ -21858,8 +21568,7 @@ var data = {
       "b": 78,
       "c": 78,
       "proc": 29,
-      "seal": 73,
-      "pulse": 0
+      "seal": 73
     },
     "291": {
       "name": "Tiki (Legendary Dragon)",
@@ -21879,8 +21588,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "292": {
       "name": "Tiki (Legendary Dragon)",
@@ -21900,8 +21608,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "293": {
       "name": "Tiki (Naga's Voice)",
@@ -21921,8 +21628,7 @@ var data = {
       "b": 64,
       "c": 78,
       "proc": 36,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "294": {
       "name": "Tiki (Torpid Dragon)",
@@ -21942,8 +21648,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 29,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "295": {
       "name": "Tiki (Torpid Dragon)",
@@ -21963,8 +21668,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "296": {
       "name": "Tsubasa (Madcap Idol)",
@@ -21984,8 +21688,7 @@ var data = {
       "b": 54,
       "c": 78,
       "proc": 45,
-      "seal": 106,
-      "pulse": 0
+      "seal": 106
     },
     "297": {
       "name": "Ursula (Blue Crow)",
@@ -22005,8 +21708,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "298": {
       "name": "Ursula (Clear-Blue Crow)",
@@ -22026,8 +21728,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "299": {
       "name": "Ursula (Clear-Blue Crow)",
@@ -22047,8 +21748,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "300": {
       "name": "Velouria (Wolf Cub)",
@@ -22068,8 +21768,7 @@ var data = {
       "b": 119,
       "c": 78,
       "proc": 33,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "301": {
       "name": "Veronica (Brave Princess)",
@@ -22089,8 +21788,7 @@ var data = {
       "b": 67,
       "c": 78,
       "proc": 0,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "302": {
       "name": "Walhart (The Conqueror)",
@@ -22110,8 +21808,7 @@ var data = {
       "b": 63,
       "c": 78,
       "proc": 10,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "303": {
       "name": "Yarne (Timid Taguel)",
@@ -22131,8 +21828,7 @@ var data = {
       "b": 66,
       "c": 78,
       "proc": 36,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "304": {
       "name": "Ylgr (Fresh Snowfall)",
@@ -22152,8 +21848,7 @@ var data = {
       "b": 72,
       "c": 78,
       "proc": 45,
-      "seal": 10,
-      "pulse": 0
+      "seal": 10
     },
     "305": {
       "name": "Yune (Chaos Goddess)",
@@ -22173,8 +21868,7 @@ var data = {
       "b": 70,
       "c": 22,
       "proc": 45,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "306": {
       "name": "Yune (Chaos Goddess)",
@@ -22194,8 +21888,7 @@ var data = {
       "b": 42,
       "c": 22,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "307": {
       "name": "Zelgius (Jet-Black General)",
@@ -22215,8 +21908,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 4,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "308": {
       "name": "Zelgius (Jet-Black General)",
@@ -22236,8 +21928,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 4,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "309": {
       "name": "Zelgius (Jet-Black General)",
@@ -22257,8 +21948,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 4,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "310": {
       "name": "Zelgius (Jet-Black General)",
@@ -22278,8 +21968,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 4,
-      "seal": 29,
-      "pulse": 0
+      "seal": 29
     },
     "311": {
       "name": "Zephiel (Winter's Crown)",
@@ -22299,8 +21988,7 @@ var data = {
       "b": 107,
       "c": 78,
       "proc": 19,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     },
     "312": {
       "name": "Zephiel (Winter's Crown)",
@@ -22320,8 +22008,7 @@ var data = {
       "b": 14,
       "c": 78,
       "proc": 28,
-      "seal": 80,
-      "pulse": 0
+      "seal": 80
     }
   },
   "Weapons": {
@@ -28413,7 +28100,7 @@ var data = {
       "cooldown_mod": 0,
       "skill_definition": "{bonus_damage(10;max=none);[boolean_check(special_activating,true)]}",
       "skill_desc_refine_base": "{bonus_damage(10;max=none);[boolean_check(special_activating,true)]}",
-      "skill_desc_refine_eff": "{bonus_damage(10;max=none);[boolean_check(special_activating,true)]}{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_desc_refine_eff": "{bonus_damage(10;max=none);[boolean_check(special_activating,true)]}{pulse(2);[comp(turn=1)]}",
       "has_refinements": 1,
       "has_eff_refine": 1,
       "range": 2,
@@ -36317,7 +36004,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": -1,
-      "skill_definition": "{flat_stat_boost(combat_atk,5&combat_spd,5&combat_def,5&combat_res,5);[comp(cd=0)]}",
+      "skill_definition": "{flat_stat_boost(combat_atk,5&combat_spd,5&combat_def,5&combat_res,5),e_follow_up_inhibitor;[comp(cd=0)]}",
       "skill_desc_refine_base": "empty",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 0,
@@ -36612,8 +36299,8 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
-      "skill_desc_refine_base": "{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(2);[comp(turn=1)]}",
+      "skill_desc_refine_base": "{pulse(2);[comp(turn=1)]}",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 1,
       "has_eff_refine": 0,
@@ -40211,7 +39898,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": -1,
-      "skill_definition": "{pulse(weap_number_input);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(weap_number_input);[comp(turn=1)]}",
       "skill_desc_refine_base": "empty",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 0,
@@ -41391,8 +41078,8 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
-      "skill_desc_refine_base": "{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(2);[comp(turn=1)]}",
+      "skill_desc_refine_base": "{pulse(2);[comp(turn=1)]}",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 1,
       "has_eff_refine": 0,
@@ -45228,7 +44915,7 @@ var data = {
       "cooldown_mod": -1,
       "skill_definition": "empty",
       "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_desc_refine_eff": "{pulse(2);[comp(turn=1)]}",
       "has_refinements": 1,
       "has_eff_refine": 1,
       "range": 1,
@@ -49652,8 +49339,8 @@ var data = {
       "res_mod": 0,
       "cooldown_mod": 0,
       "skill_definition": "{flat_stat_boost(combat_def,4);[hp_thresh(50,<=,start)]}",
-      "skill_desc_refine_base": "{endure;[hp_thresh(50,>=,start)&comp(e_damage>=hp)]}",
-      "skill_desc_refine_eff": "{endure;[hp_thresh(50,>=,start)&comp(e_damage>=hp)]}{flat_stat_boost(combat_atk,5&combat_def,5);[comp(adj>0)]}",
+      "skill_desc_refine_base": "{endure;[hp_thresh(50,>=,start)&comp(e_damage>=hp)&comp(hp>1)]}",
+      "skill_desc_refine_eff": "{endure;[hp_thresh(50,>=,start)&comp(e_damage>=hp)&comp(hp>1)]}{flat_stat_boost(combat_atk,5&combat_def,5);[comp(adj>0)]}",
       "has_refinements": 1,
       "has_eff_refine": 1,
       "range": 1,
@@ -51716,7 +51403,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{permanent_stat_boost(permanent_atk,2);[boolean_check(is_transformed,true)]}{bonus_damage(10;max=none);[boolean_check(is_transformed,true)&boolean_check(special_activating,true)]}{pulse(2);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{permanent_stat_boost(permanent_atk,2);[boolean_check(is_transformed,true)]}{bonus_damage(10;max=none);[boolean_check(is_transformed,true)&boolean_check(special_activating,true)]}{pulse(2);[comp(turn=1)]}",
       "skill_desc_refine_base": "empty",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 0,
@@ -62425,7 +62112,7 @@ var data = {
     "85": {
       "name": "S Drink",
       "cooldown_mod": 0,
-      "skill_definition": "{pulse(1);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(1);[comp(turn=1)]}",
       "srd_can_inherit": 0,
       "lnc_can_inherit": 0,
       "axe_can_inherit": 0,
@@ -62915,7 +62602,7 @@ var data = {
     "99": {
       "name": "Shield Pulse 3",
       "cooldown_mod": 0,
-      "skill_definition": "{pulse(2);[comp(turn=1)&state_check(control,phase)&state_check(special_type,defend)]}{static_mitigation(5);[boolean_check(special_activating,true)]}",
+      "skill_definition": "{pulse(2);[comp(turn=1)&state_check(special_type,defend)]}{static_mitigation(5);[boolean_check(special_activating,true)]}",
       "srd_can_inherit": 1,
       "lnc_can_inherit": 1,
       "axe_can_inherit": 1,
@@ -68342,7 +68029,7 @@ var data = {
     "132": {
       "name": "Time's Pulse 3",
       "cooldown_mod": 0,
-      "skill_definition": "{pulse(1);[comp(cd_max=cd)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(1);[comp(cd_max=cd_start)]}",
       "srd_can_inherit": 1,
       "lnc_can_inherit": 1,
       "axe_can_inherit": 1,
@@ -71822,7 +71509,7 @@ var data = {
       "spd_mod": 0,
       "def_mod": 0,
       "res_mod": 0,
-      "skill_definition": "{pulse(1);[comp(turn=1)&state_check(control,phase)]}",
+      "skill_definition": "{pulse(1);[comp(turn=1)]}",
       "srd_can_inherit": 1,
       "lnc_can_inherit": 1,
       "axe_can_inherit": 1,

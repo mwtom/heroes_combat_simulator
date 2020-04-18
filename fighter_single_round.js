@@ -250,6 +250,8 @@ class Fighter {
     this.special_type = special.activation_type;
     this.cooldown_max = special.cooldown_max + weap.cooldown_mod + a.cooldown_mod + b.cooldown_mod + c.cooldown_mod;
     this.cooldown = this.cooldown_max;
+    // The start-of-turn cooldown. NOT the start-of-combat cooldown.
+    this.cooldown_start = this.cooldown;
 
     if (this.refinement != "None")
       this.process_weapon_refinement();
@@ -494,9 +496,9 @@ Fighter.prototype.increment_stat = function (stat) {
 Fighter.prototype.process_weapon_refinement = function () {
   if (this.weapon.type == "ST") {
     if (this.refinement == "D")
-      this.e_counterattack_preventer_effects.push(new Effect("e_counterattack_preventer", "[0]", this.weapon.name, "e_counterattack_preventer"));
+      this.e_counterattack_preventer_effects.push(new Effect("e_counterattack_preventer", "[0]", this.get_weapon_name(), "e_counterattack_preventer"));
     if (this.refinement == "W")
-      this.wrathful_staff_effects.push(new Effect("wrathful_staff", "[0]", this.weapon.name, "wrathful_staff"));
+      this.wrathful_staff_effects.push(new Effect("wrathful_staff", "[0]", this.get_weapon_name(), "wrathful_staff"));
   }
   else if (this.weapon.range == 1) {
     switch (this.refinement) {
@@ -550,11 +552,11 @@ Fighter.prototype.process_skill_effects = function () {
   //console.log(skills);
 
   if (this.refinement == "Eff")
-    this.add_to_array(this.weapon.skill_desc_refine_eff, this.weapon.name);
+    this.add_to_array(this.weapon.skill_desc_refine_eff, this.get_weapon_name());
   else if (this.refinement != "None")
-    this.add_to_array(this.weapon.skill_desc_refine_base, this.weapon.name);
+    this.add_to_array(this.weapon.skill_desc_refine_base, this.get_weapon_name());
   else
-    this.add_to_array(this.weapon.skill_definition, this.weapon.name);
+    this.add_to_array(this.weapon.skill_definition, this.get_weapon_name());
 
   for (var i = 0; i < skills.length; i++) {
     if (skills[i].skill_definition != "empty")
@@ -643,6 +645,7 @@ Fighter.prototype.sort_effect = function (effect) {
     case "accelerate_special_trigger":
       this.cooldown_max -= 1;
       this.cooldown -= 1;
+      this.cooldown_start -= 1;
       break;
     case "flat_stat_boost":
       this.flat_stat_boost_effects.push(effect);
@@ -1525,10 +1528,14 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
       return this.cooldown;
     case "cd_max":
       return this.cooldown_max;
+    case "cd_start":
+      return this.cooldown_start;
     case "e_cd":
       return e.get_cooldown();
     case "e_cd_max":
       return e.cooldown_max;
+    case "e_cd_start":
+      return e.cooldown_start;
     case "printed_atk":
       return this.printed_atk;
     case "printed_spd":
@@ -2470,6 +2477,20 @@ Fighter.prototype.apply_scaled_stat_penalty = function (effect_string, e) {
 
   return result_string;
 };
+Fighter.prototype.apply_pulse = function (effect_string, e) {
+  var pulse_string = "";
+  var pulse_value = 0;
+  // The first 6 characters of effect_string are "pulse(".
+  var i = 6;
+
+  for (; i < effect_string.length - 1; i++)
+    pulse_string += effect_string[i];
+
+  pulse_value = this.process_numeric_value(pulse_string);
+  this.cooldown -= pulse_value;
+
+  return pulse_value;
+};
 Fighter.prototype.calculate_precombat_damage = function (effect_string, e) {
   var reader = "";
 
@@ -2675,7 +2696,11 @@ Fighter.prototype.get_targeting_flag = function () {
   return this.targeting;
 };
 Fighter.prototype.get_weapon_name = function () {
-  return this.weapon.name;
+  var name = this.weapon.name;
+  if (this.refinement != "None")
+    name += " (" + this.refinement + ")";
+
+  return name;
 };
 Fighter.prototype.get_special_name = function () {
   return this.special.name;

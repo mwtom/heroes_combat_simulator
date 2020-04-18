@@ -13,7 +13,6 @@ body {
 
 .UnitMenu {
   width: 20rem;
-  height: 33rem;
   border-style: solid;
   border-width: .125rem;
   border-radius: .625rem;
@@ -77,7 +76,7 @@ body {
 }
 
 /* Media queries */
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 80rem) {
   #Sim_Header {
     width: 86rem;
   }
@@ -88,6 +87,7 @@ body {
     width: 86rem;
   }
   .UnitMenu {
+    height: 33rem;
     display: inline-block;
     vertical-align: top;
     margin-right: auto;
@@ -127,18 +127,18 @@ body {
   }
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 80rem) {
   #PageContent {
-    width: 75rem;
+    width: 60rem;
   }
 
   #Sim_Header {
-    width: 75rem;
+    width: 60rem;
     margin: auto;
   }
 
   #Simulator {
-    width: 74rem;
+    width: 60rem;
   }
 
   #UI {
@@ -159,7 +159,7 @@ body {
   }
 
   #ResultsContainer {
-    width: 50rem;
+    width: 37rem;
   }
 
   .Container1 {

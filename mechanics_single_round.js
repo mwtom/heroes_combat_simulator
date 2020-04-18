@@ -103,20 +103,6 @@ function simulate() {
     enemy_pool = Optimized_Chars;
   }
 
-  // Resolve enemy blessings outside of the main for loop to prevent unnecessary work.
-  if (document.getElementById("EnemyBlessing").value != "(None)") {
-    blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
-    blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
-    blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
-    blessings[3] = Blessings[parseInt(document.getElementById("EnemyLegAlly4").value)];
-  }
-  else {
-    blessings[0] = Blessings[0];
-    blessings[1] = Blessings[0];
-    blessings[2] = Blessings[0];
-    blessings[3] = Blessings[0];
-  }
-
   // Iterate on all characters from the desired pool.
   for (var i = 0; i < enemy_pool.length; i++) {
     // Only run the matchup if the character is within the subset defined by the filters.
@@ -188,6 +174,22 @@ function simulate() {
         seal = Seals[enemy_pool[i].seal];
       }
 
+      // Apply enemy blessings as long as the unit is eligible to receive them.
+      if (document.getElementById("EnemyBlessing").value != "(None)" &&
+          !(enemy_pool[i].legendary && legendary_blessings.includes(document.getElementById("EnemyBlessing").value)) &&
+          !(enemy_pool[i].mythic && mythic_blessings.includes(document.getElementById("EnemyBlessing").value))) {
+        blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
+        blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
+        blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
+        blessings[3] = Blessings[parseInt(document.getElementById("EnemyLegAlly4").value)];
+      }
+      else {
+        blessings[0] = Blessings[0];
+        blessings[1] = Blessings[0];
+        blessings[2] = Blessings[0];
+        blessings[3] = Blessings[0];
+      }
+      
       // Build the defender with the base set & valid overrides.
       Defender = new Fighter(enemy_pool[i],
                              boon,
@@ -247,6 +249,7 @@ function simulate() {
       if (document.getElementById("SpecCharge").value != "") {
         if (Number.isInteger(parseInt(document.getElementById("SpecCharge").value))) {
           Attacker.cooldown = parseInt(document.getElementById("SpecCharge").value);
+          Attacker.cooldown_start = parseInt(document.getElementById("SpecCharge").value);
         }
       }
       if (document.getElementById("EnemyHPCut").value != "") {
@@ -257,6 +260,7 @@ function simulate() {
       if (document.getElementById("EnemySpecCharge").value != "") {
         if (Number.isInteger(parseInt(document.getElementById("EnemySpecCharge").value))) {
           Defender.cooldown = parseInt(document.getElementById("EnemySpecCharge").value);
+          Defender.cooldown_start = parseInt(document.getElementById("EnemySpecCharge").value);
         }
       }
 
@@ -783,6 +787,22 @@ function execute_phase(player, enemy, player_initiating) {
   combat_log += "Enemy Stats: +" + enemy.boon + "/-" + enemy.bane;
   combat_log += ", " + enemy.get_max_hp() + " HP, " + enemy.get_permanent_atk() + " Atk, ";
   combat_log += enemy.get_permanent_spd() + " Spd, " + enemy.get_permanent_def() + " Def, " + enemy.get_permanent_res() + " Res.<br>";
+
+  // Apply pulse effects, if they're enabled.
+  if (document.getElementById("Pulse").checked) {
+    for (var i = 0; i < player.pulse_effects.length; i++) {
+      if (player.eval_conditions(player.pulse_effects[i].conditions, enemy)) {
+        combat_log += player.get_name() + "'s " + player.pulse_effects[i].source + " reduces cooldown by " + player.apply_pulse(player.pulse_effects[i].effect, enemy) + "!<br />";
+      }
+    }
+  }
+  if (document.getElementById("E_Pulse").checked) {
+    for (var i = 0; i < enemy.pulse_effects.length; i++) {
+      if (enemy.eval_conditions(enemy.pulse_effects[i].conditions, player)) {
+        combat_log += enemy.get_name() + "'s " + enemy.pulse_effects[i].source + " reduces cooldown by " + enemy.apply_pulse(enemy.pulse_effects[i].effect, player) + "!<br />";
+      }
+    }
+  }
 
   // Set start HP for start-of-turn effects.
   player.set_start_hp(player.get_hp());
