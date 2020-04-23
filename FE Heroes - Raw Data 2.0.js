@@ -1396,6 +1396,37 @@ var data = {
       "base_proc": 45
     },
     "45": {
+      "name": "Caeda (Princess of Talys)",
+      "color": "R",
+      "hp_base": 17,
+      "atk_base": 7,
+      "spd_base": 12,
+      "def_base": 6,
+      "res_base": 8,
+      "hpGrowth": 45,
+      "atkGrowth": 60,
+      "spdGrowth": 70,
+      "defGrowth": 45,
+      "resGrowth": 50,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "S",
+      "legendary": 0,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Feather Sword",
+      "a_name": "Distant Counter",
+      "b_name": "Belief in Love",
+      "c_name": "Joint Hone Atk",
+      "proc_name": "Moonbow",
+      "base_weap": 147,
+      "base_a": 61,
+      "base_b": 10,
+      "base_c": 79,
+      "base_proc": 36
+    },
+    "46": {
       "name": "Caeda (Talys's Bride)",
       "color": "B",
       "hp_base": 16,
@@ -1426,7 +1457,7 @@ var data = {
       "base_c": 69,
       "base_proc": 28
     },
-    "46": {
+    "47": {
       "name": "Caeda (Talys's Heart)",
       "color": "R",
       "hp_base": 17,
@@ -1457,7 +1488,7 @@ var data = {
       "base_c": 49,
       "base_proc": 0
     },
-    "47": {
+    "48": {
       "name": "Cain (The Bull)",
       "color": "R",
       "hp_base": 18,
@@ -1488,7 +1519,7 @@ var data = {
       "base_c": 128,
       "base_proc": 15
     },
-    "48": {
+    "49": {
       "name": "Caineghis (Gallia's Lion King)",
       "color": "N",
       "hp_base": 23,
@@ -1519,7 +1550,7 @@ var data = {
       "base_c": 32,
       "base_proc": 10
     },
-    "49": {
+    "50": {
       "name": "Camilla (Bewitching Beauty)",
       "color": "G",
       "hp_base": 18,
@@ -1550,7 +1581,7 @@ var data = {
       "base_c": 102,
       "base_proc": 11
     },
-    "50": {
+    "51": {
       "name": "Camilla (Flower of Fantasy)",
       "color": "R",
       "hp_base": 17,
@@ -1581,7 +1612,7 @@ var data = {
       "base_c": 59,
       "base_proc": 0
     },
-    "51": {
+    "52": {
       "name": "Camilla (Holiday Traveler)",
       "color": "R",
       "hp_base": 18,
@@ -1612,7 +1643,7 @@ var data = {
       "base_c": 139,
       "base_proc": 11
     },
-    "52": {
+    "53": {
       "name": "Camilla (Light of Nohr)",
       "color": "N",
       "hp_base": 17,
@@ -1643,7 +1674,7 @@ var data = {
       "base_c": 6,
       "base_proc": 0
     },
-    "53": {
+    "54": {
       "name": "Camilla (Spring Princess)",
       "color": "G",
       "hp_base": 17,
@@ -1674,7 +1705,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "54": {
+    "55": {
       "name": "Camilla (Steamy Secrets)",
       "color": "N",
       "hp_base": 16,
@@ -1705,7 +1736,7 @@ var data = {
       "base_c": 68,
       "base_proc": 20
     },
-    "55": {
+    "56": {
       "name": "Camilla (Tropical Beauty)",
       "color": "B",
       "hp_base": 17,
@@ -1736,7 +1767,7 @@ var data = {
       "base_c": 68,
       "base_proc": 11
     },
-    "56": {
+    "57": {
       "name": "Camus (Sable Knight)",
       "color": "B",
       "hp_base": 18,
@@ -1767,7 +1798,7 @@ var data = {
       "base_c": 57,
       "base_proc": 23
     },
-    "57": {
+    "58": {
       "name": "Canas (Wisdom Seeker)",
       "color": "R",
       "hp_base": 17,
@@ -1798,7 +1829,7 @@ var data = {
       "base_c": 97,
       "base_proc": 0
     },
-    "58": {
+    "59": {
       "name": "Catria (Middle Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1829,7 +1860,7 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "59": {
+    "60": {
       "name": "Catria (Mild Middle Sister)",
       "color": "R",
       "hp_base": 17,
@@ -1860,7 +1891,7 @@ var data = {
       "base_c": 108,
       "base_proc": 0
     },
-    "60": {
+    "61": {
       "name": "Catria (Spring Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1891,7 +1922,7 @@ var data = {
       "base_c": 38,
       "base_proc": 0
     },
-    "61": {
+    "62": {
       "name": "Cecilia (Etrurian General)",
       "color": "G",
       "hp_base": 17,
@@ -1922,7 +1953,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "62": {
+    "63": {
       "name": "Cecilia (Festive Instructor)",
       "color": "N",
       "hp_base": 19,
@@ -1953,7 +1984,7 @@ var data = {
       "base_c": 27,
       "base_proc": 28
     },
-    "63": {
+    "64": {
       "name": "Ced (Hero on the Wind)",
       "color": "G",
       "hp_base": 18,
@@ -1984,7 +2015,7 @@ var data = {
       "base_c": 91,
       "base_proc": 33
     },
-    "64": {
+    "65": {
       "name": "Celica (Caring Princess)",
       "color": "R",
       "hp_base": 17,
@@ -2015,7 +2046,7 @@ var data = {
       "base_c": 115,
       "base_proc": 6
     },
-    "65": {
+    "66": {
       "name": "Celica (Imprisoned Soul)",
       "color": "R",
       "hp_base": 18,
@@ -2046,7 +2077,7 @@ var data = {
       "base_c": 63,
       "base_proc": 33
     },
-    "66": {
+    "67": {
       "name": "Celica (Queen of Valentia)",
       "color": "G",
       "hp_base": 18,
@@ -2077,7 +2108,7 @@ var data = {
       "base_c": 12,
       "base_proc": 35
     },
-    "67": {
+    "68": {
       "name": "Celica (Warrior Priestess)",
       "color": "R",
       "hp_base": 16,
@@ -2108,7 +2139,7 @@ var data = {
       "base_c": 6,
       "base_proc": 18
     },
-    "68": {
+    "69": {
       "name": "Chad (Lycian Wildcat)",
       "color": "N",
       "hp_base": 19,
@@ -2139,7 +2170,7 @@ var data = {
       "base_c": 107,
       "base_proc": 0
     },
-    "69": {
+    "70": {
       "name": "Charlotte (Money Maiden)",
       "color": "B",
       "hp_base": 20,
@@ -2170,7 +2201,7 @@ var data = {
       "base_c": 128,
       "base_proc": 0
     },
-    "70": {
+    "71": {
       "name": "Cherche (Wyvern Friend)",
       "color": "G",
       "hp_base": 20,
@@ -2201,7 +2232,7 @@ var data = {
       "base_c": 47,
       "base_proc": 0
     },
-    "71": {
+    "72": {
       "name": "Chrom (Crowned Exalt)",
       "color": "B",
       "hp_base": 17,
@@ -2232,7 +2263,7 @@ var data = {
       "base_c": 99,
       "base_proc": 0
     },
-    "72": {
+    "73": {
       "name": "Chrom (Exalted Prince)",
       "color": "R",
       "hp_base": 21,
@@ -2263,7 +2294,7 @@ var data = {
       "base_c": 115,
       "base_proc": 2
     },
-    "73": {
+    "74": {
       "name": "Chrom (Gifted Leader)",
       "color": "G",
       "hp_base": 25,
@@ -2294,7 +2325,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "74": {
+    "75": {
       "name": "Chrom (Knight Exalt)",
       "color": "R",
       "hp_base": 19,
@@ -2325,7 +2356,7 @@ var data = {
       "base_c": 124,
       "base_proc": 2
     },
-    "75": {
+    "76": {
       "name": "Chrom (Spring Exalt)",
       "color": "G",
       "hp_base": 19,
@@ -2356,7 +2387,7 @@ var data = {
       "base_c": 13,
       "base_proc": 0
     },
-    "76": {
+    "77": {
       "name": "Clair (Highborn Flier)",
       "color": "B",
       "hp_base": 18,
@@ -2387,7 +2418,7 @@ var data = {
       "base_c": 118,
       "base_proc": 0
     },
-    "77": {
+    "78": {
       "name": "Clarine (Refined Noble)",
       "color": "N",
       "hp_base": 16,
@@ -2418,7 +2449,7 @@ var data = {
       "base_c": 0,
       "base_proc": 51
     },
-    "78": {
+    "79": {
       "name": "Clarisse (Sniper in the Dark)",
       "color": "N",
       "hp_base": 18,
@@ -2449,7 +2480,7 @@ var data = {
       "base_c": 129,
       "base_proc": 20
     },
-    "79": {
+    "80": {
       "name": "Claude (The Schemer)",
       "color": "N",
       "hp_base": 17,
@@ -2480,7 +2511,7 @@ var data = {
       "base_c": 28,
       "base_proc": 20
     },
-    "80": {
+    "81": {
       "name": "Clive (Idealistic Knight)",
       "color": "B",
       "hp_base": 19,
@@ -2511,7 +2542,7 @@ var data = {
       "base_c": 0,
       "base_proc": 15
     },
-    "81": {
+    "82": {
       "name": "Conrad (Masked Knight)",
       "color": "B",
       "hp_base": 18,
@@ -2542,7 +2573,7 @@ var data = {
       "base_c": 0,
       "base_proc": 19
     },
-    "82": {
+    "83": {
       "name": "Conrad (Unmasked Knight)",
       "color": "R",
       "hp_base": 17,
@@ -2573,7 +2604,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "83": {
+    "84": {
       "name": "Cordelia (Knight Paradise)",
       "color": "B",
       "hp_base": 17,
@@ -2604,7 +2635,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "84": {
+    "85": {
       "name": "Cordelia (Knight Paragon)",
       "color": "B",
       "hp_base": 18,
@@ -2635,7 +2666,7 @@ var data = {
       "base_c": 0,
       "base_proc": 18
     },
-    "85": {
+    "86": {
       "name": "Cordelia (Perfect Bride)",
       "color": "N",
       "hp_base": 17,
@@ -2666,7 +2697,7 @@ var data = {
       "base_c": 21,
       "base_proc": 0
     },
-    "86": {
+    "87": {
       "name": "Cormag (Aloof Lanceman)",
       "color": "B",
       "hp_base": 18,
@@ -2697,7 +2728,7 @@ var data = {
       "base_c": 26,
       "base_proc": 29
     },
-    "87": {
+    "88": {
       "name": "Corrin (Dream Prince)",
       "color": "B",
       "hp_base": 16,
@@ -2728,7 +2759,7 @@ var data = {
       "base_c": 67,
       "base_proc": 12
     },
-    "88": {
+    "89": {
       "name": "Corrin (Dream Princess)",
       "color": "G",
       "hp_base": 15,
@@ -2759,7 +2790,7 @@ var data = {
       "base_c": 48,
       "base_proc": 11
     },
-    "89": {
+    "90": {
       "name": "Corrin (Enjoying Tradition)",
       "color": "N",
       "hp_base": 18,
@@ -2790,7 +2821,7 @@ var data = {
       "base_c": 116,
       "base_proc": 0
     },
-    "90": {
+    "91": {
       "name": "Corrin (Fateful Prince)",
       "color": "R",
       "hp_base": 20,
@@ -2821,7 +2852,7 @@ var data = {
       "base_c": 0,
       "base_proc": 12
     },
-    "91": {
+    "92": {
       "name": "Corrin (Fateful Princess)",
       "color": "B",
       "hp_base": 19,
@@ -2852,7 +2883,7 @@ var data = {
       "base_c": 63,
       "base_proc": 11
     },
-    "92": {
+    "93": {
       "name": "Corrin (Novice Vacationer)",
       "color": "B",
       "hp_base": 17,
@@ -2883,7 +2914,7 @@ var data = {
       "base_c": 49,
       "base_proc": 12
     },
-    "93": {
+    "94": {
       "name": "Corrin (Wailing Soul)",
       "color": "N",
       "hp_base": 15,
@@ -2914,7 +2945,7 @@ var data = {
       "base_c": 0,
       "base_proc": 12
     },
-    "94": {
+    "95": {
       "name": "Cynthia (Hero Chaser)",
       "color": "B",
       "hp_base": 16,
@@ -2945,7 +2976,7 @@ var data = {
       "base_c": 35,
       "base_proc": 0
     },
-    "95": {
+    "96": {
       "name": "Death Knight (The Reaper)",
       "color": "B",
       "hp_base": 18,
@@ -2976,7 +3007,7 @@ var data = {
       "base_c": 23,
       "base_proc": 5
     },
-    "96": {
+    "97": {
       "name": "Deirdre (Lady of the Forest)",
       "color": "G",
       "hp_base": 17,
@@ -3007,7 +3038,7 @@ var data = {
       "base_c": 106,
       "base_proc": 0
     },
-    "97": {
+    "98": {
       "name": "Delthea (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -3038,7 +3069,7 @@ var data = {
       "base_c": 35,
       "base_proc": 35
     },
-    "98": {
+    "99": {
       "name": "Delthea (Tatarrah's Puppet)",
       "color": "B",
       "hp_base": 17,
@@ -3069,7 +3100,7 @@ var data = {
       "base_c": 39,
       "base_proc": 19
     },
-    "99": {
+    "100": {
       "name": "Dimitri (The Protector)",
       "color": "B",
       "hp_base": 18,
@@ -3100,7 +3131,7 @@ var data = {
       "base_c": 0,
       "base_proc": 53
     },
-    "100": {
+    "101": {
       "name": "Donnel (Village Hero)",
       "color": "B",
       "hp_base": 17,
@@ -3131,7 +3162,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "101": {
+    "102": {
       "name": "Dorcas (Pumpkin Smasher)",
       "color": "G",
       "hp_base": 23,
@@ -3162,7 +3193,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "102": {
+    "103": {
       "name": "Dorcas (Serene Warrior)",
       "color": "G",
       "hp_base": 19,
@@ -3193,7 +3224,7 @@ var data = {
       "base_c": 76,
       "base_proc": 11
     },
-    "103": {
+    "104": {
       "name": "Dozla (Harvest Attendant)",
       "color": "N",
       "hp_base": 21,
@@ -3224,7 +3255,7 @@ var data = {
       "base_c": 2,
       "base_proc": 0
     },
-    "104": {
+    "105": {
       "name": "Draug (Gentle Giant)",
       "color": "R",
       "hp_base": 24,
@@ -3255,7 +3286,7 @@ var data = {
       "base_c": 135,
       "base_proc": 40
     },
-    "105": {
+    "106": {
       "name": "Duma (God of Strength)",
       "color": "N",
       "hp_base": 24,
@@ -3286,7 +3317,7 @@ var data = {
       "base_c": 133,
       "base_proc": 11
     },
-    "106": {
+    "107": {
       "name": "Echidna (Unyielding Idealist)",
       "color": "G",
       "hp_base": 19,
@@ -3317,7 +3348,7 @@ var data = {
       "base_c": 35,
       "base_proc": 48
     },
-    "107": {
+    "108": {
       "name": "Edelgard (The Future)",
       "color": "G",
       "hp_base": 17,
@@ -3348,7 +3379,7 @@ var data = {
       "base_c": 98,
       "base_proc": 33
     },
-    "108": {
+    "109": {
       "name": "Effie (Army of One)",
       "color": "B",
       "hp_base": 22,
@@ -3379,7 +3410,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "109": {
+    "110": {
       "name": "Eir (Merciful Death)",
       "color": "N",
       "hp_base": 16,
@@ -3410,7 +3441,7 @@ var data = {
       "base_c": 104,
       "base_proc": 28
     },
-    "110": {
+    "111": {
       "name": "Eir (Renewed Life)",
       "color": "R",
       "hp_base": 17,
@@ -3441,7 +3472,7 @@ var data = {
       "base_c": 108,
       "base_proc": 0
     },
-    "111": {
+    "112": {
       "name": "Eirika (Anamnesis Lady)",
       "color": "R",
       "hp_base": 17,
@@ -3472,7 +3503,7 @@ var data = {
       "base_c": 92,
       "base_proc": 0
     },
-    "112": {
+    "113": {
       "name": "Eirika (Gentle as Snow)",
       "color": "N",
       "hp_base": 18,
@@ -3503,7 +3534,7 @@ var data = {
       "base_c": 3,
       "base_proc": 25
     },
-    "113": {
+    "114": {
       "name": "Eirika (Graceful Resolve)",
       "color": "R",
       "hp_base": 16,
@@ -3534,7 +3565,7 @@ var data = {
       "base_c": 85,
       "base_proc": 36
     },
-    "114": {
+    "115": {
       "name": "Eirika (Restoration Lady)",
       "color": "R",
       "hp_base": 18,
@@ -3565,7 +3596,7 @@ var data = {
       "base_c": 69,
       "base_proc": 0
     },
-    "115": {
+    "116": {
       "name": "Eldigan (Lionheart)",
       "color": "R",
       "hp_base": 19,
@@ -3596,7 +3627,7 @@ var data = {
       "base_c": 0,
       "base_proc": 22
     },
-    "116": {
+    "117": {
       "name": "Eleonora (Shooting Starlet)",
       "color": "N",
       "hp_base": 18,
@@ -3627,7 +3658,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "117": {
+    "118": {
       "name": "Elincia (Estival Princess)",
       "color": "G",
       "hp_base": 15,
@@ -3658,7 +3689,7 @@ var data = {
       "base_c": 37,
       "base_proc": 0
     },
-    "118": {
+    "119": {
       "name": "Elincia (Lost Princess)",
       "color": "R",
       "hp_base": 16,
@@ -3689,7 +3720,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "119": {
+    "120": {
       "name": "Elise (Bubbling Flower)",
       "color": "R",
       "hp_base": 15,
@@ -3720,7 +3751,7 @@ var data = {
       "base_c": 25,
       "base_proc": 0
     },
-    "120": {
+    "121": {
       "name": "Elise (Budding Flower)",
       "color": "N",
       "hp_base": 15,
@@ -3751,7 +3782,7 @@ var data = {
       "base_c": 0,
       "base_proc": 32
     },
-    "121": {
+    "122": {
       "name": "Elise (Tropical Flower)",
       "color": "G",
       "hp_base": 17,
@@ -3782,7 +3813,7 @@ var data = {
       "base_c": 53,
       "base_proc": 0
     },
-    "122": {
+    "123": {
       "name": "Eliwood (Blazing Knight)",
       "color": "R",
       "hp_base": 18,
@@ -3813,7 +3844,7 @@ var data = {
       "base_c": 134,
       "base_proc": 0
     },
-    "123": {
+    "124": {
       "name": "Eliwood (Devoted Love)",
       "color": "B",
       "hp_base": 23,
@@ -3844,7 +3875,7 @@ var data = {
       "base_c": 55,
       "base_proc": 0
     },
-    "124": {
+    "125": {
       "name": "Eliwood (Knight of Lycia)",
       "color": "R",
       "hp_base": 17,
@@ -3875,7 +3906,7 @@ var data = {
       "base_c": 137,
       "base_proc": 46
     },
-    "125": {
+    "126": {
       "name": "Eliwood (Marquess Pherae)",
       "color": "B",
       "hp_base": 18,
@@ -3906,7 +3937,7 @@ var data = {
       "base_c": 105,
       "base_proc": 0
     },
-    "126": {
+    "127": {
       "name": "Ephraim (Dynastic Duo)",
       "color": "B",
       "hp_base": 19,
@@ -3937,7 +3968,7 @@ var data = {
       "base_c": 84,
       "base_proc": 11
     },
-    "127": {
+    "128": {
       "name": "Ephraim (Legendary Lord)",
       "color": "B",
       "hp_base": 19,
@@ -3968,7 +3999,7 @@ var data = {
       "base_c": 47,
       "base_proc": 48
     },
-    "128": {
+    "129": {
       "name": "Ephraim (Restoration Lord)",
       "color": "B",
       "hp_base": 19,
@@ -3999,7 +4030,7 @@ var data = {
       "base_c": 129,
       "base_proc": 36
     },
-    "129": {
+    "130": {
       "name": "Ephraim (Sacred Twin Lord)",
       "color": "G",
       "hp_base": 22,
@@ -4030,7 +4061,7 @@ var data = {
       "base_c": 2,
       "base_proc": 11
     },
-    "130": {
+    "131": {
       "name": "Ephraim (Sparkling Gallantly)",
       "color": "B",
       "hp_base": 21,
@@ -4061,7 +4092,7 @@ var data = {
       "base_c": 23,
       "base_proc": 12
     },
-    "131": {
+    "132": {
       "name": "Est (Junior Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -4092,7 +4123,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "132": {
+    "133": {
       "name": "Est (Springtime Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4123,7 +4154,7 @@ var data = {
       "base_c": 68,
       "base_proc": 36
     },
-    "133": {
+    "134": {
       "name": "Ethlyn (Spirited Princess)",
       "color": "N",
       "hp_base": 16,
@@ -4154,7 +4185,7 @@ var data = {
       "base_c": 0,
       "base_proc": 25
     },
-    "134": {
+    "135": {
       "name": "Ewan (Eager Student)",
       "color": "R",
       "hp_base": 16,
@@ -4185,7 +4216,7 @@ var data = {
       "base_c": 0,
       "base_proc": 19
     },
-    "135": {
+    "136": {
       "name": "Eyvel (Mistress of Fiana)",
       "color": "R",
       "hp_base": 17,
@@ -4216,7 +4247,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "136": {
+    "137": {
       "name": "Fae (Divine Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -4247,7 +4278,7 @@ var data = {
       "base_c": 128,
       "base_proc": 0
     },
-    "137": {
+    "138": {
       "name": "Fae (Holiday Dear)",
       "color": "G",
       "hp_base": 17,
@@ -4278,7 +4309,7 @@ var data = {
       "base_c": 2,
       "base_proc": 33
     },
-    "138": {
+    "139": {
       "name": "Faye (Devoted Heart)",
       "color": "N",
       "hp_base": 16,
@@ -4309,7 +4340,7 @@ var data = {
       "base_c": 19,
       "base_proc": 38
     },
-    "139": {
+    "140": {
       "name": "Faye (Drawn Heartstring)",
       "color": "N",
       "hp_base": 19,
@@ -4340,7 +4371,7 @@ var data = {
       "base_c": 2,
       "base_proc": 36
     },
-    "140": {
+    "141": {
       "name": "Felicia (Maid Mayhem)",
       "color": "N",
       "hp_base": 15,
@@ -4371,7 +4402,7 @@ var data = {
       "base_c": 21,
       "base_proc": 19
     },
-    "141": {
+    "142": {
       "name": "Felicia (Off the Menu)",
       "color": "G",
       "hp_base": 21,
@@ -4402,7 +4433,7 @@ var data = {
       "base_c": 23,
       "base_proc": 19
     },
-    "142": {
+    "143": {
       "name": "Ferdinand (Noblest of Nobles)",
       "color": "B",
       "hp_base": 19,
@@ -4433,7 +4464,7 @@ var data = {
       "base_c": 100,
       "base_proc": 0
     },
-    "143": {
+    "144": {
       "name": "Finn (Lance of Legend)",
       "color": "B",
       "hp_base": 18,
@@ -4464,7 +4495,7 @@ var data = {
       "base_c": 57,
       "base_proc": 35
     },
-    "144": {
+    "145": {
       "name": "Fiora (Airborne Warrior)",
       "color": "B",
       "hp_base": 19,
@@ -4495,7 +4526,7 @@ var data = {
       "base_c": 0,
       "base_proc": 28
     },
-    "145": {
+    "146": {
       "name": "Fiora (Defrosted Illian)",
       "color": "R",
       "hp_base": 18,
@@ -4526,7 +4557,7 @@ var data = {
       "base_c": 5,
       "base_proc": 0
     },
-    "146": {
+    "147": {
       "name": "Fir (Student of Spring)",
       "color": "G",
       "hp_base": 17,
@@ -4557,7 +4588,7 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "147": {
+    "148": {
       "name": "Fir (Sword Student)",
       "color": "R",
       "hp_base": 19,
@@ -4588,7 +4619,7 @@ var data = {
       "base_c": 0,
       "base_proc": 19
     },
-    "148": {
+    "149": {
       "name": "Fjorm (Bride of Rime)",
       "color": "N",
       "hp_base": 18,
@@ -4619,7 +4650,7 @@ var data = {
       "base_c": 60,
       "base_proc": 0
     },
-    "149": {
+    "150": {
       "name": "Fjorm (New Traditions)",
       "color": "G",
       "hp_base": 17,
@@ -4650,7 +4681,7 @@ var data = {
       "base_c": 41,
       "base_proc": 0
     },
-    "150": {
+    "151": {
       "name": "Fjorm (Princess of Ice)",
       "color": "B",
       "hp_base": 17,
@@ -4681,7 +4712,7 @@ var data = {
       "base_c": 35,
       "base_proc": 27
     },
-    "151": {
+    "152": {
       "name": "Flame Emperor (Bringer of War)",
       "color": "G",
       "hp_base": 20,
@@ -4712,7 +4743,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "152": {
+    "153": {
       "name": "Flora (Cold as Ice)",
       "color": "R",
       "hp_base": 16,
@@ -4743,7 +4774,7 @@ var data = {
       "base_c": 27,
       "base_proc": 28
     },
-    "153": {
+    "154": {
       "name": "Flora (Signature Dish)",
       "color": "R",
       "hp_base": 19,
@@ -4774,7 +4805,7 @@ var data = {
       "base_c": 2,
       "base_proc": 28
     },
-    "154": {
+    "155": {
       "name": "Florina (Lovely Flier)",
       "color": "B",
       "hp_base": 18,
@@ -4805,7 +4836,7 @@ var data = {
       "base_c": 21,
       "base_proc": 0
     },
-    "155": {
+    "156": {
       "name": "Forrest (Fashion Forward)",
       "color": "N",
       "hp_base": 17,
@@ -4836,7 +4867,7 @@ var data = {
       "base_c": 95,
       "base_proc": 25
     },
-    "156": {
+    "157": {
       "name": "Forsyth (Loyal Lieutenant)",
       "color": "B",
       "hp_base": 23,
@@ -4867,7 +4898,7 @@ var data = {
       "base_c": 80,
       "base_proc": 10
     },
-    "157": {
+    "158": {
       "name": "Frederick (H. Watcher)",
       "color": "N",
       "hp_base": 18,
@@ -4898,7 +4929,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "158": {
+    "159": {
       "name": "Frederick (Polite Knight)",
       "color": "G",
       "hp_base": 19,
@@ -4929,7 +4960,7 @@ var data = {
       "base_c": 47,
       "base_proc": 33
     },
-    "159": {
+    "160": {
       "name": "Gaius (Candy Stealer)",
       "color": "N",
       "hp_base": 18,
@@ -4960,7 +4991,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "160": {
+    "161": {
       "name": "Gaius (Thief Exposed)",
       "color": "N",
       "hp_base": 17,
@@ -4991,7 +5022,7 @@ var data = {
       "base_c": 27,
       "base_proc": 3
     },
-    "161": {
+    "162": {
       "name": "Garon (King of Nohr)",
       "color": "R",
       "hp_base": 17,
@@ -5022,7 +5053,7 @@ var data = {
       "base_c": 89,
       "base_proc": 12
     },
-    "162": {
+    "163": {
       "name": "Genny (Dressed with Care)",
       "color": "N",
       "hp_base": 16,
@@ -5053,7 +5084,7 @@ var data = {
       "base_c": 26,
       "base_proc": 17
     },
-    "163": {
+    "164": {
       "name": "Genny (Endearing Ally)",
       "color": "N",
       "hp_base": 17,
@@ -5084,7 +5115,7 @@ var data = {
       "base_c": 0,
       "base_proc": 25
     },
-    "164": {
+    "165": {
       "name": "Gerik (Desert Tiger)",
       "color": "G",
       "hp_base": 19,
@@ -5115,7 +5146,7 @@ var data = {
       "base_c": 76,
       "base_proc": 36
     },
-    "165": {
+    "166": {
       "name": "Gerome (Masked Rider)",
       "color": "G",
       "hp_base": 19,
@@ -5146,7 +5177,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "166": {
+    "167": {
       "name": "Gharnef (Dark Pontifex)",
       "color": "R",
       "hp_base": 16,
@@ -5177,7 +5208,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "167": {
+    "168": {
       "name": "Gordin (Altean Archer)",
       "color": "N",
       "hp_base": 19,
@@ -5208,7 +5239,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "168": {
+    "169": {
       "name": "Gray (Wry Comrade)",
       "color": "R",
       "hp_base": 17,
@@ -5239,7 +5270,7 @@ var data = {
       "base_c": 124,
       "base_proc": 0
     },
-    "169": {
+    "170": {
       "name": "Greil (Heroic Exemplar)",
       "color": "G",
       "hp_base": 23,
@@ -5270,7 +5301,7 @@ var data = {
       "base_c": 2,
       "base_proc": 2
     },
-    "170": {
+    "171": {
       "name": "Gunnthr\xE1 (Beaming Smile)",
       "color": "N",
       "hp_base": 17,
@@ -5301,7 +5332,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "171": {
+    "172": {
       "name": "Gunnthr\xE1 (First Year's Dream)",
       "color": "R",
       "hp_base": 16,
@@ -5332,7 +5363,7 @@ var data = {
       "base_c": 81,
       "base_proc": 20
     },
-    "172": {
+    "173": {
       "name": "Gunnthr\xE1 (Voice of Dreams)",
       "color": "G",
       "hp_base": 15,
@@ -5363,7 +5394,7 @@ var data = {
       "base_c": 95,
       "base_proc": 19
     },
-    "173": {
+    "174": {
       "name": "Gunter (Inveterate Soldier)",
       "color": "G",
       "hp_base": 21,
@@ -5394,7 +5425,7 @@ var data = {
       "base_c": 66,
       "base_proc": 0
     },
-    "174": {
+    "175": {
       "name": "Gwendolyn (Adorable Knight)",
       "color": "B",
       "hp_base": 23,
@@ -5425,7 +5456,7 @@ var data = {
       "base_c": 62,
       "base_proc": 15
     },
-    "175": {
+    "176": {
       "name": "Haar (Black Tempest)",
       "color": "G",
       "hp_base": 17,
@@ -5456,7 +5487,7 @@ var data = {
       "base_c": 85,
       "base_proc": 0
     },
-    "176": {
+    "177": {
       "name": "Hana (Focused Samurai)",
       "color": "R",
       "hp_base": 18,
@@ -5487,7 +5518,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "177": {
+    "178": {
       "name": "Hardin (Dark Emperor)",
       "color": "B",
       "hp_base": 23,
@@ -5518,7 +5549,7 @@ var data = {
       "base_c": 0,
       "base_proc": 53
     },
-    "178": {
+    "179": {
       "name": "Hawkeye (Desert Guardian)",
       "color": "G",
       "hp_base": 21,
@@ -5549,7 +5580,7 @@ var data = {
       "base_c": 128,
       "base_proc": 22
     },
-    "179": {
+    "180": {
       "name": "Heath (Wandering Knight)",
       "color": "B",
       "hp_base": 18,
@@ -5580,7 +5611,7 @@ var data = {
       "base_c": 0,
       "base_proc": 12
     },
-    "180": {
+    "181": {
       "name": "Hector (Brave Warrior)",
       "color": "B",
       "hp_base": 24,
@@ -5611,7 +5642,7 @@ var data = {
       "base_c": 41,
       "base_proc": 29
     },
-    "181": {
+    "182": {
       "name": "Hector (Dressed-Up Duo)",
       "color": "R",
       "hp_base": 23,
@@ -5642,7 +5673,7 @@ var data = {
       "base_c": 62,
       "base_proc": 10
     },
-    "182": {
+    "183": {
       "name": "Hector (General of Ostia)",
       "color": "G",
       "hp_base": 24,
@@ -5673,7 +5704,7 @@ var data = {
       "base_c": 55,
       "base_proc": 40
     },
-    "183": {
+    "184": {
       "name": "Hector (Just Here to Fight)",
       "color": "G",
       "hp_base": 24,
@@ -5704,7 +5735,7 @@ var data = {
       "base_c": 0,
       "base_proc": 20
     },
-    "184": {
+    "185": {
       "name": "Hector (Marquess of Ostia)",
       "color": "G",
       "hp_base": 23,
@@ -5735,7 +5766,7 @@ var data = {
       "base_c": 88,
       "base_proc": 11
     },
-    "185": {
+    "186": {
       "name": "Helbindi (Savage Scourge)",
       "color": "G",
       "hp_base": 18,
@@ -5766,7 +5797,7 @@ var data = {
       "base_c": 76,
       "base_proc": 53
     },
-    "186": {
+    "187": {
       "name": "Helbindi (Seaside Scourge)",
       "color": "R",
       "hp_base": 18,
@@ -5797,7 +5828,7 @@ var data = {
       "base_c": 89,
       "base_proc": 0
     },
-    "187": {
+    "188": {
       "name": "Henry (Happy Vampire)",
       "color": "G",
       "hp_base": 17,
@@ -5828,7 +5859,7 @@ var data = {
       "base_c": 2,
       "base_proc": 43
     },
-    "188": {
+    "189": {
       "name": "Henry (Twisted Mind)",
       "color": "R",
       "hp_base": 19,
@@ -5859,7 +5890,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "189": {
+    "190": {
       "name": "Hilda (Idle Maiden)",
       "color": "G",
       "hp_base": 19,
@@ -5890,7 +5921,7 @@ var data = {
       "base_c": 26,
       "base_proc": 36
     },
-    "190": {
+    "191": {
       "name": "Hinata (Wild Samurai)",
       "color": "R",
       "hp_base": 21,
@@ -5921,7 +5952,7 @@ var data = {
       "base_c": 0,
       "base_proc": 40
     },
-    "191": {
+    "192": {
       "name": "Hinoka (Blue Sky Warrior)",
       "color": "N",
       "hp_base": 18,
@@ -5952,7 +5983,7 @@ var data = {
       "base_c": 43,
       "base_proc": 33
     },
-    "192": {
+    "193": {
       "name": "Hinoka (Relaxed Warrior)",
       "color": "G",
       "hp_base": 16,
@@ -5983,7 +6014,7 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "193": {
+    "194": {
       "name": "Hinoka (Warrior Princess)",
       "color": "B",
       "hp_base": 19,
@@ -6014,7 +6045,7 @@ var data = {
       "base_c": 68,
       "base_proc": 8
     },
-    "194": {
+    "195": {
       "name": "Hr\xEDd (Icy Blade)",
       "color": "R",
       "hp_base": 19,
@@ -6045,7 +6076,7 @@ var data = {
       "base_c": 5,
       "base_proc": 36
     },
-    "195": {
+    "196": {
       "name": "Hr\xEDd (Resolute Prince)",
       "color": "R",
       "hp_base": 18,
@@ -6076,7 +6107,7 @@ var data = {
       "base_c": 64,
       "base_proc": 0
     },
-    "196": {
+    "197": {
       "name": "Hubert (Sinister Servant)",
       "color": "R",
       "hp_base": 17,
@@ -6107,7 +6138,7 @@ var data = {
       "base_c": 73,
       "base_proc": 23
     },
-    "197": {
+    "198": {
       "name": "Iago (Nohr's Tactician)",
       "color": "R",
       "hp_base": 18,
@@ -6138,7 +6169,7 @@ var data = {
       "base_c": 3,
       "base_proc": 8
     },
-    "198": {
+    "199": {
       "name": "Idunn (Dark Priestess)",
       "color": "R",
       "hp_base": 19,
@@ -6169,7 +6200,7 @@ var data = {
       "base_c": 138,
       "base_proc": 10
     },
-    "199": {
+    "200": {
       "name": "Idunn (Dragonkin Duo)",
       "color": "R",
       "hp_base": 20,
@@ -6200,7 +6231,7 @@ var data = {
       "base_c": 58,
       "base_proc": 28
     },
-    "200": {
+    "201": {
       "name": "Igrene (Nabata Protector)",
       "color": "R",
       "hp_base": 18,
@@ -6231,7 +6262,7 @@ var data = {
       "base_c": 91,
       "base_proc": 8
     },
-    "201": {
+    "202": {
       "name": "Ike (Brave Mercenary)",
       "color": "G",
       "hp_base": 17,
@@ -6262,7 +6293,7 @@ var data = {
       "base_c": 129,
       "base_proc": 2
     },
-    "202": {
+    "203": {
       "name": "Ike (Stalwart Heart)",
       "color": "S",
       "hp_base": 21,
@@ -6293,7 +6324,7 @@ var data = {
       "base_c": 42,
       "base_proc": 41
     },
-    "203": {
+    "204": {
       "name": "Ike (Vanguard Legend)",
       "color": "R",
       "hp_base": 19,
@@ -6324,7 +6355,7 @@ var data = {
       "base_c": 29,
       "base_proc": 41
     },
-    "204": {
+    "205": {
       "name": "Ike (Young Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -6355,7 +6386,7 @@ var data = {
       "base_c": 0,
       "base_proc": 2
     },
-    "205": {
+    "206": {
       "name": "Ilyana (Treat Harvester)",
       "color": "B",
       "hp_base": 19,
@@ -6386,7 +6417,7 @@ var data = {
       "base_c": 9,
       "base_proc": 28
     },
-    "206": {
+    "207": {
       "name": "Inigo (Indigo Dancer)",
       "color": "G",
       "hp_base": 15,
@@ -6417,7 +6448,7 @@ var data = {
       "base_c": 63,
       "base_proc": 0
     },
-    "207": {
+    "208": {
       "name": "Innes (Flawless Form)",
       "color": "G",
       "hp_base": 18,
@@ -6448,7 +6479,7 @@ var data = {
       "base_c": 59,
       "base_proc": 0
     },
-    "208": {
+    "209": {
       "name": "Innes (Regal Strategician)",
       "color": "N",
       "hp_base": 16,
@@ -6479,7 +6510,7 @@ var data = {
       "base_c": 0,
       "base_proc": 28
     },
-    "209": {
+    "210": {
       "name": "Ishtar (Thunder Goddess)",
       "color": "B",
       "hp_base": 16,
@@ -6510,7 +6541,7 @@ var data = {
       "base_c": 84,
       "base_proc": 36
     },
-    "210": {
+    "211": {
       "name": "Ishtar (Thunder's Waltz)",
       "color": "R",
       "hp_base": 17,
@@ -6541,7 +6572,7 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "211": {
+    "212": {
       "name": "Itsuki (Finding a Path)",
       "color": "R",
       "hp_base": 19,
@@ -6572,7 +6603,7 @@ var data = {
       "base_c": 36,
       "base_proc": 48
     },
-    "212": {
+    "213": {
       "name": "Jaffar (Angel of Death)",
       "color": "N",
       "hp_base": 17,
@@ -6603,7 +6634,7 @@ var data = {
       "base_c": 131,
       "base_proc": 20
     },
-    "213": {
+    "214": {
       "name": "Jaffar (Angel of Night)",
       "color": "G",
       "hp_base": 18,
@@ -6634,7 +6665,7 @@ var data = {
       "base_c": 55,
       "base_proc": 0
     },
-    "214": {
+    "215": {
       "name": "Jagen (Veteran Knight)",
       "color": "B",
       "hp_base": 20,
@@ -6665,7 +6696,7 @@ var data = {
       "base_c": 46,
       "base_proc": 1
     },
-    "215": {
+    "216": {
       "name": "Jakob (Devoted Monster)",
       "color": "N",
       "hp_base": 20,
@@ -6696,7 +6727,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "216": {
+    "217": {
       "name": "Jakob (Devoted Servant)",
       "color": "N",
       "hp_base": 17,
@@ -6727,7 +6758,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "217": {
+    "218": {
       "name": "Jamke (Prince of Verdane)",
       "color": "N",
       "hp_base": 16,
@@ -6758,7 +6789,7 @@ var data = {
       "base_c": 0,
       "base_proc": 3
     },
-    "218": {
+    "219": {
       "name": "Jeorge (Perfect Shot)",
       "color": "N",
       "hp_base": 18,
@@ -6789,7 +6820,7 @@ var data = {
       "base_c": 118,
       "base_proc": 5
     },
-    "219": {
+    "220": {
       "name": "Joshua (Tempest King)",
       "color": "R",
       "hp_base": 18,
@@ -6820,7 +6851,7 @@ var data = {
       "base_c": 0,
       "base_proc": 36
     },
-    "220": {
+    "221": {
       "name": "Julia (Crusader of Light)",
       "color": "B",
       "hp_base": 18,
@@ -6851,7 +6882,7 @@ var data = {
       "base_c": 10,
       "base_proc": 12
     },
-    "221": {
+    "222": {
       "name": "Julia (Naga's Blood)",
       "color": "G",
       "hp_base": 16,
@@ -6882,7 +6913,7 @@ var data = {
       "base_c": 21,
       "base_proc": 12
     },
-    "222": {
+    "223": {
       "name": "Julius (Scion of Darkness)",
       "color": "R",
       "hp_base": 16,
@@ -6913,7 +6944,7 @@ var data = {
       "base_c": 4,
       "base_proc": 11
     },
-    "223": {
+    "224": {
       "name": "Kaden (Kitsune Braggart)",
       "color": "G",
       "hp_base": 16,
@@ -6944,7 +6975,7 @@ var data = {
       "base_c": 56,
       "base_proc": 0
     },
-    "224": {
+    "225": {
       "name": "Kagero (Beverage Ninja)",
       "color": "G",
       "hp_base": 19,
@@ -6975,7 +7006,7 @@ var data = {
       "base_c": 39,
       "base_proc": 11
     },
-    "225": {
+    "226": {
       "name": "Kagero (Honorable Ninja)",
       "color": "N",
       "hp_base": 16,
@@ -7006,7 +7037,7 @@ var data = {
       "base_c": 0,
       "base_proc": 43
     },
-    "226": {
+    "227": {
       "name": "Kagero (Spring Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -7037,7 +7068,7 @@ var data = {
       "base_c": 59,
       "base_proc": 20
     },
-    "227": {
+    "228": {
       "name": "Kana (Dragon Princess)",
       "color": "G",
       "hp_base": 18,
@@ -7068,7 +7099,7 @@ var data = {
       "base_c": 58,
       "base_proc": 11
     },
-    "228": {
+    "229": {
       "name": "Kana (Dragon Spawn)",
       "color": "B",
       "hp_base": 18,
@@ -7099,7 +7130,7 @@ var data = {
       "base_c": 48,
       "base_proc": 12
     },
-    "229": {
+    "230": {
       "name": "Karel (Sword Demon)",
       "color": "R",
       "hp_base": 19,
@@ -7130,7 +7161,7 @@ var data = {
       "base_c": 0,
       "base_proc": 43
     },
-    "230": {
+    "231": {
       "name": "Karla (Sword Vassal)",
       "color": "R",
       "hp_base": 18,
@@ -7161,7 +7192,7 @@ var data = {
       "base_c": 42,
       "base_proc": 11
     },
-    "231": {
+    "232": {
       "name": "Katarina (Wayward One)",
       "color": "R",
       "hp_base": 17,
@@ -7192,7 +7223,7 @@ var data = {
       "base_c": 4,
       "base_proc": 19
     },
-    "232": {
+    "233": {
       "name": "Kaze (Easygoing Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -7223,7 +7254,7 @@ var data = {
       "base_c": 5,
       "base_proc": 28
     },
-    "233": {
+    "234": {
       "name": "Keaton (Lupine Collector)",
       "color": "R",
       "hp_base": 19,
@@ -7254,7 +7285,7 @@ var data = {
       "base_c": 18,
       "base_proc": 11
     },
-    "234": {
+    "235": {
       "name": "Kempf (Conniving General)",
       "color": "R",
       "hp_base": 18,
@@ -7285,7 +7316,7 @@ var data = {
       "base_c": 102,
       "base_proc": 1
     },
-    "235": {
+    "236": {
       "name": "Kiria (Cool Fa\xE7ade)",
       "color": "R",
       "hp_base": 16,
@@ -7316,7 +7347,7 @@ var data = {
       "base_c": 0,
       "base_proc": 28
     },
-    "236": {
+    "237": {
       "name": "Kjelle (Fair Fighter)",
       "color": "B",
       "hp_base": 23,
@@ -7347,7 +7378,7 @@ var data = {
       "base_c": 0,
       "base_proc": 11
     },
-    "237": {
+    "238": {
       "name": "Klein (Silver Nobleman)",
       "color": "N",
       "hp_base": 18,
@@ -7378,7 +7409,7 @@ var data = {
       "base_c": 0,
       "base_proc": 19
     },
-    "238": {
+    "239": {
       "name": "Kliff (Curious Spirit)",
       "color": "B",
       "hp_base": 15,
@@ -7409,7 +7440,7 @@ var data = {
       "base_c": 50,
       "base_proc": 22
     },
-    "239": {
+    "240": {
       "name": "Kronya (Gleaming Blade)",
       "color": "N",
       "hp_base": 18,
@@ -7440,7 +7471,7 @@ var data = {
       "base_c": 32,
       "base_proc": 33
     },
-    "240": {
+    "241": {
       "name": "L'Arachel (Harvest Princess)",
       "color": "G",
       "hp_base": 17,
@@ -7471,7 +7502,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "241": {
+    "242": {
       "name": "L'Arachel (Princess of Light)",
       "color": "B",
       "hp_base": 16,
@@ -7502,7 +7533,7 @@ var data = {
       "base_c": 97,
       "base_proc": 22
     },
-    "242": {
+    "243": {
       "name": "L\xEDf (Lethal Swordsman)",
       "color": "R",
       "hp_base": 18,
@@ -7533,7 +7564,7 @@ var data = {
       "base_c": 132,
       "base_proc": 39
     },
-    "243": {
+    "244": {
       "name": "Lachesis (Lionheart's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -7564,7 +7595,7 @@ var data = {
       "base_c": 117,
       "base_proc": 49
     },
-    "244": {
+    "245": {
       "name": "Laegjarn (Burning Sun)",
       "color": "B",
       "hp_base": 18,
@@ -7595,7 +7626,7 @@ var data = {
       "base_c": 68,
       "base_proc": 0
     },
-    "245": {
+    "246": {
       "name": "Laegjarn (New Experiences)",
       "color": "B",
       "hp_base": 16,
@@ -7626,7 +7657,7 @@ var data = {
       "base_c": 29,
       "base_proc": 0
     },
-    "246": {
+    "247": {
       "name": "Laegjarn (Sheathed Steel)",
       "color": "R",
       "hp_base": 17,
@@ -7657,7 +7688,7 @@ var data = {
       "base_c": 32,
       "base_proc": 10
     },
-    "247": {
+    "248": {
       "name": "Laevatein (Bonfire Blaze)",
       "color": "G",
       "hp_base": 16,
@@ -7688,7 +7719,7 @@ var data = {
       "base_c": 84,
       "base_proc": 0
     },
-    "248": {
+    "249": {
       "name": "Laevatein (Kumade Warrior)",
       "color": "N",
       "hp_base": 16,
@@ -7719,7 +7750,7 @@ var data = {
       "base_c": 40,
       "base_proc": 13
     },
-    "249": {
+    "250": {
       "name": "Laevatein (Searing Steel)",
       "color": "R",
       "hp_base": 17,
@@ -7750,7 +7781,7 @@ var data = {
       "base_c": 87,
       "base_proc": 0
     },
-    "250": {
+    "251": {
       "name": "Larcei (Keen Kin)",
       "color": "R",
       "hp_base": 17,
@@ -7781,7 +7812,7 @@ var data = {
       "base_c": 90,
       "base_proc": 42
     },
-    "251": {
+    "252": {
       "name": "Larum (Sprightly Dancer)",
       "color": "N",
       "hp_base": 18,
@@ -7812,7 +7843,7 @@ var data = {
       "base_c": 110,
       "base_proc": 0
     },
-    "252": {
+    "253": {
       "name": "Laslow (Dancing Duelist)",
       "color": "R",
       "hp_base": 20,
@@ -7843,7 +7874,7 @@ var data = {
       "base_c": 69,
       "base_proc": 38
     },
-    "253": {
+    "254": {
       "name": "Leanne (Forest's Song)",
       "color": "N",
       "hp_base": 14,
@@ -7874,7 +7905,7 @@ var data = {
       "base_c": 65,
       "base_proc": 0
     },
-    "254": {
+    "255": {
       "name": "Legault (The Hurricane)",
       "color": "N",
       "hp_base": 17,
@@ -7905,7 +7936,7 @@ var data = {
       "base_c": 6,
       "base_proc": 20
     },
-    "255": {
+    "256": {
       "name": "Legion (Masked Maniac)",
       "color": "G",
       "hp_base": 20,
@@ -7936,7 +7967,7 @@ var data = {
       "base_c": 0,
       "base_proc": 43
     },
-    "256": {
+    "257": {
       "name": "Leif (Prince of Leonster)",
       "color": "R",
       "hp_base": 18,
@@ -7967,7 +7998,7 @@ var data = {
       "base_c": 35,
       "base_proc": 6
     },
-    "257": {
+    "258": {
       "name": "Leif (Unifier of Thracia)",
       "color": "N",
       "hp_base": 18,
@@ -7998,7 +8029,7 @@ var data = {
       "base_c": 28,
       "base_proc": 37
     },
-    "258": {
+    "259": {
       "name": "Leila (Rose amid Fangs)",
       "color": "N",
       "hp_base": 18,
@@ -8029,7 +8060,7 @@ var data = {
       "base_c": 5,
       "base_proc": 0
     },
-    "259": {
+    "260": {
       "name": "Lene (Yearning Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -8060,7 +8091,7 @@ var data = {
       "base_c": 124,
       "base_proc": 0
     },
-    "260": {
+    "261": {
       "name": "Leo (Extra Tomatoes)",
       "color": "G",
       "hp_base": 15,
@@ -8091,7 +8122,7 @@ var data = {
       "base_c": 0,
       "base_proc": 20
     },
-    "261": {
+    "262": {
       "name": "Leo (Seashore's Prince)",
       "color": "R",
       "hp_base": 18,
@@ -8122,7 +8153,7 @@ var data = {
       "base_c": 4,
       "base_proc": 28
     },
-    "262": {
+    "263": {
       "name": "Leo (Sorcerous Prince)",
       "color": "R",
       "hp_base": 17,
@@ -8153,7 +8184,7 @@ var data = {
       "base_c": 102,
       "base_proc": 6
     },
-    "263": {
+    "264": {
       "name": "Leon (True of Heart)",
       "color": "N",
       "hp_base": 17,
@@ -8184,7 +8215,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "264": {
+    "265": {
       "name": "Lethe (Gallia's Valkyrie)",
       "color": "R",
       "hp_base": 17,
@@ -8215,7 +8246,7 @@ var data = {
       "base_c": 65,
       "base_proc": 36
     },
-    "265": {
+    "266": {
       "name": "Lethe (New Year's Claw)",
       "color": "G",
       "hp_base": 17,
@@ -8246,7 +8277,7 @@ var data = {
       "base_c": 0,
       "base_proc": 20
     },
-    "266": {
+    "267": {
       "name": "Lewyn (Guiding Breeze)",
       "color": "G",
       "hp_base": 16,
@@ -8277,7 +8308,7 @@ var data = {
       "base_c": 84,
       "base_proc": 20
     },
-    "267": {
+    "268": {
       "name": "Libra (Fetching Friar)",
       "color": "G",
       "hp_base": 18,
@@ -8308,7 +8339,7 @@ var data = {
       "base_c": 113,
       "base_proc": 38
     },
-    "268": {
+    "269": {
       "name": "Lilina (Beachside Bloom)",
       "color": "R",
       "hp_base": 18,
@@ -8339,7 +8370,7 @@ var data = {
       "base_c": 3,
       "base_proc": 0
     },
-    "269": {
+    "270": {
       "name": "Lilina (Blush of Youth)",
       "color": "G",
       "hp_base": 17,
@@ -8370,7 +8401,7 @@ var data = {
       "base_c": 6,
       "base_proc": 5
     },
-    "270": {
+    "271": {
       "name": "Lilina (Delightful Noble)",
       "color": "R",
       "hp_base": 16,
@@ -8401,7 +8432,7 @@ var data = {
       "base_c": 111,
       "base_proc": 21
     },
-    "271": {
+    "272": {
       "name": "Lilith (Astral Daughter)",
       "color": "B",
       "hp_base": 17,
@@ -8432,7 +8463,7 @@ var data = {
       "base_c": 78,
       "base_proc": 0
     },
-    "272": {
+    "273": {
       "name": "Linde (Light Mage)",
       "color": "B",
       "hp_base": 16,
@@ -8463,7 +8494,7 @@ var data = {
       "base_c": 50,
       "base_proc": 0
     },
-    "273": {
+    "274": {
       "name": "Linde (Summer Rays)",
       "color": "N",
       "hp_base": 16,
@@ -8494,7 +8525,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "274": {
+    "275": {
       "name": "Linus (Mad Dog)",
       "color": "G",
       "hp_base": 18,
@@ -8525,7 +8556,7 @@ var data = {
       "base_c": 36,
       "base_proc": 33
     },
-    "275": {
+    "276": {
       "name": "Lissa (Pure Joy)",
       "color": "G",
       "hp_base": 21,
@@ -8556,7 +8587,7 @@ var data = {
       "base_c": 44,
       "base_proc": 10
     },
-    "276": {
+    "277": {
       "name": "Lissa (Sprightly Cleric)",
       "color": "N",
       "hp_base": 17,
@@ -8587,7 +8618,7 @@ var data = {
       "base_c": 0,
       "base_proc": 32
     },
-    "277": {
+    "278": {
       "name": "Lloyd (White Wolf)",
       "color": "R",
       "hp_base": 17,
@@ -8618,7 +8649,7 @@ var data = {
       "base_c": 128,
       "base_proc": 28
     },
-    "278": {
+    "279": {
       "name": "Loki (Spring Trickster)",
       "color": "N",
       "hp_base": 17,
@@ -8649,7 +8680,7 @@ var data = {
       "base_c": 59,
       "base_proc": 33
     },
-    "279": {
+    "280": {
       "name": "Loki (The Trickster)",
       "color": "N",
       "hp_base": 18,
@@ -8680,7 +8711,7 @@ var data = {
       "base_c": 84,
       "base_proc": 14
     },
-    "280": {
+    "281": {
       "name": "Lon'qu (Solitary Blade)",
       "color": "R",
       "hp_base": 19,
@@ -8711,7 +8742,7 @@ var data = {
       "base_c": 0,
       "base_proc": 20
     },
-    "281": {
+    "282": {
       "name": "Louise (Eternal Devotion)",
       "color": "N",
       "hp_base": 17,
@@ -8742,7 +8773,7 @@ var data = {
       "base_c": 66,
       "base_proc": 0
     },
-    "282": {
+    "283": {
       "name": "Lucina (Brave Princess)",
       "color": "B",
       "hp_base": 17,
@@ -8773,7 +8804,7 @@ var data = {
       "base_c": 38,
       "base_proc": 2
     },
-    "283": {
+    "284": {
       "name": "Lucina (Future Witness)",
       "color": "R",
       "hp_base": 19,
@@ -8804,7 +8835,7 @@ var data = {
       "base_c": 111,
       "base_proc": 33
     },
-    "284": {
+    "285": {
       "name": "Lucina (Glorious Archer)",
       "color": "B",
       "hp_base": 17,
@@ -8835,7 +8866,7 @@ var data = {
       "base_c": 32,
       "base_proc": 0
     },
-    "285": {
+    "286": {
       "name": "Lucina (Spring Exalt)",
       "color": "B",
       "hp_base": 16,
@@ -8866,7 +8897,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "286": {
+    "287": {
       "name": "Lucius (The Light)",
       "color": "N",
       "hp_base": 18,
@@ -8897,7 +8928,7 @@ var data = {
       "base_c": 0,
       "base_proc": 35
     },
-    "287": {
+    "288": {
       "name": "Lugh (Anima Child)",
       "color": "G",
       "hp_base": 18,
@@ -8928,7 +8959,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "288": {
+    "289": {
       "name": "Lukas (Buffet for One)",
       "color": "B",
       "hp_base": 25,
@@ -8959,7 +8990,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "289": {
+    "290": {
       "name": "Lukas (Sharp Soldier)",
       "color": "B",
       "hp_base": 19,
@@ -8990,7 +9021,7 @@ var data = {
       "base_c": 0,
       "base_proc": 46
     },
-    "290": {
+    "291": {
       "name": "Luke (Rowdy Squire)",
       "color": "R",
       "hp_base": 19,
@@ -9021,7 +9052,7 @@ var data = {
       "base_c": 89,
       "base_proc": 10
     },
-    "291": {
+    "292": {
       "name": "Lute (Prodigy)",
       "color": "B",
       "hp_base": 16,
@@ -9052,7 +9083,7 @@ var data = {
       "base_c": 95,
       "base_proc": 0
     },
-    "292": {
+    "293": {
       "name": "Lyn (Brave Lady)",
       "color": "N",
       "hp_base": 16,
@@ -9083,7 +9114,7 @@ var data = {
       "base_c": 5,
       "base_proc": 11
     },
-    "293": {
+    "294": {
       "name": "Lyn (Bride of the Plains)",
       "color": "N",
       "hp_base": 17,
@@ -9114,7 +9145,7 @@ var data = {
       "base_c": 0,
       "base_proc": 51
     },
-    "294": {
+    "295": {
       "name": "Lyn (Lady of the Beach)",
       "color": "B",
       "hp_base": 18,
@@ -9145,7 +9176,7 @@ var data = {
       "base_c": 32,
       "base_proc": 0
     },
-    "295": {
+    "296": {
       "name": "Lyn (Lady of the Plains)",
       "color": "R",
       "hp_base": 18,
@@ -9176,7 +9207,7 @@ var data = {
       "base_c": 118,
       "base_proc": 18
     },
-    "296": {
+    "297": {
       "name": "Lyn (Lady of the Wind)",
       "color": "G",
       "hp_base": 17,
@@ -9207,7 +9238,7 @@ var data = {
       "base_c": 108,
       "base_proc": 0
     },
-    "297": {
+    "298": {
       "name": "Lyn (Wind's Embrace)",
       "color": "B",
       "hp_base": 18,
@@ -9238,7 +9269,7 @@ var data = {
       "base_c": 2,
       "base_proc": 0
     },
-    "298": {
+    "299": {
       "name": "Lyon (Shadow Prince)",
       "color": "R",
       "hp_base": 19,
@@ -9269,7 +9300,7 @@ var data = {
       "base_c": 37,
       "base_proc": 53
     },
-    "299": {
+    "300": {
       "name": "Lysithea (Child Prodigy)",
       "color": "R",
       "hp_base": 18,
@@ -9300,7 +9331,7 @@ var data = {
       "base_c": 132,
       "base_proc": 36
     },
-    "300": {
+    "301": {
       "name": "Mae (Bundle of Energy)",
       "color": "B",
       "hp_base": 16,
@@ -9331,7 +9362,7 @@ var data = {
       "base_c": 15,
       "base_proc": 0
     },
-    "301": {
+    "302": {
       "name": "Mamori (Microwavin' Idol)",
       "color": "G",
       "hp_base": 19,
@@ -9362,7 +9393,7 @@ var data = {
       "base_c": 0,
       "base_proc": 10
     },
-    "302": {
+    "303": {
       "name": "Mareeta (Sword of Stars)",
       "color": "R",
       "hp_base": 17,
@@ -9393,7 +9424,7 @@ var data = {
       "base_c": 98,
       "base_proc": 33
     },
-    "303": {
+    "304": {
       "name": "Mareeta (The Blade's Pawn)",
       "color": "R",
       "hp_base": 18,
@@ -9424,7 +9455,7 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "304": {
+    "305": {
       "name": "Maria (Minerva's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -9455,7 +9486,7 @@ var data = {
       "base_c": 50,
       "base_proc": 35
     },
-    "305": {
+    "306": {
       "name": "Maribelle (Dire Damsel)",
       "color": "N",
       "hp_base": 17,
@@ -9486,7 +9517,7 @@ var data = {
       "base_c": 122,
       "base_proc": 35
     },
-    "306": {
+    "307": {
       "name": "Marisa (Crimson Flash)",
       "color": "R",
       "hp_base": 18,
@@ -9517,7 +9548,7 @@ var data = {
       "base_c": 76,
       "base_proc": 20
     },
-    "307": {
+    "308": {
       "name": "Marisa (Crimson Rabbit)",
       "color": "B",
       "hp_base": 18,
@@ -9548,7 +9579,7 @@ var data = {
       "base_c": 43,
       "base_proc": 0
     },
-    "308": {
+    "309": {
       "name": "Marth (Altean Groom)",
       "color": "G",
       "hp_base": 18,
@@ -9579,7 +9610,7 @@ var data = {
       "base_c": 35,
       "base_proc": 0
     },
-    "309": {
+    "310": {
       "name": "Marth (Altean Prince)",
       "color": "R",
       "hp_base": 19,
@@ -9610,7 +9641,7 @@ var data = {
       "base_c": 118,
       "base_proc": 0
     },
-    "310": {
+    "311": {
       "name": "Marth (Enigmatic Blade)",
       "color": "R",
       "hp_base": 19,
@@ -9641,7 +9672,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "311": {
+    "312": {
       "name": "Marth (Hero-King)",
       "color": "R",
       "hp_base": 18,
@@ -9672,7 +9703,38 @@ var data = {
       "base_c": 75,
       "base_proc": 16
     },
-    "312": {
+    "313": {
+      "name": "Marth (Legacied Hero)",
+      "color": "R",
+      "hp_base": 19,
+      "atk_base": 8,
+      "spd_base": 9,
+      "def_base": 8,
+      "res_base": 7,
+      "hpGrowth": 50,
+      "atkGrowth": 65,
+      "spdGrowth": 65,
+      "defGrowth": 55,
+      "resGrowth": 45,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "S",
+      "legendary": 0,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Rapier",
+      "a_name": "(None)",
+      "b_name": "Chill Def 3",
+      "c_name": "Spd/Def Oath 3",
+      "proc_name": "Hero's Blood",
+      "base_weap": 346,
+      "base_a": 0,
+      "base_b": 23,
+      "base_c": 109,
+      "base_proc": 26
+    },
+    "314": {
       "name": "Marth (Royal Altean Duo)",
       "color": "N",
       "hp_base": 18,
@@ -9703,7 +9765,7 @@ var data = {
       "base_c": 81,
       "base_proc": 16
     },
-    "313": {
+    "315": {
       "name": "Mathilda (Legendary Knight)",
       "color": "B",
       "hp_base": 16,
@@ -9734,7 +9796,7 @@ var data = {
       "base_c": 63,
       "base_proc": 0
     },
-    "314": {
+    "316": {
       "name": "Matthew (Faithful Spy)",
       "color": "N",
       "hp_base": 17,
@@ -9765,7 +9827,7 @@ var data = {
       "base_c": 69,
       "base_proc": 0
     },
-    "315": {
+    "317": {
       "name": "Mercedes (Kindly Devotee)",
       "color": "N",
       "hp_base": 17,
@@ -9796,7 +9858,38 @@ var data = {
       "base_c": 86,
       "base_proc": 30
     },
-    "316": {
+    "318": {
+      "name": "Merric (Changing Winds)",
+      "color": "G",
+      "hp_base": 19,
+      "atk_base": 8,
+      "spd_base": 11,
+      "def_base": 6,
+      "res_base": 3,
+      "hpGrowth": 50,
+      "atkGrowth": 60,
+      "spdGrowth": 70,
+      "defGrowth": 35,
+      "resGrowth": 50,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "GT",
+      "legendary": 0,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Winds of Change",
+      "a_name": "Swift Sparrow 3",
+      "b_name": "Windsweep 3",
+      "c_name": "Distant Guard 3",
+      "proc_name": "Righteous Wind",
+      "base_weap": 491,
+      "base_a": 126,
+      "base_b": 117,
+      "base_c": 32,
+      "base_proc": 44
+    },
+    "319": {
       "name": "Merric (Wind Mage)",
       "color": "G",
       "hp_base": 19,
@@ -9827,7 +9920,7 @@ var data = {
       "base_c": 117,
       "base_proc": 24
     },
-    "317": {
+    "320": {
       "name": "Mia (Lady of Blades)",
       "color": "R",
       "hp_base": 16,
@@ -9858,7 +9951,7 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "318": {
+    "321": {
       "name": "Mia (Moonlit Witch)",
       "color": "N",
       "hp_base": 17,
@@ -9889,7 +9982,7 @@ var data = {
       "base_c": 68,
       "base_proc": 25
     },
-    "319": {
+    "322": {
       "name": "Micaiah (Priestess of Dawn)",
       "color": "B",
       "hp_base": 16,
@@ -9920,7 +10013,7 @@ var data = {
       "base_c": 35,
       "base_proc": 0
     },
-    "320": {
+    "323": {
       "name": "Micaiah (Queen of Dawn)",
       "color": "G",
       "hp_base": 17,
@@ -9951,7 +10044,7 @@ var data = {
       "base_c": 60,
       "base_proc": 0
     },
-    "321": {
+    "324": {
       "name": "Micaiah (Summer's Dawn)",
       "color": "R",
       "hp_base": 14,
@@ -9982,7 +10075,7 @@ var data = {
       "base_c": 95,
       "base_proc": 0
     },
-    "322": {
+    "325": {
       "name": "Michalis (Ambitious King)",
       "color": "G",
       "hp_base": 19,
@@ -10013,7 +10106,7 @@ var data = {
       "base_c": 129,
       "base_proc": 7
     },
-    "323": {
+    "326": {
       "name": "Midori (Reliable Chemist)",
       "color": "R",
       "hp_base": 17,
@@ -10044,7 +10137,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "324": {
+    "327": {
       "name": "Mikoto (Caring Mother)",
       "color": "N",
       "hp_base": 16,
@@ -10075,7 +10168,38 @@ var data = {
       "base_c": 77,
       "base_proc": 35
     },
-    "325": {
+    "328": {
+      "name": "Minerva (Princess-Knight)",
+      "color": "G",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 9,
+      "def_base": 11,
+      "res_base": 4,
+      "hpGrowth": 50,
+      "atkGrowth": 65,
+      "spdGrowth": 65,
+      "defGrowth": 55,
+      "resGrowth": 35,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "A",
+      "legendary": 0,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Dragoon Axe",
+      "a_name": "Dragoon Shield",
+      "b_name": "Flier Formation 3",
+      "c_name": "(None)",
+      "proc_name": "Draconic Aura",
+      "base_weap": 127,
+      "base_a": 67,
+      "base_b": 48,
+      "base_c": 0,
+      "base_proc": 11
+    },
+    "329": {
       "name": "Minerva (Red Dragoon)",
       "color": "G",
       "hp_base": 18,
@@ -10106,7 +10230,7 @@ var data = {
       "base_c": 139,
       "base_proc": 46
     },
-    "326": {
+    "330": {
       "name": "Mist (Helpful Sister)",
       "color": "N",
       "hp_base": 17,
@@ -10137,7 +10261,7 @@ var data = {
       "base_c": 116,
       "base_proc": 35
     },
-    "327": {
+    "331": {
       "name": "Mist (Purest Spirit)",
       "color": "G",
       "hp_base": 17,
@@ -10168,7 +10292,7 @@ var data = {
       "base_c": 53,
       "base_proc": 0
     },
-    "328": {
+    "332": {
       "name": "Mordecai (Kindhearted Tiger)",
       "color": "B",
       "hp_base": 19,
@@ -10199,7 +10323,7 @@ var data = {
       "base_c": 17,
       "base_proc": 0
     },
-    "329": {
+    "333": {
       "name": "Morgan (Lad from Afar)",
       "color": "R",
       "hp_base": 18,
@@ -10230,7 +10354,7 @@ var data = {
       "base_c": 116,
       "base_proc": 12
     },
-    "330": {
+    "334": {
       "name": "Morgan (Lass from Afar)",
       "color": "B",
       "hp_base": 18,
@@ -10261,7 +10385,7 @@ var data = {
       "base_c": 4,
       "base_proc": 28
     },
-    "331": {
+    "335": {
       "name": "Myrrh (Great Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -10292,7 +10416,7 @@ var data = {
       "base_c": 67,
       "base_proc": 10
     },
-    "332": {
+    "336": {
       "name": "Myrrh (Spooky Monster)",
       "color": "R",
       "hp_base": 20,
@@ -10323,7 +10447,7 @@ var data = {
       "base_c": 2,
       "base_proc": 10
     },
-    "333": {
+    "337": {
       "name": "Naesala (Sky's Shadow)",
       "color": "B",
       "hp_base": 17,
@@ -10354,7 +10478,7 @@ var data = {
       "base_c": 0,
       "base_proc": 8
     },
-    "334": {
+    "338": {
       "name": "Naga (Dragon Divinity)",
       "color": "B",
       "hp_base": 18,
@@ -10385,7 +10509,7 @@ var data = {
       "base_c": 33,
       "base_proc": 33
     },
-    "335": {
+    "339": {
       "name": "Nagi (Dragon Avatar)",
       "color": "G",
       "hp_base": 24,
@@ -10416,7 +10540,7 @@ var data = {
       "base_c": 34,
       "base_proc": 48
     },
-    "336": {
+    "340": {
       "name": "Nah (Little Miss)",
       "color": "R",
       "hp_base": 18,
@@ -10447,7 +10571,7 @@ var data = {
       "base_c": 74,
       "base_proc": 10
     },
-    "337": {
+    "341": {
       "name": "Nailah (Unflinching Eye)",
       "color": "B",
       "hp_base": 18,
@@ -10478,7 +10602,7 @@ var data = {
       "base_c": 54,
       "base_proc": 36
     },
-    "338": {
+    "342": {
       "name": "Nanna (Nordion Princess)",
       "color": "N",
       "hp_base": 17,
@@ -10509,7 +10633,7 @@ var data = {
       "base_c": 36,
       "base_proc": 25
     },
-    "339": {
+    "343": {
       "name": "Narcian (Vernal General)",
       "color": "B",
       "hp_base": 19,
@@ -10540,7 +10664,7 @@ var data = {
       "base_c": 82,
       "base_proc": 53
     },
-    "340": {
+    "344": {
       "name": "Narcian (Wyvern General)",
       "color": "G",
       "hp_base": 18,
@@ -10571,7 +10695,7 @@ var data = {
       "base_c": 102,
       "base_proc": 53
     },
-    "341": {
+    "345": {
       "name": "Navarre (Scarlet Sword)",
       "color": "R",
       "hp_base": 18,
@@ -10602,7 +10726,7 @@ var data = {
       "base_c": 131,
       "base_proc": 8
     },
-    "342": {
+    "346": {
       "name": "Nephenee (Fierce Halberdier)",
       "color": "B",
       "hp_base": 18,
@@ -10633,7 +10757,7 @@ var data = {
       "base_c": 0,
       "base_proc": 36
     },
-    "343": {
+    "347": {
       "name": "Nephenee (Sincere Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -10664,7 +10788,7 @@ var data = {
       "base_c": 108,
       "base_proc": 0
     },
-    "344": {
+    "348": {
       "name": "Niles (Cruel to be Kind)",
       "color": "N",
       "hp_base": 18,
@@ -10695,7 +10819,7 @@ var data = {
       "base_c": 117,
       "base_proc": 28
     },
-    "345": {
+    "349": {
       "name": "Niles (Forbidden Tease)",
       "color": "B",
       "hp_base": 18,
@@ -10726,7 +10850,7 @@ var data = {
       "base_c": 44,
       "base_proc": 0
     },
-    "346": {
+    "350": {
       "name": "Nils (Bright Bard)",
       "color": "B",
       "hp_base": 17,
@@ -10757,7 +10881,7 @@ var data = {
       "base_c": 76,
       "base_proc": 0
     },
-    "347": {
+    "351": {
       "name": "Nina (Eye Spy)",
       "color": "N",
       "hp_base": 16,
@@ -10788,7 +10912,7 @@ var data = {
       "base_c": 20,
       "base_proc": 36
     },
-    "348": {
+    "352": {
       "name": "Ninian (Bright-Eyed Bride)",
       "color": "B",
       "hp_base": 15,
@@ -10819,7 +10943,7 @@ var data = {
       "base_c": 38,
       "base_proc": 0
     },
-    "349": {
+    "353": {
       "name": "Ninian (Oracle of Destiny)",
       "color": "B",
       "hp_base": 16,
@@ -10850,7 +10974,7 @@ var data = {
       "base_c": 48,
       "base_proc": 0
     },
-    "350": {
+    "354": {
       "name": "Nino (Flower of Frost)",
       "color": "B",
       "hp_base": 18,
@@ -10881,7 +11005,7 @@ var data = {
       "base_c": 2,
       "base_proc": 0
     },
-    "351": {
+    "355": {
       "name": "Nino (Pale Flower)",
       "color": "G",
       "hp_base": 17,
@@ -10912,7 +11036,7 @@ var data = {
       "base_c": 107,
       "base_proc": 36
     },
-    "352": {
+    "356": {
       "name": "Nino (Pious Mage)",
       "color": "G",
       "hp_base": 16,
@@ -10943,7 +11067,7 @@ var data = {
       "base_c": 63,
       "base_proc": 0
     },
-    "353": {
+    "357": {
       "name": "Noire (Shade Seeker)",
       "color": "N",
       "hp_base": 17,
@@ -10974,7 +11098,7 @@ var data = {
       "base_c": 77,
       "base_proc": 0
     },
-    "354": {
+    "358": {
       "name": "Norne (The Volunteer)",
       "color": "N",
       "hp_base": 18,
@@ -11005,7 +11129,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "355": {
+    "359": {
       "name": "Nowi (Eternal Witch)",
       "color": "R",
       "hp_base": 17,
@@ -11036,7 +11160,7 @@ var data = {
       "base_c": 68,
       "base_proc": 0
     },
-    "356": {
+    "360": {
       "name": "Nowi (Eternal Youth)",
       "color": "B",
       "hp_base": 17,
@@ -11067,7 +11191,7 @@ var data = {
       "base_c": 130,
       "base_proc": 0
     },
-    "357": {
+    "361": {
       "name": "Oboro (Fierce Fighter)",
       "color": "B",
       "hp_base": 18,
@@ -11098,7 +11222,7 @@ var data = {
       "base_c": 130,
       "base_proc": 0
     },
-    "358": {
+    "362": {
       "name": "Odin (Potent Force)",
       "color": "B",
       "hp_base": 19,
@@ -11129,7 +11253,7 @@ var data = {
       "base_c": 0,
       "base_proc": 36
     },
-    "359": {
+    "363": {
       "name": "Ogma (Loyal Blade)",
       "color": "R",
       "hp_base": 21,
@@ -11160,7 +11284,7 @@ var data = {
       "base_c": 111,
       "base_proc": 38
     },
-    "360": {
+    "364": {
       "name": "Oliver (Admirer of Beauty)",
       "color": "B",
       "hp_base": 18,
@@ -11191,7 +11315,7 @@ var data = {
       "base_c": 4,
       "base_proc": 6
     },
-    "361": {
+    "365": {
       "name": "Olivia (Blushing Beauty)",
       "color": "R",
       "hp_base": 17,
@@ -11222,7 +11346,7 @@ var data = {
       "base_c": 63,
       "base_proc": 0
     },
-    "362": {
+    "366": {
       "name": "Olivia (Festival Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -11253,7 +11377,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "363": {
+    "367": {
       "name": "Olivia (Sky-High Dancer)",
       "color": "R",
       "hp_base": 17,
@@ -11284,7 +11408,7 @@ var data = {
       "base_c": 61,
       "base_proc": 0
     },
-    "364": {
+    "368": {
       "name": "Olwen (Blue Mage Knight)",
       "color": "B",
       "hp_base": 17,
@@ -11315,7 +11439,7 @@ var data = {
       "base_c": 137,
       "base_proc": 0
     },
-    "365": {
+    "369": {
       "name": "Olwen (Righteous Knight)",
       "color": "G",
       "hp_base": 17,
@@ -11346,7 +11470,7 @@ var data = {
       "base_c": 52,
       "base_proc": 8
     },
-    "366": {
+    "370": {
       "name": "Ophelia (Dramatic Heroine)",
       "color": "B",
       "hp_base": 16,
@@ -11377,7 +11501,7 @@ var data = {
       "base_c": 0,
       "base_proc": 6
     },
-    "367": {
+    "371": {
       "name": "Oscar (Agile Horseman)",
       "color": "B",
       "hp_base": 18,
@@ -11408,7 +11532,7 @@ var data = {
       "base_c": 119,
       "base_proc": 0
     },
-    "368": {
+    "372": {
       "name": "Osian (Scolded Soldier)",
       "color": "G",
       "hp_base": 18,
@@ -11439,7 +11563,7 @@ var data = {
       "base_c": 39,
       "base_proc": 38
     },
-    "369": {
+    "373": {
       "name": "Owain (Chosen One)",
       "color": "R",
       "hp_base": 17,
@@ -11470,7 +11594,7 @@ var data = {
       "base_c": 119,
       "base_proc": 9
     },
-    "370": {
+    "374": {
       "name": "Palla (Eldest Bun-Bun)",
       "color": "R",
       "hp_base": 19,
@@ -11501,7 +11625,7 @@ var data = {
       "base_c": 68,
       "base_proc": 11
     },
-    "371": {
+    "375": {
       "name": "Palla (Eldest Whitewing)",
       "color": "R",
       "hp_base": 18,
@@ -11532,7 +11656,38 @@ var data = {
       "base_c": 59,
       "base_proc": 36
     },
-    "372": {
+    "376": {
+      "name": "Palla (Sisterly Trio)",
+      "color": "B",
+      "hp_base": 18,
+      "atk_base": 9,
+      "spd_base": 9,
+      "def_base": 7,
+      "res_base": 7,
+      "hpGrowth": 50,
+      "atkGrowth": 70,
+      "spdGrowth": 50,
+      "defGrowth": 60,
+      "resGrowth": 40,
+      "n_lock": 0,
+      "type": "F",
+      "weap": "L",
+      "legendary": 0,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Whitedown Spear",
+      "a_name": "Mirror Impact",
+      "b_name": "Chill Atk/Spd 2",
+      "c_name": "Goad Fliers",
+      "proc_name": "(None)",
+      "base_weap": 486,
+      "base_a": 94,
+      "base_b": 22,
+      "base_c": 59,
+      "base_proc": 0
+    },
+    "377": {
       "name": "Panne (Proud Taguel)",
       "color": "B",
       "hp_base": 17,
@@ -11563,7 +11718,7 @@ var data = {
       "base_c": 28,
       "base_proc": 3
     },
-    "373": {
+    "378": {
       "name": "Pent (Fancy Fianc\xE9)",
       "color": "B",
       "hp_base": 18,
@@ -11594,7 +11749,7 @@ var data = {
       "base_c": 91,
       "base_proc": 0
     },
-    "374": {
+    "379": {
       "name": "Peony (Sweet Dream)",
       "color": "B",
       "hp_base": 16,
@@ -11625,7 +11780,7 @@ var data = {
       "base_c": 51,
       "base_proc": 0
     },
-    "375": {
+    "380": {
       "name": "Perceval (Knightly Ideal)",
       "color": "B",
       "hp_base": 16,
@@ -11656,7 +11811,7 @@ var data = {
       "base_c": 99,
       "base_proc": 33
     },
-    "376": {
+    "381": {
       "name": "Peri (Playful Slayer)",
       "color": "B",
       "hp_base": 16,
@@ -11687,7 +11842,7 @@ var data = {
       "base_c": 129,
       "base_proc": 20
     },
-    "377": {
+    "382": {
       "name": "Petra (Princess of Brigid)",
       "color": "B",
       "hp_base": 18,
@@ -11718,7 +11873,7 @@ var data = {
       "base_c": 60,
       "base_proc": 33
     },
-    "378": {
+    "383": {
       "name": "Phina (Roving Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -11749,7 +11904,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "379": {
+    "384": {
       "name": "Priscilla (Delicate Princess)",
       "color": "N",
       "hp_base": 17,
@@ -11780,7 +11935,7 @@ var data = {
       "base_c": 115,
       "base_proc": 50
     },
-    "380": {
+    "385": {
       "name": "Python (Apathetic Archer)",
       "color": "G",
       "hp_base": 19,
@@ -11811,7 +11966,7 @@ var data = {
       "base_c": 0,
       "base_proc": 36
     },
-    "381": {
+    "386": {
       "name": "Quan (Luminous Lancer)",
       "color": "B",
       "hp_base": 20,
@@ -11842,7 +11997,7 @@ var data = {
       "base_c": 35,
       "base_proc": 0
     },
-    "382": {
+    "387": {
       "name": "Raigh (Dark Child)",
       "color": "R",
       "hp_base": 17,
@@ -11873,7 +12028,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "383": {
+    "388": {
       "name": "Ranulf (Friend of Nations)",
       "color": "G",
       "hp_base": 16,
@@ -11904,7 +12059,7 @@ var data = {
       "base_c": 136,
       "base_proc": 0
     },
-    "384": {
+    "389": {
       "name": "Rath (Wolf of Sacae)",
       "color": "G",
       "hp_base": 17,
@@ -11935,7 +12090,7 @@ var data = {
       "base_c": 28,
       "base_proc": 20
     },
-    "385": {
+    "390": {
       "name": "Raven (Peerless Fighter)",
       "color": "G",
       "hp_base": 19,
@@ -11966,7 +12121,7 @@ var data = {
       "base_c": 129,
       "base_proc": 48
     },
-    "386": {
+    "391": {
       "name": "Rebecca (Wildflower)",
       "color": "N",
       "hp_base": 18,
@@ -11997,7 +12152,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "387": {
+    "392": {
       "name": "Reinhardt (Lightning's Rondo)",
       "color": "G",
       "hp_base": 16,
@@ -12028,7 +12183,7 @@ var data = {
       "base_c": 79,
       "base_proc": 0
     },
-    "388": {
+    "393": {
       "name": "Reinhardt (Thunder's Fist)",
       "color": "B",
       "hp_base": 16,
@@ -12059,7 +12214,7 @@ var data = {
       "base_c": 57,
       "base_proc": 7
     },
-    "389": {
+    "394": {
       "name": "Reinhardt (Thunder's Sword)",
       "color": "R",
       "hp_base": 18,
@@ -12090,7 +12245,7 @@ var data = {
       "base_c": 112,
       "base_proc": 40
     },
-    "390": {
+    "395": {
       "name": "Reyson (White Prince)",
       "color": "G",
       "hp_base": 15,
@@ -12121,7 +12276,7 @@ var data = {
       "base_c": 45,
       "base_proc": 0
     },
-    "391": {
+    "396": {
       "name": "Rhajat (Black Magician)",
       "color": "G",
       "hp_base": 17,
@@ -12152,7 +12307,7 @@ var data = {
       "base_c": 102,
       "base_proc": 0
     },
-    "392": {
+    "397": {
       "name": "Rinea (Reminiscent Belle)",
       "color": "B",
       "hp_base": 16,
@@ -12183,7 +12338,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "393": {
+    "398": {
       "name": "Rinkah (Scion of Flame)",
       "color": "G",
       "hp_base": 18,
@@ -12214,7 +12369,7 @@ var data = {
       "base_c": 40,
       "base_proc": 10
     },
-    "394": {
+    "399": {
       "name": "Robin (Fell Reincarnation)",
       "color": "G",
       "hp_base": 24,
@@ -12245,7 +12400,7 @@ var data = {
       "base_c": 138,
       "base_proc": 29
     },
-    "395": {
+    "400": {
       "name": "Robin (Fell Vessel)",
       "color": "N",
       "hp_base": 16,
@@ -12276,7 +12431,7 @@ var data = {
       "base_c": 96,
       "base_proc": 10
     },
-    "396": {
+    "401": {
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -12307,7 +12462,7 @@ var data = {
       "base_c": 2,
       "base_proc": 0
     },
-    "397": {
+    "402": {
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -12338,7 +12493,7 @@ var data = {
       "base_c": 115,
       "base_proc": 10
     },
-    "398": {
+    "403": {
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -12369,7 +12524,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "399": {
+    "404": {
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -12400,7 +12555,7 @@ var data = {
       "base_c": 83,
       "base_proc": 0
     },
-    "400": {
+    "405": {
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -12431,7 +12586,7 @@ var data = {
       "base_c": 36,
       "base_proc": 0
     },
-    "401": {
+    "406": {
       "name": "Rolf (Tricky Archer)",
       "color": "N",
       "hp_base": 18,
@@ -12462,7 +12617,7 @@ var data = {
       "base_c": 87,
       "base_proc": 0
     },
-    "402": {
+    "407": {
       "name": "Ross (His Father's Son)",
       "color": "G",
       "hp_base": 17,
@@ -12493,7 +12648,7 @@ var data = {
       "base_c": 129,
       "base_proc": 0
     },
-    "403": {
+    "408": {
       "name": "Roy (Blazing Lion)",
       "color": "R",
       "hp_base": 17,
@@ -12524,7 +12679,7 @@ var data = {
       "base_c": 71,
       "base_proc": 12
     },
-    "404": {
+    "409": {
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -12555,7 +12710,7 @@ var data = {
       "base_c": 0,
       "base_proc": 18
     },
-    "405": {
+    "410": {
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -12586,7 +12741,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "406": {
+    "411": {
       "name": "Roy (Youthful Gifts)",
       "color": "N",
       "hp_base": 17,
@@ -12617,7 +12772,7 @@ var data = {
       "base_c": 20,
       "base_proc": 0
     },
-    "407": {
+    "412": {
       "name": "Rudolf (Emperor of Rigel)",
       "color": "B",
       "hp_base": 24,
@@ -12648,7 +12803,7 @@ var data = {
       "base_c": 125,
       "base_proc": 10
     },
-    "408": {
+    "413": {
       "name": "Rutger (Lone Swordsman)",
       "color": "R",
       "hp_base": 20,
@@ -12679,7 +12834,7 @@ var data = {
       "base_c": 0,
       "base_proc": 53
     },
-    "409": {
+    "414": {
       "name": "Ryoma (Dancing Samurai)",
       "color": "B",
       "hp_base": 14,
@@ -12710,7 +12865,7 @@ var data = {
       "base_c": 120,
       "base_proc": 0
     },
-    "410": {
+    "415": {
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -12741,7 +12896,7 @@ var data = {
       "base_c": 69,
       "base_proc": 3
     },
-    "411": {
+    "416": {
       "name": "Ryoma (Samurai at Ease)",
       "color": "B",
       "hp_base": 18,
@@ -12772,7 +12927,7 @@ var data = {
       "base_c": 85,
       "base_proc": 33
     },
-    "412": {
+    "417": {
       "name": "Ryoma (Supreme Samurai)",
       "color": "R",
       "hp_base": 17,
@@ -12803,7 +12958,7 @@ var data = {
       "base_c": 61,
       "base_proc": 20
     },
-    "413": {
+    "418": {
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -12834,7 +12989,7 @@ var data = {
       "base_c": 0,
       "base_proc": 1
     },
-    "414": {
+    "419": {
       "name": "Saias (Bishop of Flame)",
       "color": "B",
       "hp_base": 17,
@@ -12865,7 +13020,7 @@ var data = {
       "base_c": 106,
       "base_proc": 19
     },
-    "415": {
+    "420": {
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -12896,7 +13051,7 @@ var data = {
       "base_c": 118,
       "base_proc": 0
     },
-    "416": {
+    "421": {
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -12927,7 +13082,7 @@ var data = {
       "base_c": 25,
       "base_proc": 19
     },
-    "417": {
+    "422": {
       "name": "Sakura (Hot-Spring Healer)",
       "color": "N",
       "hp_base": 17,
@@ -12958,7 +13113,7 @@ var data = {
       "base_c": 105,
       "base_proc": 17
     },
-    "418": {
+    "423": {
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -12989,7 +13144,7 @@ var data = {
       "base_c": 47,
       "base_proc": 50
     },
-    "419": {
+    "424": {
       "name": "Sanaki (Apostle in White)",
       "color": "G",
       "hp_base": 16,
@@ -13020,7 +13175,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "420": {
+    "425": {
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -13051,7 +13206,7 @@ var data = {
       "base_c": 63,
       "base_proc": 0
     },
-    "421": {
+    "426": {
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -13082,7 +13237,7 @@ var data = {
       "base_c": 131,
       "base_proc": 0
     },
-    "422": {
+    "427": {
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -13113,7 +13268,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "423": {
+    "428": {
       "name": "Selkie (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -13144,7 +13299,7 @@ var data = {
       "base_c": 41,
       "base_proc": 28
     },
-    "424": {
+    "429": {
       "name": "Selkie (New Year's Spirit)",
       "color": "N",
       "hp_base": 16,
@@ -13175,7 +13330,7 @@ var data = {
       "base_c": 86,
       "base_proc": 28
     },
-    "425": {
+    "430": {
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -13206,7 +13361,7 @@ var data = {
       "base_c": 63,
       "base_proc": 51
     },
-    "426": {
+    "431": {
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -13237,7 +13392,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "427": {
+    "432": {
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -13268,7 +13423,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "428": {
+    "433": {
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -13299,7 +13454,7 @@ var data = {
       "base_c": 131,
       "base_proc": 28
     },
-    "429": {
+    "434": {
       "name": "Shannan (Wielder of Astra)",
       "color": "R",
       "hp_base": 19,
@@ -13330,7 +13485,7 @@ var data = {
       "base_c": 42,
       "base_proc": 31
     },
-    "430": {
+    "435": {
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -13361,7 +13516,7 @@ var data = {
       "base_c": 47,
       "base_proc": 0
     },
-    "431": {
+    "436": {
       "name": "Sharena (Spring Princess)",
       "color": "G",
       "hp_base": 18,
@@ -13392,7 +13547,7 @@ var data = {
       "base_c": 97,
       "base_proc": 0
     },
-    "432": {
+    "437": {
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -13423,7 +13578,7 @@ var data = {
       "base_c": 44,
       "base_proc": 15
     },
-    "433": {
+    "438": {
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -13454,7 +13609,7 @@ var data = {
       "base_c": 16,
       "base_proc": 0
     },
-    "434": {
+    "439": {
       "name": "Shigure (Uplifting Artist)",
       "color": "B",
       "hp_base": 18,
@@ -13485,7 +13640,7 @@ var data = {
       "base_c": 139,
       "base_proc": 38
     },
-    "435": {
+    "440": {
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -13516,7 +13671,7 @@ var data = {
       "base_c": 29,
       "base_proc": 0
     },
-    "436": {
+    "441": {
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -13547,7 +13702,7 @@ var data = {
       "base_c": 6,
       "base_proc": 12
     },
-    "437": {
+    "442": {
       "name": "Sigrun (Loyal Protector)",
       "color": "B",
       "hp_base": 18,
@@ -13578,7 +13733,7 @@ var data = {
       "base_c": 68,
       "base_proc": 0
     },
-    "438": {
+    "443": {
       "name": "Sigrun (Steadfast Bride)",
       "color": "R",
       "hp_base": 16,
@@ -13609,7 +13764,7 @@ var data = {
       "base_c": 1,
       "base_proc": 0
     },
-    "439": {
+    "444": {
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -13640,7 +13795,7 @@ var data = {
       "base_c": 107,
       "base_proc": 35
     },
-    "440": {
+    "445": {
       "name": "Silas (Loyal Knight)",
       "color": "B",
       "hp_base": 18,
@@ -13671,7 +13826,7 @@ var data = {
       "base_c": 40,
       "base_proc": 0
     },
-    "441": {
+    "446": {
       "name": "Silque (Adherent of Mila)",
       "color": "N",
       "hp_base": 17,
@@ -13702,7 +13857,7 @@ var data = {
       "base_c": 121,
       "base_proc": 13
     },
-    "442": {
+    "447": {
       "name": "Silque (Selfless Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -13733,7 +13888,7 @@ var data = {
       "base_c": 105,
       "base_proc": 25
     },
-    "443": {
+    "448": {
       "name": "Silvia (Traveling Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -13764,7 +13919,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "444": {
+    "449": {
       "name": "Sirius (Mysterious Knight)",
       "color": "B",
       "hp_base": 18,
@@ -13795,7 +13950,7 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "445": {
+    "450": {
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -13826,7 +13981,7 @@ var data = {
       "base_c": 37,
       "base_proc": 8
     },
-    "446": {
+    "451": {
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -13857,7 +14012,7 @@ var data = {
       "base_c": 95,
       "base_proc": 36
     },
-    "447": {
+    "452": {
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -13888,7 +14043,7 @@ var data = {
       "base_c": 50,
       "base_proc": 12
     },
-    "448": {
+    "453": {
       "name": "Soren (Addled Strategist)",
       "color": "B",
       "hp_base": 18,
@@ -13919,7 +14074,7 @@ var data = {
       "base_c": 94,
       "base_proc": 0
     },
-    "449": {
+    "454": {
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -13950,7 +14105,7 @@ var data = {
       "base_c": 50,
       "base_proc": 24
     },
-    "450": {
+    "455": {
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -13981,7 +14136,7 @@ var data = {
       "base_c": 114,
       "base_proc": 20
     },
-    "451": {
+    "456": {
       "name": "Sothis (Girl on the Throne)",
       "color": "R",
       "hp_base": 17,
@@ -14012,7 +14167,7 @@ var data = {
       "base_c": 132,
       "base_proc": 47
     },
-    "452": {
+    "457": {
       "name": "Sothis (Silver Specter)",
       "color": "G",
       "hp_base": 18,
@@ -14043,7 +14198,7 @@ var data = {
       "base_c": 126,
       "base_proc": 47
     },
-    "453": {
+    "458": {
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -14074,7 +14229,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "454": {
+    "459": {
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -14105,7 +14260,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "455": {
+    "460": {
       "name": "Sue (Doe of the Plains)",
       "color": "G",
       "hp_base": 17,
@@ -14136,7 +14291,7 @@ var data = {
       "base_c": 70,
       "base_proc": 36
     },
-    "456": {
+    "461": {
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -14167,7 +14322,7 @@ var data = {
       "base_c": 115,
       "base_proc": 0
     },
-    "457": {
+    "462": {
       "name": "Sumia (Maid of Flowers)",
       "color": "B",
       "hp_base": 17,
@@ -14198,7 +14353,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "458": {
+    "463": {
       "name": "Surtr (Ruler of Flame)",
       "color": "G",
       "hp_base": 17,
@@ -14229,7 +14384,7 @@ var data = {
       "base_c": 123,
       "base_proc": 10
     },
-    "459": {
+    "464": {
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -14260,7 +14415,7 @@ var data = {
       "base_c": 38,
       "base_proc": 0
     },
-    "460": {
+    "465": {
       "name": "Takumi (Empty Vessel)",
       "color": "N",
       "hp_base": 15,
@@ -14291,7 +14446,7 @@ var data = {
       "base_c": 107,
       "base_proc": 53
     },
-    "461": {
+    "466": {
       "name": "Takumi (Prince at Play)",
       "color": "N",
       "hp_base": 18,
@@ -14322,7 +14477,7 @@ var data = {
       "base_c": 86,
       "base_proc": 20
     },
-    "462": {
+    "467": {
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -14353,7 +14508,7 @@ var data = {
       "base_c": 0,
       "base_proc": 36
     },
-    "463": {
+    "468": {
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -14384,7 +14539,7 @@ var data = {
       "base_c": 131,
       "base_proc": 53
     },
-    "464": {
+    "469": {
       "name": "Tana (Noble and Nimble)",
       "color": "R",
       "hp_base": 16,
@@ -14415,7 +14570,7 @@ var data = {
       "base_c": 112,
       "base_proc": 0
     },
-    "465": {
+    "470": {
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -14446,7 +14601,7 @@ var data = {
       "base_c": 61,
       "base_proc": 36
     },
-    "466": {
+    "471": {
       "name": "Tanith (Forthright Heart)",
       "color": "B",
       "hp_base": 18,
@@ -14477,7 +14632,7 @@ var data = {
       "base_c": 49,
       "base_proc": 0
     },
-    "467": {
+    "472": {
       "name": "Tanya (Dagdar's Kid)",
       "color": "N",
       "hp_base": 17,
@@ -14508,7 +14663,7 @@ var data = {
       "base_c": 120,
       "base_proc": 0
     },
-    "468": {
+    "473": {
       "name": "Tethys (Beloved Dancer)",
       "color": "N",
       "hp_base": 16,
@@ -14539,7 +14694,7 @@ var data = {
       "base_c": 24,
       "base_proc": 0
     },
-    "469": {
+    "474": {
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -14570,7 +14725,7 @@ var data = {
       "base_c": 93,
       "base_proc": 28
     },
-    "470": {
+    "475": {
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -14601,7 +14756,7 @@ var data = {
       "base_c": 117,
       "base_proc": 53
     },
-    "471": {
+    "476": {
       "name": "Tharja (Obsessive Bride)",
       "color": "R",
       "hp_base": 17,
@@ -14632,7 +14787,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "472": {
+    "477": {
       "name": "Thea (Stormy Flier)",
       "color": "B",
       "hp_base": 18,
@@ -14663,7 +14818,7 @@ var data = {
       "base_c": 0,
       "base_proc": 29
     },
-    "473": {
+    "478": {
       "name": "Thrasir (Omnicidal Witch)",
       "color": "G",
       "hp_base": 18,
@@ -14694,7 +14849,7 @@ var data = {
       "base_c": 90,
       "base_proc": 36
     },
-    "474": {
+    "479": {
       "name": "Tibarn (Lord of the Air)",
       "color": "R",
       "hp_base": 19,
@@ -14725,7 +14880,7 @@ var data = {
       "base_c": 39,
       "base_proc": 11
     },
-    "475": {
+    "480": {
       "name": "Tiki (Beachside Scion)",
       "color": "R",
       "hp_base": 16,
@@ -14756,7 +14911,7 @@ var data = {
       "base_c": 34,
       "base_proc": 36
     },
-    "476": {
+    "481": {
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -14787,7 +14942,7 @@ var data = {
       "base_c": 21,
       "base_proc": 21
     },
-    "477": {
+    "482": {
       "name": "Tiki (Legendary Dragon)",
       "color": "B",
       "hp_base": 17,
@@ -14818,7 +14973,7 @@ var data = {
       "base_c": 140,
       "base_proc": 36
     },
-    "478": {
+    "483": {
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -14849,7 +15004,7 @@ var data = {
       "base_c": 117,
       "base_proc": 10
     },
-    "479": {
+    "484": {
       "name": "Tiki (Summering Scion)",
       "color": "G",
       "hp_base": 18,
@@ -14880,7 +15035,7 @@ var data = {
       "base_c": 14,
       "base_proc": 48
     },
-    "480": {
+    "485": {
       "name": "Tiki (Torpid Dragon)",
       "color": "N",
       "hp_base": 17,
@@ -14911,7 +15066,7 @@ var data = {
       "base_c": 103,
       "base_proc": 29
     },
-    "481": {
+    "486": {
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -14942,7 +15097,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "482": {
+    "487": {
       "name": "Titania (Warm Knight)",
       "color": "R",
       "hp_base": 16,
@@ -14973,7 +15128,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "483": {
+    "488": {
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -15004,7 +15159,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "484": {
+    "489": {
       "name": "Travant (King of Thracia)",
       "color": "B",
       "hp_base": 20,
@@ -15035,7 +15190,7 @@ var data = {
       "base_c": 43,
       "base_proc": 29
     },
-    "485": {
+    "490": {
       "name": "Tsubasa (Madcap Idol)",
       "color": "B",
       "hp_base": 17,
@@ -15066,7 +15221,7 @@ var data = {
       "base_c": 68,
       "base_proc": 36
     },
-    "486": {
+    "491": {
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -15097,7 +15252,7 @@ var data = {
       "base_c": 130,
       "base_proc": 23
     },
-    "487": {
+    "492": {
       "name": "Ursula (Clear-Blue Crow)",
       "color": "N",
       "hp_base": 17,
@@ -15128,7 +15283,7 @@ var data = {
       "base_c": 41,
       "base_proc": 0
     },
-    "488": {
+    "493": {
       "name": "Valbar (Open and Honest)",
       "color": "B",
       "hp_base": 21,
@@ -15159,7 +15314,7 @@ var data = {
       "base_c": 0,
       "base_proc": 53
     },
-    "489": {
+    "494": {
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -15190,7 +15345,7 @@ var data = {
       "base_c": 89,
       "base_proc": 33
     },
-    "490": {
+    "495": {
       "name": "Velouria (Wolf Cub)",
       "color": "N",
       "hp_base": 18,
@@ -15221,7 +15376,7 @@ var data = {
       "base_c": 136,
       "base_proc": 33
     },
-    "491": {
+    "496": {
       "name": "Veronica (Brave Princess)",
       "color": "N",
       "hp_base": 17,
@@ -15252,7 +15407,7 @@ var data = {
       "base_c": 23,
       "base_proc": 54
     },
-    "492": {
+    "497": {
       "name": "Veronica (Spring Princess)",
       "color": "G",
       "hp_base": 16,
@@ -15283,7 +15438,7 @@ var data = {
       "base_c": 0,
       "base_proc": 20
     },
-    "493": {
+    "498": {
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -15314,7 +15469,7 @@ var data = {
       "base_c": 0,
       "base_proc": 3
     },
-    "494": {
+    "499": {
       "name": "Walhart (The Conqueror)",
       "color": "G",
       "hp_base": 19,
@@ -15345,7 +15500,7 @@ var data = {
       "base_c": 0,
       "base_proc": 33
     },
-    "495": {
+    "500": {
       "name": "Wolt (Sunbeam Archer)",
       "color": "G",
       "hp_base": 18,
@@ -15376,7 +15531,7 @@ var data = {
       "base_c": 0,
       "base_proc": 0
     },
-    "496": {
+    "501": {
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -15407,7 +15562,7 @@ var data = {
       "base_c": 0,
       "base_proc": 25
     },
-    "497": {
+    "502": {
       "name": "Xander (Dancing Knight)",
       "color": "N",
       "hp_base": 16,
@@ -15438,7 +15593,7 @@ var data = {
       "base_c": 85,
       "base_proc": 0
     },
-    "498": {
+    "503": {
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -15469,7 +15624,7 @@ var data = {
       "base_c": 115,
       "base_proc": 6
     },
-    "499": {
+    "504": {
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -15500,7 +15655,7 @@ var data = {
       "base_c": 47,
       "base_proc": 0
     },
-    "500": {
+    "505": {
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -15531,7 +15686,7 @@ var data = {
       "base_c": 76,
       "base_proc": 10
     },
-    "501": {
+    "506": {
       "name": "Yarne (Timid Taguel)",
       "color": "G",
       "hp_base": 18,
@@ -15562,7 +15717,7 @@ var data = {
       "base_c": 87,
       "base_proc": 18
     },
-    "502": {
+    "507": {
       "name": "Ylgr (Breaking the Ice)",
       "color": "G",
       "hp_base": 16,
@@ -15593,7 +15748,7 @@ var data = {
       "base_c": 40,
       "base_proc": 33
     },
-    "503": {
+    "508": {
       "name": "Ylgr (Fresh Snowfall)",
       "color": "B",
       "hp_base": 16,
@@ -15624,7 +15779,7 @@ var data = {
       "base_c": 108,
       "base_proc": 20
     },
-    "504": {
+    "509": {
       "name": "Yune (Chaos Goddess)",
       "color": "G",
       "hp_base": 16,
@@ -15655,7 +15810,7 @@ var data = {
       "base_c": 22,
       "base_proc": 19
     },
-    "505": {
+    "510": {
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -15686,7 +15841,7 @@ var data = {
       "base_c": 89,
       "base_proc": 4
     },
-    "506": {
+    "511": {
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -15717,7 +15872,7 @@ var data = {
       "base_c": 0,
       "base_proc": 43
     },
-    "507": {
+    "512": {
       "name": "Zephiel (Winter's Crown)",
       "color": "R",
       "hp_base": 22,
@@ -16412,7 +16567,7 @@ var data = {
     },
     "33": {
       "name": "Caeda (Talys's Heart)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -16432,7 +16587,7 @@ var data = {
     },
     "34": {
       "name": "Caeda (Talys's Heart)",
-      "base_index": 46,
+      "base_index": 47,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -16452,7 +16607,7 @@ var data = {
     },
     "35": {
       "name": "Caineghis (Gallia's Lion King)",
-      "base_index": 48,
+      "base_index": 49,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -16472,7 +16627,7 @@ var data = {
     },
     "36": {
       "name": "Caineghis (Gallia's Lion King)",
-      "base_index": 48,
+      "base_index": 49,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -16492,7 +16647,7 @@ var data = {
     },
     "37": {
       "name": "Camilla (Bewitching Beauty)",
-      "base_index": 49,
+      "base_index": 50,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16512,7 +16667,7 @@ var data = {
     },
     "38": {
       "name": "Camilla (Bewitching Beauty)",
-      "base_index": 49,
+      "base_index": 50,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16532,7 +16687,7 @@ var data = {
     },
     "39": {
       "name": "Camilla (Flower of Fantasy)",
-      "base_index": 50,
+      "base_index": 51,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -16552,7 +16707,7 @@ var data = {
     },
     "40": {
       "name": "Camilla (Light of Nohr)",
-      "base_index": 52,
+      "base_index": 53,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16572,7 +16727,7 @@ var data = {
     },
     "41": {
       "name": "Catria (Middle Whitewing)",
-      "base_index": 58,
+      "base_index": 59,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16592,7 +16747,7 @@ var data = {
     },
     "42": {
       "name": "Catria (Mild Middle Sister)",
-      "base_index": 59,
+      "base_index": 60,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16612,7 +16767,7 @@ var data = {
     },
     "43": {
       "name": "Cecilia (Festive Instructor)",
-      "base_index": 62,
+      "base_index": 63,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -16632,7 +16787,7 @@ var data = {
     },
     "44": {
       "name": "Cecilia (Festive Instructor)",
-      "base_index": 62,
+      "base_index": 63,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -16652,7 +16807,7 @@ var data = {
     },
     "45": {
       "name": "Ced (Hero on the Wind)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16672,7 +16827,7 @@ var data = {
     },
     "46": {
       "name": "Ced (Hero on the Wind)",
-      "base_index": 63,
+      "base_index": 64,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16692,7 +16847,7 @@ var data = {
     },
     "47": {
       "name": "Celica (Caring Princess)",
-      "base_index": 64,
+      "base_index": 65,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16712,7 +16867,7 @@ var data = {
     },
     "48": {
       "name": "Celica (Queen of Valentia)",
-      "base_index": 66,
+      "base_index": 67,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16732,7 +16887,7 @@ var data = {
     },
     "49": {
       "name": "Celica (Queen of Valentia)",
-      "base_index": 66,
+      "base_index": 67,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -16752,7 +16907,7 @@ var data = {
     },
     "50": {
       "name": "Celica (Warrior Priestess)",
-      "base_index": 67,
+      "base_index": 68,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16772,7 +16927,7 @@ var data = {
     },
     "51": {
       "name": "Cherche (Wyvern Friend)",
-      "base_index": 70,
+      "base_index": 71,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16792,7 +16947,7 @@ var data = {
     },
     "52": {
       "name": "Chrom (Crowned Exalt)",
-      "base_index": 71,
+      "base_index": 72,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16812,7 +16967,7 @@ var data = {
     },
     "53": {
       "name": "Chrom (Crowned Exalt)",
-      "base_index": 71,
+      "base_index": 72,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16832,7 +16987,7 @@ var data = {
     },
     "54": {
       "name": "Chrom (Crowned Exalt)",
-      "base_index": 71,
+      "base_index": 72,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -16852,7 +17007,7 @@ var data = {
     },
     "55": {
       "name": "Chrom (Crowned Exalt)",
-      "base_index": 71,
+      "base_index": 72,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16872,7 +17027,7 @@ var data = {
     },
     "56": {
       "name": "Clair (Highborn Flier)",
-      "base_index": 76,
+      "base_index": 77,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -16892,7 +17047,7 @@ var data = {
     },
     "57": {
       "name": "Clair (Highborn Flier)",
-      "base_index": 76,
+      "base_index": 77,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -16912,7 +17067,7 @@ var data = {
     },
     "58": {
       "name": "Claude (The Schemer)",
-      "base_index": 79,
+      "base_index": 80,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -16932,7 +17087,7 @@ var data = {
     },
     "59": {
       "name": "Conrad (Masked Knight)",
-      "base_index": 81,
+      "base_index": 82,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -16952,7 +17107,7 @@ var data = {
     },
     "60": {
       "name": "Conrad (Masked Knight)",
-      "base_index": 81,
+      "base_index": 82,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -16972,7 +17127,7 @@ var data = {
     },
     "61": {
       "name": "Conrad (Unmasked Knight)",
-      "base_index": 82,
+      "base_index": 83,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
@@ -16992,7 +17147,7 @@ var data = {
     },
     "62": {
       "name": "Conrad (Unmasked Knight)",
-      "base_index": 82,
+      "base_index": 83,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
@@ -17012,7 +17167,7 @@ var data = {
     },
     "63": {
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 84,
+      "base_index": 85,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 1,
@@ -17032,7 +17187,7 @@ var data = {
     },
     "64": {
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 84,
+      "base_index": 85,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 1,
@@ -17052,7 +17207,7 @@ var data = {
     },
     "65": {
       "name": "Cordelia (Knight Paragon)",
-      "base_index": 84,
+      "base_index": 85,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 1,
@@ -17072,7 +17227,7 @@ var data = {
     },
     "66": {
       "name": "Corrin (Dream Prince)",
-      "base_index": 87,
+      "base_index": 88,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17092,7 +17247,7 @@ var data = {
     },
     "67": {
       "name": "Corrin (Dream Prince)",
-      "base_index": 87,
+      "base_index": 88,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17112,7 +17267,7 @@ var data = {
     },
     "68": {
       "name": "Corrin (Dream Princess)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17132,7 +17287,7 @@ var data = {
     },
     "69": {
       "name": "Corrin (Dream Princess)",
-      "base_index": 88,
+      "base_index": 89,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17152,7 +17307,7 @@ var data = {
     },
     "70": {
       "name": "Corrin (Wailing Soul)",
-      "base_index": 93,
+      "base_index": 94,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17172,7 +17327,7 @@ var data = {
     },
     "71": {
       "name": "Corrin (Wailing Soul)",
-      "base_index": 93,
+      "base_index": 94,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17192,7 +17347,7 @@ var data = {
     },
     "72": {
       "name": "Death Knight (The Reaper)",
-      "base_index": 95,
+      "base_index": 96,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -17212,7 +17367,7 @@ var data = {
     },
     "73": {
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 96,
+      "base_index": 97,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17232,7 +17387,7 @@ var data = {
     },
     "74": {
       "name": "Deirdre (Lady of the Forest)",
-      "base_index": 96,
+      "base_index": 97,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -17252,7 +17407,7 @@ var data = {
     },
     "75": {
       "name": "Delthea (Tatarrah's Puppet)",
-      "base_index": 98,
+      "base_index": 99,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -17272,7 +17427,7 @@ var data = {
     },
     "76": {
       "name": "Dimitri (The Protector)",
-      "base_index": 99,
+      "base_index": 100,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17292,7 +17447,7 @@ var data = {
     },
     "77": {
       "name": "Dozla (Harvest Attendant)",
-      "base_index": 103,
+      "base_index": 104,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17312,7 +17467,7 @@ var data = {
     },
     "78": {
       "name": "Duma (God of Strength)",
-      "base_index": 105,
+      "base_index": 106,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17332,7 +17487,7 @@ var data = {
     },
     "79": {
       "name": "Duma (God of Strength)",
-      "base_index": 105,
+      "base_index": 106,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17372,7 +17527,7 @@ var data = {
     },
     "81": {
       "name": "Edelgard (The Future)",
-      "base_index": 107,
+      "base_index": 108,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17392,7 +17547,7 @@ var data = {
     },
     "82": {
       "name": "Edelgard (The Future)",
-      "base_index": 107,
+      "base_index": 108,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17412,7 +17567,7 @@ var data = {
     },
     "83": {
       "name": "Eir (Merciful Death)",
-      "base_index": 109,
+      "base_index": 110,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17432,7 +17587,7 @@ var data = {
     },
     "84": {
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 111,
+      "base_index": 112,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17452,7 +17607,7 @@ var data = {
     },
     "85": {
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 111,
+      "base_index": 112,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17472,7 +17627,7 @@ var data = {
     },
     "86": {
       "name": "Eirika (Graceful Resolve)",
-      "base_index": 113,
+      "base_index": 114,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17492,7 +17647,7 @@ var data = {
     },
     "87": {
       "name": "Eleonora (Shooting Starlet)",
-      "base_index": 116,
+      "base_index": 117,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17512,7 +17667,7 @@ var data = {
     },
     "88": {
       "name": "Elincia (Lost Princess)",
-      "base_index": 118,
+      "base_index": 119,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17532,7 +17687,7 @@ var data = {
     },
     "89": {
       "name": "Elise (Bubbling Flower)",
-      "base_index": 119,
+      "base_index": 120,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17552,7 +17707,7 @@ var data = {
     },
     "90": {
       "name": "Eliwood (Blazing Knight)",
-      "base_index": 122,
+      "base_index": 123,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17572,7 +17727,7 @@ var data = {
     },
     "91": {
       "name": "Eliwood (Blazing Knight)",
-      "base_index": 122,
+      "base_index": 123,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17592,7 +17747,7 @@ var data = {
     },
     "92": {
       "name": "Eliwood (Knight of Lycia)",
-      "base_index": 124,
+      "base_index": 125,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 1,
@@ -17612,7 +17767,7 @@ var data = {
     },
     "93": {
       "name": "Eliwood (Marquess Pherae)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17632,7 +17787,7 @@ var data = {
     },
     "94": {
       "name": "Ephraim (Dynastic Duo)",
-      "base_index": 126,
+      "base_index": 127,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17652,7 +17807,7 @@ var data = {
     },
     "95": {
       "name": "Ephraim (Legendary Lord)",
-      "base_index": 127,
+      "base_index": 128,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17672,7 +17827,7 @@ var data = {
     },
     "96": {
       "name": "Ephraim (Sacred Twin Lord)",
-      "base_index": 129,
+      "base_index": 130,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17692,7 +17847,7 @@ var data = {
     },
     "97": {
       "name": "Ephraim (Sparkling Gallantly)",
-      "base_index": 130,
+      "base_index": 131,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17712,7 +17867,7 @@ var data = {
     },
     "98": {
       "name": "Ephraim (Sparkling Gallantly)",
-      "base_index": 130,
+      "base_index": 131,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17732,7 +17887,7 @@ var data = {
     },
     "99": {
       "name": "Est (Junior Whitewing)",
-      "base_index": 131,
+      "base_index": 132,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -17752,7 +17907,7 @@ var data = {
     },
     "100": {
       "name": "Est (Springtime Flier)",
-      "base_index": 132,
+      "base_index": 133,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17772,7 +17927,7 @@ var data = {
     },
     "101": {
       "name": "Est (Springtime Flier)",
-      "base_index": 132,
+      "base_index": 133,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17792,7 +17947,7 @@ var data = {
     },
     "102": {
       "name": "Ewan (Eager Student)",
-      "base_index": 134,
+      "base_index": 135,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17812,7 +17967,7 @@ var data = {
     },
     "103": {
       "name": "Eyvel (Mistress of Fiana)",
-      "base_index": 135,
+      "base_index": 136,
       "boon": "Def",
       "bane": "Res",
       "resplendent": 0,
@@ -17832,7 +17987,7 @@ var data = {
     },
     "104": {
       "name": "Eyvel (Mistress of Fiana)",
-      "base_index": 135,
+      "base_index": 136,
       "boon": "Def",
       "bane": "Res",
       "resplendent": 0,
@@ -17852,7 +18007,7 @@ var data = {
     },
     "105": {
       "name": "Fae (Holiday Dear)",
-      "base_index": 137,
+      "base_index": 138,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -17872,7 +18027,7 @@ var data = {
     },
     "106": {
       "name": "Faye (Devoted Heart)",
-      "base_index": 138,
+      "base_index": 139,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -17892,7 +18047,7 @@ var data = {
     },
     "107": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17912,7 +18067,7 @@ var data = {
     },
     "108": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17932,7 +18087,7 @@ var data = {
     },
     "109": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17952,7 +18107,7 @@ var data = {
     },
     "110": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17972,7 +18127,7 @@ var data = {
     },
     "111": {
       "name": "Felicia (Maid Mayhem)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -17992,7 +18147,7 @@ var data = {
     },
     "112": {
       "name": "Felicia (Maid Mayhem)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18012,7 +18167,7 @@ var data = {
     },
     "113": {
       "name": "Felicia (Off the Menu)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18032,7 +18187,7 @@ var data = {
     },
     "114": {
       "name": "Felicia (Off the Menu)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18052,7 +18207,7 @@ var data = {
     },
     "115": {
       "name": "Fiora (Airborne Warrior)",
-      "base_index": 144,
+      "base_index": 145,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18072,7 +18227,7 @@ var data = {
     },
     "116": {
       "name": "Fiora (Airborne Warrior)",
-      "base_index": 144,
+      "base_index": 145,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18092,7 +18247,7 @@ var data = {
     },
     "117": {
       "name": "Fir (Student of Spring)",
-      "base_index": 146,
+      "base_index": 147,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18112,7 +18267,7 @@ var data = {
     },
     "118": {
       "name": "Fir (Sword Student)",
-      "base_index": 147,
+      "base_index": 148,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18132,7 +18287,7 @@ var data = {
     },
     "119": {
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 150,
+      "base_index": 151,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18152,7 +18307,7 @@ var data = {
     },
     "120": {
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 150,
+      "base_index": 151,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18172,7 +18327,7 @@ var data = {
     },
     "121": {
       "name": "Flora (Cold as Ice)",
-      "base_index": 152,
+      "base_index": 153,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18192,7 +18347,7 @@ var data = {
     },
     "122": {
       "name": "Flora (Cold as Ice)",
-      "base_index": 152,
+      "base_index": 153,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18212,7 +18367,7 @@ var data = {
     },
     "123": {
       "name": "Flora (Signature Dish)",
-      "base_index": 153,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18232,7 +18387,7 @@ var data = {
     },
     "124": {
       "name": "Flora (Signature Dish)",
-      "base_index": 153,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18252,7 +18407,7 @@ var data = {
     },
     "125": {
       "name": "Forsyth (Loyal Lieutenant)",
-      "base_index": 156,
+      "base_index": 157,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18272,7 +18427,7 @@ var data = {
     },
     "126": {
       "name": "Forsyth (Loyal Lieutenant)",
-      "base_index": 156,
+      "base_index": 157,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18292,7 +18447,7 @@ var data = {
     },
     "127": {
       "name": "Garon (King of Nohr)",
-      "base_index": 161,
+      "base_index": 162,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18312,7 +18467,7 @@ var data = {
     },
     "128": {
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 172,
+      "base_index": 173,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18332,7 +18487,7 @@ var data = {
     },
     "129": {
       "name": "Hana (Focused Samurai)",
-      "base_index": 176,
+      "base_index": 177,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18352,7 +18507,7 @@ var data = {
     },
     "130": {
       "name": "Hardin (Dark Emperor)",
-      "base_index": 177,
+      "base_index": 178,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18372,7 +18527,7 @@ var data = {
     },
     "131": {
       "name": "Hawkeye (Desert Guardian)",
-      "base_index": 178,
+      "base_index": 179,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18392,7 +18547,7 @@ var data = {
     },
     "132": {
       "name": "Hector (Brave Warrior)",
-      "base_index": 180,
+      "base_index": 181,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18412,7 +18567,7 @@ var data = {
     },
     "133": {
       "name": "Hector (Brave Warrior)",
-      "base_index": 180,
+      "base_index": 181,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18432,7 +18587,7 @@ var data = {
     },
     "134": {
       "name": "Hector (Dressed-Up Duo)",
-      "base_index": 181,
+      "base_index": 182,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18452,7 +18607,7 @@ var data = {
     },
     "135": {
       "name": "Hector (General of Ostia)",
-      "base_index": 182,
+      "base_index": 183,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18472,7 +18627,7 @@ var data = {
     },
     "136": {
       "name": "Hector (Just Here to Fight)",
-      "base_index": 183,
+      "base_index": 184,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18492,7 +18647,7 @@ var data = {
     },
     "137": {
       "name": "Hector (Marquess of Ostia)",
-      "base_index": 184,
+      "base_index": 185,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18512,7 +18667,7 @@ var data = {
     },
     "138": {
       "name": "Henry (Happy Vampire)",
-      "base_index": 187,
+      "base_index": 188,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18532,7 +18687,7 @@ var data = {
     },
     "139": {
       "name": "Henry (Happy Vampire)",
-      "base_index": 187,
+      "base_index": 188,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18552,7 +18707,7 @@ var data = {
     },
     "140": {
       "name": "Hilda (Idle Maiden)",
-      "base_index": 189,
+      "base_index": 190,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18572,7 +18727,7 @@ var data = {
     },
     "141": {
       "name": "Hinoka (Blue Sky Warrior)",
-      "base_index": 191,
+      "base_index": 192,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18592,7 +18747,7 @@ var data = {
     },
     "142": {
       "name": "Hr\xEDd (Icy Blade)",
-      "base_index": 194,
+      "base_index": 195,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18612,7 +18767,7 @@ var data = {
     },
     "143": {
       "name": "Iago (Nohr's Tactician)",
-      "base_index": 197,
+      "base_index": 198,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18632,7 +18787,7 @@ var data = {
     },
     "144": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 198,
+      "base_index": 199,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18652,7 +18807,7 @@ var data = {
     },
     "145": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 198,
+      "base_index": 199,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18672,7 +18827,7 @@ var data = {
     },
     "146": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 198,
+      "base_index": 199,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18692,7 +18847,7 @@ var data = {
     },
     "147": {
       "name": "Idunn (Dragonkin Duo)",
-      "base_index": 199,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18712,7 +18867,7 @@ var data = {
     },
     "148": {
       "name": "Igrene (Nabata Protector)",
-      "base_index": 200,
+      "base_index": 201,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18732,7 +18887,7 @@ var data = {
     },
     "149": {
       "name": "Ike (Brave Mercenary)",
-      "base_index": 201,
+      "base_index": 202,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18752,7 +18907,7 @@ var data = {
     },
     "150": {
       "name": "Ike (Brave Mercenary)",
-      "base_index": 201,
+      "base_index": 202,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18772,7 +18927,7 @@ var data = {
     },
     "151": {
       "name": "Ike (Stalwart Heart)",
-      "base_index": 202,
+      "base_index": 203,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18792,7 +18947,7 @@ var data = {
     },
     "152": {
       "name": "Ilyana (Treat Harvester)",
-      "base_index": 205,
+      "base_index": 206,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18812,7 +18967,7 @@ var data = {
     },
     "153": {
       "name": "Ilyana (Treat Harvester)",
-      "base_index": 205,
+      "base_index": 206,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -18832,7 +18987,7 @@ var data = {
     },
     "154": {
       "name": "Innes (Regal Strategician)",
-      "base_index": 208,
+      "base_index": 209,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18852,7 +19007,7 @@ var data = {
     },
     "155": {
       "name": "Ishtar (Thunder's Waltz)",
-      "base_index": 210,
+      "base_index": 211,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18872,7 +19027,7 @@ var data = {
     },
     "156": {
       "name": "Itsuki (Finding a Path)",
-      "base_index": 211,
+      "base_index": 212,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18892,7 +19047,7 @@ var data = {
     },
     "157": {
       "name": "Julia (Crusader of Light)",
-      "base_index": 220,
+      "base_index": 221,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18912,7 +19067,7 @@ var data = {
     },
     "158": {
       "name": "Julia (Crusader of Light)",
-      "base_index": 220,
+      "base_index": 221,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18932,7 +19087,7 @@ var data = {
     },
     "159": {
       "name": "Julia (Naga's Blood)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18952,7 +19107,7 @@ var data = {
     },
     "160": {
       "name": "Julia (Naga's Blood)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18972,7 +19127,7 @@ var data = {
     },
     "161": {
       "name": "Julius (Scion of Darkness)",
-      "base_index": 222,
+      "base_index": 223,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18992,7 +19147,7 @@ var data = {
     },
     "162": {
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 225,
+      "base_index": 226,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19012,7 +19167,7 @@ var data = {
     },
     "163": {
       "name": "Kana (Dragon Princess)",
-      "base_index": 227,
+      "base_index": 228,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19032,7 +19187,7 @@ var data = {
     },
     "164": {
       "name": "Karel (Sword Demon)",
-      "base_index": 229,
+      "base_index": 230,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19052,7 +19207,7 @@ var data = {
     },
     "165": {
       "name": "Karla (Sword Vassal)",
-      "base_index": 230,
+      "base_index": 231,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19072,7 +19227,7 @@ var data = {
     },
     "166": {
       "name": "Keaton (Lupine Collector)",
-      "base_index": 233,
+      "base_index": 234,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19092,7 +19247,7 @@ var data = {
     },
     "167": {
       "name": "Kiria (Cool Fa\xE7ade)",
-      "base_index": 235,
+      "base_index": 236,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19112,7 +19267,7 @@ var data = {
     },
     "168": {
       "name": "Klein (Silver Nobleman)",
-      "base_index": 237,
+      "base_index": 238,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19132,7 +19287,7 @@ var data = {
     },
     "169": {
       "name": "Kronya (Gleaming Blade)",
-      "base_index": 239,
+      "base_index": 240,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -19152,7 +19307,7 @@ var data = {
     },
     "170": {
       "name": "L'Arachel (Harvest Princess)",
-      "base_index": 240,
+      "base_index": 241,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19172,7 +19327,7 @@ var data = {
     },
     "171": {
       "name": "L\xEDf (Lethal Swordsman)",
-      "base_index": 242,
+      "base_index": 243,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19192,7 +19347,7 @@ var data = {
     },
     "172": {
       "name": "Laegjarn (Burning Sun)",
-      "base_index": 244,
+      "base_index": 245,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19212,7 +19367,7 @@ var data = {
     },
     "173": {
       "name": "Laegjarn (Sheathed Steel)",
-      "base_index": 246,
+      "base_index": 247,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19232,7 +19387,7 @@ var data = {
     },
     "174": {
       "name": "Laevatein (Bonfire Blaze)",
-      "base_index": 247,
+      "base_index": 248,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19252,7 +19407,7 @@ var data = {
     },
     "175": {
       "name": "Laevatein (Searing Steel)",
-      "base_index": 249,
+      "base_index": 250,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19272,7 +19427,7 @@ var data = {
     },
     "176": {
       "name": "Larcei (Keen Kin)",
-      "base_index": 250,
+      "base_index": 251,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19292,7 +19447,7 @@ var data = {
     },
     "177": {
       "name": "Larcei (Keen Kin)",
-      "base_index": 250,
+      "base_index": 251,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19312,7 +19467,7 @@ var data = {
     },
     "178": {
       "name": "Leif (Prince of Leonster)",
-      "base_index": 256,
+      "base_index": 257,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19332,7 +19487,7 @@ var data = {
     },
     "179": {
       "name": "Leif (Unifier of Thracia)",
-      "base_index": 257,
+      "base_index": 258,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19352,7 +19507,7 @@ var data = {
     },
     "180": {
       "name": "Leif (Unifier of Thracia)",
-      "base_index": 257,
+      "base_index": 258,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19372,7 +19527,7 @@ var data = {
     },
     "181": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19392,7 +19547,7 @@ var data = {
     },
     "182": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19412,7 +19567,7 @@ var data = {
     },
     "183": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19432,7 +19587,7 @@ var data = {
     },
     "184": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19452,7 +19607,7 @@ var data = {
     },
     "185": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19472,7 +19627,7 @@ var data = {
     },
     "186": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19492,7 +19647,7 @@ var data = {
     },
     "187": {
       "name": "Leila (Rose amid Fangs)",
-      "base_index": 258,
+      "base_index": 259,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19512,7 +19667,7 @@ var data = {
     },
     "188": {
       "name": "Leo (Sorcerous Prince)",
-      "base_index": 262,
+      "base_index": 263,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19532,7 +19687,7 @@ var data = {
     },
     "189": {
       "name": "Lethe (Gallia's Valkyrie)",
-      "base_index": 264,
+      "base_index": 265,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19552,7 +19707,7 @@ var data = {
     },
     "190": {
       "name": "Lethe (New Year's Claw)",
-      "base_index": 265,
+      "base_index": 266,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19572,7 +19727,7 @@ var data = {
     },
     "191": {
       "name": "Lethe (New Year's Claw)",
-      "base_index": 265,
+      "base_index": 266,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19592,7 +19747,7 @@ var data = {
     },
     "192": {
       "name": "Lewyn (Guiding Breeze)",
-      "base_index": 266,
+      "base_index": 267,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19612,7 +19767,7 @@ var data = {
     },
     "193": {
       "name": "Lilina (Delightful Noble)",
-      "base_index": 270,
+      "base_index": 271,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19632,7 +19787,7 @@ var data = {
     },
     "194": {
       "name": "Lilith (Astral Daughter)",
-      "base_index": 271,
+      "base_index": 272,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19652,7 +19807,7 @@ var data = {
     },
     "195": {
       "name": "Linde (Light Mage)",
-      "base_index": 272,
+      "base_index": 273,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19672,7 +19827,7 @@ var data = {
     },
     "196": {
       "name": "Lucina (Brave Princess)",
-      "base_index": 282,
+      "base_index": 283,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19692,7 +19847,7 @@ var data = {
     },
     "197": {
       "name": "Lucina (Future Witness)",
-      "base_index": 283,
+      "base_index": 284,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19712,7 +19867,7 @@ var data = {
     },
     "198": {
       "name": "Lucina (Glorious Archer)",
-      "base_index": 284,
+      "base_index": 285,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19732,7 +19887,7 @@ var data = {
     },
     "199": {
       "name": "Lute (Prodigy)",
-      "base_index": 291,
+      "base_index": 292,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19752,7 +19907,7 @@ var data = {
     },
     "200": {
       "name": "Lute (Prodigy)",
-      "base_index": 291,
+      "base_index": 292,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19772,7 +19927,7 @@ var data = {
     },
     "201": {
       "name": "Lyn (Brave Lady)",
-      "base_index": 292,
+      "base_index": 293,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19792,7 +19947,7 @@ var data = {
     },
     "202": {
       "name": "Lyn (Brave Lady)",
-      "base_index": 292,
+      "base_index": 293,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19812,7 +19967,7 @@ var data = {
     },
     "203": {
       "name": "Lyn (Lady of the Beach)",
-      "base_index": 294,
+      "base_index": 295,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19832,7 +19987,7 @@ var data = {
     },
     "204": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 299,
+      "base_index": 300,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19852,7 +20007,7 @@ var data = {
     },
     "205": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 299,
+      "base_index": 300,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19872,7 +20027,7 @@ var data = {
     },
     "206": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 299,
+      "base_index": 300,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19892,7 +20047,7 @@ var data = {
     },
     "207": {
       "name": "Mamori (Microwavin' Idol)",
-      "base_index": 301,
+      "base_index": 302,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19912,7 +20067,7 @@ var data = {
     },
     "208": {
       "name": "Mareeta (Sword of Stars)",
-      "base_index": 302,
+      "base_index": 303,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19932,7 +20087,7 @@ var data = {
     },
     "209": {
       "name": "Mareeta (Sword of Stars)",
-      "base_index": 302,
+      "base_index": 303,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19952,7 +20107,7 @@ var data = {
     },
     "210": {
       "name": "Marth (Hero-King)",
-      "base_index": 311,
+      "base_index": 312,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19972,7 +20127,7 @@ var data = {
     },
     "211": {
       "name": "Marth (Hero-King)",
-      "base_index": 311,
+      "base_index": 312,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19992,7 +20147,7 @@ var data = {
     },
     "212": {
       "name": "Marth (Hero-King)",
-      "base_index": 311,
+      "base_index": 312,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20012,7 +20167,7 @@ var data = {
     },
     "213": {
       "name": "Marth (Royal Altean Duo)",
-      "base_index": 312,
+      "base_index": 314,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20032,7 +20187,7 @@ var data = {
     },
     "214": {
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 319,
+      "base_index": 322,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20052,7 +20207,7 @@ var data = {
     },
     "215": {
       "name": "Micaiah (Queen of Dawn)",
-      "base_index": 320,
+      "base_index": 323,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20072,7 +20227,7 @@ var data = {
     },
     "216": {
       "name": "Micaiah (Summer's Dawn)",
-      "base_index": 321,
+      "base_index": 324,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20092,7 +20247,7 @@ var data = {
     },
     "217": {
       "name": "Midori (Reliable Chemist)",
-      "base_index": 323,
+      "base_index": 326,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20112,7 +20267,7 @@ var data = {
     },
     "218": {
       "name": "Midori (Reliable Chemist)",
-      "base_index": 323,
+      "base_index": 326,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20132,7 +20287,7 @@ var data = {
     },
     "219": {
       "name": "Minerva (Red Dragoon)",
-      "base_index": 325,
+      "base_index": 329,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20152,7 +20307,7 @@ var data = {
     },
     "220": {
       "name": "Morgan (Lass from Afar)",
-      "base_index": 330,
+      "base_index": 334,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20172,7 +20327,7 @@ var data = {
     },
     "221": {
       "name": "Morgan (Lass from Afar)",
-      "base_index": 330,
+      "base_index": 334,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
@@ -20192,7 +20347,7 @@ var data = {
     },
     "222": {
       "name": "Myrrh (Great Dragon)",
-      "base_index": 331,
+      "base_index": 335,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -20212,7 +20367,7 @@ var data = {
     },
     "223": {
       "name": "Myrrh (Great Dragon)",
-      "base_index": 331,
+      "base_index": 335,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -20232,7 +20387,7 @@ var data = {
     },
     "224": {
       "name": "Myrrh (Spooky Monster)",
-      "base_index": 332,
+      "base_index": 336,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20252,7 +20407,7 @@ var data = {
     },
     "225": {
       "name": "Naesala (Sky's Shadow)",
-      "base_index": 333,
+      "base_index": 337,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -20272,7 +20427,7 @@ var data = {
     },
     "226": {
       "name": "Naga (Dragon Divinity)",
-      "base_index": 334,
+      "base_index": 338,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20292,7 +20447,7 @@ var data = {
     },
     "227": {
       "name": "Nagi (Dragon Avatar)",
-      "base_index": 335,
+      "base_index": 339,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20312,7 +20467,7 @@ var data = {
     },
     "228": {
       "name": "Nah (Little Miss)",
-      "base_index": 336,
+      "base_index": 340,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20332,7 +20487,7 @@ var data = {
     },
     "229": {
       "name": "Nailah (Unflinching Eye)",
-      "base_index": 337,
+      "base_index": 341,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20352,7 +20507,7 @@ var data = {
     },
     "230": {
       "name": "Narcian (Vernal General)",
-      "base_index": 339,
+      "base_index": 343,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20372,7 +20527,7 @@ var data = {
     },
     "231": {
       "name": "Narcian (Vernal General)",
-      "base_index": 339,
+      "base_index": 343,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20392,7 +20547,7 @@ var data = {
     },
     "232": {
       "name": "Niles (Forbidden Tease)",
-      "base_index": 345,
+      "base_index": 349,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20412,7 +20567,7 @@ var data = {
     },
     "233": {
       "name": "Nino (Flower of Frost)",
-      "base_index": 350,
+      "base_index": 354,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20432,7 +20587,7 @@ var data = {
     },
     "234": {
       "name": "Nino (Flower of Frost)",
-      "base_index": 350,
+      "base_index": 354,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20452,7 +20607,7 @@ var data = {
     },
     "235": {
       "name": "Nino (Pale Flower)",
-      "base_index": 351,
+      "base_index": 355,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20472,7 +20627,7 @@ var data = {
     },
     "236": {
       "name": "Nino (Pale Flower)",
-      "base_index": 351,
+      "base_index": 355,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20492,7 +20647,7 @@ var data = {
     },
     "237": {
       "name": "Norne (The Volunteer)",
-      "base_index": 354,
+      "base_index": 358,
       "boon": "Res",
       "bane": "HP",
       "resplendent": 0,
@@ -20512,7 +20667,7 @@ var data = {
     },
     "238": {
       "name": "Nowi (Eternal Youth)",
-      "base_index": 356,
+      "base_index": 360,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20532,7 +20687,7 @@ var data = {
     },
     "239": {
       "name": "Olwen (Righteous Knight)",
-      "base_index": 365,
+      "base_index": 369,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20552,7 +20707,7 @@ var data = {
     },
     "240": {
       "name": "Ophelia (Dramatic Heroine)",
-      "base_index": 366,
+      "base_index": 370,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20572,7 +20727,7 @@ var data = {
     },
     "241": {
       "name": "Osian (Scolded Soldier)",
-      "base_index": 368,
+      "base_index": 372,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20592,7 +20747,7 @@ var data = {
     },
     "242": {
       "name": "Palla (Eldest Bun-Bun)",
-      "base_index": 370,
+      "base_index": 374,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20612,7 +20767,7 @@ var data = {
     },
     "243": {
       "name": "Palla (Eldest Bun-Bun)",
-      "base_index": 370,
+      "base_index": 374,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20632,7 +20787,7 @@ var data = {
     },
     "244": {
       "name": "Palla (Eldest Whitewing)",
-      "base_index": 371,
+      "base_index": 375,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20652,7 +20807,7 @@ var data = {
     },
     "245": {
       "name": "Pent (Fancy Fianc\xE9)",
-      "base_index": 373,
+      "base_index": 378,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20672,7 +20827,7 @@ var data = {
     },
     "246": {
       "name": "Perceval (Knightly Ideal)",
-      "base_index": 375,
+      "base_index": 380,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20692,7 +20847,7 @@ var data = {
     },
     "247": {
       "name": "Petra (Princess of Brigid)",
-      "base_index": 377,
+      "base_index": 382,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20712,7 +20867,7 @@ var data = {
     },
     "248": {
       "name": "Raven (Peerless Fighter)",
-      "base_index": 385,
+      "base_index": 390,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20732,7 +20887,7 @@ var data = {
     },
     "249": {
       "name": "Raven (Peerless Fighter)",
-      "base_index": 385,
+      "base_index": 390,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20752,7 +20907,7 @@ var data = {
     },
     "250": {
       "name": "Reinhardt (Lightning's Rondo)",
-      "base_index": 387,
+      "base_index": 392,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20772,7 +20927,7 @@ var data = {
     },
     "251": {
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 388,
+      "base_index": 393,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20792,7 +20947,7 @@ var data = {
     },
     "252": {
       "name": "Reinhardt (Thunder's Sword)",
-      "base_index": 389,
+      "base_index": 394,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20812,7 +20967,7 @@ var data = {
     },
     "253": {
       "name": "Reinhardt (Thunder's Sword)",
-      "base_index": 389,
+      "base_index": 394,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20832,7 +20987,7 @@ var data = {
     },
     "254": {
       "name": "Rinkah (Scion of Flame)",
-      "base_index": 393,
+      "base_index": 398,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20852,7 +21007,7 @@ var data = {
     },
     "255": {
       "name": "Rinkah (Scion of Flame)",
-      "base_index": 393,
+      "base_index": 398,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20872,7 +21027,7 @@ var data = {
     },
     "256": {
       "name": "Robin (Fell Reincarnation)",
-      "base_index": 394,
+      "base_index": 399,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20892,7 +21047,7 @@ var data = {
     },
     "257": {
       "name": "Ross (His Father's Son)",
-      "base_index": 402,
+      "base_index": 407,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20912,7 +21067,7 @@ var data = {
     },
     "258": {
       "name": "Roy (Blazing Lion)",
-      "base_index": 403,
+      "base_index": 408,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20932,7 +21087,7 @@ var data = {
     },
     "259": {
       "name": "Roy (Brave Lion)",
-      "base_index": 404,
+      "base_index": 409,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20952,7 +21107,7 @@ var data = {
     },
     "260": {
       "name": "Rudolf (Emperor of Rigel)",
-      "base_index": 407,
+      "base_index": 412,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20972,7 +21127,7 @@ var data = {
     },
     "261": {
       "name": "Rudolf (Emperor of Rigel)",
-      "base_index": 407,
+      "base_index": 412,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20992,7 +21147,7 @@ var data = {
     },
     "262": {
       "name": "Ryoma (Supreme Samurai)",
-      "base_index": 412,
+      "base_index": 417,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21012,7 +21167,7 @@ var data = {
     },
     "263": {
       "name": "Ryoma (Supreme Samurai)",
-      "base_index": 412,
+      "base_index": 417,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21032,7 +21187,7 @@ var data = {
     },
     "264": {
       "name": "Seliph (Heir of Light)",
-      "base_index": 422,
+      "base_index": 427,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21052,7 +21207,7 @@ var data = {
     },
     "265": {
       "name": "Selkie (Free Spirit)",
-      "base_index": 423,
+      "base_index": 428,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21072,7 +21227,7 @@ var data = {
     },
     "266": {
       "name": "Selkie (New Year's Spirit)",
-      "base_index": 424,
+      "base_index": 429,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21092,7 +21247,7 @@ var data = {
     },
     "267": {
       "name": "Shannan (Wielder of Astra)",
-      "base_index": 429,
+      "base_index": 434,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21112,7 +21267,7 @@ var data = {
     },
     "268": {
       "name": "Shannan (Wielder of Astra)",
-      "base_index": 429,
+      "base_index": 434,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21132,7 +21287,7 @@ var data = {
     },
     "269": {
       "name": "Siegbert (Future King)",
-      "base_index": 436,
+      "base_index": 441,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21152,7 +21307,7 @@ var data = {
     },
     "270": {
       "name": "Sigurd (Holy Knight)",
-      "base_index": 439,
+      "base_index": 444,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21172,7 +21327,7 @@ var data = {
     },
     "271": {
       "name": "Silas (Loyal Knight)",
-      "base_index": 440,
+      "base_index": 445,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -21192,7 +21347,7 @@ var data = {
     },
     "272": {
       "name": "Silas (Loyal Knight)",
-      "base_index": 440,
+      "base_index": 445,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -21212,7 +21367,7 @@ var data = {
     },
     "273": {
       "name": "Sirius (Mysterious Knight)",
-      "base_index": 444,
+      "base_index": 449,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21232,7 +21387,7 @@ var data = {
     },
     "274": {
       "name": "Sonya (Vengeful Mage)",
-      "base_index": 446,
+      "base_index": 451,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21252,7 +21407,7 @@ var data = {
     },
     "275": {
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 447,
+      "base_index": 452,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 1,
@@ -21272,7 +21427,7 @@ var data = {
     },
     "276": {
       "name": "Sothis (Girl on the Throne)",
-      "base_index": 451,
+      "base_index": 456,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21292,7 +21447,7 @@ var data = {
     },
     "277": {
       "name": "Sothis (Silver Specter)",
-      "base_index": 452,
+      "base_index": 457,
       "boon": "Spd",
       "bane": "HP",
       "resplendent": 0,
@@ -21312,7 +21467,7 @@ var data = {
     },
     "278": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 458,
+      "base_index": 463,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21332,7 +21487,7 @@ var data = {
     },
     "279": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 458,
+      "base_index": 463,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21352,7 +21507,7 @@ var data = {
     },
     "280": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 458,
+      "base_index": 463,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21372,7 +21527,7 @@ var data = {
     },
     "281": {
       "name": "Tailtiu (Thunder Noble)",
-      "base_index": 459,
+      "base_index": 464,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21392,7 +21547,7 @@ var data = {
     },
     "282": {
       "name": "Tana (Noble and Nimble)",
-      "base_index": 464,
+      "base_index": 469,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21412,7 +21567,7 @@ var data = {
     },
     "283": {
       "name": "Tana (Winged Princess)",
-      "base_index": 465,
+      "base_index": 470,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21432,7 +21587,7 @@ var data = {
     },
     "284": {
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 469,
+      "base_index": 474,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21452,7 +21607,7 @@ var data = {
     },
     "285": {
       "name": "Tharja (Dark Shadow)",
-      "base_index": 470,
+      "base_index": 475,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21472,7 +21627,7 @@ var data = {
     },
     "286": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 473,
+      "base_index": 478,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21492,7 +21647,7 @@ var data = {
     },
     "287": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 473,
+      "base_index": 478,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21512,7 +21667,7 @@ var data = {
     },
     "288": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 473,
+      "base_index": 478,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21532,7 +21687,7 @@ var data = {
     },
     "289": {
       "name": "Tibarn (Lord of the Air)",
-      "base_index": 474,
+      "base_index": 479,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21552,7 +21707,7 @@ var data = {
     },
     "290": {
       "name": "Tiki (Beachside Scion)",
-      "base_index": 475,
+      "base_index": 480,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21572,7 +21727,7 @@ var data = {
     },
     "291": {
       "name": "Tiki (Legendary Dragon)",
-      "base_index": 477,
+      "base_index": 482,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21592,7 +21747,7 @@ var data = {
     },
     "292": {
       "name": "Tiki (Legendary Dragon)",
-      "base_index": 477,
+      "base_index": 482,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21612,7 +21767,7 @@ var data = {
     },
     "293": {
       "name": "Tiki (Naga's Voice)",
-      "base_index": 478,
+      "base_index": 483,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
@@ -21632,7 +21787,7 @@ var data = {
     },
     "294": {
       "name": "Tiki (Torpid Dragon)",
-      "base_index": 480,
+      "base_index": 485,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21652,7 +21807,7 @@ var data = {
     },
     "295": {
       "name": "Tiki (Torpid Dragon)",
-      "base_index": 480,
+      "base_index": 485,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21672,7 +21827,7 @@ var data = {
     },
     "296": {
       "name": "Tsubasa (Madcap Idol)",
-      "base_index": 485,
+      "base_index": 490,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21692,7 +21847,7 @@ var data = {
     },
     "297": {
       "name": "Ursula (Blue Crow)",
-      "base_index": 486,
+      "base_index": 491,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -21712,7 +21867,7 @@ var data = {
     },
     "298": {
       "name": "Ursula (Clear-Blue Crow)",
-      "base_index": 487,
+      "base_index": 492,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21732,7 +21887,7 @@ var data = {
     },
     "299": {
       "name": "Ursula (Clear-Blue Crow)",
-      "base_index": 487,
+      "base_index": 492,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21752,7 +21907,7 @@ var data = {
     },
     "300": {
       "name": "Velouria (Wolf Cub)",
-      "base_index": 490,
+      "base_index": 495,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21772,7 +21927,7 @@ var data = {
     },
     "301": {
       "name": "Veronica (Brave Princess)",
-      "base_index": 491,
+      "base_index": 496,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21792,7 +21947,7 @@ var data = {
     },
     "302": {
       "name": "Walhart (The Conqueror)",
-      "base_index": 494,
+      "base_index": 499,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -21812,7 +21967,7 @@ var data = {
     },
     "303": {
       "name": "Yarne (Timid Taguel)",
-      "base_index": 501,
+      "base_index": 506,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21832,7 +21987,7 @@ var data = {
     },
     "304": {
       "name": "Ylgr (Fresh Snowfall)",
-      "base_index": 503,
+      "base_index": 508,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21852,7 +22007,7 @@ var data = {
     },
     "305": {
       "name": "Yune (Chaos Goddess)",
-      "base_index": 504,
+      "base_index": 509,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21872,7 +22027,7 @@ var data = {
     },
     "306": {
       "name": "Yune (Chaos Goddess)",
-      "base_index": 504,
+      "base_index": 509,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21892,7 +22047,7 @@ var data = {
     },
     "307": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 505,
+      "base_index": 510,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21912,7 +22067,7 @@ var data = {
     },
     "308": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 505,
+      "base_index": 510,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21932,7 +22087,7 @@ var data = {
     },
     "309": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 505,
+      "base_index": 510,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21952,7 +22107,7 @@ var data = {
     },
     "310": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 505,
+      "base_index": 510,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21972,7 +22127,7 @@ var data = {
     },
     "311": {
       "name": "Zephiel (Winter's Crown)",
-      "base_index": 507,
+      "base_index": 512,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21992,7 +22147,7 @@ var data = {
     },
     "312": {
       "name": "Zephiel (Winter's Crown)",
-      "base_index": 507,
+      "base_index": 512,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,

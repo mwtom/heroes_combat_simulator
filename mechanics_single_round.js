@@ -189,7 +189,7 @@ function simulate() {
         blessings[2] = Blessings[0];
         blessings[3] = Blessings[0];
       }
-      
+
       // Build the defender with the base set & valid overrides.
       Defender = new Fighter(enemy_pool[i],
                              boon,
@@ -1607,7 +1607,7 @@ function check_follow_up(unit1, unit2) {
   // Determine whether unit2 neutralizes enemy follow up guarantors.
   for (var i = 0; i < unit2.neutralize_follow_up_guarantor_effects.length; i++) {
     if (unit2.eval_conditions(unit2.neutralize_follow_up_guarantor_effects[i].conditions, unit1)) {
-      combat_log += unit2.get_name() + "'s" + unit2.neutralize_follow_up_guarantor_effects[i].source + " neutralizes effects that guarantee " + unit1.get_name() + "'s follow-up!<br />";
+      combat_log += unit2.get_name() + "'s " + unit2.neutralize_follow_up_guarantor_effects[i].source + " neutralizes effects that guarantee " + unit1.get_name() + "'s follow-up!<br />";
       unit2.set_neutralize_follow_up_guarantors_flag(true);
       break;
     }
