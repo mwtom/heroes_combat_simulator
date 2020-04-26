@@ -45186,7 +45186,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{flat_stat_boost(combat_atk,(e_combat_def*.25)),stat_penalty(e_combat_atk,(e_combat_res*.25));[comp(active_atk_buff>0)|comp(active_spd_buff>0)|comp(active_def_buff>0)|comp(active_res_buff>0)|hp_thresh(70,>=,start)]}",
+      "skill_definition": "{flat_stat_boost(combat_atk,(e_printed_def*.25)),stat_penalty(e_combat_atk,(e_printed_res*.25));[comp(active_atk_buff>0)|comp(active_spd_buff>0)|comp(active_def_buff>0)|comp(active_res_buff>0)|hp_thresh(70,>=,start)]}",
       "skill_desc_refine_base": "empty",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 0,
@@ -62051,7 +62051,7 @@ var data = {
     "76": {
       "name": "Pegasus Flight 3",
       "cooldown_mod": 0,
-      "skill_definition": "{stat_penalty(e_combat_atk,min(((printed_res-e_printed_res)*.5),7)&e_combat_def,min(((printed_res-e_printed_res)*.5),7));[comp(printed_comparison_spd>=(e_printed_comparison_spd-7))]}",
+      "skill_definition": "{stat_penalty(e_combat_atk,min(((printed_res-e_printed_res)*.5),7)&e_combat_def,min(((printed_res-e_printed_res)*.5),7));[comp(printed_comparison_spd>=(e_printed_comparison_spd-7))&comp(printed_res>e_printed_res)]}",
       "srd_can_inherit": 1,
       "lnc_can_inherit": 1,
       "axe_can_inherit": 1,
