@@ -1,6 +1,7 @@
 var data = {
   "Characters": {
     "0": {
+      "internal_name": "Abel (The Panther)",
       "name": "Abel (The Panther)",
       "color": "B",
       "hp_base": 17,
@@ -25,13 +26,14 @@ var data = {
       "b_name": "Swordbreaker 3",
       "c_name": "(None)",
       "proc_name": "Aegis",
-      "base_weap": 329,
-      "base_a": 84,
+      "base_weap": 333,
+      "base_a": 87,
       "base_b": 111,
       "base_c": 0,
       "base_proc": 1
     },
     "1": {
+      "internal_name": "Alfonse (Askran Duo)",
       "name": "Alfonse (Askran Duo)",
       "color": "B",
       "hp_base": 19,
@@ -56,13 +58,14 @@ var data = {
       "b_name": "Special Spiral 3",
       "c_name": "Def/Res Oath 3",
       "proc_name": "Open the Future",
-      "base_weap": 239,
-      "base_a": 45,
+      "base_weap": 243,
+      "base_a": 47,
       "base_b": 109,
       "base_c": 32,
-      "base_proc": 39
+      "base_proc": 40
     },
     "2": {
+      "internal_name": "Alfonse (Prince of Askr)",
       "name": "Alfonse (Prince of Askr)",
       "color": "R",
       "hp_base": 19,
@@ -82,18 +85,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "F\xF3lkvangr",
+      "weap_name": "Folkvangr",
       "a_name": "Death Blow 3",
       "b_name": "(None)",
       "c_name": "Spur Atk 3",
       "proc_name": "Sol",
-      "base_weap": 141,
-      "base_a": 51,
+      "base_weap": 170,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 112,
-      "base_proc": 48
+      "base_proc": 49
     },
     "3": {
+      "internal_name": "Alfonse (Spring Prince)",
       "name": "Alfonse (Spring Prince)",
       "color": "G",
       "hp_base": 19,
@@ -118,13 +122,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Def Smoke 3",
       "proc_name": "Noontime",
-      "base_weap": 182,
-      "base_a": 120,
+      "base_weap": 185,
+      "base_a": 123,
       "base_b": 0,
       "base_c": 29,
-      "base_proc": 38
+      "base_proc": 39
     },
     "4": {
+      "internal_name": "Alm (Hero of Prophecy)",
       "name": "Alm (Hero of Prophecy)",
       "color": "R",
       "hp_base": 21,
@@ -149,13 +154,14 @@ var data = {
       "b_name": "Windsweep 3",
       "c_name": "(None)",
       "proc_name": "Draconic Aura",
-      "base_weap": 144,
-      "base_a": 28,
+      "base_weap": 146,
+      "base_a": 30,
       "base_b": 118,
       "base_c": 0,
       "base_proc": 11
     },
     "5": {
+      "internal_name": "Alm (Imperial Ascent)",
       "name": "Alm (Imperial Ascent)",
       "color": "R",
       "hp_base": 18,
@@ -180,13 +186,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "Threat. Atk/Spd 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 123,
-      "base_a": 102,
+      "base_weap": 126,
+      "base_a": 105,
       "base_b": 23,
       "base_c": 128,
       "base_proc": 11
     },
     "6": {
+      "internal_name": "Alm (Lovebird Duo)",
       "name": "Alm (Lovebird Duo)",
       "color": "G",
       "hp_base": 18,
@@ -211,13 +218,14 @@ var data = {
       "b_name": "Lull Atk/Spd 3",
       "c_name": "Rouse Spd/Res 3",
       "proc_name": "Lunar Flash",
-      "base_weap": 391,
-      "base_a": 34,
+      "base_weap": 394,
+      "base_a": 36,
       "base_b": 65,
       "base_c": 102,
       "base_proc": 34
     },
     "7": {
+      "internal_name": "Alm (Saint-King)",
       "name": "Alm (Saint-King)",
       "color": "N",
       "hp_base": 18,
@@ -242,13 +250,14 @@ var data = {
       "b_name": "Null Follow-Up 3",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "Lunar Flash",
-      "base_weap": 284,
-      "base_a": 49,
+      "base_weap": 288,
+      "base_a": 51,
       "base_b": 72,
       "base_c": 85,
       "base_proc": 34
     },
     "8": {
+      "internal_name": "Altena (Luminous Rider)",
       "name": "Altena (Luminous Rider)",
       "color": "B",
       "hp_base": 19,
@@ -268,18 +277,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Earthly G\xE1e Bolg",
+      "weap_name": "Earthly Gae Bolg",
       "a_name": "Sturdy Stance 2",
       "b_name": "Brash Assault 3",
       "c_name": "(None)",
       "proc_name": "Reprisal",
-      "base_weap": 132,
-      "base_a": 122,
+      "base_weap": 135,
+      "base_a": 125,
       "base_b": 16,
       "base_c": 0,
-      "base_proc": 43
+      "base_proc": 44
     },
     "9": {
+      "internal_name": "Altina (Dawn's Trueblade)",
       "name": "Altina (Dawn's Trueblade)",
       "color": "R",
       "hp_base": 18,
@@ -304,13 +314,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "Atk/Def Oath 3",
       "proc_name": "Twin Blades",
-      "base_weap": 344,
+      "base_weap": 348,
       "base_a": 10,
       "base_b": 113,
       "base_c": 9,
-      "base_proc": 52
+      "base_proc": 53
     },
     "10": {
+      "internal_name": "Amelia (Rose of the War)",
       "name": "Amelia (Rose of the War)",
       "color": "G",
       "hp_base": 19,
@@ -335,13 +346,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Armor March 3",
       "proc_name": "Sacred Cowl",
-      "base_weap": 194,
-      "base_a": 68,
+      "base_weap": 197,
+      "base_a": 71,
       "base_b": 0,
       "base_c": 2,
-      "base_proc": 46
+      "base_proc": 47
     },
     "11": {
+      "internal_name": "Anna (Commander)",
       "name": "Anna (Commander)",
       "color": "G",
       "hp_base": 19,
@@ -361,18 +373,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "N\xF3at\xFAn",
+      "weap_name": "Noatun",
       "a_name": "(None)",
       "b_name": "Vantage 3",
       "c_name": "Spur Res 3",
       "proc_name": "Astra",
-      "base_weap": 312,
+      "base_weap": 324,
       "base_a": 0,
       "base_b": 113,
       "base_c": 118,
       "base_proc": 3
     },
     "12": {
+      "internal_name": "Anna (Wealth-Wisher)",
       "name": "Anna (Wealth-Wisher)",
       "color": "R",
       "hp_base": 18,
@@ -397,13 +410,14 @@ var data = {
       "b_name": "Sabotage Atk 3",
       "c_name": "Atk/Spd Gap 3",
       "proc_name": "(None)",
-      "base_weap": 170,
+      "base_weap": 173,
       "base_a": 0,
       "base_b": 87,
       "base_c": 12,
       "base_proc": 0
     },
     "13": {
+      "internal_name": "Annette (Overachiever)",
       "name": "Annette (Overachiever)",
       "color": "G",
       "hp_base": 18,
@@ -428,13 +442,14 @@ var data = {
       "b_name": "Def/Res Ruse 3",
       "c_name": "Atk/Def Gap 3",
       "proc_name": "(None)",
-      "base_weap": 94,
+      "base_weap": 96,
       "base_a": 0,
       "base_b": 35,
       "base_c": 8,
       "base_proc": 0
     },
     "14": {
+      "internal_name": "Arden (Strong and Tough)",
       "name": "Arden (Strong and Tough)",
       "color": "R",
       "hp_base": 25,
@@ -459,13 +474,14 @@ var data = {
       "b_name": "Follow-Up Ring",
       "c_name": "Drive Def 2",
       "proc_name": "Pavise",
-      "base_weap": 59,
+      "base_weap": 58,
       "base_a": 0,
       "base_b": 49,
       "base_c": 37,
-      "base_proc": 40
+      "base_proc": 41
     },
     "15": {
+      "internal_name": "Ares (Black Knight)",
       "name": "Ares (Black Knight)",
       "color": "R",
       "hp_base": 18,
@@ -490,13 +506,14 @@ var data = {
       "b_name": "Seal Def/Res 2",
       "c_name": "(None)",
       "proc_name": "Draconic Aura",
-      "base_weap": 106,
-      "base_a": 37,
+      "base_weap": 108,
+      "base_a": 39,
       "base_b": 96,
       "base_c": 0,
       "base_proc": 11
     },
     "16": {
+      "internal_name": "Arthur (Hapless Hero)",
       "name": "Arthur (Hapless Hero)",
       "color": "G",
       "hp_base": 19,
@@ -521,13 +538,14 @@ var data = {
       "b_name": "Lancebreaker 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 11,
-      "base_a": 84,
+      "base_weap": 10,
+      "base_a": 87,
       "base_b": 58,
       "base_c": 0,
       "base_proc": 0
     },
     "17": {
+      "internal_name": "Arvis (Emperor of Flame)",
       "name": "Arvis (Emperor of Flame)",
       "color": "R",
       "hp_base": 18,
@@ -552,13 +570,14 @@ var data = {
       "b_name": "Recover Ring",
       "c_name": "Def Ploy 3",
       "proc_name": "Growing Flame",
-      "base_weap": 469,
+      "base_weap": 473,
       "base_a": 0,
       "base_b": 81,
       "base_c": 28,
       "base_proc": 21
     },
     "18": {
+      "internal_name": "Astram (Midia's Hero)",
       "name": "Astram (Midia's Hero)",
       "color": "R",
       "hp_base": 18,
@@ -583,13 +602,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "(None)",
       "proc_name": "Bonfire",
-      "base_weap": 297,
-      "base_a": 135,
+      "base_weap": 299,
+      "base_a": 138,
       "base_b": 120,
       "base_c": 0,
       "base_proc": 10
     },
     "19": {
+      "internal_name": "Athena (Borderland Sword)",
       "name": "Athena (Borderland Sword)",
       "color": "R",
       "hp_base": 17,
@@ -614,13 +634,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Sword Exp. 3",
       "proc_name": "Moonbow",
-      "base_weap": 87,
-      "base_a": 120,
+      "base_weap": 89,
+      "base_a": 123,
       "base_b": 0,
       "base_c": 124,
-      "base_proc": 36
+      "base_proc": 37
     },
     "20": {
+      "internal_name": "Aversa (Dark One)",
       "name": "Aversa (Dark One)",
       "color": "R",
       "hp_base": 18,
@@ -645,13 +666,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Odd Res Wave 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 18,
-      "base_a": 88,
+      "base_weap": 17,
+      "base_a": 91,
       "base_b": 0,
       "base_c": 87,
       "base_proc": 12
     },
     "21": {
+      "internal_name": "Ayra (Astra's Wielder)",
       "name": "Ayra (Astra's Wielder)",
       "color": "R",
       "hp_base": 19,
@@ -676,13 +698,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "(None)",
       "proc_name": "Regnal Astra",
-      "base_weap": 21,
-      "base_a": 125,
+      "base_weap": 20,
+      "base_a": 128,
       "base_b": 37,
       "base_c": 0,
-      "base_proc": 42
+      "base_proc": 43
     },
     "22": {
+      "internal_name": "Azama (Carefree Monk)",
       "name": "Azama (Carefree Monk)",
       "color": "N",
       "hp_base": 19,
@@ -707,13 +730,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Atk 3",
       "proc_name": "Solid-Earth Balm",
-      "base_weap": 327,
+      "base_weap": 331,
       "base_a": 0,
       "base_b": 0,
       "base_c": 129,
-      "base_proc": 49
+      "base_proc": 50
     },
     "23": {
+      "internal_name": "Azura (Celebratory Spirit)",
       "name": "Azura (Celebratory Spirit)",
       "color": "G",
       "hp_base": 15,
@@ -738,13 +762,14 @@ var data = {
       "b_name": "Earth Dance 3",
       "c_name": "Hone Fliers",
       "proc_name": "(None)",
-      "base_weap": 218,
+      "base_weap": 221,
       "base_a": 0,
       "base_b": 43,
       "base_c": 69,
       "base_proc": 0
     },
     "24": {
+      "internal_name": "Azura (Lady of Ballads)",
       "name": "Azura (Lady of Ballads)",
       "color": "G",
       "hp_base": 16,
@@ -764,18 +789,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Ur\xF0r",
+      "weap_name": "Urdr",
       "a_name": "Triangle Adept 3",
       "b_name": "(None)",
       "c_name": "Drive Res 2",
       "proc_name": "(None)",
-      "base_weap": 466,
-      "base_a": 129,
+      "base_weap": 470,
+      "base_a": 132,
       "base_b": 0,
       "base_c": 38,
       "base_proc": 0
     },
     "25": {
+      "internal_name": "Azura (Lady of the Lake)",
       "name": "Azura (Lady of the Lake)",
       "color": "B",
       "hp_base": 17,
@@ -800,13 +826,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Res 3",
       "proc_name": "(None)",
-      "base_weap": 387,
-      "base_a": 113,
+      "base_weap": 390,
+      "base_a": 116,
       "base_b": 0,
       "base_c": 51,
       "base_proc": 0
     },
     "26": {
+      "internal_name": "Azura (Vallite Songstress)",
       "name": "Azura (Vallite Songstress)",
       "color": "B",
       "hp_base": 14,
@@ -831,13 +858,14 @@ var data = {
       "b_name": "Aerobatics 3",
       "c_name": "Atk Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 339,
-      "base_a": 31,
+      "base_weap": 343,
+      "base_a": 33,
       "base_b": 1,
       "base_c": 7,
       "base_proc": 0
     },
     "27": {
+      "internal_name": "Azura (Young Songstress)",
       "name": "Azura (Young Songstress)",
       "color": "G",
       "hp_base": 14,
@@ -862,13 +890,14 @@ var data = {
       "b_name": "Torrent Dance 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 52,
-      "base_a": 110,
+      "base_weap": 51,
+      "base_a": 113,
       "base_b": 112,
       "base_c": 0,
       "base_proc": 0
     },
     "28": {
+      "internal_name": "Bantu (Tiki's Guardian)",
       "name": "Bantu (Tiki's Guardian)",
       "color": "R",
       "hp_base": 17,
@@ -893,13 +922,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Savage Blow 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 103,
-      "base_a": 70,
+      "base_weap": 105,
+      "base_a": 73,
       "base_b": 0,
       "base_c": 103,
       "base_proc": 12
     },
     "29": {
+      "internal_name": "Barst (The Hatchet)",
       "name": "Barst (The Hatchet)",
       "color": "G",
       "hp_base": 20,
@@ -924,13 +954,14 @@ var data = {
       "b_name": "Knock Back",
       "c_name": "Spur Atk 3",
       "proc_name": "(None)",
-      "base_weap": 115,
+      "base_weap": 118,
       "base_a": 0,
       "base_b": 57,
       "base_c": 112,
       "base_proc": 0
     },
     "30": {
+      "internal_name": "Bartre (Earsome Warrior)",
       "name": "Bartre (Earsome Warrior)",
       "color": "R",
       "hp_base": 20,
@@ -955,13 +986,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "(None)",
-      "base_weap": 79,
+      "base_weap": 80,
       "base_a": 0,
       "base_b": 73,
       "base_c": 85,
       "base_proc": 0
     },
     "31": {
+      "internal_name": "Bartre (Fearless Warrior)",
       "name": "Bartre (Fearless Warrior)",
       "color": "G",
       "hp_base": 21,
@@ -986,13 +1018,14 @@ var data = {
       "b_name": "Brash Assault 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 19,
-      "base_a": 77,
+      "base_weap": 18,
+      "base_a": 80,
       "base_b": 16,
       "base_c": 0,
       "base_proc": 0
     },
     "32": {
+      "internal_name": "Berkut (Debonair Noble)",
       "name": "Berkut (Debonair Noble)",
       "color": "B",
       "hp_base": 17,
@@ -1012,18 +1045,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Ver\xF0andi",
+      "weap_name": "Verdandi",
       "a_name": "B Duel Infantry 3",
       "b_name": "(None)",
       "c_name": "Distant Guard 3",
       "proc_name": "(None)",
-      "base_weap": 474,
-      "base_a": 32,
+      "base_weap": 478,
+      "base_a": 34,
       "base_b": 0,
       "base_c": 33,
       "base_proc": 0
     },
     "33": {
+      "internal_name": "Berkut (Prideful Prince)",
       "name": "Berkut (Prideful Prince)",
       "color": "B",
       "hp_base": 19,
@@ -1048,13 +1082,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Cavalry",
       "proc_name": "Blazing Flame",
-      "base_weap": 32,
-      "base_a": 134,
+      "base_weap": 30,
+      "base_a": 137,
       "base_b": 0,
       "base_c": 138,
       "base_proc": 5
     },
     "34": {
+      "internal_name": "Berkut (Purgatorial Prince)",
       "name": "Berkut (Purgatorial Prince)",
       "color": "B",
       "hp_base": 18,
@@ -1079,13 +1114,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Odd Res Wave 3",
       "proc_name": "Reprisal",
-      "base_weap": 264,
-      "base_a": 133,
+      "base_weap": 268,
+      "base_a": 136,
       "base_b": 0,
       "base_c": 87,
-      "base_proc": 43
+      "base_proc": 44
     },
     "35": {
+      "internal_name": "Bernadetta (Eternal Loner)",
       "name": "Bernadetta (Eternal Loner)",
       "color": "N",
       "hp_base": 16,
@@ -1110,13 +1146,14 @@ var data = {
       "b_name": "Lull Spd/Def 3",
       "c_name": "Close Guard 3",
       "proc_name": "(None)",
-      "base_weap": 334,
-      "base_a": 26,
+      "base_weap": 338,
+      "base_a": 27,
       "base_b": 66,
       "base_c": 24,
       "base_proc": 0
     },
     "36": {
+      "internal_name": "Beruka (Quiet Assassin)",
       "name": "Beruka (Quiet Assassin)",
       "color": "G",
       "hp_base": 20,
@@ -1141,13 +1178,14 @@ var data = {
       "b_name": "Lunge",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 34,
-      "base_a": 58,
+      "base_weap": 32,
+      "base_a": 61,
       "base_b": 69,
       "base_c": 0,
       "base_proc": 20
     },
     "37": {
+      "internal_name": "Black Knight (Sinister General)",
       "name": "Black Knight (Sinister General)",
       "color": "R",
       "hp_base": 22,
@@ -1172,13 +1210,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "(None)",
       "proc_name": "Black Luna",
-      "base_weap": 3,
-      "base_a": 118,
+      "base_weap": 2,
+      "base_a": 121,
       "base_b": 119,
       "base_c": 0,
       "base_proc": 4
     },
     "38": {
+      "internal_name": "Boey (Skillful Survivor)",
       "name": "Boey (Skillful Survivor)",
       "color": "G",
       "hp_base": 19,
@@ -1203,13 +1242,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 241,
-      "base_a": 68,
+      "base_weap": 245,
+      "base_a": 71,
       "base_b": 82,
       "base_c": 0,
       "base_proc": 29
     },
     "39": {
+      "internal_name": "Brady (Daunting Priest)",
       "name": "Brady (Daunting Priest)",
       "color": "N",
       "hp_base": 19,
@@ -1234,13 +1274,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Infantry Rush 3",
       "proc_name": "Heavenly Light",
-      "base_weap": 424,
+      "base_weap": 427,
       "base_a": 18,
       "base_b": 0,
       "base_c": 78,
       "base_proc": 25
     },
     "40": {
+      "internal_name": "Bramimond (The Enigma)",
       "name": "Bramimond (The Enigma)",
       "color": "N",
       "hp_base": 17,
@@ -1265,13 +1306,14 @@ var data = {
       "b_name": "Lull Atk/Res 3",
       "c_name": "Impenetrable Dark",
       "proc_name": "Luna",
-      "base_weap": 480,
+      "base_weap": 484,
       "base_a": 14,
       "base_b": 64,
       "base_c": 73,
       "base_proc": 33
     },
     "41": {
+      "internal_name": "Brunnya (Devoted General)",
       "name": "Brunnya (Devoted General)",
       "color": "B",
       "hp_base": 18,
@@ -1296,13 +1338,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Res Smoke 3",
       "proc_name": "Glacies",
-      "base_weap": 155,
-      "base_a": 51,
+      "base_weap": 157,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 97,
       "base_proc": 19
     },
     "42": {
+      "internal_name": "Bruno (Masked Hare)",
       "name": "Bruno (Masked Hare)",
       "color": "N",
       "hp_base": 17,
@@ -1327,13 +1370,14 @@ var data = {
       "b_name": "Dazzling Staff 3",
       "c_name": "(None)",
       "proc_name": "Miracle",
-      "base_weap": 326,
+      "base_weap": 330,
       "base_a": 13,
       "base_b": 31,
       "base_c": 0,
-      "base_proc": 35
+      "base_proc": 36
     },
     "43": {
+      "internal_name": "Byleth (Proven Professor)",
       "name": "Byleth (Proven Professor)",
       "color": "R",
       "hp_base": 18,
@@ -1358,13 +1402,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Even Atk Wave 3",
       "proc_name": "Ruptured Sky",
-      "base_weap": 93,
-      "base_a": 78,
+      "base_weap": 95,
+      "base_a": 81,
       "base_b": 120,
       "base_c": 40,
-      "base_proc": 45
+      "base_proc": 46
     },
     "44": {
+      "internal_name": "Byleth (Tested Professor)",
       "name": "Byleth (Tested Professor)",
       "color": "R",
       "hp_base": 18,
@@ -1389,13 +1434,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Odd Spd Wave 3",
       "proc_name": "Ruptured Sky",
-      "base_weap": 93,
-      "base_a": 61,
+      "base_weap": 95,
+      "base_a": 64,
       "base_b": 25,
       "base_c": 88,
-      "base_proc": 45
+      "base_proc": 46
     },
     "45": {
+      "internal_name": "Caeda (Princess of Talys)",
       "name": "Caeda (Princess of Talys)",
       "color": "R",
       "hp_base": 17,
@@ -1420,13 +1466,14 @@ var data = {
       "b_name": "Belief in Love",
       "c_name": "Joint Hone Atk",
       "proc_name": "Moonbow",
-      "base_weap": 148,
-      "base_a": 61,
+      "base_weap": 150,
+      "base_a": 64,
       "base_b": 10,
       "base_c": 80,
-      "base_proc": 36
+      "base_proc": 37
     },
     "46": {
+      "internal_name": "Caeda (Talys's Bride)",
       "name": "Caeda (Talys's Bride)",
       "color": "B",
       "hp_base": 16,
@@ -1451,13 +1498,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Spd 3",
       "proc_name": "Iceberg",
-      "base_weap": 44,
-      "base_a": 30,
+      "base_weap": 42,
+      "base_a": 32,
       "base_b": 0,
       "base_c": 70,
       "base_proc": 28
     },
     "47": {
+      "internal_name": "Caeda (Talys's Heart)",
       "name": "Caeda (Talys's Heart)",
       "color": "R",
       "hp_base": 17,
@@ -1482,13 +1530,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Fliers",
       "proc_name": "(None)",
-      "base_weap": 494,
-      "base_a": 48,
+      "base_weap": 498,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 0
     },
     "48": {
+      "internal_name": "Cain (The Bull)",
       "name": "Cain (The Bull)",
       "color": "R",
       "hp_base": 18,
@@ -1520,6 +1569,7 @@ var data = {
       "base_proc": 15
     },
     "49": {
+      "internal_name": "Caineghis (Gallia's Lion King)",
       "name": "Caineghis (Gallia's Lion King)",
       "color": "N",
       "hp_base": 23,
@@ -1544,13 +1594,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Distant Guard 3",
       "proc_name": "Bonfire",
-      "base_weap": 278,
-      "base_a": 63,
+      "base_weap": 282,
+      "base_a": 66,
       "base_b": 114,
       "base_c": 33,
       "base_proc": 10
     },
     "50": {
+      "internal_name": "Camilla (Bewitching Beauty)",
       "name": "Camilla (Bewitching Beauty)",
       "color": "G",
       "hp_base": 18,
@@ -1575,13 +1626,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Savage Blow 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 73,
-      "base_a": 48,
+      "base_weap": 74,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 103,
       "base_proc": 11
     },
     "51": {
+      "internal_name": "Camilla (Flower of Fantasy)",
       "name": "Camilla (Flower of Fantasy)",
       "color": "R",
       "hp_base": 17,
@@ -1606,13 +1658,14 @@ var data = {
       "b_name": "Atk/Res Link 3",
       "c_name": "Goad Fliers",
       "proc_name": "(None)",
-      "base_weap": 50,
+      "base_weap": 49,
       "base_a": 16,
       "base_b": 5,
       "base_c": 60,
       "base_proc": 0
     },
     "52": {
+      "internal_name": "Camilla (Holiday Traveler)",
       "name": "Camilla (Holiday Traveler)",
       "color": "R",
       "hp_base": 18,
@@ -1637,13 +1690,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Fliers",
       "proc_name": "Draconic Aura",
-      "base_weap": 251,
-      "base_a": 106,
+      "base_weap": 255,
+      "base_a": 109,
       "base_b": 0,
       "base_c": 140,
       "base_proc": 11
     },
     "53": {
+      "internal_name": "Camilla (Light of Nohr)",
       "name": "Camilla (Light of Nohr)",
       "color": "N",
       "hp_base": 17,
@@ -1663,18 +1717,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Sanngri\xF0r",
+      "weap_name": "Sanngridr",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Wrathful Staff 3",
       "c_name": "Atk Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 386,
-      "base_a": 26,
+      "base_weap": 389,
+      "base_a": 27,
       "base_b": 121,
       "base_c": 7,
       "base_proc": 0
     },
     "54": {
+      "internal_name": "Camilla (Spring Princess)",
       "name": "Camilla (Spring Princess)",
       "color": "G",
       "hp_base": 17,
@@ -1699,13 +1754,14 @@ var data = {
       "b_name": "Live for Bounty",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 199,
-      "base_a": 60,
+      "base_weap": 202,
+      "base_a": 63,
       "base_b": 60,
       "base_c": 0,
       "base_proc": 0
     },
     "55": {
+      "internal_name": "Camilla (Steamy Secrets)",
       "name": "Camilla (Steamy Secrets)",
       "color": "N",
       "hp_base": 16,
@@ -1730,13 +1786,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Fliers",
       "proc_name": "Glimmer",
-      "base_weap": 325,
-      "base_a": 21,
+      "base_weap": 329,
+      "base_a": 22,
       "base_b": 0,
       "base_c": 69,
       "base_proc": 20
     },
     "56": {
+      "internal_name": "Camilla (Tropical Beauty)",
       "name": "Camilla (Tropical Beauty)",
       "color": "B",
       "hp_base": 17,
@@ -1761,13 +1818,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "Hone Fliers",
       "proc_name": "Draconic Aura",
-      "base_weap": 249,
-      "base_a": 51,
+      "base_weap": 253,
+      "base_a": 54,
       "base_b": 48,
       "base_c": 69,
       "base_proc": 11
     },
     "57": {
+      "internal_name": "Camus (Sable Knight)",
       "name": "Camus (Sable Knight)",
       "color": "B",
       "hp_base": 18,
@@ -1792,13 +1850,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Cavalry",
       "proc_name": "Growing Thunder",
-      "base_weap": 193,
-      "base_a": 81,
+      "base_weap": 196,
+      "base_a": 84,
       "base_b": 0,
       "base_c": 58,
       "base_proc": 23
     },
     "58": {
+      "internal_name": "Canas (Wisdom Seeker)",
       "name": "Canas (Wisdom Seeker)",
       "color": "R",
       "hp_base": 17,
@@ -1818,18 +1877,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Rau\xF0rowl+",
+      "weap_name": "Raudrowl+",
       "a_name": "HP/Res 2",
       "b_name": "(None)",
       "c_name": "Res Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 351,
-      "base_a": 87,
+      "base_weap": 355,
+      "base_a": 90,
       "base_b": 0,
       "base_c": 98,
       "base_proc": 0
     },
     "59": {
+      "internal_name": "Catria (Middle Whitewing)",
       "name": "Catria (Middle Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1854,13 +1914,14 @@ var data = {
       "b_name": "Seal Atk 3",
       "c_name": "(None)",
       "proc_name": "Luna",
-      "base_weap": 489,
+      "base_weap": 493,
       "base_a": 9,
       "base_b": 92,
       "base_c": 0,
       "base_proc": 33
     },
     "60": {
+      "internal_name": "Catria (Mild Middle Sister)",
       "name": "Catria (Mild Middle Sister)",
       "color": "R",
       "hp_base": 17,
@@ -1885,13 +1946,14 @@ var data = {
       "b_name": "Aerobatics 3",
       "c_name": "Spd Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 13,
-      "base_a": 23,
+      "base_weap": 12,
+      "base_a": 24,
       "base_b": 1,
       "base_c": 109,
       "base_proc": 0
     },
     "61": {
+      "internal_name": "Catria (Spring Whitewing)",
       "name": "Catria (Spring Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -1916,13 +1978,14 @@ var data = {
       "b_name": "Chill Res 3",
       "c_name": "Drive Spd 2",
       "proc_name": "(None)",
-      "base_weap": 236,
+      "base_weap": 239,
       "base_a": 0,
       "base_b": 24,
       "base_c": 39,
       "base_proc": 0
     },
     "62": {
+      "internal_name": "Cecilia (Etrurian General)",
       "name": "Cecilia (Etrurian General)",
       "color": "G",
       "hp_base": 17,
@@ -1947,13 +2010,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 206,
-      "base_a": 28,
+      "base_weap": 209,
+      "base_a": 30,
       "base_b": 44,
       "base_c": 0,
       "base_proc": 0
     },
     "63": {
+      "internal_name": "Cecilia (Festive Instructor)",
       "name": "Cecilia (Festive Instructor)",
       "color": "N",
       "hp_base": 19,
@@ -1978,13 +2042,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Def Ploy 3",
       "proc_name": "Iceberg",
-      "base_weap": 192,
+      "base_weap": 195,
       "base_a": 16,
       "base_b": 0,
       "base_c": 28,
       "base_proc": 28
     },
     "64": {
+      "internal_name": "Ced (Hero on the Wind)",
       "name": "Ced (Hero on the Wind)",
       "color": "G",
       "hp_base": 18,
@@ -2009,13 +2074,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Pulse Smoke 3",
       "proc_name": "Luna",
-      "base_weap": 493,
-      "base_a": 112,
+      "base_weap": 497,
+      "base_a": 115,
       "base_b": 0,
       "base_c": 92,
       "base_proc": 33
     },
     "65": {
+      "internal_name": "Celica (Caring Princess)",
       "name": "Celica (Caring Princess)",
       "color": "R",
       "hp_base": 17,
@@ -2040,13 +2106,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def 3",
       "proc_name": "Blazing Light",
-      "base_weap": 342,
-      "base_a": 62,
+      "base_weap": 346,
+      "base_a": 65,
       "base_b": 0,
       "base_c": 116,
       "base_proc": 6
     },
     "66": {
+      "internal_name": "Celica (Imprisoned Soul)",
       "name": "Celica (Imprisoned Soul)",
       "color": "R",
       "hp_base": 18,
@@ -2071,13 +2138,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Hone Atk 3",
       "proc_name": "Luna",
-      "base_weap": 31,
+      "base_weap": 29,
       "base_a": 0,
       "base_b": 25,
       "base_c": 64,
       "base_proc": 33
     },
     "67": {
+      "internal_name": "Celica (Queen of Valentia)",
       "name": "Celica (Queen of Valentia)",
       "color": "G",
       "hp_base": 18,
@@ -2102,13 +2170,14 @@ var data = {
       "b_name": "Soul of Zofia",
       "c_name": "Atk/Spd Oath 3",
       "proc_name": "Miracle",
-      "base_weap": 382,
-      "base_a": 126,
+      "base_weap": 385,
+      "base_a": 129,
       "base_b": 102,
       "base_c": 13,
-      "base_proc": 35
+      "base_proc": 36
     },
     "68": {
+      "internal_name": "Celica (Warrior Priestess)",
       "name": "Celica (Warrior Priestess)",
       "color": "R",
       "hp_base": 16,
@@ -2133,13 +2202,14 @@ var data = {
       "b_name": "Double Lion",
       "c_name": "Atk Tactic 3",
       "proc_name": "Galeforce",
-      "base_weap": 373,
-      "base_a": 52,
+      "base_weap": 377,
+      "base_a": 55,
       "base_b": 39,
       "base_c": 7,
       "base_proc": 18
     },
     "69": {
+      "internal_name": "Chad (Lycian Wildcat)",
       "name": "Chad (Lycian Wildcat)",
       "color": "N",
       "hp_base": 19,
@@ -2164,13 +2234,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Spd Smoke 3",
       "proc_name": "(None)",
-      "base_weap": 371,
+      "base_weap": 375,
       "base_a": 0,
       "base_b": 44,
       "base_c": 108,
       "base_proc": 0
     },
     "70": {
+      "internal_name": "Charlotte (Money Maiden)",
       "name": "Charlotte (Money Maiden)",
       "color": "B",
       "hp_base": 20,
@@ -2195,13 +2266,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Atk 3",
       "proc_name": "(None)",
-      "base_weap": 160,
-      "base_a": 135,
+      "base_weap": 162,
+      "base_a": 138,
       "base_b": 0,
       "base_c": 129,
       "base_proc": 0
     },
     "71": {
+      "internal_name": "Cherche (Wyvern Friend)",
       "name": "Cherche (Wyvern Friend)",
       "color": "G",
       "hp_base": 20,
@@ -2226,13 +2298,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Def 3",
       "proc_name": "(None)",
-      "base_weap": 83,
-      "base_a": 28,
+      "base_weap": 85,
+      "base_a": 30,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 0
     },
     "72": {
+      "internal_name": "Chrom (Crowned Exalt)",
       "name": "Chrom (Crowned Exalt)",
       "color": "B",
       "hp_base": 17,
@@ -2252,18 +2325,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Randgr\xED\xF0r",
+      "weap_name": "Randgridr",
       "a_name": "Close Counter",
       "b_name": "Lull Atk/Def 3",
       "c_name": "Rouse Def/Res 3",
       "proc_name": "(None)",
-      "base_weap": 346,
-      "base_a": 45,
+      "base_weap": 350,
+      "base_a": 47,
       "base_b": 63,
       "base_c": 100,
       "base_proc": 0
     },
     "73": {
+      "internal_name": "Chrom (Exalted Prince)",
       "name": "Chrom (Exalted Prince)",
       "color": "R",
       "hp_base": 21,
@@ -2288,13 +2362,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def 3",
       "proc_name": "Aether",
-      "base_weap": 145,
-      "base_a": 58,
+      "base_weap": 147,
+      "base_a": 61,
       "base_b": 0,
       "base_c": 116,
       "base_proc": 2
     },
     "74": {
+      "internal_name": "Chrom (Gifted Leader)",
       "name": "Chrom (Gifted Leader)",
       "color": "G",
       "hp_base": 25,
@@ -2319,13 +2394,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 379,
-      "base_a": 37,
+      "base_weap": 381,
+      "base_a": 39,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 0
     },
     "75": {
+      "internal_name": "Chrom (Knight Exalt)",
       "name": "Chrom (Knight Exalt)",
       "color": "R",
       "hp_base": 19,
@@ -2350,13 +2426,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "Sword Valor 3",
       "proc_name": "Aether",
-      "base_weap": 393,
-      "base_a": 77,
+      "base_weap": 396,
+      "base_a": 80,
       "base_b": 23,
       "base_c": 125,
       "base_proc": 2
     },
     "76": {
+      "internal_name": "Chrom (Spring Exalt)",
       "name": "Chrom (Spring Exalt)",
       "color": "G",
       "hp_base": 19,
@@ -2381,13 +2458,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Axe Experience 3",
       "proc_name": "(None)",
-      "base_weap": 78,
-      "base_a": 29,
+      "base_weap": 79,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 14,
       "base_proc": 0
     },
     "77": {
+      "internal_name": "Clair (Highborn Flier)",
       "name": "Clair (Highborn Flier)",
       "color": "B",
       "hp_base": 18,
@@ -2412,13 +2490,14 @@ var data = {
       "b_name": "Hit and Run",
       "c_name": "Spur Spd 3",
       "proc_name": "(None)",
-      "base_weap": 368,
+      "base_weap": 372,
       "base_a": 0,
       "base_b": 55,
       "base_c": 119,
       "base_proc": 0
     },
     "78": {
+      "internal_name": "Clarine (Refined Noble)",
       "name": "Clarine (Refined Noble)",
       "color": "N",
       "hp_base": 16,
@@ -2443,13 +2522,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "(None)",
       "proc_name": "Swift-Winds Balm",
-      "base_weap": 147,
-      "base_a": 101,
+      "base_weap": 149,
+      "base_a": 104,
       "base_b": 0,
       "base_c": 0,
-      "base_proc": 51
+      "base_proc": 52
     },
     "79": {
+      "internal_name": "Clarisse (Sniper in the Dark)",
       "name": "Clarisse (Sniper in the Dark)",
       "color": "N",
       "hp_base": 18,
@@ -2474,13 +2554,14 @@ var data = {
       "b_name": "Poison Strike 3",
       "c_name": "Threaten Def 3",
       "proc_name": "Glimmer",
-      "base_weap": 84,
+      "base_weap": 86,
       "base_a": 0,
       "base_b": 77,
       "base_c": 130,
       "base_proc": 20
     },
     "80": {
+      "internal_name": "Claude (The Schemer)",
       "name": "Claude (The Schemer)",
       "color": "N",
       "hp_base": 17,
@@ -2505,13 +2586,14 @@ var data = {
       "b_name": "Lull Spd/Def 3",
       "c_name": "Def Smoke 3",
       "proc_name": "Glimmer",
-      "base_weap": 95,
+      "base_weap": 97,
       "base_a": 0,
       "base_b": 66,
       "base_c": 29,
       "base_proc": 20
     },
     "81": {
+      "internal_name": "Clive (Idealistic Knight)",
       "name": "Clive (Idealistic Knight)",
       "color": "B",
       "hp_base": 19,
@@ -2536,13 +2618,14 @@ var data = {
       "b_name": "Hit and Run",
       "c_name": "(None)",
       "proc_name": "Escutcheon",
-      "base_weap": 281,
-      "base_a": 56,
+      "base_weap": 285,
+      "base_a": 59,
       "base_b": 55,
       "base_c": 0,
       "base_proc": 15
     },
     "82": {
+      "internal_name": "Conrad (Masked Knight)",
       "name": "Conrad (Masked Knight)",
       "color": "B",
       "hp_base": 18,
@@ -2567,13 +2650,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "(None)",
       "proc_name": "Glacies",
-      "base_weap": 26,
-      "base_a": 36,
+      "base_weap": 24,
+      "base_a": 38,
       "base_b": 20,
       "base_c": 0,
       "base_proc": 19
     },
     "83": {
+      "internal_name": "Conrad (Unmasked Knight)",
       "name": "Conrad (Unmasked Knight)",
       "color": "R",
       "hp_base": 17,
@@ -2598,13 +2682,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 295,
-      "base_a": 41,
+      "base_weap": 297,
+      "base_a": 43,
       "base_b": 119,
       "base_c": 0,
       "base_proc": 0
     },
     "84": {
+      "internal_name": "Cordelia (Knight Paradise)",
       "name": "Cordelia (Knight Paradise)",
       "color": "B",
       "hp_base": 17,
@@ -2629,13 +2714,14 @@ var data = {
       "b_name": "Dull Close 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 399,
-      "base_a": 120,
+      "base_weap": 402,
+      "base_a": 123,
       "base_b": 41,
       "base_c": 0,
       "base_proc": 0
     },
     "85": {
+      "internal_name": "Cordelia (Knight Paragon)",
       "name": "Cordelia (Knight Paragon)",
       "color": "B",
       "hp_base": 18,
@@ -2660,13 +2746,14 @@ var data = {
       "b_name": "Pass 3",
       "c_name": "(None)",
       "proc_name": "Galeforce",
-      "base_weap": 90,
-      "base_a": 129,
+      "base_weap": 92,
+      "base_a": 132,
       "base_b": 75,
       "base_c": 0,
       "base_proc": 18
     },
     "86": {
+      "internal_name": "Cordelia (Perfect Bride)",
       "name": "Cordelia (Perfect Bride)",
       "color": "N",
       "hp_base": 17,
@@ -2691,13 +2778,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Breath of Life 3",
       "proc_name": "(None)",
-      "base_weap": 96,
+      "base_weap": 98,
       "base_a": 0,
       "base_b": 44,
       "base_c": 22,
       "base_proc": 0
     },
     "87": {
+      "internal_name": "Cormag (Aloof Lanceman)",
       "name": "Cormag (Aloof Lanceman)",
       "color": "B",
       "hp_base": 18,
@@ -2722,13 +2810,14 @@ var data = {
       "b_name": "Dull Close 3",
       "c_name": "Def Opening 3",
       "proc_name": "Ignis",
-      "base_weap": 422,
+      "base_weap": 425,
       "base_a": 0,
       "base_b": 41,
       "base_c": 27,
       "base_proc": 29
     },
     "88": {
+      "internal_name": "Corrin (Dream Prince)",
       "name": "Corrin (Dream Prince)",
       "color": "B",
       "hp_base": 16,
@@ -2753,13 +2842,14 @@ var data = {
       "b_name": "Null Follow-Up 3",
       "c_name": "Hone Dragons",
       "proc_name": "Dragon Fang",
-      "base_weap": 125,
+      "base_weap": 128,
       "base_a": 11,
       "base_b": 72,
       "base_c": 68,
       "base_proc": 12
     },
     "89": {
+      "internal_name": "Corrin (Dream Princess)",
       "name": "Corrin (Dream Princess)",
       "color": "G",
       "hp_base": 15,
@@ -2784,13 +2874,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Dragons",
       "proc_name": "Draconic Aura",
-      "base_weap": 125,
-      "base_a": 22,
+      "base_weap": 128,
+      "base_a": 23,
       "base_b": 0,
       "base_c": 49,
       "base_proc": 11
     },
     "90": {
+      "internal_name": "Corrin (Enjoying Tradition)",
       "name": "Corrin (Enjoying Tradition)",
       "color": "N",
       "hp_base": 18,
@@ -2815,13 +2906,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def/Res 2",
       "proc_name": "(None)",
-      "base_weap": 219,
-      "base_a": 29,
+      "base_weap": 222,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 117,
       "base_proc": 0
     },
     "91": {
+      "internal_name": "Corrin (Fateful Prince)",
       "name": "Corrin (Fateful Prince)",
       "color": "R",
       "hp_base": 20,
@@ -2846,13 +2938,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "Dragon Fang",
-      "base_weap": 503,
-      "base_a": 56,
+      "base_weap": 507,
+      "base_a": 59,
       "base_b": 73,
       "base_c": 0,
       "base_proc": 12
     },
     "92": {
+      "internal_name": "Corrin (Fateful Princess)",
       "name": "Corrin (Fateful Princess)",
       "color": "B",
       "hp_base": 19,
@@ -2877,13 +2970,14 @@ var data = {
       "b_name": "Seal Res 3",
       "c_name": "Hone Atk 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 103,
+      "base_weap": 105,
       "base_a": 0,
       "base_b": 97,
       "base_c": 64,
       "base_proc": 11
     },
     "93": {
+      "internal_name": "Corrin (Novice Vacationer)",
       "name": "Corrin (Novice Vacationer)",
       "color": "B",
       "hp_base": 17,
@@ -2908,13 +3002,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Fliers",
       "proc_name": "Dragon Fang",
-      "base_weap": 394,
-      "base_a": 128,
+      "base_weap": 397,
+      "base_a": 131,
       "base_b": 0,
       "base_c": 50,
       "base_proc": 12
     },
     "94": {
+      "internal_name": "Corrin (Wailing Soul)",
       "name": "Corrin (Wailing Soul)",
       "color": "N",
       "hp_base": 15,
@@ -2939,13 +3034,14 @@ var data = {
       "b_name": "Sudden Panic 3",
       "c_name": "(None)",
       "proc_name": "Dragon Fang",
-      "base_weap": 388,
-      "base_a": 27,
+      "base_weap": 391,
+      "base_a": 28,
       "base_b": 110,
       "base_c": 0,
       "base_proc": 12
     },
     "95": {
+      "internal_name": "Cynthia (Hero Chaser)",
       "name": "Cynthia (Hero Chaser)",
       "color": "B",
       "hp_base": 16,
@@ -2970,13 +3066,14 @@ var data = {
       "b_name": "Spd/Def Link 3",
       "c_name": "Drive Atk 2",
       "proc_name": "(None)",
-      "base_weap": 158,
+      "base_weap": 160,
       "base_a": 0,
       "base_b": 104,
       "base_c": 36,
       "base_proc": 0
     },
     "96": {
+      "internal_name": "Death Knight (The Reaper)",
       "name": "Death Knight (The Reaper)",
       "color": "B",
       "hp_base": 18,
@@ -3001,13 +3098,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Close Guard 3",
       "proc_name": "Blazing Flame",
-      "base_weap": 392,
+      "base_weap": 395,
       "base_a": 0,
       "base_b": 44,
       "base_c": 24,
       "base_proc": 5
     },
     "97": {
+      "internal_name": "Deirdre (Lady of the Forest)",
       "name": "Deirdre (Lady of the Forest)",
       "color": "G",
       "hp_base": 17,
@@ -3032,13 +3130,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Spd Ploy 3",
       "proc_name": "(None)",
-      "base_weap": 121,
+      "base_weap": 124,
       "base_a": 0,
       "base_b": 78,
       "base_c": 107,
       "base_proc": 0
     },
     "98": {
+      "internal_name": "Delthea (Free Spirit)",
       "name": "Delthea (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -3063,13 +3162,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Atk 2",
       "proc_name": "Miracle",
-      "base_weap": 102,
-      "base_a": 51,
+      "base_weap": 104,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 36,
-      "base_proc": 35
+      "base_proc": 36
     },
     "99": {
+      "internal_name": "Delthea (Tatarrah's Puppet)",
       "name": "Delthea (Tatarrah's Puppet)",
       "color": "B",
       "hp_base": 17,
@@ -3094,13 +3194,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Even Atk Wave 3",
       "proc_name": "Glacies",
-      "base_weap": 110,
-      "base_a": 51,
+      "base_weap": 113,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 40,
       "base_proc": 19
     },
     "100": {
+      "internal_name": "Dimitri (The Protector)",
       "name": "Dimitri (The Protector)",
       "color": "B",
       "hp_base": 18,
@@ -3125,13 +3226,14 @@ var data = {
       "b_name": "Lull Atk/Def 3",
       "c_name": "(None)",
       "proc_name": "Vengeance",
-      "base_weap": 321,
-      "base_a": 52,
+      "base_weap": 325,
+      "base_a": 55,
       "base_b": 63,
       "base_c": 0,
-      "base_proc": 53
+      "base_proc": 54
     },
     "101": {
+      "internal_name": "Donnel (Village Hero)",
       "name": "Donnel (Village Hero)",
       "color": "B",
       "hp_base": 17,
@@ -3156,13 +3258,14 @@ var data = {
       "b_name": "Drag Back",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 58,
-      "base_a": 84,
+      "base_weap": 57,
+      "base_a": 87,
       "base_b": 40,
       "base_c": 0,
       "base_proc": 0
     },
     "102": {
+      "internal_name": "Dorcas (Pumpkin Smasher)",
       "name": "Dorcas (Pumpkin Smasher)",
       "color": "G",
       "hp_base": 23,
@@ -3187,13 +3290,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 216,
-      "base_a": 122,
+      "base_weap": 219,
+      "base_a": 125,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 0
     },
     "103": {
+      "internal_name": "Dorcas (Serene Warrior)",
       "name": "Dorcas (Serene Warrior)",
       "color": "G",
       "hp_base": 19,
@@ -3218,13 +3322,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Infantry Pulse 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 439,
-      "base_a": 70,
+      "base_weap": 443,
+      "base_a": 73,
       "base_b": 78,
       "base_c": 77,
       "base_proc": 11
     },
     "104": {
+      "internal_name": "Dozla (Harvest Attendant)",
       "name": "Dozla (Harvest Attendant)",
       "color": "N",
       "hp_base": 21,
@@ -3249,13 +3354,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Armor March 3",
       "proc_name": "(None)",
-      "base_weap": 341,
+      "base_weap": 345,
       "base_a": 1,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 0
     },
     "105": {
+      "internal_name": "Draug (Gentle Giant)",
       "name": "Draug (Gentle Giant)",
       "color": "R",
       "hp_base": 24,
@@ -3280,13 +3386,14 @@ var data = {
       "b_name": "Lunge",
       "c_name": "Ward Armor",
       "proc_name": "Pavise",
-      "base_weap": 59,
+      "base_weap": 58,
       "base_a": 0,
       "base_b": 69,
       "base_c": 136,
-      "base_proc": 40
+      "base_proc": 41
     },
     "106": {
+      "internal_name": "Duma (God of Strength)",
       "name": "Duma (God of Strength)",
       "color": "N",
       "hp_base": 24,
@@ -3311,13 +3418,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Upheaval",
       "proc_name": "Draconic Aura",
-      "base_weap": 150,
-      "base_a": 55,
+      "base_weap": 152,
+      "base_a": 58,
       "base_b": 14,
       "base_c": 134,
       "base_proc": 11
     },
     "107": {
+      "internal_name": "Echidna (Unyielding Idealist)",
       "name": "Echidna (Unyielding Idealist)",
       "color": "G",
       "hp_base": 19,
@@ -3342,13 +3450,46 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Atk 2",
       "proc_name": "Sol",
-      "base_weap": 357,
-      "base_a": 43,
+      "base_weap": 361,
+      "base_a": 45,
       "base_b": 0,
       "base_c": 36,
-      "base_proc": 48
+      "base_proc": 49
     },
     "108": {
+      "internal_name": "Edelgard (Flame Emperor)",
+      "name": "Edelgard (Flame Emperor)",
+      "color": "G",
+      "hp_base": 19,
+      "atk_base": 12,
+      "spd_base": 4,
+      "def_base": 13,
+      "res_base": 8,
+      "hpGrowth": 60,
+      "atkGrowth": 70,
+      "spdGrowth": 30,
+      "defGrowth": 60,
+      "resGrowth": 65,
+      "n_lock": 0,
+      "type": "A",
+      "weap": "A",
+      "legendary": 1,
+      "mythic": 0,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Aymr",
+      "a_name": "Atk/Res Solo 3",
+      "b_name": "Raging Storm",
+      "c_name": "Armored Stride 3",
+      "proc_name": "Bonfire",
+      "base_weap": 19,
+      "base_a": 20,
+      "base_b": 80,
+      "base_c": 3,
+      "base_proc": 10
+    },
+    "109": {
+      "internal_name": "Edelgard (The Future)",
       "name": "Edelgard (The Future)",
       "color": "G",
       "hp_base": 17,
@@ -3373,13 +3514,14 @@ var data = {
       "b_name": "Dull Close 3",
       "c_name": "Rouse Atk/Def 3",
       "proc_name": "Luna",
-      "base_weap": 477,
+      "base_weap": 481,
       "base_a": 15,
       "base_b": 41,
       "base_c": 99,
       "base_proc": 33
     },
-    "109": {
+    "110": {
+      "internal_name": "Effie (Army of One)",
       "name": "Effie (Army of One)",
       "color": "B",
       "hp_base": 22,
@@ -3404,13 +3546,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 411,
-      "base_a": 51,
+      "base_weap": 414,
+      "base_a": 54,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 0
     },
-    "110": {
+    "111": {
+      "internal_name": "Eir (Merciful Death)",
       "name": "Eir (Merciful Death)",
       "color": "N",
       "hp_base": 16,
@@ -3435,13 +3578,14 @@ var data = {
       "b_name": "Mystic Boost 3",
       "c_name": "Sparkling Boost",
       "proc_name": "Iceberg",
-      "base_weap": 286,
-      "base_a": 125,
+      "base_weap": 290,
+      "base_a": 128,
       "base_b": 70,
       "base_c": 105,
       "base_proc": 28
     },
-    "111": {
+    "112": {
+      "internal_name": "Eir (Renewed Life)",
       "name": "Eir (Renewed Life)",
       "color": "R",
       "hp_base": 17,
@@ -3466,13 +3610,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spd Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 451,
-      "base_a": 38,
+      "base_weap": 455,
+      "base_a": 40,
       "base_b": 0,
       "base_c": 109,
       "base_proc": 0
     },
-    "112": {
+    "113": {
+      "internal_name": "Eirika (Anamnesis Lady)",
       "name": "Eirika (Anamnesis Lady)",
       "color": "R",
       "hp_base": 17,
@@ -3497,13 +3642,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "R Tome Exp. 3",
       "proc_name": "(None)",
-      "base_weap": 188,
-      "base_a": 125,
+      "base_weap": 191,
+      "base_a": 128,
       "base_b": 37,
       "base_c": 93,
       "base_proc": 0
     },
-    "113": {
+    "114": {
+      "internal_name": "Eirika (Gentle as Snow)",
       "name": "Eirika (Gentle as Snow)",
       "color": "N",
       "hp_base": 18,
@@ -3528,13 +3674,14 @@ var data = {
       "b_name": "Dazzling Staff 3",
       "c_name": "Atk Opening 3",
       "proc_name": "Heavenly Light",
-      "base_weap": 247,
+      "base_weap": 251,
       "base_a": 0,
       "base_b": 31,
       "base_c": 4,
       "base_proc": 25
     },
-    "114": {
+    "115": {
+      "internal_name": "Eirika (Graceful Resolve)",
       "name": "Eirika (Graceful Resolve)",
       "color": "R",
       "hp_base": 16,
@@ -3559,13 +3706,14 @@ var data = {
       "b_name": "Lunar Brace",
       "c_name": "Odd Def Wave 3",
       "proc_name": "Moonbow",
-      "base_weap": 438,
-      "base_a": 27,
+      "base_weap": 442,
+      "base_a": 28,
       "base_b": 68,
       "base_c": 86,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "115": {
+    "116": {
+      "internal_name": "Eirika (Restoration Lady)",
       "name": "Eirika (Restoration Lady)",
       "color": "R",
       "hp_base": 18,
@@ -3590,13 +3738,14 @@ var data = {
       "b_name": "Drag Back",
       "c_name": "Hone Spd 3",
       "proc_name": "(None)",
-      "base_weap": 405,
+      "base_weap": 408,
       "base_a": 0,
       "base_b": 40,
       "base_c": 70,
       "base_proc": 0
     },
-    "116": {
+    "117": {
+      "internal_name": "Eldigan (Lionheart)",
       "name": "Eldigan (Lionheart)",
       "color": "R",
       "hp_base": 19,
@@ -3621,13 +3770,14 @@ var data = {
       "b_name": "Lunge",
       "c_name": "(None)",
       "proc_name": "Growing Light",
-      "base_weap": 310,
-      "base_a": 77,
+      "base_weap": 314,
+      "base_a": 80,
       "base_b": 69,
       "base_c": 0,
       "base_proc": 22
     },
-    "117": {
+    "118": {
+      "internal_name": "Eleonora (Shooting Starlet)",
       "name": "Eleonora (Shooting Starlet)",
       "color": "N",
       "hp_base": 18,
@@ -3652,13 +3802,14 @@ var data = {
       "b_name": "Spd/Def Ruse 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 302,
-      "base_a": 26,
+      "base_weap": 304,
+      "base_a": 27,
       "base_b": 105,
       "base_c": 0,
       "base_proc": 0
     },
-    "118": {
+    "119": {
+      "internal_name": "Elincia (Estival Princess)",
       "name": "Elincia (Estival Princess)",
       "color": "G",
       "hp_base": 15,
@@ -3683,13 +3834,14 @@ var data = {
       "b_name": "Rockslide Dance 2",
       "c_name": "Drive Res 2",
       "proc_name": "(None)",
-      "base_weap": 85,
-      "base_a": 25,
+      "base_weap": 87,
+      "base_a": 26,
       "base_b": 85,
       "base_c": 38,
       "base_proc": 0
     },
-    "119": {
+    "120": {
+      "internal_name": "Elincia (Lost Princess)",
       "name": "Elincia (Lost Princess)",
       "color": "R",
       "hp_base": 16,
@@ -3714,13 +3866,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 4,
-      "base_a": 51,
+      "base_weap": 3,
+      "base_a": 54,
       "base_b": 48,
       "base_c": 0,
       "base_proc": 0
     },
-    "120": {
+    "121": {
+      "internal_name": "Elise (Bubbling Flower)",
       "name": "Elise (Bubbling Flower)",
       "color": "R",
       "hp_base": 15,
@@ -3745,13 +3898,14 @@ var data = {
       "b_name": "Atk Feint 3",
       "c_name": "Dagger Valor 3",
       "proc_name": "(None)",
-      "base_weap": 359,
-      "base_a": 125,
+      "base_weap": 363,
+      "base_a": 128,
       "base_b": 2,
       "base_c": 26,
       "base_proc": 0
     },
-    "121": {
+    "122": {
+      "internal_name": "Elise (Budding Flower)",
       "name": "Elise (Budding Flower)",
       "color": "N",
       "hp_base": 15,
@@ -3776,13 +3930,14 @@ var data = {
       "b_name": "Live to Serve 3",
       "c_name": "(None)",
       "proc_name": "Kindled-Fire Balm",
-      "base_weap": 197,
+      "base_weap": 200,
       "base_a": 0,
       "base_b": 62,
       "base_c": 0,
       "base_proc": 32
     },
-    "122": {
+    "123": {
+      "internal_name": "Elise (Tropical Flower)",
       "name": "Elise (Tropical Flower)",
       "color": "G",
       "hp_base": 17,
@@ -3807,13 +3962,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "G Tome Valor 3",
       "proc_name": "(None)",
-      "base_weap": 230,
-      "base_a": 109,
+      "base_weap": 233,
+      "base_a": 112,
       "base_b": 0,
       "base_c": 54,
       "base_proc": 0
     },
-    "123": {
+    "124": {
+      "internal_name": "Eliwood (Blazing Knight)",
       "name": "Eliwood (Blazing Knight)",
       "color": "R",
       "hp_base": 18,
@@ -3838,13 +3994,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "Vision of Arcadia",
       "proc_name": "(None)",
-      "base_weap": 7,
-      "base_a": 52,
+      "base_weap": 6,
+      "base_a": 55,
       "base_b": 20,
       "base_c": 135,
       "base_proc": 0
     },
-    "124": {
+    "125": {
+      "internal_name": "Eliwood (Devoted Love)",
       "name": "Eliwood (Devoted Love)",
       "color": "B",
       "hp_base": 23,
@@ -3869,13 +4026,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Armor",
       "proc_name": "(None)",
-      "base_weap": 81,
-      "base_a": 71,
+      "base_weap": 82,
+      "base_a": 74,
       "base_b": 0,
       "base_c": 56,
       "base_proc": 0
     },
-    "125": {
+    "126": {
+      "internal_name": "Eliwood (Knight of Lycia)",
       "name": "Eliwood (Knight of Lycia)",
       "color": "R",
       "hp_base": 17,
@@ -3900,13 +4058,14 @@ var data = {
       "b_name": "Axebreaker 3",
       "c_name": "Ward Cavalry",
       "proc_name": "Sacred Cowl",
-      "base_weap": 129,
+      "base_weap": 132,
       "base_a": 0,
       "base_b": 8,
       "base_c": 138,
-      "base_proc": 46
+      "base_proc": 47
     },
-    "126": {
+    "127": {
+      "internal_name": "Eliwood (Marquess Pherae)",
       "name": "Eliwood (Marquess Pherae)",
       "color": "B",
       "hp_base": 18,
@@ -3931,13 +4090,14 @@ var data = {
       "b_name": "Atk/Spd Ruse 3",
       "c_name": "Spd Opening 3",
       "proc_name": "(None)",
-      "base_weap": 320,
-      "base_a": 126,
+      "base_weap": 322,
+      "base_a": 129,
       "base_b": 7,
       "base_c": 106,
       "base_proc": 0
     },
-    "127": {
+    "128": {
+      "internal_name": "Ephraim (Dynastic Duo)",
       "name": "Ephraim (Dynastic Duo)",
       "color": "B",
       "hp_base": 19,
@@ -3962,13 +4122,14 @@ var data = {
       "b_name": "Lull Atk/Def 3",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 363,
-      "base_a": 83,
+      "base_weap": 367,
+      "base_a": 86,
       "base_b": 63,
       "base_c": 85,
       "base_proc": 11
     },
-    "128": {
+    "129": {
+      "internal_name": "Ephraim (Legendary Lord)",
       "name": "Ephraim (Legendary Lord)",
       "color": "B",
       "hp_base": 19,
@@ -3993,13 +4154,14 @@ var data = {
       "b_name": "Solar Brace",
       "c_name": "Fortify Def 3",
       "proc_name": "Sol",
-      "base_weap": 162,
-      "base_a": 122,
+      "base_weap": 164,
+      "base_a": 125,
       "base_b": 101,
       "base_c": 48,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "129": {
+    "130": {
+      "internal_name": "Ephraim (Restoration Lord)",
       "name": "Ephraim (Restoration Lord)",
       "color": "B",
       "hp_base": 19,
@@ -4024,13 +4186,14 @@ var data = {
       "b_name": "Seal Def 3",
       "c_name": "Threaten Def 3",
       "proc_name": "Moonbow",
-      "base_weap": 406,
+      "base_weap": 409,
       "base_a": 0,
       "base_b": 95,
       "base_c": 130,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "130": {
+    "131": {
+      "internal_name": "Ephraim (Sacred Twin Lord)",
       "name": "Ephraim (Sacred Twin Lord)",
       "color": "G",
       "hp_base": 22,
@@ -4055,13 +4218,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 179,
-      "base_a": 46,
+      "base_weap": 182,
+      "base_a": 48,
       "base_b": 108,
       "base_c": 2,
       "base_proc": 11
     },
-    "131": {
+    "132": {
+      "internal_name": "Ephraim (Sparkling Gallantly)",
       "name": "Ephraim (Sparkling Gallantly)",
       "color": "B",
       "hp_base": 21,
@@ -4086,13 +4250,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Close Guard 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 153,
+      "base_weap": 155,
       "base_a": 15,
       "base_b": 14,
       "base_c": 24,
       "base_proc": 12
     },
-    "132": {
+    "133": {
+      "internal_name": "Est (Junior Whitewing)",
       "name": "Est (Junior Whitewing)",
       "color": "B",
       "hp_base": 17,
@@ -4117,13 +4282,14 @@ var data = {
       "b_name": "Seal Spd 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 490,
-      "base_a": 59,
+      "base_weap": 494,
+      "base_a": 62,
       "base_b": 98,
       "base_c": 0,
       "base_proc": 0
     },
-    "133": {
+    "134": {
+      "internal_name": "Est (Springtime Flier)",
       "name": "Est (Springtime Flier)",
       "color": "B",
       "hp_base": 17,
@@ -4148,13 +4314,14 @@ var data = {
       "b_name": "Chill Atk/Res 2",
       "c_name": "Hone Fliers",
       "proc_name": "Moonbow",
-      "base_weap": 131,
-      "base_a": 78,
+      "base_weap": 134,
+      "base_a": 81,
       "base_b": 21,
       "base_c": 69,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "134": {
+    "135": {
+      "internal_name": "Ethlyn (Spirited Princess)",
       "name": "Ethlyn (Spirited Princess)",
       "color": "N",
       "hp_base": 16,
@@ -4179,13 +4346,14 @@ var data = {
       "b_name": "Live to Serve 3",
       "c_name": "(None)",
       "proc_name": "Heavenly Light",
-      "base_weap": 147,
-      "base_a": 106,
+      "base_weap": 149,
+      "base_a": 109,
       "base_b": 62,
       "base_c": 0,
       "base_proc": 25
     },
-    "135": {
+    "136": {
+      "internal_name": "Ewan (Eager Student)",
       "name": "Ewan (Eager Student)",
       "color": "R",
       "hp_base": 16,
@@ -4205,18 +4373,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Rau\xF0rserpent+",
+      "weap_name": "Raudrserpent+",
       "a_name": "Swift Stance 2",
       "b_name": "Sabotage Spd 3",
       "c_name": "(None)",
       "proc_name": "Glacies",
-      "base_weap": 353,
-      "base_a": 127,
+      "base_weap": 357,
+      "base_a": 130,
       "base_b": 90,
       "base_c": 0,
       "base_proc": 19
     },
-    "136": {
+    "137": {
+      "internal_name": "Eyvel (Mistress of Fiana)",
       "name": "Eyvel (Mistress of Fiana)",
       "color": "R",
       "hp_base": 17,
@@ -4241,13 +4410,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 212,
+      "base_weap": 215,
       "base_a": 12,
       "base_b": 20,
       "base_c": 0,
       "base_proc": 29
     },
-    "137": {
+    "138": {
+      "internal_name": "Fae (Divine Dragon)",
       "name": "Fae (Divine Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -4272,13 +4442,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "Threaten Atk 3",
       "proc_name": "(None)",
-      "base_weap": 274,
+      "base_weap": 278,
       "base_a": 0,
       "base_b": 82,
       "base_c": 129,
       "base_proc": 0
     },
-    "138": {
+    "139": {
+      "internal_name": "Fae (Holiday Dear)",
       "name": "Fae (Holiday Dear)",
       "color": "G",
       "hp_base": 17,
@@ -4303,13 +4474,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "Luna",
-      "base_weap": 189,
-      "base_a": 54,
+      "base_weap": 192,
+      "base_a": 57,
       "base_b": 114,
       "base_c": 2,
       "base_proc": 33
     },
-    "139": {
+    "140": {
+      "internal_name": "Faye (Devoted Heart)",
       "name": "Faye (Devoted Heart)",
       "color": "N",
       "hp_base": 16,
@@ -4334,13 +4506,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "Bow Exp. 3",
       "proc_name": "Noontime",
-      "base_weap": 55,
+      "base_weap": 54,
       "base_a": 0,
       "base_b": 119,
       "base_c": 20,
-      "base_proc": 38
+      "base_proc": 39
     },
-    "140": {
+    "141": {
+      "internal_name": "Faye (Drawn Heartstring)",
       "name": "Faye (Drawn Heartstring)",
       "color": "N",
       "hp_base": 19,
@@ -4366,12 +4539,13 @@ var data = {
       "c_name": "Armor March 3",
       "proc_name": "Moonbow",
       "base_weap": 66,
-      "base_a": 52,
+      "base_a": 55,
       "base_b": 14,
       "base_c": 2,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "141": {
+    "142": {
+      "internal_name": "Felicia (Maid Mayhem)",
       "name": "Felicia (Maid Mayhem)",
       "color": "N",
       "hp_base": 15,
@@ -4396,13 +4570,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Breath of Life 3",
       "proc_name": "Glacies",
-      "base_weap": 149,
-      "base_a": 101,
+      "base_weap": 151,
+      "base_a": 104,
       "base_b": 0,
       "base_c": 22,
       "base_proc": 19
     },
-    "142": {
+    "143": {
+      "internal_name": "Felicia (Off the Menu)",
       "name": "Felicia (Off the Menu)",
       "color": "G",
       "hp_base": 21,
@@ -4422,18 +4597,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Eldhr\xEDmnir",
+      "weap_name": "Eldhrimnir",
       "a_name": "Spd/Def Bond 3",
       "b_name": "Special Fighter 3",
       "c_name": "Close Guard 3",
       "proc_name": "Glacies",
-      "base_weap": 134,
-      "base_a": 106,
+      "base_weap": 137,
+      "base_a": 109,
       "base_b": 108,
       "base_c": 24,
       "base_proc": 19
     },
-    "143": {
+    "144": {
+      "internal_name": "Ferdinand (Noblest of Nobles)",
       "name": "Ferdinand (Noblest of Nobles)",
       "color": "B",
       "hp_base": 19,
@@ -4458,13 +4634,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Rouse Spd/Def 3",
       "proc_name": "(None)",
-      "base_weap": 470,
-      "base_a": 75,
+      "base_weap": 474,
+      "base_a": 78,
       "base_b": 0,
       "base_c": 101,
       "base_proc": 0
     },
-    "144": {
+    "145": {
+      "internal_name": "Finn (Lance of Legend)",
       "name": "Finn (Lance of Legend)",
       "color": "B",
       "hp_base": 18,
@@ -4489,13 +4666,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Cavalry",
       "proc_name": "Miracle",
-      "base_weap": 58,
-      "base_a": 29,
+      "base_weap": 57,
+      "base_a": 31,
       "base_b": 0,
       "base_c": 58,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "145": {
+    "146": {
+      "internal_name": "Fiora (Airborne Warrior)",
       "name": "Fiora (Airborne Warrior)",
       "color": "B",
       "hp_base": 19,
@@ -4520,13 +4698,14 @@ var data = {
       "b_name": "Pegasus Flight 3",
       "c_name": "(None)",
       "proc_name": "Iceberg",
-      "base_weap": 211,
-      "base_a": 77,
+      "base_weap": 214,
+      "base_a": 80,
       "base_b": 76,
       "base_c": 0,
       "base_proc": 28
     },
-    "146": {
+    "147": {
+      "internal_name": "Fiora (Defrosted Illian)",
       "name": "Fiora (Defrosted Illian)",
       "color": "R",
       "hp_base": 18,
@@ -4551,13 +4730,14 @@ var data = {
       "b_name": "Spd/Res Link 3",
       "c_name": "Atk Smoke 3",
       "proc_name": "(None)",
-      "base_weap": 336,
+      "base_weap": 340,
       "base_a": 0,
       "base_b": 106,
       "base_c": 6,
       "base_proc": 0
     },
-    "147": {
+    "148": {
+      "internal_name": "Fir (Student of Spring)",
       "name": "Fir (Student of Spring)",
       "color": "G",
       "hp_base": 17,
@@ -4583,12 +4763,13 @@ var data = {
       "c_name": "Air Orders 3",
       "proc_name": "(None)",
       "base_weap": 69,
-      "base_a": 27,
+      "base_a": 28,
       "base_b": 0,
       "base_c": 1,
       "base_proc": 0
     },
-    "148": {
+    "149": {
+      "internal_name": "Fir (Sword Student)",
       "name": "Fir (Sword Student)",
       "color": "R",
       "hp_base": 19,
@@ -4613,13 +4794,14 @@ var data = {
       "b_name": "Pass 3",
       "c_name": "(None)",
       "proc_name": "Glacies",
-      "base_weap": 315,
-      "base_a": 113,
+      "base_weap": 317,
+      "base_a": 116,
       "base_b": 75,
       "base_c": 0,
       "base_proc": 19
     },
-    "149": {
+    "150": {
+      "internal_name": "Fjorm (Bride of Rime)",
       "name": "Fjorm (Bride of Rime)",
       "color": "N",
       "hp_base": 18,
@@ -4639,18 +4821,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Gjallarbr\xFA",
+      "weap_name": "Gjallarbru",
       "a_name": "HP/Atk 2",
       "b_name": "Dazzling Staff 3",
       "c_name": "Ground Orders 3",
       "proc_name": "(None)",
-      "base_weap": 186,
-      "base_a": 85,
+      "base_weap": 188,
+      "base_a": 88,
       "base_b": 31,
       "base_c": 61,
       "base_proc": 0
     },
-    "150": {
+    "151": {
+      "internal_name": "Fjorm (New Traditions)",
       "name": "Fjorm (New Traditions)",
       "color": "G",
       "hp_base": 17,
@@ -4675,13 +4858,14 @@ var data = {
       "b_name": "Atk/Spd Link 3",
       "c_name": "Even Res Wave 3",
       "proc_name": "(None)",
-      "base_weap": 250,
-      "base_a": 22,
+      "base_weap": 254,
+      "base_a": 23,
       "base_b": 6,
       "base_c": 42,
       "base_proc": 0
     },
-    "151": {
+    "152": {
+      "internal_name": "Fjorm (Princess of Ice)",
       "name": "Fjorm (Princess of Ice)",
       "color": "B",
       "hp_base": 17,
@@ -4706,13 +4890,14 @@ var data = {
       "b_name": "Shield Pulse 3",
       "c_name": "Drive Atk 2",
       "proc_name": "Ice Mirror",
-      "base_weap": 271,
+      "base_weap": 275,
       "base_a": 11,
       "base_b": 100,
       "base_c": 36,
       "base_proc": 27
     },
-    "152": {
+    "153": {
+      "internal_name": "Flame Emperor (Bringer of War)",
       "name": "Flame Emperor (Bringer of War)",
       "color": "G",
       "hp_base": 20,
@@ -4737,13 +4922,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 209,
-      "base_a": 36,
+      "base_weap": 212,
+      "base_a": 38,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 29
     },
-    "153": {
+    "154": {
+      "internal_name": "Flora (Cold as Ice)",
       "name": "Flora (Cold as Ice)",
       "color": "R",
       "hp_base": 16,
@@ -4768,13 +4954,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Def Ploy 3",
       "proc_name": "Iceberg",
-      "base_weap": 235,
+      "base_weap": 238,
       "base_a": 20,
       "base_b": 78,
       "base_c": 28,
       "base_proc": 28
     },
-    "154": {
+    "155": {
+      "internal_name": "Flora (Signature Dish)",
       "name": "Flora (Signature Dish)",
       "color": "R",
       "hp_base": 19,
@@ -4794,18 +4981,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "S\xE6hr\xEDmnir",
+      "weap_name": "Saehrimnir",
       "a_name": "AR-D Atk/Res 3",
       "b_name": "Bold Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "Iceberg",
-      "base_weap": 375,
+      "base_weap": 382,
       "base_a": 2,
       "base_b": 14,
       "base_c": 2,
       "base_proc": 28
     },
-    "155": {
+    "156": {
+      "internal_name": "Florina (Lovely Flier)",
       "name": "Florina (Lovely Flier)",
       "color": "B",
       "hp_base": 18,
@@ -4830,13 +5018,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Breath of Life 3",
       "proc_name": "(None)",
-      "base_weap": 166,
-      "base_a": 48,
+      "base_weap": 168,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 22,
       "base_proc": 0
     },
-    "156": {
+    "157": {
+      "internal_name": "Forrest (Fashion Forward)",
       "name": "Forrest (Fashion Forward)",
       "color": "N",
       "hp_base": 17,
@@ -4861,13 +5050,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Res Ploy 3",
       "proc_name": "Heavenly Light",
-      "base_weap": 328,
-      "base_a": 76,
+      "base_weap": 332,
+      "base_a": 79,
       "base_b": 0,
       "base_c": 96,
       "base_proc": 25
     },
-    "157": {
+    "158": {
+      "internal_name": "Forsyth (Loyal Lieutenant)",
       "name": "Forsyth (Loyal Lieutenant)",
       "color": "B",
       "hp_base": 23,
@@ -4892,13 +5082,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Joint Hone Def",
       "proc_name": "Bonfire",
-      "base_weap": 428,
-      "base_a": 54,
+      "base_weap": 432,
+      "base_a": 57,
       "base_b": 14,
       "base_c": 81,
       "base_proc": 10
     },
-    "158": {
+    "159": {
+      "internal_name": "Frederick (H. Watcher)",
       "name": "Frederick (H. Watcher)",
       "color": "N",
       "hp_base": 18,
@@ -4923,13 +5114,14 @@ var data = {
       "b_name": "Seal Atk/Spd 2",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 395,
+      "base_weap": 398,
       "base_a": 9,
       "base_b": 94,
       "base_c": 0,
       "base_proc": 0
     },
-    "159": {
+    "160": {
+      "internal_name": "Frederick (Polite Knight)",
       "name": "Frederick (Polite Knight)",
       "color": "G",
       "hp_base": 19,
@@ -4954,13 +5146,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "Fortify Def 3",
       "proc_name": "Luna",
-      "base_weap": 172,
+      "base_weap": 175,
       "base_a": 0,
       "base_b": 119,
       "base_c": 48,
       "base_proc": 33
     },
-    "160": {
+    "161": {
+      "internal_name": "Gaius (Candy Stealer)",
       "name": "Gaius (Candy Stealer)",
       "color": "N",
       "hp_base": 18,
@@ -4985,13 +5178,14 @@ var data = {
       "b_name": "Pass 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 75,
-      "base_a": 57,
+      "base_weap": 76,
+      "base_a": 60,
       "base_b": 75,
       "base_c": 0,
       "base_proc": 0
     },
-    "161": {
+    "162": {
+      "internal_name": "Gaius (Thief Exposed)",
       "name": "Gaius (Thief Exposed)",
       "color": "N",
       "hp_base": 17,
@@ -5016,13 +5210,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "Def Ploy 3",
       "proc_name": "Astra",
-      "base_weap": 361,
+      "base_weap": 365,
       "base_a": 0,
       "base_b": 113,
       "base_c": 28,
       "base_proc": 3
     },
-    "162": {
+    "163": {
+      "internal_name": "Garon (King of Nohr)",
       "name": "Garon (King of Nohr)",
       "color": "R",
       "hp_base": 17,
@@ -5047,13 +5242,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Panic Ploy 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 61,
-      "base_a": 62,
+      "base_weap": 60,
+      "base_a": 65,
       "base_b": 0,
       "base_c": 90,
       "base_proc": 12
     },
-    "163": {
+    "164": {
+      "internal_name": "Genny (Dressed with Care)",
       "name": "Genny (Dressed with Care)",
       "color": "N",
       "hp_base": 16,
@@ -5078,13 +5274,14 @@ var data = {
       "b_name": "Wrathful Staff 3",
       "c_name": "Def Opening 3",
       "proc_name": "Fireflood Balm+",
-      "base_weap": 460,
+      "base_weap": 464,
       "base_a": 0,
       "base_b": 121,
       "base_c": 27,
       "base_proc": 17
     },
-    "164": {
+    "165": {
+      "internal_name": "Genny (Endearing Ally)",
       "name": "Genny (Endearing Ally)",
       "color": "N",
       "hp_base": 17,
@@ -5109,13 +5306,14 @@ var data = {
       "b_name": "Wrathful Staff 3",
       "c_name": "(None)",
       "proc_name": "Heavenly Light",
-      "base_weap": 197,
+      "base_weap": 200,
       "base_a": 0,
       "base_b": 121,
       "base_c": 0,
       "base_proc": 25
     },
-    "165": {
+    "166": {
+      "internal_name": "Gerik (Desert Tiger)",
       "name": "Gerik (Desert Tiger)",
       "color": "G",
       "hp_base": 19,
@@ -5140,13 +5338,14 @@ var data = {
       "b_name": "Sudden Panic 3",
       "c_name": "Infantry Pulse 3",
       "proc_name": "Moonbow",
-      "base_weap": 156,
-      "base_a": 49,
+      "base_weap": 158,
+      "base_a": 51,
       "base_b": 110,
       "base_c": 77,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "166": {
+    "167": {
+      "internal_name": "Gerome (Masked Rider)",
       "name": "Gerome (Masked Rider)",
       "color": "G",
       "hp_base": 19,
@@ -5171,13 +5370,14 @@ var data = {
       "b_name": "Hit and Run",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 338,
-      "base_a": 75,
+      "base_weap": 342,
+      "base_a": 78,
       "base_b": 55,
       "base_c": 0,
       "base_proc": 0
     },
-    "167": {
+    "168": {
+      "internal_name": "Gharnef (Dark Pontifex)",
       "name": "Gharnef (Dark Pontifex)",
       "color": "R",
       "hp_base": 16,
@@ -5202,13 +5402,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 240,
-      "base_a": 95,
+      "base_weap": 244,
+      "base_a": 98,
       "base_b": 20,
       "base_c": 0,
       "base_proc": 29
     },
-    "168": {
+    "169": {
+      "internal_name": "Gordin (Altean Archer)",
       "name": "Gordin (Altean Archer)",
       "color": "N",
       "hp_base": 19,
@@ -5233,13 +5434,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 364,
-      "base_a": 28,
+      "base_weap": 368,
+      "base_a": 30,
       "base_b": 113,
       "base_c": 0,
       "base_proc": 0
     },
-    "169": {
+    "170": {
+      "internal_name": "Gray (Wry Comrade)",
       "name": "Gray (Wry Comrade)",
       "color": "R",
       "hp_base": 17,
@@ -5264,13 +5466,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Sword Valor 3",
       "proc_name": "(None)",
-      "base_weap": 267,
-      "base_a": 135,
+      "base_weap": 271,
+      "base_a": 138,
       "base_b": 0,
       "base_c": 125,
       "base_proc": 0
     },
-    "170": {
+    "171": {
+      "internal_name": "Greil (Heroic Exemplar)",
       "name": "Greil (Heroic Exemplar)",
       "color": "G",
       "hp_base": 23,
@@ -5295,13 +5498,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "Aether",
-      "base_weap": 142,
-      "base_a": 78,
+      "base_weap": 144,
+      "base_a": 81,
       "base_b": 116,
       "base_c": 2,
       "base_proc": 2
     },
-    "171": {
+    "172": {
+      "internal_name": "Gunnthra (Beaming Smile)",
       "name": "Gunnthr\xE1 (Beaming Smile)",
       "color": "N",
       "hp_base": 17,
@@ -5326,13 +5530,14 @@ var data = {
       "b_name": "Disarm Trap 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 464,
+      "base_weap": 468,
       "base_a": 8,
       "base_b": 38,
       "base_c": 0,
       "base_proc": 0
     },
-    "172": {
+    "173": {
+      "internal_name": "Gunnthra (First Year's Dream)",
       "name": "Gunnthr\xE1 (First Year's Dream)",
       "color": "R",
       "hp_base": 16,
@@ -5357,13 +5562,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Joint Hone Spd",
       "proc_name": "Glimmer",
-      "base_weap": 231,
-      "base_a": 125,
+      "base_weap": 234,
+      "base_a": 128,
       "base_b": 37,
       "base_c": 82,
       "base_proc": 20
     },
-    "173": {
+    "174": {
+      "internal_name": "Gunnthra (Voice of Dreams)",
       "name": "Gunnthr\xE1 (Voice of Dreams)",
       "color": "G",
       "hp_base": 15,
@@ -5388,13 +5594,14 @@ var data = {
       "b_name": "Chilling Seal",
       "c_name": "Res Ploy 3",
       "proc_name": "Glacies",
-      "base_weap": 45,
-      "base_a": 76,
+      "base_weap": 43,
+      "base_a": 79,
       "base_b": 26,
       "base_c": 96,
       "base_proc": 19
     },
-    "174": {
+    "175": {
+      "internal_name": "Gunter (Inveterate Soldier)",
       "name": "Gunter (Inveterate Soldier)",
       "color": "G",
       "hp_base": 21,
@@ -5419,13 +5626,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Cavalry",
       "proc_name": "(None)",
-      "base_weap": 242,
+      "base_weap": 246,
       "base_a": 9,
       "base_b": 0,
       "base_c": 67,
       "base_proc": 0
     },
-    "175": {
+    "176": {
+      "internal_name": "Gwendolyn (Adorable Knight)",
       "name": "Gwendolyn (Adorable Knight)",
       "color": "B",
       "hp_base": 23,
@@ -5450,13 +5658,14 @@ var data = {
       "b_name": "Drag Back",
       "c_name": "Hone Armor",
       "proc_name": "Escutcheon",
-      "base_weap": 259,
+      "base_weap": 263,
       "base_a": 0,
       "base_b": 40,
       "base_c": 63,
       "base_proc": 15
     },
-    "176": {
+    "177": {
+      "internal_name": "Haar (Black Tempest)",
       "name": "Haar (Black Tempest)",
       "color": "G",
       "hp_base": 17,
@@ -5481,13 +5690,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Odd Def Wave 3",
       "proc_name": "(None)",
-      "base_weap": 56,
+      "base_weap": 55,
       "base_a": 0,
       "base_b": 54,
       "base_c": 86,
       "base_proc": 0
     },
-    "177": {
+    "178": {
+      "internal_name": "Hana (Focused Samurai)",
       "name": "Hana (Focused Samurai)",
       "color": "R",
       "hp_base": 18,
@@ -5512,13 +5722,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 221,
-      "base_a": 92,
+      "base_weap": 224,
+      "base_a": 95,
       "base_b": 73,
       "base_c": 0,
       "base_proc": 0
     },
-    "178": {
+    "179": {
+      "internal_name": "Hardin (Dark Emperor)",
       "name": "Hardin (Dark Emperor)",
       "color": "B",
       "hp_base": 23,
@@ -5543,13 +5754,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "(None)",
       "proc_name": "Vengeance",
-      "base_weap": 193,
-      "base_a": 41,
+      "base_weap": 196,
+      "base_a": 43,
       "base_b": 14,
       "base_c": 0,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "179": {
+    "180": {
+      "internal_name": "Hawkeye (Desert Guardian)",
       "name": "Hawkeye (Desert Guardian)",
       "color": "G",
       "hp_base": 21,
@@ -5574,13 +5786,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Atk 3",
       "proc_name": "Growing Light",
-      "base_weap": 214,
-      "base_a": 51,
+      "base_weap": 217,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 129,
       "base_proc": 22
     },
-    "180": {
+    "181": {
+      "internal_name": "Heath (Wandering Knight)",
       "name": "Heath (Wandering Knight)",
       "color": "B",
       "hp_base": 18,
@@ -5605,13 +5818,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "(None)",
       "proc_name": "Dragon Fang",
-      "base_weap": 369,
+      "base_weap": 373,
       "base_a": 13,
       "base_b": 44,
       "base_c": 0,
       "base_proc": 12
     },
-    "181": {
+    "182": {
+      "internal_name": "Hector (Brave Warrior)",
       "name": "Hector (Brave Warrior)",
       "color": "B",
       "hp_base": 24,
@@ -5636,13 +5850,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Even Res Wave 3",
       "proc_name": "Ignis",
-      "base_weap": 290,
-      "base_a": 98,
+      "base_weap": 292,
+      "base_a": 101,
       "base_b": 14,
       "base_c": 42,
       "base_proc": 29
     },
-    "182": {
+    "183": {
+      "internal_name": "Hector (Dressed-Up Duo)",
       "name": "Hector (Dressed-Up Duo)",
       "color": "R",
       "hp_base": 23,
@@ -5667,13 +5882,14 @@ var data = {
       "b_name": "Odd Follow-Up 3",
       "c_name": "Hone Armor",
       "proc_name": "Bonfire",
-      "base_weap": 88,
-      "base_a": 61,
+      "base_weap": 90,
+      "base_a": 64,
       "base_b": 74,
       "base_c": 63,
       "base_proc": 10
     },
-    "183": {
+    "184": {
+      "internal_name": "Hector (General of Ostia)",
       "name": "Hector (General of Ostia)",
       "color": "G",
       "hp_base": 24,
@@ -5698,13 +5914,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Armor",
       "proc_name": "Pavise",
-      "base_weap": 8,
-      "base_a": 61,
+      "base_weap": 7,
+      "base_a": 64,
       "base_b": 0,
       "base_c": 56,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "184": {
+    "185": {
+      "internal_name": "Hector (Just Here to Fight)",
       "name": "Hector (Just Here to Fight)",
       "color": "G",
       "hp_base": 24,
@@ -5729,13 +5946,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 33,
-      "base_a": 61,
+      "base_weap": 31,
+      "base_a": 64,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 20
     },
-    "185": {
+    "186": {
+      "internal_name": "Hector (Marquess of Ostia)",
       "name": "Hector (Marquess of Ostia)",
       "color": "G",
       "hp_base": 23,
@@ -5760,13 +5978,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Ostia's Pulse",
       "proc_name": "Draconic Aura",
-      "base_weap": 458,
-      "base_a": 61,
+      "base_weap": 462,
+      "base_a": 64,
       "base_b": 114,
       "base_c": 89,
       "base_proc": 11
     },
-    "186": {
+    "187": {
+      "internal_name": "Helbindi (Savage Scourge)",
       "name": "Helbindi (Savage Scourge)",
       "color": "G",
       "hp_base": 18,
@@ -5786,18 +6005,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "B\xFDleistr",
+      "weap_name": "Byleistr",
       "a_name": "G Duel Infantry 3",
       "b_name": "Guard 3",
       "c_name": "Infantry Pulse 3",
       "proc_name": "Vengeance",
-      "base_weap": 22,
-      "base_a": 80,
+      "base_weap": 72,
+      "base_a": 83,
       "base_b": 54,
       "base_c": 77,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "187": {
+    "188": {
+      "internal_name": "Helbindi (Seaside Scourge)",
       "name": "Helbindi (Seaside Scourge)",
       "color": "R",
       "hp_base": 18,
@@ -5822,13 +6042,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Panic Ploy 3",
       "proc_name": "(None)",
-      "base_weap": 384,
-      "base_a": 100,
+      "base_weap": 387,
+      "base_a": 103,
       "base_b": 0,
       "base_c": 90,
       "base_proc": 0
     },
-    "188": {
+    "189": {
+      "internal_name": "Henry (Happy Vampire)",
       "name": "Henry (Happy Vampire)",
       "color": "G",
       "hp_base": 17,
@@ -5853,13 +6074,14 @@ var data = {
       "b_name": "Live for Honor",
       "c_name": "Armor March 3",
       "proc_name": "Reprisal",
-      "base_weap": 430,
+      "base_weap": 434,
       "base_a": 0,
       "base_b": 61,
       "base_c": 2,
-      "base_proc": 43
+      "base_proc": 44
     },
-    "189": {
+    "190": {
+      "internal_name": "Henry (Twisted Mind)",
       "name": "Henry (Twisted Mind)",
       "color": "R",
       "hp_base": 19,
@@ -5884,13 +6106,14 @@ var data = {
       "b_name": "G Tomebreaker 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 91,
-      "base_a": 58,
+      "base_weap": 93,
+      "base_a": 61,
       "base_b": 51,
       "base_c": 0,
       "base_proc": 29
     },
-    "190": {
+    "191": {
+      "internal_name": "Hilda (Idle Maiden)",
       "name": "Hilda (Idle Maiden)",
       "color": "G",
       "hp_base": 19,
@@ -5915,13 +6138,14 @@ var data = {
       "b_name": "Null Follow-Up 3",
       "c_name": "Def Opening 3",
       "proc_name": "Moonbow",
-      "base_weap": 173,
-      "base_a": 27,
+      "base_weap": 176,
+      "base_a": 28,
       "base_b": 72,
       "base_c": 27,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "191": {
+    "192": {
+      "internal_name": "Hinata (Wild Samurai)",
       "name": "Hinata (Wild Samurai)",
       "color": "R",
       "hp_base": 21,
@@ -5946,13 +6170,14 @@ var data = {
       "b_name": "Brash Assault 3",
       "c_name": "(None)",
       "proc_name": "Pavise",
-      "base_weap": 232,
-      "base_a": 77,
+      "base_weap": 235,
+      "base_a": 80,
       "base_b": 16,
       "base_c": 0,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "192": {
+    "193": {
+      "internal_name": "Hinoka (Blue Sky Warrior)",
       "name": "Hinoka (Blue Sky Warrior)",
       "color": "N",
       "hp_base": 18,
@@ -5977,13 +6202,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "Flier Guidance 3",
       "proc_name": "Luna",
-      "base_weap": 484,
-      "base_a": 22,
+      "base_weap": 488,
+      "base_a": 23,
       "base_b": 48,
       "base_c": 44,
       "base_proc": 33
     },
-    "193": {
+    "194": {
+      "internal_name": "Hinoka (Relaxed Warrior)",
       "name": "Hinoka (Relaxed Warrior)",
       "color": "G",
       "hp_base": 16,
@@ -6008,13 +6234,14 @@ var data = {
       "b_name": "Atk/Spd Link 3",
       "c_name": "Air Orders 3",
       "proc_name": "(None)",
-      "base_weap": 433,
-      "base_a": 22,
+      "base_weap": 437,
+      "base_a": 23,
       "base_b": 6,
       "base_c": 1,
       "base_proc": 0
     },
-    "194": {
+    "195": {
+      "internal_name": "Hinoka (Warrior Princess)",
       "name": "Hinoka (Warrior Princess)",
       "color": "B",
       "hp_base": 19,
@@ -6039,13 +6266,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Fliers",
       "proc_name": "Blazing Wind",
-      "base_weap": 233,
-      "base_a": 58,
+      "base_weap": 236,
+      "base_a": 61,
       "base_b": 0,
       "base_c": 69,
       "base_proc": 8
     },
-    "195": {
+    "196": {
+      "internal_name": "Hrid (Icy Blade)",
       "name": "Hr\xEDd (Icy Blade)",
       "color": "R",
       "hp_base": 19,
@@ -6065,18 +6293,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Gj\xF6ll",
+      "weap_name": "Gjoll",
       "a_name": "Distant Counter",
       "b_name": "Freezing Seal",
       "c_name": "Atk Smoke 3",
       "proc_name": "Moonbow",
-      "base_weap": 185,
-      "base_a": 61,
+      "base_weap": 189,
+      "base_a": 64,
       "base_b": 50,
       "base_c": 6,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "196": {
+    "197": {
+      "internal_name": "Hrid (Resolute Prince)",
       "name": "Hr\xEDd (Resolute Prince)",
       "color": "R",
       "hp_base": 18,
@@ -6101,13 +6330,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Hone Atk 4",
       "proc_name": "(None)",
-      "base_weap": 181,
+      "base_weap": 184,
       "base_a": 11,
       "base_b": 78,
       "base_c": 65,
       "base_proc": 0
     },
-    "197": {
+    "198": {
+      "internal_name": "Hubert (Sinister Servant)",
       "name": "Hubert (Sinister Servant)",
       "color": "R",
       "hp_base": 17,
@@ -6127,18 +6357,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Rau\xF0rfox+",
+      "weap_name": "Raudrfox+",
       "a_name": "(None)",
       "b_name": "Chill Res 3",
       "c_name": "Inf. Hexblade 3",
       "proc_name": "Growing Thunder",
-      "base_weap": 350,
+      "base_weap": 354,
       "base_a": 0,
       "base_b": 24,
       "base_c": 74,
       "base_proc": 23
     },
-    "198": {
+    "199": {
+      "internal_name": "Iago (Nohr's Tactician)",
       "name": "Iago (Nohr's Tactician)",
       "color": "R",
       "hp_base": 18,
@@ -6163,13 +6394,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Opening 3",
       "proc_name": "Blazing Wind",
-      "base_weap": 238,
-      "base_a": 85,
+      "base_weap": 241,
+      "base_a": 88,
       "base_b": 0,
       "base_c": 4,
       "base_proc": 8
     },
-    "199": {
+    "200": {
+      "internal_name": "Idunn (Dark Priestess)",
       "name": "Idunn (Dark Priestess)",
       "color": "R",
       "hp_base": 19,
@@ -6194,13 +6426,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Ward Dragons",
       "proc_name": "Bonfire",
-      "base_weap": 114,
-      "base_a": 74,
+      "base_weap": 117,
+      "base_a": 77,
       "base_b": 114,
       "base_c": 139,
       "base_proc": 10
     },
-    "200": {
+    "201": {
+      "internal_name": "Idunn (Dragonkin Duo)",
       "name": "Idunn (Dragonkin Duo)",
       "color": "R",
       "hp_base": 20,
@@ -6225,13 +6458,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Goad Dragons",
       "proc_name": "Iceberg",
-      "base_weap": 505,
-      "base_a": 123,
+      "base_weap": 509,
+      "base_a": 126,
       "base_b": 114,
       "base_c": 59,
       "base_proc": 28
     },
-    "201": {
+    "202": {
+      "internal_name": "Igrene (Nabata Protector)",
       "name": "Igrene (Nabata Protector)",
       "color": "R",
       "hp_base": 18,
@@ -6256,13 +6490,14 @@ var data = {
       "b_name": "Special Spiral 3",
       "c_name": "Pulse Smoke 3",
       "proc_name": "Blazing Wind",
-      "base_weap": 215,
-      "base_a": 93,
+      "base_weap": 218,
+      "base_a": 96,
       "base_b": 109,
       "base_c": 92,
       "base_proc": 8
     },
-    "202": {
+    "203": {
+      "internal_name": "Ike (Brave Mercenary)",
       "name": "Ike (Brave Mercenary)",
       "color": "G",
       "hp_base": 17,
@@ -6287,13 +6522,14 @@ var data = {
       "b_name": "Beorc's Blessing",
       "c_name": "Threaten Def 3",
       "proc_name": "Aether",
-      "base_weap": 467,
-      "base_a": 115,
+      "base_weap": 471,
+      "base_a": 118,
       "base_b": 11,
       "base_c": 130,
       "base_proc": 2
     },
-    "203": {
+    "204": {
+      "internal_name": "Ike (Stalwart Heart)",
       "name": "Ike (Stalwart Heart)",
       "color": "S",
       "hp_base": 21,
@@ -6318,13 +6554,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Even Spd Wave 3",
       "proc_name": "Radiant Aether",
-      "base_weap": 226,
-      "base_a": 61,
+      "base_weap": 229,
+      "base_a": 64,
       "base_b": 108,
       "base_c": 43,
-      "base_proc": 41
+      "base_proc": 42
     },
-    "204": {
+    "205": {
+      "internal_name": "Ike (Vanguard Legend)",
       "name": "Ike (Vanguard Legend)",
       "color": "R",
       "hp_base": 19,
@@ -6349,13 +6586,14 @@ var data = {
       "b_name": "Seal Atk/Def 2",
       "c_name": "Def Tactic 3",
       "proc_name": "Radiant Aether",
-      "base_weap": 343,
-      "base_a": 131,
+      "base_weap": 347,
+      "base_a": 134,
       "base_b": 93,
       "base_c": 30,
-      "base_proc": 41
+      "base_proc": 42
     },
-    "205": {
+    "206": {
+      "internal_name": "Ike (Young Mercenary)",
       "name": "Ike (Young Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -6380,13 +6618,14 @@ var data = {
       "b_name": "Swordbreaker 3",
       "c_name": "(None)",
       "proc_name": "Aether",
-      "base_weap": 343,
-      "base_a": 82,
+      "base_weap": 347,
+      "base_a": 85,
       "base_b": 111,
       "base_c": 0,
       "base_proc": 2
     },
-    "206": {
+    "207": {
+      "internal_name": "Ilyana (Treat Harvester)",
       "name": "Ilyana (Treat Harvester)",
       "color": "B",
       "hp_base": 19,
@@ -6411,13 +6650,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Atk/Res Gap 3",
       "proc_name": "Iceberg",
-      "base_weap": 434,
+      "base_weap": 438,
       "base_a": 0,
       "base_b": 14,
       "base_c": 10,
       "base_proc": 28
     },
-    "207": {
+    "208": {
+      "internal_name": "Inigo (Indigo Dancer)",
       "name": "Inigo (Indigo Dancer)",
       "color": "G",
       "hp_base": 15,
@@ -6442,13 +6682,14 @@ var data = {
       "b_name": "Gale Dance 3",
       "c_name": "Hone Atk 3",
       "proc_name": "(None)",
-      "base_weap": 100,
+      "base_weap": 102,
       "base_a": 0,
       "base_b": 52,
       "base_c": 64,
       "base_proc": 0
     },
-    "208": {
+    "209": {
+      "internal_name": "Innes (Flawless Form)",
       "name": "Innes (Flawless Form)",
       "color": "G",
       "hp_base": 18,
@@ -6473,13 +6714,14 @@ var data = {
       "b_name": "Def Feint 3",
       "c_name": "Goad Fliers",
       "proc_name": "(None)",
-      "base_weap": 28,
+      "base_weap": 26,
       "base_a": 0,
       "base_b": 33,
       "base_c": 60,
       "base_proc": 0
     },
-    "209": {
+    "210": {
+      "internal_name": "Innes (Regal Strategician)",
       "name": "Innes (Regal Strategician)",
       "color": "N",
       "hp_base": 16,
@@ -6504,13 +6746,14 @@ var data = {
       "b_name": "Cancel Affinity 3",
       "c_name": "(None)",
       "proc_name": "Iceberg",
-      "base_weap": 317,
-      "base_a": 76,
+      "base_weap": 319,
+      "base_a": 79,
       "base_b": 19,
       "base_c": 0,
       "base_proc": 28
     },
-    "210": {
+    "211": {
+      "internal_name": "Ishtar (Thunder Goddess)",
       "name": "Ishtar (Thunder Goddess)",
       "color": "B",
       "hp_base": 16,
@@ -6530,18 +6773,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Mj\xF6lnir",
+      "weap_name": "Mjolnir",
       "a_name": "Swift Sparrow 2",
       "b_name": "Vantage 3",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "Moonbow",
-      "base_weap": 306,
-      "base_a": 125,
+      "base_weap": 308,
+      "base_a": 128,
       "base_b": 113,
       "base_c": 85,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "211": {
+    "212": {
+      "internal_name": "Ishtar (Thunder's Waltz)",
       "name": "Ishtar (Thunder's Waltz)",
       "color": "R",
       "hp_base": 17,
@@ -6561,18 +6805,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "M\xF6g\xDErasir",
+      "weap_name": "Mogthrasir",
       "a_name": "Swift Sparrow 3",
       "b_name": "Desperation 3",
       "c_name": "Air Orders 3",
       "proc_name": "(None)",
-      "base_weap": 287,
-      "base_a": 126,
+      "base_weap": 309,
+      "base_a": 129,
       "base_b": 37,
       "base_c": 1,
       "base_proc": 0
     },
-    "212": {
+    "213": {
+      "internal_name": "Itsuki (Finding a Path)",
       "name": "Itsuki (Finding a Path)",
       "color": "R",
       "hp_base": 19,
@@ -6597,13 +6842,14 @@ var data = {
       "b_name": "Atk/Def Link 3",
       "c_name": "Drive Def 2",
       "proc_name": "Sol",
-      "base_weap": 300,
+      "base_weap": 302,
       "base_a": 0,
       "base_b": 3,
       "base_c": 37,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "213": {
+    "214": {
+      "internal_name": "Jaffar (Angel of Death)",
       "name": "Jaffar (Angel of Death)",
       "color": "N",
       "hp_base": 17,
@@ -6628,13 +6874,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Spd 3",
       "proc_name": "Glimmer",
-      "base_weap": 111,
-      "base_a": 92,
+      "base_weap": 114,
+      "base_a": 95,
       "base_b": 0,
       "base_c": 132,
       "base_proc": 20
     },
-    "214": {
+    "215": {
+      "internal_name": "Jaffar (Angel of Night)",
       "name": "Jaffar (Angel of Night)",
       "color": "G",
       "hp_base": 18,
@@ -6659,13 +6906,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Armor",
       "proc_name": "(None)",
-      "base_weap": 298,
-      "base_a": 54,
+      "base_weap": 300,
+      "base_a": 57,
       "base_b": 0,
       "base_c": 56,
       "base_proc": 0
     },
-    "215": {
+    "216": {
+      "internal_name": "Jagen (Veteran Knight)",
       "name": "Jagen (Veteran Knight)",
       "color": "B",
       "hp_base": 20,
@@ -6690,13 +6938,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Cavalry",
       "proc_name": "Aegis",
-      "base_weap": 476,
-      "base_a": 77,
+      "base_weap": 480,
+      "base_a": 80,
       "base_b": 0,
       "base_c": 47,
       "base_proc": 1
     },
-    "216": {
+    "217": {
+      "internal_name": "Jakob (Devoted Monster)",
       "name": "Jakob (Devoted Monster)",
       "color": "N",
       "hp_base": 20,
@@ -6721,13 +6970,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 307,
-      "base_a": 35,
+      "base_weap": 310,
+      "base_a": 37,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 29
     },
-    "217": {
+    "218": {
+      "internal_name": "Jakob (Devoted Servant)",
       "name": "Jakob (Devoted Servant)",
       "color": "N",
       "hp_base": 17,
@@ -6752,13 +7002,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 246,
-      "base_a": 56,
+      "base_weap": 250,
+      "base_a": 59,
       "base_b": 82,
       "base_c": 0,
       "base_proc": 0
     },
-    "218": {
+    "219": {
+      "internal_name": "Jamke (Prince of Verdane)",
       "name": "Jamke (Prince of Verdane)",
       "color": "N",
       "hp_base": 16,
@@ -6783,13 +7034,14 @@ var data = {
       "b_name": "Cancel Affinity 3",
       "c_name": "(None)",
       "proc_name": "Astra",
-      "base_weap": 419,
-      "base_a": 82,
+      "base_weap": 422,
+      "base_a": 85,
       "base_b": 19,
       "base_c": 0,
       "base_proc": 3
     },
-    "219": {
+    "220": {
+      "internal_name": "Jeorge (Perfect Shot)",
       "name": "Jeorge (Perfect Shot)",
       "color": "N",
       "hp_base": 18,
@@ -6814,13 +7066,14 @@ var data = {
       "b_name": "Seal Atk 3",
       "c_name": "Spur Spd 3",
       "proc_name": "Blazing Flame",
-      "base_weap": 331,
+      "base_weap": 335,
       "base_a": 0,
       "base_b": 92,
       "base_c": 119,
       "base_proc": 5
     },
-    "220": {
+    "221": {
+      "internal_name": "Joshua (Tempest King)",
       "name": "Joshua (Tempest King)",
       "color": "R",
       "hp_base": 18,
@@ -6845,13 +7098,14 @@ var data = {
       "b_name": "Windsweep 3",
       "c_name": "(None)",
       "proc_name": "Moonbow",
-      "base_weap": 16,
-      "base_a": 46,
+      "base_weap": 15,
+      "base_a": 48,
       "base_b": 118,
       "base_c": 0,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "221": {
+    "222": {
+      "internal_name": "Julia (Crusader of Light)",
       "name": "Julia (Crusader of Light)",
       "color": "B",
       "hp_base": 18,
@@ -6876,13 +7130,14 @@ var data = {
       "b_name": "Light and Dark",
       "c_name": "Atk/Res Oath 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 479,
-      "base_a": 94,
+      "base_weap": 483,
+      "base_a": 97,
       "base_b": 59,
       "base_c": 11,
       "base_proc": 12
     },
-    "222": {
+    "223": {
+      "internal_name": "Julia (Naga's Blood)",
       "name": "Julia (Naga's Blood)",
       "color": "G",
       "hp_base": 16,
@@ -6907,13 +7162,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Breath of Life 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 313,
-      "base_a": 101,
+      "base_weap": 315,
+      "base_a": 104,
       "base_b": 0,
       "base_c": 22,
       "base_proc": 12
     },
-    "223": {
+    "224": {
+      "internal_name": "Julius (Scion of Darkness)",
       "name": "Julius (Scion of Darkness)",
       "color": "R",
       "hp_base": 16,
@@ -6938,13 +7194,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Atk Ploy 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 280,
+      "base_weap": 284,
       "base_a": 0,
       "base_b": 54,
       "base_c": 5,
       "base_proc": 11
     },
-    "224": {
+    "225": {
+      "internal_name": "Kaden (Kitsune Braggart)",
       "name": "Kaden (Kitsune Braggart)",
       "color": "G",
       "hp_base": 16,
@@ -6969,13 +7226,14 @@ var data = {
       "b_name": "Spd/Res Link 3",
       "c_name": "Goad Beasts",
       "proc_name": "(None)",
-      "base_weap": 261,
+      "base_weap": 265,
       "base_a": 0,
       "base_b": 106,
       "base_c": 57,
       "base_proc": 0
     },
-    "225": {
+    "226": {
+      "internal_name": "Kagero (Beverage Ninja)",
       "name": "Kagero (Beverage Ninja)",
       "color": "G",
       "hp_base": 19,
@@ -7000,13 +7258,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Even Atk Wave 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 53,
-      "base_a": 97,
+      "base_weap": 52,
+      "base_a": 100,
       "base_b": 14,
       "base_c": 40,
       "base_proc": 11
     },
-    "226": {
+    "227": {
+      "internal_name": "Kagero (Honorable Ninja)",
       "name": "Kagero (Honorable Ninja)",
       "color": "N",
       "hp_base": 16,
@@ -7031,13 +7290,14 @@ var data = {
       "b_name": "Daggerbreaker 3",
       "c_name": "(None)",
       "proc_name": "Reprisal",
-      "base_weap": 253,
-      "base_a": 130,
+      "base_weap": 257,
+      "base_a": 133,
       "base_b": 29,
       "base_c": 0,
-      "base_proc": 43
+      "base_proc": 44
     },
-    "227": {
+    "228": {
+      "internal_name": "Kagero (Spring Ninja)",
       "name": "Kagero (Spring Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -7062,13 +7322,14 @@ var data = {
       "b_name": "Live for Honor",
       "c_name": "Goad Fliers",
       "proc_name": "Glimmer",
-      "base_weap": 272,
-      "base_a": 110,
+      "base_weap": 276,
+      "base_a": 113,
       "base_b": 61,
       "base_c": 60,
       "base_proc": 20
     },
-    "228": {
+    "229": {
+      "internal_name": "Kana (Dragon Princess)",
       "name": "Kana (Dragon Princess)",
       "color": "G",
       "hp_base": 18,
@@ -7093,13 +7354,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Goad Dragons",
       "proc_name": "Draconic Aura",
-      "base_weap": 442,
-      "base_a": 70,
+      "base_weap": 446,
+      "base_a": 73,
       "base_b": 0,
       "base_c": 59,
       "base_proc": 11
     },
-    "229": {
+    "230": {
+      "internal_name": "Kana (Dragon Spawn)",
       "name": "Kana (Dragon Spawn)",
       "color": "B",
       "hp_base": 18,
@@ -7124,13 +7386,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Dragons",
       "proc_name": "Dragon Fang",
-      "base_weap": 485,
-      "base_a": 41,
+      "base_weap": 489,
+      "base_a": 43,
       "base_b": 0,
       "base_c": 49,
       "base_proc": 12
     },
-    "230": {
+    "231": {
+      "internal_name": "Karel (Sword Demon)",
       "name": "Karel (Sword Demon)",
       "color": "R",
       "hp_base": 19,
@@ -7155,13 +7418,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "(None)",
       "proc_name": "Reprisal",
-      "base_weap": 315,
-      "base_a": 57,
+      "base_weap": 317,
+      "base_a": 60,
       "base_b": 37,
       "base_c": 0,
-      "base_proc": 43
+      "base_proc": 44
     },
-    "231": {
+    "232": {
+      "internal_name": "Karla (Sword Vassal)",
       "name": "Karla (Sword Vassal)",
       "color": "R",
       "hp_base": 18,
@@ -7186,13 +7450,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Even Spd Wave 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 471,
+      "base_weap": 475,
       "base_a": 0,
       "base_b": 120,
       "base_c": 43,
       "base_proc": 11
     },
-    "232": {
+    "233": {
+      "internal_name": "Katarina (Wayward One)",
       "name": "Katarina (Wayward One)",
       "color": "R",
       "hp_base": 17,
@@ -7217,13 +7482,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Ploy 3",
       "proc_name": "Glacies",
-      "base_weap": 360,
-      "base_a": 125,
+      "base_weap": 364,
+      "base_a": 128,
       "base_b": 0,
       "base_c": 5,
       "base_proc": 19
     },
-    "233": {
+    "234": {
+      "internal_name": "Kaze (Easygoing Ninja)",
       "name": "Kaze (Easygoing Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -7248,13 +7514,14 @@ var data = {
       "b_name": "Poison Strike 3",
       "c_name": "Atk Smoke 3",
       "proc_name": "Iceberg",
-      "base_weap": 24,
+      "base_weap": 22,
       "base_a": 0,
       "base_b": 77,
       "base_c": 6,
       "base_proc": 28
     },
-    "234": {
+    "235": {
+      "internal_name": "Keaton (Lupine Collector)",
       "name": "Keaton (Lupine Collector)",
       "color": "R",
       "hp_base": 19,
@@ -7279,13 +7546,14 @@ var data = {
       "b_name": "Special Spiral 3",
       "c_name": "Beast Valor 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 501,
+      "base_weap": 505,
       "base_a": 0,
       "base_b": 109,
       "base_c": 19,
       "base_proc": 11
     },
-    "235": {
+    "236": {
+      "internal_name": "Kempf (Conniving General)",
       "name": "Kempf (Conniving General)",
       "color": "R",
       "hp_base": 18,
@@ -7310,13 +7578,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Savage Blow 3",
       "proc_name": "Aegis",
-      "base_weap": 473,
-      "base_a": 76,
+      "base_weap": 477,
+      "base_a": 79,
       "base_b": 0,
       "base_c": 103,
       "base_proc": 1
     },
-    "236": {
+    "237": {
+      "internal_name": "Kiria (Cool Facade)",
       "name": "Kiria (Cool Fa\xE7ade)",
       "color": "R",
       "hp_base": 16,
@@ -7341,13 +7610,14 @@ var data = {
       "b_name": "Lull Atk/Res 3",
       "c_name": "(None)",
       "proc_name": "Iceberg",
-      "base_weap": 303,
+      "base_weap": 305,
       "base_a": 20,
       "base_b": 64,
       "base_c": 0,
       "base_proc": 28
     },
-    "237": {
+    "238": {
+      "internal_name": "Kjelle (Fair Fighter)",
       "name": "Kjelle (Fair Fighter)",
       "color": "B",
       "hp_base": 23,
@@ -7372,13 +7642,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "(None)",
       "proc_name": "Draconic Aura",
-      "base_weap": 26,
+      "base_weap": 24,
       "base_a": 3,
       "base_b": 14,
       "base_c": 0,
       "base_proc": 11
     },
-    "238": {
+    "239": {
+      "internal_name": "Klein (Silver Nobleman)",
       "name": "Klein (Silver Nobleman)",
       "color": "N",
       "hp_base": 18,
@@ -7403,13 +7674,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "(None)",
       "proc_name": "Glacies",
-      "base_weap": 6,
-      "base_a": 51,
+      "base_weap": 5,
+      "base_a": 54,
       "base_b": 78,
       "base_c": 0,
       "base_proc": 19
     },
-    "239": {
+    "240": {
+      "internal_name": "Kliff (Curious Spirit)",
       "name": "Kliff (Curious Spirit)",
       "color": "B",
       "hp_base": 15,
@@ -7434,13 +7706,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Fortify Res 3",
       "proc_name": "Growing Light",
-      "base_weap": 381,
-      "base_a": 74,
+      "base_weap": 384,
+      "base_a": 77,
       "base_b": 25,
       "base_c": 51,
       "base_proc": 22
     },
-    "240": {
+    "241": {
+      "internal_name": "Kronya (Gleaming Blade)",
       "name": "Kronya (Gleaming Blade)",
       "color": "N",
       "hp_base": 18,
@@ -7465,13 +7738,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Distant Guard 3",
       "proc_name": "Luna",
-      "base_weap": 15,
+      "base_weap": 14,
       "base_a": 0,
       "base_b": 37,
       "base_c": 33,
       "base_proc": 33
     },
-    "241": {
+    "242": {
+      "internal_name": "L'Arachel (Harvest Princess)",
       "name": "L'Arachel (Harvest Princess)",
       "color": "G",
       "hp_base": 17,
@@ -7496,13 +7770,14 @@ var data = {
       "b_name": "Spd/Res Ruse 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 289,
-      "base_a": 125,
+      "base_weap": 291,
+      "base_a": 128,
       "base_b": 107,
       "base_c": 0,
       "base_proc": 0
     },
-    "242": {
+    "243": {
+      "internal_name": "L'Arachel (Princess of Light)",
       "name": "L'Arachel (Princess of Light)",
       "color": "B",
       "hp_base": 16,
@@ -7527,44 +7802,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "Res Tactic 3",
       "proc_name": "Growing Light",
-      "base_weap": 245,
+      "base_weap": 249,
       "base_a": 0,
       "base_b": 82,
       "base_c": 98,
       "base_proc": 22
     },
-    "243": {
-      "name": "L\xEDf (Lethal Swordsman)",
-      "color": "R",
-      "hp_base": 18,
-      "atk_base": 8,
-      "spd_base": 8,
-      "def_base": 10,
-      "res_base": 7,
-      "hpGrowth": 55,
-      "atkGrowth": 70,
-      "spdGrowth": 50,
-      "defGrowth": 55,
-      "resGrowth": 50,
-      "n_lock": 0,
-      "type": "I",
-      "weap": "S",
-      "legendary": 0,
-      "mythic": 1,
-      "has_resplendent": 0,
-      "df_maximum": 5,
-      "weap_name": "S\xF6kkvabekkr",
-      "a_name": "Distant Counter",
-      "b_name": "Deadly Balance",
-      "c_name": "Time's Pulse 3",
-      "proc_name": "Open the Future",
-      "base_weap": 376,
-      "base_a": 61,
-      "base_b": 32,
-      "base_c": 133,
-      "base_proc": 39
-    },
     "244": {
+      "internal_name": "Lachesis (Lionheart's Sister)",
       "name": "Lachesis (Lionheart's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -7589,13 +7834,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Res 3",
       "proc_name": "Solid-Earth Balm",
-      "base_weap": 2,
+      "base_weap": 1,
       "base_a": 0,
       "base_b": 0,
       "base_c": 118,
-      "base_proc": 49
+      "base_proc": 50
     },
     "245": {
+      "internal_name": "Laegjarn (Burning Sun)",
       "name": "Laegjarn (Burning Sun)",
       "color": "B",
       "hp_base": 18,
@@ -7620,13 +7866,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "Hone Fliers",
       "proc_name": "(None)",
-      "base_weap": 502,
-      "base_a": 126,
+      "base_weap": 506,
+      "base_a": 129,
       "base_b": 48,
       "base_c": 69,
       "base_proc": 0
     },
     "246": {
+      "internal_name": "Laegjarn (New Experiences)",
       "name": "Laegjarn (New Experiences)",
       "color": "B",
       "hp_base": 16,
@@ -7651,13 +7898,14 @@ var data = {
       "b_name": "Chill Res 3",
       "c_name": "Def Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 482,
+      "base_weap": 486,
       "base_a": 0,
       "base_b": 24,
       "base_c": 30,
       "base_proc": 0
     },
     "247": {
+      "internal_name": "Laegjarn (Sheathed Steel)",
       "name": "Laegjarn (Sheathed Steel)",
       "color": "R",
       "hp_base": 17,
@@ -7677,18 +7925,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "N\xEDu",
+      "weap_name": "Niu",
       "a_name": "R Duel Flying 3",
       "b_name": "Chill Atk 3",
       "c_name": "Distant Guard 3",
       "proc_name": "Bonfire",
-      "base_weap": 311,
-      "base_a": 99,
+      "base_weap": 323,
+      "base_a": 102,
       "base_b": 20,
       "base_c": 33,
       "base_proc": 10
     },
     "248": {
+      "internal_name": "Laevatein (Bonfire Blaze)",
       "name": "Laevatein (Bonfire Blaze)",
       "color": "G",
       "hp_base": 16,
@@ -7714,12 +7963,13 @@ var data = {
       "c_name": "Odd Atk Wave 3",
       "proc_name": "(None)",
       "base_weap": 71,
-      "base_a": 94,
+      "base_a": 97,
       "base_b": 34,
       "base_c": 85,
       "base_proc": 0
     },
     "249": {
+      "internal_name": "Laevatein (Kumade Warrior)",
       "name": "Laevatein (Kumade Warrior)",
       "color": "N",
       "hp_base": 16,
@@ -7744,13 +7994,14 @@ var data = {
       "b_name": "Wrathful Staff 3",
       "c_name": "Even Def Wave 3",
       "proc_name": "Earthfire Balm+",
-      "base_weap": 265,
+      "base_weap": 269,
       "base_a": 0,
       "base_b": 121,
       "base_c": 41,
       "base_proc": 13
     },
     "250": {
+      "internal_name": "Laevatein (Searing Steel)",
       "name": "Laevatein (Searing Steel)",
       "color": "R",
       "hp_base": 17,
@@ -7775,13 +8026,14 @@ var data = {
       "b_name": "Atk/Def Link 3",
       "c_name": "Odd Spd Wave 3",
       "proc_name": "(None)",
-      "base_weap": 266,
-      "base_a": 77,
+      "base_weap": 270,
+      "base_a": 80,
       "base_b": 3,
       "base_c": 88,
       "base_proc": 0
     },
     "251": {
+      "internal_name": "Larcei (Keen Kin)",
       "name": "Larcei (Keen Kin)",
       "color": "R",
       "hp_base": 17,
@@ -7806,13 +8058,14 @@ var data = {
       "b_name": "Repel 3",
       "c_name": "Panic Smoke 3",
       "proc_name": "Regnal Astra",
-      "base_weap": 268,
-      "base_a": 27,
+      "base_weap": 272,
+      "base_a": 28,
       "base_b": 83,
       "base_c": 91,
-      "base_proc": 42
+      "base_proc": 43
     },
     "252": {
+      "internal_name": "Larum (Sprightly Dancer)",
       "name": "Larum (Sprightly Dancer)",
       "color": "N",
       "hp_base": 18,
@@ -7837,13 +8090,14 @@ var data = {
       "b_name": "Disarm Trap 3",
       "c_name": "Spd/Res Gap 3",
       "proc_name": "(None)",
-      "base_weap": 127,
+      "base_weap": 130,
       "base_a": 0,
       "base_b": 38,
       "base_c": 111,
       "base_proc": 0
     },
     "253": {
+      "internal_name": "Laslow (Dancing Duelist)",
       "name": "Laslow (Dancing Duelist)",
       "color": "R",
       "hp_base": 20,
@@ -7868,13 +8122,14 @@ var data = {
       "b_name": "Axebreaker 3",
       "c_name": "Hone Spd 3",
       "proc_name": "Noontime",
-      "base_weap": 269,
+      "base_weap": 273,
       "base_a": 0,
       "base_b": 8,
       "base_c": 70,
-      "base_proc": 38
+      "base_proc": 39
     },
     "254": {
+      "internal_name": "Leanne (Forest's Song)",
       "name": "Leanne (Forest's Song)",
       "color": "N",
       "hp_base": 14,
@@ -7899,13 +8154,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "Hone Beasts",
       "proc_name": "(None)",
-      "base_weap": 229,
-      "base_a": 95,
+      "base_weap": 232,
+      "base_a": 98,
       "base_b": 48,
       "base_c": 66,
       "base_proc": 0
     },
     "255": {
+      "internal_name": "Legault (The Hurricane)",
       "name": "Legault (The Hurricane)",
       "color": "N",
       "hp_base": 17,
@@ -7930,13 +8186,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Tactic 3",
       "proc_name": "Glimmer",
-      "base_weap": 456,
-      "base_a": 128,
+      "base_weap": 458,
+      "base_a": 131,
       "base_b": 0,
       "base_c": 7,
       "base_proc": 20
     },
     "256": {
+      "internal_name": "Legion (Masked Maniac)",
       "name": "Legion (Masked Maniac)",
       "color": "G",
       "hp_base": 20,
@@ -7961,13 +8218,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "Reprisal",
-      "base_weap": 270,
-      "base_a": 77,
+      "base_weap": 274,
+      "base_a": 80,
       "base_b": 73,
       "base_c": 0,
-      "base_proc": 43
+      "base_proc": 44
     },
     "257": {
+      "internal_name": "Leif (Prince of Leonster)",
       "name": "Leif (Prince of Leonster)",
       "color": "R",
       "hp_base": 18,
@@ -7992,13 +8250,14 @@ var data = {
       "b_name": "S Drink",
       "c_name": "Drive Atk 2",
       "proc_name": "Blazing Light",
-      "base_weap": 273,
-      "base_a": 114,
+      "base_weap": 277,
+      "base_a": 117,
       "base_b": 86,
       "base_c": 36,
       "base_proc": 6
     },
     "258": {
+      "internal_name": "Leif (Unifier of Thracia)",
       "name": "Leif (Unifier of Thracia)",
       "color": "N",
       "hp_base": 18,
@@ -8023,13 +8282,14 @@ var data = {
       "b_name": "S Drink",
       "c_name": "Def Smoke 3",
       "proc_name": "Nj\xF6run's Zeal",
-      "base_weap": 292,
+      "base_weap": 294,
       "base_a": 19,
       "base_b": 86,
       "base_c": 29,
-      "base_proc": 37
+      "base_proc": 38
     },
     "259": {
+      "internal_name": "Leila (Rose amid Fangs)",
       "name": "Leila (Rose amid Fangs)",
       "color": "N",
       "hp_base": 18,
@@ -8054,13 +8314,14 @@ var data = {
       "b_name": "Atk/Def Ruse 3",
       "c_name": "Atk Smoke 3",
       "proc_name": "(None)",
-      "base_weap": 89,
-      "base_a": 93,
+      "base_weap": 91,
+      "base_a": 96,
       "base_b": 4,
       "base_c": 6,
       "base_proc": 0
     },
     "260": {
+      "internal_name": "Lene (Yearning Dancer)",
       "name": "Lene (Yearning Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -8085,13 +8346,14 @@ var data = {
       "b_name": "Firestorm Dance 2",
       "c_name": "Sword Valor 3",
       "proc_name": "(None)",
-      "base_weap": 380,
+      "base_weap": 383,
       "base_a": 0,
       "base_b": 47,
       "base_c": 125,
       "base_proc": 0
     },
     "261": {
+      "internal_name": "Leo (Extra Tomatoes)",
       "name": "Leo (Extra Tomatoes)",
       "color": "G",
       "hp_base": 15,
@@ -8116,13 +8378,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 385,
-      "base_a": 62,
+      "base_weap": 388,
+      "base_a": 65,
       "base_b": 78,
       "base_c": 0,
       "base_proc": 20
     },
     "262": {
+      "internal_name": "Leo (Seashore's Prince)",
       "name": "Leo (Seashore's Prince)",
       "color": "R",
       "hp_base": 18,
@@ -8147,13 +8410,14 @@ var data = {
       "b_name": "Seal Res 3",
       "c_name": "Atk Ploy 3",
       "proc_name": "Iceberg",
-      "base_weap": 461,
+      "base_weap": 465,
       "base_a": 0,
       "base_b": 97,
       "base_c": 5,
       "base_proc": 28
     },
     "263": {
+      "internal_name": "Leo (Sorcerous Prince)",
       "name": "Leo (Sorcerous Prince)",
       "color": "R",
       "hp_base": 17,
@@ -8185,6 +8449,7 @@ var data = {
       "base_proc": 6
     },
     "264": {
+      "internal_name": "Leon (True of Heart)",
       "name": "Leon (True of Heart)",
       "color": "N",
       "hp_base": 17,
@@ -8209,13 +8474,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 419,
-      "base_a": 113,
+      "base_weap": 422,
+      "base_a": 116,
       "base_b": 54,
       "base_c": 0,
       "base_proc": 29
     },
     "265": {
+      "internal_name": "Lethe (Gallia's Valkyrie)",
       "name": "Lethe (Gallia's Valkyrie)",
       "color": "R",
       "hp_base": 17,
@@ -8240,13 +8506,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Beasts",
       "proc_name": "Moonbow",
-      "base_weap": 60,
-      "base_a": 108,
+      "base_weap": 59,
+      "base_a": 111,
       "base_b": 0,
       "base_c": 66,
-      "base_proc": 36
+      "base_proc": 37
     },
     "266": {
+      "internal_name": "Lethe (New Year's Claw)",
       "name": "Lethe (New Year's Claw)",
       "color": "G",
       "hp_base": 17,
@@ -8271,13 +8538,14 @@ var data = {
       "b_name": "Lull Spd/Def 3",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 213,
-      "base_a": 27,
+      "base_weap": 216,
+      "base_a": 28,
       "base_b": 66,
       "base_c": 0,
       "base_proc": 20
     },
     "267": {
+      "internal_name": "Lewyn (Guiding Breeze)",
       "name": "Lewyn (Guiding Breeze)",
       "color": "G",
       "hp_base": 16,
@@ -8302,13 +8570,14 @@ var data = {
       "b_name": "Special Spiral 3",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "Glimmer",
-      "base_weap": 169,
-      "base_a": 125,
+      "base_weap": 172,
+      "base_a": 128,
       "base_b": 109,
       "base_c": 85,
       "base_proc": 20
     },
     "268": {
+      "internal_name": "Libra (Fetching Friar)",
       "name": "Libra (Fetching Friar)",
       "color": "G",
       "hp_base": 18,
@@ -8328,18 +8597,51 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Wo G\xF9n+",
+      "weap_name": "Wo Gun+",
       "a_name": "(None)",
       "b_name": "Renewal 3",
       "c_name": "Spur Atk/Res 2",
       "proc_name": "Noontime",
-      "base_weap": 497,
+      "base_weap": 501,
       "base_a": 0,
       "base_b": 82,
       "base_c": 114,
-      "base_proc": 38
+      "base_proc": 39
     },
     "269": {
+      "internal_name": "Lif (Lethal Swordsman)",
+      "name": "L\xEDf (Lethal Swordsman)",
+      "color": "R",
+      "hp_base": 18,
+      "atk_base": 8,
+      "spd_base": 8,
+      "def_base": 10,
+      "res_base": 7,
+      "hpGrowth": 55,
+      "atkGrowth": 70,
+      "spdGrowth": 50,
+      "defGrowth": 55,
+      "resGrowth": 50,
+      "n_lock": 0,
+      "type": "I",
+      "weap": "S",
+      "legendary": 0,
+      "mythic": 1,
+      "has_resplendent": 0,
+      "df_maximum": 5,
+      "weap_name": "Sokkvabekkr",
+      "a_name": "Distant Counter",
+      "b_name": "Deadly Balance",
+      "c_name": "Time's Pulse 3",
+      "proc_name": "Open the Future",
+      "base_weap": 430,
+      "base_a": 64,
+      "base_b": 32,
+      "base_c": 133,
+      "base_proc": 40
+    },
+    "270": {
+      "internal_name": "Lilina (Beachside Bloom)",
       "name": "Lilina (Beachside Bloom)",
       "color": "R",
       "hp_base": 18,
@@ -8364,13 +8666,14 @@ var data = {
       "b_name": "Sabotage Def 3",
       "c_name": "Atk Opening 3",
       "proc_name": "(None)",
-      "base_weap": 64,
+      "base_weap": 63,
       "base_a": 20,
       "base_b": 88,
       "base_c": 4,
       "base_proc": 0
     },
-    "270": {
+    "271": {
+      "internal_name": "Lilina (Blush of Youth)",
       "name": "Lilina (Blush of Youth)",
       "color": "G",
       "hp_base": 17,
@@ -8395,13 +8698,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Tactic 3",
       "proc_name": "Blazing Flame",
-      "base_weap": 200,
-      "base_a": 85,
+      "base_weap": 203,
+      "base_a": 88,
       "base_b": 0,
       "base_c": 7,
       "base_proc": 5
     },
-    "271": {
+    "272": {
+      "internal_name": "Lilina (Delightful Noble)",
       "name": "Lilina (Delightful Noble)",
       "color": "R",
       "hp_base": 16,
@@ -8426,13 +8730,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Atk 3",
       "proc_name": "Growing Flame",
-      "base_weap": 168,
-      "base_a": 28,
+      "base_weap": 171,
+      "base_a": 30,
       "base_b": 0,
       "base_c": 112,
       "base_proc": 21
     },
-    "272": {
+    "273": {
+      "internal_name": "Lilith (Astral Daughter)",
       "name": "Lilith (Astral Daughter)",
       "color": "B",
       "hp_base": 17,
@@ -8457,13 +8762,14 @@ var data = {
       "b_name": "Def/Res Link 3",
       "c_name": "Joint Drive Atk",
       "proc_name": "(None)",
-      "base_weap": 14,
-      "base_a": 22,
+      "base_weap": 13,
+      "base_a": 23,
       "base_b": 34,
       "base_c": 79,
       "base_proc": 0
     },
-    "273": {
+    "274": {
+      "internal_name": "Linde (Light Mage)",
       "name": "Linde (Light Mage)",
       "color": "B",
       "hp_base": 16,
@@ -8488,13 +8794,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Res 3",
       "proc_name": "(None)",
-      "base_weap": 17,
-      "base_a": 113,
+      "base_weap": 16,
+      "base_a": 116,
       "base_b": 0,
       "base_c": 51,
       "base_proc": 0
     },
-    "274": {
+    "275": {
+      "internal_name": "Linde (Summer Rays)",
       "name": "Linde (Summer Rays)",
       "color": "N",
       "hp_base": 16,
@@ -8519,13 +8826,14 @@ var data = {
       "b_name": "Cancel Affinity 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 436,
-      "base_a": 38,
+      "base_weap": 440,
+      "base_a": 40,
       "base_b": 19,
       "base_c": 0,
       "base_proc": 0
     },
-    "275": {
+    "276": {
+      "internal_name": "Linus (Mad Dog)",
       "name": "Linus (Mad Dog)",
       "color": "G",
       "hp_base": 18,
@@ -8550,13 +8858,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Def 2",
       "proc_name": "Luna",
-      "base_weap": 27,
-      "base_a": 39,
+      "base_weap": 25,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 37,
       "base_proc": 33
     },
-    "276": {
+    "277": {
+      "internal_name": "Lissa (Pure Joy)",
       "name": "Lissa (Pure Joy)",
       "color": "G",
       "hp_base": 21,
@@ -8581,13 +8890,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Fortify Armor",
       "proc_name": "Bonfire",
-      "base_weap": 222,
+      "base_weap": 225,
       "base_a": 0,
       "base_b": 14,
       "base_c": 45,
       "base_proc": 10
     },
-    "277": {
+    "278": {
+      "internal_name": "Lissa (Sprightly Cleric)",
       "name": "Lissa (Sprightly Cleric)",
       "color": "N",
       "hp_base": 17,
@@ -8612,13 +8922,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "(None)",
       "proc_name": "Kindled-Fire Balm",
-      "base_weap": 197,
+      "base_weap": 200,
       "base_a": 0,
       "base_b": 82,
       "base_c": 0,
       "base_proc": 32
     },
-    "278": {
+    "279": {
+      "internal_name": "Lloyd (White Wolf)",
       "name": "Lloyd (White Wolf)",
       "color": "R",
       "hp_base": 17,
@@ -8643,13 +8954,14 @@ var data = {
       "b_name": "Pass 3",
       "c_name": "Threaten Atk 3",
       "proc_name": "Iceberg",
-      "base_weap": 362,
+      "base_weap": 366,
       "base_a": 0,
       "base_b": 75,
       "base_c": 129,
       "base_proc": 28
     },
-    "279": {
+    "280": {
+      "internal_name": "Loki (Spring Trickster)",
       "name": "Loki (Spring Trickster)",
       "color": "N",
       "hp_base": 17,
@@ -8674,13 +8986,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "Goad Fliers",
       "proc_name": "Luna",
-      "base_weap": 29,
+      "base_weap": 27,
       "base_a": 0,
       "base_b": 48,
       "base_c": 60,
       "base_proc": 33
     },
-    "280": {
+    "281": {
+      "internal_name": "Loki (The Trickster)",
       "name": "Loki (The Trickster)",
       "color": "N",
       "hp_base": 18,
@@ -8700,18 +9013,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Th\xF6kk",
+      "weap_name": "Thokk",
       "a_name": "C Duel Infantry 3",
       "b_name": "(None)",
       "c_name": "Odd Atk Wave 3",
       "proc_name": "Earthwater Balm+",
-      "base_weap": 453,
-      "base_a": 44,
+      "base_weap": 460,
+      "base_a": 46,
       "base_b": 0,
       "base_c": 85,
       "base_proc": 14
     },
-    "281": {
+    "282": {
+      "internal_name": "Lon'qu (Solitary Blade)",
       "name": "Lon'qu (Solitary Blade)",
       "color": "R",
       "hp_base": 19,
@@ -8736,13 +9050,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 429,
-      "base_a": 113,
+      "base_weap": 433,
+      "base_a": 116,
       "base_b": 113,
       "base_c": 0,
       "base_proc": 20
     },
-    "282": {
+    "283": {
+      "internal_name": "Louise (Eternal Devotion)",
       "name": "Louise (Eternal Devotion)",
       "color": "N",
       "hp_base": 17,
@@ -8767,13 +9082,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Cavalry",
       "proc_name": "(None)",
-      "base_weap": 54,
-      "base_a": 22,
+      "base_weap": 53,
+      "base_a": 23,
       "base_b": 0,
       "base_c": 67,
       "base_proc": 0
     },
-    "283": {
+    "284": {
+      "internal_name": "Lucina (Brave Princess)",
       "name": "Lucina (Brave Princess)",
       "color": "B",
       "hp_base": 17,
@@ -8793,18 +9109,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Geirsk\xF6gul",
+      "weap_name": "Geirskogul",
       "a_name": "Sturdy Blow 2",
       "b_name": "(None)",
       "c_name": "Drive Spd 2",
       "proc_name": "Aether",
-      "base_weap": 180,
-      "base_a": 120,
+      "base_weap": 183,
+      "base_a": 123,
       "base_b": 0,
       "base_c": 39,
       "base_proc": 2
     },
-    "284": {
+    "285": {
+      "internal_name": "Lucina (Future Witness)",
       "name": "Lucina (Future Witness)",
       "color": "R",
       "hp_base": 19,
@@ -8829,13 +9146,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Atk 3",
       "proc_name": "Luna",
-      "base_weap": 145,
-      "base_a": 60,
+      "base_weap": 147,
+      "base_a": 63,
       "base_b": 0,
       "base_c": 112,
       "base_proc": 33
     },
-    "285": {
+    "286": {
+      "internal_name": "Lucina (Glorious Archer)",
       "name": "Lucina (Glorious Archer)",
       "color": "B",
       "hp_base": 17,
@@ -8855,18 +9173,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "Th\xF6gn",
+      "weap_name": "Thogn",
       "a_name": "Swift Sparrow 2",
       "b_name": "Wings of Mercy 3",
       "c_name": "Distant Guard 3",
       "proc_name": "(None)",
-      "base_weap": 452,
-      "base_a": 125,
+      "base_weap": 459,
+      "base_a": 128,
       "base_b": 119,
       "base_c": 33,
       "base_proc": 0
     },
-    "286": {
+    "287": {
+      "internal_name": "Lucina (Spring Exalt)",
       "name": "Lucina (Spring Exalt)",
       "color": "B",
       "hp_base": 16,
@@ -8891,13 +9210,14 @@ var data = {
       "b_name": "Seal Res 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 46,
-      "base_a": 125,
+      "base_weap": 45,
+      "base_a": 128,
       "base_b": 97,
       "base_c": 0,
       "base_proc": 0
     },
-    "287": {
+    "288": {
+      "internal_name": "Lucius (The Light)",
       "name": "Lucius (The Light)",
       "color": "N",
       "hp_base": 18,
@@ -8922,13 +9242,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "(None)",
       "proc_name": "Miracle",
-      "base_weap": 327,
-      "base_a": 84,
+      "base_weap": 331,
+      "base_a": 87,
       "base_b": 0,
       "base_c": 0,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "288": {
+    "289": {
+      "internal_name": "Lugh (Anima Child)",
       "name": "Lugh (Anima Child)",
       "color": "G",
       "hp_base": 18,
@@ -8953,13 +9274,14 @@ var data = {
       "b_name": "Atk Feint 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 207,
-      "base_a": 95,
+      "base_weap": 210,
+      "base_a": 98,
       "base_b": 2,
       "base_c": 0,
       "base_proc": 0
     },
-    "289": {
+    "290": {
+      "internal_name": "Lukas (Buffet for One)",
       "name": "Lukas (Buffet for One)",
       "color": "B",
       "hp_base": 25,
@@ -8984,13 +9306,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 285,
+      "base_weap": 289,
       "base_a": 6,
       "base_b": 116,
       "base_c": 0,
       "base_proc": 0
     },
-    "290": {
+    "291": {
+      "internal_name": "Lukas (Sharp Soldier)",
       "name": "Lukas (Sharp Soldier)",
       "color": "B",
       "hp_base": 19,
@@ -9015,13 +9338,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "Sacred Cowl",
-      "base_weap": 109,
-      "base_a": 75,
+      "base_weap": 112,
+      "base_a": 78,
       "base_b": 73,
       "base_c": 0,
-      "base_proc": 46
+      "base_proc": 47
     },
-    "291": {
+    "292": {
+      "internal_name": "Luke (Rowdy Squire)",
       "name": "Luke (Rowdy Squire)",
       "color": "R",
       "hp_base": 19,
@@ -9046,13 +9370,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Panic Ploy 3",
       "proc_name": "Bonfire",
-      "base_weap": 372,
-      "base_a": 71,
+      "base_weap": 376,
+      "base_a": 74,
       "base_b": 0,
       "base_c": 90,
       "base_proc": 10
     },
-    "292": {
+    "293": {
+      "internal_name": "Lute (Prodigy)",
       "name": "Lute (Prodigy)",
       "color": "B",
       "hp_base": 16,
@@ -9077,13 +9402,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Res Ploy 3",
       "proc_name": "(None)",
-      "base_weap": 486,
-      "base_a": 87,
+      "base_weap": 490,
+      "base_a": 90,
       "base_b": 0,
       "base_c": 96,
       "base_proc": 0
     },
-    "293": {
+    "294": {
+      "internal_name": "Lyn (Brave Lady)",
       "name": "Lyn (Brave Lady)",
       "color": "N",
       "hp_base": 16,
@@ -9108,13 +9434,14 @@ var data = {
       "b_name": "Sacae's Blessing",
       "c_name": "Atk Smoke 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 308,
-      "base_a": 125,
+      "base_weap": 311,
+      "base_a": 128,
       "base_b": 91,
       "base_c": 6,
       "base_proc": 11
     },
-    "294": {
+    "295": {
+      "internal_name": "Lyn (Bride of the Plains)",
       "name": "Lyn (Bride of the Plains)",
       "color": "N",
       "hp_base": 17,
@@ -9139,13 +9466,14 @@ var data = {
       "b_name": "Dazzling Staff 3",
       "c_name": "(None)",
       "proc_name": "Swift-Winds Balm",
-      "base_weap": 76,
+      "base_weap": 77,
       "base_a": 0,
       "base_b": 31,
       "base_c": 0,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "295": {
+    "296": {
+      "internal_name": "Lyn (Lady of the Beach)",
       "name": "Lyn (Lady of the Beach)",
       "color": "B",
       "hp_base": 18,
@@ -9170,13 +9498,14 @@ var data = {
       "b_name": "Atk/Spd Link 3",
       "c_name": "Distant Guard 3",
       "proc_name": "(None)",
-      "base_weap": 112,
-      "base_a": 121,
+      "base_weap": 115,
+      "base_a": 124,
       "base_b": 6,
       "base_c": 33,
       "base_proc": 0
     },
-    "296": {
+    "297": {
+      "internal_name": "Lyn (Lady of the Plains)",
       "name": "Lyn (Lady of the Plains)",
       "color": "R",
       "hp_base": 18,
@@ -9201,13 +9530,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Spd 3",
       "proc_name": "Galeforce",
-      "base_weap": 427,
-      "base_a": 57,
+      "base_weap": 431,
+      "base_a": 60,
       "base_b": 0,
       "base_c": 119,
       "base_proc": 18
     },
-    "297": {
+    "298": {
+      "internal_name": "Lyn (Lady of the Wind)",
       "name": "Lyn (Lady of the Wind)",
       "color": "G",
       "hp_base": 17,
@@ -9232,13 +9562,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Spd Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 443,
-      "base_a": 91,
+      "base_weap": 447,
+      "base_a": 94,
       "base_b": 37,
       "base_c": 109,
       "base_proc": 0
     },
-    "298": {
+    "299": {
+      "internal_name": "Lyn (Wind's Embrace)",
       "name": "Lyn (Wind's Embrace)",
       "color": "B",
       "hp_base": 18,
@@ -9263,13 +9594,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Armor March 3",
       "proc_name": "(None)",
-      "base_weap": 47,
-      "base_a": 22,
+      "base_weap": 46,
+      "base_a": 23,
       "base_b": 54,
       "base_c": 2,
       "base_proc": 0
     },
-    "299": {
+    "300": {
+      "internal_name": "Lyon (Shadow Prince)",
       "name": "Lyon (Shadow Prince)",
       "color": "R",
       "hp_base": 19,
@@ -9294,13 +9626,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Res 2",
       "proc_name": "Vengeance",
-      "base_weap": 314,
-      "base_a": 30,
+      "base_weap": 316,
+      "base_a": 32,
       "base_b": 0,
       "base_c": 38,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "300": {
+    "301": {
+      "internal_name": "Lysithea (Child Prodigy)",
       "name": "Lysithea (Child Prodigy)",
       "color": "R",
       "hp_base": 18,
@@ -9320,18 +9653,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Hades &Omega;",
+      "weap_name": "Hades Omega",
       "a_name": "Death Blow 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Time's Pulse 3",
       "proc_name": "Moonbow",
-      "base_weap": 217,
-      "base_a": 52,
+      "base_weap": 220,
+      "base_a": 55,
       "base_b": 67,
       "base_c": 133,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "301": {
+    "302": {
+      "internal_name": "Mae (Bundle of Energy)",
       "name": "Mae (Bundle of Energy)",
       "color": "B",
       "hp_base": 16,
@@ -9356,13 +9690,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "B Tome Exp. 3",
       "proc_name": "(None)",
-      "base_weap": 51,
+      "base_weap": 50,
       "base_a": 0,
       "base_b": 37,
       "base_c": 16,
       "base_proc": 0
     },
-    "302": {
+    "303": {
+      "internal_name": "Mamori (Microwavin' Idol)",
       "name": "Mamori (Microwavin' Idol)",
       "color": "G",
       "hp_base": 19,
@@ -9387,13 +9722,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "(None)",
       "proc_name": "Bonfire",
-      "base_weap": 299,
-      "base_a": 103,
+      "base_weap": 301,
+      "base_a": 106,
       "base_b": 114,
       "base_c": 0,
       "base_proc": 10
     },
-    "303": {
+    "304": {
+      "internal_name": "Mareeta (Sword of Stars)",
       "name": "Mareeta (Sword of Stars)",
       "color": "R",
       "hp_base": 17,
@@ -9418,13 +9754,14 @@ var data = {
       "b_name": "Close Call 3",
       "c_name": "Rouse Atk/Def 3",
       "proc_name": "Luna",
-      "base_weap": 291,
-      "base_a": 27,
+      "base_weap": 293,
+      "base_a": 28,
       "base_b": 27,
       "base_c": 99,
       "base_proc": 33
     },
-    "304": {
+    "305": {
+      "internal_name": "Mareeta (The Blade's Pawn)",
       "name": "Mareeta (The Blade's Pawn)",
       "color": "R",
       "hp_base": 18,
@@ -9449,13 +9786,14 @@ var data = {
       "b_name": "Null Follow-Up 3",
       "c_name": "(None)",
       "proc_name": "Luna",
-      "base_weap": 397,
-      "base_a": 73,
+      "base_weap": 400,
+      "base_a": 76,
       "base_b": 72,
       "base_c": 0,
       "base_proc": 33
     },
-    "305": {
+    "306": {
+      "internal_name": "Maria (Minerva's Sister)",
       "name": "Maria (Minerva's Sister)",
       "color": "N",
       "hp_base": 17,
@@ -9480,13 +9818,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Res 3",
       "proc_name": "Miracle",
-      "base_weap": 328,
+      "base_weap": 332,
       "base_a": 0,
       "base_b": 0,
       "base_c": 51,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "306": {
+    "307": {
+      "internal_name": "Maribelle (Dire Damsel)",
       "name": "Maribelle (Dire Damsel)",
       "color": "N",
       "hp_base": 17,
@@ -9511,13 +9850,14 @@ var data = {
       "b_name": "Dazzling Staff 3",
       "c_name": "Staff Valor 3",
       "proc_name": "Miracle",
-      "base_weap": 463,
+      "base_weap": 467,
       "base_a": 0,
       "base_b": 31,
       "base_c": 123,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "307": {
+    "308": {
+      "internal_name": "Marisa (Crimson Flash)",
       "name": "Marisa (Crimson Flash)",
       "color": "R",
       "hp_base": 18,
@@ -9542,13 +9882,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Infantry Pulse 3",
       "proc_name": "Glimmer",
-      "base_weap": 496,
-      "base_a": 86,
+      "base_weap": 500,
+      "base_a": 89,
       "base_b": 0,
       "base_c": 77,
       "base_proc": 20
     },
-    "308": {
+    "309": {
+      "internal_name": "Marisa (Crimson Rabbit)",
       "name": "Marisa (Crimson Rabbit)",
       "color": "B",
       "hp_base": 18,
@@ -9573,13 +9914,14 @@ var data = {
       "b_name": "Spd/Def Link 3",
       "c_name": "Flier Guidance 3",
       "proc_name": "(None)",
-      "base_weap": 165,
+      "base_weap": 167,
       "base_a": 0,
       "base_b": 104,
       "base_c": 44,
       "base_proc": 0
     },
-    "309": {
+    "310": {
+      "internal_name": "Marth (Altean Groom)",
       "name": "Marth (Altean Groom)",
       "color": "G",
       "hp_base": 18,
@@ -9604,13 +9946,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "Drive Atk 2",
       "proc_name": "(None)",
-      "base_weap": 5,
+      "base_weap": 4,
       "base_a": 0,
       "base_b": 119,
       "base_c": 36,
       "base_proc": 0
     },
-    "310": {
+    "311": {
+      "internal_name": "Marth (Altean Prince)",
       "name": "Marth (Altean Prince)",
       "color": "R",
       "hp_base": 19,
@@ -9635,13 +9978,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Spur Spd 3",
       "proc_name": "(None)",
-      "base_weap": 143,
+      "base_weap": 145,
       "base_a": 0,
       "base_b": 44,
       "base_c": 119,
       "base_proc": 0
     },
-    "311": {
+    "312": {
+      "internal_name": "Marth (Enigmatic Blade)",
       "name": "Marth (Enigmatic Blade)",
       "color": "R",
       "hp_base": 19,
@@ -9666,13 +10010,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 145,
+      "base_weap": 147,
       "base_a": 0,
       "base_b": 0,
       "base_c": 0,
       "base_proc": 0
     },
-    "312": {
+    "313": {
+      "internal_name": "Marth (Hero-King)",
       "name": "Marth (Hero-King)",
       "color": "R",
       "hp_base": 18,
@@ -9697,13 +10042,14 @@ var data = {
       "b_name": "Binding Shield",
       "c_name": "Infantry Flash 3",
       "proc_name": "Fire Emblem",
-      "base_weap": 138,
-      "base_a": 22,
+      "base_weap": 141,
+      "base_a": 23,
       "base_b": 12,
       "base_c": 76,
       "base_proc": 16
     },
-    "313": {
+    "314": {
+      "internal_name": "Marth (Legacied Hero)",
       "name": "Marth (Legacied Hero)",
       "color": "R",
       "hp_base": 19,
@@ -9728,13 +10074,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "Spd/Def Oath 3",
       "proc_name": "Hero's Blood",
-      "base_weap": 347,
+      "base_weap": 351,
       "base_a": 0,
       "base_b": 23,
       "base_c": 110,
       "base_proc": 26
     },
-    "314": {
+    "315": {
+      "internal_name": "Marth (Royal Altean Duo)",
       "name": "Marth (Royal Altean Duo)",
       "color": "N",
       "hp_base": 18,
@@ -9759,13 +10106,14 @@ var data = {
       "b_name": "Daring Fighter 3",
       "c_name": "Joint Hone Spd",
       "proc_name": "Fire Emblem",
-      "base_weap": 450,
-      "base_a": 24,
+      "base_weap": 454,
+      "base_a": 25,
       "base_b": 30,
       "base_c": 82,
       "base_proc": 16
     },
-    "315": {
+    "316": {
+      "internal_name": "Mathilda (Legendary Knight)",
       "name": "Mathilda (Legendary Knight)",
       "color": "B",
       "hp_base": 16,
@@ -9790,13 +10138,14 @@ var data = {
       "b_name": "Cancel Affinity 3",
       "c_name": "Hone Atk 3",
       "proc_name": "(None)",
-      "base_weap": 263,
+      "base_weap": 267,
       "base_a": 0,
       "base_b": 19,
       "base_c": 64,
       "base_proc": 0
     },
-    "316": {
+    "317": {
+      "internal_name": "Matthew (Faithful Spy)",
       "name": "Matthew (Faithful Spy)",
       "color": "N",
       "hp_base": 17,
@@ -9821,13 +10170,14 @@ var data = {
       "b_name": "Poison Strike 3",
       "c_name": "Hone Spd 3",
       "proc_name": "(None)",
-      "base_weap": 435,
+      "base_weap": 439,
       "base_a": 0,
       "base_b": 77,
       "base_c": 70,
       "base_proc": 0
     },
-    "317": {
+    "318": {
+      "internal_name": "Mercedes (Kindly Devotee)",
       "name": "Mercedes (Kindly Devotee)",
       "color": "N",
       "hp_base": 17,
@@ -9852,13 +10202,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Odd Res Wave 3",
       "proc_name": "Imbue",
-      "base_weap": 197,
+      "base_weap": 200,
       "base_a": 5,
       "base_b": 0,
       "base_c": 87,
       "base_proc": 30
     },
-    "318": {
+    "319": {
+      "internal_name": "Merric (Changing Winds)",
       "name": "Merric (Changing Winds)",
       "color": "G",
       "hp_base": 19,
@@ -9883,13 +10234,14 @@ var data = {
       "b_name": "Windsweep 3",
       "c_name": "Distant Guard 3",
       "proc_name": "Righteous Wind",
-      "base_weap": 492,
-      "base_a": 126,
+      "base_weap": 496,
+      "base_a": 129,
       "base_b": 118,
       "base_c": 33,
-      "base_proc": 44
+      "base_proc": 45
     },
-    "319": {
+    "320": {
+      "internal_name": "Merric (Wind Mage)",
       "name": "Merric (Wind Mage)",
       "color": "G",
       "hp_base": 19,
@@ -9914,13 +10266,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Res 3",
       "proc_name": "Growing Wind",
-      "base_weap": 139,
-      "base_a": 84,
+      "base_weap": 142,
+      "base_a": 87,
       "base_b": 0,
       "base_c": 118,
       "base_proc": 24
     },
-    "320": {
+    "321": {
+      "internal_name": "Mia (Lady of Blades)",
       "name": "Mia (Lady of Blades)",
       "color": "R",
       "hp_base": 16,
@@ -9945,13 +10298,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "(None)",
       "proc_name": "Luna",
-      "base_weap": 366,
-      "base_a": 72,
+      "base_weap": 370,
+      "base_a": 75,
       "base_b": 113,
       "base_c": 0,
       "base_proc": 33
     },
-    "321": {
+    "322": {
+      "internal_name": "Mia (Moonlit Witch)",
       "name": "Mia (Moonlit Witch)",
       "color": "N",
       "hp_base": 17,
@@ -9976,13 +10330,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Fliers",
       "proc_name": "Heavenly Light",
-      "base_weap": 495,
-      "base_a": 110,
+      "base_weap": 499,
+      "base_a": 113,
       "base_b": 0,
       "base_c": 69,
       "base_proc": 25
     },
-    "322": {
+    "323": {
+      "internal_name": "Micaiah (Priestess of Dawn)",
       "name": "Micaiah (Priestess of Dawn)",
       "color": "B",
       "hp_base": 16,
@@ -10007,13 +10362,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Drive Atk 2",
       "proc_name": "(None)",
-      "base_weap": 454,
-      "base_a": 62,
+      "base_weap": 456,
+      "base_a": 65,
       "base_b": 54,
       "base_c": 36,
       "base_proc": 0
     },
-    "323": {
+    "324": {
+      "internal_name": "Micaiah (Queen of Dawn)",
       "name": "Micaiah (Queen of Dawn)",
       "color": "G",
       "hp_base": 17,
@@ -10038,13 +10394,14 @@ var data = {
       "b_name": "Yune's Whispers",
       "c_name": "Ground Orders 3",
       "proc_name": "(None)",
-      "base_weap": 275,
+      "base_weap": 279,
       "base_a": 17,
       "base_b": 122,
       "base_c": 61,
       "base_proc": 0
     },
-    "324": {
+    "325": {
+      "internal_name": "Micaiah (Summer's Dawn)",
       "name": "Micaiah (Summer's Dawn)",
       "color": "R",
       "hp_base": 14,
@@ -10069,13 +10426,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Res Ploy 3",
       "proc_name": "(None)",
-      "base_weap": 108,
+      "base_weap": 111,
       "base_a": 16,
       "base_b": 0,
       "base_c": 96,
       "base_proc": 0
     },
-    "325": {
+    "326": {
+      "internal_name": "Michalis (Ambitious King)",
       "name": "Michalis (Ambitious King)",
       "color": "G",
       "hp_base": 19,
@@ -10100,13 +10458,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Def 3",
       "proc_name": "Blazing Thunder",
-      "base_weap": 224,
-      "base_a": 89,
+      "base_weap": 227,
+      "base_a": 92,
       "base_b": 0,
       "base_c": 130,
       "base_proc": 7
     },
-    "326": {
+    "327": {
+      "internal_name": "Midori (Reliable Chemist)",
       "name": "Midori (Reliable Chemist)",
       "color": "R",
       "hp_base": 17,
@@ -10131,13 +10490,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 431,
-      "base_a": 47,
+      "base_weap": 435,
+      "base_a": 49,
       "base_b": 20,
       "base_c": 0,
       "base_proc": 0
     },
-    "327": {
+    "328": {
+      "internal_name": "Mikoto (Caring Mother)",
       "name": "Mikoto (Caring Mother)",
       "color": "N",
       "hp_base": 16,
@@ -10162,13 +10522,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Infantry Rush 3",
       "proc_name": "Miracle",
-      "base_weap": 164,
-      "base_a": 38,
+      "base_weap": 166,
+      "base_a": 40,
       "base_b": 0,
       "base_c": 78,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "328": {
+    "329": {
+      "internal_name": "Minerva (Princess-Knight)",
       "name": "Minerva (Princess-Knight)",
       "color": "G",
       "hp_base": 18,
@@ -10193,13 +10554,14 @@ var data = {
       "b_name": "Flier Formation 3",
       "c_name": "(None)",
       "proc_name": "Draconic Aura",
-      "base_weap": 128,
-      "base_a": 67,
+      "base_weap": 131,
+      "base_a": 70,
       "base_b": 48,
       "base_c": 0,
       "base_proc": 11
     },
-    "329": {
+    "330": {
+      "internal_name": "Minerva (Red Dragoon)",
       "name": "Minerva (Red Dragoon)",
       "color": "G",
       "hp_base": 18,
@@ -10224,13 +10586,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Fliers",
       "proc_name": "Sacred Cowl",
-      "base_weap": 224,
-      "base_a": 92,
+      "base_weap": 227,
+      "base_a": 95,
       "base_b": 0,
       "base_c": 140,
-      "base_proc": 46
+      "base_proc": 47
     },
-    "330": {
+    "331": {
+      "internal_name": "Mist (Helpful Sister)",
       "name": "Mist (Helpful Sister)",
       "color": "N",
       "hp_base": 17,
@@ -10255,13 +10618,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def/Res 2",
       "proc_name": "Miracle",
-      "base_weap": 424,
+      "base_weap": 427,
       "base_a": 0,
       "base_b": 0,
       "base_c": 117,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "331": {
+    "332": {
+      "internal_name": "Mist (Purest Spirit)",
       "name": "Mist (Purest Spirit)",
       "color": "G",
       "hp_base": 17,
@@ -10286,13 +10650,14 @@ var data = {
       "b_name": "Res Feint 3",
       "c_name": "G Tome Valor 3",
       "proc_name": "(None)",
-      "base_weap": 204,
-      "base_a": 125,
+      "base_weap": 207,
+      "base_a": 128,
       "base_b": 84,
       "base_c": 54,
       "base_proc": 0
     },
-    "332": {
+    "333": {
+      "internal_name": "Mordecai (Kindhearted Tiger)",
       "name": "Mordecai (Kindhearted Tiger)",
       "color": "B",
       "hp_base": 19,
@@ -10317,13 +10682,14 @@ var data = {
       "b_name": "Atk/Def Link 3",
       "c_name": "Beast Exp. 3",
       "proc_name": "(None)",
-      "base_weap": 377,
+      "base_weap": 379,
       "base_a": 0,
       "base_b": 3,
       "base_c": 18,
       "base_proc": 0
     },
-    "333": {
+    "334": {
+      "internal_name": "Morgan (Lad from Afar)",
       "name": "Morgan (Lad from Afar)",
       "color": "R",
       "hp_base": 18,
@@ -10348,13 +10714,14 @@ var data = {
       "b_name": "Dull Ranged 3",
       "c_name": "Spur Def/Res 2",
       "proc_name": "Dragon Fang",
-      "base_weap": 201,
+      "base_weap": 204,
       "base_a": 0,
       "base_b": 42,
       "base_c": 117,
       "base_proc": 12
     },
-    "334": {
+    "335": {
+      "internal_name": "Morgan (Lass from Afar)",
       "name": "Morgan (Lass from Afar)",
       "color": "B",
       "hp_base": 18,
@@ -10379,13 +10746,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Atk Ploy 3",
       "proc_name": "Iceberg",
-      "base_weap": 146,
-      "base_a": 95,
+      "base_weap": 148,
+      "base_a": 98,
       "base_b": 54,
       "base_c": 5,
       "base_proc": 28
     },
-    "335": {
+    "336": {
+      "internal_name": "Myrrh (Great Dragon)",
       "name": "Myrrh (Great Dragon)",
       "color": "G",
       "hp_base": 16,
@@ -10410,13 +10778,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Dragons",
       "proc_name": "Bonfire",
-      "base_weap": 198,
-      "base_a": 77,
+      "base_weap": 201,
+      "base_a": 80,
       "base_b": 0,
       "base_c": 68,
       "base_proc": 10
     },
-    "336": {
+    "337": {
+      "internal_name": "Myrrh (Spooky Monster)",
       "name": "Myrrh (Spooky Monster)",
       "color": "R",
       "hp_base": 20,
@@ -10441,13 +10810,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "Bonfire",
-      "base_weap": 432,
-      "base_a": 53,
+      "base_weap": 436,
+      "base_a": 56,
       "base_b": 114,
       "base_c": 2,
       "base_proc": 10
     },
-    "337": {
+    "338": {
+      "internal_name": "Naesala (Sky's Shadow)",
       "name": "Naesala (Sky's Shadow)",
       "color": "B",
       "hp_base": 17,
@@ -10472,13 +10842,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "(None)",
       "proc_name": "Blazing Wind",
-      "base_weap": 355,
-      "base_a": 125,
+      "base_weap": 359,
+      "base_a": 128,
       "base_b": 54,
       "base_c": 0,
       "base_proc": 8
     },
-    "338": {
+    "339": {
+      "internal_name": "Naga (Dragon Divinity)",
       "name": "Naga (Dragon Divinity)",
       "color": "B",
       "hp_base": 18,
@@ -10503,13 +10874,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Divine Fang",
       "proc_name": "Luna",
-      "base_weap": 119,
+      "base_weap": 122,
       "base_a": 7,
       "base_b": 25,
       "base_c": 34,
       "base_proc": 33
     },
-    "339": {
+    "340": {
+      "internal_name": "Nagi (Dragon Avatar)",
       "name": "Nagi (Dragon Avatar)",
       "color": "G",
       "hp_base": 24,
@@ -10534,13 +10906,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Dragon Valor 3",
       "proc_name": "Sol",
-      "base_weap": 137,
-      "base_a": 61,
+      "base_weap": 140,
+      "base_a": 64,
       "base_b": 108,
       "base_c": 35,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "340": {
+    "341": {
+      "internal_name": "Nah (Little Miss)",
       "name": "Nah (Little Miss)",
       "color": "R",
       "hp_base": 18,
@@ -10565,13 +10938,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Infantry Breath 3",
       "proc_name": "Bonfire",
-      "base_weap": 324,
-      "base_a": 34,
+      "base_weap": 328,
+      "base_a": 36,
       "base_b": 78,
       "base_c": 75,
       "base_proc": 10
     },
-    "341": {
+    "342": {
+      "internal_name": "Nailah (Unflinching Eye)",
       "name": "Nailah (Unflinching Eye)",
       "color": "B",
       "hp_base": 18,
@@ -10596,13 +10970,14 @@ var data = {
       "b_name": "Null C-Disrupt 3",
       "c_name": "Glare",
       "proc_name": "Moonbow",
-      "base_weap": 499,
-      "base_a": 61,
+      "base_weap": 503,
+      "base_a": 64,
       "base_b": 71,
       "base_c": 55,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "342": {
+    "343": {
+      "internal_name": "Nanna (Nordion Princess)",
       "name": "Nanna (Nordion Princess)",
       "color": "N",
       "hp_base": 17,
@@ -10627,13 +11002,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Def 2",
       "proc_name": "Heavenly Light",
-      "base_weap": 2,
-      "base_a": 109,
+      "base_weap": 1,
+      "base_a": 112,
       "base_b": 0,
       "base_c": 37,
       "base_proc": 25
     },
-    "343": {
+    "344": {
+      "internal_name": "Narcian (Vernal General)",
       "name": "Narcian (Vernal General)",
       "color": "B",
       "hp_base": 19,
@@ -10658,13 +11034,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Lance Exp. 3",
       "proc_name": "Vengeance",
-      "base_weap": 184,
+      "base_weap": 187,
       "base_a": 0,
       "base_b": 25,
       "base_c": 83,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "344": {
+    "345": {
+      "internal_name": "Narcian (Wyvern General)",
       "name": "Narcian (Wyvern General)",
       "color": "G",
       "hp_base": 18,
@@ -10689,13 +11066,14 @@ var data = {
       "b_name": "Lancebreaker 3",
       "c_name": "Savage Blow 3",
       "proc_name": "Vengeance",
-      "base_weap": 135,
+      "base_weap": 138,
       "base_a": 0,
       "base_b": 58,
       "base_c": 103,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "345": {
+    "346": {
+      "internal_name": "Navarre (Scarlet Sword)",
       "name": "Navarre (Scarlet Sword)",
       "color": "R",
       "hp_base": 18,
@@ -10720,13 +11098,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Threaten Spd 3",
       "proc_name": "Blazing Wind",
-      "base_weap": 390,
+      "base_weap": 393,
       "base_a": 0,
       "base_b": 37,
       "base_c": 132,
       "base_proc": 8
     },
-    "346": {
+    "347": {
+      "internal_name": "Nephenee (Fierce Halberdier)",
       "name": "Nephenee (Fierce Halberdier)",
       "color": "B",
       "hp_base": 18,
@@ -10751,13 +11130,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "(None)",
       "proc_name": "Moonbow",
-      "base_weap": 107,
-      "base_a": 21,
+      "base_weap": 110,
+      "base_a": 22,
       "base_b": 120,
       "base_c": 0,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "347": {
+    "348": {
+      "internal_name": "Nephenee (Sincere Dancer)",
       "name": "Nephenee (Sincere Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -10782,13 +11162,14 @@ var data = {
       "b_name": "Caldera Dance 2",
       "c_name": "Spd Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 154,
+      "base_weap": 156,
       "base_a": 0,
       "base_b": 18,
       "base_c": 109,
       "base_proc": 0
     },
-    "348": {
+    "349": {
+      "internal_name": "Niles (Cruel to be Kind)",
       "name": "Niles (Cruel to be Kind)",
       "color": "N",
       "hp_base": 18,
@@ -10813,13 +11194,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Res 3",
       "proc_name": "Iceberg",
-      "base_weap": 319,
-      "base_a": 130,
+      "base_weap": 321,
+      "base_a": 133,
       "base_b": 0,
       "base_c": 118,
       "base_proc": 28
     },
-    "349": {
+    "350": {
+      "internal_name": "Niles (Forbidden Tease)",
       "name": "Niles (Forbidden Tease)",
       "color": "B",
       "hp_base": 18,
@@ -10844,13 +11226,14 @@ var data = {
       "b_name": "Atk/Spd Link 3",
       "c_name": "Fortify Armor",
       "proc_name": "(None)",
-      "base_weap": 116,
-      "base_a": 125,
+      "base_weap": 119,
+      "base_a": 128,
       "base_b": 6,
       "base_c": 45,
       "base_proc": 0
     },
-    "350": {
+    "351": {
+      "internal_name": "Nils (Bright Bard)",
       "name": "Nils (Bright Bard)",
       "color": "B",
       "hp_base": 17,
@@ -10875,13 +11258,14 @@ var data = {
       "b_name": "Even Pulse Tie 3",
       "c_name": "Infantry Pulse 3",
       "proc_name": "(None)",
-      "base_weap": 175,
-      "base_a": 86,
+      "base_weap": 178,
+      "base_a": 89,
       "base_b": 45,
       "base_c": 77,
       "base_proc": 0
     },
-    "351": {
+    "352": {
+      "internal_name": "Nina (Eye Spy)",
       "name": "Nina (Eye Spy)",
       "color": "N",
       "hp_base": 16,
@@ -10906,13 +11290,14 @@ var data = {
       "b_name": "Spd/Res Link 3",
       "c_name": "Bow Valor 3",
       "proc_name": "Moonbow",
-      "base_weap": 401,
+      "base_weap": 404,
       "base_a": 0,
       "base_b": 106,
       "base_c": 21,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "352": {
+    "353": {
+      "internal_name": "Ninian (Bright-Eyed Bride)",
       "name": "Ninian (Bright-Eyed Bride)",
       "color": "B",
       "hp_base": 15,
@@ -10937,13 +11322,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "Drive Spd 2",
       "proc_name": "(None)",
-      "base_weap": 174,
+      "base_weap": 177,
       "base_a": 0,
       "base_b": 20,
       "base_c": 39,
       "base_proc": 0
     },
-    "353": {
+    "354": {
+      "internal_name": "Ninian (Oracle of Destiny)",
       "name": "Ninian (Oracle of Destiny)",
       "color": "B",
       "hp_base": 16,
@@ -10968,13 +11354,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Fortify Dragons",
       "proc_name": "(None)",
-      "base_weap": 274,
+      "base_weap": 278,
       "base_a": 0,
       "base_b": 44,
       "base_c": 49,
       "base_proc": 0
     },
-    "354": {
+    "355": {
+      "internal_name": "Nino (Flower of Frost)",
       "name": "Nino (Flower of Frost)",
       "color": "B",
       "hp_base": 18,
@@ -10999,13 +11386,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "Armor March 3",
       "proc_name": "(None)",
-      "base_weap": 448,
-      "base_a": 24,
+      "base_weap": 452,
+      "base_a": 25,
       "base_b": 14,
       "base_c": 2,
       "base_proc": 0
     },
-    "355": {
+    "356": {
+      "internal_name": "Nino (Pale Flower)",
       "name": "Nino (Pale Flower)",
       "color": "G",
       "hp_base": 17,
@@ -11030,13 +11418,14 @@ var data = {
       "b_name": "Aerobatics 3",
       "c_name": "Spd Smoke 3",
       "proc_name": "Moonbow",
-      "base_weap": 183,
-      "base_a": 125,
+      "base_weap": 186,
+      "base_a": 128,
       "base_b": 1,
       "base_c": 108,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "356": {
+    "357": {
+      "internal_name": "Nino (Pious Mage)",
       "name": "Nino (Pious Mage)",
       "color": "G",
       "hp_base": 16,
@@ -11061,13 +11450,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Atk 3",
       "proc_name": "(None)",
-      "base_weap": 243,
-      "base_a": 101,
+      "base_weap": 247,
+      "base_a": 104,
       "base_b": 0,
       "base_c": 64,
       "base_proc": 0
     },
-    "357": {
+    "358": {
+      "internal_name": "Noire (Shade Seeker)",
       "name": "Noire (Shade Seeker)",
       "color": "N",
       "hp_base": 17,
@@ -11092,13 +11482,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Infantry Rush 3",
       "proc_name": "(None)",
-      "base_weap": 86,
-      "base_a": 21,
+      "base_weap": 88,
+      "base_a": 22,
       "base_b": 0,
       "base_c": 78,
       "base_proc": 0
     },
-    "358": {
+    "359": {
+      "internal_name": "Norne (The Volunteer)",
       "name": "Norne (The Volunteer)",
       "color": "N",
       "hp_base": 18,
@@ -11123,13 +11514,14 @@ var data = {
       "b_name": "Spd/Def Link 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 210,
-      "base_a": 42,
+      "base_weap": 213,
+      "base_a": 44,
       "base_b": 104,
       "base_c": 0,
       "base_proc": 0
     },
-    "359": {
+    "360": {
+      "internal_name": "Nowi (Eternal Witch)",
       "name": "Nowi (Eternal Witch)",
       "color": "R",
       "hp_base": 17,
@@ -11154,13 +11546,14 @@ var data = {
       "b_name": "Live for Bounty",
       "c_name": "Hone Fliers",
       "proc_name": "(None)",
-      "base_weap": 202,
+      "base_weap": 205,
       "base_a": 16,
       "base_b": 60,
       "base_c": 69,
       "base_proc": 0
     },
-    "360": {
+    "361": {
+      "internal_name": "Nowi (Eternal Youth)",
       "name": "Nowi (Eternal Youth)",
       "color": "B",
       "hp_base": 17,
@@ -11185,13 +11578,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Res 3",
       "proc_name": "(None)",
-      "base_weap": 276,
-      "base_a": 56,
+      "base_weap": 280,
+      "base_a": 59,
       "base_b": 0,
       "base_c": 131,
       "base_proc": 0
     },
-    "361": {
+    "362": {
+      "internal_name": "Oboro (Fierce Fighter)",
       "name": "Oboro (Fierce Fighter)",
       "color": "B",
       "hp_base": 18,
@@ -11216,13 +11610,14 @@ var data = {
       "b_name": "Seal Def 3",
       "c_name": "Threaten Res 3",
       "proc_name": "(None)",
-      "base_weap": 322,
+      "base_weap": 326,
       "base_a": 0,
       "base_b": 95,
       "base_c": 131,
       "base_proc": 0
     },
-    "362": {
+    "363": {
+      "internal_name": "Odin (Potent Force)",
       "name": "Odin (Potent Force)",
       "color": "B",
       "hp_base": 19,
@@ -11247,13 +11642,14 @@ var data = {
       "b_name": "R Tomebreaker 3",
       "c_name": "(None)",
       "proc_name": "Moonbow",
-      "base_weap": 323,
-      "base_a": 57,
+      "base_weap": 327,
+      "base_a": 60,
       "base_b": 79,
       "base_c": 0,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "363": {
+    "364": {
+      "internal_name": "Ogma (Loyal Blade)",
       "name": "Ogma (Loyal Blade)",
       "color": "R",
       "hp_base": 21,
@@ -11278,13 +11674,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Atk 3",
       "proc_name": "Noontime",
-      "base_weap": 187,
-      "base_a": 57,
+      "base_weap": 190,
+      "base_a": 60,
       "base_b": 0,
       "base_c": 112,
-      "base_proc": 38
+      "base_proc": 39
     },
-    "364": {
+    "365": {
+      "internal_name": "Oliver (Admirer of Beauty)",
       "name": "Oliver (Admirer of Beauty)",
       "color": "B",
       "hp_base": 18,
@@ -11309,13 +11706,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Ploy 3",
       "proc_name": "Blazing Light",
-      "base_weap": 400,
-      "base_a": 97,
+      "base_weap": 403,
+      "base_a": 100,
       "base_b": 0,
       "base_c": 5,
       "base_proc": 6
     },
-    "365": {
+    "366": {
+      "internal_name": "Olivia (Blushing Beauty)",
       "name": "Olivia (Blushing Beauty)",
       "color": "R",
       "hp_base": 17,
@@ -11340,13 +11738,14 @@ var data = {
       "b_name": "Knock Back",
       "c_name": "Hone Atk 3",
       "proc_name": "(None)",
-      "base_weap": 412,
+      "base_weap": 415,
       "base_a": 0,
       "base_b": 57,
       "base_c": 64,
       "base_proc": 0
     },
-    "366": {
+    "367": {
+      "internal_name": "Olivia (Festival Dancer)",
       "name": "Olivia (Festival Dancer)",
       "color": "N",
       "hp_base": 15,
@@ -11371,13 +11770,14 @@ var data = {
       "b_name": "Blaze Dance 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 99,
-      "base_a": 62,
+      "base_weap": 101,
+      "base_a": 65,
       "base_b": 13,
       "base_c": 0,
       "base_proc": 0
     },
-    "367": {
+    "368": {
+      "internal_name": "Olivia (Sky-High Dancer)",
       "name": "Olivia (Sky-High Dancer)",
       "color": "R",
       "hp_base": 17,
@@ -11402,13 +11802,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Guidance 3",
       "proc_name": "(None)",
-      "base_weap": 416,
-      "base_a": 36,
+      "base_weap": 419,
+      "base_a": 38,
       "base_b": 25,
       "base_c": 62,
       "base_proc": 0
     },
-    "368": {
+    "369": {
+      "internal_name": "Olwen (Blue Mage Knight)",
       "name": "Olwen (Blue Mage Knight)",
       "color": "B",
       "hp_base": 17,
@@ -11433,13 +11834,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Cavalry",
       "proc_name": "(None)",
-      "base_weap": 118,
-      "base_a": 130,
+      "base_weap": 121,
+      "base_a": 133,
       "base_b": 0,
       "base_c": 138,
       "base_proc": 0
     },
-    "369": {
+    "370": {
+      "internal_name": "Olwen (Righteous Knight)",
       "name": "Olwen (Righteous Knight)",
       "color": "G",
       "hp_base": 17,
@@ -11464,13 +11866,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "G Tome Exp. 3",
       "proc_name": "Blazing Wind",
-      "base_weap": 459,
-      "base_a": 125,
+      "base_weap": 463,
+      "base_a": 128,
       "base_b": 82,
       "base_c": 53,
       "base_proc": 8
     },
-    "370": {
+    "371": {
+      "internal_name": "Ophelia (Dramatic Heroine)",
       "name": "Ophelia (Dramatic Heroine)",
       "color": "B",
       "hp_base": 16,
@@ -11495,13 +11898,14 @@ var data = {
       "b_name": "Chill Res 3",
       "c_name": "(None)",
       "proc_name": "Blazing Light",
-      "base_weap": 305,
-      "base_a": 120,
+      "base_weap": 307,
+      "base_a": 123,
       "base_b": 24,
       "base_c": 0,
       "base_proc": 6
     },
-    "371": {
+    "372": {
+      "internal_name": "Oscar (Agile Horseman)",
       "name": "Oscar (Agile Horseman)",
       "color": "B",
       "hp_base": 18,
@@ -11526,13 +11930,14 @@ var data = {
       "b_name": "Lancebreaker 3",
       "c_name": "Spur Spd/Def 2",
       "proc_name": "(None)",
-      "base_weap": 282,
+      "base_weap": 286,
       "base_a": 0,
       "base_b": 58,
       "base_c": 120,
       "base_proc": 0
     },
-    "372": {
+    "373": {
+      "internal_name": "Osian (Scolded Soldier)",
       "name": "Osian (Scolded Soldier)",
       "color": "G",
       "hp_base": 18,
@@ -11557,13 +11962,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Even Atk Wave 3",
       "proc_name": "Noontime",
-      "base_weap": 481,
-      "base_a": 96,
+      "base_weap": 485,
+      "base_a": 99,
       "base_b": 120,
       "base_c": 40,
-      "base_proc": 38
+      "base_proc": 39
     },
-    "373": {
+    "374": {
+      "internal_name": "Owain (Chosen One)",
       "name": "Owain (Chosen One)",
       "color": "R",
       "hp_base": 17,
@@ -11588,13 +11994,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Spur Spd/Def 2",
       "proc_name": "Blue Flame",
-      "base_weap": 304,
+      "base_weap": 306,
       "base_a": 11,
       "base_b": 120,
       "base_c": 120,
       "base_proc": 9
     },
-    "374": {
+    "375": {
+      "internal_name": "Palla (Eldest Bun-Bun)",
       "name": "Palla (Eldest Bun-Bun)",
       "color": "R",
       "hp_base": 19,
@@ -11619,13 +12026,14 @@ var data = {
       "b_name": "Disarm Trap 3",
       "c_name": "Hone Fliers",
       "proc_name": "Draconic Aura",
-      "base_weap": 332,
-      "base_a": 125,
+      "base_weap": 336,
+      "base_a": 128,
       "base_b": 38,
       "base_c": 69,
       "base_proc": 11
     },
-    "375": {
+    "376": {
+      "internal_name": "Palla (Eldest Whitewing)",
       "name": "Palla (Eldest Whitewing)",
       "color": "R",
       "hp_base": 18,
@@ -11650,13 +12058,14 @@ var data = {
       "b_name": "Wings of Mercy 3",
       "c_name": "Goad Fliers",
       "proc_name": "Moonbow",
-      "base_weap": 488,
+      "base_weap": 492,
       "base_a": 0,
       "base_b": 119,
       "base_c": 60,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "376": {
+    "377": {
+      "internal_name": "Palla (Sisterly Trio)",
       "name": "Palla (Sisterly Trio)",
       "color": "B",
       "hp_base": 18,
@@ -11681,13 +12090,14 @@ var data = {
       "b_name": "Chill Atk/Spd 2",
       "c_name": "Goad Fliers",
       "proc_name": "(None)",
-      "base_weap": 487,
-      "base_a": 94,
+      "base_weap": 491,
+      "base_a": 97,
       "base_b": 22,
       "base_c": 60,
       "base_proc": 0
     },
-    "377": {
+    "378": {
+      "internal_name": "Panne (Proud Taguel)",
       "name": "Panne (Proud Taguel)",
       "color": "B",
       "hp_base": 17,
@@ -11712,13 +12122,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Def Smoke 3",
       "proc_name": "Astra",
-      "base_weap": 447,
+      "base_weap": 451,
       "base_a": 0,
       "base_b": 25,
       "base_c": 29,
       "base_proc": 3
     },
-    "378": {
+    "379": {
+      "internal_name": "Pent (Fancy Fiance)",
       "name": "Pent (Fancy Fianc\xE9)",
       "color": "B",
       "hp_base": 18,
@@ -11743,13 +12154,14 @@ var data = {
       "b_name": "Dull Ranged 3",
       "c_name": "Pulse Smoke 3",
       "proc_name": "(None)",
-      "base_weap": 475,
+      "base_weap": 479,
       "base_a": 0,
       "base_b": 42,
       "base_c": 92,
       "base_proc": 0
     },
-    "379": {
+    "380": {
+      "internal_name": "Peony (Sweet Dream)",
       "name": "Peony (Sweet Dream)",
       "color": "B",
       "hp_base": 16,
@@ -11774,13 +12186,14 @@ var data = {
       "b_name": "Aerobatics 3",
       "c_name": "Fortify Res 4",
       "proc_name": "(None)",
-      "base_weap": 167,
-      "base_a": 31,
+      "base_weap": 169,
+      "base_a": 33,
       "base_b": 1,
       "base_c": 52,
       "base_proc": 0
     },
-    "380": {
+    "381": {
+      "internal_name": "Perceval (Knightly Ideal)",
       "name": "Perceval (Knightly Ideal)",
       "color": "B",
       "hp_base": 16,
@@ -11805,13 +12218,14 @@ var data = {
       "b_name": "Lull Atk/Spd 3",
       "c_name": "Rouse Def/Res 3",
       "proc_name": "Luna",
-      "base_weap": 340,
+      "base_weap": 344,
       "base_a": 15,
       "base_b": 65,
       "base_c": 100,
       "base_proc": 33
     },
-    "381": {
+    "382": {
+      "internal_name": "Peri (Playful Slayer)",
       "name": "Peri (Playful Slayer)",
       "color": "B",
       "hp_base": 16,
@@ -11836,13 +12250,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Def 3",
       "proc_name": "Glimmer",
-      "base_weap": 333,
-      "base_a": 101,
+      "base_weap": 337,
+      "base_a": 104,
       "base_b": 0,
       "base_c": 130,
       "base_proc": 20
     },
-    "382": {
+    "383": {
+      "internal_name": "Petra (Princess of Brigid)",
       "name": "Petra (Princess of Brigid)",
       "color": "B",
       "hp_base": 18,
@@ -11867,13 +12282,14 @@ var data = {
       "b_name": "Aerobatics 3",
       "c_name": "Ground Orders 3",
       "proc_name": "Luna",
-      "base_weap": 237,
-      "base_a": 24,
+      "base_weap": 240,
+      "base_a": 25,
       "base_b": 1,
       "base_c": 61,
       "base_proc": 33
     },
-    "383": {
+    "384": {
+      "internal_name": "Phina (Roving Dancer)",
       "name": "Phina (Roving Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -11898,13 +12314,14 @@ var data = {
       "b_name": "Geyser Dance 2",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 347,
-      "base_a": 107,
+      "base_weap": 351,
+      "base_a": 110,
       "base_b": 53,
       "base_c": 0,
       "base_proc": 0
     },
-    "384": {
+    "385": {
+      "internal_name": "Priscilla (Delicate Princess)",
       "name": "Priscilla (Delicate Princess)",
       "color": "N",
       "hp_base": 17,
@@ -11929,13 +12346,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def 3",
       "proc_name": "Still-Water Balm",
-      "base_weap": 328,
+      "base_weap": 332,
       "base_a": 0,
       "base_b": 0,
       "base_c": 116,
-      "base_proc": 50
+      "base_proc": 51
     },
-    "385": {
+    "386": {
+      "internal_name": "Python (Apathetic Archer)",
       "name": "Python (Apathetic Archer)",
       "color": "G",
       "hp_base": 19,
@@ -11960,13 +12378,14 @@ var data = {
       "b_name": "B Tomebreaker 3",
       "c_name": "(None)",
       "proc_name": "Moonbow",
-      "base_weap": 403,
-      "base_a": 114,
+      "base_weap": 406,
+      "base_a": 117,
       "base_b": 9,
       "base_c": 0,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "386": {
+    "387": {
+      "internal_name": "Quan (Luminous Lancer)",
       "name": "Quan (Luminous Lancer)",
       "color": "B",
       "hp_base": 20,
@@ -11986,18 +12405,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "G\xE1e Bolg",
+      "weap_name": "Gae Bolg",
       "a_name": "Steady Posture 2",
       "b_name": "(None)",
       "c_name": "Drive Atk 2",
       "proc_name": "(None)",
-      "base_weap": 178,
-      "base_a": 116,
+      "base_weap": 181,
+      "base_a": 119,
       "base_b": 0,
       "base_c": 36,
       "base_proc": 0
     },
-    "387": {
+    "388": {
+      "internal_name": "Raigh (Dark Child)",
       "name": "Raigh (Dark Child)",
       "color": "R",
       "hp_base": 17,
@@ -12022,13 +12442,14 @@ var data = {
       "b_name": "Seal Res 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 228,
-      "base_a": 84,
+      "base_weap": 231,
+      "base_a": 87,
       "base_b": 97,
       "base_c": 0,
       "base_proc": 0
     },
-    "388": {
+    "389": {
+      "internal_name": "Ranulf (Friend of Nations)",
       "name": "Ranulf (Friend of Nations)",
       "color": "G",
       "hp_base": 16,
@@ -12053,13 +12474,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "Ward Beasts",
       "proc_name": "(None)",
-      "base_weap": 92,
+      "base_weap": 94,
       "base_a": 0,
       "base_b": 20,
       "base_c": 137,
       "base_proc": 0
     },
-    "389": {
+    "390": {
+      "internal_name": "Rath (Wolf of Sacae)",
       "name": "Rath (Wolf of Sacae)",
       "color": "G",
       "hp_base": 17,
@@ -12084,13 +12506,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Def Smoke 3",
       "proc_name": "Glimmer",
-      "base_weap": 419,
-      "base_a": 111,
+      "base_weap": 422,
+      "base_a": 114,
       "base_b": 0,
       "base_c": 29,
       "base_proc": 20
     },
-    "390": {
+    "391": {
+      "internal_name": "Raven (Peerless Fighter)",
       "name": "Raven (Peerless Fighter)",
       "color": "G",
       "hp_base": 19,
@@ -12115,13 +12538,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Def 3",
       "proc_name": "Sol",
-      "base_weap": 27,
-      "base_a": 60,
+      "base_weap": 25,
+      "base_a": 63,
       "base_b": 0,
       "base_c": 130,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "391": {
+    "392": {
+      "internal_name": "Rebecca (Wildflower)",
       "name": "Rebecca (Wildflower)",
       "color": "N",
       "hp_base": 18,
@@ -12146,13 +12570,14 @@ var data = {
       "b_name": "Seal Atk 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 358,
-      "base_a": 48,
+      "base_weap": 362,
+      "base_a": 50,
       "base_b": 92,
       "base_c": 0,
       "base_proc": 0
     },
-    "392": {
+    "393": {
+      "internal_name": "Reinhardt (Lightning's Rondo)",
       "name": "Reinhardt (Lightning's Rondo)",
       "color": "G",
       "hp_base": 16,
@@ -12172,18 +12597,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Vaf\xDEr\xFA\xF0nir",
+      "weap_name": "Vafthrudnir",
       "a_name": "Death Blow 3",
       "b_name": "Chill Res 3",
       "c_name": "Joint Hone Atk",
       "proc_name": "(None)",
-      "base_weap": 468,
-      "base_a": 51,
+      "base_weap": 472,
+      "base_a": 54,
       "base_b": 24,
       "base_c": 80,
       "base_proc": 0
     },
-    "393": {
+    "394": {
+      "internal_name": "Reinhardt (Thunder's Fist)",
       "name": "Reinhardt (Thunder's Fist)",
       "color": "B",
       "hp_base": 16,
@@ -12208,13 +12634,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "Goad Cavalry",
       "proc_name": "Blazing Thunder",
-      "base_weap": 118,
+      "base_weap": 121,
       "base_a": 0,
       "base_b": 113,
       "base_c": 58,
       "base_proc": 7
     },
-    "394": {
+    "395": {
+      "internal_name": "Reinhardt (Thunder's Sword)",
       "name": "Reinhardt (Thunder's Sword)",
       "color": "R",
       "hp_base": 18,
@@ -12239,13 +12666,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "Spur Atk/Def 2",
       "proc_name": "Pavise",
-      "base_weap": 293,
-      "base_a": 51,
+      "base_weap": 295,
+      "base_a": 54,
       "base_b": 113,
       "base_c": 113,
-      "base_proc": 40
+      "base_proc": 41
     },
-    "395": {
+    "396": {
+      "internal_name": "Reyson (White Prince)",
       "name": "Reyson (White Prince)",
       "color": "G",
       "hp_base": 15,
@@ -12270,13 +12698,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Beasts",
       "proc_name": "(None)",
-      "base_weap": 229,
-      "base_a": 116,
+      "base_weap": 232,
+      "base_a": 119,
       "base_b": 0,
       "base_c": 46,
       "base_proc": 0
     },
-    "396": {
+    "397": {
+      "internal_name": "Rhajat (Black Magician)",
       "name": "Rhajat (Black Magician)",
       "color": "G",
       "hp_base": 17,
@@ -12301,13 +12730,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Savage Blow 3",
       "proc_name": "(None)",
-      "base_weap": 255,
-      "base_a": 62,
+      "base_weap": 259,
+      "base_a": 65,
       "base_b": 0,
       "base_c": 103,
       "base_proc": 0
     },
-    "397": {
+    "398": {
+      "internal_name": "Rinea (Reminiscent Belle)",
       "name": "Rinea (Reminiscent Belle)",
       "color": "B",
       "hp_base": 16,
@@ -12332,13 +12762,14 @@ var data = {
       "b_name": "Fireflood Dance 2",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 410,
-      "base_a": 35,
+      "base_weap": 413,
+      "base_a": 37,
       "base_b": 46,
       "base_c": 0,
       "base_proc": 0
     },
-    "398": {
+    "399": {
+      "internal_name": "Rinkah (Scion of Flame)",
       "name": "Rinkah (Scion of Flame)",
       "color": "G",
       "hp_base": 18,
@@ -12363,13 +12794,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Even Def Wave 3",
       "proc_name": "Bonfire",
-      "base_weap": 370,
-      "base_a": 64,
+      "base_weap": 374,
+      "base_a": 67,
       "base_b": 120,
       "base_c": 41,
       "base_proc": 10
     },
-    "399": {
+    "400": {
+      "internal_name": "Robin (Fell Reincarnation)",
       "name": "Robin (Fell Reincarnation)",
       "color": "G",
       "hp_base": 24,
@@ -12394,13 +12826,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Ward Dragons",
       "proc_name": "Ignis",
-      "base_weap": 140,
+      "base_weap": 143,
       "base_a": 0,
       "base_b": 114,
       "base_c": 139,
       "base_proc": 29
     },
-    "400": {
+    "401": {
+      "internal_name": "Robin (Fell Vessel)",
       "name": "Robin (Fell Vessel)",
       "color": "N",
       "hp_base": 16,
@@ -12425,13 +12858,14 @@ var data = {
       "b_name": "Cancel Affinity 3",
       "c_name": "Res Smoke 3",
       "proc_name": "Bonfire",
-      "base_weap": 140,
-      "base_a": 66,
+      "base_weap": 143,
+      "base_a": 69,
       "base_b": 19,
       "base_c": 97,
       "base_proc": 10
     },
-    "401": {
+    "402": {
+      "internal_name": "Robin (Festive Tactician)",
       "name": "Robin (Festive Tactician)",
       "color": "B",
       "hp_base": 23,
@@ -12456,13 +12890,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Armor March 3",
       "proc_name": "(None)",
-      "base_weap": 449,
-      "base_a": 39,
+      "base_weap": 453,
+      "base_a": 41,
       "base_b": 0,
       "base_c": 2,
       "base_proc": 0
     },
-    "402": {
+    "403": {
+      "internal_name": "Robin (High Deliverer)",
       "name": "Robin (High Deliverer)",
       "color": "B",
       "hp_base": 18,
@@ -12487,13 +12922,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def 3",
       "proc_name": "Bonfire",
-      "base_weap": 445,
-      "base_a": 60,
+      "base_weap": 449,
+      "base_a": 63,
       "base_b": 0,
       "base_c": 116,
       "base_proc": 10
     },
-    "403": {
+    "404": {
+      "internal_name": "Robin (Mystery Tactician)",
       "name": "Robin (Mystery Tactician)",
       "color": "G",
       "hp_base": 18,
@@ -12518,13 +12954,14 @@ var data = {
       "b_name": "B Tomebreaker 3",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 446,
-      "base_a": 59,
+      "base_weap": 450,
+      "base_a": 62,
       "base_b": 9,
       "base_c": 0,
       "base_proc": 29
     },
-    "404": {
+    "405": {
+      "internal_name": "Robin (Seaside Tactician)",
       "name": "Robin (Seaside Tactician)",
       "color": "B",
       "hp_base": 18,
@@ -12549,13 +12986,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Lance Valor 3",
       "proc_name": "(None)",
-      "base_weap": 113,
-      "base_a": 86,
+      "base_weap": 116,
+      "base_a": 89,
       "base_b": 0,
       "base_c": 84,
       "base_proc": 0
     },
-    "405": {
+    "406": {
+      "internal_name": "Roderick (Steady Squire)",
       "name": "Roderick (Steady Squire)",
       "color": "B",
       "hp_base": 18,
@@ -12580,13 +13018,14 @@ var data = {
       "b_name": "Drag Back",
       "c_name": "Drive Def 2",
       "proc_name": "(None)",
-      "base_weap": 437,
+      "base_weap": 441,
       "base_a": 0,
       "base_b": 40,
       "base_c": 37,
       "base_proc": 0
     },
-    "406": {
+    "407": {
+      "internal_name": "Rolf (Tricky Archer)",
       "name": "Rolf (Tricky Archer)",
       "color": "N",
       "hp_base": 18,
@@ -12611,13 +13050,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Odd Spd Wave 3",
       "proc_name": "(None)",
-      "base_weap": 77,
+      "base_weap": 78,
       "base_a": 0,
       "base_b": 37,
       "base_c": 88,
       "base_proc": 0
     },
-    "407": {
+    "408": {
+      "internal_name": "Ross (His Father's Son)",
       "name": "Ross (His Father's Son)",
       "color": "G",
       "hp_base": 17,
@@ -12642,13 +13082,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Def 3",
       "proc_name": "(None)",
-      "base_weap": 56,
-      "base_a": 71,
+      "base_weap": 55,
+      "base_a": 74,
       "base_b": 0,
       "base_c": 130,
       "base_proc": 0
     },
-    "408": {
+    "409": {
+      "internal_name": "Roy (Blazing Lion)",
       "name": "Roy (Blazing Lion)",
       "color": "R",
       "hp_base": 17,
@@ -12673,13 +13114,14 @@ var data = {
       "b_name": "Renewal 3",
       "c_name": "Human Virtue",
       "proc_name": "Dragon Fang",
-      "base_weap": 126,
-      "base_a": 34,
+      "base_weap": 129,
+      "base_a": 36,
       "base_b": 82,
       "base_c": 72,
       "base_proc": 12
     },
-    "409": {
+    "410": {
+      "internal_name": "Roy (Brave Lion)",
       "name": "Roy (Brave Lion)",
       "color": "R",
       "hp_base": 16,
@@ -12704,13 +13146,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "(None)",
       "proc_name": "Galeforce",
-      "base_weap": 43,
-      "base_a": 114,
+      "base_weap": 41,
+      "base_a": 117,
       "base_b": 37,
       "base_c": 0,
       "base_proc": 18
     },
-    "410": {
+    "411": {
+      "internal_name": "Roy (Young Lion)",
       "name": "Roy (Young Lion)",
       "color": "R",
       "hp_base": 20,
@@ -12735,13 +13178,14 @@ var data = {
       "b_name": "Seal Def 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 36,
-      "base_a": 129,
+      "base_weap": 34,
+      "base_a": 132,
       "base_b": 95,
       "base_c": 0,
       "base_proc": 0
     },
-    "411": {
+    "412": {
+      "internal_name": "Roy (Youthful Gifts)",
       "name": "Roy (Youthful Gifts)",
       "color": "N",
       "hp_base": 17,
@@ -12766,13 +13210,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Bow Valor 3",
       "proc_name": "(None)",
-      "base_weap": 196,
-      "base_a": 51,
+      "base_weap": 199,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 21,
       "base_proc": 0
     },
-    "412": {
+    "413": {
+      "internal_name": "Rudolf (Emperor of Rigel)",
       "name": "Rudolf (Emperor of Rigel)",
       "color": "B",
       "hp_base": 24,
@@ -12797,13 +13242,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Threat. Atk/Def 3",
       "proc_name": "Bonfire",
-      "base_weap": 457,
+      "base_weap": 461,
       "base_a": 0,
       "base_b": 108,
       "base_c": 126,
       "base_proc": 10
     },
-    "413": {
+    "414": {
+      "internal_name": "Rutger (Lone Swordsman)",
       "name": "Rutger (Lone Swordsman)",
       "color": "R",
       "hp_base": 20,
@@ -12828,13 +13274,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "(None)",
       "proc_name": "Vengeance",
-      "base_weap": 420,
+      "base_weap": 423,
       "base_a": 11,
       "base_b": 113,
       "base_c": 0,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "414": {
+    "415": {
+      "internal_name": "Ryoma (Dancing Samurai)",
       "name": "Ryoma (Dancing Samurai)",
       "color": "B",
       "hp_base": 14,
@@ -12859,13 +13306,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "Spur Spd/Res 2",
       "proc_name": "(None)",
-      "base_weap": 417,
-      "base_a": 129,
+      "base_weap": 420,
+      "base_a": 132,
       "base_b": 23,
       "base_c": 121,
       "base_proc": 0
     },
-    "415": {
+    "416": {
+      "internal_name": "Ryoma (Peerless Samurai)",
       "name": "Ryoma (Peerless Samurai)",
       "color": "R",
       "hp_base": 19,
@@ -12890,13 +13338,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Spd 3",
       "proc_name": "Astra",
-      "base_weap": 345,
-      "base_a": 57,
+      "base_weap": 349,
+      "base_a": 60,
       "base_b": 0,
       "base_c": 70,
       "base_proc": 3
     },
-    "416": {
+    "417": {
+      "internal_name": "Ryoma (Samurai at Ease)",
       "name": "Ryoma (Samurai at Ease)",
       "color": "B",
       "hp_base": 18,
@@ -12921,13 +13370,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Odd Def Wave 3",
       "proc_name": "Luna",
-      "base_weap": 244,
+      "base_weap": 248,
       "base_a": 15,
       "base_b": 25,
       "base_c": 86,
       "base_proc": 33
     },
-    "417": {
+    "418": {
+      "internal_name": "Ryoma (Supreme Samurai)",
       "name": "Ryoma (Supreme Samurai)",
       "color": "R",
       "hp_base": 17,
@@ -12952,13 +13402,14 @@ var data = {
       "b_name": "Bushido",
       "c_name": "Guidance 3",
       "proc_name": "Glimmer",
-      "base_weap": 345,
-      "base_a": 90,
+      "base_weap": 349,
+      "base_a": 93,
       "base_b": 17,
       "base_c": 62,
       "base_proc": 20
     },
-    "418": {
+    "419": {
+      "internal_name": "Saber (Driven Mercenary)",
       "name": "Saber (Driven Mercenary)",
       "color": "R",
       "hp_base": 18,
@@ -12983,13 +13434,14 @@ var data = {
       "b_name": "Shield Pulse 3",
       "c_name": "(None)",
       "proc_name": "Aegis",
-      "base_weap": 190,
-      "base_a": 88,
+      "base_weap": 193,
+      "base_a": 91,
       "base_b": 100,
       "base_c": 0,
       "base_proc": 1
     },
-    "419": {
+    "420": {
+      "internal_name": "Saias (Bishop of Flame)",
       "name": "Saias (Bishop of Flame)",
       "color": "B",
       "hp_base": 17,
@@ -13014,13 +13466,14 @@ var data = {
       "b_name": "Escape Route 3",
       "c_name": "Spd Ploy 3",
       "proc_name": "Glacies",
-      "base_weap": 483,
+      "base_weap": 487,
       "base_a": 0,
       "base_b": 44,
       "base_c": 107,
       "base_proc": 19
     },
-    "420": {
+    "421": {
+      "internal_name": "Saizo (Angry Ninja)",
       "name": "Saizo (Angry Ninja)",
       "color": "N",
       "hp_base": 17,
@@ -13045,13 +13498,14 @@ var data = {
       "b_name": "Poison Strike 3",
       "c_name": "Spur Spd 3",
       "proc_name": "(None)",
-      "base_weap": 383,
+      "base_weap": 386,
       "base_a": 0,
       "base_b": 77,
       "base_c": 119,
       "base_proc": 0
     },
-    "421": {
+    "422": {
+      "internal_name": "Sakura (Gentle Nekomata)",
       "name": "Sakura (Gentle Nekomata)",
       "color": "N",
       "hp_base": 16,
@@ -13076,13 +13530,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "Dagger Valor 3",
       "proc_name": "Glacies",
-      "base_weap": 262,
-      "base_a": 132,
+      "base_weap": 266,
+      "base_a": 135,
       "base_b": 54,
       "base_c": 26,
       "base_proc": 19
     },
-    "422": {
+    "423": {
+      "internal_name": "Sakura (Hot-Spring Healer)",
       "name": "Sakura (Hot-Spring Healer)",
       "color": "N",
       "hp_base": 17,
@@ -13107,13 +13562,14 @@ var data = {
       "b_name": "Wrathful Staff 3",
       "c_name": "Spd Opening 3",
       "proc_name": "Fireflood Balm+",
-      "base_weap": 195,
+      "base_weap": 198,
       "base_a": 0,
       "base_b": 121,
       "base_c": 106,
       "base_proc": 17
     },
-    "423": {
+    "424": {
+      "internal_name": "Sakura (Loving Priestess)",
       "name": "Sakura (Loving Priestess)",
       "color": "N",
       "hp_base": 17,
@@ -13138,13 +13594,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Def 3",
       "proc_name": "Still-Water Balm",
-      "base_weap": 147,
+      "base_weap": 149,
       "base_a": 0,
       "base_b": 0,
       "base_c": 48,
-      "base_proc": 50
+      "base_proc": 51
     },
-    "424": {
+    "425": {
+      "internal_name": "Sanaki (Apostle in White)",
       "name": "Sanaki (Apostle in White)",
       "color": "G",
       "hp_base": 16,
@@ -13169,13 +13626,14 @@ var data = {
       "b_name": "Def/Res Link 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 318,
+      "base_weap": 320,
       "base_a": 16,
       "base_b": 34,
       "base_c": 0,
       "base_proc": 0
     },
-    "425": {
+    "426": {
+      "internal_name": "Sanaki (Begnion's Apostle)",
       "name": "Sanaki (Begnion's Apostle)",
       "color": "R",
       "hp_base": 16,
@@ -13200,13 +13658,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Atk 3",
       "proc_name": "(None)",
-      "base_weap": 98,
-      "base_a": 129,
+      "base_weap": 100,
+      "base_a": 132,
       "base_b": 0,
       "base_c": 64,
       "base_proc": 0
     },
-    "426": {
+    "427": {
+      "internal_name": "Selena (Cutting Wit)",
       "name": "Selena (Cutting Wit)",
       "color": "R",
       "hp_base": 18,
@@ -13231,13 +13690,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Spd 3",
       "proc_name": "(None)",
-      "base_weap": 396,
-      "base_a": 129,
+      "base_weap": 399,
+      "base_a": 132,
       "base_b": 0,
       "base_c": 132,
       "base_proc": 0
     },
-    "427": {
+    "428": {
+      "internal_name": "Seliph (Heir of Light)",
       "name": "Seliph (Heir of Light)",
       "color": "R",
       "hp_base": 19,
@@ -13262,13 +13722,14 @@ var data = {
       "b_name": "Brash Assault 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 465,
-      "base_a": 84,
+      "base_weap": 469,
+      "base_a": 87,
       "base_b": 16,
       "base_c": 0,
       "base_proc": 0
     },
-    "428": {
+    "429": {
+      "internal_name": "Selkie (Free Spirit)",
       "name": "Selkie (Free Spirit)",
       "color": "B",
       "hp_base": 16,
@@ -13293,13 +13754,14 @@ var data = {
       "b_name": "Sabotage Atk 3",
       "c_name": "Even Res Wave 3",
       "proc_name": "Iceberg",
-      "base_weap": 171,
-      "base_a": 22,
+      "base_weap": 174,
+      "base_a": 23,
       "base_b": 87,
       "base_c": 42,
       "base_proc": 28
     },
-    "429": {
+    "430": {
+      "internal_name": "Selkie (New Year's Spirit)",
       "name": "Selkie (New Year's Spirit)",
       "color": "N",
       "hp_base": 16,
@@ -13324,13 +13786,14 @@ var data = {
       "b_name": "Sabotage Spd 3",
       "c_name": "Odd Res Wave 3",
       "proc_name": "Iceberg",
-      "base_weap": 316,
-      "base_a": 65,
+      "base_weap": 318,
+      "base_a": 68,
       "base_b": 90,
       "base_c": 87,
       "base_proc": 28
     },
-    "430": {
+    "431": {
+      "internal_name": "Serra (Outspoken Cleric)",
       "name": "Serra (Outspoken Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -13355,13 +13818,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Hone Atk 3",
       "proc_name": "Swift-Winds Balm",
-      "base_weap": 2,
+      "base_weap": 1,
       "base_a": 0,
       "base_b": 0,
       "base_c": 64,
-      "base_proc": 51
+      "base_proc": 52
     },
-    "431": {
+    "432": {
+      "internal_name": "Seth (Silver Knight)",
       "name": "Seth (Silver Knight)",
       "color": "R",
       "hp_base": 18,
@@ -13386,13 +13850,14 @@ var data = {
       "b_name": "Seal Atk/Def 2",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 413,
-      "base_a": 75,
+      "base_weap": 416,
+      "base_a": 78,
       "base_b": 93,
       "base_c": 0,
       "base_proc": 0
     },
-    "432": {
+    "433": {
+      "internal_name": "Setsuna (Absent Archer)",
       "name": "Setsuna (Absent Archer)",
       "color": "N",
       "hp_base": 18,
@@ -13417,13 +13882,14 @@ var data = {
       "b_name": "Bowbreaker 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 12,
-      "base_a": 84,
+      "base_weap": 11,
+      "base_a": 87,
       "base_b": 15,
       "base_c": 0,
       "base_proc": 0
     },
-    "433": {
+    "434": {
+      "internal_name": "Shanna (Sprightly Flier)",
       "name": "Shanna (Sprightly Flier)",
       "color": "B",
       "hp_base": 17,
@@ -13448,13 +13914,14 @@ var data = {
       "b_name": "Desperation 3",
       "c_name": "Threaten Spd 3",
       "proc_name": "Iceberg",
-      "base_weap": 398,
+      "base_weap": 401,
       "base_a": 0,
       "base_b": 37,
       "base_c": 132,
       "base_proc": 28
     },
-    "434": {
+    "435": {
+      "internal_name": "Shannan (Wielder of Astra)",
       "name": "Shannan (Wielder of Astra)",
       "color": "R",
       "hp_base": 19,
@@ -13479,13 +13946,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Even Spd Wave 3",
       "proc_name": "Imperial Astra",
-      "base_weap": 23,
-      "base_a": 117,
+      "base_weap": 21,
+      "base_a": 120,
       "base_b": 120,
       "base_c": 43,
       "base_proc": 31
     },
-    "435": {
+    "436": {
+      "internal_name": "Sharena (Princess of Askr)",
       "name": "Sharena (Princess of Askr)",
       "color": "B",
       "hp_base": 19,
@@ -13510,13 +13978,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Def 3",
       "proc_name": "(None)",
-      "base_weap": 152,
-      "base_a": 113,
+      "base_weap": 154,
+      "base_a": 116,
       "base_b": 0,
       "base_c": 48,
       "base_proc": 0
     },
-    "436": {
+    "437": {
+      "internal_name": "Sharena (Spring Princess)",
       "name": "Sharena (Spring Princess)",
       "color": "G",
       "hp_base": 18,
@@ -13541,13 +14010,14 @@ var data = {
       "b_name": "Live for Bounty",
       "c_name": "Res Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 309,
-      "base_a": 127,
+      "base_weap": 312,
+      "base_a": 130,
       "base_b": 60,
       "base_c": 98,
       "base_proc": 0
     },
-    "437": {
+    "438": {
+      "internal_name": "Sheena (Princess of Gra)",
       "name": "Sheena (Princess of Gra)",
       "color": "G",
       "hp_base": 21,
@@ -13572,13 +14042,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Armor",
       "proc_name": "Escutcheon",
-      "base_weap": 257,
-      "base_a": 124,
+      "base_weap": 261,
+      "base_a": 127,
       "base_b": 0,
       "base_c": 45,
       "base_proc": 15
     },
-    "438": {
+    "439": {
+      "internal_name": "Shigure (Dark Sky Singer)",
       "name": "Shigure (Dark Sky Singer)",
       "color": "B",
       "hp_base": 15,
@@ -13603,13 +14074,14 @@ var data = {
       "b_name": "Geyser Dance 2",
       "c_name": "B Tome Valor 3",
       "proc_name": "(None)",
-      "base_weap": 101,
+      "base_weap": 103,
       "base_a": 0,
       "base_b": 53,
       "base_c": 17,
       "base_proc": 0
     },
-    "439": {
+    "440": {
+      "internal_name": "Shigure (Uplifting Artist)",
       "name": "Shigure (Uplifting Artist)",
       "color": "B",
       "hp_base": 18,
@@ -13634,13 +14106,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Fliers",
       "proc_name": "Noontime",
-      "base_weap": 223,
-      "base_a": 50,
+      "base_weap": 226,
+      "base_a": 53,
       "base_b": 0,
       "base_c": 140,
-      "base_proc": 38
+      "base_proc": 39
     },
-    "440": {
+    "441": {
+      "internal_name": "Shiro (Raw Talent)",
       "name": "Shiro (Raw Talent)",
       "color": "B",
       "hp_base": 19,
@@ -13665,13 +14138,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Def Tactic 3",
       "proc_name": "(None)",
-      "base_weap": 63,
-      "base_a": 118,
+      "base_weap": 62,
+      "base_a": 121,
       "base_b": 0,
       "base_c": 30,
       "base_proc": 0
     },
-    "441": {
+    "442": {
+      "internal_name": "Siegbert (Future King)",
       "name": "Siegbert (Future King)",
       "color": "R",
       "hp_base": 19,
@@ -13696,13 +14170,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Atk Tactic 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 105,
-      "base_a": 51,
+      "base_weap": 107,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 7,
       "base_proc": 12
     },
-    "442": {
+    "443": {
+      "internal_name": "Sigrun (Loyal Protector)",
       "name": "Sigrun (Loyal Protector)",
       "color": "B",
       "hp_base": 18,
@@ -13727,13 +14202,14 @@ var data = {
       "b_name": "Def/Res Link 3",
       "c_name": "Hone Fliers",
       "proc_name": "(None)",
-      "base_weap": 365,
+      "base_weap": 369,
       "base_a": 0,
       "base_b": 34,
       "base_c": 69,
       "base_proc": 0
     },
-    "443": {
+    "444": {
+      "internal_name": "Sigrun (Steadfast Bride)",
       "name": "Sigrun (Steadfast Bride)",
       "color": "R",
       "hp_base": 16,
@@ -13758,13 +14234,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Air Orders 3",
       "proc_name": "(None)",
-      "base_weap": 72,
+      "base_weap": 73,
       "base_a": 4,
       "base_b": 0,
       "base_c": 1,
       "base_proc": 0
     },
-    "444": {
+    "445": {
+      "internal_name": "Sigurd (Holy Knight)",
       "name": "Sigurd (Holy Knight)",
       "color": "R",
       "hp_base": 19,
@@ -13789,13 +14266,14 @@ var data = {
       "b_name": "Crusader's Ward",
       "c_name": "Spd Smoke 3",
       "proc_name": "Miracle",
-      "base_weap": 122,
-      "base_a": 46,
+      "base_weap": 125,
+      "base_a": 48,
       "base_b": 28,
       "base_c": 108,
-      "base_proc": 35
+      "base_proc": 36
     },
-    "445": {
+    "446": {
+      "internal_name": "Silas (Loyal Knight)",
       "name": "Silas (Loyal Knight)",
       "color": "B",
       "hp_base": 18,
@@ -13820,13 +14298,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Even Def Wave 3",
       "proc_name": "(None)",
-      "base_weap": 423,
-      "base_a": 118,
+      "base_weap": 426,
+      "base_a": 121,
       "base_b": 0,
       "base_c": 41,
       "base_proc": 0
     },
-    "446": {
+    "447": {
+      "internal_name": "Silque (Adherent of Mila)",
       "name": "Silque (Adherent of Mila)",
       "color": "N",
       "hp_base": 17,
@@ -13851,13 +14330,14 @@ var data = {
       "b_name": "Dazzling Staff 3",
       "c_name": "Staff Exp. 3",
       "proc_name": "Earthfire Balm+",
-      "base_weap": 294,
+      "base_weap": 296,
       "base_a": 0,
       "base_b": 31,
       "base_c": 122,
       "base_proc": 13
     },
-    "447": {
+    "448": {
+      "internal_name": "Silque (Selfless Cleric)",
       "name": "Silque (Selfless Cleric)",
       "color": "N",
       "hp_base": 16,
@@ -13882,13 +14362,14 @@ var data = {
       "b_name": "Live to Serve 3",
       "c_name": "Spd Opening 3",
       "proc_name": "Heavenly Light",
-      "base_weap": 348,
+      "base_weap": 352,
       "base_a": 0,
       "base_b": 62,
       "base_c": 106,
       "base_proc": 25
     },
-    "448": {
+    "449": {
+      "internal_name": "Silvia (Traveling Dancer)",
       "name": "Silvia (Traveling Dancer)",
       "color": "R",
       "hp_base": 16,
@@ -13913,13 +14394,14 @@ var data = {
       "b_name": "Deluge Dance 2",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 25,
-      "base_a": 95,
+      "base_weap": 23,
+      "base_a": 98,
       "base_b": 36,
       "base_c": 0,
       "base_proc": 0
     },
-    "449": {
+    "450": {
+      "internal_name": "Sirius (Mysterious Knight)",
       "name": "Sirius (Mysterious Knight)",
       "color": "B",
       "hp_base": 18,
@@ -13944,13 +14426,14 @@ var data = {
       "b_name": "Lull Atk/Spd 3",
       "c_name": "(None)",
       "proc_name": "Luna",
-      "base_weap": 378,
-      "base_a": 27,
+      "base_weap": 380,
+      "base_a": 28,
       "base_b": 65,
       "base_c": 0,
       "base_proc": 33
     },
-    "450": {
+    "451": {
+      "internal_name": "Soleil (Adorable Adorer)",
       "name": "Soleil (Adorable Adorer)",
       "color": "R",
       "hp_base": 18,
@@ -13975,13 +14458,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Res 2",
       "proc_name": "Blazing Wind",
-      "base_weap": 159,
-      "base_a": 48,
+      "base_weap": 161,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 38,
       "base_proc": 8
     },
-    "451": {
+    "452": {
+      "internal_name": "Sonya (Vengeful Mage)",
       "name": "Sonya (Vengeful Mage)",
       "color": "G",
       "hp_base": 17,
@@ -14006,13 +14490,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Res Ploy 3",
       "proc_name": "Moonbow",
-      "base_weap": 104,
-      "base_a": 97,
+      "base_weap": 106,
+      "base_a": 100,
       "base_b": 0,
       "base_c": 96,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "452": {
+    "453": {
+      "internal_name": "Sophia (Nabata Prophet)",
       "name": "Sophia (Nabata Prophet)",
       "color": "R",
       "hp_base": 18,
@@ -14037,13 +14522,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Fortify Res 3",
       "proc_name": "Dragon Fang",
-      "base_weap": 136,
-      "base_a": 130,
+      "base_weap": 139,
+      "base_a": 133,
       "base_b": 0,
       "base_c": 51,
       "base_proc": 12
     },
-    "453": {
+    "454": {
+      "internal_name": "Soren (Addled Strategist)",
       "name": "Soren (Addled Strategist)",
       "color": "B",
       "hp_base": 18,
@@ -14063,18 +14549,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Bl\xE1rblooms+",
+      "weap_name": "Blarblooms+",
       "a_name": "Atk/Res Bond 3",
       "b_name": "Spd Feint 3",
       "c_name": "Res Opening 3",
       "proc_name": "(None)",
-      "base_weap": 38,
+      "base_weap": 36,
       "base_a": 16,
       "base_b": 103,
       "base_c": 95,
       "base_proc": 0
     },
-    "454": {
+    "455": {
+      "internal_name": "Soren (Shrewd Strategist)",
       "name": "Soren (Shrewd Strategist)",
       "color": "G",
       "hp_base": 17,
@@ -14099,13 +14586,14 @@ var data = {
       "b_name": "Watersweep 3",
       "c_name": "Fortify Res 3",
       "proc_name": "Growing Wind",
-      "base_weap": 491,
+      "base_weap": 495,
       "base_a": 0,
       "base_b": 117,
       "base_c": 51,
       "base_proc": 24
     },
-    "455": {
+    "456": {
+      "internal_name": "Sothe (Zephyr)",
       "name": "Sothe (Zephyr)",
       "color": "N",
       "hp_base": 17,
@@ -14130,13 +14618,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Atk/Spd 2",
       "proc_name": "Glimmer",
-      "base_weap": 335,
-      "base_a": 92,
+      "base_weap": 339,
+      "base_a": 95,
       "base_b": 0,
       "base_c": 115,
       "base_proc": 20
     },
-    "456": {
+    "457": {
+      "internal_name": "Sothis (Girl on the Throne)",
       "name": "Sothis (Girl on the Throne)",
       "color": "R",
       "hp_base": 17,
@@ -14161,13 +14650,14 @@ var data = {
       "b_name": "Wrath 3",
       "c_name": "Time's Pulse 3",
       "proc_name": "Sirius",
-      "base_weap": 440,
-      "base_a": 27,
+      "base_weap": 444,
+      "base_a": 28,
       "base_b": 120,
       "base_c": 133,
-      "base_proc": 47
+      "base_proc": 48
     },
-    "457": {
+    "458": {
+      "internal_name": "Sothis (Silver Specter)",
       "name": "Sothis (Silver Specter)",
       "color": "G",
       "hp_base": 18,
@@ -14192,13 +14682,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Threat. Atk/Res 3",
       "proc_name": "Sirius",
-      "base_weap": 426,
-      "base_a": 61,
+      "base_weap": 429,
+      "base_a": 64,
       "base_b": 108,
       "base_c": 127,
-      "base_proc": 47
+      "base_proc": 48
     },
-    "458": {
+    "459": {
+      "internal_name": "Stahl (Viridian Knight)",
       "name": "Stahl (Viridian Knight)",
       "color": "R",
       "hp_base": 19,
@@ -14223,13 +14714,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 330,
-      "base_a": 56,
+      "base_weap": 334,
+      "base_a": 59,
       "base_b": 73,
       "base_c": 0,
       "base_proc": 0
     },
-    "459": {
+    "460": {
+      "internal_name": "Subaki (Perfect Expert)",
       "name": "Subaki (Perfect Expert)",
       "color": "B",
       "hp_base": 18,
@@ -14254,13 +14746,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 191,
-      "base_a": 101,
+      "base_weap": 194,
+      "base_a": 104,
       "base_b": 78,
       "base_c": 0,
       "base_proc": 0
     },
-    "460": {
+    "461": {
+      "internal_name": "Sue (Doe of the Plains)",
       "name": "Sue (Doe of the Plains)",
       "color": "G",
       "hp_base": 17,
@@ -14285,13 +14778,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "Hone Spd 4",
       "proc_name": "Moonbow",
-      "base_weap": 403,
-      "base_a": 125,
+      "base_weap": 406,
+      "base_a": 128,
       "base_b": 23,
       "base_c": 71,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "461": {
+    "462": {
+      "internal_name": "Sully (Crimson Knight)",
       "name": "Sully (Crimson Knight)",
       "color": "B",
       "hp_base": 18,
@@ -14322,7 +14816,8 @@ var data = {
       "base_c": 116,
       "base_proc": 0
     },
-    "462": {
+    "463": {
+      "internal_name": "Sumia (Maid of Flowers)",
       "name": "Sumia (Maid of Flowers)",
       "color": "B",
       "hp_base": 17,
@@ -14347,13 +14842,14 @@ var data = {
       "b_name": "Atk/Def Link 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 365,
-      "base_a": 46,
+      "base_weap": 369,
+      "base_a": 48,
       "base_b": 3,
       "base_c": 0,
       "base_proc": 0
     },
-    "463": {
+    "464": {
+      "internal_name": "Surtr (Ruler of Flame)",
       "name": "Surtr (Ruler of Flame)",
       "color": "G",
       "hp_base": 17,
@@ -14378,13 +14874,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "Surtr's Menace",
       "proc_name": "Bonfire",
-      "base_weap": 414,
-      "base_a": 119,
+      "base_weap": 417,
+      "base_a": 122,
       "base_b": 116,
       "base_c": 123,
       "base_proc": 10
     },
-    "464": {
+    "465": {
+      "internal_name": "Tailtiu (Thunder Noble)",
       "name": "Tailtiu (Thunder Noble)",
       "color": "B",
       "hp_base": 17,
@@ -14409,13 +14906,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Drive Spd 2",
       "proc_name": "(None)",
-      "base_weap": 462,
-      "base_a": 30,
+      "base_weap": 466,
+      "base_a": 32,
       "base_b": 0,
       "base_c": 39,
       "base_proc": 0
     },
-    "465": {
+    "466": {
+      "internal_name": "Takumi (Empty Vessel)",
       "name": "Takumi (Empty Vessel)",
       "color": "N",
       "hp_base": 15,
@@ -14440,13 +14938,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spd Smoke 3",
       "proc_name": "Vengeance",
-      "base_weap": 415,
-      "base_a": 77,
+      "base_weap": 418,
+      "base_a": 80,
       "base_b": 0,
       "base_c": 108,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "466": {
+    "467": {
+      "internal_name": "Takumi (Prince at Play)",
       "name": "Takumi (Prince at Play)",
       "color": "N",
       "hp_base": 18,
@@ -14471,13 +14970,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Odd Res Wave 3",
       "proc_name": "Glimmer",
-      "base_weap": 161,
-      "base_a": 77,
+      "base_weap": 163,
+      "base_a": 80,
       "base_b": 0,
       "base_c": 87,
       "base_proc": 20
     },
-    "467": {
+    "468": {
+      "internal_name": "Takumi (Prince of Soup)",
       "name": "Takumi (Prince of Soup)",
       "color": "N",
       "hp_base": 18,
@@ -14502,13 +15002,14 @@ var data = {
       "b_name": "Bowbreaker 3",
       "c_name": "(None)",
       "proc_name": "Moonbow",
-      "base_weap": 252,
+      "base_weap": 256,
       "base_a": 16,
       "base_b": 15,
       "base_c": 0,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "468": {
+    "469": {
+      "internal_name": "Takumi (Wild Card)",
       "name": "Takumi (Wild Card)",
       "color": "N",
       "hp_base": 18,
@@ -14533,13 +15034,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Spd 3",
       "proc_name": "Vengeance",
-      "base_weap": 177,
-      "base_a": 45,
+      "base_weap": 180,
+      "base_a": 47,
       "base_b": 0,
       "base_c": 132,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "469": {
+    "470": {
+      "internal_name": "Tana (Noble and Nimble)",
       "name": "Tana (Noble and Nimble)",
       "color": "R",
       "hp_base": 16,
@@ -14559,18 +15061,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Fruit of I\xF0unn",
+      "weap_name": "Fruit of Idunn",
       "a_name": "Atk/Spd Push 3",
       "b_name": "Renewal 3",
       "c_name": "Spur Atk/Def 2",
       "proc_name": "(None)",
-      "base_weap": 176,
-      "base_a": 25,
+      "base_weap": 179,
+      "base_a": 26,
       "base_b": 82,
       "base_c": 113,
       "base_proc": 0
     },
-    "470": {
+    "471": {
+      "internal_name": "Tana (Winged Princess)",
       "name": "Tana (Winged Princess)",
       "color": "B",
       "hp_base": 17,
@@ -14595,13 +15098,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Guidance 3",
       "proc_name": "Moonbow",
-      "base_weap": 478,
-      "base_a": 105,
+      "base_weap": 482,
+      "base_a": 108,
       "base_b": 0,
       "base_c": 62,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "471": {
+    "472": {
+      "internal_name": "Tanith (Forthright Heart)",
       "name": "Tanith (Forthright Heart)",
       "color": "B",
       "hp_base": 18,
@@ -14626,13 +15130,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "Fortify Fliers",
       "proc_name": "(None)",
-      "base_weap": 279,
-      "base_a": 125,
+      "base_weap": 283,
+      "base_a": 128,
       "base_b": 20,
       "base_c": 50,
       "base_proc": 0
     },
-    "472": {
+    "473": {
+      "internal_name": "Tanya (Dagdar's Kid)",
       "name": "Tanya (Dagdar's Kid)",
       "color": "N",
       "hp_base": 17,
@@ -14657,13 +15162,14 @@ var data = {
       "b_name": "Pass 3",
       "c_name": "Spur Spd/Res 2",
       "proc_name": "(None)",
-      "base_weap": 401,
+      "base_weap": 404,
       "base_a": 0,
       "base_b": 75,
       "base_c": 121,
       "base_proc": 0
     },
-    "473": {
+    "474": {
+      "internal_name": "Tethys (Beloved Dancer)",
       "name": "Tethys (Beloved Dancer)",
       "color": "N",
       "hp_base": 16,
@@ -14688,13 +15194,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Dagger Exp. 3",
       "proc_name": "(None)",
-      "base_weap": 456,
-      "base_a": 110,
+      "base_weap": 458,
+      "base_a": 113,
       "base_b": 0,
       "base_c": 25,
       "base_proc": 0
     },
-    "474": {
+    "475": {
+      "internal_name": "Tharja (\"Normal Girl\")",
       "name": "Tharja (\"Normal Girl\")",
       "color": "R",
       "hp_base": 19,
@@ -14719,13 +15226,14 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "R Tome Valor 3",
       "proc_name": "Iceberg",
-      "base_weap": 74,
-      "base_a": 45,
+      "base_weap": 75,
+      "base_a": 47,
       "base_b": 114,
       "base_c": 94,
       "base_proc": 28
     },
-    "475": {
+    "476": {
+      "internal_name": "Tharja (Dark Shadow)",
       "name": "Tharja (Dark Shadow)",
       "color": "R",
       "hp_base": 17,
@@ -14750,13 +15258,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Res 3",
       "proc_name": "Vengeance",
-      "base_weap": 455,
-      "base_a": 48,
+      "base_weap": 457,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 118,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "476": {
+    "477": {
+      "internal_name": "Tharja (Obsessive Bride)",
       "name": "Tharja (Obsessive Bride)",
       "color": "R",
       "hp_base": 17,
@@ -14776,18 +15285,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 10,
-      "weap_name": "M\xFAspell Fireposy",
+      "weap_name": "Muspell Fireposy",
       "a_name": "Atk/Spd Bond 3",
       "b_name": "Spd Feint 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 288,
-      "base_a": 22,
+      "base_weap": 313,
+      "base_a": 23,
       "base_b": 103,
       "base_c": 0,
       "base_proc": 0
     },
-    "477": {
+    "478": {
+      "internal_name": "Thea (Stormy Flier)",
       "name": "Thea (Stormy Flier)",
       "color": "B",
       "hp_base": 18,
@@ -14812,13 +15322,14 @@ var data = {
       "b_name": "Seal Spd/Def 2",
       "c_name": "(None)",
       "proc_name": "Ignis",
-      "base_weap": 470,
-      "base_a": 116,
+      "base_weap": 474,
+      "base_a": 119,
       "base_b": 99,
       "base_c": 0,
       "base_proc": 29
     },
-    "478": {
+    "479": {
+      "internal_name": "Thrasir (Omnicidal Witch)",
       "name": "Thrasir (Omnicidal Witch)",
       "color": "G",
       "hp_base": 18,
@@ -14838,18 +15349,19 @@ var data = {
       "mythic": 1,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "\xCDfingr",
+      "weap_name": "Ifingr",
       "a_name": "Flashing Blade 4",
       "b_name": "Killing Intent",
       "c_name": "Panic Smoke 3",
       "proc_name": "Moonbow",
-      "base_weap": 1,
-      "base_a": 73,
+      "base_weap": 242,
+      "base_a": 76,
       "base_b": 56,
       "base_c": 91,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "479": {
+    "480": {
+      "internal_name": "Tibarn (Lord of the Air)",
       "name": "Tibarn (Lord of the Air)",
       "color": "R",
       "hp_base": 19,
@@ -14874,13 +15386,14 @@ var data = {
       "b_name": "Chill Atk 3",
       "c_name": "Even Atk Wave 3",
       "proc_name": "Draconic Aura",
-      "base_weap": 225,
-      "base_a": 121,
+      "base_weap": 228,
+      "base_a": 124,
       "base_b": 20,
       "base_c": 40,
       "base_proc": 11
     },
-    "480": {
+    "481": {
+      "internal_name": "Tiki (Beachside Scion)",
       "name": "Tiki (Beachside Scion)",
       "color": "R",
       "hp_base": 16,
@@ -14905,13 +15418,14 @@ var data = {
       "b_name": "Hit and Run",
       "c_name": "Dragon Valor 3",
       "proc_name": "Moonbow",
-      "base_weap": 441,
+      "base_weap": 445,
       "base_a": 11,
       "base_b": 55,
       "base_c": 35,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "481": {
+    "482": {
+      "internal_name": "Tiki (Dragon Scion)",
       "name": "Tiki (Dragon Scion)",
       "color": "R",
       "hp_base": 15,
@@ -14936,13 +15450,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Breath of Life 3",
       "proc_name": "Growing Flame",
-      "base_weap": 62,
+      "base_weap": 61,
       "base_a": 9,
       "base_b": 0,
       "base_c": 22,
       "base_proc": 21
     },
-    "482": {
+    "483": {
+      "internal_name": "Tiki (Legendary Dragon)",
       "name": "Tiki (Legendary Dragon)",
       "color": "B",
       "hp_base": 17,
@@ -14967,13 +15482,14 @@ var data = {
       "b_name": "Bold Fighter 3",
       "c_name": "With Everyone!",
       "proc_name": "Moonbow",
-      "base_weap": 120,
-      "base_a": 69,
+      "base_weap": 123,
+      "base_a": 72,
       "base_b": 14,
       "base_c": 141,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "483": {
+    "484": {
+      "internal_name": "Tiki (Naga's Voice)",
       "name": "Tiki (Naga's Voice)",
       "color": "R",
       "hp_base": 18,
@@ -14998,13 +15514,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Res 3",
       "proc_name": "Bonfire",
-      "base_weap": 62,
-      "base_a": 57,
+      "base_weap": 61,
+      "base_a": 60,
       "base_b": 0,
       "base_c": 118,
       "base_proc": 10
     },
-    "484": {
+    "485": {
+      "internal_name": "Tiki (Summering Scion)",
       "name": "Tiki (Summering Scion)",
       "color": "G",
       "hp_base": 18,
@@ -15029,13 +15546,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Axe Valor 3",
       "proc_name": "Sol",
-      "base_weap": 296,
-      "base_a": 46,
+      "base_weap": 298,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 15,
-      "base_proc": 48
+      "base_proc": 49
     },
-    "485": {
+    "486": {
+      "internal_name": "Tiki (Torpid Dragon)",
       "name": "Tiki (Torpid Dragon)",
       "color": "N",
       "hp_base": 17,
@@ -15060,13 +15578,14 @@ var data = {
       "b_name": "Special Fighter 3",
       "c_name": "Solitary Dream",
       "proc_name": "Ignis",
-      "base_weap": 356,
-      "base_a": 39,
+      "base_weap": 360,
+      "base_a": 41,
       "base_b": 108,
       "base_c": 104,
       "base_proc": 29
     },
-    "486": {
+    "487": {
+      "internal_name": "Titania (Mighty Mercenary)",
       "name": "Titania (Mighty Mercenary)",
       "color": "G",
       "hp_base": 18,
@@ -15091,13 +15610,14 @@ var data = {
       "b_name": "Guard 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 124,
+      "base_weap": 127,
       "base_a": 9,
       "base_b": 54,
       "base_c": 0,
       "base_proc": 0
     },
-    "487": {
+    "488": {
+      "internal_name": "Titania (Warm Knight)",
       "name": "Titania (Warm Knight)",
       "color": "R",
       "hp_base": 16,
@@ -15122,13 +15642,14 @@ var data = {
       "b_name": "Atk/Res Link 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 283,
-      "base_a": 129,
+      "base_weap": 287,
+      "base_a": 132,
       "base_b": 5,
       "base_c": 0,
       "base_proc": 0
     },
-    "488": {
+    "489": {
+      "internal_name": "Tobin (Clueless One)",
       "name": "Tobin (Clueless One)",
       "color": "R",
       "hp_base": 18,
@@ -15153,13 +15674,14 @@ var data = {
       "b_name": "Seal Spd 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 248,
-      "base_a": 28,
+      "base_weap": 252,
+      "base_a": 30,
       "base_b": 98,
       "base_c": 0,
       "base_proc": 0
     },
-    "489": {
+    "490": {
+      "internal_name": "Travant (King of Thracia)",
       "name": "Travant (King of Thracia)",
       "color": "B",
       "hp_base": 20,
@@ -15184,13 +15706,14 @@ var data = {
       "b_name": "Vantage 3",
       "c_name": "Flier Guidance 3",
       "proc_name": "Ignis",
-      "base_weap": 411,
+      "base_weap": 414,
       "base_a": 0,
       "base_b": 113,
       "base_c": 44,
       "base_proc": 29
     },
-    "490": {
+    "491": {
+      "internal_name": "Tsubasa (Madcap Idol)",
       "name": "Tsubasa (Madcap Idol)",
       "color": "B",
       "hp_base": 17,
@@ -15215,13 +15738,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Hone Fliers",
       "proc_name": "Moonbow",
-      "base_weap": 301,
-      "base_a": 33,
+      "base_weap": 303,
+      "base_a": 35,
       "base_b": 25,
       "base_c": 69,
-      "base_proc": 36
+      "base_proc": 37
     },
-    "491": {
+    "492": {
+      "internal_name": "Ursula (Blue Crow)",
       "name": "Ursula (Blue Crow)",
       "color": "B",
       "hp_base": 16,
@@ -15246,13 +15770,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Threaten Res 3",
       "proc_name": "Growing Thunder",
-      "base_weap": 48,
-      "base_a": 51,
+      "base_weap": 47,
+      "base_a": 54,
       "base_b": 0,
       "base_c": 131,
       "base_proc": 23
     },
-    "492": {
+    "493": {
+      "internal_name": "Ursula (Clear-Blue Crow)",
       "name": "Ursula (Clear-Blue Crow)",
       "color": "N",
       "hp_base": 17,
@@ -15277,13 +15802,14 @@ var data = {
       "b_name": "Def/Res Ruse 3",
       "c_name": "Even Res Wave 3",
       "proc_name": "(None)",
-      "base_weap": 389,
+      "base_weap": 392,
       "base_a": 0,
       "base_b": 35,
       "base_c": 42,
       "base_proc": 0
     },
-    "493": {
+    "494": {
+      "internal_name": "Valbar (Open and Honest)",
       "name": "Valbar (Open and Honest)",
       "color": "B",
       "hp_base": 21,
@@ -15308,13 +15834,14 @@ var data = {
       "b_name": "Obstruct 3",
       "c_name": "(None)",
       "proc_name": "Vengeance",
-      "base_weap": 58,
-      "base_a": 85,
+      "base_weap": 57,
+      "base_a": 88,
       "base_b": 73,
       "base_c": 0,
-      "base_proc": 53
+      "base_proc": 54
     },
-    "494": {
+    "495": {
+      "internal_name": "Valter (Dark Moonstone)",
       "name": "Valter (Dark Moonstone)",
       "color": "B",
       "hp_base": 18,
@@ -15339,13 +15866,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Panic Ploy 3",
       "proc_name": "Luna",
-      "base_weap": 97,
-      "base_a": 48,
+      "base_weap": 99,
+      "base_a": 50,
       "base_b": 0,
       "base_c": 90,
       "base_proc": 33
     },
-    "495": {
+    "496": {
+      "internal_name": "Velouria (Wolf Cub)",
       "name": "Velouria (Wolf Cub)",
       "color": "N",
       "hp_base": 18,
@@ -15370,13 +15898,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Ward Beasts",
       "proc_name": "Luna",
-      "base_weap": 500,
-      "base_a": 46,
+      "base_weap": 504,
+      "base_a": 48,
       "base_b": 0,
       "base_c": 137,
       "base_proc": 33
     },
-    "496": {
+    "497": {
+      "internal_name": "Veronica (Brave Princess)",
       "name": "Veronica (Brave Princess)",
       "color": "N",
       "hp_base": 17,
@@ -15396,18 +15925,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Hli\xF0skj\xE1lf",
+      "weap_name": "Hlidskjalf",
       "a_name": "(None)",
       "b_name": "Wrathful Staff 3",
       "c_name": "Close Guard 3",
       "proc_name": "Windfire Balm+",
-      "base_weap": 234,
+      "base_weap": 237,
       "base_a": 0,
       "base_b": 121,
       "base_c": 24,
-      "base_proc": 54
+      "base_proc": 55
     },
-    "497": {
+    "498": {
+      "internal_name": "Veronica (Spring Princess)",
       "name": "Veronica (Spring Princess)",
       "color": "G",
       "hp_base": 16,
@@ -15427,18 +15957,19 @@ var data = {
       "mythic": 0,
       "has_resplendent": 0,
       "df_maximum": 5,
-      "weap_name": "Ve\xF0rf\xF6lnir's Egg",
+      "weap_name": "Vedrfolnir's Egg",
       "a_name": "G Duel Flying 3",
       "b_name": "Chill Res 3",
       "c_name": "(None)",
       "proc_name": "Glimmer",
-      "base_weap": 472,
-      "base_a": 79,
+      "base_weap": 476,
+      "base_a": 82,
       "base_b": 24,
       "base_c": 0,
       "base_proc": 20
     },
-    "498": {
+    "499": {
+      "internal_name": "Virion (Elite Archer)",
       "name": "Virion (Elite Archer)",
       "color": "N",
       "hp_base": 20,
@@ -15463,13 +15994,14 @@ var data = {
       "b_name": "Seal Spd 3",
       "c_name": "(None)",
       "proc_name": "Astra",
-      "base_weap": 117,
-      "base_a": 59,
+      "base_weap": 120,
+      "base_a": 62,
       "base_b": 98,
       "base_c": 0,
       "base_proc": 3
     },
-    "499": {
+    "500": {
+      "internal_name": "Walhart (The Conqueror)",
       "name": "Walhart (The Conqueror)",
       "color": "G",
       "hp_base": 19,
@@ -15494,13 +16026,14 @@ var data = {
       "b_name": "Chill Def 3",
       "c_name": "(None)",
       "proc_name": "Luna",
-      "base_weap": 498,
-      "base_a": 81,
+      "base_weap": 502,
+      "base_a": 84,
       "base_b": 23,
       "base_c": 0,
       "base_proc": 33
     },
-    "500": {
+    "501": {
+      "internal_name": "Wolt (Sunbeam Archer)",
       "name": "Wolt (Sunbeam Archer)",
       "color": "G",
       "hp_base": 18,
@@ -15525,13 +16058,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "(None)",
       "proc_name": "(None)",
-      "base_weap": 35,
-      "base_a": 40,
+      "base_weap": 33,
+      "base_a": 42,
       "base_b": 25,
       "base_c": 0,
       "base_proc": 0
     },
-    "501": {
+    "502": {
+      "internal_name": "Wrys (Kindly Priest)",
       "name": "Wrys (Kindly Priest)",
       "color": "N",
       "hp_base": 18,
@@ -15556,13 +16090,14 @@ var data = {
       "b_name": "Live to Serve 3",
       "c_name": "(None)",
       "proc_name": "Heavenly Light",
-      "base_weap": 424,
+      "base_weap": 427,
       "base_a": 0,
       "base_b": 62,
       "base_c": 0,
       "base_proc": 25
     },
-    "502": {
+    "503": {
+      "internal_name": "Xander (Dancing Knight)",
       "name": "Xander (Dancing Knight)",
       "color": "N",
       "hp_base": 16,
@@ -15587,13 +16122,14 @@ var data = {
       "b_name": "Quick Riposte 3",
       "c_name": "Odd Def Wave 3",
       "proc_name": "(None)",
-      "base_weap": 130,
-      "base_a": 45,
+      "base_weap": 133,
+      "base_a": 47,
       "base_b": 78,
       "base_c": 86,
       "base_proc": 0
     },
-    "503": {
+    "504": {
+      "internal_name": "Xander (Paragon Knight)",
       "name": "Xander (Paragon Knight)",
       "color": "R",
       "hp_base": 20,
@@ -15618,13 +16154,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Spur Def 3",
       "proc_name": "Blazing Light",
-      "base_weap": 404,
+      "base_weap": 407,
       "base_a": 9,
       "base_b": 0,
       "base_c": 116,
       "base_proc": 6
     },
-    "504": {
+    "505": {
+      "internal_name": "Xander (Spring Prince)",
       "name": "Xander (Spring Prince)",
       "color": "B",
       "hp_base": 18,
@@ -15649,13 +16186,14 @@ var data = {
       "b_name": "Live for Honor",
       "c_name": "Fortify Def 3",
       "proc_name": "(None)",
-      "base_weap": 80,
+      "base_weap": 81,
       "base_a": 0,
       "base_b": 61,
       "base_c": 48,
       "base_proc": 0
     },
-    "505": {
+    "506": {
+      "internal_name": "Xander (Student Swimmer)",
       "name": "Xander (Student Swimmer)",
       "color": "G",
       "hp_base": 19,
@@ -15680,13 +16218,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Infantry Pulse 3",
       "proc_name": "Bonfire",
-      "base_weap": 277,
-      "base_a": 71,
+      "base_weap": 281,
+      "base_a": 74,
       "base_b": 0,
       "base_c": 77,
       "base_proc": 10
     },
-    "506": {
+    "507": {
+      "internal_name": "Yarne (Timid Taguel)",
       "name": "Yarne (Timid Taguel)",
       "color": "G",
       "hp_base": 18,
@@ -15712,12 +16251,13 @@ var data = {
       "c_name": "Odd Spd Wave 3",
       "proc_name": "Galeforce",
       "base_weap": 70,
-      "base_a": 27,
+      "base_a": 28,
       "base_b": 44,
       "base_c": 88,
       "base_proc": 18
     },
-    "507": {
+    "508": {
+      "internal_name": "Ylgr (Breaking the Ice)",
       "name": "Ylgr (Breaking the Ice)",
       "color": "G",
       "hp_base": 16,
@@ -15742,13 +16282,14 @@ var data = {
       "b_name": "(None)",
       "c_name": "Even Def Wave 3",
       "proc_name": "Luna",
-      "base_weap": 402,
-      "base_a": 72,
+      "base_weap": 405,
+      "base_a": 75,
       "base_b": 0,
       "base_c": 41,
       "base_proc": 33
     },
-    "508": {
+    "509": {
+      "internal_name": "Ylgr (Fresh Snowfall)",
       "name": "Ylgr (Fresh Snowfall)",
       "color": "B",
       "hp_base": 16,
@@ -15773,13 +16314,14 @@ var data = {
       "b_name": "Chill Spd 3",
       "c_name": "Spd Tactic 3",
       "proc_name": "Glimmer",
-      "base_weap": 444,
-      "base_a": 104,
+      "base_weap": 448,
+      "base_a": 107,
       "base_b": 25,
       "base_c": 109,
       "base_proc": 20
     },
-    "509": {
+    "510": {
+      "internal_name": "Yune (Chaos Goddess)",
       "name": "Yune (Chaos Goddess)",
       "color": "G",
       "hp_base": 16,
@@ -15804,13 +16346,14 @@ var data = {
       "b_name": "Sabotage Res 3",
       "c_name": "Chaos Named",
       "proc_name": "Glacies",
-      "base_weap": 82,
+      "base_weap": 83,
       "base_a": 16,
       "base_b": 89,
       "base_c": 23,
       "base_proc": 19
     },
-    "510": {
+    "511": {
+      "internal_name": "Zelgius (Jet-Black General)",
       "name": "Zelgius (Jet-Black General)",
       "color": "R",
       "hp_base": 22,
@@ -15835,13 +16378,14 @@ var data = {
       "b_name": "Warp Powder",
       "c_name": "Panic Ploy 3",
       "proc_name": "Black Luna",
-      "base_weap": 3,
-      "base_a": 70,
+      "base_weap": 2,
+      "base_a": 73,
       "base_b": 115,
       "base_c": 90,
       "base_proc": 4
     },
-    "511": {
+    "512": {
+      "internal_name": "Zephiel (The Liberator)",
       "name": "Zephiel (The Liberator)",
       "color": "R",
       "hp_base": 25,
@@ -15866,13 +16410,14 @@ var data = {
       "b_name": "Wary Fighter 3",
       "c_name": "(None)",
       "proc_name": "Reprisal",
-      "base_weap": 133,
-      "base_a": 92,
+      "base_weap": 136,
+      "base_a": 95,
       "base_b": 116,
       "base_c": 0,
-      "base_proc": 43
+      "base_proc": 44
     },
-    "512": {
+    "513": {
+      "internal_name": "Zephiel (Winter's Crown)",
       "name": "Zephiel (Winter's Crown)",
       "color": "R",
       "hp_base": 22,
@@ -15897,7 +16442,7 @@ var data = {
       "b_name": "Vengeful Fighter 3",
       "c_name": "Def/Res Gap 3",
       "proc_name": "Glacies",
-      "base_weap": 30,
+      "base_weap": 28,
       "base_a": 0,
       "base_b": 114,
       "base_c": 31,
@@ -15918,11 +16463,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Open the Future",
       "seal_name": "Quickened Pulse",
-      "weapon": 239,
-      "a": 45,
+      "weapon": 243,
+      "a": 47,
       "b": 78,
       "c": 133,
-      "proc": 39,
+      "proc": 40,
       "seal": 81
     },
     "1": {
@@ -15938,11 +16483,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 144,
-      "a": 52,
+      "weapon": 146,
+      "a": 55,
       "b": 63,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "2": {
@@ -15958,11 +16503,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 123,
-      "a": 102,
+      "weapon": 126,
+      "a": 105,
       "b": 65,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "3": {
@@ -15978,8 +16523,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Lunar Flash",
       "seal_name": "Quick Riposte 3",
-      "weapon": 391,
-      "a": 61,
+      "weapon": 394,
+      "a": 64,
       "b": 27,
       "c": 133,
       "proc": 34,
@@ -15998,8 +16543,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Lunar Flash",
       "seal_name": "Atk/Spd 2",
-      "weapon": 391,
-      "a": 26,
+      "weapon": 394,
+      "a": 27,
       "b": 72,
       "c": 133,
       "proc": 34,
@@ -16018,8 +16563,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Lunar Flash",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 284,
-      "a": 26,
+      "weapon": 288,
+      "a": 27,
       "b": 72,
       "c": 133,
       "proc": 34,
@@ -16038,8 +16583,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Lunar Flash",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 284,
-      "a": 121,
+      "weapon": 288,
+      "a": 124,
       "b": 72,
       "c": 133,
       "proc": 34,
@@ -16058,8 +16603,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Lunar Flash",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 284,
-      "a": 94,
+      "weapon": 288,
+      "a": 97,
       "b": 72,
       "c": 133,
       "proc": 34,
@@ -16071,15 +16616,15 @@ var data = {
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Earthly G\xE1e Bolg",
+      "weap_name": "Earthly Gae Bolg",
       "refine": "None",
       "a_name": "Sturdy Stance 3",
       "b_name": "Quick Riposte 3",
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 132,
-      "a": 123,
+      "weapon": 135,
+      "a": 126,
       "b": 78,
       "c": 79,
       "proc": 10,
@@ -16098,11 +16643,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Twin Blades",
       "seal_name": "Brazen Atk/Res 3",
-      "weapon": 344,
+      "weapon": 348,
       "a": 10,
       "b": 113,
       "c": 79,
-      "proc": 52,
+      "proc": 53,
       "seal": 18
     },
     "10": {
@@ -16118,11 +16663,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Twin Blades",
       "seal_name": "Heavy Blade 3",
-      "weapon": 344,
+      "weapon": 348,
       "a": 10,
       "b": 113,
       "c": 79,
-      "proc": 52,
+      "proc": 53,
       "seal": 65
     },
     "11": {
@@ -16138,8 +16683,8 @@ var data = {
       "c_name": "Armor March 3",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 194,
-      "a": 61,
+      "weapon": 197,
+      "a": 64,
       "b": 108,
       "c": 2,
       "proc": 10,
@@ -16158,11 +16703,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 157,
-      "a": 93,
+      "weapon": 159,
+      "a": 96,
       "b": 72,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "13": {
@@ -16178,11 +16723,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 57,
-      "a": 26,
+      "weapon": 56,
+      "a": 27,
       "b": 66,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "14": {
@@ -16198,11 +16743,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 77,
-      "a": 126,
+      "weapon": 78,
+      "a": 129,
       "b": 37,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "15": {
@@ -16218,8 +16763,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Glimmer",
       "seal_name": "Atk/Spd 2",
-      "weapon": 94,
-      "a": 26,
+      "weapon": 96,
+      "a": 27,
       "b": 72,
       "c": 79,
       "proc": 20,
@@ -16238,8 +16783,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Attack +3",
-      "weapon": 106,
-      "a": 61,
+      "weapon": 108,
+      "a": 64,
       "b": 113,
       "c": 79,
       "proc": 10,
@@ -16258,11 +16803,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "HP/Spd 2",
-      "weapon": 18,
-      "a": 88,
+      "weapon": 17,
+      "a": 91,
       "b": 111,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 72
     },
     "18": {
@@ -16278,11 +16823,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Regnal Astra",
       "seal_name": "Atk/Spd 2",
-      "weapon": 420,
-      "a": 61,
+      "weapon": 423,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 42,
+      "proc": 43,
       "seal": 10
     },
     "19": {
@@ -16298,11 +16843,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 422,
-      "a": 78,
+      "weapon": 425,
+      "a": 81,
       "b": 119,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "20": {
@@ -16318,11 +16863,11 @@ var data = {
       "c_name": "Hone Atk 4",
       "special": "Ruptured Sky",
       "seal_name": "Torrent Dance 3",
-      "weapon": 339,
-      "a": 78,
+      "weapon": 343,
+      "a": 81,
       "b": 119,
       "c": 65,
-      "proc": 45,
+      "proc": 46,
       "seal": 114
     },
     "21": {
@@ -16338,11 +16883,11 @@ var data = {
       "c_name": "Hone Atk 4",
       "special": "Ruptured Sky",
       "seal_name": "Torrent Dance 3",
-      "weapon": 339,
-      "a": 31,
+      "weapon": 343,
+      "a": 33,
       "b": 119,
       "c": 65,
-      "proc": 45,
+      "proc": 46,
       "seal": 114
     },
     "22": {
@@ -16358,11 +16903,11 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 115,
-      "a": 78,
+      "weapon": 118,
+      "a": 81,
       "b": 120,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "23": {
@@ -16378,11 +16923,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Distant Def 3",
-      "weapon": 264,
-      "a": 96,
+      "weapon": 268,
+      "a": 99,
       "b": 78,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 42
     },
     "24": {
@@ -16398,11 +16943,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 334,
-      "a": 26,
+      "weapon": 338,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "25": {
@@ -16418,11 +16963,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 157,
-      "a": 26,
+      "weapon": 159,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "26": {
@@ -16438,8 +16983,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Steady Stance 3",
-      "weapon": 34,
-      "a": 119,
+      "weapon": 32,
+      "a": 122,
       "b": 78,
       "c": 79,
       "proc": 29,
@@ -16458,11 +17003,11 @@ var data = {
       "c_name": "Impenetrable Dark",
       "special": "Ruptured Sky",
       "seal_name": "Attack/Def +2",
-      "weapon": 480,
+      "weapon": 484,
       "a": 14,
       "b": 64,
       "c": 73,
-      "proc": 45,
+      "proc": 46,
       "seal": 13
     },
     "28": {
@@ -16478,11 +17023,11 @@ var data = {
       "c_name": "Impenetrable Dark",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 480,
-      "a": 26,
+      "weapon": 484,
+      "a": 27,
       "b": 67,
       "c": 73,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "29": {
@@ -16498,11 +17043,11 @@ var data = {
       "c_name": "Impenetrable Dark",
       "special": "Ruptured Sky",
       "seal_name": "Attack/Def +2",
-      "weapon": 480,
-      "a": 45,
+      "weapon": 484,
+      "a": 47,
       "b": 64,
       "c": 73,
-      "proc": 45,
+      "proc": 46,
       "seal": 13
     },
     "30": {
@@ -16518,11 +17063,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 155,
-      "a": 96,
+      "weapon": 157,
+      "a": 99,
       "b": 65,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "31": {
@@ -16538,11 +17083,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 93,
-      "a": 26,
+      "weapon": 95,
+      "a": 27,
       "b": 118,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "32": {
@@ -16558,11 +17103,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 93,
-      "a": 26,
+      "weapon": 95,
+      "a": 27,
       "b": 117,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "33": {
@@ -16578,8 +17123,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 494,
-      "a": 26,
+      "weapon": 498,
+      "a": 27,
       "b": 76,
       "c": 79,
       "proc": 33,
@@ -16598,8 +17143,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Iote's Shield",
-      "weapon": 494,
-      "a": 61,
+      "weapon": 498,
+      "a": 64,
       "b": 76,
       "c": 79,
       "proc": 33,
@@ -16618,8 +17163,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Distant Def 3",
-      "weapon": 278,
-      "a": 63,
+      "weapon": 282,
+      "a": 66,
       "b": 114,
       "c": 79,
       "proc": 10,
@@ -16638,8 +17183,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 278,
-      "a": 52,
+      "weapon": 282,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -16658,11 +17203,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Iote's Shield",
-      "weapon": 73,
-      "a": 78,
+      "weapon": 74,
+      "a": 81,
       "b": 48,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 73
     },
     "38": {
@@ -16678,11 +17223,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Iote's Shield",
-      "weapon": 73,
-      "a": 61,
+      "weapon": 74,
+      "a": 64,
       "b": 78,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 73
     },
     "39": {
@@ -16691,18 +17236,18 @@ var data = {
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Rau\xF0rblade+",
+      "weap_name": "Raudrblade+",
       "refine": "None",
       "a_name": "Death Blow 4",
       "b_name": "Swordbreaker 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 349,
-      "a": 52,
+      "weapon": 353,
+      "a": 55,
       "b": 111,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "40": {
@@ -16711,15 +17256,15 @@ var data = {
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Sanngri\xF0r",
+      "weap_name": "Sanngridr",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Wrathful Staff 3",
       "c_name": "Joint Drive Atk",
       "special": "(None)",
       "seal_name": "Atk/Spd 2",
-      "weapon": 386,
-      "a": 26,
+      "weapon": 389,
+      "a": 27,
       "b": 121,
       "c": 79,
       "proc": 0,
@@ -16738,8 +17283,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 489,
-      "a": 26,
+      "weapon": 493,
+      "a": 27,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -16758,11 +17303,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack +3",
-      "weapon": 13,
-      "a": 26,
+      "weapon": 12,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 12
     },
     "43": {
@@ -16778,8 +17323,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 24,
-      "a": 45,
+      "weapon": 22,
+      "a": 47,
       "b": 108,
       "c": 79,
       "proc": 28,
@@ -16798,8 +17343,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Distant Def 3",
-      "weapon": 192,
-      "a": 63,
+      "weapon": 195,
+      "a": 66,
       "b": 114,
       "c": 79,
       "proc": 28,
@@ -16818,11 +17363,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 493,
-      "a": 26,
+      "weapon": 497,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "46": {
@@ -16838,11 +17383,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 26,
+      "weapon": 206,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "47": {
@@ -16858,11 +17403,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Brazen Atk/Spd 3",
-      "weapon": 342,
-      "a": 78,
+      "weapon": 346,
+      "a": 81,
       "b": 37,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 19
     },
     "48": {
@@ -16878,11 +17423,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 382,
-      "a": 126,
+      "weapon": 385,
+      "a": 129,
       "b": 102,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "49": {
@@ -16898,11 +17443,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 126,
+      "weapon": 206,
+      "a": 129,
       "b": 102,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "50": {
@@ -16918,11 +17463,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 10,
-      "a": 52,
+      "weapon": 9,
+      "a": 55,
       "b": 39,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "51": {
@@ -16938,11 +17483,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 83,
-      "a": 52,
+      "weapon": 85,
+      "a": 55,
       "b": 8,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "52": {
@@ -16951,18 +17496,18 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "Randgr\xED\xF0r",
+      "weap_name": "Randgridr",
       "refine": "None",
       "a_name": "Close Counter",
       "b_name": "Lull Atk/Def 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 346,
-      "a": 45,
+      "weapon": 350,
+      "a": 47,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "53": {
@@ -16971,18 +17516,18 @@ var data = {
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "Randgr\xED\xF0r",
+      "weap_name": "Randgridr",
       "refine": "None",
       "a_name": "Sturdy Impact",
       "b_name": "Lull Atk/Def 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 346,
-      "a": 121,
+      "weapon": 350,
+      "a": 124,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "54": {
@@ -16991,18 +17536,18 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "Randgr\xED\xF0r",
+      "weap_name": "Randgridr",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Spd/Def 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 346,
-      "a": 26,
+      "weapon": 350,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "55": {
@@ -17018,11 +17563,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 57,
-      "a": 52,
+      "weapon": 56,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "56": {
@@ -17038,8 +17583,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 368,
-      "a": 26,
+      "weapon": 372,
+      "a": 27,
       "b": 76,
       "c": 79,
       "proc": 33,
@@ -17058,8 +17603,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Iote's Shield",
-      "weapon": 368,
-      "a": 61,
+      "weapon": 372,
+      "a": 64,
       "b": 76,
       "c": 79,
       "proc": 33,
@@ -17078,11 +17623,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 95,
-      "a": 26,
+      "weapon": 97,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "59": {
@@ -17098,8 +17643,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 26,
-      "a": 61,
+      "weapon": 24,
+      "a": 64,
       "b": 63,
       "c": 79,
       "proc": 28,
@@ -17118,8 +17663,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 422,
-      "a": 74,
+      "weapon": 425,
+      "a": 77,
       "b": 63,
       "c": 79,
       "proc": 29,
@@ -17138,8 +17683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 25,
-      "a": 61,
+      "weapon": 23,
+      "a": 64,
       "b": 63,
       "c": 79,
       "proc": 28,
@@ -17158,8 +17703,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Quick Riposte 3",
-      "weapon": 420,
-      "a": 74,
+      "weapon": 423,
+      "a": 77,
       "b": 63,
       "c": 79,
       "proc": 19,
@@ -17178,8 +17723,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Death Blow 3",
-      "weapon": 90,
-      "a": 52,
+      "weapon": 92,
+      "a": 55,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -17198,11 +17743,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 399,
-      "a": 26,
+      "weapon": 402,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "65": {
@@ -17218,8 +17763,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 422,
-      "a": 26,
+      "weapon": 425,
+      "a": 27,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -17238,8 +17783,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 125,
-      "a": 26,
+      "weapon": 128,
+      "a": 27,
       "b": 72,
       "c": 79,
       "proc": 33,
@@ -17258,11 +17803,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 125,
-      "a": 61,
+      "weapon": 128,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "68": {
@@ -17278,8 +17823,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 125,
-      "a": 26,
+      "weapon": 128,
+      "a": 27,
       "b": 72,
       "c": 79,
       "proc": 33,
@@ -17298,11 +17843,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 125,
-      "a": 61,
+      "weapon": 128,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "70": {
@@ -17318,11 +17863,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 388,
-      "a": 26,
+      "weapon": 391,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "71": {
@@ -17338,11 +17883,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 388,
-      "a": 61,
+      "weapon": 391,
+      "a": 64,
       "b": 65,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "72": {
@@ -17358,8 +17903,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 392,
-      "a": 61,
+      "weapon": 395,
+      "a": 64,
       "b": 63,
       "c": 79,
       "proc": 33,
@@ -17378,11 +17923,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 121,
-      "a": 78,
+      "weapon": 124,
+      "a": 81,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "74": {
@@ -17398,11 +17943,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Distant Def 3",
-      "weapon": 121,
-      "a": 96,
+      "weapon": 124,
+      "a": 99,
       "b": 78,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 42
     },
     "75": {
@@ -17418,11 +17963,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 110,
-      "a": 126,
+      "weapon": 113,
+      "a": 129,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "76": {
@@ -17438,11 +17983,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 321,
-      "a": 52,
+      "weapon": 325,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "77": {
@@ -17458,11 +18003,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 456,
-      "a": 52,
+      "weapon": 458,
+      "a": 55,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "78": {
@@ -17478,8 +18023,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Death Blow 3",
-      "weapon": 150,
-      "a": 52,
+      "weapon": 152,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 33,
@@ -17498,8 +18043,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 150,
-      "a": 61,
+      "weapon": 152,
+      "a": 64,
       "b": 113,
       "c": 79,
       "proc": 33,
@@ -17518,8 +18063,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 150,
-      "a": 61,
+      "weapon": 152,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 33,
@@ -17527,7 +18072,7 @@ var data = {
     },
     "81": {
       "name": "Edelgard (The Future)",
-      "base_index": 108,
+      "base_index": 109,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17538,7 +18083,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Attack +3",
-      "weapon": 477,
+      "weapon": 481,
       "a": 14,
       "b": 72,
       "c": 79,
@@ -17547,7 +18092,7 @@ var data = {
     },
     "82": {
       "name": "Edelgard (The Future)",
-      "base_index": 108,
+      "base_index": 109,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17558,8 +18103,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Attack +3",
-      "weapon": 477,
-      "a": 83,
+      "weapon": 481,
+      "a": 86,
       "b": 63,
       "c": 79,
       "proc": 29,
@@ -17567,7 +18112,7 @@ var data = {
     },
     "83": {
       "name": "Eir (Merciful Death)",
-      "base_index": 110,
+      "base_index": 111,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17578,16 +18123,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 286,
-      "a": 126,
+      "weapon": 290,
+      "a": 129,
       "b": 70,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "84": {
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 112,
+      "base_index": 113,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17598,36 +18143,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 188,
-      "a": 26,
+      "weapon": 191,
+      "a": 27,
       "b": 65,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "85": {
       "name": "Eirika (Anamnesis Lady)",
-      "base_index": 112,
+      "base_index": 113,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Rau\xF0rblade+",
+      "weap_name": "Raudrblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 349,
-      "a": 26,
+      "weapon": 353,
+      "a": 27,
       "b": 67,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "86": {
       "name": "Eirika (Graceful Resolve)",
-      "base_index": 114,
+      "base_index": 115,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17638,16 +18183,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 438,
-      "a": 26,
+      "weapon": 442,
+      "a": 27,
       "b": 68,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "87": {
       "name": "Eleonora (Shooting Starlet)",
-      "base_index": 117,
+      "base_index": 118,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17658,16 +18203,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 302,
-      "a": 93,
+      "weapon": 304,
+      "a": 96,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "88": {
       "name": "Elincia (Lost Princess)",
-      "base_index": 119,
+      "base_index": 120,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17678,8 +18223,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 4,
-      "a": 26,
+      "weapon": 3,
+      "a": 27,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -17687,7 +18232,7 @@ var data = {
     },
     "89": {
       "name": "Elise (Bubbling Flower)",
-      "base_index": 120,
+      "base_index": 121,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17698,16 +18243,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 332,
-      "a": 26,
+      "weapon": 336,
+      "a": 27,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "90": {
       "name": "Eliwood (Blazing Knight)",
-      "base_index": 123,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17718,16 +18263,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 7,
-      "a": 26,
+      "weapon": 6,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "91": {
       "name": "Eliwood (Blazing Knight)",
-      "base_index": 123,
+      "base_index": 124,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17738,16 +18283,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 159,
-      "a": 93,
+      "weapon": 161,
+      "a": 96,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "92": {
       "name": "Eliwood (Knight of Lycia)",
-      "base_index": 125,
+      "base_index": 126,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 1,
@@ -17758,8 +18303,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Dragon Fang",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 43,
-      "a": 26,
+      "weapon": 41,
+      "a": 27,
       "b": 66,
       "c": 79,
       "proc": 12,
@@ -17767,7 +18312,7 @@ var data = {
     },
     "93": {
       "name": "Eliwood (Marquess Pherae)",
-      "base_index": 126,
+      "base_index": 127,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -17778,16 +18323,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 320,
-      "a": 26,
+      "weapon": 322,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "94": {
       "name": "Ephraim (Dynastic Duo)",
-      "base_index": 127,
+      "base_index": 128,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17798,16 +18343,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 363,
-      "a": 52,
+      "weapon": 367,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "95": {
       "name": "Ephraim (Legendary Lord)",
-      "base_index": 128,
+      "base_index": 129,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -17818,16 +18363,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 162,
-      "a": 52,
+      "weapon": 164,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "96": {
       "name": "Ephraim (Sacred Twin Lord)",
-      "base_index": 130,
+      "base_index": 131,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17838,8 +18383,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Armored Boots",
-      "weapon": 179,
-      "a": 61,
+      "weapon": 182,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 29,
@@ -17847,7 +18392,7 @@ var data = {
     },
     "97": {
       "name": "Ephraim (Sparkling Gallantly)",
-      "base_index": 131,
+      "base_index": 132,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17858,8 +18403,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Death Blow 3",
-      "weapon": 153,
-      "a": 52,
+      "weapon": 155,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 29,
@@ -17867,7 +18412,7 @@ var data = {
     },
     "98": {
       "name": "Ephraim (Sparkling Gallantly)",
-      "base_index": 131,
+      "base_index": 132,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -17878,8 +18423,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 153,
-      "a": 61,
+      "weapon": 155,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 29,
@@ -17887,7 +18432,7 @@ var data = {
     },
     "99": {
       "name": "Est (Junior Whitewing)",
-      "base_index": 132,
+      "base_index": 133,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -17898,8 +18443,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Death Blow 3",
-      "weapon": 489,
-      "a": 52,
+      "weapon": 493,
+      "a": 55,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -17907,7 +18452,7 @@ var data = {
     },
     "100": {
       "name": "Est (Springtime Flier)",
-      "base_index": 133,
+      "base_index": 134,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -17918,56 +18463,56 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 131,
-      "a": 26,
+      "weapon": 134,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "101": {
       "name": "Est (Springtime Flier)",
-      "base_index": 133,
+      "base_index": 134,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Guard 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 37,
-      "a": 26,
+      "weapon": 35,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "102": {
       "name": "Ewan (Eager Student)",
-      "base_index": 135,
+      "base_index": 136,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Rau\xF0rserpent+",
+      "weap_name": "Raudrserpent+",
       "refine": "Res",
       "a_name": "Distant Def 4",
       "b_name": "Quick Riposte 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Distant Def 3",
-      "weapon": 353,
-      "a": 63,
+      "weapon": 357,
+      "a": 66,
       "b": 78,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 42
     },
     "103": {
       "name": "Eyvel (Mistress of Fiana)",
-      "base_index": 136,
+      "base_index": 137,
       "boon": "Def",
       "bane": "Res",
       "resplendent": 0,
@@ -17978,16 +18523,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 212,
-      "a": 64,
+      "weapon": 215,
+      "a": 67,
       "b": 65,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "104": {
       "name": "Eyvel (Mistress of Fiana)",
-      "base_index": 136,
+      "base_index": 137,
       "boon": "Def",
       "bane": "Res",
       "resplendent": 0,
@@ -17998,8 +18543,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 212,
-      "a": 115,
+      "weapon": 215,
+      "a": 118,
       "b": 65,
       "c": 79,
       "proc": 29,
@@ -18007,7 +18552,7 @@ var data = {
     },
     "105": {
       "name": "Fae (Holiday Dear)",
-      "base_index": 138,
+      "base_index": 139,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -18018,16 +18563,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Distant Def 3",
-      "weapon": 276,
-      "a": 96,
+      "weapon": 280,
+      "a": 99,
       "b": 114,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 42
     },
     "106": {
       "name": "Faye (Devoted Heart)",
-      "base_index": 139,
+      "base_index": 140,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -18038,8 +18583,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Distant Def 3",
-      "weapon": 55,
-      "a": 96,
+      "weapon": 54,
+      "a": 99,
       "b": 63,
       "c": 79,
       "proc": 28,
@@ -18047,7 +18592,7 @@ var data = {
     },
     "107": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18058,16 +18603,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 57,
-      "a": 52,
+      "weapon": 56,
+      "a": 55,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "108": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18078,16 +18623,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 431,
-      "a": 52,
+      "weapon": 435,
+      "a": 55,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "109": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18098,16 +18643,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 431,
-      "a": 45,
+      "weapon": 435,
+      "a": 47,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "110": {
       "name": "Faye (Drawn Heartstring)",
-      "base_index": 140,
+      "base_index": 141,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18118,16 +18663,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 431,
-      "a": 45,
+      "weapon": 435,
+      "a": 47,
       "b": 108,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "111": {
       "name": "Felicia (Maid Mayhem)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18138,8 +18683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Atk/Spd 2",
-      "weapon": 149,
-      "a": 26,
+      "weapon": 151,
+      "a": 27,
       "b": 72,
       "c": 79,
       "proc": 19,
@@ -18147,7 +18692,7 @@ var data = {
     },
     "112": {
       "name": "Felicia (Maid Mayhem)",
-      "base_index": 141,
+      "base_index": 142,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18158,8 +18703,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Distant Def 3",
-      "weapon": 149,
-      "a": 63,
+      "weapon": 151,
+      "a": 66,
       "b": 78,
       "c": 79,
       "proc": 19,
@@ -18167,19 +18712,19 @@ var data = {
     },
     "113": {
       "name": "Felicia (Off the Menu)",
-      "base_index": 142,
+      "base_index": 143,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Eldhr\xEDmnir",
+      "weap_name": "Eldhrimnir",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Special Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Atk/Spd 2",
-      "weapon": 134,
-      "a": 26,
+      "weapon": 137,
+      "a": 27,
       "b": 108,
       "c": 79,
       "proc": 19,
@@ -18187,19 +18732,19 @@ var data = {
     },
     "114": {
       "name": "Felicia (Off the Menu)",
-      "base_index": 142,
+      "base_index": 143,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Eldhr\xEDmnir",
+      "weap_name": "Eldhrimnir",
       "refine": "None",
       "a_name": "Distant Counter",
       "b_name": "Special Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Quick Riposte 3",
-      "weapon": 134,
-      "a": 61,
+      "weapon": 137,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 19,
@@ -18207,7 +18752,7 @@ var data = {
     },
     "115": {
       "name": "Fiora (Airborne Warrior)",
-      "base_index": 145,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18218,8 +18763,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 422,
-      "a": 61,
+      "weapon": 425,
+      "a": 64,
       "b": 76,
       "c": 79,
       "proc": 28,
@@ -18227,7 +18772,7 @@ var data = {
     },
     "116": {
       "name": "Fiora (Airborne Warrior)",
-      "base_index": 145,
+      "base_index": 146,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18238,8 +18783,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 422,
-      "a": 78,
+      "weapon": 425,
+      "a": 81,
       "b": 76,
       "c": 79,
       "proc": 28,
@@ -18247,7 +18792,7 @@ var data = {
     },
     "117": {
       "name": "Fir (Student of Spring)",
-      "base_index": 147,
+      "base_index": 148,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18259,7 +18804,7 @@ var data = {
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
       "weapon": 69,
-      "a": 26,
+      "a": 27,
       "b": 54,
       "c": 79,
       "proc": 33,
@@ -18267,7 +18812,7 @@ var data = {
     },
     "118": {
       "name": "Fir (Sword Student)",
-      "base_index": 148,
+      "base_index": 149,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18278,16 +18823,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 315,
-      "a": 61,
+      "weapon": 317,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "119": {
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 151,
+      "base_index": 152,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18298,8 +18843,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ice Mirror",
       "seal_name": "Quick Riposte 3",
-      "weapon": 271,
-      "a": 96,
+      "weapon": 275,
+      "a": 99,
       "b": 100,
       "c": 79,
       "proc": 27,
@@ -18307,7 +18852,7 @@ var data = {
     },
     "120": {
       "name": "Fjorm (Princess of Ice)",
-      "base_index": 151,
+      "base_index": 152,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18318,8 +18863,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 271,
-      "a": 96,
+      "weapon": 275,
+      "a": 99,
       "b": 63,
       "c": 79,
       "proc": 28,
@@ -18327,7 +18872,7 @@ var data = {
     },
     "121": {
       "name": "Flora (Cold as Ice)",
-      "base_index": 153,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18338,8 +18883,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Death Blow 3",
-      "weapon": 235,
-      "a": 94,
+      "weapon": 238,
+      "a": 97,
       "b": 63,
       "c": 79,
       "proc": 28,
@@ -18347,7 +18892,7 @@ var data = {
     },
     "122": {
       "name": "Flora (Cold as Ice)",
-      "base_index": 153,
+      "base_index": 154,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18358,7 +18903,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 235,
+      "weapon": 238,
       "a": 20,
       "b": 63,
       "c": 79,
@@ -18367,19 +18912,19 @@ var data = {
     },
     "123": {
       "name": "Flora (Signature Dish)",
-      "base_index": 154,
+      "base_index": 155,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "S\xE6hr\xEDmnir",
+      "weap_name": "Saehrimnir",
       "refine": "None",
       "a_name": "Death Blow 4",
       "b_name": "Bold Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Death Blow 3",
-      "weapon": 375,
-      "a": 52,
+      "weapon": 382,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 28,
@@ -18387,19 +18932,19 @@ var data = {
     },
     "124": {
       "name": "Flora (Signature Dish)",
-      "base_index": 154,
+      "base_index": 155,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "S\xE6hr\xEDmnir",
+      "weap_name": "Saehrimnir",
       "refine": "None",
       "a_name": "Close Counter",
       "b_name": "Bold Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 375,
-      "a": 45,
+      "weapon": 382,
+      "a": 47,
       "b": 14,
       "c": 79,
       "proc": 28,
@@ -18407,7 +18952,7 @@ var data = {
     },
     "125": {
       "name": "Forsyth (Loyal Lieutenant)",
-      "base_index": 157,
+      "base_index": 158,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18418,8 +18963,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Death Blow 3",
-      "weapon": 428,
-      "a": 52,
+      "weapon": 432,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18427,7 +18972,7 @@ var data = {
     },
     "126": {
       "name": "Forsyth (Loyal Lieutenant)",
-      "base_index": 157,
+      "base_index": 158,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18438,8 +18983,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 428,
-      "a": 61,
+      "weapon": 432,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18447,7 +18992,7 @@ var data = {
     },
     "127": {
       "name": "Garon (King of Nohr)",
-      "base_index": 162,
+      "base_index": 163,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18458,16 +19003,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 61,
-      "a": 61,
+      "weapon": 60,
+      "a": 64,
       "b": 64,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "128": {
       "name": "Gunnthr\xE1 (Voice of Dreams)",
-      "base_index": 173,
+      "base_index": 174,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18478,16 +19023,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 45,
-      "a": 26,
+      "weapon": 43,
+      "a": 27,
       "b": 26,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "129": {
       "name": "Hana (Focused Samurai)",
-      "base_index": 177,
+      "base_index": 178,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18498,16 +19043,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 221,
-      "a": 26,
+      "weapon": 224,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "130": {
       "name": "Hardin (Dark Emperor)",
-      "base_index": 178,
+      "base_index": 179,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18518,7 +19063,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 193,
+      "weapon": 196,
       "a": 20,
       "b": 14,
       "c": 79,
@@ -18527,7 +19072,7 @@ var data = {
     },
     "131": {
       "name": "Hawkeye (Desert Guardian)",
-      "base_index": 179,
+      "base_index": 180,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18538,16 +19083,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 214,
-      "a": 61,
+      "weapon": 217,
+      "a": 64,
       "b": 71,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "132": {
       "name": "Hector (Brave Warrior)",
-      "base_index": 181,
+      "base_index": 182,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18558,8 +19103,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 290,
-      "a": 98,
+      "weapon": 292,
+      "a": 101,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18567,7 +19112,7 @@ var data = {
     },
     "133": {
       "name": "Hector (Brave Warrior)",
-      "base_index": 181,
+      "base_index": 182,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18578,8 +19123,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 290,
-      "a": 98,
+      "weapon": 292,
+      "a": 101,
       "b": 116,
       "c": 79,
       "proc": 10,
@@ -18587,7 +19132,7 @@ var data = {
     },
     "134": {
       "name": "Hector (Dressed-Up Duo)",
-      "base_index": 182,
+      "base_index": 183,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18598,8 +19143,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Draconic Aura",
       "seal_name": "Quick Riposte 3",
-      "weapon": 88,
-      "a": 61,
+      "weapon": 90,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 11,
@@ -18607,7 +19152,7 @@ var data = {
     },
     "135": {
       "name": "Hector (General of Ostia)",
-      "base_index": 183,
+      "base_index": 184,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18618,16 +19163,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 8,
-      "a": 61,
+      "weapon": 7,
+      "a": 64,
       "b": 116,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "136": {
       "name": "Hector (Just Here to Fight)",
-      "base_index": 184,
+      "base_index": 185,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18638,16 +19183,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack +3",
-      "weapon": 33,
-      "a": 61,
+      "weapon": 31,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 12
     },
     "137": {
       "name": "Hector (Marquess of Ostia)",
-      "base_index": 185,
+      "base_index": 186,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18658,8 +19203,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 458,
-      "a": 61,
+      "weapon": 462,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18667,7 +19212,7 @@ var data = {
     },
     "138": {
       "name": "Henry (Happy Vampire)",
-      "base_index": 188,
+      "base_index": 189,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18678,8 +19223,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Draconic Aura",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 26,
+      "weapon": 206,
+      "a": 27,
       "b": 108,
       "c": 79,
       "proc": 11,
@@ -18687,7 +19232,7 @@ var data = {
     },
     "139": {
       "name": "Henry (Happy Vampire)",
-      "base_index": 188,
+      "base_index": 189,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -18698,8 +19243,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Draconic Aura",
       "seal_name": "Death Blow 3",
-      "weapon": 203,
-      "a": 52,
+      "weapon": 206,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 11,
@@ -18707,7 +19252,7 @@ var data = {
     },
     "140": {
       "name": "Hilda (Idle Maiden)",
-      "base_index": 190,
+      "base_index": 191,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18718,16 +19263,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 173,
-      "a": 26,
+      "weapon": 176,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "141": {
       "name": "Hinoka (Blue Sky Warrior)",
-      "base_index": 192,
+      "base_index": 193,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18738,36 +19283,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 484,
-      "a": 26,
+      "weapon": 488,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "142": {
       "name": "Hr\xEDd (Icy Blade)",
-      "base_index": 195,
+      "base_index": 196,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Gj\xF6ll",
+      "weap_name": "Gjoll",
       "refine": "None",
       "a_name": "Distant Counter",
       "b_name": "Lull Atk/Def 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack/Def +2",
-      "weapon": 185,
-      "a": 61,
+      "weapon": 189,
+      "a": 64,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 13
     },
     "143": {
       "name": "Iago (Nohr's Tactician)",
-      "base_index": 198,
+      "base_index": 199,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -18778,16 +19323,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "HP/Atk 2",
-      "weapon": 238,
-      "a": 85,
+      "weapon": 241,
+      "a": 88,
       "b": 111,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 69
     },
     "144": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 199,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18798,8 +19343,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 114,
-      "a": 61,
+      "weapon": 117,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18807,7 +19352,7 @@ var data = {
     },
     "145": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 199,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18818,8 +19363,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 114,
-      "a": 61,
+      "weapon": 117,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 29,
@@ -18827,7 +19372,7 @@ var data = {
     },
     "146": {
       "name": "Idunn (Dark Priestess)",
-      "base_index": 199,
+      "base_index": 200,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18838,8 +19383,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Death Blow 3",
-      "weapon": 114,
-      "a": 52,
+      "weapon": 117,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -18847,7 +19392,7 @@ var data = {
     },
     "147": {
       "name": "Idunn (Dragonkin Duo)",
-      "base_index": 200,
+      "base_index": 201,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18858,8 +19403,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Distant Def 3",
-      "weapon": 505,
-      "a": 61,
+      "weapon": 509,
+      "a": 64,
       "b": 114,
       "c": 79,
       "proc": 10,
@@ -18867,7 +19412,7 @@ var data = {
     },
     "148": {
       "name": "Igrene (Nabata Protector)",
-      "base_index": 201,
+      "base_index": 202,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18878,8 +19423,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Blazing Wind",
       "seal_name": "Hardy Bearing 3",
-      "weapon": 215,
-      "a": 93,
+      "weapon": 218,
+      "a": 96,
       "b": 72,
       "c": 79,
       "proc": 8,
@@ -18887,7 +19432,7 @@ var data = {
     },
     "149": {
       "name": "Ike (Brave Mercenary)",
-      "base_index": 202,
+      "base_index": 203,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -18898,8 +19443,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 467,
-      "a": 61,
+      "weapon": 471,
+      "a": 64,
       "b": 71,
       "c": 79,
       "proc": 10,
@@ -18907,7 +19452,7 @@ var data = {
     },
     "150": {
       "name": "Ike (Brave Mercenary)",
-      "base_index": 202,
+      "base_index": 203,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18918,8 +19463,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 467,
-      "a": 61,
+      "weapon": 471,
+      "a": 64,
       "b": 27,
       "c": 79,
       "proc": 10,
@@ -18927,7 +19472,7 @@ var data = {
     },
     "151": {
       "name": "Ike (Stalwart Heart)",
-      "base_index": 203,
+      "base_index": 204,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -18938,16 +19483,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Radiant Aether",
       "seal_name": "Quick Riposte 3",
-      "weapon": 496,
-      "a": 61,
+      "weapon": 500,
+      "a": 64,
       "b": 108,
       "c": 79,
-      "proc": 41,
+      "proc": 42,
       "seal": 80
     },
     "152": {
       "name": "Ilyana (Treat Harvester)",
-      "base_index": 206,
+      "base_index": 207,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18958,8 +19503,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Death Blow 3",
-      "weapon": 434,
-      "a": 78,
+      "weapon": 438,
+      "a": 81,
       "b": 14,
       "c": 79,
       "proc": 28,
@@ -18967,19 +19512,19 @@ var data = {
     },
     "153": {
       "name": "Ilyana (Treat Harvester)",
-      "base_index": 206,
+      "base_index": 207,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rserpent+",
+      "weap_name": "Blarserpent+",
       "refine": "Res",
       "a_name": "Distant Def 4",
       "b_name": "Vengeful Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Distant Def 3",
-      "weapon": 41,
-      "a": 63,
+      "weapon": 39,
+      "a": 66,
       "b": 114,
       "c": 79,
       "proc": 28,
@@ -18987,7 +19532,7 @@ var data = {
     },
     "154": {
       "name": "Innes (Regal Strategician)",
-      "base_index": 209,
+      "base_index": 210,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -18998,36 +19543,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 317,
-      "a": 26,
+      "weapon": 319,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "155": {
       "name": "Ishtar (Thunder's Waltz)",
-      "base_index": 211,
+      "base_index": 212,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "M\xF6g\xDErasir",
+      "weap_name": "Mogthrasir",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Guard 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 287,
-      "a": 26,
+      "weapon": 309,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "156": {
       "name": "Itsuki (Finding a Path)",
-      "base_index": 212,
+      "base_index": 213,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -19038,8 +19583,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 300,
-      "a": 61,
+      "weapon": 302,
+      "a": 64,
       "b": 63,
       "c": 79,
       "proc": 10,
@@ -19047,7 +19592,7 @@ var data = {
     },
     "157": {
       "name": "Julia (Crusader of Light)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19058,16 +19603,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 479,
-      "a": 121,
+      "weapon": 483,
+      "a": 124,
       "b": 59,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "158": {
       "name": "Julia (Crusader of Light)",
-      "base_index": 221,
+      "base_index": 222,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19078,16 +19623,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 479,
-      "a": 26,
+      "weapon": 483,
+      "a": 27,
       "b": 59,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "159": {
       "name": "Julia (Naga's Blood)",
-      "base_index": 222,
+      "base_index": 223,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19098,8 +19643,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 313,
-      "a": 96,
+      "weapon": 315,
+      "a": 99,
       "b": 64,
       "c": 79,
       "proc": 28,
@@ -19107,7 +19652,7 @@ var data = {
     },
     "160": {
       "name": "Julia (Naga's Blood)",
-      "base_index": 222,
+      "base_index": 223,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19118,8 +19663,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 313,
-      "a": 47,
+      "weapon": 315,
+      "a": 49,
       "b": 64,
       "c": 79,
       "proc": 28,
@@ -19127,7 +19672,7 @@ var data = {
     },
     "161": {
       "name": "Julius (Scion of Darkness)",
-      "base_index": 223,
+      "base_index": 224,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -19138,8 +19683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 280,
-      "a": 96,
+      "weapon": 284,
+      "a": 99,
       "b": 64,
       "c": 79,
       "proc": 28,
@@ -19147,7 +19692,7 @@ var data = {
     },
     "162": {
       "name": "Kagero (Honorable Ninja)",
-      "base_index": 226,
+      "base_index": 227,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19158,8 +19703,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Dragon Fang",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 253,
-      "a": 121,
+      "weapon": 257,
+      "a": 124,
       "b": 66,
       "c": 79,
       "proc": 12,
@@ -19167,7 +19712,7 @@ var data = {
     },
     "163": {
       "name": "Kana (Dragon Princess)",
-      "base_index": 228,
+      "base_index": 229,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19178,16 +19723,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 442,
-      "a": 61,
+      "weapon": 446,
+      "a": 64,
       "b": 71,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "164": {
       "name": "Karel (Sword Demon)",
-      "base_index": 230,
+      "base_index": 231,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -19198,16 +19743,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack/Def +2",
-      "weapon": 315,
-      "a": 61,
+      "weapon": 317,
+      "a": 64,
       "b": 120,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 13
     },
     "165": {
       "name": "Karla (Sword Vassal)",
-      "base_index": 231,
+      "base_index": 232,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19218,16 +19763,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 471,
-      "a": 26,
+      "weapon": 475,
+      "a": 27,
       "b": 27,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "166": {
       "name": "Keaton (Lupine Collector)",
-      "base_index": 234,
+      "base_index": 235,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19238,16 +19783,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Brazen Atk/Def 3",
-      "weapon": 501,
-      "a": 61,
+      "weapon": 505,
+      "a": 64,
       "b": 113,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 17
     },
     "167": {
       "name": "Kiria (Cool Fa\xE7ade)",
-      "base_index": 236,
+      "base_index": 237,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -19258,7 +19803,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 303,
+      "weapon": 305,
       "a": 20,
       "b": 64,
       "c": 79,
@@ -19267,7 +19812,7 @@ var data = {
     },
     "168": {
       "name": "Klein (Silver Nobleman)",
-      "base_index": 238,
+      "base_index": 239,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19278,16 +19823,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 6,
-      "a": 121,
+      "weapon": 5,
+      "a": 124,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "169": {
       "name": "Kronya (Gleaming Blade)",
-      "base_index": 240,
+      "base_index": 241,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -19298,16 +19843,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack +3",
-      "weapon": 15,
-      "a": 45,
+      "weapon": 14,
+      "a": 47,
       "b": 71,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 12
     },
     "170": {
       "name": "L'Arachel (Harvest Princess)",
-      "base_index": 241,
+      "base_index": 242,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19318,31 +19863,31 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 26,
+      "weapon": 206,
+      "a": 27,
       "b": 67,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "171": {
       "name": "L\xEDf (Lethal Swordsman)",
-      "base_index": 243,
+      "base_index": 269,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "S\xF6kkvabekkr",
+      "weap_name": "Sokkvabekkr",
       "refine": "None",
       "a_name": "Distant Counter",
       "b_name": "Deadly Balance",
       "c_name": "Time's Pulse 3",
       "special": "Open the Future",
       "seal_name": "Attack/Def +2",
-      "weapon": 376,
-      "a": 61,
+      "weapon": 430,
+      "a": 64,
       "b": 32,
       "c": 133,
-      "proc": 39,
+      "proc": 40,
       "seal": 13
     },
     "172": {
@@ -19358,11 +19903,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 502,
-      "a": 126,
+      "weapon": 506,
+      "a": 129,
       "b": 111,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "173": {
@@ -19371,18 +19916,18 @@ var data = {
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "N\xEDu",
+      "weap_name": "Niu",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Swordbreaker 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 311,
-      "a": 26,
+      "weapon": 323,
+      "a": 27,
       "b": 111,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "174": {
@@ -19398,11 +19943,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 203,
-      "a": 94,
+      "weapon": 206,
+      "a": 97,
       "b": 8,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "175": {
@@ -19418,11 +19963,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack +3",
-      "weapon": 266,
-      "a": 61,
+      "weapon": 270,
+      "a": 64,
       "b": 113,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 12
     },
     "176": {
@@ -19438,11 +19983,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Regnal Astra",
       "seal_name": "Atk/Spd 2",
-      "weapon": 268,
-      "a": 61,
+      "weapon": 272,
+      "a": 64,
       "b": 83,
       "c": 79,
-      "proc": 42,
+      "proc": 43,
       "seal": 10
     },
     "177": {
@@ -19458,11 +20003,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Regnal Astra",
       "seal_name": "Atk/Spd 2",
-      "weapon": 268,
-      "a": 26,
+      "weapon": 272,
+      "a": 27,
       "b": 83,
       "c": 79,
-      "proc": 42,
+      "proc": 43,
       "seal": 10
     },
     "178": {
@@ -19478,7 +20023,7 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ignis",
       "seal_name": "Quickened Pulse",
-      "weapon": 273,
+      "weapon": 277,
       "a": 14,
       "b": 86,
       "c": 133,
@@ -19498,11 +20043,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Nj\xF6run's Zeal",
       "seal_name": "Death Blow 3",
-      "weapon": 292,
-      "a": 52,
+      "weapon": 294,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 37,
+      "proc": 38,
       "seal": 29
     },
     "180": {
@@ -19518,11 +20063,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Nj\xF6run's Zeal",
       "seal_name": "Attack +3",
-      "weapon": 292,
-      "a": 45,
+      "weapon": 294,
+      "a": 47,
       "b": 113,
       "c": 79,
-      "proc": 37,
+      "proc": 38,
       "seal": 12
     },
     "181": {
@@ -19538,11 +20083,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 89,
-      "a": 26,
+      "weapon": 91,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "182": {
@@ -19558,11 +20103,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 85,
-      "a": 26,
+      "weapon": 87,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "183": {
@@ -19578,11 +20123,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 417,
-      "a": 26,
+      "weapon": 420,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "184": {
@@ -19598,11 +20143,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 130,
-      "a": 26,
+      "weapon": 133,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "185": {
@@ -19618,11 +20163,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 456,
-      "a": 26,
+      "weapon": 458,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "186": {
@@ -19638,11 +20183,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 262,
-      "a": 26,
+      "weapon": 266,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "187": {
@@ -19658,11 +20203,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 325,
-      "a": 26,
+      "weapon": 329,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "188": {
@@ -19679,10 +20224,10 @@ var data = {
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
       "weapon": 65,
-      "a": 63,
+      "a": 66,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "189": {
@@ -19698,11 +20243,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 60,
-      "a": 26,
+      "weapon": 59,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "190": {
@@ -19718,11 +20263,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 213,
-      "a": 26,
+      "weapon": 216,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 108
     },
     "191": {
@@ -19738,11 +20283,11 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 213,
-      "a": 61,
+      "weapon": 216,
+      "a": 64,
       "b": 65,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "192": {
@@ -19758,16 +20303,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 169,
-      "a": 126,
+      "weapon": 172,
+      "a": 129,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "193": {
       "name": "Lilina (Delightful Noble)",
-      "base_index": 271,
+      "base_index": 272,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19778,16 +20323,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 168,
-      "a": 121,
+      "weapon": 171,
+      "a": 124,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "194": {
       "name": "Lilith (Astral Daughter)",
-      "base_index": 272,
+      "base_index": 273,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19798,56 +20343,56 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 14,
-      "a": 26,
+      "weapon": 13,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "195": {
       "name": "Linde (Light Mage)",
-      "base_index": 273,
+      "base_index": 274,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Atk/Res 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 37,
-      "a": 26,
+      "weapon": 35,
+      "a": 27,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "196": {
       "name": "Lucina (Brave Princess)",
-      "base_index": 283,
+      "base_index": 284,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "Geirsk\xF6gul",
+      "weap_name": "Geirskogul",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Null Follow-Up 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 180,
-      "a": 26,
+      "weapon": 183,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "197": {
       "name": "Lucina (Future Witness)",
-      "base_index": 284,
+      "base_index": 285,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19858,36 +20403,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 393,
-      "a": 26,
+      "weapon": 396,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "198": {
       "name": "Lucina (Glorious Archer)",
-      "base_index": 285,
+      "base_index": 286,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
-      "weap_name": "Th\xF6gn",
+      "weap_name": "Thogn",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Null Follow-Up 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 452,
-      "a": 26,
+      "weapon": 459,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "199": {
       "name": "Lute (Prodigy)",
-      "base_index": 292,
+      "base_index": 293,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -19898,36 +20443,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 486,
-      "a": 26,
+      "weapon": 490,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "200": {
       "name": "Lute (Prodigy)",
-      "base_index": 292,
+      "base_index": 293,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Atk/Res 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Attack +3",
-      "weapon": 37,
-      "a": 26,
+      "weapon": 35,
+      "a": 27,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 12
     },
     "201": {
       "name": "Lyn (Brave Lady)",
-      "base_index": 293,
+      "base_index": 294,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19938,16 +20483,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 308,
-      "a": 93,
+      "weapon": 311,
+      "a": 96,
       "b": 91,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "202": {
       "name": "Lyn (Brave Lady)",
-      "base_index": 293,
+      "base_index": 294,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -19958,16 +20503,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 57,
-      "a": 26,
+      "weapon": 56,
+      "a": 27,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "203": {
       "name": "Lyn (Lady of the Beach)",
-      "base_index": 295,
+      "base_index": 296,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -19978,76 +20523,76 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 112,
-      "a": 121,
+      "weapon": 115,
+      "a": 124,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "204": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 300,
+      "base_index": 301,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Hades &Omega;",
+      "weap_name": "Hades Omega",
       "refine": "None",
       "a_name": "Death Blow 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 217,
-      "a": 52,
+      "weapon": 220,
+      "a": 55,
       "b": 67,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "205": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 300,
+      "base_index": 301,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Hades &Omega;",
+      "weap_name": "Hades Omega",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 217,
-      "a": 26,
+      "weapon": 220,
+      "a": 27,
       "b": 67,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "206": {
       "name": "Lysithea (Child Prodigy)",
-      "base_index": 300,
+      "base_index": 301,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Hades &Omega;",
+      "weap_name": "Hades Omega",
       "refine": "None",
       "a_name": "Sturdy Impact",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 217,
-      "a": 121,
+      "weapon": 220,
+      "a": 124,
       "b": 67,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "207": {
       "name": "Mamori (Microwavin' Idol)",
-      "base_index": 302,
+      "base_index": 303,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20058,16 +20603,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 299,
-      "a": 61,
+      "weapon": 301,
+      "a": 64,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "208": {
       "name": "Mareeta (Sword of Stars)",
-      "base_index": 303,
+      "base_index": 304,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20078,8 +20623,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 291,
-      "a": 26,
+      "weapon": 293,
+      "a": 27,
       "b": 27,
       "c": 79,
       "proc": 33,
@@ -20087,7 +20632,7 @@ var data = {
     },
     "209": {
       "name": "Mareeta (Sword of Stars)",
-      "base_index": 303,
+      "base_index": 304,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20098,16 +20643,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 291,
-      "a": 61,
+      "weapon": 293,
+      "a": 64,
       "b": 27,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "210": {
       "name": "Marth (Hero-King)",
-      "base_index": 312,
+      "base_index": 313,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20118,8 +20663,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Fire Emblem",
       "seal_name": "Atk/Spd 2",
-      "weapon": 138,
-      "a": 26,
+      "weapon": 141,
+      "a": 27,
       "b": 12,
       "c": 79,
       "proc": 16,
@@ -20127,7 +20672,7 @@ var data = {
     },
     "211": {
       "name": "Marth (Hero-King)",
-      "base_index": 312,
+      "base_index": 313,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20138,8 +20683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Fire Emblem",
       "seal_name": "Atk/Spd 2",
-      "weapon": 138,
-      "a": 34,
+      "weapon": 141,
+      "a": 36,
       "b": 12,
       "c": 79,
       "proc": 16,
@@ -20147,7 +20692,7 @@ var data = {
     },
     "212": {
       "name": "Marth (Hero-King)",
-      "base_index": 312,
+      "base_index": 313,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20158,8 +20703,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Fire Emblem",
       "seal_name": "Quick Riposte 3",
-      "weapon": 138,
-      "a": 61,
+      "weapon": 141,
+      "a": 64,
       "b": 27,
       "c": 79,
       "proc": 16,
@@ -20167,7 +20712,7 @@ var data = {
     },
     "213": {
       "name": "Marth (Royal Altean Duo)",
-      "base_index": 314,
+      "base_index": 315,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20178,8 +20723,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Fire Emblem",
       "seal_name": "Quick Riposte 3",
-      "weapon": 450,
-      "a": 26,
+      "weapon": 454,
+      "a": 27,
       "b": 30,
       "c": 79,
       "proc": 16,
@@ -20187,7 +20732,7 @@ var data = {
     },
     "214": {
       "name": "Micaiah (Priestess of Dawn)",
-      "base_index": 322,
+      "base_index": 323,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20198,16 +20743,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 454,
-      "a": 121,
+      "weapon": 456,
+      "a": 124,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "215": {
       "name": "Micaiah (Queen of Dawn)",
-      "base_index": 323,
+      "base_index": 324,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20218,16 +20763,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 275,
-      "a": 26,
+      "weapon": 279,
+      "a": 27,
       "b": 122,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "216": {
       "name": "Micaiah (Summer's Dawn)",
-      "base_index": 324,
+      "base_index": 325,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20238,16 +20783,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 108,
-      "a": 94,
+      "weapon": 111,
+      "a": 97,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "217": {
       "name": "Midori (Reliable Chemist)",
-      "base_index": 326,
+      "base_index": 327,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20258,16 +20803,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 57,
-      "a": 52,
+      "weapon": 56,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "218": {
       "name": "Midori (Reliable Chemist)",
-      "base_index": 326,
+      "base_index": 327,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20278,16 +20823,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 431,
-      "a": 47,
+      "weapon": 435,
+      "a": 49,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "219": {
       "name": "Minerva (Red Dragoon)",
-      "base_index": 329,
+      "base_index": 330,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20298,16 +20843,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 224,
-      "a": 26,
+      "weapon": 227,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "220": {
       "name": "Morgan (Lass from Afar)",
-      "base_index": 334,
+      "base_index": 335,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20318,36 +20863,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 146,
-      "a": 26,
+      "weapon": 148,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "221": {
       "name": "Morgan (Lass from Afar)",
-      "base_index": 334,
+      "base_index": 335,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rserpent+",
+      "weap_name": "Blarserpent+",
       "refine": "Res",
       "a_name": "Mirror Stance 3",
       "b_name": "Dull Ranged 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 41,
-      "a": 96,
+      "weapon": 39,
+      "a": 99,
       "b": 42,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "222": {
       "name": "Myrrh (Great Dragon)",
-      "base_index": 335,
+      "base_index": 336,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -20358,16 +20903,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Iote's Shield",
-      "weapon": 198,
+      "weapon": 201,
       "a": 14,
       "b": 78,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 73
     },
     "223": {
       "name": "Myrrh (Great Dragon)",
-      "base_index": 335,
+      "base_index": 336,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -20378,16 +20923,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Iote's Shield",
-      "weapon": 198,
-      "a": 61,
+      "weapon": 201,
+      "a": 64,
       "b": 78,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 73
     },
     "224": {
       "name": "Myrrh (Spooky Monster)",
-      "base_index": 336,
+      "base_index": 337,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20398,8 +20943,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 432,
-      "a": 61,
+      "weapon": 436,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 29,
@@ -20407,7 +20952,7 @@ var data = {
     },
     "225": {
       "name": "Naesala (Sky's Shadow)",
-      "base_index": 337,
+      "base_index": 338,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -20418,16 +20963,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 355,
-      "a": 26,
+      "weapon": 359,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "226": {
       "name": "Naga (Dragon Divinity)",
-      "base_index": 338,
+      "base_index": 339,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20438,16 +20983,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 119,
-      "a": 26,
+      "weapon": 122,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "227": {
       "name": "Nagi (Dragon Avatar)",
-      "base_index": 339,
+      "base_index": 340,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20458,8 +21003,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 137,
-      "a": 61,
+      "weapon": 140,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 28,
@@ -20467,7 +21012,7 @@ var data = {
     },
     "228": {
       "name": "Nah (Little Miss)",
-      "base_index": 340,
+      "base_index": 341,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20478,16 +21023,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 324,
-      "a": 61,
+      "weapon": 328,
+      "a": 64,
       "b": 64,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "229": {
       "name": "Nailah (Unflinching Eye)",
-      "base_index": 341,
+      "base_index": 342,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20498,16 +21043,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 499,
-      "a": 61,
+      "weapon": 503,
+      "a": 64,
       "b": 71,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "230": {
       "name": "Narcian (Vernal General)",
-      "base_index": 343,
+      "base_index": 344,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20518,16 +21063,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 422,
-      "a": 26,
+      "weapon": 425,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "231": {
       "name": "Narcian (Vernal General)",
-      "base_index": 343,
+      "base_index": 344,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20538,16 +21083,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
-      "weapon": 184,
-      "a": 26,
+      "weapon": 187,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "232": {
       "name": "Niles (Forbidden Tease)",
-      "base_index": 349,
+      "base_index": 350,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20558,56 +21103,56 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 116,
-      "a": 26,
+      "weapon": 119,
+      "a": 27,
       "b": 14,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "233": {
       "name": "Nino (Flower of Frost)",
-      "base_index": 354,
+      "base_index": 355,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Special Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 37,
-      "a": 26,
+      "weapon": 35,
+      "a": 27,
       "b": 108,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "234": {
       "name": "Nino (Flower of Frost)",
-      "base_index": 354,
+      "base_index": 355,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Close Counter",
       "b_name": "Special Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 37,
-      "a": 45,
+      "weapon": 35,
+      "a": 47,
       "b": 108,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "235": {
       "name": "Nino (Pale Flower)",
-      "base_index": 355,
+      "base_index": 356,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20618,16 +21163,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 183,
-      "a": 26,
+      "weapon": 186,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "236": {
       "name": "Nino (Pale Flower)",
-      "base_index": 355,
+      "base_index": 356,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20638,16 +21183,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 26,
+      "weapon": 206,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "237": {
       "name": "Norne (The Volunteer)",
-      "base_index": 358,
+      "base_index": 359,
       "boon": "Res",
       "bane": "HP",
       "resplendent": 0,
@@ -20658,16 +21203,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 210,
-      "a": 117,
+      "weapon": 213,
+      "a": 120,
       "b": 71,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "238": {
       "name": "Nowi (Eternal Youth)",
-      "base_index": 360,
+      "base_index": 361,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20678,16 +21223,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 276,
-      "a": 96,
+      "weapon": 280,
+      "a": 99,
       "b": 42,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "239": {
       "name": "Olwen (Righteous Knight)",
-      "base_index": 369,
+      "base_index": 370,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -20698,16 +21243,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 459,
-      "a": 26,
+      "weapon": 463,
+      "a": 27,
       "b": 67,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "240": {
       "name": "Ophelia (Dramatic Heroine)",
-      "base_index": 370,
+      "base_index": 371,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -20718,8 +21263,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Blazing Wind",
       "seal_name": "Hardy Bearing 3",
-      "weapon": 305,
-      "a": 93,
+      "weapon": 307,
+      "a": 96,
       "b": 67,
       "c": 79,
       "proc": 8,
@@ -20727,7 +21272,7 @@ var data = {
     },
     "241": {
       "name": "Osian (Scolded Soldier)",
-      "base_index": 372,
+      "base_index": 373,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20738,16 +21283,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 481,
-      "a": 96,
+      "weapon": 485,
+      "a": 99,
       "b": 120,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "242": {
       "name": "Palla (Eldest Bun-Bun)",
-      "base_index": 374,
+      "base_index": 375,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20758,16 +21303,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 332,
-      "a": 26,
+      "weapon": 336,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "243": {
       "name": "Palla (Eldest Bun-Bun)",
-      "base_index": 374,
+      "base_index": 375,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20778,16 +21323,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 456,
-      "a": 26,
+      "weapon": 458,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "244": {
       "name": "Palla (Eldest Whitewing)",
-      "base_index": 375,
+      "base_index": 376,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20798,36 +21343,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 488,
-      "a": 52,
+      "weapon": 492,
+      "a": 55,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "245": {
       "name": "Pent (Fancy Fianc\xE9)",
-      "base_index": 378,
+      "base_index": 379,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Bl\xE1rblade+",
+      "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 37,
-      "a": 26,
+      "weapon": 35,
+      "a": 27,
       "b": 67,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "246": {
       "name": "Perceval (Knightly Ideal)",
-      "base_index": 380,
+      "base_index": 381,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20838,8 +21383,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 340,
-      "a": 26,
+      "weapon": 344,
+      "a": 27,
       "b": 65,
       "c": 79,
       "proc": 33,
@@ -20847,7 +21392,7 @@ var data = {
     },
     "247": {
       "name": "Petra (Princess of Brigid)",
-      "base_index": 382,
+      "base_index": 383,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -20858,16 +21403,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 237,
-      "a": 26,
+      "weapon": 240,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "248": {
       "name": "Raven (Peerless Fighter)",
-      "base_index": 390,
+      "base_index": 391,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20878,16 +21423,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Pavise",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 27,
-      "a": 93,
+      "weapon": 25,
+      "a": 96,
       "b": 100,
       "c": 79,
-      "proc": 40,
+      "proc": 41,
       "seal": 108
     },
     "249": {
       "name": "Raven (Peerless Fighter)",
-      "base_index": 390,
+      "base_index": 391,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20898,8 +21443,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 27,
-      "a": 78,
+      "weapon": 25,
+      "a": 81,
       "b": 72,
       "c": 79,
       "proc": 33,
@@ -20907,27 +21452,27 @@ var data = {
     },
     "250": {
       "name": "Reinhardt (Lightning's Rondo)",
-      "base_index": 392,
+      "base_index": 393,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Vaf\xDEr\xFA\xF0nir",
+      "weap_name": "Vafthrudnir",
       "refine": "None",
       "a_name": "Death Blow 4",
       "b_name": "Axebreaker 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 468,
-      "a": 52,
+      "weapon": 472,
+      "a": 55,
       "b": 8,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "251": {
       "name": "Reinhardt (Thunder's Fist)",
-      "base_index": 393,
+      "base_index": 394,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20938,16 +21483,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 118,
-      "a": 52,
+      "weapon": 121,
+      "a": 55,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "252": {
       "name": "Reinhardt (Thunder's Sword)",
-      "base_index": 394,
+      "base_index": 395,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20958,16 +21503,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 293,
-      "a": 52,
+      "weapon": 295,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "253": {
       "name": "Reinhardt (Thunder's Sword)",
-      "base_index": 394,
+      "base_index": 395,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -20978,16 +21523,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Fierce Stance 3",
-      "weapon": 293,
-      "a": 61,
+      "weapon": 295,
+      "a": 64,
       "b": 113,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 53
     },
     "254": {
       "name": "Rinkah (Scion of Flame)",
-      "base_index": 398,
+      "base_index": 399,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -20998,8 +21543,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Attack +3",
-      "weapon": 370,
-      "a": 61,
+      "weapon": 374,
+      "a": 64,
       "b": 120,
       "c": 79,
       "proc": 10,
@@ -21007,7 +21552,7 @@ var data = {
     },
     "255": {
       "name": "Rinkah (Scion of Flame)",
-      "base_index": 398,
+      "base_index": 399,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21018,8 +21563,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 370,
-      "a": 61,
+      "weapon": 374,
+      "a": 64,
       "b": 27,
       "c": 79,
       "proc": 10,
@@ -21027,7 +21572,7 @@ var data = {
     },
     "256": {
       "name": "Robin (Fell Reincarnation)",
-      "base_index": 399,
+      "base_index": 400,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21038,8 +21583,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 140,
-      "a": 52,
+      "weapon": 143,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -21047,7 +21592,7 @@ var data = {
     },
     "257": {
       "name": "Ross (His Father's Son)",
-      "base_index": 407,
+      "base_index": 408,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21058,16 +21603,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 56,
-      "a": 52,
+      "weapon": 55,
+      "a": 55,
       "b": 63,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "258": {
       "name": "Roy (Blazing Lion)",
-      "base_index": 408,
+      "base_index": 409,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21078,16 +21623,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 126,
-      "a": 26,
+      "weapon": 129,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "259": {
       "name": "Roy (Brave Lion)",
-      "base_index": 409,
+      "base_index": 410,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21098,8 +21643,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Dragon Fang",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 43,
-      "a": 26,
+      "weapon": 41,
+      "a": 27,
       "b": 66,
       "c": 79,
       "proc": 12,
@@ -21107,7 +21652,7 @@ var data = {
     },
     "260": {
       "name": "Rudolf (Emperor of Rigel)",
-      "base_index": 412,
+      "base_index": 413,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21118,8 +21663,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 457,
-      "a": 61,
+      "weapon": 461,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 10,
@@ -21127,7 +21672,7 @@ var data = {
     },
     "261": {
       "name": "Rudolf (Emperor of Rigel)",
-      "base_index": 412,
+      "base_index": 413,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21138,8 +21683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 457,
-      "a": 61,
+      "weapon": 461,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -21147,7 +21692,7 @@ var data = {
     },
     "262": {
       "name": "Ryoma (Supreme Samurai)",
-      "base_index": 417,
+      "base_index": 418,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21158,16 +21703,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Heavy Blade 3",
-      "weapon": 159,
-      "a": 93,
+      "weapon": 161,
+      "a": 96,
       "b": 17,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 65
     },
     "263": {
       "name": "Ryoma (Supreme Samurai)",
-      "base_index": 417,
+      "base_index": 418,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21178,16 +21723,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 496,
-      "a": 26,
+      "weapon": 500,
+      "a": 27,
       "b": 17,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "264": {
       "name": "Seliph (Heir of Light)",
-      "base_index": 427,
+      "base_index": 428,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21198,16 +21743,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Vengeance",
       "seal_name": "Quick Riposte 3",
-      "weapon": 465,
-      "a": 61,
+      "weapon": 469,
+      "a": 64,
       "b": 113,
       "c": 79,
-      "proc": 53,
+      "proc": 54,
       "seal": 80
     },
     "265": {
       "name": "Selkie (Free Spirit)",
-      "base_index": 428,
+      "base_index": 429,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21218,16 +21763,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 171,
-      "a": 61,
+      "weapon": 174,
+      "a": 64,
       "b": 65,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "266": {
       "name": "Selkie (New Year's Spirit)",
-      "base_index": 429,
+      "base_index": 430,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21238,8 +21783,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 316,
-      "a": 65,
+      "weapon": 318,
+      "a": 68,
       "b": 65,
       "c": 79,
       "proc": 28,
@@ -21247,7 +21792,7 @@ var data = {
     },
     "267": {
       "name": "Shannan (Wielder of Astra)",
-      "base_index": 434,
+      "base_index": 435,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21258,7 +21803,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Imperial Astra",
       "seal_name": "Attack/Def +2",
-      "weapon": 23,
+      "weapon": 21,
       "a": 14,
       "b": 72,
       "c": 79,
@@ -21267,7 +21812,7 @@ var data = {
     },
     "268": {
       "name": "Shannan (Wielder of Astra)",
-      "base_index": 434,
+      "base_index": 435,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21278,8 +21823,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Imperial Astra",
       "seal_name": "Quick Riposte 3",
-      "weapon": 23,
-      "a": 117,
+      "weapon": 21,
+      "a": 120,
       "b": 65,
       "c": 79,
       "proc": 31,
@@ -21287,7 +21832,7 @@ var data = {
     },
     "269": {
       "name": "Siegbert (Future King)",
-      "base_index": 441,
+      "base_index": 442,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21298,16 +21843,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 105,
-      "a": 26,
+      "weapon": 107,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "270": {
       "name": "Sigurd (Holy Knight)",
-      "base_index": 444,
+      "base_index": 445,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21318,16 +21863,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 122,
-      "a": 117,
+      "weapon": 125,
+      "a": 120,
       "b": 28,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "271": {
       "name": "Silas (Loyal Knight)",
-      "base_index": 445,
+      "base_index": 446,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -21338,8 +21883,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 422,
-      "a": 119,
+      "weapon": 425,
+      "a": 122,
       "b": 63,
       "c": 79,
       "proc": 29,
@@ -21347,7 +21892,7 @@ var data = {
     },
     "272": {
       "name": "Silas (Loyal Knight)",
-      "base_index": 445,
+      "base_index": 446,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
@@ -21358,8 +21903,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 422,
-      "a": 64,
+      "weapon": 425,
+      "a": 67,
       "b": 63,
       "c": 79,
       "proc": 29,
@@ -21367,7 +21912,7 @@ var data = {
     },
     "273": {
       "name": "Sirius (Mysterious Knight)",
-      "base_index": 449,
+      "base_index": 450,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21378,8 +21923,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 378,
-      "a": 26,
+      "weapon": 380,
+      "a": 27,
       "b": 65,
       "c": 79,
       "proc": 33,
@@ -21387,7 +21932,7 @@ var data = {
     },
     "274": {
       "name": "Sonya (Vengeful Mage)",
-      "base_index": 451,
+      "base_index": 452,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -21398,8 +21943,8 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Glacies",
       "seal_name": "Quickened Pulse",
-      "weapon": 104,
-      "a": 94,
+      "weapon": 106,
+      "a": 97,
       "b": 64,
       "c": 133,
       "proc": 19,
@@ -21407,7 +21952,7 @@ var data = {
     },
     "275": {
       "name": "Sophia (Nabata Prophet)",
-      "base_index": 452,
+      "base_index": 453,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 1,
@@ -21418,16 +21963,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 136,
-      "a": 96,
+      "weapon": 139,
+      "a": 99,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "276": {
       "name": "Sothis (Girl on the Throne)",
-      "base_index": 456,
+      "base_index": 457,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21438,16 +21983,16 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Sirius",
       "seal_name": "Quick Riposte 3",
-      "weapon": 440,
-      "a": 26,
+      "weapon": 444,
+      "a": 27,
       "b": 120,
       "c": 133,
-      "proc": 47,
+      "proc": 48,
       "seal": 80
     },
     "277": {
       "name": "Sothis (Silver Specter)",
-      "base_index": 457,
+      "base_index": 458,
       "boon": "Spd",
       "bane": "HP",
       "resplendent": 0,
@@ -21458,16 +22003,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Sirius",
       "seal_name": "Quick Riposte 3",
-      "weapon": 426,
-      "a": 61,
+      "weapon": 429,
+      "a": 64,
       "b": 108,
       "c": 79,
-      "proc": 47,
+      "proc": 48,
       "seal": 80
     },
     "278": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 463,
+      "base_index": 464,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21478,16 +22023,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Distant Def 3",
-      "weapon": 414,
-      "a": 119,
+      "weapon": 417,
+      "a": 122,
       "b": 116,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 42
     },
     "279": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 463,
+      "base_index": 464,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21498,16 +22043,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 56,
-      "a": 52,
+      "weapon": 55,
+      "a": 55,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "280": {
       "name": "Surtr (Ruler of Flame)",
-      "base_index": 463,
+      "base_index": 464,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -21518,8 +22063,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 209,
-      "a": 61,
+      "weapon": 212,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -21527,7 +22072,7 @@ var data = {
     },
     "281": {
       "name": "Tailtiu (Thunder Noble)",
-      "base_index": 464,
+      "base_index": 465,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21538,36 +22083,36 @@ var data = {
       "c_name": "Time's Pulse 3",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 462,
-      "a": 26,
+      "weapon": 466,
+      "a": 27,
       "b": 72,
       "c": 133,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "282": {
       "name": "Tana (Noble and Nimble)",
-      "base_index": 469,
+      "base_index": 470,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Rau\xF0rblade+",
+      "weap_name": "Raudrblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Guard 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 349,
-      "a": 26,
+      "weapon": 353,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "283": {
       "name": "Tana (Winged Princess)",
-      "base_index": 470,
+      "base_index": 471,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21578,36 +22123,36 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Close Def 3",
-      "weapon": 478,
-      "a": 74,
+      "weapon": 482,
+      "a": 77,
       "b": 78,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 25
     },
     "284": {
       "name": "Tharja (\"Normal Girl\")",
-      "base_index": 474,
+      "base_index": 475,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
-      "weap_name": "Rau\xF0rblade+",
+      "weap_name": "Raudrblade+",
       "refine": "None",
       "a_name": "Close Counter",
       "b_name": "Bold Fighter 3",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Quick Riposte 3",
-      "weapon": 349,
-      "a": 45,
+      "weapon": 353,
+      "a": 47,
       "b": 14,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 80
     },
     "285": {
       "name": "Tharja (Dark Shadow)",
-      "base_index": 475,
+      "base_index": 476,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21618,56 +22163,56 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 455,
-      "a": 26,
+      "weapon": 457,
+      "a": 27,
       "b": 64,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "286": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 478,
+      "base_index": 479,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "\xCDfingr",
+      "weap_name": "Ifingr",
       "refine": "None",
       "a_name": "Flashing Blade 4",
       "b_name": "Killing Intent",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 1,
-      "a": 73,
+      "weapon": 242,
+      "a": 76,
       "b": 56,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "287": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 478,
+      "base_index": 479,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "\xCDfingr",
+      "weap_name": "Ifingr",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Killing Intent",
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 1,
-      "a": 26,
+      "weapon": 242,
+      "a": 27,
       "b": 56,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "288": {
       "name": "Thrasir (Omnicidal Witch)",
-      "base_index": 478,
+      "base_index": 479,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21678,16 +22223,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 203,
-      "a": 26,
+      "weapon": 206,
+      "a": 27,
       "b": 56,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "289": {
       "name": "Tibarn (Lord of the Air)",
-      "base_index": 479,
+      "base_index": 480,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21698,16 +22243,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 225,
-      "a": 121,
+      "weapon": 228,
+      "a": 124,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "290": {
       "name": "Tiki (Beachside Scion)",
-      "base_index": 480,
+      "base_index": 481,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21718,8 +22263,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Iote's Shield",
-      "weapon": 441,
-      "a": 61,
+      "weapon": 445,
+      "a": 64,
       "b": 78,
       "c": 79,
       "proc": 29,
@@ -21727,7 +22272,7 @@ var data = {
     },
     "291": {
       "name": "Tiki (Legendary Dragon)",
-      "base_index": 482,
+      "base_index": 483,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21738,8 +22283,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 120,
-      "a": 74,
+      "weapon": 123,
+      "a": 77,
       "b": 108,
       "c": 79,
       "proc": 29,
@@ -21747,7 +22292,7 @@ var data = {
     },
     "292": {
       "name": "Tiki (Legendary Dragon)",
-      "base_index": 482,
+      "base_index": 483,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21758,8 +22303,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 120,
-      "a": 74,
+      "weapon": 123,
+      "a": 77,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -21767,7 +22312,7 @@ var data = {
     },
     "293": {
       "name": "Tiki (Naga's Voice)",
-      "base_index": 483,
+      "base_index": 484,
       "boon": "Res",
       "bane": "Spd",
       "resplendent": 0,
@@ -21778,16 +22323,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Moonbow",
       "seal_name": "Quick Riposte 3",
-      "weapon": 276,
-      "a": 96,
+      "weapon": 280,
+      "a": 99,
       "b": 64,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 80
     },
     "294": {
       "name": "Tiki (Torpid Dragon)",
-      "base_index": 485,
+      "base_index": 486,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21798,8 +22343,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ignis",
       "seal_name": "Quick Riposte 3",
-      "weapon": 356,
-      "a": 74,
+      "weapon": 360,
+      "a": 77,
       "b": 108,
       "c": 79,
       "proc": 29,
@@ -21807,7 +22352,7 @@ var data = {
     },
     "295": {
       "name": "Tiki (Torpid Dragon)",
-      "base_index": 485,
+      "base_index": 486,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21818,8 +22363,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 356,
-      "a": 74,
+      "weapon": 360,
+      "a": 77,
       "b": 14,
       "c": 79,
       "proc": 10,
@@ -21827,7 +22372,7 @@ var data = {
     },
     "296": {
       "name": "Tsubasa (Madcap Idol)",
-      "base_index": 490,
+      "base_index": 491,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -21838,16 +22383,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Swift Sparrow 2",
-      "weapon": 301,
-      "a": 26,
+      "weapon": 303,
+      "a": 27,
       "b": 54,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 108
     },
     "297": {
       "name": "Ursula (Blue Crow)",
-      "base_index": 491,
+      "base_index": 492,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -21858,16 +22403,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 48,
-      "a": 26,
+      "weapon": 47,
+      "a": 27,
       "b": 67,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "298": {
       "name": "Ursula (Clear-Blue Crow)",
-      "base_index": 492,
+      "base_index": 493,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21878,16 +22423,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 389,
-      "a": 26,
+      "weapon": 392,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "299": {
       "name": "Ursula (Clear-Blue Crow)",
-      "base_index": 492,
+      "base_index": 493,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21898,16 +22443,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 456,
-      "a": 26,
+      "weapon": 458,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "300": {
       "name": "Velouria (Wolf Cub)",
-      "base_index": 495,
+      "base_index": 496,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21918,8 +22463,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Luna",
       "seal_name": "Atk/Spd 2",
-      "weapon": 500,
-      "a": 26,
+      "weapon": 504,
+      "a": 27,
       "b": 120,
       "c": 79,
       "proc": 33,
@@ -21927,19 +22472,19 @@ var data = {
     },
     "301": {
       "name": "Veronica (Brave Princess)",
-      "base_index": 496,
+      "base_index": 497,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
-      "weap_name": "Hli\xF0skj\xE1lf",
+      "weap_name": "Hlidskjalf",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
       "b_name": "Lull Spd/Res 3",
       "c_name": "Joint Drive Atk",
       "special": "(None)",
       "seal_name": "Atk/Spd 2",
-      "weapon": 234,
-      "a": 26,
+      "weapon": 237,
+      "a": 27,
       "b": 67,
       "c": 79,
       "proc": 0,
@@ -21947,7 +22492,7 @@ var data = {
     },
     "302": {
       "name": "Walhart (The Conqueror)",
-      "base_index": 499,
+      "base_index": 500,
       "boon": "None",
       "bane": "None",
       "resplendent": 0,
@@ -21958,7 +22503,7 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Bonfire",
       "seal_name": "Quick Riposte 3",
-      "weapon": 498,
+      "weapon": 502,
       "a": 14,
       "b": 63,
       "c": 79,
@@ -21967,7 +22512,7 @@ var data = {
     },
     "303": {
       "name": "Yarne (Timid Taguel)",
-      "base_index": 506,
+      "base_index": 507,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -21979,15 +22524,15 @@ var data = {
       "special": "Moonbow",
       "seal_name": "Atk/Spd 2",
       "weapon": 70,
-      "a": 26,
+      "a": 27,
       "b": 66,
       "c": 79,
-      "proc": 36,
+      "proc": 37,
       "seal": 10
     },
     "304": {
       "name": "Ylgr (Fresh Snowfall)",
-      "base_index": 508,
+      "base_index": 509,
       "boon": "Spd",
       "bane": "Def",
       "resplendent": 0,
@@ -21998,16 +22543,16 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Ruptured Sky",
       "seal_name": "Atk/Spd 2",
-      "weapon": 444,
-      "a": 26,
+      "weapon": 448,
+      "a": 27,
       "b": 72,
       "c": 79,
-      "proc": 45,
+      "proc": 46,
       "seal": 10
     },
     "305": {
       "name": "Yune (Chaos Goddess)",
-      "base_index": 509,
+      "base_index": 510,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -22018,16 +22563,16 @@ var data = {
       "c_name": "Chaos Named",
       "special": "Ruptured Sky",
       "seal_name": "Death Blow 3",
-      "weapon": 82,
-      "a": 94,
+      "weapon": 83,
+      "a": 97,
       "b": 70,
       "c": 23,
-      "proc": 45,
+      "proc": 46,
       "seal": 29
     },
     "306": {
       "name": "Yune (Chaos Goddess)",
-      "base_index": 509,
+      "base_index": 510,
       "boon": "Atk",
       "bane": "Def",
       "resplendent": 0,
@@ -22038,7 +22583,7 @@ var data = {
       "c_name": "Chaos Named",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 82,
+      "weapon": 83,
       "a": 19,
       "b": 42,
       "c": 23,
@@ -22047,7 +22592,7 @@ var data = {
     },
     "307": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 510,
+      "base_index": 511,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -22058,8 +22603,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Black Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 420,
-      "a": 61,
+      "weapon": 423,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 4,
@@ -22067,7 +22612,7 @@ var data = {
     },
     "308": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 510,
+      "base_index": 511,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -22078,8 +22623,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Black Luna",
       "seal_name": "Death Blow 3",
-      "weapon": 59,
-      "a": 52,
+      "weapon": 58,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 4,
@@ -22087,7 +22632,7 @@ var data = {
     },
     "309": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 510,
+      "base_index": 511,
       "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
@@ -22098,8 +22643,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Black Luna",
       "seal_name": "Quick Riposte 3",
-      "weapon": 496,
-      "a": 61,
+      "weapon": 500,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 4,
@@ -22107,7 +22652,7 @@ var data = {
     },
     "310": {
       "name": "Zelgius (Jet-Black General)",
-      "base_index": 510,
+      "base_index": 511,
       "boon": "Atk",
       "bane": "Res",
       "resplendent": 0,
@@ -22118,8 +22663,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Black Luna",
       "seal_name": "Death Blow 3",
-      "weapon": 59,
-      "a": 52,
+      "weapon": 58,
+      "a": 55,
       "b": 14,
       "c": 79,
       "proc": 4,
@@ -22127,7 +22672,7 @@ var data = {
     },
     "311": {
       "name": "Zephiel (Winter's Crown)",
-      "base_index": 512,
+      "base_index": 513,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -22138,8 +22683,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Glacies",
       "seal_name": "Quick Riposte 3",
-      "weapon": 25,
-      "a": 61,
+      "weapon": 23,
+      "a": 64,
       "b": 108,
       "c": 79,
       "proc": 19,
@@ -22147,7 +22692,7 @@ var data = {
     },
     "312": {
       "name": "Zephiel (Winter's Crown)",
-      "base_index": 512,
+      "base_index": 513,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -22158,8 +22703,8 @@ var data = {
       "c_name": "Joint Drive Atk",
       "special": "Iceberg",
       "seal_name": "Quick Riposte 3",
-      "weapon": 420,
-      "a": 61,
+      "weapon": 423,
+      "a": 64,
       "b": 14,
       "c": 79,
       "proc": 28,
@@ -22168,8 +22713,8 @@ var data = {
   },
   "Weapons": {
     "0": {
+      "internal_name": "(None)",
       "name": "(None)",
-      "alt_name": "(None)",
       "hp_mod": 0,
       "atk_mod": 0,
       "spd_mod": 0,
@@ -22227,67 +22772,8 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "1": {
-      "name": "\xCDfingr",
-      "alt_name": "\xCDfingr",
-      "hp_mod": 0,
-      "atk_mod": 14,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{weap_eff(RD,BD,GD,ND);[0]}{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4),neutralize_follow_up_guarantors;[comp(three_space>0)]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "GT",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "2": {
+      "internal_name": "Absorb+",
       "name": "Absorb+",
-      "alt_name": "Absorb+",
       "hp_mod": 0,
       "atk_mod": 7,
       "spd_mod": 0,
@@ -22344,9 +22830,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "3": {
+    "2": {
+      "internal_name": "Alondite",
       "name": "Alondite",
-      "alt_name": "Alondite",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -22403,9 +22889,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "4": {
+    "3": {
+      "internal_name": "Amiti",
       "name": "Amiti",
-      "alt_name": "Amiti",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": -2,
@@ -22462,9 +22948,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "5": {
+    "4": {
+      "internal_name": "Ardent Service+",
       "name": "Ardent Service+",
-      "alt_name": "Ardent Service+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -22521,9 +23007,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "6": {
+    "5": {
+      "internal_name": "Argent Bow",
       "name": "Argent Bow",
-      "alt_name": "Argent Bow",
       "hp_mod": 0,
       "atk_mod": 8,
       "spd_mod": -2,
@@ -22580,9 +23066,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "7": {
+    "6": {
+      "internal_name": "Argent Durandal",
       "name": "Argent Durandal",
-      "alt_name": "Argent Durandal",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -22639,9 +23125,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "8": {
+    "7": {
+      "internal_name": "Armads",
       "name": "Armads",
-      "alt_name": "Armads",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -22687,7 +23173,7 @@ var data = {
       "evolves_into_name": "Berserk Armads",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 33,
+      "evolves_into": 31,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -22698,9 +23184,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "9": {
+    "8": {
+      "internal_name": "Armorslayer+",
       "name": "Armorslayer+",
-      "alt_name": "Armorslayer+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -22746,7 +23232,7 @@ var data = {
       "evolves_into_name": "Armorsmasher+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 10,
+      "evolves_into": 9,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -22757,9 +23243,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "10": {
+    "9": {
+      "internal_name": "Armorsmasher+",
       "name": "Armorsmasher+",
-      "alt_name": "Armorsmasher+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -22806,7 +23292,7 @@ var data = {
       "evolved_from_name": "Armorslayer+",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 9,
+      "evolved_from": 8,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -22816,9 +23302,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "11": {
+    "10": {
+      "internal_name": "Arthur's Axe",
       "name": "Arthur's Axe",
-      "alt_name": "Arthur's Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -22875,9 +23361,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "12": {
+    "11": {
+      "internal_name": "Assassin's Bow+",
       "name": "Assassin's Bow+",
-      "alt_name": "Assassin's Bow+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -22923,7 +23409,7 @@ var data = {
       "evolves_into_name": "Guard Bow+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 210,
+      "evolves_into": 213,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -22934,9 +23420,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "13": {
+    "12": {
+      "internal_name": "Astra Blade",
       "name": "Astra Blade",
-      "alt_name": "Astra Blade",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -22993,9 +23479,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "14": {
+    "13": {
+      "internal_name": "Astral Breath",
       "name": "Astral Breath",
-      "alt_name": "Astral Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -23052,9 +23538,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "15": {
+    "14": {
+      "internal_name": "Athame",
       "name": "Athame",
-      "alt_name": "Athame",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23111,9 +23597,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "16": {
+    "15": {
+      "internal_name": "Audhulma",
       "name": "Audhulma",
-      "alt_name": "Audhulma",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -23170,9 +23656,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "17": {
+    "16": {
+      "internal_name": "Aura",
       "name": "Aura",
-      "alt_name": "Aura",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23218,7 +23704,7 @@ var data = {
       "evolves_into_name": "Dark Aura",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 102,
+      "evolves_into": 104,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -23229,9 +23715,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "18": {
+    "17": {
+      "internal_name": "Aversa's Night",
       "name": "Aversa's Night",
-      "alt_name": "Aversa's Night",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23288,9 +23774,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "19": {
+    "18": {
+      "internal_name": "Axe of Virility",
       "name": "Axe of Virility",
-      "alt_name": "Axe of Virility",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -23347,9 +23833,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "20": {
+    "19": {
+      "internal_name": "Aymr",
       "name": "Aymr",
-      "alt_name": "Aymr",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -23406,9 +23892,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "21": {
+    "20": {
+      "internal_name": "Ayra's Blade",
       "name": "Ayra's Blade",
-      "alt_name": "Ayra's Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -23465,68 +23951,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "22": {
-      "name": "B\xFDleistr",
-      "alt_name": "B\xFDleistr",
-      "hp_mod": 0,
-      "atk_mod": 16,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "empty",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 1,
-      "type": "A",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "23": {
+    "21": {
+      "internal_name": "Balmung",
       "name": "Balmung",
-      "alt_name": "Balmung",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -23583,9 +24010,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "24": {
+    "22": {
+      "internal_name": "Barb Shuriken+",
       "name": "Barb Shuriken+",
-      "alt_name": "Barb Shuriken+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -23642,9 +24069,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "25": {
+    "23": {
+      "internal_name": "Barrier Blade+",
       "name": "Barrier Blade+",
-      "alt_name": "Barrier Blade+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23701,9 +24128,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "26": {
+    "24": {
+      "internal_name": "Barrier Lance+",
       "name": "Barrier Lance+",
-      "alt_name": "Barrier Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23760,9 +24187,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "27": {
+    "25": {
+      "internal_name": "Basilikos",
       "name": "Basilikos",
-      "alt_name": "Basilikos",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -23819,9 +24246,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "28": {
+    "26": {
+      "internal_name": "Beach Banner+",
       "name": "Beach Banner+",
-      "alt_name": "Beach Banner+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23878,9 +24305,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "29": {
+    "27": {
+      "internal_name": "Beguiling Bow+",
       "name": "Beguiling Bow+",
-      "alt_name": "Beguiling Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -23937,9 +24364,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "30": {
+    "28": {
+      "internal_name": "Bellringer+",
       "name": "Bellringer+",
-      "alt_name": "Bellringer+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -23996,9 +24423,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "31": {
+    "29": {
+      "internal_name": "Beloved Zofia",
       "name": "Beloved Zofia",
-      "alt_name": "Beloved Zofia",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -24055,9 +24482,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "32": {
+    "30": {
+      "internal_name": "Berkut's Lance+",
       "name": "Berkut's Lance+",
-      "alt_name": "Berkut's Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -24114,9 +24541,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "33": {
+    "31": {
+      "internal_name": "Berserk Armads",
       "name": "Berserk Armads",
-      "alt_name": "Berserk Armads",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -24163,7 +24590,7 @@ var data = {
       "evolved_from_name": "Armads",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 8,
+      "evolved_from": 7,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -24173,9 +24600,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "34": {
+    "32": {
+      "internal_name": "Beruka's Axe",
       "name": "Beruka's Axe",
-      "alt_name": "Beruka's Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -24232,9 +24659,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "35": {
+    "33": {
+      "internal_name": "Big-Catch Bow+",
       "name": "Big-Catch Bow+",
-      "alt_name": "Big-Catch Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -24291,9 +24718,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "36": {
+    "34": {
+      "internal_name": "Binding Blade",
       "name": "Binding Blade",
-      "alt_name": "Binding Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -24350,9 +24777,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "37": {
+    "35": {
+      "internal_name": "Blarblade+",
       "name": "Bl\xE1rblade+",
-      "alt_name": "Bl\xE1rblade+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -24409,9 +24836,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "38": {
+    "36": {
+      "internal_name": "Blarblooms+",
       "name": "Bl\xE1rblooms+",
-      "alt_name": "Bl\xE1rblooms+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -24468,9 +24895,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "39": {
+    "37": {
+      "internal_name": "Blarowl+",
       "name": "Bl\xE1rowl+",
-      "alt_name": "Bl\xE1rowl+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -24527,9 +24954,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "40": {
+    "38": {
+      "internal_name": "Blarraven+",
       "name": "Bl\xE1rraven+",
-      "alt_name": "Bl\xE1rraven+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -24586,9 +25013,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "41": {
+    "39": {
+      "internal_name": "Blarserpent+",
       "name": "Bl\xE1rserpent+",
-      "alt_name": "Bl\xE1rserpent+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -24645,9 +25072,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "42": {
+    "40": {
+      "internal_name": "Blarwolf+",
       "name": "Bl\xE1rwolf+",
-      "alt_name": "Bl\xE1rwolf+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -24693,7 +25120,7 @@ var data = {
       "evolves_into_name": "Keen Bl\xE1rwolf+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 254,
+      "evolves_into": "#N/A",
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -24704,9 +25131,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "43": {
+    "41": {
+      "internal_name": "Blazing Durandal",
       "name": "Blazing Durandal",
-      "alt_name": "Blazing Durandal",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -24753,7 +25180,7 @@ var data = {
       "evolved_from_name": "Durandal",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 129,
+      "evolved_from": 132,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -24763,9 +25190,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "44": {
+    "42": {
+      "internal_name": "Blessed Bouquet+",
       "name": "Blessed Bouquet+",
-      "alt_name": "Blessed Bouquet+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -24822,9 +25249,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "45": {
+    "43": {
+      "internal_name": "Blizzard",
       "name": "Blizzard",
-      "alt_name": "Blizzard",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -24881,9 +25308,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "46": {
+    "44": {
+      "internal_name": "Blood Tome",
+      "name": "Blood Tome",
+      "hp_mod": 0,
+      "atk_mod": 17,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{colorless_wta,flat_percent_precombat_mitigation(80),flat_percent_mitigation(50);[e_weap_check(2rng)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "GT",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "45": {
+      "internal_name": "Blue Egg+",
       "name": "Blue Egg+",
-      "alt_name": "Blue Egg+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -24940,9 +25426,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "47": {
+    "46": {
+      "internal_name": "Blue Gift+",
       "name": "Blue Gift+",
-      "alt_name": "Blue Gift+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -24999,9 +25485,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "48": {
+    "47": {
+      "internal_name": "Blue-Crow Tome",
       "name": "Blue-Crow Tome",
-      "alt_name": "Blue-Crow Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -25058,9 +25544,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "49": {
+    "48": {
+      "internal_name": "Bolganone+",
       "name": "Bolganone+",
-      "alt_name": "Bolganone+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -25117,9 +25603,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "50": {
+    "49": {
+      "internal_name": "Book of Dreams",
       "name": "Book of Dreams",
-      "alt_name": "Book of Dreams",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -25176,9 +25662,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "51": {
+    "50": {
+      "internal_name": "Book of Orchids",
       "name": "Book of Orchids",
-      "alt_name": "Book of Orchids",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -25235,9 +25721,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "52": {
+    "51": {
+      "internal_name": "Book of Shadows",
       "name": "Book of Shadows",
-      "alt_name": "Book of Shadows",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -25294,9 +25780,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "53": {
+    "52": {
+      "internal_name": "Bottled Juice+",
       "name": "Bottled Juice+",
-      "alt_name": "Bottled Juice+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -25353,9 +25839,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "54": {
+    "53": {
+      "internal_name": "Bouquet Bow+",
       "name": "Bouquet Bow+",
-      "alt_name": "Bouquet Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -25412,9 +25898,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "55": {
+    "54": {
+      "internal_name": "Bow of Devotion",
       "name": "Bow of Devotion",
-      "alt_name": "Bow of Devotion",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -25471,9 +25957,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "56": {
+    "55": {
+      "internal_name": "Brave Axe+",
       "name": "Brave Axe+",
-      "alt_name": "Brave Axe+",
       "hp_mod": 0,
       "atk_mod": 8,
       "spd_mod": -5,
@@ -25530,9 +26016,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "57": {
+    "56": {
+      "internal_name": "Brave Bow+",
       "name": "Brave Bow+",
-      "alt_name": "Brave Bow+",
       "hp_mod": 0,
       "atk_mod": 7,
       "spd_mod": -5,
@@ -25589,9 +26075,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "58": {
+    "57": {
+      "internal_name": "Brave Lance+",
       "name": "Brave Lance+",
-      "alt_name": "Brave Lance+",
       "hp_mod": 0,
       "atk_mod": 8,
       "spd_mod": -5,
@@ -25648,9 +26134,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "59": {
+    "58": {
+      "internal_name": "Brave Sword+",
       "name": "Brave Sword+",
-      "alt_name": "Brave Sword+",
       "hp_mod": 0,
       "atk_mod": 8,
       "spd_mod": -5,
@@ -25707,9 +26193,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "60": {
+    "59": {
+      "internal_name": "Brazen Cat Fang",
       "name": "Brazen Cat Fang",
-      "alt_name": "Brazen Cat Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -25766,9 +26252,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "61": {
+    "60": {
+      "internal_name": "Breath of Blight",
       "name": "Breath of Blight",
-      "alt_name": "Breath of Blight",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -25825,9 +26311,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "62": {
+    "61": {
+      "internal_name": "Breath of Fog",
       "name": "Breath of Fog",
-      "alt_name": "Breath of Fog",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -25884,9 +26370,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "63": {
+    "62": {
+      "internal_name": "Bright Naginata",
       "name": "Bright Naginata",
-      "alt_name": "Bright Naginata",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -25943,9 +26429,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "64": {
+    "63": {
+      "internal_name": "Broadleaf Fan+",
       "name": "Broadeaf Fan+",
-      "alt_name": "Broadleaf Fan+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -26002,9 +26488,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
+    "64": {
+      "internal_name": "Brutal Breath",
+      "name": "Brutal Breath",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 3,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_atk,max((5-(two_space*2)),0)&combat_spd,max((5-(two_space*2)),0)&combat_def,max((5-(two_space*2)),0)&combat_res,max((5-(two_space*2)),0));[0]}{special_charge_inhibitor;[comp(two_space<=1)]}{adaptive_damage;[e_weap_check(2rng)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 1,
+      "type": "D",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
     "65": {
+      "internal_name": "Brynhildr",
       "name": "Brynhildr",
-      "alt_name": "Brynhildr",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -26062,8 +26607,8 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "66": {
+      "internal_name": "Budding Bow+",
       "name": "Budding Bow+",
-      "alt_name": "Budding Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -26121,8 +26666,8 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "67": {
+      "internal_name": "Bull Blade",
       "name": "Bull Blade",
-      "alt_name": "Bull Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -26180,8 +26725,8 @@ var data = {
       "eff_has_boolean_input": 1
     },
     "68": {
+      "internal_name": "Bull Spear",
       "name": "Bull Spear",
-      "alt_name": "Bull Spear",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -26239,8 +26784,8 @@ var data = {
       "eff_has_boolean_input": 1
     },
     "69": {
+      "internal_name": "Bun-Bun Baton",
       "name": "Bun-Bun Baton",
-      "alt_name": "Bun-Bun Baton",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -26298,8 +26843,8 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "70": {
+      "internal_name": "Bunny Fang",
       "name": "Bunny Fang",
-      "alt_name": "Bunny Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -26357,8 +26902,8 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "71": {
+      "internal_name": "Buoyboard+",
       "name": "Buoyboard+",
-      "alt_name": "Buoyboard+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -26416,8 +26961,67 @@ var data = {
       "eff_has_boolean_input": 0
     },
     "72": {
+      "internal_name": "Byleistr",
+      "name": "B\xFDleistr",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "empty",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 1,
+      "type": "A",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "73": {
+      "internal_name": "Cake Cutter+",
       "name": "Cake Cutter+",
-      "alt_name": "Cake Cutter+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -26474,9 +27078,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "73": {
+    "74": {
+      "internal_name": "Camilla's Axe",
       "name": "Camilla's Axe",
-      "alt_name": "Camilla's Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -26533,9 +27137,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "74": {
+    "75": {
+      "internal_name": "Candelabra+",
       "name": "Candelabra+",
-      "alt_name": "Candelabra+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -26583,7 +27187,7 @@ var data = {
       "upgraded_from_name": "Candelabra+",
       "evolves_into": 0,
       "evolved_from": 0,
-      "upgraded_from": 74,
+      "upgraded_from": 75,
       "user_can_transform": 0,
       "base_has_number_input": 0,
       "base_has_boolean_input": 0,
@@ -26592,9 +27196,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "75": {
+    "76": {
+      "internal_name": "Candied Dagger",
       "name": "Candied Dagger",
-      "alt_name": "Candied Dagger",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -26651,9 +27255,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "76": {
+    "77": {
+      "internal_name": "Candlelight+",
       "name": "Candlelight+",
-      "alt_name": "Candlelight+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -26710,9 +27314,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "77": {
+    "78": {
+      "internal_name": "Candlewax Bow+",
       "name": "Candlewax Bow+",
-      "alt_name": "Candlewax Bow+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 3,
@@ -26769,9 +27373,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "78": {
+    "79": {
+      "internal_name": "Carrot Axe+",
       "name": "Carrot Axe+",
-      "alt_name": "Carrot Axe+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -26828,9 +27432,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "79": {
+    "80": {
+      "internal_name": "Carrot Cudgel+",
       "name": "Carrot Cudgel+",
-      "alt_name": "Carrot Cudgel+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -26887,9 +27491,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "80": {
+    "81": {
+      "internal_name": "Carrot Lance+",
       "name": "Carrot Lance+",
-      "alt_name": "Carrot Lance+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -26946,9 +27550,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "81": {
+    "82": {
+      "internal_name": "Casa Blanca+",
       "name": "Casa Blanca+",
-      "alt_name": "Casa Blanca+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -27005,9 +27609,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "82": {
+    "83": {
+      "internal_name": "Chaos Manifest",
       "name": "Chaos Manifest",
-      "alt_name": "Chaos Manifest",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -27064,9 +27668,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "83": {
+    "84": {
+      "internal_name": "Chaos Ragnell",
+      "name": "Chaos Ragnell",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{counterattack;[0]}{flat_stat_boost(combat_atk,(active_atk_penalty*2)&combat_spd,(active_spd_penalty*2)&combat_def,(active_def_penalty*2)&combat_res,(active_res_penalty*2));[0]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "85": {
+      "internal_name": "Cherche's Axe",
       "name": "Cherche's Axe",
-      "alt_name": "Cherche's Axe",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": -5,
@@ -27123,9 +27786,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "84": {
+    "86": {
+      "internal_name": "Clarisse's Bow+",
       "name": "Clarisse's Bow+",
-      "alt_name": "Clarisse's Bow+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -27182,9 +27845,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "85": {
+    "87": {
+      "internal_name": "Cloud Maiougi+",
       "name": "Cloud Maiougi+",
-      "alt_name": "Cloud Maiougi+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -27241,9 +27904,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "86": {
+    "88": {
+      "internal_name": "Cocobow+",
       "name": "Cocobow+",
-      "alt_name": "Cocobow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -27300,9 +27963,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "87": {
+    "89": {
+      "internal_name": "Concealed Blade",
       "name": "Concealed Blade",
-      "alt_name": "Concealed Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -27359,9 +28022,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "88": {
+    "90": {
+      "internal_name": "Conjurer Curios",
       "name": "Conjurer Curios",
-      "alt_name": "Conjurer Curios",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -27418,9 +28081,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "89": {
+    "91": {
+      "internal_name": "Constant Dagger",
       "name": "Constant Dagger",
-      "alt_name": "Constant Dagger",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -27477,9 +28140,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "90": {
+    "92": {
+      "internal_name": "Cordelia's Lance",
       "name": "Cordelia's Lance",
-      "alt_name": "Cordelia's Lance",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": -2,
@@ -27536,9 +28199,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "91": {
+    "93": {
+      "internal_name": "Corvus Tome",
       "name": "Corvus Tome",
-      "alt_name": "Corvus Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -27595,9 +28258,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "92": {
+    "94": {
+      "internal_name": "Covert Cat Fang",
       "name": "Covert Cat Fang",
-      "alt_name": "Covert Cat Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -27654,9 +28317,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "93": {
+    "95": {
+      "internal_name": "Creator Sword",
       "name": "Creator Sword",
-      "alt_name": "Creator Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -27713,9 +28376,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "94": {
+    "96": {
+      "internal_name": "Crusher",
       "name": "Crusher",
-      "alt_name": "Crusher",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -27772,9 +28435,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "95": {
+    "97": {
+      "internal_name": "Cunning Bow",
       "name": "Cunning Bow",
-      "alt_name": "Cunning Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -27831,9 +28494,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "96": {
+    "98": {
+      "internal_name": "Cupid Arrow+",
       "name": "Cupid Arrow+",
-      "alt_name": "Cupid Arrow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -27890,9 +28553,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "97": {
+    "99": {
+      "internal_name": "Cursed Lance",
       "name": "Cursed Lance",
-      "alt_name": "Cursed Lance",
       "hp_mod": 0,
       "atk_mod": 18,
       "spd_mod": 2,
@@ -27949,9 +28612,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "98": {
+    "100": {
+      "internal_name": "Cymbeline",
       "name": "Cymbeline",
-      "alt_name": "Cymbeline",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -28008,9 +28671,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "99": {
+    "101": {
+      "internal_name": "Dancer's Fan+",
       "name": "Dancer's Fan+",
-      "alt_name": "Dancer's Fan+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -28067,9 +28730,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "100": {
+    "102": {
+      "internal_name": "Dancer's Ring+",
       "name": "Dancer's Ring+",
-      "alt_name": "Dancer's Ring+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -28126,9 +28789,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "101": {
+    "103": {
+      "internal_name": "Dancer's Score+",
       "name": "Dancer's Score+",
-      "alt_name": "Dancer's Score+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -28185,9 +28848,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "102": {
+    "104": {
+      "internal_name": "Dark Aura",
       "name": "Dark Aura",
-      "alt_name": "Dark Aura",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -28244,9 +28907,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "103": {
+    "105": {
+      "internal_name": "Dark Breath+",
       "name": "Dark Breath+",
-      "alt_name": "Dark Breath+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -28303,9 +28966,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "104": {
+    "106": {
+      "internal_name": "Dark Excalibur",
       "name": "Dark Excalibur",
-      "alt_name": "Dark Excalibur",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -28362,9 +29025,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "105": {
+    "107": {
+      "internal_name": "Dark Greatsword",
       "name": "Dark Greatsword",
-      "alt_name": "Dark Greatsword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -28421,9 +29084,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "106": {
+    "108": {
+      "internal_name": "Dark Mystletainn",
       "name": "Dark Mystletainn",
-      "alt_name": "Dark Mystletainn",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -28470,7 +29133,7 @@ var data = {
       "evolved_from_name": "Mystletainn",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 310,
+      "evolved_from": 314,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -28480,9 +29143,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "107": {
+    "109": {
+      "internal_name": "Dark Scripture",
+      "name": "Dark Scripture",
+      "hp_mod": 0,
+      "atk_mod": 17,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{stat_penalty(e_combat_atk,6&e_combat_res,6);[comp(adj=0)]}{follow_up_guarantor;[not(e_weap_eff_check(RD,BD,GD,ND))&comp(adj=0)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "RT",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "110": {
+      "internal_name": "Dauntless Lance",
       "name": "Dauntless Lance",
-      "alt_name": "Dauntless Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -28539,9 +29261,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "108": {
+    "111": {
+      "internal_name": "Dawn Suzu",
       "name": "Dawn Suzu",
-      "alt_name": "Dawn Suzu",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -28598,9 +29320,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "109": {
+    "112": {
+      "internal_name": "Daybreak Lance",
       "name": "Daybreak Lance",
-      "alt_name": "Daybreak Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -28657,9 +29379,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "110": {
+    "113": {
+      "internal_name": "Death",
       "name": "Death",
-      "alt_name": "Death",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -28716,9 +29438,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "111": {
+    "114": {
+      "internal_name": "Deathly Dagger",
       "name": "Deathly Dagger",
-      "alt_name": "Deathly Dagger",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -28775,9 +29497,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "112": {
+    "115": {
+      "internal_name": "Deep-Blue Bow",
       "name": "Deep-Blue Bow",
-      "alt_name": "Deep-Blue Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -28834,16 +29556,16 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "113": {
+    "116": {
+      "internal_name": "Deft Harpoon+",
       "name": "Deft Harpoon+",
-      "alt_name": "Deft Harpoon+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{flat_stat_boost(combat_atk,2&combat_spd,2&combat_def,2&combat_res,2);[hp_thresh(100,=,start)]}",
+      "skill_definition": "{mov_eff(F,A);[0]}{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4);[boolean_check(initiating,true)&e_hp_thresh(100,=,start)]}",
       "skill_desc_refine_base": "{flat_stat_boost(combat_atk,2&combat_spd,2&combat_def,2&combat_res,2);[hp_thresh(100,=,start)]}",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 1,
@@ -28893,9 +29615,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "114": {
+    "117": {
+      "internal_name": "Demonic Breath",
       "name": "Demonic Breath",
-      "alt_name": "Demonic Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -28952,9 +29674,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "115": {
+    "118": {
+      "internal_name": "Devil Axe",
       "name": "Devil Axe",
-      "alt_name": "Devil Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29011,9 +29733,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "116": {
+    "119": {
+      "internal_name": "Devilish Bow+",
       "name": "Devilish Bow+",
-      "alt_name": "Devilish Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -29070,9 +29792,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "117": {
+    "120": {
+      "internal_name": "Dignified Bow",
       "name": "Dignified Bow",
-      "alt_name": "Dignified Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -29129,9 +29851,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "118": {
+    "121": {
+      "internal_name": "Dire Thunder",
       "name": "Dire Thunder",
-      "alt_name": "Dire Thunder",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": -5,
@@ -29188,9 +29910,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "119": {
+    "122": {
+      "internal_name": "Divine Breath",
       "name": "Divine Breath",
-      "alt_name": "Divine Breath",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -29247,9 +29969,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "120": {
+    "123": {
+      "internal_name": "Divine Mist",
       "name": "Divine Mist",
-      "alt_name": "Divine Mist",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29306,9 +30028,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "121": {
+    "124": {
+      "internal_name": "Divine Naga",
       "name": "Divine Naga",
-      "alt_name": "Divine Naga",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -29355,7 +30077,7 @@ var data = {
       "evolved_from_name": "Naga",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 313,
+      "evolved_from": 315,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -29365,9 +30087,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "122": {
+    "125": {
+      "internal_name": "Divine Tyrfing",
       "name": "Divine Tyrfing",
-      "alt_name": "Divine Tyrfing",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29414,7 +30136,7 @@ var data = {
       "evolved_from_name": "Tyrfing",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 465,
+      "evolved_from": 469,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -29424,9 +30146,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "123": {
+    "126": {
+      "internal_name": "Dracofalchion",
       "name": "Dracofalchion",
-      "alt_name": "Dracofalchion",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -29483,9 +30205,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "124": {
+    "127": {
+      "internal_name": "Draconic Poleax",
       "name": "Draconic Poleax",
-      "alt_name": "Draconic Poleax",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29542,9 +30264,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "125": {
+    "128": {
+      "internal_name": "Draconic Rage",
       "name": "Draconic Rage",
-      "alt_name": "Draconic Rage",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29601,9 +30323,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "126": {
+    "129": {
+      "internal_name": "Dragonbind",
       "name": "Dragonbind",
-      "alt_name": "Dragonbind",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29660,9 +30382,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "127": {
+    "130": {
+      "internal_name": "Dragonslasher+",
       "name": "Dragonslasher+",
-      "alt_name": "Dragonslasher+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -29719,9 +30441,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "128": {
+    "131": {
+      "internal_name": "Dragoon Axe",
       "name": "Dragoon Axe",
-      "alt_name": "Dragoon Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29778,9 +30500,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "129": {
+    "132": {
+      "internal_name": "Durandal",
       "name": "Durandal",
-      "alt_name": "Durandal",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -29826,7 +30548,7 @@ var data = {
       "evolves_into_name": "Blazing Durandal",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 43,
+      "evolves_into": 41,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -29837,9 +30559,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "130": {
+    "133": {
+      "internal_name": "Dusk Uchiwa+",
       "name": "Dusk Uchiwa+",
-      "alt_name": "Dusk Uchiwa+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -29896,9 +30618,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "131": {
+    "134": {
+      "internal_name": "Eagle's Egg",
       "name": "Eagle's Egg",
-      "alt_name": "Eagle's Egg",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -29955,9 +30677,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "132": {
+    "135": {
+      "internal_name": "Earthly Gae Bolg",
       "name": "Earthly G\xE1e Bolg",
-      "alt_name": "Earthly G\xE1e Bolg",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30014,9 +30736,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "133": {
+    "136": {
+      "internal_name": "Eckesachs",
       "name": "Eckesachs",
-      "alt_name": "Eckesachs",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30073,9 +30795,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "134": {
+    "137": {
+      "internal_name": "Eldhrimnir",
       "name": "Eldhr\xEDmnir",
-      "alt_name": "Eldhr\xEDmnir",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -30132,9 +30854,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "135": {
+    "138": {
+      "internal_name": "Emerald Axe+",
       "name": "Emerald Axe+",
-      "alt_name": "Emerald Axe+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -30191,9 +30913,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "136": {
+    "139": {
+      "internal_name": "Eternal Tome",
       "name": "Eternal Tome",
-      "alt_name": "Eternal Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -30250,9 +30972,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "137": {
+    "140": {
+      "internal_name": "Ethereal Breath",
       "name": "Ethereal Breath",
-      "alt_name": "Ethereal Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30309,9 +31031,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "138": {
+    "141": {
+      "internal_name": "Exalted Falchion",
       "name": "Exalted Falchion",
-      "alt_name": "Exalted Falchion",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -30368,9 +31090,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "139": {
+    "142": {
+      "internal_name": "Excalibur",
       "name": "Excalibur",
-      "alt_name": "Excalibur",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -30427,9 +31149,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "140": {
+    "143": {
+      "internal_name": "Expiration",
       "name": "Expiration",
-      "alt_name": "Expiration",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30486,68 +31208,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "141": {
-      "name": "F\xF3lkvangr",
-      "alt_name": "F\xF3lkvangr",
-      "hp_mod": 0,
-      "atk_mod": 16,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "empty",
-      "skill_desc_refine_base": "{flat_stat_boost(combat_atk,7&combat_def,7);[hp_thresh(80,<=,start)]}",
-      "skill_desc_refine_eff": "{triangle_amplifier;[0]}{flat_stat_boost(combat_atk,7&combat_def,7);[hp_thresh(80,<=,start)]}",
-      "has_refinements": 1,
-      "has_eff_refine": 1,
-      "range": 1,
-      "type": "S",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "142": {
+    "144": {
+      "internal_name": "Faithful Axe+",
       "name": "Faithful Axe+",
-      "alt_name": "Faithful Axe+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -30604,9 +31267,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "143": {
+    "145": {
+      "internal_name": "Falchion (Altea)",
       "name": "Falchion",
-      "alt_name": "Falchion (Altea)",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30663,9 +31326,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "144": {
+    "146": {
+      "internal_name": "Falchion (Valentia)",
       "name": "Falchion",
-      "alt_name": "Falchion (Valentia)",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30722,9 +31385,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "145": {
+    "147": {
+      "internal_name": "Falchion (Ylisse)",
       "name": "Falchion",
-      "alt_name": "Falchion (Ylisse)",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -30781,9 +31444,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "146": {
+    "148": {
+      "internal_name": "Father's Tactics",
       "name": "Father's Tactics",
-      "alt_name": "Father's Tactics",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -30840,9 +31503,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "147": {
+    "149": {
+      "internal_name": "Fear+",
       "name": "Fear+",
-      "alt_name": "Fear+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -30899,9 +31562,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "148": {
+    "150": {
+      "internal_name": "Feather Sword",
       "name": "Feather Sword",
-      "alt_name": "Feather Sword",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -30958,9 +31621,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "149": {
+    "151": {
+      "internal_name": "Felicia's Plate",
       "name": "Felicia's Plate",
-      "alt_name": "Felicia's Plate",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -31017,9 +31680,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "150": {
+    "152": {
+      "internal_name": "Fell Breath",
       "name": "Fell Breath",
-      "alt_name": "Fell Breath",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -31076,9 +31739,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "151": {
+    "153": {
+      "internal_name": "Fenrir+",
       "name": "Fenrir+",
-      "alt_name": "Fenrir+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -31135,9 +31798,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "152": {
+    "154": {
+      "internal_name": "Fensalir",
       "name": "Fensalir",
-      "alt_name": "Fensalir",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -31194,9 +31857,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "153": {
+    "155": {
+      "internal_name": "Festive Siegmund",
       "name": "Festive Siegmund",
-      "alt_name": "Festive Siegmund",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -31253,9 +31916,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "154": {
+    "156": {
+      "internal_name": "Fiddlestick Bow+",
       "name": "Fiddlestick Bow+",
-      "alt_name": "Fiddlestick Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -31312,9 +31975,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "155": {
+    "157": {
+      "internal_name": "Fimbulvetr",
       "name": "Fimbulvetr",
-      "alt_name": "Fimbulvetr",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -31371,9 +32034,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "156": {
+    "158": {
+      "internal_name": "Firesweep Axe+",
       "name": "Firesweep Axe+",
-      "alt_name": "Firesweep Axe+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -31430,9 +32093,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "157": {
+    "159": {
+      "internal_name": "Firesweep Bow+",
       "name": "Firesweep Bow+",
-      "alt_name": "Firesweep Bow+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -31489,9 +32152,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "158": {
+    "160": {
+      "internal_name": "Firesweep L+",
       "name": "Firesweep L+",
-      "alt_name": "Firesweep L+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -31548,9 +32211,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "159": {
+    "161": {
+      "internal_name": "Firesweep S+",
       "name": "Firesweep S+",
-      "alt_name": "Firesweep S+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -31607,9 +32270,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "160": {
+    "162": {
+      "internal_name": "First Bite+",
       "name": "First Bite+",
-      "alt_name": "First Bite+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -31666,9 +32329,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "161": {
+    "163": {
+      "internal_name": "Fishie Bow+",
       "name": "Fishie Bow+",
-      "alt_name": "Fishie Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -31725,9 +32388,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "162": {
+    "164": {
+      "internal_name": "Flame Siegmund",
       "name": "Flame Siegmund",
-      "alt_name": "Flame Siegmund",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -31784,9 +32447,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "163": {
+    "165": {
+      "internal_name": "Flametongue+",
       "name": "Flametongue+",
-      "alt_name": "Flametongue+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -31843,9 +32506,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "164": {
+    "166": {
+      "internal_name": "Flash+",
       "name": "Flash+",
-      "alt_name": "Flash+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -31902,9 +32565,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "165": {
+    "167": {
+      "internal_name": "Flashing Carrot+",
       "name": "Flashing Carrot+",
-      "alt_name": "Flashing Carrot+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -31961,9 +32624,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "166": {
+    "168": {
+      "internal_name": "Florina's Lance",
       "name": "Florina's Lance",
-      "alt_name": "Florina's Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -32020,9 +32683,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "167": {
+    "169": {
+      "internal_name": "Flower of Joy",
       "name": "Flower of Joy",
-      "alt_name": "Flower of Joy",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -32079,9 +32742,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "168": {
+    "170": {
+      "internal_name": "Folkvangr",
+      "name": "F\xF3lkvangr",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "empty",
+      "skill_desc_refine_base": "{flat_stat_boost(combat_atk,7&combat_def,7);[hp_thresh(80,<=,start)]}",
+      "skill_desc_refine_eff": "{triangle_amplifier;[0]}{flat_stat_boost(combat_atk,7&combat_def,7);[hp_thresh(80,<=,start)]}",
+      "has_refinements": 1,
+      "has_eff_refine": 1,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "171": {
+      "internal_name": "Forblaze",
       "name": "Forblaze",
-      "alt_name": "Forblaze",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -32138,9 +32860,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "169": {
+    "172": {
+      "internal_name": "Forseti",
       "name": "Forseti",
-      "alt_name": "Forseti",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -32197,9 +32919,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "170": {
+    "173": {
+      "internal_name": "Fortune Bow+",
       "name": "Fortune Bow+",
-      "alt_name": "Fortune Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -32256,9 +32978,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "171": {
+    "174": {
+      "internal_name": "Foxkit Fang",
       "name": "Foxkit Fang",
-      "alt_name": "Foxkit Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -32315,9 +33037,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "172": {
+    "175": {
+      "internal_name": "Frederick's Axe",
       "name": "Frederick's Axe",
-      "alt_name": "Frederick's Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -32374,9 +33096,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "173": {
+    "176": {
+      "internal_name": "Freikugel",
       "name": "Freikugel",
-      "alt_name": "Freikugel",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -32433,9 +33155,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "174": {
+    "177": {
+      "internal_name": "Fresh Bouquet+",
       "name": "Fresh Bouquet+",
-      "alt_name": "Fresh Bouquet+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -32492,9 +33214,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "175": {
+    "178": {
+      "internal_name": "Frost Breath",
       "name": "Frost Breath",
-      "alt_name": "Frost Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -32551,9 +33273,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "176": {
+    "179": {
+      "internal_name": "Fruit of Idunn",
       "name": "Fruit of I\xF0unn",
-      "alt_name": "Fruit of I\xF0unn",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -32610,9 +33332,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "177": {
+    "180": {
+      "internal_name": "Fujin Yumi",
       "name": "Fujin Yumi",
-      "alt_name": "Fujin Yumi",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -32669,9 +33391,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "178": {
+    "181": {
+      "internal_name": "Gae Bolg",
       "name": "G\xE1e Bolg",
-      "alt_name": "G\xE1e Bolg",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -32728,9 +33450,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "179": {
+    "182": {
+      "internal_name": "Garm",
       "name": "Garm",
-      "alt_name": "Garm",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -32787,9 +33509,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "180": {
+    "183": {
+      "internal_name": "Geirskogul",
       "name": "Geirsk\xF6gul",
-      "alt_name": "Geirsk\xF6gul",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -32846,9 +33568,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "181": {
+    "184": {
+      "internal_name": "Geishun+",
       "name": "Geishun+",
-      "alt_name": "Geishun+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -32905,9 +33627,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "182": {
+    "185": {
+      "internal_name": "Giant Spoon+",
       "name": "Giant Spoon+",
-      "alt_name": "Giant Spoon+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -32964,9 +33686,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "183": {
+    "186": {
+      "internal_name": "Giga Excalibur",
       "name": "Giga Excalibur",
-      "alt_name": "Giga Excalibur",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -33023,9 +33745,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "184": {
+    "187": {
+      "internal_name": "Gilt Fork+",
       "name": "Gilt Fork+",
-      "alt_name": "Gilt Fork+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -33082,9 +33804,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "185": {
+    "188": {
+      "internal_name": "Gjallarbru",
+      "name": "Gjallarbr\xFA",
+      "hp_mod": 0,
+      "atk_mod": 12,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{wrathful_staff;[0]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "ST",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "189": {
+      "internal_name": "Gjoll",
       "name": "Gj\xF6ll",
-      "alt_name": "Gj\xF6ll",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -33141,68 +33922,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "186": {
-      "name": "Gjallarbr\xFA",
-      "alt_name": "Gjallarbr\xFA",
-      "hp_mod": 0,
-      "atk_mod": 12,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{wrathful_staff;[0]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "ST",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "187": {
+    "190": {
+      "internal_name": "Gladiator's Blade",
       "name": "Gladiator's Blade",
-      "alt_name": "Gladiator's Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -33259,9 +33981,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "188": {
+    "191": {
+      "internal_name": "Gleipnir",
       "name": "Gleipnir",
-      "alt_name": "Gleipnir",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -33318,9 +34040,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "189": {
+    "192": {
+      "internal_name": "Glittering Breath+",
       "name": "Glittering Breath+",
-      "alt_name": "Glittering Breath+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -33377,9 +34099,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "190": {
+    "193": {
+      "internal_name": "Golden Dagger",
       "name": "Golden Dagger",
-      "alt_name": "Golden Dagger",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -33436,9 +34158,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "191": {
+    "194": {
+      "internal_name": "Golden Naginata",
       "name": "Golden Naginata",
-      "alt_name": "Golden Naginata",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -33495,9 +34217,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "192": {
+    "195": {
+      "internal_name": "Goodie Boot+",
       "name": "Goodie Boot+",
-      "alt_name": "Goodie Boot+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -33554,9 +34276,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "193": {
+    "196": {
+      "internal_name": "Gradivus",
       "name": "Gradivus",
-      "alt_name": "Gradivus",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -33613,9 +34335,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "194": {
+    "197": {
+      "internal_name": "Grado Poleax",
       "name": "Grado Poleax",
-      "alt_name": "Grado Poleax",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -33672,9 +34394,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "195": {
+    "198": {
+      "internal_name": "Grandscratcher+",
       "name": "Grandscratcher+",
-      "alt_name": "Grandscratcher+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -33731,9 +34453,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "196": {
+    "199": {
+      "internal_name": "Gratia+",
       "name": "Gratia+",
-      "alt_name": "Gratia+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -33790,9 +34512,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "197": {
+    "200": {
+      "internal_name": "Gravity+",
       "name": "Gravity+",
-      "alt_name": "Gravity+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -33849,9 +34571,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "198": {
+    "201": {
+      "internal_name": "Great Flame",
       "name": "Great Flame",
-      "alt_name": "Great Flame",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -33908,9 +34630,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "199": {
+    "202": {
+      "internal_name": "Green Egg+",
       "name": "Green Egg+",
-      "alt_name": "Green Egg+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -33967,9 +34689,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "200": {
+    "203": {
+      "internal_name": "Green Gift+",
       "name": "Green Gift+",
-      "alt_name": "Green Gift+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -34026,9 +34748,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "201": {
+    "204": {
+      "internal_name": "Grima's Truth",
       "name": "Grima's Truth",
-      "alt_name": "Grima's Truth",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34085,9 +34807,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "202": {
+    "205": {
+      "internal_name": "Grimoire",
       "name": "Grimoire",
-      "alt_name": "Grimoire",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34144,9 +34866,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "203": {
+    "206": {
+      "internal_name": "Gronnblade+",
       "name": "Gronnblade+",
-      "alt_name": "Gronnblade+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -34203,9 +34925,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "204": {
+    "207": {
+      "internal_name": "Gronnblooms+",
       "name": "Gronnblooms+",
-      "alt_name": "Gronnblooms+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -34262,9 +34984,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "205": {
+    "208": {
+      "internal_name": "Gronnowl+",
       "name": "Gronnowl+",
-      "alt_name": "Gronnowl+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -34321,9 +35043,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "206": {
+    "209": {
+      "internal_name": "Gronnraven+",
       "name": "Gronnraven+",
-      "alt_name": "Gronnraven+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -34380,9 +35102,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "207": {
+    "210": {
+      "internal_name": "Gronnserpent+",
       "name": "Gronnserpent+",
-      "alt_name": "Gronnserpent+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -34439,9 +35161,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "208": {
+    "211": {
+      "internal_name": "Gronnwolf+",
       "name": "Gronnwolf+",
-      "alt_name": "Gronnwolf+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -34487,7 +35209,7 @@ var data = {
       "evolves_into_name": "Keen Gronnwolf+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 255,
+      "evolves_into": 259,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -34498,9 +35220,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "209": {
+    "212": {
+      "internal_name": "Guard Axe+",
       "name": "Guard Axe+",
-      "alt_name": "Guard Axe+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34557,9 +35279,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "210": {
+    "213": {
+      "internal_name": "Guard Bow+",
       "name": "Guard Bow+",
-      "alt_name": "Guard Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -34606,7 +35328,7 @@ var data = {
       "evolved_from_name": "Assassin's Bow+",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 12,
+      "evolved_from": 11,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -34616,9 +35338,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "211": {
+    "214": {
+      "internal_name": "Guard Lance+",
       "name": "Guard Lance+",
-      "alt_name": "Guard Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34675,9 +35397,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "212": {
+    "215": {
+      "internal_name": "Guard Sword+",
       "name": "Guard Sword+",
-      "alt_name": "Guard Sword+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34734,9 +35456,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "213": {
+    "216": {
+      "internal_name": "Guardian Fang",
       "name": "Guardian Fang",
-      "alt_name": "Guardian Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -34793,9 +35515,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "214": {
+    "217": {
+      "internal_name": "Guardian's Axe",
       "name": "Guardian's Axe",
-      "alt_name": "Guardian's Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -34852,9 +35574,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "215": {
+    "218": {
+      "internal_name": "Guardian's Bow",
       "name": "Guardian's Bow",
-      "alt_name": "Guardian's Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34911,9 +35633,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "216": {
+    "219": {
+      "internal_name": "Hack-o'-Lantern+",
       "name": "Hack-o'-Lantern+",
-      "alt_name": "Hack-o'-Lantern+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -34970,9 +35692,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "217": {
+    "220": {
+      "internal_name": "Hades Omega",
       "name": "Hades &Omega;",
-      "alt_name": "Hades &Omega;",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -35029,9 +35751,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "218": {
+    "221": {
+      "internal_name": "Hagoita+",
       "name": "Hagoita+",
-      "alt_name": "Hagoita+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -35088,9 +35810,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "219": {
+    "222": {
+      "internal_name": "Hama Ya+",
       "name": "Hama Ya+",
-      "alt_name": "Hama Ya+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -35147,9 +35869,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "220": {
+    "223": {
+      "internal_name": "Hammer+",
       "name": "Hammer+",
-      "alt_name": "Hammer+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -35195,7 +35917,7 @@ var data = {
       "evolves_into_name": "Slaying Hammer+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 421,
+      "evolves_into": 424,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -35206,9 +35928,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "221": {
+    "224": {
+      "internal_name": "Hana's Katana",
       "name": "Hana's Katana",
-      "alt_name": "Hana's Katana",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -35265,9 +35987,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "222": {
+    "225": {
+      "internal_name": "Handbell+",
       "name": "Handbell+",
-      "alt_name": "Handbell+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -35324,9 +36046,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "223": {
+    "226": {
+      "internal_name": "Harmonic Lance+",
       "name": "Harmonic Lance+",
-      "alt_name": "Harmonic Lance+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -35383,9 +36105,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "224": {
+    "227": {
+      "internal_name": "Hauteclere",
       "name": "Hauteclere",
-      "alt_name": "Hauteclere",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -35442,9 +36164,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "225": {
+    "228": {
+      "internal_name": "Hawk King Claw",
       "name": "Hawk King Claw",
-      "alt_name": "Hawk King Claw",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -35501,9 +36223,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "226": {
+    "229": {
+      "internal_name": "Heart's Blade+",
       "name": "Heart's Blade+",
-      "alt_name": "Heart's Blade+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -35560,9 +36282,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "227": {
+    "230": {
+      "internal_name": "Heavy Spear+",
       "name": "Heavy Spear+",
-      "alt_name": "Heavy Spear+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -35608,7 +36330,7 @@ var data = {
       "evolves_into_name": "Slaying Spear+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 423,
+      "evolves_into": 426,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -35619,9 +36341,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "228": {
+    "231": {
+      "internal_name": "Hermit's Tome",
       "name": "Hermit's Tome",
-      "alt_name": "Hermit's Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -35678,9 +36400,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "229": {
+    "232": {
+      "internal_name": "Heron Wing",
       "name": "Heron Wing",
-      "alt_name": "Heron Wing",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -35737,9 +36459,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "230": {
+    "233": {
+      "internal_name": "Hibiscus Tome+",
       "name": "Hibiscus Tome+",
-      "alt_name": "Hibiscus Tome+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -35796,9 +36518,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "231": {
+    "234": {
+      "internal_name": "Hikami",
       "name": "Hikami",
-      "alt_name": "Hikami",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -35855,9 +36577,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "232": {
+    "235": {
+      "internal_name": "Hinata's Katana",
       "name": "Hinata's Katana",
-      "alt_name": "Hinata's Katana",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -35914,9 +36636,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "233": {
+    "236": {
+      "internal_name": "Hinoka's Spear",
       "name": "Hinoka's Spear",
-      "alt_name": "Hinoka's Spear",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -35973,9 +36695,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "234": {
+    "237": {
+      "internal_name": "Hlidskjalf",
       "name": "Hli\xF0skj\xE1lf",
-      "alt_name": "Hli\xF0skj\xE1lf",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36032,9 +36754,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "235": {
+    "238": {
+      "internal_name": "Hoarfrost Knife",
       "name": "Hoarfrost Knife",
-      "alt_name": "Hoarfrost Knife",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36091,9 +36813,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "236": {
+    "239": {
+      "internal_name": "Huginn's Egg",
       "name": "Huginn's Egg",
-      "alt_name": "Huginn's Egg",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36150,9 +36872,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "237": {
+    "240": {
+      "internal_name": "Hunting Blade",
       "name": "Hunting Blade",
-      "alt_name": "Hunting Blade",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36209,9 +36931,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "238": {
+    "241": {
+      "internal_name": "Iago's Tome",
       "name": "Iago's Tome",
-      "alt_name": "Iago's Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36268,9 +36990,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "239": {
+    "242": {
+      "internal_name": "Ifingr",
+      "name": "\xCDfingr",
+      "hp_mod": 0,
+      "atk_mod": 14,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{weap_eff(RD,BD,GD,ND);[0]}{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4),neutralize_follow_up_guarantors;[comp(three_space>0)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "GT",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "243": {
+      "internal_name": "Imbued Koma",
       "name": "Imbued Koma",
-      "alt_name": "Imbued Koma",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36327,9 +37108,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "240": {
+    "244": {
+      "internal_name": "Imhullu",
       "name": "Imhullu",
-      "alt_name": "Imhullu",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36386,9 +37167,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "241": {
+    "245": {
+      "internal_name": "Inscribed Tome",
       "name": "Inscribed Tome",
-      "alt_name": "Inscribed Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36445,9 +37226,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "242": {
+    "246": {
+      "internal_name": "Inveterate Axe",
       "name": "Inveterate Axe",
-      "alt_name": "Inveterate Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -36504,9 +37285,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "243": {
+    "247": {
+      "internal_name": "Iris's Tome",
       "name": "Iris's Tome",
-      "alt_name": "Iris's Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36563,9 +37344,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "244": {
+    "248": {
+      "internal_name": "It's Curtains...+",
       "name": "It's Curtains...+",
-      "alt_name": "It's Curtains...+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36622,9 +37403,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "245": {
+    "249": {
+      "internal_name": "Ivaldi",
       "name": "Ivaldi",
-      "alt_name": "Ivaldi",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36681,9 +37462,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "246": {
+    "250": {
+      "internal_name": "Jakob's Tray",
       "name": "Jakob's Tray",
-      "alt_name": "Jakob's Tray",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -36740,9 +37521,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "247": {
+    "251": {
+      "internal_name": "Joyous Lantern+",
       "name": "Joyous Lantern+",
-      "alt_name": "Joyous Lantern+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -36799,9 +37580,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "248": {
+    "252": {
+      "internal_name": "Jubilant Blade",
       "name": "Jubilant Blade",
-      "alt_name": "Jubilant Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -36858,9 +37639,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "249": {
+    "253": {
+      "internal_name": "Juicy Wave+",
       "name": "Juicy Wave+",
-      "alt_name": "Juicy Wave+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -36917,9 +37698,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "250": {
+    "254": {
+      "internal_name": "Kabura Ya+",
       "name": "Kabura Ya+",
-      "alt_name": "Kabura Ya+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -36976,9 +37757,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "251": {
+    "255": {
+      "internal_name": "Kadomatsu+",
       "name": "Kadomatsu+",
-      "alt_name": "Kadomatsu+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -37035,9 +37816,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "252": {
+    "256": {
+      "internal_name": "Kagami Mochi+",
       "name": "Kagami Mochi+",
-      "alt_name": "Kagami Mochi+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -37094,9 +37875,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "253": {
+    "257": {
+      "internal_name": "Kagero's Dart",
       "name": "Kagero's Dart",
-      "alt_name": "Kagero's Dart",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -37153,9 +37934,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "254": {
+    "258": {
+      "internal_name": "Keen Blarwolf+",
       "name": "Keen Bl\xE1rwolf+",
-      "alt_name": "Keen Bl\xE1rwolf+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -37202,7 +37983,7 @@ var data = {
       "evolved_from_name": "Bl\xE1rwolf+",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 42,
+      "evolved_from": "#N/A",
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -37212,9 +37993,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "255": {
+    "259": {
+      "internal_name": "Keen Gronnwolf+",
       "name": "Keen Gronnwolf+",
-      "alt_name": "Keen Gronnwolf+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -37261,7 +38042,7 @@ var data = {
       "evolved_from_name": "Gronnwolf+",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 208,
+      "evolved_from": 211,
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -37271,9 +38052,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "256": {
+    "260": {
+      "internal_name": "Keen Raudrwolf+",
       "name": "Keen Rau\xF0rwolf+",
-      "alt_name": "Keen Rau\xF0rwolf+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -37320,7 +38101,7 @@ var data = {
       "evolved_from_name": "Rau\xF0rwolf+",
       "upgraded_from_name": "(None)",
       "evolves_into": 0,
-      "evolved_from": 354,
+      "evolved_from": "#N/A",
       "upgraded_from": 0,
       "user_can_transform": 0,
       "base_has_number_input": 0,
@@ -37330,9 +38111,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "257": {
+    "261": {
+      "internal_name": "Killer Axe+",
       "name": "Killer Axe+",
-      "alt_name": "Killer Axe+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -37378,7 +38159,7 @@ var data = {
       "evolves_into_name": "Slaying Axe+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 418,
+      "evolves_into": 421,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -37389,9 +38170,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "258": {
+    "262": {
+      "internal_name": "Killer Bow+",
       "name": "Killer Bow+",
-      "alt_name": "Killer Bow+",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": 0,
@@ -37437,7 +38218,7 @@ var data = {
       "evolves_into_name": "Slaying Bow+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 419,
+      "evolves_into": 422,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -37448,9 +38229,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "259": {
+    "263": {
+      "internal_name": "Killer Lance+",
       "name": "Killer Lance+",
-      "alt_name": "Killer Lance+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -37496,7 +38277,7 @@ var data = {
       "evolves_into_name": "Slaying Lance+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 422,
+      "evolves_into": 425,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -37507,9 +38288,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "260": {
+    "264": {
+      "internal_name": "Killing Edge+",
       "name": "Killing Edge+",
-      "alt_name": "Killing Edge+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -37555,7 +38336,7 @@ var data = {
       "evolves_into_name": "Slaying Edge+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 420,
+      "evolves_into": 423,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -37566,9 +38347,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "261": {
+    "265": {
+      "internal_name": "Kitsune Fang",
       "name": "Kitsune Fang",
-      "alt_name": "Kitsune Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -37625,9 +38406,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "262": {
+    "266": {
+      "internal_name": "Kitty Paddle+",
       "name": "Kitty Paddle+",
-      "alt_name": "Kitty Paddle+",
       "hp_mod": 0,
       "atk_mod": 8,
       "spd_mod": 0,
@@ -37684,9 +38465,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "263": {
+    "267": {
+      "internal_name": "Knightly Lance",
       "name": "Knightly Lance",
-      "alt_name": "Knightly Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -37743,9 +38524,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "264": {
+    "268": {
+      "internal_name": "Kriemhild",
       "name": "Kriemhild",
-      "alt_name": "Kriemhild",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -37802,9 +38583,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "265": {
+    "269": {
+      "internal_name": "Kumade+",
       "name": "Kumade+",
-      "alt_name": "Kumade+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -37861,9 +38642,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "266": {
+    "270": {
+      "internal_name": "Laevatein",
       "name": "Laevatein",
-      "alt_name": "Laevatein",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -37920,9 +38701,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "267": {
+    "271": {
+      "internal_name": "Laid-Back Blade",
       "name": "Laid-Back Blade",
-      "alt_name": "Laid-Back Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -37979,9 +38760,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "268": {
+    "272": {
+      "internal_name": "Larcei's Edge",
       "name": "Larcei's Edge",
-      "alt_name": "Larcei's Edge",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38038,9 +38819,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "269": {
+    "273": {
+      "internal_name": "Laslow's Blade",
       "name": "Laslow's Blade",
-      "alt_name": "Laslow's Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38097,9 +38878,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "270": {
+    "274": {
+      "internal_name": "Legion's Axe+",
       "name": "Legion's Axe+",
-      "alt_name": "Legion's Axe+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -38156,9 +38937,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "271": {
+    "275": {
+      "internal_name": "Leiptr",
       "name": "Leiptr",
-      "alt_name": "Leiptr",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38215,9 +38996,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "272": {
+    "276": {
+      "internal_name": "Lethal Carrot+",
       "name": "Lethal Carrot+",
-      "alt_name": "Lethal Carrot+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -38274,9 +39055,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "273": {
+    "277": {
+      "internal_name": "Light Brand",
       "name": "Light Brand",
-      "alt_name": "Light Brand",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38333,9 +39114,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "274": {
+    "278": {
+      "internal_name": "Light Breath+",
       "name": "Light Breath+",
-      "alt_name": "Light Breath+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -38392,9 +39173,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "275": {
+    "279": {
+      "internal_name": "Light of Dawn",
       "name": "Light of Dawn",
-      "alt_name": "Light of Dawn",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -38451,9 +39232,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "276": {
+    "280": {
+      "internal_name": "Lightning Breath+",
       "name": "Lightning Breath+",
-      "alt_name": "Lightning Breath+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -38510,9 +39291,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "277": {
+    "281": {
+      "internal_name": "Lilith Floatie+",
       "name": "Lilith Floatie+",
-      "alt_name": "Lilith Floatie+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -38569,9 +39350,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "278": {
+    "282": {
+      "internal_name": "Lion King Fang",
       "name": "Lion King Fang",
-      "alt_name": "Lion King Fang",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -38628,9 +39409,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "279": {
+    "283": {
+      "internal_name": "Lofty Blossoms+",
       "name": "Lofty Blossoms+",
-      "alt_name": "Lofty Blossoms+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -38687,9 +39468,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "280": {
+    "284": {
+      "internal_name": "Loptous",
       "name": "Loptous",
-      "alt_name": "Loptous",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -38746,9 +39527,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "281": {
+    "285": {
+      "internal_name": "Lordly Lance",
       "name": "Lordly Lance",
-      "alt_name": "Lordly Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38805,9 +39586,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "282": {
+    "286": {
+      "internal_name": "Loyal Greatlance",
       "name": "Loyal Greatlance",
-      "alt_name": "Loyal Greatlance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -38864,9 +39645,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "283": {
+    "287": {
+      "internal_name": "Loyal Wreath+",
       "name": "Loyal Wreath+",
-      "alt_name": "Loyal Wreath+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -38923,9 +39704,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "284": {
+    "288": {
+      "internal_name": "Luna Arc",
       "name": "Luna Arc",
-      "alt_name": "Luna Arc",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -38982,9 +39763,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "285": {
+    "289": {
+      "internal_name": "Luncheon Lance+",
       "name": "Luncheon Lance+",
-      "alt_name": "Luncheon Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -39041,9 +39822,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "286": {
+    "290": {
+      "internal_name": "Lyfjaberg",
       "name": "Lyfjaberg",
-      "alt_name": "Lyfjaberg",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -39100,127 +39881,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "287": {
-      "name": "M\xF6g\xDErasir",
-      "alt_name": "M\xF6g\xDErasir",
-      "hp_mod": 0,
-      "atk_mod": 8,
-      "spd_mod": -2,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{strike_twice;[boolean_check(initiating,true)]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "RT",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "288": {
-      "name": "M\xFAspell Fireposy",
-      "alt_name": "M\xFAspell Fireposy",
-      "hp_mod": 0,
-      "atk_mod": 14,
-      "spd_mod": 3,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{scaled_stat_boost(combat_atk,2;two_space,max=6&combat_spd,2;two_space,max=6);[0]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "RT",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "289": {
+    "291": {
+      "internal_name": "Madness Flask+",
       "name": "Madness Flask+",
-      "alt_name": "Madness Flask+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 3,
@@ -39277,9 +39940,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "290": {
+    "292": {
+      "internal_name": "Maltet",
       "name": "Maltet",
-      "alt_name": "Maltet",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -39336,9 +39999,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "291": {
+    "293": {
+      "internal_name": "Mareeta's Sword",
       "name": "Mareeta's Sword",
-      "alt_name": "Mareeta's Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -39395,9 +40058,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "292": {
+    "294": {
+      "internal_name": "Meisterbogen",
       "name": "Meisterbogen",
-      "alt_name": "Meisterbogen",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": -5,
@@ -39454,9 +40117,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "293": {
+    "295": {
+      "internal_name": "Meisterschwert",
       "name": "Meisterschwert",
-      "alt_name": "Meisterschwert",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": -5,
@@ -39513,9 +40176,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "294": {
+    "296": {
+      "internal_name": "Melancholy+",
       "name": "Melancholy+",
-      "alt_name": "Melancholy+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -39572,9 +40235,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "295": {
+    "297": {
+      "internal_name": "Melee Bouquet+",
       "name": "Melee Bouquet+",
-      "alt_name": "Melee Bouquet+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -39631,9 +40294,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "296": {
+    "298": {
+      "internal_name": "Melon Crusher+",
       "name": "Melon Crusher+",
-      "alt_name": "Melon Crusher+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -39690,9 +40353,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "297": {
+    "299": {
+      "internal_name": "Mercurius",
       "name": "Mercurius",
-      "alt_name": "Mercurius",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -39749,9 +40412,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "298": {
+    "300": {
+      "internal_name": "Minty Cane+",
       "name": "Minty Cane+",
-      "alt_name": "Minty Cane+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -39808,9 +40471,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "299": {
+    "301": {
+      "internal_name": "Mirage Axe",
       "name": "Mirage Axe",
-      "alt_name": "Mirage Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -39867,9 +40530,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "300": {
+    "302": {
+      "internal_name": "Mirage Falchion",
       "name": "Mirage Falchion",
-      "alt_name": "Mirage Falchion",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -39926,9 +40589,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "301": {
+    "303": {
+      "internal_name": "Mirage Feather",
       "name": "Mirage Feather",
-      "alt_name": "Mirage Feather",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -39985,9 +40648,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "302": {
+    "304": {
+      "internal_name": "Mirage Longbow",
       "name": "Mirage Longbow",
-      "alt_name": "Mirage Longbow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -40044,9 +40707,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "303": {
+    "305": {
+      "internal_name": "Mirage Rod",
       "name": "Mirage Rod",
-      "alt_name": "Mirage Rod",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -40103,9 +40766,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "304": {
+    "306": {
+      "internal_name": "Missiletainn (S)",
       "name": "Missiletainn",
-      "alt_name": "Missiletainn (S)",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -40162,9 +40825,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "305": {
+    "307": {
+      "internal_name": "Missiletainn (T)",
       "name": "Missiletainn",
-      "alt_name": "Missiletainn (T)",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40221,9 +40884,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "306": {
+    "308": {
+      "internal_name": "Mjolnir",
       "name": "Mj\xF6lnir",
-      "alt_name": "Mj\xF6lnir",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40280,9 +40943,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "307": {
+    "309": {
+      "internal_name": "Mogthrasir",
+      "name": "M\xF6g\xDErasir",
+      "hp_mod": 0,
+      "atk_mod": 8,
+      "spd_mod": -2,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{strike_twice;[boolean_check(initiating,true)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "RT",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "310": {
+      "internal_name": "Monstrous Bow+",
       "name": "Monstrous Bow+",
-      "alt_name": "Monstrous Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -40339,9 +41061,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "308": {
+    "311": {
+      "internal_name": "Mulagir",
       "name": "Mulagir",
-      "alt_name": "Mulagir",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -40398,9 +41120,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "309": {
+    "312": {
+      "internal_name": "Muninn's Egg",
       "name": "Muninn's Egg",
-      "alt_name": "Muninn's Egg",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40457,9 +41179,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "310": {
+    "313": {
+      "internal_name": "Muspell Fireposy",
+      "name": "M\xFAspell Fireposy",
+      "hp_mod": 0,
+      "atk_mod": 14,
+      "spd_mod": 3,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{scaled_stat_boost(combat_atk,2;two_space,max=6&combat_spd,2;two_space,max=6);[0]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "RT",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "314": {
+      "internal_name": "Mystletainn",
       "name": "Mystletainn",
-      "alt_name": "Mystletainn",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -40505,7 +41286,7 @@ var data = {
       "evolves_into_name": "Dark Mystletainn",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 106,
+      "evolves_into": 108,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -40516,127 +41297,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "311": {
-      "name": "N\xEDu",
-      "alt_name": "N\xEDu",
-      "hp_mod": 0,
-      "atk_mod": 16,
-      "spd_mod": 3,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{flat_stat_boost(combat_atk,(e_active_buff_sum/2)&combat_spd,(e_active_buff_sum/2)&combat_def,(e_active_buff_sum/2)&combat_res,(e_active_buff_sum/2));[0]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 1,
-      "type": "S",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "312": {
-      "name": "N\xF3at\xFAn",
-      "alt_name": "N\xF3at\xFAn",
-      "hp_mod": 0,
-      "atk_mod": 16,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "empty",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 1,
-      "has_eff_refine": 1,
-      "range": 1,
-      "type": "A",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "313": {
+    "315": {
+      "internal_name": "Naga",
       "name": "Naga",
-      "alt_name": "Naga",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40682,7 +41345,7 @@ var data = {
       "evolves_into_name": "Divine Naga",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 121,
+      "evolves_into": 124,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -40693,9 +41356,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "314": {
+    "316": {
+      "internal_name": "Naglfar",
       "name": "Naglfar",
-      "alt_name": "Naglfar",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40752,9 +41415,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "315": {
+    "317": {
+      "internal_name": "Nameless Blade",
       "name": "Nameless Blade",
-      "alt_name": "Nameless Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -40811,9 +41474,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "316": {
+    "318": {
+      "internal_name": "New Foxkit Fang",
       "name": "New Foxkit Fang",
-      "alt_name": "New Foxkit Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40870,9 +41533,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "317": {
+    "319": {
+      "internal_name": "Nidhogg",
       "name": "Nidhogg",
-      "alt_name": "Nidhogg",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -40929,9 +41592,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "318": {
+    "320": {
+      "internal_name": "Nifl Frostflowers",
       "name": "Nifl Frostflowers",
-      "alt_name": "Nifl Frostflowers",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -40988,9 +41651,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "319": {
+    "321": {
+      "internal_name": "Niles's Bow",
       "name": "Niles's Bow",
-      "alt_name": "Niles's Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -41047,9 +41710,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "320": {
+    "322": {
+      "internal_name": "Ninis's Ice Lance",
       "name": "Ninis's Ice Lance",
-      "alt_name": "Ninis's Ice Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -41106,9 +41769,127 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "321": {
+    "323": {
+      "internal_name": "Niu",
+      "name": "N\xEDu",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 3,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_atk,(e_active_buff_sum/2)&combat_spd,(e_active_buff_sum/2)&combat_def,(e_active_buff_sum/2)&combat_res,(e_active_buff_sum/2));[0]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "324": {
+      "internal_name": "Noatun",
+      "name": "N\xF3at\xFAn",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "empty",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 1,
+      "has_eff_refine": 1,
+      "range": 1,
+      "type": "A",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "325": {
+      "internal_name": "Noble Lance",
       "name": "Noble Lance",
-      "alt_name": "Noble Lance",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -41165,9 +41946,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "322": {
+    "326": {
+      "internal_name": "Oboro's Spear",
       "name": "Oboro's Spear",
-      "alt_name": "Oboro's Spear",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -41224,9 +42005,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "323": {
+    "327": {
+      "internal_name": "Odin's Grimoire",
       "name": "Odin's Grimoire",
-      "alt_name": "Odin's Grimoire",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -41283,9 +42064,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "324": {
+    "328": {
+      "internal_name": "Oracle's Breath",
       "name": "Oracle's Breath",
-      "alt_name": "Oracle's Breath",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -41342,9 +42123,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "325": {
+    "329": {
+      "internal_name": "Ouch Pouch+",
       "name": "Ouch Pouch+",
-      "alt_name": "Ouch Pouch+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -41401,9 +42182,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "326": {
+    "330": {
+      "internal_name": "Ovoid Staff+",
       "name": "Ovoid Staff+",
-      "alt_name": "Ovoid Staff+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -41460,9 +42241,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "327": {
+    "331": {
+      "internal_name": "Pain+",
       "name": "Pain+",
-      "alt_name": "Pain+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -41519,9 +42300,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "328": {
+    "332": {
+      "internal_name": "Panic+",
       "name": "Panic+",
-      "alt_name": "Panic+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -41578,9 +42359,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "329": {
+    "333": {
+      "internal_name": "Panther Lance",
       "name": "Panther Lance",
-      "alt_name": "Panther Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -41637,9 +42418,9 @@ var data = {
       "eff_has_number_input": 1,
       "eff_has_boolean_input": 1
     },
-    "330": {
+    "334": {
+      "internal_name": "Panther Sword",
       "name": "Panther Sword",
-      "alt_name": "Panther Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -41696,9 +42477,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "331": {
+    "335": {
+      "internal_name": "Parthia",
       "name": "Parthia",
-      "alt_name": "Parthia",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -41755,9 +42536,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "332": {
+    "336": {
+      "internal_name": "Pegasus Carrot+",
       "name": "Pegasus Carrot+",
-      "alt_name": "Pegasus Carrot+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -41814,9 +42595,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "333": {
+    "337": {
+      "internal_name": "Peri's Lance",
       "name": "Peri's Lance",
-      "alt_name": "Peri's Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -41873,9 +42654,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "334": {
+    "338": {
+      "internal_name": "Persecution Bow",
       "name": "Persecution Bow",
-      "alt_name": "Persecution Bow",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -41932,9 +42713,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "335": {
+    "339": {
+      "internal_name": "Peshkatz",
       "name": "Peshkatz",
-      "alt_name": "Peshkatz",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -41991,9 +42772,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "336": {
+    "340": {
+      "internal_name": "Petal Parasol+",
       "name": "Petal Parasol+",
-      "alt_name": "Petal Parasol+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -42050,9 +42831,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "337": {
+    "341": {
+      "internal_name": "Poison Dagger+",
       "name": "Poison Dagger+",
-      "alt_name": "Poison Dagger+",
       "hp_mod": 0,
       "atk_mod": 5,
       "spd_mod": 0,
@@ -42109,9 +42890,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "338": {
+    "342": {
+      "internal_name": "Poleaxe+",
       "name": "Poleaxe+",
-      "alt_name": "Poleaxe+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -42168,9 +42949,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "339": {
+    "343": {
+      "internal_name": "Prayer Wheel",
       "name": "Prayer Wheel",
-      "alt_name": "Prayer Wheel",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -42227,9 +43008,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "340": {
+    "344": {
+      "internal_name": "Prized Lance",
       "name": "Prized Lance",
-      "alt_name": "Prized Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -42286,9 +43067,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "341": {
+    "345": {
+      "internal_name": "Pumpkin-a-Box+",
       "name": "Pumpkin-a-Box+",
-      "alt_name": "Pumpkin-a-Box+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 3,
@@ -42345,9 +43126,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "342": {
+    "346": {
+      "internal_name": "Ragnarok",
       "name": "Ragnarok",
-      "alt_name": "Ragnarok",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -42404,9 +43185,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "343": {
+    "347": {
+      "internal_name": "Ragnell",
       "name": "Ragnell",
-      "alt_name": "Ragnell",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -42463,9 +43244,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "344": {
+    "348": {
+      "internal_name": "Ragnell\xB7Alondite",
       "name": "Ragnell\xB7Alondite",
-      "alt_name": "Ragnell\xB7Alondite",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": -5,
@@ -42522,9 +43303,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "345": {
+    "349": {
+      "internal_name": "Raijinto",
       "name": "Raijinto",
-      "alt_name": "Raijinto",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -42581,9 +43362,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "346": {
+    "350": {
+      "internal_name": "Randgridr",
       "name": "Randgr\xED\xF0r",
-      "alt_name": "Randgr\xED\xF0r",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -42640,9 +43421,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "347": {
+    "351": {
+      "internal_name": "Rapier",
       "name": "Rapier",
-      "alt_name": "Rapier",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -42699,9 +43480,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "348": {
+    "352": {
+      "internal_name": "Rapport Wand+",
       "name": "Rapport Wand+",
-      "alt_name": "Rapport Wand+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -42758,9 +43539,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "349": {
+    "353": {
+      "internal_name": "Raudrblade+",
       "name": "Rau\xF0rblade+",
-      "alt_name": "Rau\xF0rblade+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -42817,9 +43598,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "350": {
+    "354": {
+      "internal_name": "Raudrfox+",
       "name": "Rau\xF0rfox+",
-      "alt_name": "Rau\xF0rfox+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -42876,9 +43657,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "351": {
+    "355": {
+      "internal_name": "Raudrowl+",
       "name": "Rau\xF0rowl+",
-      "alt_name": "Rau\xF0rowl+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -42935,9 +43716,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "352": {
+    "356": {
+      "internal_name": "Raudrraven+",
       "name": "Rau\xF0rraven+",
-      "alt_name": "Rau\xF0rraven+",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": 0,
@@ -42994,9 +43775,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "353": {
+    "357": {
+      "internal_name": "Raudrserpent+",
       "name": "Rau\xF0rserpent+",
-      "alt_name": "Rau\xF0rserpent+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -43053,9 +43834,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "354": {
+    "358": {
+      "internal_name": "Raudrwolf+",
       "name": "Rau\xF0rwolf+",
-      "alt_name": "Rau\xF0rwolf+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -43101,7 +43882,7 @@ var data = {
       "evolves_into_name": "Keen Rau\xF0rwolf+",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 256,
+      "evolves_into": "#N/A",
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -43112,9 +43893,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "355": {
+    "359": {
+      "internal_name": "Raven King Beak",
       "name": "Raven King Beak",
-      "alt_name": "Raven King Beak",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -43171,9 +43952,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "356": {
+    "360": {
+      "internal_name": "Razing Breath",
       "name": "Razing Breath",
-      "alt_name": "Razing Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -43230,9 +44011,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "357": {
+    "361": {
+      "internal_name": "Rearguard+",
       "name": "Rearguard+",
-      "alt_name": "Rearguard+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -43289,9 +44070,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "358": {
+    "362": {
+      "internal_name": "Rebecca's Bow",
       "name": "Rebecca's Bow",
-      "alt_name": "Rebecca's Bow",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -43348,9 +44129,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "359": {
+    "363": {
+      "internal_name": "Red-Hot Ducks+",
       "name": "Red-Hot Ducks+",
-      "alt_name": "Red-Hot Ducks+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -43407,9 +44188,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "360": {
+    "364": {
+      "internal_name": "Reese's Tome",
       "name": "Reese's Tome",
-      "alt_name": "Reese's Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -43466,9 +44247,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "361": {
+    "365": {
+      "internal_name": "Refreshing Bolt+",
       "name": "Refreshing Bolt+",
-      "alt_name": "Refreshing Bolt+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -43525,9 +44306,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "362": {
+    "366": {
+      "internal_name": "Regal Blade",
       "name": "Regal Blade",
-      "alt_name": "Regal Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -43584,9 +44365,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "363": {
+    "367": {
+      "internal_name": "Reginleif",
       "name": "Reginleif",
-      "alt_name": "Reginleif",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -43643,9 +44424,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "364": {
+    "368": {
+      "internal_name": "Renowned Bow",
       "name": "Renowned Bow",
-      "alt_name": "Renowned Bow",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": -5,
@@ -43702,9 +44483,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "365": {
+    "369": {
+      "internal_name": "Reprisal Lance+",
       "name": "Reprisal Lance+",
-      "alt_name": "Reprisal Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -43761,9 +44542,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "366": {
+    "370": {
+      "internal_name": "Resolute Blade",
       "name": "Resolute Blade",
-      "alt_name": "Resolute Blade",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -43820,9 +44601,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "367": {
+    "371": {
+      "internal_name": "Rexcalibur+",
       "name": "Rexcalibur+",
-      "alt_name": "Rexcalibur+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -43879,9 +44660,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "368": {
+    "372": {
+      "internal_name": "Rhomphaia",
       "name": "Rhomphaia",
-      "alt_name": "Rhomphaia",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -43938,9 +44719,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "369": {
+    "373": {
+      "internal_name": "Ridersbane+",
       "name": "Ridersbane+",
-      "alt_name": "Ridersbane+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -43997,9 +44778,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "370": {
+    "374": {
+      "internal_name": "Rinkah's Club",
       "name": "Rinkah's Club",
-      "alt_name": "Rinkah's Club",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -44056,9 +44837,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "371": {
+    "375": {
+      "internal_name": "Rogue Dagger+",
       "name": "Rogue Dagger+",
-      "alt_name": "Rogue Dagger+",
       "hp_mod": 0,
       "atk_mod": 7,
       "spd_mod": 0,
@@ -44115,9 +44896,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "372": {
+    "376": {
+      "internal_name": "Rowdy Sword",
       "name": "Rowdy Sword",
-      "alt_name": "Rowdy Sword",
       "hp_mod": 0,
       "atk_mod": 11,
       "spd_mod": -5,
@@ -44174,9 +44955,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "373": {
+    "377": {
+      "internal_name": "Royal Sword",
       "name": "Royal Sword",
-      "alt_name": "Royal Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -44233,9 +45014,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "374": {
+    "378": {
+      "internal_name": "Ruby Sword+",
       "name": "Ruby Sword+",
-      "alt_name": "Ruby Sword+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -44292,127 +45073,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "375": {
-      "name": "S\xE6hr\xEDmnir",
-      "alt_name": "S\xE6hr\xEDmnir",
-      "hp_mod": 0,
-      "atk_mod": 17,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{weap_eff(RBe,BBe,GBe,NBe);[0]}{scaled_stat_penalty(e_combat_atk,(printed_res-e_printed_res);.5,max=8&e_combat_def,(printed_res-e_printed_res);.5,max=8);[comp(printed_res>e_printed_res)]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "K",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "376": {
-      "name": "S\xF6kkvabekkr",
-      "alt_name": "S\xF6kkvabekkr",
-      "hp_mod": 0,
-      "atk_mod": 16,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4),follow_up_guarantor;[comp(three_space>0)]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 1,
-      "type": "S",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "377": {
+    "379": {
+      "internal_name": "Sabertooth Fang",
       "name": "Sabertooth Fang",
-      "alt_name": "Sabertooth Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44469,9 +45132,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "378": {
+    "380": {
+      "internal_name": "Sable Lance",
       "name": "Sable Lance",
-      "alt_name": "Sable Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -44528,9 +45191,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "379": {
+    "381": {
+      "internal_name": "Sack o' Gifts+",
       "name": "Sack o' Gifts+",
-      "alt_name": "Sack o' Gifts+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44587,9 +45250,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "380": {
+    "382": {
+      "internal_name": "Saehrimnir",
+      "name": "S\xE6hr\xEDmnir",
+      "hp_mod": 0,
+      "atk_mod": 17,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{weap_eff(RBe,BBe,GBe,NBe);[0]}{scaled_stat_penalty(e_combat_atk,(printed_res-e_printed_res);.5,max=8&e_combat_def,(printed_res-e_printed_res);.5,max=8);[comp(printed_res>e_printed_res)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "K",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "383": {
+      "internal_name": "Safeguard+",
       "name": "Safeguard+",
-      "alt_name": "Safeguard+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44646,9 +45368,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "381": {
+    "384": {
+      "internal_name": "Sagittae",
       "name": "Sagittae",
-      "alt_name": "Sagittae",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44705,9 +45427,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "382": {
+    "385": {
+      "internal_name": "Saintly Seraphim",
       "name": "Saintly Seraphim",
-      "alt_name": "Saintly Seraphim",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -44764,9 +45486,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "383": {
+    "386": {
+      "internal_name": "Saizo's Star",
       "name": "Saizo's Star",
-      "alt_name": "Saizo's Star",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44823,9 +45545,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "384": {
+    "387": {
+      "internal_name": "Sandfort Spade+",
       "name": "Sandfort Spade+",
-      "alt_name": "Sandfort Spade+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -44882,9 +45604,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "385": {
+    "388": {
+      "internal_name": "Sandwiches!+",
       "name": "Sandwiches!+",
-      "alt_name": "Sandwiches!+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -44941,9 +45663,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "386": {
+    "389": {
+      "internal_name": "Sanngridr",
       "name": "Sanngri\xF0r",
-      "alt_name": "Sanngri\xF0r",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -45000,9 +45722,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "387": {
+    "390": {
+      "internal_name": "Sapphire Lance+",
       "name": "Sapphire Lance+",
-      "alt_name": "Sapphire Lance+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -45059,9 +45781,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "388": {
+    "391": {
+      "internal_name": "Savage Breath",
       "name": "Savage Breath",
-      "alt_name": "Savage Breath",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -45118,9 +45840,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "389": {
+    "392": {
+      "internal_name": "Scallop Blade+",
       "name": "Scallop Blade+",
-      "alt_name": "Scallop Blade+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -45177,9 +45899,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "390": {
+    "393": {
+      "internal_name": "Scarlet Sword",
       "name": "Scarlet Sword",
-      "alt_name": "Scarlet Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45236,9 +45958,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "391": {
+    "394": {
+      "internal_name": "Scepter of Love",
       "name": "Scepter of Love",
-      "alt_name": "Scepter of Love",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -45295,9 +46017,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "392": {
+    "395": {
+      "internal_name": "Scythe of Sariel",
       "name": "Scythe of Sariel",
-      "alt_name": "Scythe of Sariel",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45354,9 +46076,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "393": {
+    "396": {
+      "internal_name": "Sealed Falchion",
       "name": "Sealed Falchion",
-      "alt_name": "Sealed Falchion",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45413,9 +46135,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "394": {
+    "397": {
+      "internal_name": "Sealife Tome+",
       "name": "Sealife Tome+",
-      "alt_name": "Sealife Tome+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -45472,9 +46194,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "395": {
+    "398": {
+      "internal_name": "Seashell+",
       "name": "Seashell+",
-      "alt_name": "Seashell+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -45531,9 +46253,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "396": {
+    "399": {
+      "internal_name": "Selena's Blade",
       "name": "Selena's Blade",
-      "alt_name": "Selena's Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45590,9 +46312,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "397": {
+    "400": {
+      "internal_name": "Shadow Sword",
       "name": "Shadow Sword",
-      "alt_name": "Shadow Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45649,9 +46371,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "398": {
+    "401": {
+      "internal_name": "Shanna's Lance",
       "name": "Shanna's Lance",
-      "alt_name": "Shanna's Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -45708,9 +46430,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "399": {
+    "402": {
+      "internal_name": "Shell Lance+",
       "name": "Shell Lance+",
-      "alt_name": "Shell Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -45767,9 +46489,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "400": {
+    "403": {
+      "internal_name": "Shine+",
       "name": "Shine+",
-      "alt_name": "Shine+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -45826,9 +46548,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "401": {
+    "404": {
+      "internal_name": "Shining Bow+",
       "name": "Shining Bow+",
-      "alt_name": "Shining Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -45885,9 +46607,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "402": {
+    "405": {
+      "internal_name": "Shoreline Rake+",
       "name": "Shoreline Rake+",
-      "alt_name": "Shoreline Rake+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -45944,9 +46666,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "403": {
+    "406": {
+      "internal_name": "Short Bow+",
       "name": "Short Bow+",
-      "alt_name": "Short Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -46003,9 +46725,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "404": {
+    "407": {
+      "internal_name": "Siegfried",
       "name": "Siegfried",
-      "alt_name": "Siegfried",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46062,9 +46784,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "405": {
+    "408": {
+      "internal_name": "Sieglinde",
       "name": "Sieglinde",
-      "alt_name": "Sieglinde",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46121,9 +46843,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "406": {
+    "409": {
+      "internal_name": "Siegmund",
       "name": "Siegmund",
-      "alt_name": "Siegmund",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46169,7 +46891,7 @@ var data = {
       "evolves_into_name": "Flame Siegmund",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 162,
+      "evolves_into": 164,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -46180,9 +46902,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "407": {
+    "410": {
+      "internal_name": "Silver Axe+",
       "name": "Silver Axe+",
-      "alt_name": "Silver Axe+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -46239,9 +46961,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "408": {
+    "411": {
+      "internal_name": "Silver Bow+",
       "name": "Silver Bow+",
-      "alt_name": "Silver Bow+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -46298,9 +47020,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "409": {
+    "412": {
+      "internal_name": "Silver Dagger+",
       "name": "Silver Dagger+",
-      "alt_name": "Silver Dagger+",
       "hp_mod": 0,
       "atk_mod": 10,
       "spd_mod": 0,
@@ -46357,9 +47079,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "410": {
+    "413": {
+      "internal_name": "Silver Goblet+",
       "name": "Silver Goblet+",
-      "alt_name": "Silver Goblet+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -46416,9 +47138,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "411": {
+    "414": {
+      "internal_name": "Silver Lance+",
       "name": "Silver Lance+",
-      "alt_name": "Silver Lance+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -46475,9 +47197,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "412": {
+    "415": {
+      "internal_name": "Silver Sword+",
       "name": "Silver Sword+",
-      "alt_name": "Silver Sword+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 0,
@@ -46534,9 +47256,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "413": {
+    "416": {
+      "internal_name": "Silverbrand",
       "name": "Silverbrand",
-      "alt_name": "Silverbrand",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46593,9 +47315,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "414": {
+    "417": {
+      "internal_name": "Sinmara",
       "name": "Sinmara",
-      "alt_name": "Sinmara",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46652,9 +47374,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "415": {
+    "418": {
+      "internal_name": "Skadi",
       "name": "Skadi",
-      "alt_name": "Skadi",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -46711,9 +47433,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "416": {
+    "419": {
+      "internal_name": "Skuld",
       "name": "Skuld",
-      "alt_name": "Skuld",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -46770,9 +47492,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "417": {
+    "420": {
+      "internal_name": "Sky Maiougi+",
       "name": "Sky Maiougi+",
-      "alt_name": "Sky Maiougi+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -46829,9 +47551,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "418": {
+    "421": {
+      "internal_name": "Slaying Axe+",
       "name": "Slaying Axe+",
-      "alt_name": "Slaying Axe+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -46888,9 +47610,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "419": {
+    "422": {
+      "internal_name": "Slaying Bow+",
       "name": "Slaying Bow+",
-      "alt_name": "Slaying Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -46947,9 +47669,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "420": {
+    "423": {
+      "internal_name": "Slaying Edge+",
       "name": "Slaying Edge+",
-      "alt_name": "Slaying Edge+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -47006,9 +47728,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "421": {
+    "424": {
+      "internal_name": "Slaying Hammer+",
       "name": "Slaying Hammer+",
-      "alt_name": "Slaying Hammer+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -47065,9 +47787,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "422": {
+    "425": {
+      "internal_name": "Slaying Lance+",
       "name": "Slaying Lance+",
-      "alt_name": "Slaying Lance+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -47124,9 +47846,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "423": {
+    "426": {
+      "internal_name": "Slaying Spear+",
       "name": "Slaying Spear+",
-      "alt_name": "Slaying Spear+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -47183,9 +47905,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "424": {
+    "427": {
+      "internal_name": "Slow+",
       "name": "Slow+",
-      "alt_name": "Slow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -47242,9 +47964,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "425": {
+    "428": {
+      "internal_name": "Smoke Dagger+",
       "name": "Smoke Dagger+",
-      "alt_name": "Smoke Dagger+",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": 0,
@@ -47301,9 +48023,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "426": {
+    "429": {
+      "internal_name": "Snow's Grace",
       "name": "Snow's Grace",
-      "alt_name": "Snow's Grace",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 3,
@@ -47360,9 +48082,68 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "427": {
+    "430": {
+      "internal_name": "Sokkvabekkr",
+      "name": "S\xF6kkvabekkr",
+      "hp_mod": 0,
+      "atk_mod": 16,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4),follow_up_guarantor;[comp(three_space>0)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 1,
+      "type": "S",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "431": {
+      "internal_name": "Sol Katti",
       "name": "Sol Katti",
-      "alt_name": "Sol Katti",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -47419,9 +48200,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "428": {
+    "432": {
+      "internal_name": "Sol Lance",
       "name": "Sol Lance",
-      "alt_name": "Sol Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -47478,9 +48259,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "429": {
+    "433": {
+      "internal_name": "Solitary Blade",
       "name": "Solitary Blade",
-      "alt_name": "Solitary Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -47537,9 +48318,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "430": {
+    "434": {
+      "internal_name": "Spectral Tome+",
       "name": "Spectral Tome+",
-      "alt_name": "Spectral Tome+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -47596,9 +48377,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "431": {
+    "435": {
+      "internal_name": "Spendthrift Bow+",
       "name": "Spendthrift Bow+",
-      "alt_name": "Spendthrift Bow+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -47655,9 +48436,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "432": {
+    "436": {
+      "internal_name": "Spirit Breath",
       "name": "Spirit Breath",
-      "alt_name": "Spirit Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -47714,9 +48495,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "433": {
+    "437": {
+      "internal_name": "Splashy Bucket+",
       "name": "Splashy Bucket+",
-      "alt_name": "Splashy Bucket+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -47773,9 +48554,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "434": {
+    "438": {
+      "internal_name": "Spooky Censer+",
       "name": "Spooky Censer+",
-      "alt_name": "Spooky Censer+",
       "hp_mod": 0,
       "atk_mod": 15,
       "spd_mod": 3,
@@ -47832,9 +48613,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "435": {
+    "439": {
+      "internal_name": "Spy's Dagger",
       "name": "Spy's Dagger",
-      "alt_name": "Spy's Dagger",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -47891,9 +48672,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "436": {
+    "440": {
+      "internal_name": "Starfish+",
       "name": "Starfish+",
-      "alt_name": "Starfish+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -47950,9 +48731,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "437": {
+    "441": {
+      "internal_name": "Steady Lance",
       "name": "Steady Lance",
-      "alt_name": "Steady Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -48009,9 +48790,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "438": {
+    "442": {
+      "internal_name": "Storm Sieglinde",
       "name": "Storm Sieglinde",
-      "alt_name": "Storm Sieglinde",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -48068,9 +48849,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "439": {
+    "443": {
+      "internal_name": "Stout Tomahawk",
       "name": "Stout Tomahawk",
-      "alt_name": "Stout Tomahawk",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -48127,9 +48908,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "440": {
+    "444": {
+      "internal_name": "Sublime Surge",
       "name": "Sublime Surge",
-      "alt_name": "Sublime Surge",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -48186,9 +48967,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "441": {
+    "445": {
+      "internal_name": "Summer's Breath",
       "name": "Summer's Breath",
-      "alt_name": "Summer's Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -48245,9 +49026,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "442": {
+    "446": {
+      "internal_name": "Sun Dragonstone",
       "name": "Sun Dragonstone",
-      "alt_name": "Sun Dragonstone",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -48304,9 +49085,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "443": {
+    "447": {
+      "internal_name": "Swift Mulagir",
       "name": "Swift Mulagir",
-      "alt_name": "Swift Mulagir",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -48363,9 +49144,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "444": {
+    "448": {
+      "internal_name": "Sylgr",
       "name": "Sylgr",
-      "alt_name": "Sylgr",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -48422,9 +49203,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "445": {
+    "449": {
+      "internal_name": "Tactical Bolt",
       "name": "Tactical Bolt",
-      "alt_name": "Tactical Bolt",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -48481,9 +49262,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "446": {
+    "450": {
+      "internal_name": "Tactical Gale",
       "name": "Tactical Gale",
-      "alt_name": "Tactical Gale",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -48540,9 +49321,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "447": {
+    "451": {
+      "internal_name": "Taguel Fang",
       "name": "Taguel Fang",
-      "alt_name": "Taguel Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -48599,9 +49380,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "448": {
+    "452": {
+      "internal_name": "Tannenbit+",
       "name": "Tannenbit+",
-      "alt_name": "Tannenbit+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -48658,9 +49439,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "449": {
+    "453": {
+      "internal_name": "Tannenboom!+",
       "name": "Tannenboom!+",
-      "alt_name": "Tannenboom!+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -48717,9 +49498,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "450": {
+    "454": {
+      "internal_name": "Tanngrisnir",
       "name": "Tanngrisnir",
-      "alt_name": "Tanngrisnir",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -48776,9 +49557,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "451": {
+    "455": {
+      "internal_name": "Temari+",
       "name": "Temari+",
-      "alt_name": "Temari+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -48835,127 +49616,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "452": {
-      "name": "Th\xF6gn",
-      "alt_name": "Th\xF6gn",
-      "hp_mod": 0,
-      "atk_mod": 14,
-      "spd_mod": 3,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{mov_eff(F);[0]}{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4);[boolean_check(initiating,true)&e_weap_check(1rng)]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "B",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "453": {
-      "name": "Th\xF6kk",
-      "alt_name": "Th\xF6kk",
-      "hp_mod": 0,
-      "atk_mod": 14,
-      "spd_mod": 0,
-      "def_mod": 0,
-      "res_mod": 0,
-      "cooldown_mod": 0,
-      "skill_definition": "{wrathful_staff;[0]}",
-      "skill_desc_refine_base": "empty",
-      "skill_desc_refine_eff": "empty",
-      "has_refinements": 0,
-      "has_eff_refine": 0,
-      "range": 2,
-      "type": "ST",
-      "char_lock": 1,
-      "srd_can_inherit": 0,
-      "lnc_can_inherit": 0,
-      "axe_can_inherit": 0,
-      "rt_can_inherit": 0,
-      "bt_can_inherit": 0,
-      "gt_can_inherit": 0,
-      "nt_can_inherit": 0,
-      "rbow_can_inherit": 0,
-      "bbow_can_inherit": 0,
-      "gbow_can_inherit": 0,
-      "nbow_can_inherit": 0,
-      "r_dgr_can_inherit": 0,
-      "b_dgr_can_inherit": 0,
-      "g_dgr_can_inherit": 0,
-      "n_dgr_can_inherit": 0,
-      "stf_can_inherit": 0,
-      "rbrth_can_inherit": 0,
-      "bbrth_can_inherit": 0,
-      "gbrth_can_inherit": 0,
-      "nbrth_can_inherit": 0,
-      "rbe_can_inherit": 0,
-      "bbe_can_inherit": 0,
-      "gbe_can_inherit": 0,
-      "nbe_can_inherit": 0,
-      "inf_can_inherit": 0,
-      "cav_can_inherit": 0,
-      "fly_can_inherit": 0,
-      "arm_can_inherit": 0,
-      "evolves_into_name": "(None)",
-      "evolved_from_name": "(None)",
-      "upgraded_from_name": "(None)",
-      "evolves_into": 0,
-      "evolved_from": 0,
-      "upgraded_from": 0,
-      "user_can_transform": 0,
-      "base_has_number_input": 0,
-      "base_has_boolean_input": 0,
-      "ref_has_number_input": 0,
-      "ref_has_boolean_input": 0,
-      "eff_has_number_input": 0,
-      "eff_has_boolean_input": 0
-    },
-    "454": {
+    "456": {
+      "internal_name": "Thani",
       "name": "Thani",
-      "alt_name": "Thani",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49012,9 +49675,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "455": {
+    "457": {
+      "internal_name": "Tharja's Hex",
       "name": "Tharja's Hex",
-      "alt_name": "Tharja's Hex",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49071,9 +49734,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "456": {
+    "458": {
+      "internal_name": "The Cleaner+",
       "name": "The Cleaner+",
-      "alt_name": "The Cleaner+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -49130,9 +49793,127 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "457": {
+    "459": {
+      "internal_name": "Thogn",
+      "name": "Th\xF6gn",
+      "hp_mod": 0,
+      "atk_mod": 14,
+      "spd_mod": 3,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{mov_eff(F);[0]}{flat_stat_boost(combat_atk,4&combat_spd,4&combat_def,4&combat_res,4);[boolean_check(initiating,true)&e_weap_check(1rng)]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "B",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "460": {
+      "internal_name": "Thokk",
+      "name": "Th\xF6kk",
+      "hp_mod": 0,
+      "atk_mod": 14,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{wrathful_staff;[0]}",
+      "skill_desc_refine_base": "empty",
+      "skill_desc_refine_eff": "empty",
+      "has_refinements": 0,
+      "has_eff_refine": 0,
+      "range": 2,
+      "type": "ST",
+      "char_lock": 1,
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "evolves_into_name": "(None)",
+      "evolved_from_name": "(None)",
+      "upgraded_from_name": "(None)",
+      "evolves_into": 0,
+      "evolved_from": 0,
+      "upgraded_from": 0,
+      "user_can_transform": 0,
+      "base_has_number_input": 0,
+      "base_has_boolean_input": 0,
+      "ref_has_number_input": 0,
+      "ref_has_boolean_input": 0,
+      "eff_has_number_input": 0,
+      "eff_has_boolean_input": 0
+    },
+    "461": {
+      "internal_name": "Thorn Lance",
       "name": "Thorn Lance",
-      "alt_name": "Thorn Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -49189,9 +49970,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "458": {
+    "462": {
+      "internal_name": "Thunder Armads",
       "name": "Thunder Armads",
-      "alt_name": "Thunder Armads",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -49248,9 +50029,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "459": {
+    "463": {
+      "internal_name": "Thunderhead",
       "name": "Thunderhead",
-      "alt_name": "Thunderhead",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49307,9 +50088,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "460": {
+    "464": {
+      "internal_name": "Toasty Skewer+",
       "name": "Toasty Skewer+",
-      "alt_name": "Toasty Skewer+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -49366,9 +50147,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "461": {
+    "465": {
+      "internal_name": "Tomato Tome+",
       "name": "Tomato Tome+",
-      "alt_name": "Tomato Tome+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -49425,9 +50206,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "462": {
+    "466": {
+      "internal_name": "Tome of Thoron",
       "name": "Tome of Thoron",
-      "alt_name": "Tome of Thoron",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49484,9 +50265,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "463": {
+    "467": {
+      "internal_name": "Trilemma+",
       "name": "Trilemma+",
-      "alt_name": "Trilemma+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -49543,9 +50324,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "464": {
+    "468": {
+      "internal_name": "Tropical Treats+",
       "name": "Tropical Treats+",
-      "alt_name": "Tropical Treats+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -49602,9 +50383,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "465": {
+    "469": {
+      "internal_name": "Tyrfing",
       "name": "Tyrfing",
-      "alt_name": "Tyrfing",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -49650,7 +50431,7 @@ var data = {
       "evolves_into_name": "Divine Tyrfing",
       "evolved_from_name": "(None)",
       "upgraded_from_name": "(None)",
-      "evolves_into": 122,
+      "evolves_into": 125,
       "evolved_from": 0,
       "upgraded_from": 0,
       "user_can_transform": 0,
@@ -49661,9 +50442,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "466": {
+    "470": {
+      "internal_name": "Urdr",
       "name": "Ur\xF0r",
-      "alt_name": "Ur\xF0r",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -49720,9 +50501,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "467": {
+    "471": {
+      "internal_name": "Urvan",
       "name": "Urvan",
-      "alt_name": "Urvan",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -49779,9 +50560,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "468": {
+    "472": {
+      "internal_name": "Vafthrudnir",
       "name": "Vaf\xDEr\xFA\xF0nir",
-      "alt_name": "Vaf\xDEr\xFA\xF0nir",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": -5,
@@ -49838,9 +50619,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "469": {
+    "473": {
+      "internal_name": "Valflame",
       "name": "Valflame",
-      "alt_name": "Valflame",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49897,9 +50678,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "470": {
+    "474": {
+      "internal_name": "Vanguard+",
       "name": "Vanguard+",
-      "alt_name": "Vanguard+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -49956,9 +50737,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "471": {
+    "475": {
+      "internal_name": "Vassal's Blade",
       "name": "Vassal's Blade",
-      "alt_name": "Vassal's Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50015,9 +50796,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "472": {
+    "476": {
+      "internal_name": "Vedrfolnir's Egg",
       "name": "Ve\xF0rf\xF6lnir's Egg",
-      "alt_name": "Ve\xF0rf\xF6lnir's Egg",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -50074,9 +50855,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "473": {
+    "477": {
+      "internal_name": "Venin Edge",
       "name": "Venin Edge",
-      "alt_name": "Venin Edge",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50133,9 +50914,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "474": {
+    "478": {
+      "internal_name": "Verdandi",
       "name": "Ver\xF0andi",
-      "alt_name": "Ver\xF0andi",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50192,9 +50973,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "475": {
+    "479": {
+      "internal_name": "Vessel of Cheer+",
       "name": "Vessel of Cheer+",
-      "alt_name": "Vessel of Cheer+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -50251,9 +51032,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "476": {
+    "480": {
+      "internal_name": "Veteran Lance",
       "name": "Veteran Lance",
-      "alt_name": "Veteran Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50310,9 +51091,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "477": {
+    "481": {
+      "internal_name": "Victorious Axe",
       "name": "Victorious Axe",
-      "alt_name": "Victorious Axe",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50369,9 +51150,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "478": {
+    "482": {
+      "internal_name": "Vidofnir",
       "name": "Vidofnir",
-      "alt_name": "Vidofnir",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50428,9 +51209,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "479": {
+    "483": {
+      "internal_name": "Virtuous Naga",
       "name": "Virtuous Naga",
-      "alt_name": "Virtuous Naga",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -50487,9 +51268,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "480": {
+    "484": {
+      "internal_name": "Void Tome",
       "name": "Void Tome",
-      "alt_name": "Void Tome",
       "hp_mod": 0,
       "atk_mod": 17,
       "spd_mod": 0,
@@ -50546,9 +51327,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "481": {
+    "485": {
+      "internal_name": "Vouge",
       "name": "Vouge",
-      "alt_name": "Vouge",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -50605,9 +51386,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "482": {
+    "486": {
+      "internal_name": "Wagasa+",
       "name": "Wagasa+",
-      "alt_name": "Wagasa+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -50664,9 +51445,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "483": {
+    "487": {
+      "internal_name": "Wargod's Tome",
       "name": "Wargod's Tome",
-      "alt_name": "Wargod's Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -50723,9 +51504,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "484": {
+    "488": {
+      "internal_name": "Warrior Princess",
       "name": "Warrior Princess",
-      "alt_name": "Warrior Princess",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -50782,9 +51563,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "485": {
+    "489": {
+      "internal_name": "Water Breath+",
       "name": "Water Breath+",
-      "alt_name": "Water Breath+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -50841,9 +51622,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "486": {
+    "490": {
+      "internal_name": "Weirding Tome",
       "name": "Weirding Tome",
-      "alt_name": "Weirding Tome",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -50900,9 +51681,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "487": {
+    "491": {
+      "internal_name": "Whitedown Spear",
       "name": "Whitedown Spear",
-      "alt_name": "Whitedown Spear",
       "hp_mod": 0,
       "atk_mod": 19,
       "spd_mod": 0,
@@ -50959,9 +51740,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "488": {
+    "492": {
+      "internal_name": "Whitewing Blade",
       "name": "Whitewing Blade",
-      "alt_name": "Whitewing Blade",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51018,9 +51799,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "489": {
+    "493": {
+      "internal_name": "Whitewing Lance",
       "name": "Whitewing Lance",
-      "alt_name": "Whitewing Lance",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51077,9 +51858,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "490": {
+    "494": {
+      "internal_name": "Whitewing Spear",
       "name": "Whitewing Spear",
-      "alt_name": "Whitewing Spear",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51136,9 +51917,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 1
     },
-    "491": {
+    "495": {
+      "internal_name": "Wind's Brand",
       "name": "Wind's Brand",
-      "alt_name": "Wind's Brand",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -51195,9 +51976,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "492": {
+    "496": {
+      "internal_name": "Winds of Change",
       "name": "Winds of Change",
-      "alt_name": "Winds of Change",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -51254,9 +52035,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "493": {
+    "497": {
+      "internal_name": "Winds of Silesse",
       "name": "Winds of Silesse",
-      "alt_name": "Winds of Silesse",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -51313,9 +52094,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "494": {
+    "498": {
+      "internal_name": "Wing Sword",
       "name": "Wing Sword",
-      "alt_name": "Wing Sword",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51372,9 +52153,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "495": {
+    "499": {
+      "internal_name": "Witchy Wand+",
       "name": "Witchy Wand+",
-      "alt_name": "Witchy Wand+",
       "hp_mod": 0,
       "atk_mod": 12,
       "spd_mod": 0,
@@ -51431,9 +52212,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "496": {
+    "500": {
+      "internal_name": "Wo Dao+",
       "name": "Wo Dao+",
-      "alt_name": "Wo Dao+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -51490,9 +52271,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "497": {
+    "501": {
+      "internal_name": "Wo Gun+",
       "name": "Wo G\xF9n+",
-      "alt_name": "Wo G\xF9n+",
       "hp_mod": 0,
       "atk_mod": 13,
       "spd_mod": 0,
@@ -51549,9 +52330,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "498": {
+    "502": {
+      "internal_name": "Wolf Berg",
       "name": "Wolf Berg",
-      "alt_name": "Wolf Berg",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51608,9 +52389,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "499": {
+    "503": {
+      "internal_name": "Wolf Queen Fang",
       "name": "Wolf Queen Fang",
-      "alt_name": "Wolf Queen Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -51667,9 +52448,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "500": {
+    "504": {
+      "internal_name": "Wolfpup Fang",
       "name": "Wolfpup Fang",
-      "alt_name": "Wolfpup Fang",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -51726,9 +52507,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "501": {
+    "505": {
+      "internal_name": "Wolfskin Fang",
       "name": "Wolfskin Fang",
-      "alt_name": "Wolfskin Fang",
       "hp_mod": 0,
       "atk_mod": 9,
       "spd_mod": -5,
@@ -51785,9 +52566,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "502": {
+    "506": {
+      "internal_name": "Worldsea Wave",
       "name": "Worldsea Wave",
-      "alt_name": "Worldsea Wave",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 3,
@@ -51844,9 +52625,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "503": {
+    "507": {
+      "internal_name": "Yato",
       "name": "Yato",
-      "alt_name": "Yato",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -51903,9 +52684,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "504": {
+    "508": {
+      "internal_name": "Zanbato+",
       "name": "Zanbato+",
-      "alt_name": "Zanbato+",
       "hp_mod": 0,
       "atk_mod": 14,
       "spd_mod": 0,
@@ -51962,9 +52743,9 @@ var data = {
       "eff_has_number_input": 0,
       "eff_has_boolean_input": 0
     },
-    "505": {
+    "509": {
+      "internal_name": "Zephyr Breath",
       "name": "Zephyr Breath",
-      "alt_name": "Zephyr Breath",
       "hp_mod": 0,
       "atk_mod": 16,
       "spd_mod": 0,
@@ -53284,6 +54065,42 @@ var data = {
       "has_boolean_input": 0
     },
     "35": {
+      "name": "Mayhem Aether",
+      "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((e_combat_def*.5);max=none);[state_check(targeting,def)&boolean_check(special_activating,true)]}{damage_boost((e_combat_res*.5);max=none);[state_check(targeting,res)&boolean_check(special_activating,true)]}{heal_on_hit((damage*.5));[boolean_check(special_activating,true)]}",
+      "cooldown_max": 4,
+      "activation_type": "attack",
+      "srd_can_inherit": 0,
+      "lnc_can_inherit": 0,
+      "axe_can_inherit": 0,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
+      "rbe_can_inherit": 0,
+      "bbe_can_inherit": 0,
+      "gbe_can_inherit": 0,
+      "nbe_can_inherit": 0,
+      "inf_can_inherit": 0,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "has_number_input": 0,
+      "has_boolean_input": 0
+    },
+    "36": {
       "name": "Miracle",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)&comp(e_damage>=hp)]}{endure;[boolean_check(special_activating,true)]}",
       "cooldown_max": 5,
@@ -53319,7 +54136,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "36": {
+    "37": {
       "name": "Moonbow",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((e_combat_def*.3);max=none);[state_check(targeting,def)&boolean_check(special_activating,true)]}{damage_boost((e_combat_res*.3);max=none);[state_check(targeting,res)&boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53355,7 +54172,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "37": {
+    "38": {
       "name": "Nj\xF6run's Zeal",
       "skill_definition": "empty",
       "cooldown_max": 3,
@@ -53391,7 +54208,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "38": {
+    "39": {
       "name": "Noontime",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{heal_on_hit((damage*.3));[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53427,7 +54244,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "39": {
+    "40": {
       "name": "Open the Future",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((combat_def*.5);max=none),heal_on_hit((damage*.25));[boolean_check(special_activating,true)]}",
       "cooldown_max": 3,
@@ -53463,7 +54280,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "40": {
+    "41": {
       "name": "Pavise",
       "skill_definition": "{activate_special;[comp(combat_range=1)&comp(cooldown_count=0)]}{flat_percent_mitigation(50);[boolean_check(special_activating,true)]}",
       "cooldown_max": 3,
@@ -53499,7 +54316,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "41": {
+    "42": {
       "name": "Radiant Aether",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((e_combat_def*.5);max=none);[state_check(targeting,def)&boolean_check(special_activating,true)]}{damage_boost((e_combat_res*.5);max=none);[state_check(targeting,res)&boolean_check(special_activating,true)]}{heal_on_hit((damage*.5));[boolean_check(special_activating,true)]}",
       "cooldown_max": 4,
@@ -53535,7 +54352,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "42": {
+    "43": {
       "name": "Regnal Astra",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((combat_spd*.4);max=none);[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53571,7 +54388,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "43": {
+    "44": {
       "name": "Reprisal",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost(((max_hp-hp)*.3);max=none);[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53607,7 +54424,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "44": {
+    "45": {
       "name": "Righteous Wind",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((combat_spd*.3);max=none);[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53643,7 +54460,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "45": {
+    "46": {
       "name": "Ruptured Sky",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((e_combat_atk*.2);max=none);[boolean_check(special_activating,true)&e_weap_check(S,L,A,2rng)]}{damage_boost((e_combat_atk*.4);max=none);[boolean_check(special_activating,true)&e_weap_check(RD,BD,GD,ND,RBe,BBe,GBe,NBe)]}",
       "cooldown_max": 2,
@@ -53679,7 +54496,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "46": {
+    "47": {
       "name": "Sacred Cowl",
       "skill_definition": "{activate_special;[comp(combat_range=2)&comp(cooldown_count=0)]}{flat_percent_mitigation(30);[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53715,7 +54532,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "47": {
+    "48": {
       "name": "Sirius",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((combat_spd*.3);max=none);[boolean_check(special_activating,true)]}{heal_on_hit((damage*.3));[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53751,7 +54568,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "48": {
+    "49": {
       "name": "Sol",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{heal_on_hit((damage*.5));[boolean_check(special_activating,true)]}",
       "cooldown_max": 3,
@@ -53787,7 +54604,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "49": {
+    "50": {
       "name": "Solid-Earth Balm",
       "skill_definition": "empty",
       "cooldown_max": 1,
@@ -53823,7 +54640,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "50": {
+    "51": {
       "name": "Still-Water Balm",
       "skill_definition": "empty",
       "cooldown_max": 1,
@@ -53859,7 +54676,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "51": {
+    "52": {
       "name": "Swift-Winds Balm",
       "skill_definition": "empty",
       "cooldown_max": 1,
@@ -53895,7 +54712,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "52": {
+    "53": {
       "name": "Twin Blades",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost((combat_res*.4);max=none),neutralize_scaled_mitigation;[boolean_check(special_activating,true)]}",
       "cooldown_max": 2,
@@ -53931,7 +54748,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "53": {
+    "54": {
       "name": "Vengeance",
       "skill_definition": "{activate_special;[comp(cooldown_count=0)]}{damage_boost(((max_hp-hp)*.5);max=none);[boolean_check(special_activating,true)]}",
       "cooldown_max": 3,
@@ -53967,7 +54784,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "54": {
+    "55": {
       "name": "Windfire Balm+",
       "skill_definition": "empty",
       "cooldown_max": 1,
@@ -54846,6 +55663,46 @@ var data = {
       "has_boolean_input": 0
     },
     "21": {
+      "name": "Atk/Res Solo 4",
+      "hp_mod": 0,
+      "atk_mod": 0,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_atk,7&combat_res,7);[comp(adj=0)]}",
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "nt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "r_dgr_can_inherit": 1,
+      "b_dgr_can_inherit": 1,
+      "g_dgr_can_inherit": 1,
+      "n_dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "rbe_can_inherit": 1,
+      "bbe_can_inherit": 1,
+      "gbe_can_inherit": 1,
+      "nbe_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "has_number_input": 0,
+      "has_boolean_input": 0
+    },
+    "22": {
       "name": "Atk/Spd 2",
       "hp_mod": 0,
       "atk_mod": 2,
@@ -54885,7 +55742,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "22": {
+    "23": {
       "name": "Atk/Spd Bond 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -54925,7 +55782,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "23": {
+    "24": {
       "name": "Atk/Spd Bond 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -54965,7 +55822,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "24": {
+    "25": {
       "name": "Atk/Spd Form 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55005,7 +55862,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "25": {
+    "26": {
       "name": "Atk/Spd Push 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55045,7 +55902,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "26": {
+    "27": {
       "name": "Atk/Spd Push 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55085,7 +55942,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "27": {
+    "28": {
       "name": "Atk/Spd Solo 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55125,7 +55982,47 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "28": {
+    "29": {
+      "name": "Atk/Spd Solo 4",
+      "hp_mod": 0,
+      "atk_mod": 0,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_atk,7&combat_spd,7);[comp(adj=0)]}",
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "nt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "r_dgr_can_inherit": 1,
+      "b_dgr_can_inherit": 1,
+      "g_dgr_can_inherit": 1,
+      "n_dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "rbe_can_inherit": 1,
+      "bbe_can_inherit": 1,
+      "gbe_can_inherit": 1,
+      "nbe_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 1,
+      "arm_can_inherit": 1,
+      "has_number_input": 0,
+      "has_boolean_input": 0
+    },
+    "30": {
       "name": "Attack +3",
       "hp_mod": 0,
       "atk_mod": 3,
@@ -55165,7 +56062,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "29": {
+    "31": {
       "name": "Attack/Def +2",
       "hp_mod": 0,
       "atk_mod": 2,
@@ -55205,7 +56102,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "30": {
+    "32": {
       "name": "Attack/Res 2",
       "hp_mod": 0,
       "atk_mod": 2,
@@ -55245,7 +56142,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "31": {
+    "33": {
       "name": "B Duel Flying 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -55285,7 +56182,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "32": {
+    "34": {
       "name": "B Duel Infantry 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -55325,7 +56222,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "33": {
+    "35": {
       "name": "Blade Session 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55365,7 +56262,7 @@ var data = {
       "has_number_input": 1,
       "has_boolean_input": 0
     },
-    "34": {
+    "36": {
       "name": "Bonus Doubler 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55405,7 +56302,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "35": {
+    "37": {
       "name": "Bracing Blow 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55445,7 +56342,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "36": {
+    "38": {
       "name": "Bracing Stance 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55485,7 +56382,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "37": {
+    "39": {
       "name": "Brazen Atk/Def 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55525,7 +56422,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "38": {
+    "40": {
       "name": "Brazen Atk/Res 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55565,7 +56462,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "39": {
+    "41": {
       "name": "Brazen Atk/Spd 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55605,7 +56502,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "40": {
+    "42": {
       "name": "Brazen Atk/Spd 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55645,7 +56542,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "41": {
+    "43": {
       "name": "Brazen Def/Res 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55685,7 +56582,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "42": {
+    "44": {
       "name": "Brazen Spd/Def 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55725,7 +56622,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "43": {
+    "45": {
       "name": "Brazen Spd/Res 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55765,7 +56662,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "44": {
+    "46": {
       "name": "C Duel Infantry 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -55805,7 +56702,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "45": {
+    "47": {
       "name": "Close Counter",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55845,7 +56742,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "46": {
+    "48": {
       "name": "Close Def 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55885,7 +56782,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "47": {
+    "49": {
       "name": "Close Foil",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55925,7 +56822,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "48": {
+    "50": {
       "name": "Darting Blow 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -55965,7 +56862,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "49": {
+    "51": {
       "name": "Darting Blow 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56005,7 +56902,47 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "50": {
+    "52": {
+      "name": "Darting Breath",
+      "hp_mod": 0,
+      "atk_mod": 0,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0,
+      "cooldown_mod": 0,
+      "skill_definition": "{flat_stat_boost(combat_spd,4),special_charge_accelerator;[boolean_check(initiating,false)]}",
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "rbe_can_inherit": 1,
+      "bbe_can_inherit": 1,
+      "gbe_can_inherit": 1,
+      "nbe_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 0,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 1,
+      "has_number_input": 0,
+      "has_boolean_input": 0
+    },
+    "53": {
       "name": "Darting Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56045,7 +56982,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "51": {
+    "54": {
       "name": "Death Blow 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56085,7 +57022,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "52": {
+    "55": {
       "name": "Death Blow 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56125,7 +57062,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "53": {
+    "56": {
       "name": "Def/Res 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56165,7 +57102,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "54": {
+    "57": {
       "name": "Def/Res Bond 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56205,7 +57142,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "55": {
+    "58": {
       "name": "Def/Res Solo 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56245,7 +57182,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "56": {
+    "59": {
       "name": "Defense +3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56285,7 +57222,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "57": {
+    "60": {
       "name": "Defiant Atk 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56325,7 +57262,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "58": {
+    "61": {
       "name": "Defiant Def 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56365,7 +57302,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "59": {
+    "62": {
       "name": "Defiant Res 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56405,7 +57342,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "60": {
+    "63": {
       "name": "Defiant Spd 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56445,7 +57382,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "61": {
+    "64": {
       "name": "Distant Counter",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56485,7 +57422,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "62": {
+    "65": {
       "name": "Distant Def 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56525,7 +57462,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "63": {
+    "66": {
       "name": "Distant Def 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56565,7 +57502,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "64": {
+    "67": {
       "name": "Distant Foil",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56605,7 +57542,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "65": {
+    "68": {
       "name": "Distant Ward",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56645,7 +57582,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "66": {
+    "69": {
       "name": "Dragonskin",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56685,7 +57622,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "67": {
+    "70": {
       "name": "Dragoon Shield",
       "hp_mod": 0,
       "atk_mod": 3,
@@ -56725,7 +57662,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "68": {
+    "71": {
       "name": "Earth Boost 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56765,7 +57702,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "69": {
+    "72": {
       "name": "Fierce Breath",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56805,7 +57742,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "70": {
+    "73": {
       "name": "Fierce Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56845,7 +57782,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "71": {
+    "74": {
       "name": "Fire Boost 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56885,7 +57822,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "72": {
+    "75": {
       "name": "Flashing Blade 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56925,7 +57862,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "73": {
+    "76": {
       "name": "Flashing Blade 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -56965,7 +57902,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "74": {
+    "77": {
       "name": "Fort. Def/Res 3",
       "hp_mod": 0,
       "atk_mod": -2,
@@ -57005,7 +57942,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "75": {
+    "78": {
       "name": "Fortress Def 3",
       "hp_mod": 0,
       "atk_mod": -3,
@@ -57045,7 +57982,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "76": {
+    "79": {
       "name": "Fortress Res 3",
       "hp_mod": 0,
       "atk_mod": -3,
@@ -57085,7 +58022,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "77": {
+    "80": {
       "name": "Fury 3",
       "hp_mod": 0,
       "atk_mod": 3,
@@ -57125,7 +58062,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "78": {
+    "81": {
       "name": "Fury 4",
       "hp_mod": 0,
       "atk_mod": 4,
@@ -57165,7 +58102,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "79": {
+    "82": {
       "name": "G Duel Flying 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -57205,7 +58142,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "80": {
+    "83": {
       "name": "G Duel Infantry 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -57245,7 +58182,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "81": {
+    "84": {
       "name": "Grani's Shield",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57285,7 +58222,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "82": {
+    "85": {
       "name": "Heavy Blade 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57325,7 +58262,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "83": {
+    "86": {
       "name": "Heavy Blade 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57365,7 +58302,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "84": {
+    "87": {
       "name": "HP +5",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -57405,7 +58342,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "85": {
+    "88": {
       "name": "HP/Atk 2",
       "hp_mod": 4,
       "atk_mod": 2,
@@ -57445,7 +58382,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "86": {
+    "89": {
       "name": "HP/Def 2",
       "hp_mod": 4,
       "atk_mod": 0,
@@ -57485,7 +58422,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "87": {
+    "90": {
       "name": "HP/Res 2",
       "hp_mod": 4,
       "atk_mod": 0,
@@ -57525,7 +58462,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "88": {
+    "91": {
       "name": "HP/Spd 2",
       "hp_mod": 4,
       "atk_mod": 0,
@@ -57565,7 +58502,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "89": {
+    "92": {
       "name": "Iote's Shield",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57605,7 +58542,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "90": {
+    "93": {
       "name": "Kestrel Stance 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57645,7 +58582,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "91": {
+    "94": {
       "name": "Laws of Sacae",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57685,7 +58622,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 1
     },
-    "92": {
+    "95": {
       "name": "Life and Death 3",
       "hp_mod": 0,
       "atk_mod": 5,
@@ -57725,7 +58662,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "93": {
+    "96": {
       "name": "Life and Death 4",
       "hp_mod": 0,
       "atk_mod": 7,
@@ -57765,7 +58702,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "94": {
+    "97": {
       "name": "Mirror Impact",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57805,7 +58742,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "95": {
+    "98": {
       "name": "Mirror Stance 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57845,7 +58782,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "96": {
+    "99": {
       "name": "Mirror Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57885,7 +58822,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "97": {
+    "100": {
       "name": "Mirror Strike 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57925,7 +58862,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "98": {
+    "101": {
       "name": "Ostian Counter",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -57965,7 +58902,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "99": {
+    "102": {
       "name": "R Duel Flying 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -58005,7 +58942,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "100": {
+    "103": {
       "name": "R Duel Infantry 3",
       "hp_mod": 5,
       "atk_mod": 0,
@@ -58045,7 +58982,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "101": {
+    "104": {
       "name": "Resistance +3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58085,7 +59022,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "102": {
+    "105": {
       "name": "Scendscale",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58125,7 +59062,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "103": {
+    "106": {
       "name": "Shield Session 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58165,7 +59102,7 @@ var data = {
       "has_number_input": 1,
       "has_boolean_input": 0
     },
-    "104": {
+    "107": {
       "name": "Sorcery Blade 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58205,7 +59142,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 1
     },
-    "105": {
+    "108": {
       "name": "Spd/Def 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58245,7 +59182,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "106": {
+    "109": {
       "name": "Spd/Def Bond 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58285,7 +59222,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "107": {
+    "110": {
       "name": "Spd/Def Form 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58325,7 +59262,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "108": {
+    "111": {
       "name": "Spd/Def Solo 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58365,7 +59302,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "109": {
+    "112": {
       "name": "Spd/Res 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58405,7 +59342,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "110": {
+    "113": {
       "name": "Spd/Res Bond 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58445,7 +59382,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "111": {
+    "114": {
       "name": "Spd/Res Form 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58485,7 +59422,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "112": {
+    "115": {
       "name": "Spd/Res Solo 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58525,7 +59462,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "113": {
+    "116": {
       "name": "Speed +3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58565,7 +59502,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "114": {
+    "117": {
       "name": "Steady Blow 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58605,7 +59542,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "115": {
+    "118": {
       "name": "Steady Breath",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58645,7 +59582,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "116": {
+    "119": {
       "name": "Steady Posture 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58685,7 +59622,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "117": {
+    "120": {
       "name": "Steady Posture 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58725,7 +59662,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "118": {
+    "121": {
       "name": "Steady Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58765,7 +59702,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "119": {
+    "122": {
       "name": "Steady Stance 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58805,7 +59742,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "120": {
+    "123": {
       "name": "Sturdy Blow 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58845,7 +59782,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "121": {
+    "124": {
       "name": "Sturdy Impact",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58885,7 +59822,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "122": {
+    "125": {
       "name": "Sturdy Stance 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58925,7 +59862,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "123": {
+    "126": {
       "name": "Sturdy Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -58965,7 +59902,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "124": {
+    "127": {
       "name": "Svalinn Shield",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59005,7 +59942,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "125": {
+    "128": {
       "name": "Swift Sparrow 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59045,7 +59982,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "126": {
+    "129": {
       "name": "Swift Sparrow 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59085,7 +60022,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "127": {
+    "130": {
       "name": "Swift Stance 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59125,7 +60062,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "128": {
+    "131": {
       "name": "Swift Strike 2",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59165,7 +60102,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "129": {
+    "132": {
       "name": "Triangle Adept 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59205,7 +60142,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "130": {
+    "133": {
       "name": "Warding Blow 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59245,7 +60182,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "131": {
+    "134": {
       "name": "Warding Breath",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59285,7 +60222,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "132": {
+    "135": {
       "name": "Warding Stance 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59325,7 +60262,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "133": {
+    "136": {
       "name": "Warding Stance 4",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59365,7 +60302,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "134": {
+    "137": {
       "name": "Water Boost 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -59405,7 +60342,7 @@ var data = {
       "has_number_input": 0,
       "has_boolean_input": 0
     },
-    "135": {
+    "138": {
       "name": "Wind Boost 3",
       "hp_mod": 0,
       "atk_mod": 0,
@@ -63860,29 +64797,29 @@ var data = {
       "has_boolean_input": 1
     },
     "3": {
-      "name": "Armored Strike 3",
+      "name": "Armored Stride 3",
       "cooldown_mod": 0,
       "skill_definition": "{extra_movement;[comp(adj=0)]}",
       "srd_can_inherit": 1,
       "lnc_can_inherit": 1,
       "axe_can_inherit": 1,
-      "rt_can_inherit": 1,
-      "bt_can_inherit": 1,
-      "gt_can_inherit": 1,
-      "nt_can_inherit": 1,
-      "rbow_can_inherit": 1,
-      "bbow_can_inherit": 1,
-      "gbow_can_inherit": 1,
-      "nbow_can_inherit": 1,
-      "r_dgr_can_inherit": 1,
-      "b_dgr_can_inherit": 1,
-      "g_dgr_can_inherit": 1,
-      "n_dgr_can_inherit": 1,
-      "stf_can_inherit": 1,
-      "rbrth_can_inherit": 1,
-      "bbrth_can_inherit": 1,
-      "gbrth_can_inherit": 1,
-      "nbrth_can_inherit": 1,
+      "rt_can_inherit": 0,
+      "bt_can_inherit": 0,
+      "gt_can_inherit": 0,
+      "nt_can_inherit": 0,
+      "rbow_can_inherit": 0,
+      "bbow_can_inherit": 0,
+      "gbow_can_inherit": 0,
+      "nbow_can_inherit": 0,
+      "r_dgr_can_inherit": 0,
+      "b_dgr_can_inherit": 0,
+      "g_dgr_can_inherit": 0,
+      "n_dgr_can_inherit": 0,
+      "stf_can_inherit": 0,
+      "rbrth_can_inherit": 0,
+      "bbrth_can_inherit": 0,
+      "gbrth_can_inherit": 0,
+      "nbrth_can_inherit": 0,
       "rbe_can_inherit": 1,
       "bbe_can_inherit": 1,
       "gbe_can_inherit": 1,
@@ -68723,6 +69660,41 @@ var data = {
       "arm_can_inherit": 0,
       "has_number_input": 0,
       "has_boolean_input": 0
+    },
+    "142": {
+      "name": "Rouse Atk/Res 3",
+      "cooldown_mod": 0,
+      "skill_definition": "empty",
+      "srd_can_inherit": 1,
+      "lnc_can_inherit": 1,
+      "axe_can_inherit": 1,
+      "rt_can_inherit": 1,
+      "bt_can_inherit": 1,
+      "gt_can_inherit": 1,
+      "nt_can_inherit": 1,
+      "rbow_can_inherit": 1,
+      "bbow_can_inherit": 1,
+      "gbow_can_inherit": 1,
+      "nbow_can_inherit": 1,
+      "r_dgr_can_inherit": 1,
+      "b_dgr_can_inherit": 1,
+      "g_dgr_can_inherit": 1,
+      "n_dgr_can_inherit": 1,
+      "stf_can_inherit": 1,
+      "rbrth_can_inherit": 1,
+      "bbrth_can_inherit": 1,
+      "gbrth_can_inherit": 1,
+      "nbrth_can_inherit": 1,
+      "rbe_can_inherit": 1,
+      "bbe_can_inherit": 1,
+      "gbe_can_inherit": 1,
+      "nbe_can_inherit": 1,
+      "inf_can_inherit": 1,
+      "cav_can_inherit": 1,
+      "fly_can_inherit": 0,
+      "arm_can_inherit": 0,
+      "has_number_input": 0,
+      "has_boolean_input": 0
     }
   },
   "Seals": {
@@ -73442,6 +74414,15 @@ var data = {
       "res_mod": 0
     },
     "8": {
+      "name": "Edelgard",
+      "element": "Fire",
+      "hp_mod": 3,
+      "atk_mod": 0,
+      "spd_mod": 0,
+      "def_mod": 0,
+      "res_mod": 0
+    },
+    "9": {
       "name": "Eir",
       "element": "Light",
       "hp_mod": 5,
@@ -73450,7 +74431,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 5
     },
-    "9": {
+    "10": {
       "name": "Eirika",
       "element": "Water",
       "hp_mod": 3,
@@ -73459,7 +74440,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "10": {
+    "11": {
       "name": "Eliwood",
       "element": "Wind",
       "hp_mod": 3,
@@ -73468,7 +74449,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "11": {
+    "12": {
       "name": "Ephraim",
       "element": "Fire",
       "hp_mod": 3,
@@ -73477,7 +74458,7 @@ var data = {
       "def_mod": 4,
       "res_mod": 0
     },
-    "12": {
+    "13": {
       "name": "Fjorm",
       "element": "Water",
       "hp_mod": 3,
@@ -73486,7 +74467,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "13": {
+    "14": {
       "name": "Gunnthr\xE1",
       "element": "Wind",
       "hp_mod": 3,
@@ -73495,7 +74476,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 4
     },
-    "14": {
+    "15": {
       "name": "Hector",
       "element": "Fire",
       "hp_mod": 3,
@@ -73504,7 +74485,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "15": {
+    "16": {
       "name": "Hr\xEDd",
       "element": "Wind",
       "hp_mod": 3,
@@ -73513,7 +74494,7 @@ var data = {
       "def_mod": 4,
       "res_mod": 0
     },
-    "16": {
+    "17": {
       "name": "Ike",
       "element": "Earth",
       "hp_mod": 3,
@@ -73522,7 +74503,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "17": {
+    "18": {
       "name": "Julia",
       "element": "Earth",
       "hp_mod": 3,
@@ -73531,7 +74512,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "18": {
+    "19": {
       "name": "L\xEDf",
       "element": "Anima",
       "hp_mod": 5,
@@ -73540,7 +74521,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "19": {
+    "20": {
       "name": "Leif",
       "element": "Water",
       "hp_mod": 3,
@@ -73549,7 +74530,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "20": {
+    "21": {
       "name": "Lucina",
       "element": "Wind",
       "hp_mod": 3,
@@ -73558,7 +74539,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "21": {
+    "22": {
       "name": "Lyn",
       "element": "Wind",
       "hp_mod": 3,
@@ -73567,7 +74548,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "22": {
+    "23": {
       "name": "Marth",
       "element": "Fire",
       "hp_mod": 3,
@@ -73576,7 +74557,7 @@ var data = {
       "def_mod": 4,
       "res_mod": 0
     },
-    "23": {
+    "24": {
       "name": "Naga",
       "element": "Astra",
       "hp_mod": 5,
@@ -73585,7 +74566,7 @@ var data = {
       "def_mod": 5,
       "res_mod": 0
     },
-    "24": {
+    "25": {
       "name": "Peony",
       "element": "Light",
       "hp_mod": 5,
@@ -73594,7 +74575,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "25": {
+    "26": {
       "name": "Robin",
       "element": "Earth",
       "hp_mod": 3,
@@ -73603,7 +74584,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "26": {
+    "27": {
       "name": "Roy",
       "element": "Fire",
       "hp_mod": 3,
@@ -73612,7 +74593,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0
     },
-    "27": {
+    "28": {
       "name": "Ryoma",
       "element": "Water",
       "hp_mod": 3,
@@ -73621,7 +74602,7 @@ var data = {
       "def_mod": 4,
       "res_mod": 0
     },
-    "28": {
+    "29": {
       "name": "Sothis",
       "element": "Dark",
       "hp_mod": 5,
@@ -73630,7 +74611,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 5
     },
-    "29": {
+    "30": {
       "name": "Thrasir",
       "element": "Anima",
       "hp_mod": 5,
@@ -73639,7 +74620,7 @@ var data = {
       "def_mod": 5,
       "res_mod": 0
     },
-    "30": {
+    "31": {
       "name": "Tiki",
       "element": "Earth",
       "hp_mod": 3,
@@ -73648,7 +74629,7 @@ var data = {
       "def_mod": 4,
       "res_mod": 0
     },
-    "31": {
+    "32": {
       "name": "Yune",
       "element": "Dark",
       "hp_mod": 5,

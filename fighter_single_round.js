@@ -974,7 +974,7 @@ Fighter.prototype.comparison_evaluator = function(comparison_string, e) {
     case ">=":
       return this.parse_num_expr(term1, e) >= this.parse_num_expr(term2, e);
     case "<=":
-      return this.parse_num_expr(term1, e) >= this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e) <= this.parse_num_expr(term2, e);
     default:
       return false;
   }
