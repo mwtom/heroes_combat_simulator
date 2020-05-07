@@ -1664,6 +1664,14 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
       return this.get_penalty_value("def", "active");
     case "active_res_penalty":
       return this.get_penalty_value("res", "active");
+    case "total_atk_penalty":
+      return this.get_penalty_value("atk", "extant") + Math.abs(Math.min(this.get_buff_value("atk", "extant"), 0));
+    case "total_spd_penalty":
+      return this.get_penalty_value("spd", "extant") + Math.abs(Math.min(this.get_buff_value("spd", "extant"), 0));
+    case "total_def_penalty":
+      return this.get_penalty_value("def", "extant") + Math.abs(Math.min(this.get_buff_value("def", "extant"), 0));
+    case "total_res_penalty":
+      return this.get_penalty_value("res", "extant") + Math.abs(Math.min(this.get_buff_value("res", "extant"), 0));
     case "e_atk_penalty":
       return e.get_penalty_value("atk", "extant");
     case "e_spd_penalty":
@@ -1680,6 +1688,14 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
       return e.get_penalty_value("def", "active");
     case "e_active_res_penalty":
       return e.get_penalty_value("res", "active");
+    case "e_total_atk_penalty":
+      return e.get_penalty_value("atk", "extant") + Math.abs(Math.min(e.get_buff_value("atk", "extant"), 0));
+    case "e_total_spd_penalty":
+      return e.get_penalty_value("spd", "extant") + Math.abs(Math.min(e.get_buff_value("spd", "extant"), 0));
+    case "e_total_def_penalty":
+      return e.get_penalty_value("def", "extant") + Math.abs(Math.min(e.get_buff_value("def", "extant"), 0));
+    case "e_total_res_penalty":
+      return e.get_penalty_value("res", "extant") + Math.abs(Math.min(e.get_buff_value("res", "extant"), 0));
     case "weap_number_input":
       return this.weap_user_number_input;
     case "a_number_input":
