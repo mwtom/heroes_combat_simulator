@@ -382,6 +382,7 @@ class Fighter {
     this.bonus_doubler_active = false;
     this.divine_fang_active = false;
     this.neutralize_dragon_armor_effective_active = false;
+    this.dominance_active = false;
 
     // Negative Status effects
     this.panic_active = false;
@@ -1068,6 +1069,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "has_nullified_penalty":
       evaluated_boolean = this.has_nullified_penalty();
+      break;
+    case "has_positive_status":
+      evaluated_boolean = this.has_positive_status();
       break;
     case "has_negative_status":
       evaluated_boolean = this.has_negative_status();
@@ -1771,6 +1775,9 @@ Fighter.prototype.has_active_penalty = function () {
 Fighter.prototype.has_nullified_penalty = function () {
   return this.atk_penalty_nullified || this.spd_penalty_nullified || this.def_penalty_nullified || this.res_penalty_nullified;
 };
+Fighter.prototype.has_positive_status = function () {
+  return this.bonus_doubler_active || this.bonus_mov_active || this.divine_fang_active || this.neutralize_dragon_armor_effective_active || this.dominance_active;
+};
 Fighter.prototype.has_negative_status = function() {
   return this.panic_active || this.guard_active || this.isolation_active || this.gravity_active || this.flash_active || this.trilemma_active;
 };
@@ -2060,6 +2067,7 @@ Fighter.prototype.reset_flags = function () {
   this.bonus_mov_active = false;
   this.divine_fang_active = false;
   this.neutralize_dragon_armor_effective_active = false;
+  this.dominance_active = false;
 
   // Negative Status effects
   this.panic_active = false;
@@ -2101,6 +2109,7 @@ Fighter.prototype.remove_external_effects = function () {
   this.splice_external_effects_from_array(this.weapon_eff_effects);
   this.splice_external_effects_from_array(this.neutralize_weap_eff_effects);
   this.splice_external_effects_from_array(this.neutralize_mov_eff_effects);
+  this.splice_external_effects_from_array(this.bonus_damage_effects);
 };
 Fighter.prototype.splice_external_effects_from_array = function (arr) {
   for (var i = 0; i < arr.length; i++) {
@@ -3304,6 +3313,12 @@ Fighter.prototype.set_neutralize_dragon_armor_eff_flag = function (value) {
   if (this.neutralize_dragon_armor_effective_active) {
     this.neutralize_weap_eff_effects.push(new Effect("neutralize_weapon_effective", "[weap_check(RD,BD,GD,ND)|eff_susc_check(RD,BD,GD,ND)]", "Neutralize Dragon/Armor Effective Status", "external"));
     this.neutralize_mov_eff_effects.push(new Effect("neutralize_movement_effective", "[mov_check(A)]", "Neutralize Dragon/Armor Effective Status", "external"));
+  }
+};
+Fighter.prototype.set_dominance_flag = function (value) {
+  this.dominance_active = value;
+  if (this.dominance_active) {
+    this.bonus_damage_effects.push(new Effect("bonus_damage(e_active_penalty_sum;max=none)", "[0]", "Dominance Status", "external"));
   }
 };
 Fighter.prototype.set_geirskogul_support_flag = function (value) {

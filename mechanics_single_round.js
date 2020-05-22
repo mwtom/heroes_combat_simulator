@@ -405,6 +405,20 @@ function simulate() {
           Defender.set_neutralize_dragon_armor_eff_flag(true);
           break;
       }
+      switch (document.getElementById("DominanceActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_dominance_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_dominance_flag(true);
+          break;
+        case "Both":
+          Attacker.set_dominance_flag(true);
+          Defender.set_dominance_flag(true);
+          break;
+      }
 
       // If external effects are not neutralized by either fighter, apply any that were specified on the UI.
       for (var j = 0; j < Attacker.neutralize_external_skills_effects.length; j++) {
