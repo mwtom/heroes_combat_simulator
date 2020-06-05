@@ -209,7 +209,6 @@ class Fighter {
     // Neutralization effects
     this.neutralize_bonus_effects = new Array();
     this.neutralize_penalty_effects = new Array();
-    this.nullify_penalty_effects = new Array();
     this.neutralize_triangle_amplifier_effects = new Array();
     //this.neutralize_e_triangle_amplifier_effects = new Array();
     this.neutralize_weap_eff_effects = new Array();
@@ -335,10 +334,6 @@ class Fighter {
     this.spd_penalty_neutralized = false;
     this.def_penalty_neutralized = false;
     this.res_penalty_neutralized = false;
-    this.atk_penalty_nullified = false;
-    this.spd_penalty_nullified = false;
-    this.def_penalty_nullified = false;
-    this.res_penalty_nullified = false;
 
     this.neutralizes_wrathful_staff = false;
     this.neutralizes_adaptive_damage = false;
@@ -717,9 +712,6 @@ Fighter.prototype.sort_effect = function (effect) {
     case "neutralize_penalties":
       this.neutralize_penalty_effects.push(effect);
       break;
-    case "nullify_penalties":
-      this.nullify_penalty_effects.push(effect);
-      break;
     case "neutralize_weapon_effective":
       this.neutralize_weap_eff_effects.push(effect);
       break;
@@ -1067,8 +1059,8 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
     case "has_active_penalty":
       evaluated_boolean = this.has_active_penalty();
       break;
-    case "has_nullified_penalty":
-      evaluated_boolean = this.has_nullified_penalty();
+    case "has_neutralized_penalty":
+      evaluated_boolean = this.has_neutralized_penalty();
       break;
     case "has_positive_status":
       evaluated_boolean = this.has_positive_status();
@@ -1620,86 +1612,54 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
       return e.get_combat_spd() + e.get_phantom_spd();
     case "e_printed_comparison_spd":
       return e.get_printed_spd() + e.get_phantom_spd();
-    case "active_atk_buff":
-      return this.get_buff_value("atk", "active");
-    case "active_spd_buff":
-      return this.get_buff_value("spd", "active");
-    case "active_def_buff":
-      return this.get_buff_value("def", "active");
-    case "active_res_buff":
-      return this.get_buff_value("res", "active");
-    case "extant_atk_buff":
-      return this.get_buff_value("atk", "extant");
-    case "extant_spd_buff":
-      return this.get_buff_value("spd", "extant");
-    case "extant_def_buff":
-      return this.get_buff_value("def", "extant");
-    case "extant_res_buff":
-      return this.get_buff_value("res", "extant");
-    case "e_active_atk_buff":
-      return e.get_buff_value("atk", "active");
-    case "e_active_spd_buff":
-      return e.get_buff_value("spd", "active");
-    case "e_active_def_buff":
-      return e.get_buff_value("def", "active");
-    case "e_active_res_buff":
-      return e.get_buff_value("res", "active");
-    case "e_extant_atk_buff":
-      return e.get_buff_value("atk", "extant");
-    case "e_extant_spd_buff":
-      return e.get_buff_value("spd", "extant");
-    case "e_extant_def_buff":
-      return e.get_buff_value("def", "extant");
-    case "e_extant_res_buff":
-      return e.get_buff_value("res", "extant");
+    case "atk_buff":
+      return this.get_buff_value("atk");
+    case "spd_buff":
+      return this.get_buff_value("spd");
+    case "def_buff":
+      return this.get_buff_value("def");
+    case "res_buff":
+      return this.get_buff_value("res");
+    case "e_atk_buff":
+      return e.get_buff_value("atk");
+    case "e_spd_buff":
+      return e.get_buff_value("spd");
+    case "e_def_buff":
+      return e.get_buff_value("def");
+    case "e_res_buff":
+      return e.get_buff_value("res");
     case "atk_penalty":
-      return this.get_penalty_value("atk", "extant");
+      return this.get_penalty_value("atk");
     case "spd_penalty":
-      return this.get_penalty_value("spd", "extant");
+      return this.get_penalty_value("spd");
     case "def_penalty":
-      return this.get_penalty_value("def", "extant");
+      return this.get_penalty_value("def");
     case "res_penalty":
-      return this.get_penalty_value("res", "extant");
-    case "active_atk_penalty":
-      return this.get_penalty_value("atk", "active");
-    case "active_spd_penalty":
-      return this.get_penalty_value("spd", "active");
-    case "active_def_penalty":
-      return this.get_penalty_value("def", "active");
-    case "active_res_penalty":
-      return this.get_penalty_value("res", "active");
+      return this.get_penalty_value("res");
     case "total_atk_penalty":
-      return this.get_penalty_value("atk", "extant") + Math.abs(Math.min(this.get_buff_value("atk", "extant"), 0));
+      return this.get_penalty_value("atk") + Math.abs(Math.min(this.get_buff_value("atk"), 0));
     case "total_spd_penalty":
-      return this.get_penalty_value("spd", "extant") + Math.abs(Math.min(this.get_buff_value("spd", "extant"), 0));
+      return this.get_penalty_value("spd") + Math.abs(Math.min(this.get_buff_value("spd"), 0));
     case "total_def_penalty":
-      return this.get_penalty_value("def", "extant") + Math.abs(Math.min(this.get_buff_value("def", "extant"), 0));
+      return this.get_penalty_value("def") + Math.abs(Math.min(this.get_buff_value("def"), 0));
     case "total_res_penalty":
-      return this.get_penalty_value("res", "extant") + Math.abs(Math.min(this.get_buff_value("res", "extant"), 0));
+      return this.get_penalty_value("res") + Math.abs(Math.min(this.get_buff_value("res"), 0));
     case "e_atk_penalty":
-      return e.get_penalty_value("atk", "extant");
+      return e.get_penalty_value("atk");
     case "e_spd_penalty":
-      return e.get_penalty_value("spd", "extant");
+      return e.get_penalty_value("spd");
     case "e_def_penalty":
-      return e.get_penalty_value("def", "extant");
+      return e.get_penalty_value("def");
     case "e_res_penalty":
-      return e.get_penalty_value("res", "extant");
-    case "e_active_atk_penalty":
-      return e.get_penalty_value("atk", "active");
-    case "e_active_spd_penalty":
-      return e.get_penalty_value("spd", "active");
-    case "e_active_def_penalty":
-      return e.get_penalty_value("def", "active");
-    case "e_active_res_penalty":
-      return e.get_penalty_value("res", "active");
+      return e.get_penalty_value("res");
     case "e_total_atk_penalty":
-      return e.get_penalty_value("atk", "extant") + Math.abs(Math.min(e.get_buff_value("atk", "extant"), 0));
+      return e.get_penalty_value("atk") + Math.abs(Math.min(e.get_buff_value("atk"), 0));
     case "e_total_spd_penalty":
-      return e.get_penalty_value("spd", "extant") + Math.abs(Math.min(e.get_buff_value("spd", "extant"), 0));
+      return e.get_penalty_value("spd") + Math.abs(Math.min(e.get_buff_value("spd"), 0));
     case "e_total_def_penalty":
-      return e.get_penalty_value("def", "extant") + Math.abs(Math.min(e.get_buff_value("def", "extant"), 0));
+      return e.get_penalty_value("def") + Math.abs(Math.min(e.get_buff_value("def"), 0));
     case "e_total_res_penalty":
-      return e.get_penalty_value("res", "extant") + Math.abs(Math.min(e.get_buff_value("res", "extant"), 0));
+      return e.get_penalty_value("res") + Math.abs(Math.min(e.get_buff_value("res"), 0));
     case "weap_number_input":
       return this.weap_user_number_input;
     case "a_number_input":
@@ -1725,22 +1685,16 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
         return e.get_range();
     case "cooldown_count":
       return this.cooldown;
-    case "active_buff_sum":
-      return Math.max(this.get_buff_value("atk", "active"), 0) + Math.max(this.get_buff_value("spd", "active"), 0) + Math.max(this.get_buff_value("def", "active"), 0) + Math.max(this.get_buff_value("res", "active"), 0);
-    case "e_active_buff_sum":
-      return Math.max(e.get_buff_value("atk", "active"), 0) + Math.max(e.get_buff_value("spd", "active"), 0) + Math.max(e.get_buff_value("def", "active"), 0) + Math.max(e.get_buff_value("res", "active"), 0);
+    case "buff_sum":
+      return Math.max(this.get_buff_value("atk"), 0) + Math.max(this.get_buff_value("spd"), 0) + Math.max(this.get_buff_value("def"), 0) + Math.max(this.get_buff_value("res"), 0);
+    case "e_buff_sum":
+      return Math.max(e.get_buff_value("atk"), 0) + Math.max(e.get_buff_value("spd"), 0) + Math.max(e.get_buff_value("def"), 0) + Math.max(e.get_buff_value("res"), 0);
     case "penalty_sum":
-      return this.get_penalty_value("atk", "extant") + this.get_penalty_value("spd", "extant") + this.get_penalty_value("def", "extant") + this.get_penalty_value("res", "extant") +
-             Math.abs(Math.min(this.get_buff_value("atk", "extant"), 0)) + Math.abs(Math.min(this.get_buff_value("spd", "extant"), 0)) + Math.abs(Math.min(this.get_buff_value("def", "extant"), 0)) + Math.abs(Math.min(this.get_buff_value("res", "extant"), 0));
+      return this.get_penalty_value("atk") + this.get_penalty_value("spd") + this.get_penalty_value("def") + this.get_penalty_value("res") +
+             Math.abs(Math.min(this.get_buff_value("atk"), 0)) + Math.abs(Math.min(this.get_buff_value("spd"), 0)) + Math.abs(Math.min(this.get_buff_value("def"), 0)) + Math.abs(Math.min(this.get_buff_value("res"), 0));
     case "e_penalty_sum":
-      return e.get_penalty_value("atk", "extant") + e.get_penalty_value("spd", "extant") + e.get_penalty_value("def", "extant") + e.get_penalty_value("res", "extant") +
-             Math.abs(Math.min(e.get_buff_value("atk", "extant"), 0)) + Math.abs(Math.min(e.get_buff_value("spd", "extant"), 0)) + Math.abs(Math.min(e.get_buff_value("def", "extant"), 0)) + Math.abs(Math.min(e.get_buff_value("res", "extant"), 0));
-    case "active_penalty_sum":
-      return this.get_penalty_value("atk", "active") + this.get_penalty_value("spd", "active") + this.get_penalty_value("def", "active") + this.get_penalty_value("res", "active") +
-             Math.abs(Math.min(this.get_buff_value("atk", "active"), 0)) + Math.abs(Math.min(this.get_buff_value("spd", "active"), 0)) + Math.abs(Math.min(this.get_buff_value("def", "active"), 0)) + Math.abs(Math.min(this.get_buff_value("res", "active"), 0));
-    case "e_active_penalty_sum":
-      return e.get_penalty_value("atk", "active") + e.get_penalty_value("spd", "active") + e.get_penalty_value("def", "active") + e.get_penalty_value("res", "active") +
-             Math.abs(Math.min(e.get_buff_value("atk", "active"), 0)) + Math.abs(Math.min(e.get_buff_value("spd", "active"), 0)) + Math.abs(Math.min(e.get_buff_value("def", "active"), 0)) + Math.abs(Math.min(e.get_buff_value("res", "active"), 0));
+      return e.get_penalty_value("atk") + e.get_penalty_value("spd") + e.get_penalty_value("def") + e.get_penalty_value("res") +
+             Math.abs(Math.min(e.get_buff_value("atk"), 0)) + Math.abs(Math.min(e.get_buff_value("spd"), 0)) + Math.abs(Math.min(e.get_buff_value("def"), 0)) + Math.abs(Math.min(e.get_buff_value("res"), 0));
     case "adj":
       return this.adjacent_allies;
     case "e_adj":
@@ -1760,20 +1714,13 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
 
 // Checks the existence of a stat penalty on the unit.
 Fighter.prototype.has_penalty = function() {
-  return ((this.atk_penalty > 0 || this.atk_buff < 0 || (this.atk_buff > 0 && this.panic_active)) && !this.atk_penalty_nullified) ||
-         ((this.spd_penalty > 0 || this.spd_buff < 0 || (this.spd_buff > 0 && this.panic_active)) && !this.spd_penalty_nullified) ||
-         ((this.def_penalty > 0 || this.def_buff < 0 || (this.def_buff > 0 && this.panic_active)) && !this.def_penalty_nullified) ||
-         ((this.res_penalty > 0 || this.res_buff < 0 || (this.res_buff > 0 && this.panic_active)) && !this.res_penalty_nullified);
+  return ((this.atk_penalty > 0 || this.atk_buff < 0 || (this.atk_buff > 0 && this.panic_active)) && !this.atk_penalty_neutralized) ||
+         ((this.spd_penalty > 0 || this.spd_buff < 0 || (this.spd_buff > 0 && this.panic_active)) && !this.spd_penalty_neutralized) ||
+         ((this.def_penalty > 0 || this.def_buff < 0 || (this.def_buff > 0 && this.panic_active)) && !this.def_penalty_neutralized) ||
+         ((this.res_penalty > 0 || this.res_buff < 0 || (this.res_buff > 0 && this.panic_active)) && !this.res_penalty_neutralized);
 };
-// Checks for an active stat penalty on the unit.
-Fighter.prototype.has_active_penalty = function () {
-  return ((this.atk_penalty > 0 || this.atk_buff < 0 || (this.atk_buff > 0 && this.panic_active)) && !this.atk_penalty_neutralized && !this.atk_penalty_nullified) ||
-         ((this.spd_penalty > 0 || this.spd_buff < 0 || (this.spd_buff > 0 && this.panic_active)) && !this.spd_penalty_neutralized && !this.spd_penalty_nullified) ||
-         ((this.def_penalty > 0 || this.def_buff < 0 || (this.def_buff > 0 && this.panic_active)) && !this.def_penalty_neutralized && !this.def_penalty_nullified) ||
-         ((this.res_penalty > 0 || this.res_buff < 0 || (this.res_buff > 0 && this.panic_active)) && !this.res_penalty_neutralized && !this.res_penalty_nullified);
-};
-Fighter.prototype.has_nullified_penalty = function () {
-  return this.atk_penalty_nullified || this.spd_penalty_nullified || this.def_penalty_nullified || this.res_penalty_nullified;
+Fighter.prototype.has_neutralized_penalty = function () {
+  return this.atk_penalty_neutralized || this.spd_penalty_neutralized || this.def_penalty_neutralized || this.res_penalty_neutralized;
 };
 Fighter.prototype.has_positive_status = function () {
   return this.bonus_doubler_active || this.bonus_mov_active || this.divine_fang_active || this.neutralize_dragon_armor_effective_active || this.dominance_active;
@@ -1782,105 +1729,78 @@ Fighter.prototype.has_negative_status = function() {
   return this.panic_active || this.guard_active || this.isolation_active || this.gravity_active || this.flash_active || this.trilemma_active;
 };
 
-Fighter.prototype.get_buff_value = function (stat, mode) {
+Fighter.prototype.get_buff_value = function (stat) {
   var value;
   var is_neutralized;
-  var penalty_neutralized, penalty_nullified;
+  var penalty_neutralized;
 
   switch (stat) {
     case "atk":
       value = this.atk_buff;
       is_neutralized = this.atk_buff_neutralized;
       penalty_neutralized = this.atk_penalty_neutralized;
-      penalty_nullified = this.atk_penalty_nullified;
       break;
     case "spd":
       value = this.spd_buff;
       is_neutralized = this.spd_buff_neutralized;
       penalty_neutralized = this.spd_penalty_neutralized;
-      penalty_nullified = this.spd_penalty_nullified;
       break;
     case "def":
       value = this.def_buff;
       is_neutralized = this.def_buff_neutralized;
       penalty_neutralized = this.def_penalty_neutralized;
-      penalty_nullified = this.def_penalty_nullified;
       break;
     case "res":
       value = this.res_buff;
       is_neutralized = this.res_buff_neutralized;
       penalty_neutralized = this.res_penalty_neutralized;
-      penalty_nullified = this.res_penalty_nullified;
       break;
   }
 
   if (this.panic_active && value > 0) {
-    if (mode == "active") {
-      if (penalty_neutralized || penalty_nullified)
-        return 0;
-    }
-    if (mode == "extant") {
-      if (penalty_nullified)
-        return 0;
-    }
+    if (penalty_neutralized)
+      return 0;
+
     return value * -1;
   }
   else if (is_neutralized && value > 0) {
-    if (mode == "extant")
-      return value;
-    if (mode == "active")
       return 0;
   }
   else if (value < 0) {
-    if (mode == "active") {
-      if (penalty_neutralized || penalty_nullified)
+    if (penalty_neutralized)
         return 0;
-    }
-    if (mode == "extant") {
-      if (penalty_nullified)
-        return 0;
-    }
+
     return value;
   }
   else
     return value;
 };
 // Retrieves value of an active stat penalty.
-Fighter.prototype.get_penalty_value = function (stat, mode) {
+Fighter.prototype.get_penalty_value = function (stat) {
   var value;
-  var is_neutralized = false, is_nullified = false;
+  var is_neutralized = false;
 
   switch (stat) {
     case "atk":
       value = this.atk_penalty;
       is_neutralized = this.atk_penalty_neutralized;
-      is_nullified = this.atk_penalty_nullified;
       break;
     case "spd":
       value = this.spd_penalty;
       is_neutralized = this.spd_penalty_neutralized;
-      is_nullified = this.spd_penalty_nullified;
       break;
     case "def":
       value = this.def_penalty;
       is_neutralized = this.def_penalty_neutralized;
-      is_nullified = this.def_penalty_nullified;
       break;
     case "res":
       value = this.res_penalty;
       is_neutralized = this.res_penalty_neutralized;
-      is_nullified = this.res_penalty_nullified;
       break;
   }
 
-  if (mode == "active") {
-    if (is_neutralized || is_nullified)
+  if (is_neutralized)
       return 0;
-  }
-  else if (mode == "extant") {
-    if (is_nullified)
-      return 0;
-  }
 
   return value;
 };
@@ -2043,10 +1963,6 @@ Fighter.prototype.reset_flags = function () {
   this.spd_penalty_neutralized = false;
   this.def_penalty_neutralized = false;
   this.res_penalty_neutralized = false;
-  this.atk_penalty_nullified = false;
-  this.spd_penalty_nullified = false;
-  this.def_penalty_nullified = false;
-  this.res_penalty_nullified = false;
 
   this.neutralizes_wrathful_staff = false;
   this.neutralizes_adaptive_damage = false;
@@ -3174,64 +3090,6 @@ Fighter.prototype.set_neutralize_penalty_flags = function (effect_string) {
     return ". The " + log_string + " and " + neutralized_penalties[neutralized_penalties.length - 1] + " penalties were neutralized.<br />";
   }
 };
-Fighter.prototype.set_nullify_penalty_flags = function (effect_string) {
-  var reader = "";
-  var log_string = "";
-  var nullified_penalties = new Array();
-
-  // The first 18 characters of effect_string are "nullify_penalties("
-  for (var i = 18; i < effect_string.length; i++) {
-    if (effect_string[i] == "," || i == effect_string.length - 1) {
-      switch(reader) {
-        case "atk_penalty":
-          this.atk_penalty_nullified = true;
-          if (this.atk_penalty > 0 || this.atk_buff < 0 || (this.atk_buff > 0 && this.panic_active))
-            nullified_penalties.push("Atk");
-          //this.atk_penalty = 0;
-          //this.atk_buff = Math.max(this.atk_buff, 0);
-          break;
-        case "spd_penalty":
-          this.spd_penalty_nullified = true;
-          if (this.spd_penalty > 0 || this.spd_buff < 0 || (this.spd_buff > 0 && this.panic_active))
-            nullified_penalties.push("Spd");
-          //this.spd_penalty = 0;
-          //this.spd_buff = Math.max(this.spd_buff, 0);
-          break;
-        case "def_penalty":
-          this.def_penalty_nullified = true;
-          if (this.def_penalty > 0 || this.def_buff < 0 || (this.def_buff > 0 && this.panic_active))
-            nullified_penalties.push("Def");
-          //this.def_penalty = 0;
-          //this.def_buff = Math.max(this.def_buff, 0);
-          break;
-        case "res_penalty":
-          this.res_penalty_nullified = true;
-          if (this.res_penalty > 0 || this.res_buff < 0 || (this.res_buff > 0 && this.panic_active))
-            nullified_penalties.push("Res");
-          //this.res_penalty = 0;
-          //this.res_buff = Math.max(this.res_buff, 0);
-          break;
-        default:
-          console.log("Invalid penalty name " + reader + " was encountered while setting penalty nullification flags.");
-      }
-      reader = "";
-    }
-    else
-      reader += effect_string[i];
-  }
-
-  if (nullified_penalties.length == 0) {
-    return ", but there were no penalties to nullify.<br />";
-  }
-  else if (nullified_penalties.length == 1) {
-    return ". The " + nullified_penalties[0] + " penalty was nullified.<br />";
-  }
-  else {
-    for (var i = 0; i < nullified_penalties.length - 1; i++)
-      log_string += nullified_penalties[i] + ", ";
-    return ". The " + log_string + " and " + nullified_penalties[nullified_penalties.length - 1] + " penalties were nullified.<br />";
-  }
-};
 Fighter.prototype.set_skill_inputs = function (mode, boolean_input, number_input) {
   switch (mode) {
     case "weapon":
@@ -3318,7 +3176,7 @@ Fighter.prototype.set_neutralize_dragon_armor_eff_flag = function (value) {
 Fighter.prototype.set_dominance_flag = function (value) {
   this.dominance_active = value;
   if (this.dominance_active) {
-    this.bonus_damage_effects.push(new Effect("bonus_damage(e_active_penalty_sum;max=none)", "[0]", "Dominance Status", "external"));
+    this.bonus_damage_effects.push(new Effect("bonus_damage(e_penalty_sum;max=none)", "[0]", "Dominance Status", "external"));
   }
 };
 Fighter.prototype.set_geirskogul_support_flag = function (value) {

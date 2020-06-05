@@ -1042,20 +1042,13 @@ function execute_phase(player, enemy, player_initiating) {
     if (defender.eval_conditions(defender.neutralize_bonus_effects[i].conditions, attacker))
       attacker.set_neutralize_bonus_flags(defender.neutralize_bonus_effects[i].effect);
 
-  // Set neutralize and nullify penalty flags.
+  // Set neutralize penalty flags.
   for (var i = 0; i < attacker.neutralize_penalty_effects.length; i++)
     if (attacker.eval_conditions(attacker.neutralize_penalty_effects[i].conditions, defender))
       combat_log += attacker.get_name() + "'s " + attacker.neutralize_penalty_effects[i].source + " neutralizes penalties" + attacker.set_neutralize_penalty_flags(attacker.neutralize_penalty_effects[i].effect);
   for (var i = 0; i < defender.neutralize_penalty_effects.length; i++)
     if (defender.eval_conditions(defender.neutralize_penalty_effects[i].conditions, attacker))
       combat_log += defender.get_name() + "'s " + defender.neutralize_penalty_effects[i].source + " neutralizes penalties" + defender.set_neutralize_penalty_flags(defender.neutralize_penalty_effects[i].effect);
-
-  for (var i = 0; i < attacker.nullify_penalty_effects.length; i++)
-    if (attacker.eval_conditions(attacker.nullify_penalty_effects[i].conditions, defender))
-      combat_log += attacker.get_name() + "'s " + attacker.nullify_penalty_effects[i].source + " nullifies penalties" + attacker.set_nullify_penalty_flags(attacker.nullify_penalty_effects[i].effect);
-  for (var i = 0; i < defender.nullify_penalty_effects.length; i++)
-    if (defender.eval_conditions(defender.nullify_penalty_effects[i].conditions, attacker))
-      combat_log += defender.get_name() + "'s " + defender.nullify_penalty_effects[i].source + " nullifies penalties" + defender.set_nullify_penalty_flags(defender.nullify_penalty_effects[i].effect);
 
   // Set neutralize wrathful staff flags.
   for (var i = 0; i < attacker.neutralize_wrathful_staff_effects.length; i++) {
