@@ -419,6 +419,20 @@ function simulate() {
           Defender.set_dominance_flag(true);
           break;
       }
+      switch (document.getElementById("DesperationActive").value) {
+        case "Neither":
+          break;
+        case "Player":
+          Attacker.set_desperation_status_flag(true);
+          break;
+        case "Enemy":
+          Defender.set_desperation_status_flag(true);
+          break;
+        case "Both":
+          Attacker.set_desperation_status_flag(true);
+          Defender.set_desperation_status_flag(true);
+          break;
+      }
 
       // If external effects are not neutralized by either fighter, apply any that were specified on the UI.
       for (var j = 0; j < Attacker.neutralize_external_skills_effects.length; j++) {
@@ -1307,6 +1321,14 @@ function execute_phase(player, enemy, player_initiating) {
       }
     }
 
+    // Determines whether the defender's Desperation is active.
+    for (var i = 0; i < defender.desperation_effects.length; i++) {
+      if (defender.eval_conditions(defender.desperation_effects[i].conditions, attacker)) {
+        defender.set_desperation_flag(true);
+        break;
+      }
+    }
+
     // Determines whether the defender's Vantage is active.
     for (var i = 0; i < defender.vantage_effects.length; i++) {
       if (defender.eval_conditions(defender.vantage_effects[i].conditions, attacker)) {
@@ -1337,6 +1359,31 @@ function execute_phase(player, enemy, player_initiating) {
     }
     if (attacker.get_hp() == 0) {
       return combat_log;
+    }
+  }
+
+  // The defender gets another strike if vantage and desperation both apply.
+  if (defender.get_counterattack_flag() && defender.get_vantage_flag() && (defender.get_desperation_flag() && defender.get_follow_up_flag())) {
+    combat_log += (defender.get_name() + "'s follow up occurs immediately!<br />");
+
+    defender.set_hitting_consecutively_flag(true);
+    calculate_damage(defender, attacker);
+    defender.set_hitting_consecutively_flag(false);
+
+    if (attacker.get_hp() == 0) {
+      return combat_log;
+    }
+
+    if (defender.get_strike_twice_flag()) {
+      combat_log += defender.get_name() + " performs an immediate second strike!<br />";
+
+      defender.set_hitting_consecutively_flag(true);
+      calculate_damage(defender, attacker);
+      defender.set_hitting_consecutively_flag(false);
+
+      if (attacker.get_hp() == 0) {
+        return combat_log;
+      }
     }
   }
 
@@ -1430,6 +1477,31 @@ function execute_phase(player, enemy, player_initiating) {
       if (attacker.get_hp() == 0) {
         return combat_log;
       }
+
+      // Perform a follow up attack if the defender's desperation is active.
+      if (defender.get_desperation_flag() && defender.get_follow_up_flag()) {
+        combat_log += defender.get_name() + "'s follow up occurs immediately!<br />";
+
+        defender.set_hitting_consecutively_flag(true);
+        calculate_damage(defender, attacker);
+        defender.set_hitting_consecutively_flag(false);
+
+        if (attacker.get_hp() == 0) {
+          return combat_log;
+        }
+
+        if (defender.get_strike_twice_flag()) {
+          combat_log += defender.get_name() + " performs an immediate second strike!<br />";
+
+          defender.set_hitting_consecutively_flag(true);
+          calculate_damage(defender, attacker);
+          defender.set_hitting_consecutively_flag(false);
+
+          if (attacker.get_hp() == 0) {
+            return combat_log;
+          }
+        }
+      }
     }
   }
 
@@ -1461,8 +1533,8 @@ function execute_phase(player, enemy, player_initiating) {
   }
 
   // If defender can counter, can double, and did not already do so by virtue of
-  // vantage activating, perform the 2nd attack.
-  if (defender.get_counterattack_flag() && defender.get_follow_up_flag() && !defender.get_vantage_flag()) {
+  // vantage or desperation being active, perform the 2nd attack.
+  if (defender.get_counterattack_flag() && defender.get_follow_up_flag() && !defender.get_vantage_flag() && !defender.get_desperation_flag()) {
     combat_log += defender.get_name() + " performs a follow up attack!<br />";
 
     defender.set_hitting_consecutively_flag(!attacker.get_follow_up_flag());

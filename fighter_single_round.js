@@ -378,6 +378,7 @@ class Fighter {
     this.divine_fang_active = false;
     this.neutralize_dragon_armor_effective_active = false;
     this.dominance_active = false;
+    this.desperation_status_active = false;
 
     // Negative Status effects
     this.panic_active = false;
@@ -1723,7 +1724,7 @@ Fighter.prototype.has_neutralized_penalty = function () {
   return this.atk_penalty_neutralized || this.spd_penalty_neutralized || this.def_penalty_neutralized || this.res_penalty_neutralized;
 };
 Fighter.prototype.has_positive_status = function () {
-  return this.bonus_doubler_active || this.bonus_mov_active || this.divine_fang_active || this.neutralize_dragon_armor_effective_active || this.dominance_active;
+  return this.bonus_doubler_active || this.bonus_mov_active || this.divine_fang_active || this.neutralize_dragon_armor_effective_active || this.dominance_active || this.desperation_status_active;
 };
 Fighter.prototype.has_negative_status = function() {
   return this.panic_active || this.guard_active || this.isolation_active || this.gravity_active || this.flash_active || this.trilemma_active;
@@ -1984,6 +1985,7 @@ Fighter.prototype.reset_flags = function () {
   this.divine_fang_active = false;
   this.neutralize_dragon_armor_effective_active = false;
   this.dominance_active = false;
+  this.desperation_status_active = false;
 
   // Negative Status effects
   this.panic_active = false;
@@ -2026,6 +2028,7 @@ Fighter.prototype.remove_external_effects = function () {
   this.splice_external_effects_from_array(this.neutralize_weap_eff_effects);
   this.splice_external_effects_from_array(this.neutralize_mov_eff_effects);
   this.splice_external_effects_from_array(this.bonus_damage_effects);
+  this.splice_external_effects_from_array(this.desperation_effects);
 };
 Fighter.prototype.splice_external_effects_from_array = function (arr) {
   for (var i = 0; i < arr.length; i++) {
@@ -3177,6 +3180,12 @@ Fighter.prototype.set_dominance_flag = function (value) {
   this.dominance_active = value;
   if (this.dominance_active) {
     this.bonus_damage_effects.push(new Effect("bonus_damage(e_penalty_sum;max=none)", "[0]", "Dominance Status", "external"));
+  }
+};
+Fighter.prototype.set_desperation_status_flag = function (value) {
+  this.desperation_status_active = value;
+  if (this.desperation_status_active) {
+    this.desperation_effects.push(new Effect("desperation", "[boolean_check(initiating,true)]", "Desperation Status", "external"));
   }
 };
 Fighter.prototype.set_geirskogul_support_flag = function (value) {
