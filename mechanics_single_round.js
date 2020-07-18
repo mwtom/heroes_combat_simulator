@@ -73,7 +73,7 @@ function simulate() {
   document.getElementById("CharRes").innerHTML = Attacker.get_permanent_res();
 
   // Prep & logging variables
-  var boon, bane, weap, weap_selected, refine, respl, a, b, c, proc, seal;
+  var boon, bane, weap, weap_selected, refine, respl, merge_lv, flower_lv, a, b, c, proc, seal;
   var Defender;
   var orko = new Array();
   var orko_dealt = new Array();
@@ -95,99 +95,68 @@ function simulate() {
   var no_ko_skill_log = new Array();
   var msg = "";
 
-  var enemy_pool;
-  if (document.getElementById("Base_Foes").checked) {
-    enemy_pool = Characters;
-  }
-  else if (document.getElementById("Optimized_Foes").checked) {
-    enemy_pool = Optimized_Chars;
-  }
+  var enemy_pool = Enemy_List;
 
   // Iterate on all characters from the desired pool.
   for (var i = 0; i < enemy_pool.length; i++) {
     // Only run the matchup if the character is within the subset defined by the filters.
     if (passes_filter_reqs(enemy_pool[i])) {
-      if (document.getElementById("Base_Foes").checked) {
-        boon = document.getElementById("EnemyBoon").value;
-        bane = document.getElementById("EnemyBane").value;
-        respl = false;
+      boon = enemy_pool[i].boon;
+      bane = enemy_pool[i].bane;
+      weap = Weapons[enemy_pool[i].weapon];
+      refine = enemy_pool[i].refine;
+      a = A_Passives[enemy_pool[i].a];
+      b = B_Passives[enemy_pool[i].b];
+      c = C_Passives[enemy_pool[i].c];
+      proc = Procs[enemy_pool[i].proc];
+      seal = Seals[enemy_pool[i].seal];
 
-        // Skill validation on enemy overrides. Use default skills if override skill is invalid.
-        weap_selected = document.getElementById("EnemyWeapon").value;
-        // A weapon override is valid if one of the following applies:
-        //    -The weapon is inheritable by the character, or is upgraded/evolved from a weapon that
-        //     is inheritable by the character.
-        //    -The weapon is the character's base weapon, or is upgraded/evolved from their base weapon
-        //    -Inheritance restrictions have been removed by the user.
-        if (weap_selected != 0 &&
-            ((verify_legality(enemy_pool[i], Weapons[weap_selected]) || verify_legality(enemy_pool[i], Weapons[Weapons[weap_selected].evolved_from]))
-              ||
-              (weap_selected == enemy_pool[i].base_weap || Weapons[weap_selected].evolved_from == enemy_pool[i].base_weap)
-              || document.getElementById("RuleBreaker").checked)) {
-          weap = Weapons[weap_selected];
-        }
-        else {
-          weap = Weapons[enemy_pool[i].base_weap];
-        }
-        refine = "None";
-        if (document.getElementById("EnemyA").value != 0 && (verify_legality(enemy_pool[i], A_Passives[document.getElementById("EnemyA").value]) || document.getElementById("RuleBreaker").checked)) {
-          a = A_Passives[document.getElementById("EnemyA").value];
-        }
-        else {
-          a = A_Passives[enemy_pool[i].base_a];
-        }
-        if (document.getElementById("EnemyB").value != 0 && (verify_legality(enemy_pool[i], B_Passives[document.getElementById("EnemyB").value]) || document.getElementById("RuleBreaker").checked)) {
-          b = B_Passives[document.getElementById("EnemyB").value];
-        }
-        else {
-          b = B_Passives[enemy_pool[i].base_b];
-        }
-        if (document.getElementById("EnemyC").value != 0 && (verify_legality(enemy_pool[i], C_Passives[document.getElementById("EnemyC").value]) || document.getElementById("RuleBreaker").checked)) {
-          c = C_Passives[document.getElementById("EnemyC").value];
-        }
-        else {
-          c = C_Passives[enemy_pool[i].base_c];
-        }
-        if (document.getElementById("EnemySpecial").value != 0 && (verify_legality(enemy_pool[i], Procs[document.getElementById("EnemySpecial").value]) || document.getElementById("RuleBreaker").checked)) {
-          proc = Procs[document.getElementById("EnemySpecial").value];
-        }
-        else {
-          proc = Procs[enemy_pool[i].base_proc];
-        }
-        if (verify_legality(enemy_pool[i], Seals[document.getElementById("EnemySeal").value]) || document.getElementById("RuleBreaker").checked) {
-          seal = Seals[document.getElementById("EnemySeal").value];
-        }
-        else {
-          seal = Seals[0];
-        }
-      }
-      else if (document.getElementById("Optimized_Foes").checked) {
-        boon = enemy_pool[i].boon;
-        bane = enemy_pool[i].bane;
-        weap = Weapons[enemy_pool[i].weapon];
-        refine = enemy_pool[i].refine;
-        respl = enemy_pool[i].resplendent;
-        a = A_Passives[enemy_pool[i].a];
-        b = B_Passives[enemy_pool[i].b];
-        c = C_Passives[enemy_pool[i].c];
-        proc = Procs[enemy_pool[i].proc];
-        seal = Seals[enemy_pool[i].seal];
-      }
+      // Retrieves the "mass override" setting, which applies the values specified in the
+      // Enemy Stats menu to all foes.
+      var mass_override = document.getElementById("apply_to_all").checked;
 
-      // Apply enemy blessings as long as the unit is eligible to receive them.
-      if (document.getElementById("EnemyBlessing").value != "(None)" &&
-          !(enemy_pool[i].legendary && legendary_blessings.includes(document.getElementById("EnemyBlessing").value)) &&
-          !(enemy_pool[i].mythic && mythic_blessings.includes(document.getElementById("EnemyBlessing").value))) {
-        blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
-        blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
-        blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
-        blessings[3] = Blessings[parseInt(document.getElementById("EnemyLegAlly4").value)];
+      // If the mass override setting is enabled, use the blessing, resplendent, merge, and
+      // dragonflower settings directly from the UI. Otherwise, use the settings specified
+      // on each individual foe.
+      if (mass_override) {
+        respl = document.getElementById("EnemyResplendent").checked && Characters[enemy_pool[i].base_index].has_resplendent;
+        merge_lv = document.getElementById("EnemyMergeLv").value;
+        flower_lv = document.getElementById("EnemyDragonflowers").value;
+        // Apply enemy blessings as long as the unit is eligible to receive them.
+        if (document.getElementById("EnemyBlessing").value != "(None)" &&
+            !(enemy_pool[i].legendary && legendary_blessings.includes(document.getElementById("EnemyBlessing").value)) &&
+            !(enemy_pool[i].mythic && mythic_blessings.includes(document.getElementById("EnemyBlessing").value))) {
+          blessings[0] = Blessings[parseInt(document.getElementById("EnemyLegAlly1").value)];
+          blessings[1] = Blessings[parseInt(document.getElementById("EnemyLegAlly2").value)];
+          blessings[2] = Blessings[parseInt(document.getElementById("EnemyLegAlly3").value)];
+          blessings[3] = Blessings[parseInt(document.getElementById("EnemyLegAlly4").value)];
+        }
+        else {
+          blessings[0] = Blessings[0];
+          blessings[1] = Blessings[0];
+          blessings[2] = Blessings[0];
+          blessings[3] = Blessings[0];
+        }
       }
       else {
-        blessings[0] = Blessings[0];
-        blessings[1] = Blessings[0];
-        blessings[2] = Blessings[0];
-        blessings[3] = Blessings[0];
+        respl = enemy_pool[i].resplendent && Characters[enemy_pool[i].base_index].has_resplendent;
+        merge_lv = enemy_pool[i].merge_lv;
+        flower_lv = enemy_pool[i].flower_lv;
+        // Apply enemy blessings as long as the unit is eligible to receive them.
+        if (enemy_pool[i].blessing != "(None)" &&
+            !(enemy_pool[i].legendary && legendary_blessings.includes(enemy_pool[i].blessing)) &&
+            !(enemy_pool[i].mythic && mythic_blessings.includes(enemy_pool[i].blessing))) {
+          blessings[0] = Blessings[enemy_pool[i].leg1];
+          blessings[1] = Blessings[enemy_pool[i].leg2];
+          blessings[2] = Blessings[enemy_pool[i].leg3];
+          blessings[3] = Blessings[enemy_pool[i].leg4];
+        }
+        else {
+          blessings[0] = Blessings[0];
+          blessings[1] = Blessings[0];
+          blessings[2] = Blessings[0];
+          blessings[3] = Blessings[0];
+        }
       }
 
       // Build the defender with the base set & valid overrides.
@@ -203,40 +172,73 @@ function simulate() {
                              proc,
                              false,
                              respl,
-                             parseInt(document.getElementById("EnemyMergeLv").value),
-                             Math.min(parseInt(document.getElementById("EnemyDragonflowers").value), enemy_pool[i].df_maximum),
+                             parseInt(merge_lv),
+                             Math.min(parseInt(flower_lv), enemy_pool[i].df_maximum),
                              blessings);
 
       // The Defender is controlled by the enemy.
       Defender.set_control_flag("enemy");
 
-      Defender.set_assumed_atk_buff(document.getElementById("EnemyAtkBuff").value);
-      Defender.set_assumed_spd_buff(document.getElementById("EnemySpdBuff").value);
-      Defender.set_assumed_def_buff(document.getElementById("EnemyDefBuff").value);
-      Defender.set_assumed_res_buff(document.getElementById("EnemyResBuff").value);
+      // If mass override is enabled, use the settings from the UI for nearby allies and
+      // stat mods. Otherwise, use the settings specified on each individual foe.
+      if (mass_override) {
+        Defender.set_assumed_atk_buff(document.getElementById("EnemyAtkBuff").value);
+        Defender.set_assumed_spd_buff(document.getElementById("EnemySpdBuff").value);
+        Defender.set_assumed_def_buff(document.getElementById("EnemyDefBuff").value);
+        Defender.set_assumed_res_buff(document.getElementById("EnemyResBuff").value);
 
-      Defender.set_assumed_atk_boost(document.getElementById("EnemyAtkBonus").value);
-      Defender.set_assumed_spd_boost(document.getElementById("EnemySpdBonus").value);
-      Defender.set_assumed_def_boost(document.getElementById("EnemyDefBonus").value);
-      Defender.set_assumed_res_boost(document.getElementById("EnemyResBonus").value);
+        Defender.set_assumed_atk_boost(document.getElementById("EnemyAtkBonus").value);
+        Defender.set_assumed_spd_boost(document.getElementById("EnemySpdBonus").value);
+        Defender.set_assumed_def_boost(document.getElementById("EnemyDefBonus").value);
+        Defender.set_assumed_res_boost(document.getElementById("EnemyResBonus").value);
 
-      Defender.set_assumed_atk_penalty(document.getElementById("EnemyAtkDebuff").value);
-      Defender.set_assumed_spd_penalty(document.getElementById("EnemySpdDebuff").value);
-      Defender.set_assumed_def_penalty(document.getElementById("EnemyDefDebuff").value);
-      Defender.set_assumed_res_penalty(document.getElementById("EnemyResDebuff").value);
+        Defender.set_assumed_atk_penalty(document.getElementById("EnemyAtkDebuff").value);
+        Defender.set_assumed_spd_penalty(document.getElementById("EnemySpdDebuff").value);
+        Defender.set_assumed_def_penalty(document.getElementById("EnemyDefDebuff").value);
+        Defender.set_assumed_res_penalty(document.getElementById("EnemyResDebuff").value);
+
+        Defender.set_nearby_allies(document.getElementById("EnemyAdjAllies").value, document.getElementById("EnemyTwoSpaceAllies").value, document.getElementById("EnemyThreeSpaceAllies").value);
+      }
+      else {
+        Defender.set_assumed_atk_buff(enemy_pool[i].assumed_atk_buff);
+        Defender.set_assumed_spd_buff(enemy_pool[i].assumed_spd_buff);
+        Defender.set_assumed_def_buff(enemy_pool[i].assumed_def_buff);
+        Defender.set_assumed_res_buff(enemy_pool[i].assumed_res_buff);
+
+        Defender.set_assumed_atk_boost(enemy_pool[i].assumed_atk_boost);
+        Defender.set_assumed_spd_boost(enemy_pool[i].assumed_spd_boost);
+        Defender.set_assumed_def_boost(enemy_pool[i].assumed_def_boost);
+        Defender.set_assumed_res_boost(enemy_pool[i].assumed_res_boost);
+
+        Defender.set_assumed_atk_penalty(enemy_pool[i].assumed_atk_penalty);
+        Defender.set_assumed_spd_penalty(enemy_pool[i].assumed_atk_penalty);
+        Defender.set_assumed_def_penalty(enemy_pool[i].assumed_atk_penalty);
+        Defender.set_assumed_res_penalty(enemy_pool[i].assumed_atk_penalty);
+
+        Defender.set_nearby_allies(enemy_pool[i].adj, enemy_pool[i].two_space, enemy_pool[i].three_space);
+      }
 
       // Set boolean inputs to true if the appropriate box is checked.
       if (document.getElementById("enemy_conditional_effects").checked) {
-        Defender.set_skill_inputs("weapon", true, 0);
-        Defender.set_skill_inputs("special", true, 0);
-        Defender.set_skill_inputs("A", true, 0);
-        Defender.set_skill_inputs("B", true, 0);
-        Defender.set_skill_inputs("C", true, 0);
-        Defender.set_skill_inputs("S", true, 0);
+        Defender.set_skill_inputs("weapon", true, enemy_pool[i].weap_num);
+        Defender.set_skill_inputs("special", true, enemy_pool[i].spec_num);
+        Defender.set_skill_inputs("A", true, enemy_pool[i].a_num);
+        Defender.set_skill_inputs("B", true, enemy_pool[i].b_num);
+        Defender.set_skill_inputs("C", true, enemy_pool[i].c_num);
+        Defender.set_skill_inputs("S", true, enemy_pool[i].seal_num);
         if (weap.type == "Be")
           Defender.set_transformed_flag(true);
       }
-      Defender.set_nearby_allies(document.getElementById("EnemyAdjAllies").value, document.getElementById("EnemyTwoSpaceAllies").value, document.getElementById("EnemyThreeSpaceAllies").value);
+      else {
+        Defender.set_skill_inputs("weapon", enemy_pool[i].weap_bool, enemy_pool[i].weap_num);
+        Defender.set_skill_inputs("special", enemy_pool[i].spec_bool, enemy_pool[i].spec_num);
+        Defender.set_skill_inputs("A", enemy_pool[i].a_bool, enemy_pool[i].a_num);
+        Defender.set_skill_inputs("B", enemy_pool[i].b_bool, enemy_pool[i].b_num);
+        Defender.set_skill_inputs("C", enemy_pool[i].c_bool, enemy_pool[i].c_num);
+        Defender.set_skill_inputs("S", enemy_pool[i].seal_bool, enemy_pool[i].seal_num);
+        if (weap.type == "Be")
+          Defender.set_transformed_flag(enemy_pool[i].transformed);
+      }
 
       Defender.calculate_permanent_stats();
 
@@ -252,15 +254,31 @@ function simulate() {
           Attacker.cooldown_start = parseInt(document.getElementById("SpecCharge").value);
         }
       }
-      if (document.getElementById("EnemyHPCut").value != "") {
-        if (Number.isInteger(parseInt(document.getElementById("EnemyHPCut").value))) {
-          Defender.reduce_hp(parseInt(document.getElementById("EnemyHPCut").value));
+
+      if (mass_override) {
+        if (document.getElementById("EnemyHPCut").value != "") {
+          if (Number.isInteger(parseInt(document.getElementById("EnemyHPCut").value))) {
+            Defender.reduce_hp(parseInt(document.getElementById("EnemyHPCut").value));
+          }
+        }
+        if (document.getElementById("EnemySpecCharge").value != "") {
+          if (Number.isInteger(parseInt(document.getElementById("EnemySpecCharge").value))) {
+            Defender.cooldown = parseInt(document.getElementById("EnemySpecCharge").value);
+            Defender.cooldown_start = parseInt(document.getElementById("EnemySpecCharge").value);
+          }
         }
       }
-      if (document.getElementById("EnemySpecCharge").value != "") {
-        if (Number.isInteger(parseInt(document.getElementById("EnemySpecCharge").value))) {
-          Defender.cooldown = parseInt(document.getElementById("EnemySpecCharge").value);
-          Defender.cooldown_start = parseInt(document.getElementById("EnemySpecCharge").value);
+      else {
+        if (enemy_pool[i].hp_cut != "") {
+          if (Number.isInteger(parseInt(enemy_pool[i].hp_cut))) {
+            Defender.reduce_hp(parseInt(enemy_pool[i].hp_cut));
+          }
+        }
+        if (enemy_pool[i].spec_charge != "") {
+          if (Number.isInteger(parseInt(enemy_pool[i].spec_charge))) {
+            Defender.cooldown = parseInt(enemy_pool[i].spec_charge);
+            Defender.cooldown_start = parseInt(enemy_pool[i].spec_charge);
+          }
         }
       }
 

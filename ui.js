@@ -1,20 +1,28 @@
 function loadUI() {
-  var UImsg = "";
+  var character_list = "";
 
   // Load the initial Character drop-down.
   for (var i = 0; i < Characters.length; i++) {
-    UImsg = UImsg + "<option value='" + i + "'>" + Characters[i].name + "</option>";
+    character_list += "<option value='" + i + "'>" + Characters[i].name + "</option>";
   }
-  document.getElementById("Character").innerHTML = UImsg;
+  document.getElementById("Character").innerHTML = character_list;
+  document.getElementById("Enemy").innerHTML = character_list;
 
-  fill_skill_menus();
-  fill_options_menus();
+  fill_skill_menus("player");
+  fill_skill_menus("enemy");
+  fill_options_menus("player");
+  fill_options_menus("enemy");
   fill_enemy_menus();
 }
 
+function reload_enemy_options() {
+  fill_skill_menus("enemy");
+  fill_options_menus("enemy");
+}
+
 function reload_options() {
-  fill_skill_menus();
-  fill_options_menus();
+  fill_skill_menus("player");
+  fill_options_menus("player");
 
   document.getElementById("MergeLv").value = 0;
 
@@ -37,7 +45,7 @@ function reload_options() {
 }
 
 function reset_enemy_overrides() {
-  fill_enemy_menus();
+  fill_enemy_menus("enemy");
 
   document.getElementById("EnemyMergeLv").value = 0;
 
@@ -68,9 +76,16 @@ function reset_enemy_overrides() {
 }
 
 // Fills the skill menus for a selected unit.
-function fill_skill_menus() {
+function fill_skill_menus(mode) {
   // Obtain the id of the currently selected unit.
-  var unit_id = document.getElementById("Character").value;
+  var unit_id;
+  if (mode == "player") {
+    unit_id = document.getElementById("Character").value;
+  }
+  else {
+    unit_id = document.getElementById("Enemy").value;
+  }
+
   // Initialize an empty message to be updated with the relevant html code.
   var msg = "";
 
@@ -80,10 +95,13 @@ function fill_skill_menus() {
   if (Weapons[Characters[unit_id].base_weap].evolves_into != 0) {
     msg = msg + "<option value='" + Weapons[Characters[unit_id].base_weap].evolves_into + "'>" + Weapons[Weapons[Characters[unit_id].base_weap].evolves_into].name + "</option>";
   }
-  set_skill_icon("player_weapon", Weapons[Characters[unit_id].base_weap]);
+
+  set_skill_icon(mode + "_weapon", Weapons[Characters[unit_id].base_weap]);
+
   // Find weapons that the current selection (the base weapon) can be refined into,
   // and add them to the "WeaponUpgradeCell" DOM element.
-  find_upgrades(Characters[unit_id].base_weap);
+  find_upgrades(Characters[unit_id].base_weap, mode);
+
   // Note that iteration starts at 1, to exclude the (None) weapon.
   for (var i = 1; i < Weapons.length; i++) {
     // Conditions for including a weapon in the drop-down:
@@ -102,12 +120,18 @@ function fill_skill_menus() {
       msg = msg + "<option value='" + i + "'>" + Weapons[i].name + "</option>";
     }
   }
-  document.getElementById("Weapon").innerHTML = msg;
+
+  if (mode == "player") {
+    document.getElementById("Weapon").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemyWeapon").innerHTML = msg;
+  }
   msg = "";
 
   // Populate the Special list.
   msg = msg + "<option value='" + Characters[unit_id].base_proc + "'>" + Procs[Characters[unit_id].base_proc].name + "</option>";
-  document.getElementById("player_special_img").innerHTML = "<img src=\"images/special_icon.png\" class=\"icon\" />";
+  document.getElementById(mode + "_special_img").innerHTML = "<img src=\"images/special_icon.png\" class=\"icon\" />";
   //document.getElementById("player_special_desc").innerHTML = Procs[Characters[unit_id].base_proc].desc;
   for (var i = 0; i < Procs.length; i++) {
     if (i != Characters[unit_id].base_proc) {
@@ -116,12 +140,18 @@ function fill_skill_menus() {
       }
     }
   }
-  document.getElementById("Special").innerHTML = msg;
+
+  if (mode == "player") {
+    document.getElementById("Special").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemySpecial").innerHTML = msg;
+  }
   msg = "";
 
   // Populate the A Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_a + "'>" + A_Passives[Characters[unit_id].base_a].name + "</option>";
-  document.getElementById("player_a_img").innerHTML = "<img src=\"" + process_skill_path(A_Passives[Characters[unit_id].base_a].name) + "\" class=\"icon\" />";
+  document.getElementById(mode + "_a_img").innerHTML = "<img src=\"" + process_skill_path(A_Passives[Characters[unit_id].base_a].name) + "\" class=\"icon\" />";
   //document.getElementById("player_a_desc").innerHTML = A_Passives[Characters[unit_id].base_a].desc;
   for (var i = 0; i < A_Passives.length; i++) {
     if (i != Characters[unit_id].base_a) {
@@ -130,12 +160,18 @@ function fill_skill_menus() {
       }
     }
   }
-  document.getElementById("A").innerHTML = msg;
+
+  if (mode == "player") {
+    document.getElementById("A").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemyA").innerHTML = msg;
+  }
   msg = "";
 
   // Populate the B Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_b + "'>" + B_Passives[Characters[unit_id].base_b].name + "</option>";
-  document.getElementById("player_b_img").innerHTML = "<img src=\"" + process_skill_path(B_Passives[Characters[unit_id].base_b].name) + "\" class=\"icon\" />";
+  document.getElementById(mode + "_b_img").innerHTML = "<img src=\"" + process_skill_path(B_Passives[Characters[unit_id].base_b].name) + "\" class=\"icon\" />";
   //document.getElementById("player_b_desc").innerHTML = B_Passives[Characters[unit_id].base_b].desc;
   for (var i = 0; i < B_Passives.length; i++) {
     if (i != Characters[unit_id].base_b) {
@@ -144,12 +180,18 @@ function fill_skill_menus() {
       }
     }
   }
-  document.getElementById("B").innerHTML = msg;
+
+  if (mode == "player") {
+    document.getElementById("B").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemyB").innerHTML = msg;
+  }
   msg = "";
 
   // Populate the C Passive list.
   msg = msg + "<option value='" + Characters[unit_id].base_c + "'>" + C_Passives[Characters[unit_id].base_c].name + "</option>";
-  document.getElementById("player_c_img").innerHTML = "<img src=\"" + process_skill_path(C_Passives[Characters[unit_id].base_c].name) + "\" class=\"icon\" />";
+  document.getElementById(mode + "_c_img").innerHTML = "<img src=\"" + process_skill_path(C_Passives[Characters[unit_id].base_c].name) + "\" class=\"icon\" />";
   //document.getElementById("player_c_desc").innerHTML = C_Passives[Characters[unit_id].base_c].desc;
   for (var i = 0; i < C_Passives.length; i++) {
     if (i != Characters[unit_id].base_c) {
@@ -158,73 +200,87 @@ function fill_skill_menus() {
       }
     }
   }
-  document.getElementById("C").innerHTML = msg;
+
+  if (mode == "player") {
+    document.getElementById("C").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemyC").innerHTML = msg;
+  }
   msg = "";
 
   // Populate the Sacred Seal list.
-  document.getElementById("player_seal_img").innerHTML = "<img src=\"" + process_seal_path(Seals[0].name) + "\" class=\"icon\" />";
+  document.getElementById(mode + "_seal_img").innerHTML = "<img src=\"" + process_seal_path(Seals[0].name) + "\" class=\"icon\" />";
   //document.getElementById("player_seal_desc").innerHTML = Seals[0].desc;
   for (var i = 0; i < Seals.length; i++) {
     if (verify_legality(Characters[unit_id], Seals[i]) || document.getElementById("RuleBreaker").checked) {
       msg = msg + "<option value='" + i + "'>" + Seals[i].name + "</option>";
     }
   }
-  document.getElementById("Seal").innerHTML = msg;
-  msg = "";
 
-  // Populate the Blessings menu based on whether the hero is Legendary, Mythic, or neither.
-  msg = "<option value=\"(None)\">(None)</option>";
-  if (!Characters[unit_id].legendary && !Characters[unit_id].mythic) {
-    msg += "<option value=\"Earth\">Earth</option>";
-    msg += "<option value=\"Fire\">Fire</option>";
-    msg += "<option value=\"Water\">Water</option>";
-    msg += "<option value=\"Wind\">Wind</option>";
-    msg += "<option value=\"Light\">Light</option>";
-    msg += "<option value=\"Dark\">Dark</option>";
-    msg += "<option value=\"Astra\">Astra</option>";
-    msg += "<option value=\"Anima\">Anima</option>";
-  }
-  else if (Characters[unit_id].legendary) {
-    msg += "<option value=\"Light\">Light</option>";
-    msg += "<option value=\"Dark\">Dark</option>";
-    msg += "<option value=\"Astra\">Astra</option>";
-    msg += "<option value=\"Anima\">Anima</option>";
+  if (mode == "player") {
+    document.getElementById("Seal").innerHTML = msg;
   }
   else {
-    msg += "<option value=\"Earth/Fire\">Earth/Fire</option>";
-    msg += "<option value=\"Earth/Water\">Earth/Water</option>";
-    msg += "<option value=\"Earth/Wind\">Earth/Wind</option>";
-    msg += "<option value=\"Fire/Water\">Fire/Water</option>";
-    msg += "<option value=\"Fire/Wind\">Fire/Wind</option>";
-    msg += "<option value=\"Water/Wind\">Water/Wind</option>";
+    document.getElementById("EnemySeal").innerHTML = msg;
   }
-  document.getElementById("Blessing").innerHTML = msg;
+  msg = "";
 
-  check_special_effects();
+  if (mode == "player") {
+    // Populate the Blessings menu based on whether the hero is Legendary, Mythic, or neither.
+    msg = "<option value=\"(None)\">(None)</option>";
+    if (!Characters[unit_id].legendary && !Characters[unit_id].mythic) {
+      msg += "<option value=\"Earth\">Earth</option>";
+      msg += "<option value=\"Fire\">Fire</option>";
+      msg += "<option value=\"Water\">Water</option>";
+      msg += "<option value=\"Wind\">Wind</option>";
+      msg += "<option value=\"Light\">Light</option>";
+      msg += "<option value=\"Dark\">Dark</option>";
+      msg += "<option value=\"Astra\">Astra</option>";
+      msg += "<option value=\"Anima\">Anima</option>";
+    }
+    else if (Characters[unit_id].legendary) {
+      msg += "<option value=\"Light\">Light</option>";
+      msg += "<option value=\"Dark\">Dark</option>";
+      msg += "<option value=\"Astra\">Astra</option>";
+      msg += "<option value=\"Anima\">Anima</option>";
+    }
+    else {
+      msg += "<option value=\"Earth/Fire\">Earth/Fire</option>";
+      msg += "<option value=\"Earth/Water\">Earth/Water</option>";
+      msg += "<option value=\"Earth/Wind\">Earth/Wind</option>";
+      msg += "<option value=\"Fire/Water\">Fire/Water</option>";
+      msg += "<option value=\"Fire/Wind\">Fire/Wind</option>";
+      msg += "<option value=\"Water/Wind\">Water/Wind</option>";
+    }
+    document.getElementById("Blessing").innerHTML = msg;
+  }
+
+  check_special_effects(mode);
 }
 
-function fill_options_menus() {
-  var char_index; //, weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
-  char_index = parseInt(document.getElementById("Character").value);
-  /*weap_index = parseInt(document.getElementById("Weapon").value);
-  weap_refine = document.getElementById("WeaponUpgrade").value;
-  spec_index = parseInt(document.getElementById("Special").value);
-  a_index = parseInt(document.getElementById("A").value);
-  b_index = parseInt(document.getElementById("B").value);
-  c_index = parseInt(document.getElementById("C").value);
-  seal_index = parseInt(document.getElementById("Seal").value);*/
+function fill_options_menus(mode) {
+  var char_index;
+  if (mode == "player") {
+    char_index = parseInt(document.getElementById("Character").value);
+  }
+  else {
+    char_index = parseInt(document.getElementById("Enemy").value);
+  }
 
-  var Character;//, Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
+  var Character;
   Character = Characters[char_index];
 
-  var dragonflower_options = "";
-  for (var i = 0; i <= Character.df_maximum; i++)
-    dragonflower_options += "<option value=" + i + ">" + i + "</option>";
+  if (mode == "player") {
+    var dragonflower_options = "";
+    for (var i = 0; i <= Character.df_maximum; i++)
+      dragonflower_options += "<option value=" + i + ">" + i + "</option>";
 
-  $("#Dragonflowers").html(dragonflower_options);
+    $("#Dragonflowers").html(dragonflower_options);
+  }
 }
 
-function find_upgrades(weap_id) {
+function find_upgrades(weap_id, mode) {
   var msg = "";
   msg = "<option value=\"None\">(None)</option>";
 
@@ -244,7 +300,12 @@ function find_upgrades(weap_id) {
     }
   }
 
-  document.getElementById("WeaponUpgrade").innerHTML = msg;
+  if (mode == "player") {
+    document.getElementById("WeaponUpgrade").innerHTML = msg;
+  }
+  else {
+    document.getElementById("EnemyWeaponUpgrade").innerHTML = msg;
+  }
 }
 
 // Fills the skill menus for the enemy overrides section.
@@ -252,7 +313,7 @@ function fill_enemy_menus() {
   // Initialize an empty message to be updated with the relevant html code.
   var msg = "";
 
-  // Populate the Weapon list.
+  /*// Populate the Weapon list.
   for (var i = 0; i < Weapons.length; i++) {
     msg = msg + "<option value='" + i + "'>" + Weapons[i].name + "</option>";
   }
@@ -298,7 +359,7 @@ function fill_enemy_menus() {
   }
   document.getElementById("EnemySeal").innerHTML = msg;
   msg = "";
-  set_skill_icon("enemy_seal", Seals[0]);
+  set_skill_icon("enemy_seal", Seals[0]);*/
 
   msg = "<option value=\"(None)\">(None)</option>";
   msg += "<option value=\"Earth\">Earth</option>";
@@ -661,18 +722,30 @@ function deselect_all_mov_types() {
   document.getElementById("Infantry").checked = false;
 }
 
-function check_special_effects() {
+function check_special_effects(mode) {
   var special_effect_text = "";
   var cond_effect_found = false;
   var char_index, weap_index, weap_refine, spec_index, a_index, b_index, c_index, seal_index;
-  char_index = parseInt(document.getElementById("Character").value);
-  weap_index = parseInt(document.getElementById("Weapon").value);
-  weap_refine = document.getElementById("WeaponUpgrade").value;
-  spec_index = parseInt(document.getElementById("Special").value);
-  a_index = parseInt(document.getElementById("A").value);
-  b_index = parseInt(document.getElementById("B").value);
-  c_index = parseInt(document.getElementById("C").value);
-  seal_index = parseInt(document.getElementById("Seal").value);
+  if (mode == "player") {
+    char_index = parseInt(document.getElementById("Character").value);
+    weap_index = parseInt(document.getElementById("Weapon").value);
+    weap_refine = document.getElementById("WeaponUpgrade").value;
+    spec_index = parseInt(document.getElementById("Special").value);
+    a_index = parseInt(document.getElementById("A").value);
+    b_index = parseInt(document.getElementById("B").value);
+    c_index = parseInt(document.getElementById("C").value);
+    seal_index = parseInt(document.getElementById("Seal").value);
+  }
+  else {
+    char_index = parseInt(document.getElementById("Enemy").value);
+    weap_index = parseInt(document.getElementById("EnemyWeapon").value);
+    weap_refine = document.getElementById("EnemyWeaponUpgrade").value;
+    spec_index = parseInt(document.getElementById("EnemySpecial").value);
+    a_index = parseInt(document.getElementById("EnemyA").value);
+    b_index = parseInt(document.getElementById("EnemyB").value);
+    c_index = parseInt(document.getElementById("EnemyC").value);
+    seal_index = parseInt(document.getElementById("EnemySeal").value);
+  }
 
   var Character, Weapon, Special, A_Skill, B_Skill, C_Skill, Seal;
   Character = Characters[char_index];
@@ -683,134 +756,142 @@ function check_special_effects() {
   C_Skill = C_Passives[c_index];
   Seal = Seals[seal_index];
 
-  if (Character.has_resplendent) {
-    $("#resplendent").toggle(true);
+  var row_prefix = "", option_prefix = "";
+  if (mode == "enemy") {
+    row_prefix = "Enemy";
+    option_prefix = "enemy_";
   }
-  else {
-    $("#resplendent").toggle(false);
-    document.getElementById("resplendent_input").checked = false;
+
+  if (mode == "player") {
+    if (Character.has_resplendent) {
+      $("#resplendent").toggle(true);
+    }
+    else {
+      $("#resplendent").toggle(false);
+      document.getElementById("resplendent_input").checked = false;
+    }
   }
 
   if (Weapon.user_can_transform) {
-    $(".Transformed").toggle(true);
+    $("." + row_prefix + "Transformed").toggle(true);
   }
   else {
-    $(".Transformed").toggle(false);
-    document.getElementById("transformed_input").checked = false;
+    $("." + row_prefix + "Transformed").toggle(false);
+    document.getElementById(option_prefix + "transformed_input").checked = false;
   }
 
   if (weap_refine == "None") {
     if (Weapon.base_has_number_input)
-      $(".WeapNum").toggle(true);
+      $("." + row_prefix + "WeapNum").toggle(true);
     else {
-      $(".WeapNum").toggle(false);
-      document.getElementById("weap_number_input").value = 0;
+      $("." + row_prefix + "WeapNum").toggle(false);
+      document.getElementById(option_prefix + "weap_number_input").value = 0;
     }
 
     if (Weapon.base_has_boolean_input)
-      $(".WeapBool").toggle(true);
+      $("." + row_prefix + "WeapBool").toggle(true);
     else {
-      $(".WeapBool").toggle(false);
-      document.getElementById("weap_boolean_input").checked = false;
+      $("." + row_prefix + "WeapBool").toggle(false);
+      document.getElementById(option_prefix + "weap_boolean_input").checked = false;
     }
   }
   else if (weap_refine == "Eff") {
     if (Weapon.eff_has_number_input)
-      $(".WeapNum").toggle(true);
+      $("." + row_prefix + "WeapNum").toggle(true);
     else {
-      $(".WeapNum").toggle(false);
-      document.getElementById("weap_number_input").value = 0;
+      $("." + row_prefix + "WeapNum").toggle(false);
+      document.getElementById(option_prefix + "weap_number_input").value = 0;
     }
 
     if (Weapon.eff_has_boolean_input)
-      $(".WeapBool").toggle(true);
+      $("." + row_prefix + "WeapBool").toggle(true);
     else {
-      $(".WeapBool").toggle(false);
-      document.getElementById("weap_boolean_input").checked = false;
+      $("." + row_prefix + "WeapBool").toggle(false);
+      document.getElementById(option_prefix + "weap_boolean_input").checked = false;
     }
   }
   else if (weap_refine == "Atk" || weap_refine == "Spd" || weap_refine == "Def" || weap_refine == "Res") {
     if (Weapon.ref_has_number_input)
-      $(".WeapNum").toggle(true);
+      $("." + row_prefix + "WeapNum").toggle(true);
     else {
-      $(".WeapNum").toggle(false);
-      document.getElementById("weap_number_input").value = 0;
+      $("." + row_prefix + "WeapNum").toggle(false);
+      document.getElementById(option_prefix + "weap_number_input").value = 0;
     }
 
     if (Weapon.ref_has_boolean_input)
-      $(".WeapBool").toggle(true);
+      $("." + row_prefix + "WeapBool").toggle(true);
     else {
-      $(".WeapBool").toggle(false);
-      document.getElementById("weap_boolean_input").checked = false;
+      $("." + row_prefix + "WeapBool").toggle(false);
+      document.getElementById(option_prefix + "weap_boolean_input").checked = false;
     }
   }
   else {
-    $(".WeapNum").toggle(false);
-    document.getElementById("weap_number_input").value = 0;
+    $("." + row_prefix + "WeapNum").toggle(false);
+    document.getElementById(option_prefix + "weap_number_input").value = 0;
 
-    $(".WeapBool").toggle(false);
-    document.getElementById("weap_boolean_input").checked = false;
+    $("." + row_prefix + "WeapBool").toggle(false);
+    document.getElementById(option_prefix + "weap_boolean_input").checked = false;
   }
 
   if (Special.has_number_input)
-    $(".SpecNum").toggle(true);
+    $("." + row_prefix + "SpecNum").toggle(true);
   else {
-    $(".SpecNum").toggle(false);
-    document.getElementById("special_number_input").value = 0;
+    $("." + row_prefix + "SpecNum").toggle(false);
+    document.getElementById(option_prefix + "special_number_input").value = 0;
   }
   if (Special.has_boolean_input)
-    $(".SpecBool").toggle(true);
+    $("." + row_prefix + "SpecBool").toggle(true);
   else {
-    $(".SpecBool").toggle(false);
-    document.getElementById("special_boolean_input").checked = false;
+    $("." + row_prefix + "SpecBool").toggle(false);
+    document.getElementById(option_prefix + "special_boolean_input").checked = false;
   }
   if (A_Skill.has_number_input)
-    $(".ANum").toggle(true);
+    $("." + row_prefix + "ANum").toggle(true);
   else {
-    $(".ANum").toggle(false);
-    document.getElementById("a_number_input").value = 0;
+    $("." + row_prefix + "ANum").toggle(false);
+    document.getElementById(option_prefix + "a_number_input").value = 0;
   }
   if (A_Skill.has_boolean_input)
-    $(".ABool").toggle(true);
+    $("." + row_prefix + "ABool").toggle(true);
   else {
-    $(".ABool").toggle(false);
-    document.getElementById("a_boolean_input").checked = false;
+    $("." + row_prefix + "ABool").toggle(false);
+    document.getElementById(option_prefix + "a_boolean_input").checked = false;
   }
   if (B_Skill.has_number_input)
-    $(".BNum").toggle(true);
+    $("." + row_prefix + "BNum").toggle(true);
   else {
-    $(".BNum").toggle(false);
-    document.getElementById("b_number_input").value = 0;
+    $("." + row_prefix + "BNum").toggle(false);
+    document.getElementById(option_prefix + "b_number_input").value = 0;
   }
   if (B_Skill.has_boolean_input)
-    $(".BBool").toggle(true);
+    $("." + row_prefix + "BBool").toggle(true);
   else {
-    $(".BBool").toggle(false);
-    document.getElementById("b_boolean_input").checked = false;
+    $("." + row_prefix + "BBool").toggle(false);
+    document.getElementById(option_prefix + "b_boolean_input").checked = false;
   }
   if (C_Skill.has_number_input)
-    $(".CNum").toggle(true);
+    $("." + row_prefix + "CNum").toggle(true);
   else {
-    $(".CNum").toggle(false);
-    document.getElementById("c_number_input").value = 0;
+    $("." + row_prefix + "CNum").toggle(false);
+    document.getElementById(option_prefix + "c_number_input").value = 0;
   }
   if (C_Skill.has_boolean_input)
-    $(".CBool").toggle(true);
+    $("." + row_prefix + "CBool").toggle(true);
   else {
-    $(".CBool").toggle(false);
-    document.getElementById("c_boolean_input").checked = false;
+    $("." + row_prefix + "CBool").toggle(false);
+    document.getElementById(option_prefix + "c_boolean_input").checked = false;
   }
   if (Seal.has_number_input)
-    $(".SNum").toggle(true);
+    $("." + row_prefix + "SNum").toggle(true);
   else {
-    $(".SNum").toggle(false);
-    document.getElementById("seal_number_input").value = 0;
+    $("." + row_prefix + "SNum").toggle(false);
+    document.getElementById(option_prefix + "seal_number_input").value = 0;
   }
   if (Seal.has_boolean_input)
-    $(".SBool").toggle(true);
+    $("." + row_prefix + "SBool").toggle(true);
   else {
-    $(".SBool").toggle(false);
-    document.getElementById("seal_boolean_input").checked = false;
+    $("." + row_prefix + "SBool").toggle(false);
+    document.getElementById(option_prefix + "seal_boolean_input").checked = false;
   }
 }
 
@@ -935,6 +1016,11 @@ function set_skill_icon(skill_type, skill) {
       break;
     case "enemy_weapon":
       img_path = "images/weapon_icon.png";
+      document.getElementById("enemy_weapon_refined_img").innerHTML = "";
+      break;
+    case "enemy_weapon_refined":
+      img_path = "images/weapon_icon.png";
+      document.getElementById("enemy_weapon_img").innerHTML = "";
       break;
     case "player_special":
       img_path = "images/special_icon.png";
@@ -953,4 +1039,219 @@ function set_skill_icon(skill_type, skill) {
   }
 
   document.getElementById(img_id).innerHTML = "<img src=\"" + img_path + "\" class=\"icon\" />";
+}
+
+function update_enemy_list() {
+  var e_list;
+
+  document.getElementById("Enemies").innerHTML = "";
+
+  for (var i = 0; i < Enemy_List.length; i++) {
+    var row = document.createElement("div");
+    row.classList.add("enemy_row");
+
+    var remove = document.createElement("div");
+    remove.appendChild(document.createTextNode("x"));
+    remove.id = "remove_enemy_" + i;
+    remove.classList.add("remove_enemy");
+    remove.addEventListener("click", function(e) { remove_enemy(e.currentTarget.id); });
+    row.appendChild(remove);
+
+    var name = document.createElement("div");
+    name.appendChild(document.createTextNode(Enemy_List[i].name));
+    name.id = "enemy_" + i;
+    name.classList.add("enemy_name");
+    name.addEventListener("click", function(e) { load_enemy(e.currentTarget.id); });
+    row.appendChild(name);
+
+    document.getElementById("Enemies").appendChild(row);
+    //e_list_string += "<div class=\"enemy_row\"><div class=\"remove_enemy\">x</div><div class=\"enemy_name\">" + Enemy_List[i].name + "</div>";
+  }
+}
+
+// Called when an enemy's name is clicked from the Enemy List. Loads all the enemy's skills
+// into the appropriate "select" DOM elements.
+function load_enemy(element_id) {
+  var index = parseInt(element_id.substring(6));
+  current_enemy = index;
+
+  var foe = Enemy_List[index];
+  document.getElementById("Enemy").value = foe.base_index;
+  fill_skill_menus("enemy");
+
+  document.getElementById("EnemyBoon").value = foe.boon;
+  document.getElementById("EnemyBane").value = foe.bane;
+
+  document.getElementById("EnemyWeapon").value = foe.weapon;
+  find_upgrades(foe.weapon, "enemy");
+
+  document.getElementById("EnemyWeaponUpgrade").value = foe.refine;
+  if (foe.refine == "None") {
+    set_skill_icon("enemy_weapon", Weapons[foe.weapon]);
+  }
+  else {
+    set_skill_icon("enemy_weapon_refined", Weapons[foe.weapon]);
+  }
+
+  document.getElementById("EnemyA").value = foe.a;
+  set_skill_icon("enemy_a", A_Passives[foe.a]);
+
+  document.getElementById("EnemyB").value = foe.b;
+  set_skill_icon("enemy_b", B_Passives[foe.b]);
+
+  document.getElementById("EnemyC").value = foe.c;
+  set_skill_icon("enemy_c", C_Passives[foe.c]);
+
+  document.getElementById("EnemySpecial").value = foe.proc;
+  set_skill_icon("enemy_special", Procs[foe.proc]);
+
+  document.getElementById("EnemySeal").value = foe.seal;
+  set_skill_icon("enemy_seal", Seals[foe.seal]);
+
+  check_special_effects("enemy");
+  document.getElementById("enemy_transformed_input").checked = foe.transformed;
+  document.getElementById("enemy_weap_boolean_input").checked = foe.weap_bool;
+  document.getElementById("enemy_weap_number_input").value = foe.weap_num;
+  document.getElementById("enemy_special_boolean_input").checked = foe.spec_bool;
+  document.getElementById("enemy_special_number_input").value = foe.spec_num;
+  document.getElementById("enemy_a_boolean_input").checked = foe.a_bool;
+  document.getElementById("enemy_a_number_input").value = foe.a_num;
+  document.getElementById("enemy_b_boolean_input").checked = foe.b_bool;
+  document.getElementById("enemy_b_number_input").value = foe.b_num;
+  document.getElementById("enemy_c_boolean_input").checked = foe.c_bool;
+  document.getElementById("enemy_c_number_input").value = foe.c_num;
+  document.getElementById("enemy_seal_boolean_input").checked = foe.seal_bool;
+  document.getElementById("enemy_seal_number_input").value = foe.seal_num;
+
+  // Load in Enemy Stat options, if the "Apply to all" setting is not checked.
+  if (!document.getElementById("apply_to_all").checked) {
+    document.getElementById("EnemyAtkBuff").value = foe.assumed_atk_buff;
+    document.getElementById("EnemySpdBuff").value = foe.assumed_spd_buff;
+    document.getElementById("EnemyDefBuff").value = foe.assumed_def_buff;
+    document.getElementById("EnemyResBuff").value = foe.assumed_res_buff;
+    document.getElementById("EnemyAtkBonus").value = foe.assumed_atk_boost;
+    document.getElementById("EnemySpdBonus").value = foe.assumed_spd_boost;
+    document.getElementById("EnemyDefBonus").value = foe.assumed_def_boost;
+    document.getElementById("EnemyResBonus").value = foe.assumed_res_boost;
+    document.getElementById("EnemyAtkDebuff").value = foe.assumed_atk_penalty;
+    document.getElementById("EnemySpdDebuff").value = foe.assumed_spd_penalty;
+    document.getElementById("EnemyDefDebuff").value = foe.assumed_def_penalty;
+    document.getElementById("EnemyResDebuff").value = foe.assumed_res_penalty;
+    document.getElementById("EnemyMergeLv").value = foe.merge_lv;
+    document.getElementById("EnemyDragonflowers").value = foe.dragonflowers;
+    document.getElementById("EnemyResplendent").checked = foe.resplendent;
+    document.getElementById("EnemyHPCut").value = foe.hp_cut;
+    document.getElementById("EnemySpecCharge").value = foe.spec_charge;
+    document.getElementById("EnemyAdjAllies").value = foe.adj;
+    document.getElementById("EnemyTwoSpaceAllies").value = foe.two_space;
+    document.getElementById("EnemyThreeSpaceAllies").value = foe.three_space;
+    document.getElementById("EnemyBlessing").value = foe.blessing;
+    document.getElementById("EnemyLegAlly1").value = foe.leg1;
+    document.getElementById("EnemyLegAlly2").value = foe.leg2;
+    document.getElementById("EnemyLegAlly3").value = foe.leg3;
+    document.getElementById("EnemyLegAlly4").value = foe.leg4;
+  }
+}
+
+// Removes an enemy from the enemy list, resets the div ids for the character list,
+// and runs a simulation.
+function remove_enemy(element_id) {
+  var index = parseInt(element_id.substring(13));
+  Enemy_List.splice(index, 1);
+  current_enemy = Enemy_List.count;
+  update_enemy_list();
+  simulate();
+}
+
+function add_current_foe() {
+  var foe, base_unit;
+
+  base_unit = Characters[document.getElementById("Enemy").value];
+  foe = {};
+  foe.name = base_unit.name;
+  foe.color = base_unit.color;
+  foe.hp_base = base_unit.hp_base;
+  foe.atk_base = base_unit.atk_base;
+  foe.spd_base = base_unit.spd_base;
+  foe.def_base = base_unit.def_base;
+  foe.res_base = base_unit.res_base;
+  foe.hpGrowth = base_unit.hpGrowth;
+  foe.atkGrowth = base_unit.atkGrowth;
+  foe.spdGrowth = base_unit.spdGrowth;
+  foe.defGrowth = base_unit.defGrowth;
+  foe.resGrowth = base_unit.resGrowth;
+  foe.n_lock = base_unit.n_lock;
+  foe.type = base_unit.type;
+  foe.weap = base_unit.weap;
+  foe.legendary = base_unit.legendary;
+  foe.mythic = base_unit.mythic;
+  foe.has_resplendent = base_unit.has_resplendent;
+  foe.df_maximum = base_unit.df_maximum;
+  foe.base_index = document.getElementById("Enemy").value;
+  foe.boon = document.getElementById("EnemyBoon").value;
+  foe.bane = document.getElementById("EnemyBane").value;
+  foe.resplendent = document.getElementById("EnemyResplendent").checked;
+  foe.weapon = document.getElementById("EnemyWeapon").value;
+  foe.refine = document.getElementById("EnemyWeaponUpgrade").value;
+  foe.a = document.getElementById("EnemyA").value;
+  foe.b = document.getElementById("EnemyB").value;
+  foe.c = document.getElementById("EnemyC").value;
+  foe.proc = document.getElementById("EnemySpecial").value;
+  foe.seal = document.getElementById("EnemySeal").value;
+  foe.transformed = document.getElementById("enemy_transformed_input").checked;
+  foe.weap_bool = document.getElementById("enemy_weap_boolean_input").checked;
+  foe.spec_bool = document.getElementById("enemy_special_boolean_input").checked;
+  foe.a_bool = document.getElementById("enemy_a_boolean_input").checked;
+  foe.b_bool = document.getElementById("enemy_b_boolean_input").checked;
+  foe.c_bool = document.getElementById("enemy_c_boolean_input").checked;
+  foe.seal_bool = document.getElementById("enemy_seal_boolean_input").checked;
+  foe.weap_num = document.getElementById("enemy_weap_number_input").value;
+  foe.spec_num = document.getElementById("enemy_special_number_input").value;
+  foe.a_num = document.getElementById("enemy_a_number_input").value;
+  foe.b_num = document.getElementById("enemy_b_number_input").value;
+  foe.c_num = document.getElementById("enemy_c_number_input").value;
+  foe.seal_num = document.getElementById("enemy_seal_number_input").value;
+
+  if (!document.getElementById("apply_to_all").checked) {
+    foe.assumed_atk_buff = document.getElementById("EnemyAtkBuff").value;
+    foe.assumed_spd_buff = document.getElementById("EnemySpdBuff").value;
+    foe.assumed_def_buff = document.getElementById("EnemyDefBuff").value;
+    foe.assumed_res_buff = document.getElementById("EnemyResBuff").value;
+    foe.assumed_atk_boost = document.getElementById("EnemyAtkBonus").value;
+    foe.assumed_spd_boost = document.getElementById("EnemySpdBonus").value;
+    foe.assumed_def_boost = document.getElementById("EnemyDefBonus").value;
+    foe.assumed_res_boost = document.getElementById("EnemyResBonus").value;
+    foe.assumed_atk_penalty = document.getElementById("EnemyAtkDebuff").value;
+    foe.assumed_spd_penalty = document.getElementById("EnemySpdDebuff").value;
+    foe.assumed_def_penalty = document.getElementById("EnemyDefDebuff").value;
+    foe.assumed_res_penalty = document.getElementById("EnemyResDebuff").value;
+    foe.merge_lv = document.getElementById("EnemyMergeLv").value;
+    foe.dragonflowers = document.getElementById("EnemyDragonflowers").value;
+    foe.resplendent = document.getElementById("EnemyResplendent").checked;
+    foe.hp_cut = document.getElementById("EnemyHPCut").value;
+    foe.spec_charge = document.getElementById("EnemySpecCharge").value;
+    foe.adj = document.getElementById("EnemyAdjAllies").value;
+    foe.two_space = document.getElementById("EnemyTwoSpaceAllies").value;
+    foe.three_space = document.getElementById("EnemyThreeSpaceAllies").value;
+    foe.blessing = document.getElementById("EnemyBlessing").value;
+    foe.leg1 = document.getElementById("EnemyLegAlly1").value;
+    foe.leg2 = document.getElementById("EnemyLegAlly2").value;
+    foe.leg3 = document.getElementById("EnemyLegAlly3").value;
+    foe.leg4 = document.getElementById("EnemyLegAlly4").value;
+  }
+
+  if (current_enemy < Enemy_List.length) {
+    if (document.getElementById("Enemy").value == Enemy_List[current_enemy].base_index) {
+      Enemy_List[current_enemy] = foe;
+      current_enemy = Enemy_List.length;
+      update_enemy_list();
+      simulate();
+      return null;
+    }
+  }
+
+  Enemy_List.push(foe);
+  current_enemy = Enemy_List.length;
+  update_enemy_list();
+  simulate();
 }

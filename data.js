@@ -1,5 +1,6 @@
 /* **************************** GLOBAL VARIABLES ***************************** */
 // Object arrays.
+var Enemy_List = new Array();
 var Characters = new Array();
 var Optimized_Chars = new Array();
 var Weapons = new Array();
@@ -11,6 +12,7 @@ var Procs = new Array();
 var Blessings = new Array();
 
 // Counters/indexes for object arrays.
+var current_enemy = 0;
 var char_count = 0;
 var weap_count = 0;
 var a_count = 0;
@@ -50,6 +52,43 @@ function load_data() {
     optimized_unit.mythic = base_unit.mythic;
     optimized_unit.has_resplendent = base_unit.has_resplendent;
     optimized_unit.df_maximum = base_unit.df_maximum;
+    optimized_unit.assumed_atk_buff = 0;
+    optimized_unit.assumed_spd_buff = 0;
+    optimized_unit.assumed_def_buff = 0;
+    optimized_unit.assumed_res_buff = 0;
+    optimized_unit.assumed_atk_boost = 0;
+    optimized_unit.assumed_spd_boost = 0;
+    optimized_unit.assumed_def_boost = 0;
+    optimized_unit.assumed_res_boost = 0;
+    optimized_unit.assumed_atk_penalty = 0;
+    optimized_unit.assumed_spd_penalty = 0;
+    optimized_unit.assumed_def_penalty = 0;
+    optimized_unit.assumed_res_penalty = 0;
+    optimized_unit.merge_lv = 0;
+    optimized_unit.dragonflowers = 0;
+    optimized_unit.hp_cut = "";
+    optimized_unit.spec_charge = "";
+    optimized_unit.adj = 0;
+    optimized_unit.two_space = 0;
+    optimized_unit.three_space = 0;
+    optimized_unit.blessing = "(None)";
+    optimized_unit.leg1 = 0;
+    optimized_unit.leg2 = 0;
+    optimized_unit.leg3 = 0;
+    optimized_unit.leg4 = 0;
+    optimized_unit.transformed = false;
+    optimized_unit.weap_bool = false;
+    optimized_unit.spec_bool = false;
+    optimized_unit.a_bool = false;
+    optimized_unit.b_bool = false;
+    optimized_unit.c_bool = false;
+    optimized_unit.spec_bool = false;
+    optimized_unit.weap_num = 0;
+    optimized_unit.spec_num = 0;
+    optimized_unit.a_num = 0;
+    optimized_unit.b_num = 0;
+    optimized_unit.c_num = 0;
+    optimized_unit.seal_num = 0;
     Optimized_Chars.push(optimized_unit);
   }
   for (item in data.Weapons) {

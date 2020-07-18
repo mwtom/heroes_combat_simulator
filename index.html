@@ -32,6 +32,10 @@ $(document).ready(function() {
   $("#EnemyOptionsHeader").click(function() {
     $("#EnemyOptions").toggle();
   });
+  // Show/Hide Enemy List
+  $("#EnemyListHeader").click(function() {
+    $("#EnemyList").toggle();
+  });
   // Show/Hide Enemy Filters
   $("#FiltersHeader").click(function() {
     $("#FiltersOptions").toggle();
@@ -54,6 +58,10 @@ $(document).ready(function() {
   $("#EnemyBlessing").change(function() {
     if (document.getElementById("EnemyBlessing").value == "(None)") {
       $(".EnemyLegAlly").toggle(false);
+      document.getElementById("EnemyLegAlly1").value = 0;
+      document.getElementById("EnemyLegAlly2").value = 0;
+      document.getElementById("EnemyLegAlly3").value = 0;
+      document.getElementById("EnemyLegAlly4").value = 0;
     }
     else {
       $(".EnemyLegAlly").toggle(true);
@@ -109,7 +117,8 @@ $(document).ready(function() {
   // Reload available skills when the Inheritance Breaker
   // checkbox is clicked.
   $("#RuleBreaker, #tcc").click(function() {
-    fill_skill_menus();
+    fill_skill_menus("player");
+    fill_skill_menus("enemy")
     $(".LegAlly").toggle(false);
   });
   // Run simulation when any input fields are changed.
@@ -118,13 +127,14 @@ $(document).ready(function() {
   });
   // Run simulation when any select fields are changed.
   $("select").change(function() {
-    check_special_effects();
+    check_special_effects("player");
+    check_special_effects("enemy");
     simulate();
   });
   // If the weapon is changed, check for refinements. Also update the skill
   // description.
   $("#Weapon").change(function() {
-    find_upgrades(document.getElementById("Weapon").value);
+    find_upgrades(document.getElementById("Weapon").value, "player");
     set_skill_icon("player_weapon", Weapons[document.getElementById("Weapon").value]);
     simulate();
   });
@@ -142,8 +152,17 @@ $(document).ready(function() {
   });
   /* When skill select fields are changed, update the skill icon/description */
   $("#EnemyWeapon").change(function() {
+    find_upgrades(document.getElementById("EnemyWeapon").value, "enemy")
     set_skill_icon("enemy_weapon", Weapons[document.getElementById("EnemyWeapon").value]);
   });
+  $("#EnemyWeaponUpgrade").change(function() {
+    if (document.getElementById("EnemyWeaponUpgrade").value == "None") {
+      set_skill_icon("enemy_weapon", Weapons[document.getElementById("EnemyWeapon").value]);
+    }
+    else {
+      set_skill_icon("enemy_weapon_refined", Weapons[document.getElementById("EnemyWeapon").value]);
+    }
+  })
   $("#Special").change(function() {
     set_skill_icon("player_special", Procs[document.getElementById("Special").value]);
   });
@@ -188,6 +207,16 @@ $(document).ready(function() {
   $("#EnemyReset").click(function() {
     reset_enemy_overrides();
     simulate();
+  });
+  $("#Add_Optimized_Foes").click(function() {
+    for (var i = 0; i < Optimized_Chars.length; i++) {
+      Enemy_List.push(Optimized_Chars[i]);
+    }
+    update_enemy_list();
+    simulate();
+  });
+  $("#Add_Current_Foe").click(function() {
+    add_current_foe();
   });
 });
 </script>
@@ -753,38 +782,13 @@ $(document).ready(function() {
         </div>
         <div id="EnemySkills" class="UnitMenu Menu">
           <div id="EnemySkillsHeader" class="MenuHeader">
-            Enemy Skill Overrides
+            Enemy Specification
           </div>
           <div id="EnemySkillsOptions" class="OptionSet">
-            <input type="radio" id="Base_Foes" name="Foe_Type" class="Foe_Type" value="base" checked />
-            <label for="Base_Foes">
-              Use foes with Base Skill Sets.
-            </label>
-            <br />
-            <input type="radio" id="Optimized_Foes" name="Foe_Type" class="Foe_Type" value="optimized" />
-            <label for="Optimized_Foes">
-              Use foes with Performance Skill Sets.
-            </label>
-            <br />
-            <div id="Optimized_Disclaimer">
-              <br />
-              Disclaimers and Notes about this feature:
-              <ul>
-                <li>
-                  Nature and stat overrides are not available with this feature.
-                </li>
-                <li>
-                  Builds are better for AI use than player use.
-                </li>
-                <li>
-                  Builds are generally harder than what you'll encounter during normal play. The idea is if you can handle the hard builds, you can handle the easier builds.
-                </li>
-                <li>
-                  Builds are based on the simulator author's biased opinions.
-                </li>
-              </ul>
-            </div>
             <div class="table" id="Enemy_Override_Table">
+              <div id="EnemySelect">
+                Character: <select id="Enemy" class="CharacterSelect" onChange="reload_enemy_options()"></select>
+              </div>
               <div class="row">
                 <div class="cell row_header">
                   Asset:
@@ -837,6 +841,62 @@ $(document).ready(function() {
               </div>
               <div class="row">
                 <div class="cell row_header">
+                  Refine:
+                </div>
+                <div class="cell skill_icon" id="enemy_weapon_refined">
+                  <span id="enemy_weapon_refined_img"></span>
+                  <!--<span class="skill_desc" id="player_weapon_refined_desc">
+                  </span>-->
+                </div>
+                <div class="cell">
+                  <select class='Customizer' id='EnemyWeaponUpgrade'>
+                  </select>
+                </div>
+              </div>
+              <div class="row EnemyTransformed">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_transformed_input" />
+                  <label for="enemy_transformed_input">
+                    Transformed
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemyWeapBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_weap_boolean_input" />
+                  <label for="enemy_weap_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemyWeapNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_weap_number_input" min=0 />
+                  <label for="enemy_weap_number_input">
+                    # Input (Weapon)
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cell row_header">
                   Special:
                 </div>
                 <div class="cell skill_icon" id="enemy_special">
@@ -847,6 +907,34 @@ $(document).ready(function() {
                 <div class="cell">
                   <select class='Customizer' id='EnemySpecial'>
                   </select>
+                </div>
+              </div>
+              <div class="row EnemySpecBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_special_boolean_input" />
+                  <label for="enemy_special_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemySpecNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_special_number_input" min=0 />
+                  <label for="enemy_special_number_input">
+                    # Input (Special)
+                  </label>
                 </div>
               </div>
               <div class="row">
@@ -863,6 +951,34 @@ $(document).ready(function() {
                   </select>
                 </div>
               </div>
+              <div class="row EnemyABool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_a_boolean_input" />
+                  <label for="enemy_a_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemyANum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_a_number_input" min=0 />
+                  <label for="enemy_a_number_input">
+                    # Input (A)
+                  </label>
+                </div>
+              </div>
               <div class="row">
                 <div class="cell row_header">
                   B Passive:
@@ -875,6 +991,34 @@ $(document).ready(function() {
                 <div class="cell">
                   <select class='Customizer' id='EnemyB'>
                   </select>
+                </div>
+              </div>
+              <div class="row EnemyBBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_b_boolean_input" />
+                  <label for="enemy_b_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemyBNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_b_number_input" min=0 />
+                  <label for="enemy_b_number_input">
+                    # Input (B)
+                  </label>
                 </div>
               </div>
               <div class="row">
@@ -891,6 +1035,34 @@ $(document).ready(function() {
                   </select>
                 </div>
               </div>
+              <div class="row EnemyCBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_c_boolean_input" />
+                  <label for="enemy_c_boolean_input">
+                    Active
+                  </label>
+                </div>
+              </div>
+              <div class="row EnemyCNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_c_number_input" min=0 />
+                  <label for="enemy_c_number_input">
+                    # Input (C)
+                  </label>
+                </div>
+              </div>
               <div class="row">
                 <div class="cell row_header">
                   Seal:
@@ -905,28 +1077,41 @@ $(document).ready(function() {
                   </select>
                 </div>
               </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="cell row_header" id="EnemyBlessingLabel">
-                Blessing:
+              <div class="row EnemySBool">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank  -->
+                </div>
+                <div class="cell">
+                  <input type="checkbox" id="enemy_seal_boolean_input" />
+                  <label for="enemy_seal_boolean_input">
+                    Active
+                  </label>
+                </div>
               </div>
-              <div class="cell skill_icon">
-                <!-- This field is intentionally left blank. -->
-              </div>
-              <div class="cell">
-                <select class='Customizer' id='EnemyBlessing'>
-                </select>
+              <div class="row EnemySNum">
+                <div class="cell row_header">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell skill_icon">
+                  <!-- This is intentionally blank -->
+                </div>
+                <div class="cell">
+                  <input type="number" class="ShortBox" id="enemy_seal_number_input" min=0 />
+                  <label for="enemy_seal_number_input">
+                    # Input (Seal)
+                  </label>
+                </div>
               </div>
             </div>
-            <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" checked />
-            <div class="tooltip">
-              <label for="enemy_conditional_effects">Apply any enemy conditional effects.</label>
-              <span class="tooltiptext">
-                A conditional effect is an effect that is only active when certain conditions are met, which cannot be specified with any other input to the
-                Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
-              </span>
-            </div>
+            <button id="Add_Current_Foe">
+              Add/Update Current Foe
+            </button>
+            <button id="Add_Optimized_Foes">
+              Add Performance-Focused Foes.
+            </button>
           </div>
         </div>
         <div id="EnemyStats" class="UnitMenu Menu">
@@ -1083,8 +1268,22 @@ $(document).ready(function() {
                 <td>
                   <input type="number" id="EnemyThreeSpaceAllies" value="0" class="ShortBox" min="0" max="7" />
                 </td>
+              </tr>
             </table>
+            <input type="checkbox" id="EnemyResplendent" name="enemy_resplendent" />
+            <label for="enemy_resplendent">
+              Resplendent (If Available)
+            </label>
             <br />
+            <div class="row">
+              <div class="cell row_header" id="EnemyBlessingLabel">
+                Blessing:
+              </div>
+              <div class="cell">
+                <select class='Customizer' id='EnemyBlessing'>
+                </select>
+              </div>
+            </div>
             <div class="EnemyLegAlly">
               <div class="row">
                 L/M Enemy 1:
@@ -1115,10 +1314,31 @@ $(document).ready(function() {
                 </div>
               </div>
             </div>
+            <input type="checkbox" id="enemy_conditional_effects" name="enemy_conditional_effects" checked />
+            <div class="tooltip">
+              <label for="enemy_conditional_effects">Apply any enemy conditional effects.</label>
+              <span class="tooltiptext">
+                A conditional effect is an effect that is only active when certain conditions are met, which cannot be specified with any other input to the
+                Combat simulator (ex. the Cymbeline Effect refinement requires the user to be within 2 spaces of a flying ally).
+              </span>
+            </div>
             <br />
+            <input type="checkbox" id="apply_to_all" name="apply_to_all" />
+            <label for="apply_to_all">
+              Apply these settings to all enemies.
+            </label>
             <button id="EnemyReset">
               Reset Enemy Overrides
             </button>
+          </div>
+        </div>
+        <div id="EnemyListContainer" class="OptionsMenu Menu">
+          <div id="EnemyListHeader" class="MenuHeader">
+            Enemy List
+          </div>
+          <div id="EnemyList" class="EnemyList">
+            <div id="Enemies">
+            </div>
           </div>
         </div>
       </div>

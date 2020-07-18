@@ -39,7 +39,34 @@ body {
   margin-left: .375rem;
 }
 
-#SimulationOptions, #Filters {
+.EnemyList {
+  padding-left: .375rem;
+  padding-bottom: .375rem;
+}
+.enemy_row div{
+  display: inline-block;
+  margin-bottom: .125rem;
+}
+.remove_enemy {
+  border-style: solid;
+  border-width: .125rem;
+  border-color: #FFFFFF;
+  border-top-left-radius: .625rem;
+  border-bottom-left-radius: .625rem;
+  padding-left: .375rem;
+  padding-right: .25rem;
+}
+.enemy_name {
+  border-style: solid;
+  border-width: .125rem;
+  border-color: #FFFFFF;
+  border-top-right-radius: .625rem;
+  border-bottom-right-radius: .625rem;
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+#SimulationOptions, #Filters, #EnemyListContainer {
   border-style: solid;
   border-width: .125rem;
   border-color: #FFFFFF;
@@ -87,14 +114,24 @@ body {
     width: 86rem;
   }
   .UnitMenu {
-    height: 33rem;
+    height: 37rem;
     display: inline-block;
     vertical-align: top;
     margin-right: auto;
     margin-right: 1rem;
   }
 
-  #SimulationOptions, #Filters {
+  #Enemies {
+    height: 12rem;
+    width: 83rem;
+    overflow-y: scroll;
+  }
+  .enemy_row {
+    width: 19rem;
+    display: inline-block;
+  }
+
+  #SimulationOptions, #Filters, #EnemyListContainer {
     position: relative;
     width: 84.5rem;
   }
@@ -145,7 +182,13 @@ body {
     width: 21rem;
   }
 
-  #SimulationOptions, #Filters {
+  #Enemies {
+    height: 15rem;
+    width: 19rem;
+    overflow-y: scroll;
+  }
+
+  #SimulationOptions, #Filters, #EnemyStats {
     width: 20rem;
   }
   .SimOptions {
@@ -246,7 +289,9 @@ body {
 .EnemyLegAlly {
   display: none;
 }
-.Transformed, .WeapBool, .SpecBool, .ABool, .BBool, .CBool, .SBool, .WeapNum, .SpecNum, .ANum, .BNum, .CNum, .SNum {
+.Transformed, .WeapBool, .SpecBool, .ABool, .BBool, .CBool, .SBool, .WeapNum, .SpecNum, .ANum, .BNum, .CNum, .SNum,
+.EnemyTransformed, .EnemyWeapBool, .EnemySpecBool, .EnemyABool, .EnemyBBool, .EnemyCBool, .EnemySBool, .EnemyWeapNum,
+.EnemySpecNum, .EnemyANum, .EnemyBNum, .EnemyCNum, .EnemySNum {
   display: none;
 }
 #Optimized_Disclaimer {
