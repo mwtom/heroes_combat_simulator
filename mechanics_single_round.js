@@ -121,7 +121,7 @@ function simulate() {
       if (mass_override) {
         respl = document.getElementById("EnemyResplendent").checked && Characters[enemy_pool[i].base_index].has_resplendent;
         merge_lv = document.getElementById("EnemyMergeLv").value;
-        flower_lv = document.getElementById("EnemyDragonflowers").value;
+        flower_lv = Math.min(document.getElementById("EnemyDragonflowers").value, enemy_pool[i].df_maximum);
         // Apply enemy blessings as long as the unit is eligible to receive them.
         if (document.getElementById("EnemyBlessing").value != "(None)" &&
             !(enemy_pool[i].legendary && legendary_blessings.includes(document.getElementById("EnemyBlessing").value)) &&
@@ -141,7 +141,7 @@ function simulate() {
       else {
         respl = enemy_pool[i].resplendent && Characters[enemy_pool[i].base_index].has_resplendent;
         merge_lv = enemy_pool[i].merge_lv;
-        flower_lv = enemy_pool[i].flower_lv;
+        flower_lv = Math.min(enemy_pool[i].dragonflowers, enemy_pool[i].df_maximum);
         // Apply enemy blessings as long as the unit is eligible to receive them.
         if (enemy_pool[i].blessing != "(None)" &&
             !(enemy_pool[i].legendary && legendary_blessings.includes(enemy_pool[i].blessing)) &&

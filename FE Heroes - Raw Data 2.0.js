@@ -17967,6 +17967,46 @@ var data = {
       "seal": 83
     },
     "31": {
+      "name": "Byleth (Fell Star's Duo)",
+      "base_index": 45,
+      "boon": "Spd",
+      "bane": "Def",
+      "resplendent": 0,
+      "weap_name": "Sun's Percussors",
+      "refine": "None",
+      "a_name": "Atk/Spd Push 4",
+      "b_name": "Windsweep 3",
+      "c_name": "Joint Drive Atk",
+      "special": "Ruptured Sky",
+      "seal_name": "Swift Sparrow 2",
+      "weapon": 476,
+      "a": 27,
+      "b": 127,
+      "c": 80,
+      "proc": 46,
+      "seal": 114
+    },
+    "32": {
+      "name": "Byleth (Fell Star's Duo)",
+      "base_index": 45,
+      "boon": "Spd",
+      "bane": "Def",
+      "resplendent": 0,
+      "weap_name": "Sun's Percussors",
+      "refine": "None",
+      "a_name": "Atk/Spd Push 4",
+      "b_name": "Watersweep 3",
+      "c_name": "Joint Drive Atk",
+      "special": "Ruptured Sky",
+      "seal_name": "Swift Sparrow 2",
+      "weapon": 476,
+      "a": 27,
+      "b": 126,
+      "c": 80,
+      "proc": 46,
+      "seal": 114
+    },
+    "33": {
       "name": "Byleth (Proven Professor)",
       "base_index": 46,
       "boon": "Spd",
@@ -17986,7 +18026,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "32": {
+    "34": {
       "name": "Byleth (Proven Professor)",
       "base_index": 46,
       "boon": "Spd",
@@ -18006,7 +18046,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "33": {
+    "35": {
       "name": "Caeda (Talys's Heart)",
       "base_index": 50,
       "boon": "Atk",
@@ -18026,7 +18066,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "34": {
+    "36": {
       "name": "Caeda (Talys's Heart)",
       "base_index": 50,
       "boon": "Atk",
@@ -18046,7 +18086,7 @@ var data = {
       "proc": 33,
       "seal": 75
     },
-    "35": {
+    "37": {
       "name": "Caineghis (Gallia's Lion King)",
       "base_index": 52,
       "boon": "Atk",
@@ -18066,7 +18106,7 @@ var data = {
       "proc": 10,
       "seal": 43
     },
-    "36": {
+    "38": {
       "name": "Caineghis (Gallia's Lion King)",
       "base_index": 52,
       "boon": "Atk",
@@ -18086,7 +18126,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "37": {
+    "39": {
       "name": "Camilla (Bewitching Beauty)",
       "base_index": 53,
       "boon": "Atk",
@@ -18106,7 +18146,7 @@ var data = {
       "proc": 46,
       "seal": 75
     },
-    "38": {
+    "40": {
       "name": "Camilla (Bewitching Beauty)",
       "base_index": 53,
       "boon": "Atk",
@@ -18126,7 +18166,7 @@ var data = {
       "proc": 46,
       "seal": 75
     },
-    "39": {
+    "41": {
       "name": "Camilla (Flower of Fantasy)",
       "base_index": 54,
       "boon": "Atk",
@@ -18146,7 +18186,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "40": {
+    "42": {
       "name": "Camilla (Light of Nohr)",
       "base_index": 56,
       "boon": "Spd",
@@ -18166,7 +18206,7 @@ var data = {
       "proc": 0,
       "seal": 10
     },
-    "41": {
+    "43": {
       "name": "Catria (Middle Whitewing)",
       "base_index": 62,
       "boon": "Atk",
@@ -18186,7 +18226,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "42": {
+    "44": {
       "name": "Catria (Mild Middle Sister)",
       "base_index": 63,
       "boon": "Atk",
@@ -18206,7 +18246,7 @@ var data = {
       "proc": 46,
       "seal": 12
     },
-    "43": {
+    "45": {
       "name": "Cecilia (Festive Instructor)",
       "base_index": 66,
       "boon": "None",
@@ -18226,7 +18266,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "44": {
+    "46": {
       "name": "Cecilia (Festive Instructor)",
       "base_index": 66,
       "boon": "None",
@@ -18246,7 +18286,7 @@ var data = {
       "proc": 28,
       "seal": 43
     },
-    "45": {
+    "47": {
       "name": "Ced (Hero on the Wind)",
       "base_index": 67,
       "boon": "Spd",
@@ -18266,7 +18306,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "46": {
+    "48": {
       "name": "Ced (Hero on the Wind)",
       "base_index": 67,
       "boon": "Spd",
@@ -18286,7 +18326,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "47": {
+    "49": {
       "name": "Celica (Caring Princess)",
       "base_index": 68,
       "boon": "Spd",
@@ -18306,7 +18346,7 @@ var data = {
       "proc": 46,
       "seal": 19
     },
-    "48": {
+    "50": {
       "name": "Celica (Queen of Valentia)",
       "base_index": 70,
       "boon": "Spd",
@@ -18326,7 +18366,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "49": {
+    "51": {
       "name": "Celica (Queen of Valentia)",
       "base_index": 70,
       "boon": "Spd",
@@ -18346,7 +18386,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "50": {
+    "52": {
       "name": "Celica (Warrior Priestess)",
       "base_index": 71,
       "boon": "Atk",
@@ -18366,7 +18406,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "51": {
+    "53": {
       "name": "Cherche (Wyvern Friend)",
       "base_index": 74,
       "boon": "Atk",
@@ -18386,7 +18426,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "52": {
+    "54": {
       "name": "Chrom (Crowned Exalt)",
       "base_index": 75,
       "boon": "Atk",
@@ -18406,7 +18446,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "53": {
+    "55": {
       "name": "Chrom (Crowned Exalt)",
       "base_index": 75,
       "boon": "Atk",
@@ -18426,7 +18466,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "54": {
+    "56": {
       "name": "Chrom (Crowned Exalt)",
       "base_index": 75,
       "boon": "Spd",
@@ -18446,7 +18486,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "55": {
+    "57": {
       "name": "Chrom (Crowned Exalt)",
       "base_index": 75,
       "boon": "Atk",
@@ -18466,7 +18506,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "56": {
+    "58": {
       "name": "Clair (Highborn Flier)",
       "base_index": 80,
       "boon": "Atk",
@@ -18486,7 +18526,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "57": {
+    "59": {
       "name": "Clair (Highborn Flier)",
       "base_index": 80,
       "boon": "Atk",
@@ -18506,7 +18546,7 @@ var data = {
       "proc": 33,
       "seal": 75
     },
-    "58": {
+    "60": {
       "name": "Claude (The Schemer)",
       "base_index": 83,
       "boon": "Atk",
@@ -18526,7 +18566,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "59": {
+    "61": {
       "name": "Conrad (Masked Knight)",
       "base_index": 85,
       "boon": "None",
@@ -18546,7 +18586,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "60": {
+    "62": {
       "name": "Conrad (Masked Knight)",
       "base_index": 85,
       "boon": "None",
@@ -18566,7 +18606,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "61": {
+    "63": {
       "name": "Conrad (Unmasked Knight)",
       "base_index": 86,
       "boon": "Res",
@@ -18586,7 +18626,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "62": {
+    "64": {
       "name": "Conrad (Unmasked Knight)",
       "base_index": 86,
       "boon": "Res",
@@ -18606,7 +18646,7 @@ var data = {
       "proc": 19,
       "seal": 83
     },
-    "63": {
+    "65": {
       "name": "Cordelia (Knight Paragon)",
       "base_index": 88,
       "boon": "Atk",
@@ -18626,7 +18666,7 @@ var data = {
       "proc": 33,
       "seal": 30
     },
-    "64": {
+    "66": {
       "name": "Cordelia (Knight Paragon)",
       "base_index": 88,
       "boon": "Atk",
@@ -18646,7 +18686,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "65": {
+    "67": {
       "name": "Cordelia (Knight Paragon)",
       "base_index": 88,
       "boon": "Spd",
@@ -18666,50 +18706,10 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "66": {
-      "name": "Corrin (Dream Prince)",
-      "base_index": 92,
-      "boon": "Spd",
-      "bane": "Res",
-      "resplendent": 0,
-      "weap_name": "Draconic Rage",
-      "refine": "None",
-      "a_name": "Atk/Spd Push 4",
-      "b_name": "Null Follow-Up 3",
-      "c_name": "Joint Drive Atk",
-      "special": "Luna",
-      "seal_name": "Atk/Spd 2",
-      "weapon": 137,
-      "a": 27,
-      "b": 77,
-      "c": 80,
-      "proc": 33,
-      "seal": 10
-    },
-    "67": {
-      "name": "Corrin (Dream Prince)",
-      "base_index": 92,
-      "boon": "Spd",
-      "bane": "Res",
-      "resplendent": 0,
-      "weap_name": "Draconic Rage",
-      "refine": "None",
-      "a_name": "Distant Counter",
-      "b_name": "Wrath 3",
-      "c_name": "Joint Drive Atk",
-      "special": "Moonbow",
-      "seal_name": "Quick Riposte 3",
-      "weapon": 137,
-      "a": 65,
-      "b": 129,
-      "c": 80,
-      "proc": 37,
-      "seal": 83
-    },
     "68": {
-      "name": "Corrin (Dream Princess)",
-      "base_index": 93,
-      "boon": "Atk",
+      "name": "Corrin (Dream Prince)",
+      "base_index": 92,
+      "boon": "Spd",
       "bane": "Res",
       "resplendent": 0,
       "weap_name": "Draconic Rage",
@@ -18727,6 +18727,46 @@ var data = {
       "seal": 10
     },
     "69": {
+      "name": "Corrin (Dream Prince)",
+      "base_index": 92,
+      "boon": "Spd",
+      "bane": "Res",
+      "resplendent": 0,
+      "weap_name": "Draconic Rage",
+      "refine": "None",
+      "a_name": "Distant Counter",
+      "b_name": "Wrath 3",
+      "c_name": "Joint Drive Atk",
+      "special": "Moonbow",
+      "seal_name": "Quick Riposte 3",
+      "weapon": 137,
+      "a": 65,
+      "b": 129,
+      "c": 80,
+      "proc": 37,
+      "seal": 83
+    },
+    "70": {
+      "name": "Corrin (Dream Princess)",
+      "base_index": 93,
+      "boon": "Atk",
+      "bane": "Res",
+      "resplendent": 0,
+      "weap_name": "Draconic Rage",
+      "refine": "None",
+      "a_name": "Atk/Spd Push 4",
+      "b_name": "Null Follow-Up 3",
+      "c_name": "Joint Drive Atk",
+      "special": "Luna",
+      "seal_name": "Atk/Spd 2",
+      "weapon": 137,
+      "a": 27,
+      "b": 77,
+      "c": 80,
+      "proc": 33,
+      "seal": 10
+    },
+    "71": {
       "name": "Corrin (Dream Princess)",
       "base_index": 93,
       "boon": "Atk",
@@ -18746,7 +18786,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "70": {
+    "72": {
       "name": "Corrin (Wailing Soul)",
       "base_index": 98,
       "boon": "Spd",
@@ -18766,7 +18806,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "71": {
+    "73": {
       "name": "Corrin (Wailing Soul)",
       "base_index": 98,
       "boon": "Spd",
@@ -18786,7 +18826,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "72": {
+    "74": {
       "name": "Death Knight (The Reaper)",
       "base_index": 100,
       "boon": "None",
@@ -18806,7 +18846,7 @@ var data = {
       "proc": 33,
       "seal": 83
     },
-    "73": {
+    "75": {
       "name": "Deirdre (Lady of the Forest)",
       "base_index": 101,
       "boon": "Spd",
@@ -18826,7 +18866,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "74": {
+    "76": {
       "name": "Deirdre (Lady of the Forest)",
       "base_index": 101,
       "boon": "Atk",
@@ -18846,7 +18886,7 @@ var data = {
       "proc": 46,
       "seal": 43
     },
-    "75": {
+    "77": {
       "name": "Delthea (Tatarrah's Puppet)",
       "base_index": 103,
       "boon": "None",
@@ -18866,7 +18906,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "76": {
+    "78": {
       "name": "Dimitri (The Protector)",
       "base_index": 104,
       "boon": "Atk",
@@ -18886,7 +18926,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "77": {
+    "79": {
       "name": "Dozla (Harvest Attendant)",
       "base_index": 109,
       "boon": "Atk",
@@ -18906,7 +18946,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "78": {
+    "80": {
       "name": "Duma (God of Strength)",
       "base_index": 111,
       "boon": "Atk",
@@ -18926,7 +18966,7 @@ var data = {
       "proc": 33,
       "seal": 30
     },
-    "79": {
+    "81": {
       "name": "Duma (God of Strength)",
       "base_index": 111,
       "boon": "Atk",
@@ -18946,9 +18986,9 @@ var data = {
       "proc": 33,
       "seal": 83
     },
-    "80": {
+    "82": {
       "name": "Duma (God of Strength)",
-      "base_index": 105,
+      "base_index": 111,
       "boon": "Atk",
       "bane": "Spd",
       "resplendent": 0,
@@ -18966,7 +19006,7 @@ var data = {
       "proc": 33,
       "seal": 83
     },
-    "81": {
+    "83": {
       "name": "Edelgard (Flame Emperor)",
       "base_index": 113,
       "boon": "Atk",
@@ -18986,7 +19026,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "82": {
+    "84": {
       "name": "Edelgard (Flame Emperor)",
       "base_index": 113,
       "boon": "Atk",
@@ -19006,7 +19046,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "83": {
+    "85": {
       "name": "Edelgard (Flame Emperor)",
       "base_index": 113,
       "boon": "Atk",
@@ -19026,7 +19066,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "84": {
+    "86": {
       "name": "Edelgard (Flame Emperor)",
       "base_index": 113,
       "boon": "Atk",
@@ -19046,7 +19086,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "85": {
+    "87": {
       "name": "Edelgard (The Future)",
       "base_index": 114,
       "boon": "Atk",
@@ -19066,7 +19106,7 @@ var data = {
       "proc": 10,
       "seal": 12
     },
-    "86": {
+    "88": {
       "name": "Edelgard (The Future)",
       "base_index": 114,
       "boon": "Atk",
@@ -19086,7 +19126,7 @@ var data = {
       "proc": 29,
       "seal": 12
     },
-    "87": {
+    "89": {
       "name": "Eir (Merciful Death)",
       "base_index": 116,
       "boon": "Spd",
@@ -19106,7 +19146,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "88": {
+    "90": {
       "name": "Eirika (Anamnesis Lady)",
       "base_index": 118,
       "boon": "Spd",
@@ -19126,7 +19166,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "89": {
+    "91": {
       "name": "Eirika (Anamnesis Lady)",
       "base_index": 118,
       "boon": "Spd",
@@ -19146,7 +19186,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "90": {
+    "92": {
       "name": "Eirika (Graceful Resolve)",
       "base_index": 120,
       "boon": "Atk",
@@ -19166,7 +19206,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "91": {
+    "93": {
       "name": "Eleonora (Shooting Starlet)",
       "base_index": 123,
       "boon": "Spd",
@@ -19186,7 +19226,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "92": {
+    "94": {
       "name": "Elincia (Lost Princess)",
       "base_index": 125,
       "boon": "Atk",
@@ -19206,7 +19246,7 @@ var data = {
       "proc": 33,
       "seal": 114
     },
-    "93": {
+    "95": {
       "name": "Elise (Bubbling Flower)",
       "base_index": 126,
       "boon": "Spd",
@@ -19226,7 +19266,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "94": {
+    "96": {
       "name": "Eliwood (Blazing Knight)",
       "base_index": 129,
       "boon": "Spd",
@@ -19246,7 +19286,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "95": {
+    "97": {
       "name": "Eliwood (Blazing Knight)",
       "base_index": 129,
       "boon": "Spd",
@@ -19266,7 +19306,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "96": {
+    "98": {
       "name": "Eliwood (Knight of Lycia)",
       "base_index": 131,
       "boon": "Spd",
@@ -19286,7 +19326,7 @@ var data = {
       "proc": 12,
       "seal": 114
     },
-    "97": {
+    "99": {
       "name": "Eliwood (Marquess Pherae)",
       "base_index": 132,
       "boon": "Spd",
@@ -19306,7 +19346,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "98": {
+    "100": {
       "name": "Ephraim (Dynastic Duo)",
       "base_index": 134,
       "boon": "Atk",
@@ -19326,7 +19366,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "99": {
+    "101": {
       "name": "Ephraim (Legendary Lord)",
       "base_index": 135,
       "boon": "Atk",
@@ -19346,7 +19386,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "100": {
+    "102": {
       "name": "Ephraim (Sacred Twin Lord)",
       "base_index": 137,
       "boon": "Atk",
@@ -19366,7 +19406,7 @@ var data = {
       "proc": 29,
       "seal": 3
     },
-    "101": {
+    "103": {
       "name": "Ephraim (Sparkling Gallantly)",
       "base_index": 138,
       "boon": "Atk",
@@ -19386,7 +19426,7 @@ var data = {
       "proc": 29,
       "seal": 30
     },
-    "102": {
+    "104": {
       "name": "Ephraim (Sparkling Gallantly)",
       "base_index": 138,
       "boon": "Atk",
@@ -19406,7 +19446,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "103": {
+    "105": {
       "name": "Est (Junior Whitewing)",
       "base_index": 139,
       "boon": "Atk",
@@ -19426,7 +19466,7 @@ var data = {
       "proc": 33,
       "seal": 30
     },
-    "104": {
+    "106": {
       "name": "Est (Springtime Flier)",
       "base_index": 140,
       "boon": "Spd",
@@ -19446,7 +19486,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "105": {
+    "107": {
       "name": "Est (Springtime Flier)",
       "base_index": 140,
       "boon": "Spd",
@@ -19466,7 +19506,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "106": {
+    "108": {
       "name": "Ewan (Eager Student)",
       "base_index": 142,
       "boon": "Spd",
@@ -19486,7 +19526,7 @@ var data = {
       "proc": 46,
       "seal": 43
     },
-    "107": {
+    "109": {
       "name": "Eyvel (Mistress of Fiana)",
       "base_index": 143,
       "boon": "Def",
@@ -19506,7 +19546,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "108": {
+    "110": {
       "name": "Eyvel (Mistress of Fiana)",
       "base_index": 143,
       "boon": "Def",
@@ -19526,7 +19566,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "109": {
+    "111": {
       "name": "Fae (Holiday Dear)",
       "base_index": 145,
       "boon": "Def",
@@ -19546,7 +19586,7 @@ var data = {
       "proc": 37,
       "seal": 43
     },
-    "110": {
+    "112": {
       "name": "Faye (Devoted Heart)",
       "base_index": 146,
       "boon": "Def",
@@ -19566,7 +19606,7 @@ var data = {
       "proc": 28,
       "seal": 43
     },
-    "111": {
+    "113": {
       "name": "Faye (Drawn Heartstring)",
       "base_index": 147,
       "boon": "Atk",
@@ -19586,7 +19626,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "112": {
+    "114": {
       "name": "Faye (Drawn Heartstring)",
       "base_index": 147,
       "boon": "Atk",
@@ -19606,7 +19646,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "113": {
+    "115": {
       "name": "Faye (Drawn Heartstring)",
       "base_index": 147,
       "boon": "Atk",
@@ -19626,7 +19666,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "114": {
+    "116": {
       "name": "Faye (Drawn Heartstring)",
       "base_index": 147,
       "boon": "Atk",
@@ -19646,7 +19686,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "115": {
+    "117": {
       "name": "Felicia (Maid Mayhem)",
       "base_index": 148,
       "boon": "Atk",
@@ -19666,7 +19706,7 @@ var data = {
       "proc": 19,
       "seal": 10
     },
-    "116": {
+    "118": {
       "name": "Felicia (Maid Mayhem)",
       "base_index": 148,
       "boon": "Atk",
@@ -19686,7 +19726,7 @@ var data = {
       "proc": 19,
       "seal": 43
     },
-    "117": {
+    "119": {
       "name": "Felicia (Off the Menu)",
       "base_index": 149,
       "boon": "Atk",
@@ -19706,7 +19746,7 @@ var data = {
       "proc": 19,
       "seal": 10
     },
-    "118": {
+    "120": {
       "name": "Felicia (Off the Menu)",
       "base_index": 149,
       "boon": "Atk",
@@ -19726,7 +19766,7 @@ var data = {
       "proc": 19,
       "seal": 83
     },
-    "119": {
+    "121": {
       "name": "Fiora (Airborne Warrior)",
       "base_index": 152,
       "boon": "Atk",
@@ -19746,7 +19786,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "120": {
+    "122": {
       "name": "Fiora (Airborne Warrior)",
       "base_index": 152,
       "boon": "Atk",
@@ -19766,7 +19806,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "121": {
+    "123": {
       "name": "Fir (Student of Spring)",
       "base_index": 154,
       "boon": "Spd",
@@ -19786,7 +19826,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "122": {
+    "124": {
       "name": "Fir (Sword Student)",
       "base_index": 155,
       "boon": "Atk",
@@ -19806,7 +19846,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "123": {
+    "125": {
       "name": "Fjorm (Princess of Ice)",
       "base_index": 158,
       "boon": "Atk",
@@ -19826,7 +19866,7 @@ var data = {
       "proc": 27,
       "seal": 83
     },
-    "124": {
+    "126": {
       "name": "Fjorm (Princess of Ice)",
       "base_index": 158,
       "boon": "Atk",
@@ -19846,7 +19886,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "125": {
+    "127": {
       "name": "Flora (Cold as Ice)",
       "base_index": 160,
       "boon": "Atk",
@@ -19866,7 +19906,7 @@ var data = {
       "proc": 28,
       "seal": 30
     },
-    "126": {
+    "128": {
       "name": "Flora (Cold as Ice)",
       "base_index": 160,
       "boon": "Atk",
@@ -19886,7 +19926,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "127": {
+    "129": {
       "name": "Flora (Signature Dish)",
       "base_index": 161,
       "boon": "Atk",
@@ -19906,7 +19946,7 @@ var data = {
       "proc": 28,
       "seal": 30
     },
-    "128": {
+    "130": {
       "name": "Flora (Signature Dish)",
       "base_index": 161,
       "boon": "Atk",
@@ -19926,7 +19966,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "129": {
+    "131": {
       "name": "Forsyth (Loyal Lieutenant)",
       "base_index": 164,
       "boon": "Atk",
@@ -19946,7 +19986,7 @@ var data = {
       "proc": 10,
       "seal": 30
     },
-    "130": {
+    "132": {
       "name": "Forsyth (Loyal Lieutenant)",
       "base_index": 164,
       "boon": "Atk",
@@ -19966,7 +20006,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "131": {
+    "133": {
       "name": "Garon (King of Nohr)",
       "base_index": 170,
       "boon": "None",
@@ -19986,7 +20026,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "132": {
+    "134": {
       "name": "Gunnthr\xE1 (Voice of Dreams)",
       "base_index": 181,
       "boon": "Spd",
@@ -20006,7 +20046,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "133": {
+    "135": {
       "name": "Hana (Focused Samurai)",
       "base_index": 185,
       "boon": "Spd",
@@ -20026,7 +20066,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "134": {
+    "136": {
       "name": "Hardin (Dark Emperor)",
       "base_index": 186,
       "boon": "Atk",
@@ -20046,7 +20086,7 @@ var data = {
       "proc": 33,
       "seal": 83
     },
-    "135": {
+    "137": {
       "name": "Hawkeye (Desert Guardian)",
       "base_index": 187,
       "boon": "Atk",
@@ -20066,7 +20106,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "136": {
+    "138": {
       "name": "Hector (Brave Warrior)",
       "base_index": 189,
       "boon": "Atk",
@@ -20086,7 +20126,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "137": {
+    "139": {
       "name": "Hector (Brave Warrior)",
       "base_index": 189,
       "boon": "Atk",
@@ -20106,7 +20146,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "138": {
+    "140": {
       "name": "Hector (Dressed-Up Duo)",
       "base_index": 190,
       "boon": "Atk",
@@ -20126,12 +20166,12 @@ var data = {
       "proc": 11,
       "seal": 83
     },
-    "139": {
+    "141": {
       "name": "Hector (General of Ostia)",
       "base_index": 191,
       "boon": "Atk",
       "bane": "Spd",
-      "resplendent": 0,
+      "resplendent": 1,
       "weap_name": "Armads",
       "refine": "None",
       "a_name": "Distant Counter",
@@ -20146,7 +20186,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "140": {
+    "142": {
       "name": "Hector (Just Here to Fight)",
       "base_index": 192,
       "boon": "Atk",
@@ -20166,7 +20206,7 @@ var data = {
       "proc": 46,
       "seal": 12
     },
-    "141": {
+    "143": {
       "name": "Hector (Marquess of Ostia)",
       "base_index": 193,
       "boon": "Atk",
@@ -20186,7 +20226,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "142": {
+    "144": {
       "name": "Henry (Happy Vampire)",
       "base_index": 196,
       "boon": "Spd",
@@ -20206,7 +20246,7 @@ var data = {
       "proc": 11,
       "seal": 10
     },
-    "143": {
+    "145": {
       "name": "Henry (Happy Vampire)",
       "base_index": 196,
       "boon": "Atk",
@@ -20226,7 +20266,7 @@ var data = {
       "proc": 11,
       "seal": 30
     },
-    "144": {
+    "146": {
       "name": "Hilda (Idle Maiden)",
       "base_index": 198,
       "boon": "Spd",
@@ -20246,7 +20286,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "145": {
+    "147": {
       "name": "Hinoka (Blue Sky Warrior)",
       "base_index": 201,
       "boon": "Atk",
@@ -20266,7 +20306,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "146": {
+    "148": {
       "name": "Hr\xEDd (Icy Blade)",
       "base_index": 204,
       "boon": "Atk",
@@ -20286,7 +20326,7 @@ var data = {
       "proc": 46,
       "seal": 13
     },
-    "147": {
+    "149": {
       "name": "Iago (Nohr's Tactician)",
       "base_index": 207,
       "boon": "None",
@@ -20306,7 +20346,7 @@ var data = {
       "proc": 46,
       "seal": 71
     },
-    "148": {
+    "150": {
       "name": "Idunn (Dark Priestess)",
       "base_index": 208,
       "boon": "Atk",
@@ -20326,7 +20366,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "149": {
+    "151": {
       "name": "Idunn (Dark Priestess)",
       "base_index": 208,
       "boon": "Atk",
@@ -20346,7 +20386,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "150": {
+    "152": {
       "name": "Idunn (Dark Priestess)",
       "base_index": 208,
       "boon": "Atk",
@@ -20366,7 +20406,7 @@ var data = {
       "proc": 10,
       "seal": 30
     },
-    "151": {
+    "153": {
       "name": "Idunn (Dragonkin Duo)",
       "base_index": 209,
       "boon": "Atk",
@@ -20386,7 +20426,7 @@ var data = {
       "proc": 10,
       "seal": 43
     },
-    "152": {
+    "154": {
       "name": "Igrene (Nabata Protector)",
       "base_index": 210,
       "boon": "Atk",
@@ -20406,7 +20446,7 @@ var data = {
       "proc": 8,
       "seal": 66
     },
-    "153": {
+    "155": {
       "name": "Ike (Brave Mercenary)",
       "base_index": 211,
       "boon": "Atk",
@@ -20426,7 +20466,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "154": {
+    "156": {
       "name": "Ike (Brave Mercenary)",
       "base_index": 211,
       "boon": "Spd",
@@ -20446,7 +20486,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "155": {
+    "157": {
       "name": "Ike (Stalwart Heart)",
       "base_index": 212,
       "boon": "Spd",
@@ -20466,7 +20506,7 @@ var data = {
       "proc": 42,
       "seal": 83
     },
-    "156": {
+    "158": {
       "name": "Ilyana (Treat Harvester)",
       "base_index": 216,
       "boon": "Atk",
@@ -20486,7 +20526,7 @@ var data = {
       "proc": 28,
       "seal": 30
     },
-    "157": {
+    "159": {
       "name": "Ilyana (Treat Harvester)",
       "base_index": 216,
       "boon": "Def",
@@ -20506,7 +20546,7 @@ var data = {
       "proc": 28,
       "seal": 43
     },
-    "158": {
+    "160": {
       "name": "Innes (Regal Strategician)",
       "base_index": 220,
       "boon": "Spd",
@@ -20526,7 +20566,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "159": {
+    "161": {
       "name": "Ishtar (Thunder's Waltz)",
       "base_index": 222,
       "boon": "Atk",
@@ -20546,7 +20586,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "160": {
+    "162": {
       "name": "Itsuki (Finding a Path)",
       "base_index": 223,
       "boon": "None",
@@ -20566,7 +20606,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "161": {
+    "163": {
       "name": "Julia (Crusader of Light)",
       "base_index": 233,
       "boon": "Atk",
@@ -20586,7 +20626,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "162": {
+    "164": {
       "name": "Julia (Crusader of Light)",
       "base_index": 233,
       "boon": "Spd",
@@ -20606,7 +20646,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "163": {
+    "165": {
       "name": "Julia (Naga's Blood)",
       "base_index": 235,
       "boon": "Atk",
@@ -20626,7 +20666,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "164": {
+    "166": {
       "name": "Julia (Naga's Blood)",
       "base_index": 235,
       "boon": "Atk",
@@ -20646,7 +20686,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "165": {
+    "167": {
       "name": "Julius (Scion of Darkness)",
       "base_index": 236,
       "boon": "None",
@@ -20666,7 +20706,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "166": {
+    "168": {
       "name": "Kagero (Honorable Ninja)",
       "base_index": 239,
       "boon": "Atk",
@@ -20686,7 +20726,7 @@ var data = {
       "proc": 12,
       "seal": 114
     },
-    "167": {
+    "169": {
       "name": "Kana (Dragon Princess)",
       "base_index": 241,
       "boon": "Atk",
@@ -20706,7 +20746,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "168": {
+    "170": {
       "name": "Karel (Sword Demon)",
       "base_index": 243,
       "boon": "Atk",
@@ -20726,7 +20766,7 @@ var data = {
       "proc": 46,
       "seal": 13
     },
-    "169": {
+    "171": {
       "name": "Karla (Sword Vassal)",
       "base_index": 244,
       "boon": "Spd",
@@ -20746,7 +20786,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "170": {
+    "172": {
       "name": "Keaton (Lupine Collector)",
       "base_index": 247,
       "boon": "Atk",
@@ -20766,7 +20806,7 @@ var data = {
       "proc": 37,
       "seal": 17
     },
-    "171": {
+    "173": {
       "name": "Kiria (Cool Fa\xE7ade)",
       "base_index": 249,
       "boon": "Atk",
@@ -20786,7 +20826,7 @@ var data = {
       "proc": 33,
       "seal": 83
     },
-    "172": {
+    "174": {
       "name": "Klein (Silver Nobleman)",
       "base_index": 251,
       "boon": "Atk",
@@ -20806,7 +20846,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "173": {
+    "175": {
       "name": "Kronya (Gleaming Blade)",
       "base_index": 253,
       "boon": "None",
@@ -20826,7 +20866,7 @@ var data = {
       "proc": 46,
       "seal": 12
     },
-    "174": {
+    "176": {
       "name": "L'Arachel (Harvest Princess)",
       "base_index": 254,
       "boon": "Spd",
@@ -20846,7 +20886,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "175": {
+    "177": {
       "name": "L\xEDf (Lethal Swordsman)",
       "base_index": 281,
       "boon": "Atk",
@@ -20866,7 +20906,7 @@ var data = {
       "proc": 40,
       "seal": 13
     },
-    "176": {
+    "178": {
       "name": "Laegjarn (Burning Sun)",
       "base_index": 257,
       "boon": "Atk",
@@ -20886,7 +20926,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "177": {
+    "179": {
       "name": "Laegjarn (Sheathed Steel)",
       "base_index": 259,
       "boon": "Spd",
@@ -20906,7 +20946,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "178": {
+    "180": {
       "name": "Laevatein (Bonfire Blaze)",
       "base_index": 260,
       "boon": "Atk",
@@ -20926,7 +20966,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "179": {
+    "181": {
       "name": "Laevatein (Searing Steel)",
       "base_index": 262,
       "boon": "Atk",
@@ -20946,7 +20986,7 @@ var data = {
       "proc": 46,
       "seal": 12
     },
-    "180": {
+    "182": {
       "name": "Larcei (Keen Kin)",
       "base_index": 263,
       "boon": "Spd",
@@ -20966,7 +21006,7 @@ var data = {
       "proc": 43,
       "seal": 10
     },
-    "181": {
+    "183": {
       "name": "Larcei (Keen Kin)",
       "base_index": 263,
       "boon": "Spd",
@@ -20986,7 +21026,7 @@ var data = {
       "proc": 43,
       "seal": 10
     },
-    "182": {
+    "184": {
       "name": "Leif (Prince of Leonster)",
       "base_index": 269,
       "boon": "Atk",
@@ -21006,7 +21046,7 @@ var data = {
       "proc": 29,
       "seal": 84
     },
-    "183": {
+    "185": {
       "name": "Leif (Unifier of Thracia)",
       "base_index": 270,
       "boon": "Atk",
@@ -21026,7 +21066,7 @@ var data = {
       "proc": 38,
       "seal": 30
     },
-    "184": {
+    "186": {
       "name": "Leif (Unifier of Thracia)",
       "base_index": 270,
       "boon": "Atk",
@@ -21046,7 +21086,7 @@ var data = {
       "proc": 38,
       "seal": 12
     },
-    "185": {
+    "187": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21066,7 +21106,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "186": {
+    "188": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21086,7 +21126,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "187": {
+    "189": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21106,7 +21146,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "188": {
+    "190": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21126,7 +21166,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "189": {
+    "191": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21146,7 +21186,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "190": {
+    "192": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21166,7 +21206,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "191": {
+    "193": {
       "name": "Leila (Rose amid Fangs)",
       "base_index": 271,
       "boon": "Spd",
@@ -21186,7 +21226,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "192": {
+    "194": {
       "name": "Leo (Sorcerous Prince)",
       "base_index": 275,
       "boon": "Atk",
@@ -21206,7 +21246,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "193": {
+    "195": {
       "name": "Lethe (Gallia's Valkyrie)",
       "base_index": 277,
       "boon": "Spd",
@@ -21226,7 +21266,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "194": {
+    "196": {
       "name": "Lethe (New Year's Claw)",
       "base_index": 278,
       "boon": "Spd",
@@ -21246,7 +21286,7 @@ var data = {
       "proc": 37,
       "seal": 114
     },
-    "195": {
+    "197": {
       "name": "Lethe (New Year's Claw)",
       "base_index": 278,
       "boon": "Spd",
@@ -21266,7 +21306,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "196": {
+    "198": {
       "name": "Lewyn (Guiding Breeze)",
       "base_index": 279,
       "boon": "Spd",
@@ -21286,7 +21326,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "197": {
+    "199": {
       "name": "Lilina (Delightful Noble)",
       "base_index": 284,
       "boon": "Atk",
@@ -21306,7 +21346,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "198": {
+    "200": {
       "name": "Lilith (Astral Daughter)",
       "base_index": 285,
       "boon": "Spd",
@@ -21326,12 +21366,12 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "199": {
+    "201": {
       "name": "Linde (Light Mage)",
       "base_index": 286,
       "boon": "Spd",
       "bane": "Def",
-      "resplendent": 0,
+      "resplendent": 1,
       "weap_name": "Blarblade+",
       "refine": "None",
       "a_name": "Atk/Spd Push 4",
@@ -21346,7 +21386,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "200": {
+    "202": {
       "name": "Lucina (Brave Princess)",
       "base_index": 297,
       "boon": "Spd",
@@ -21366,7 +21406,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "201": {
+    "203": {
       "name": "Lucina (Future Witness)",
       "base_index": 298,
       "boon": "Spd",
@@ -21386,7 +21426,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "202": {
+    "204": {
       "name": "Lucina (Glorious Archer)",
       "base_index": 299,
       "boon": "Spd",
@@ -21406,7 +21446,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "203": {
+    "205": {
       "name": "Lute (Prodigy)",
       "base_index": 306,
       "boon": "Spd",
@@ -21426,7 +21466,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "204": {
+    "206": {
       "name": "Lute (Prodigy)",
       "base_index": 306,
       "boon": "Atk",
@@ -21446,7 +21486,7 @@ var data = {
       "proc": 46,
       "seal": 12
     },
-    "205": {
+    "207": {
       "name": "Lyn (Brave Lady)",
       "base_index": 308,
       "boon": "Spd",
@@ -21466,7 +21506,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "206": {
+    "208": {
       "name": "Lyn (Brave Lady)",
       "base_index": 308,
       "boon": "Atk",
@@ -21486,7 +21526,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "207": {
+    "209": {
       "name": "Lyn (Lady of the Beach)",
       "base_index": 310,
       "boon": "Spd",
@@ -21506,7 +21546,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "208": {
+    "210": {
       "name": "Lysithea (Child Prodigy)",
       "base_index": 316,
       "boon": "Atk",
@@ -21526,7 +21566,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "209": {
+    "211": {
       "name": "Lysithea (Child Prodigy)",
       "base_index": 316,
       "boon": "Atk",
@@ -21546,7 +21586,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "210": {
+    "212": {
       "name": "Lysithea (Child Prodigy)",
       "base_index": 316,
       "boon": "Atk",
@@ -21566,7 +21606,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "211": {
+    "213": {
       "name": "Mamori (Microwavin' Idol)",
       "base_index": 318,
       "boon": "Atk",
@@ -21586,7 +21626,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "212": {
+    "214": {
       "name": "Mareeta (Sword of Stars)",
       "base_index": 319,
       "boon": "Spd",
@@ -21606,7 +21646,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "213": {
+    "215": {
       "name": "Mareeta (Sword of Stars)",
       "base_index": 319,
       "boon": "Spd",
@@ -21626,7 +21666,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "214": {
+    "216": {
       "name": "Marth (Hero-King)",
       "base_index": 328,
       "boon": "Spd",
@@ -21646,7 +21686,7 @@ var data = {
       "proc": 16,
       "seal": 10
     },
-    "215": {
+    "217": {
       "name": "Marth (Hero-King)",
       "base_index": 328,
       "boon": "Spd",
@@ -21666,7 +21706,7 @@ var data = {
       "proc": 16,
       "seal": 10
     },
-    "216": {
+    "218": {
       "name": "Marth (Hero-King)",
       "base_index": 328,
       "boon": "Spd",
@@ -21686,7 +21726,7 @@ var data = {
       "proc": 16,
       "seal": 83
     },
-    "217": {
+    "219": {
       "name": "Marth (Royal Altean Duo)",
       "base_index": 330,
       "boon": "Spd",
@@ -21706,7 +21746,7 @@ var data = {
       "proc": 16,
       "seal": 83
     },
-    "218": {
+    "220": {
       "name": "Micaiah (Priestess of Dawn)",
       "base_index": 340,
       "boon": "Atk",
@@ -21726,7 +21766,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "219": {
+    "221": {
       "name": "Micaiah (Queen of Dawn)",
       "base_index": 341,
       "boon": "Atk",
@@ -21746,7 +21786,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "220": {
+    "222": {
       "name": "Micaiah (Summer's Dawn)",
       "base_index": 342,
       "boon": "Atk",
@@ -21766,7 +21806,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "221": {
+    "223": {
       "name": "Midori (Reliable Chemist)",
       "base_index": 344,
       "boon": "Atk",
@@ -21786,7 +21826,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "222": {
+    "224": {
       "name": "Midori (Reliable Chemist)",
       "base_index": 344,
       "boon": "Atk",
@@ -21806,7 +21846,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "223": {
+    "225": {
       "name": "Minerva (Red Dragoon)",
       "base_index": 348,
       "boon": "Spd",
@@ -21826,7 +21866,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "224": {
+    "226": {
       "name": "Morgan (Lass from Afar)",
       "base_index": 354,
       "boon": "Spd",
@@ -21846,7 +21886,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "225": {
+    "227": {
       "name": "Morgan (Lass from Afar)",
       "base_index": 354,
       "boon": "Res",
@@ -21866,14 +21906,14 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "226": {
+    "228": {
       "name": "Myrrh (Great Dragon)",
       "base_index": 356,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
       "weap_name": "Great Flame",
-      "refine": "None",
+      "refine": "Eff",
       "a_name": "Atk/Def Push 4",
       "b_name": "Quick Riposte 3",
       "c_name": "Joint Drive Atk",
@@ -21886,14 +21926,14 @@ var data = {
       "proc": 37,
       "seal": 75
     },
-    "227": {
+    "229": {
       "name": "Myrrh (Great Dragon)",
       "base_index": 356,
       "boon": "Def",
       "bane": "Spd",
       "resplendent": 0,
       "weap_name": "Great Flame",
-      "refine": "None",
+      "refine": "Eff",
       "a_name": "Distant Counter",
       "b_name": "Quick Riposte 3",
       "c_name": "Joint Drive Atk",
@@ -21906,7 +21946,7 @@ var data = {
       "proc": 37,
       "seal": 75
     },
-    "228": {
+    "230": {
       "name": "Myrrh (Spooky Monster)",
       "base_index": 357,
       "boon": "Atk",
@@ -21926,7 +21966,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "229": {
+    "231": {
       "name": "Naesala (Sky's Shadow)",
       "base_index": 358,
       "boon": "None",
@@ -21946,7 +21986,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "230": {
+    "232": {
       "name": "Naga (Dragon Divinity)",
       "base_index": 359,
       "boon": "Spd",
@@ -21966,7 +22006,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "231": {
+    "233": {
       "name": "Nagi (Dragon Avatar)",
       "base_index": 360,
       "boon": "Atk",
@@ -21986,7 +22026,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "232": {
+    "234": {
       "name": "Nah (Little Miss)",
       "base_index": 361,
       "boon": "Atk",
@@ -22006,7 +22046,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "233": {
+    "235": {
       "name": "Nailah (Unflinching Eye)",
       "base_index": 363,
       "boon": "Atk",
@@ -22026,7 +22066,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "234": {
+    "236": {
       "name": "Narcian (Vernal General)",
       "base_index": 365,
       "boon": "Spd",
@@ -22046,7 +22086,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "235": {
+    "237": {
       "name": "Narcian (Vernal General)",
       "base_index": 365,
       "boon": "Spd",
@@ -22066,7 +22106,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "236": {
+    "238": {
       "name": "Niles (Forbidden Tease)",
       "base_index": 371,
       "boon": "Spd",
@@ -22086,7 +22126,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "237": {
+    "239": {
       "name": "Nino (Flower of Frost)",
       "base_index": 376,
       "boon": "Spd",
@@ -22106,7 +22146,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "238": {
+    "240": {
       "name": "Nino (Flower of Frost)",
       "base_index": 376,
       "boon": "Spd",
@@ -22126,7 +22166,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "239": {
+    "241": {
       "name": "Nino (Pale Flower)",
       "base_index": 377,
       "boon": "Spd",
@@ -22146,7 +22186,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "240": {
+    "242": {
       "name": "Nino (Pale Flower)",
       "base_index": 377,
       "boon": "Spd",
@@ -22166,7 +22206,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "241": {
+    "243": {
       "name": "Norne (The Volunteer)",
       "base_index": 380,
       "boon": "Res",
@@ -22186,7 +22226,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "242": {
+    "244": {
       "name": "Nowi (Eternal Youth)",
       "base_index": 382,
       "boon": "Atk",
@@ -22206,7 +22246,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "243": {
+    "245": {
       "name": "Olwen (Righteous Knight)",
       "base_index": 392,
       "boon": "Spd",
@@ -22226,7 +22266,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "244": {
+    "246": {
       "name": "Ophelia (Dramatic Heroine)",
       "base_index": 393,
       "boon": "Atk",
@@ -22246,7 +22286,7 @@ var data = {
       "proc": 8,
       "seal": 66
     },
-    "245": {
+    "247": {
       "name": "Osian (Scolded Soldier)",
       "base_index": 395,
       "boon": "Spd",
@@ -22266,7 +22306,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "246": {
+    "248": {
       "name": "Palla (Eldest Bun-Bun)",
       "base_index": 397,
       "boon": "Spd",
@@ -22286,7 +22326,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "247": {
+    "249": {
       "name": "Palla (Eldest Bun-Bun)",
       "base_index": 397,
       "boon": "Spd",
@@ -22306,7 +22346,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "248": {
+    "250": {
       "name": "Palla (Eldest Whitewing)",
       "base_index": 398,
       "boon": "Atk",
@@ -22326,7 +22366,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "249": {
+    "251": {
       "name": "Pent (Fancy Fianc\xE9)",
       "base_index": 401,
       "boon": "Spd",
@@ -22346,7 +22386,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "250": {
+    "252": {
       "name": "Perceval (Knightly Ideal)",
       "base_index": 403,
       "boon": "Atk",
@@ -22366,7 +22406,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "251": {
+    "253": {
       "name": "Petra (Princess of Brigid)",
       "base_index": 405,
       "boon": "Atk",
@@ -22386,7 +22426,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "252": {
+    "254": {
       "name": "Raven (Peerless Fighter)",
       "base_index": 414,
       "boon": "Spd",
@@ -22406,7 +22446,7 @@ var data = {
       "proc": 41,
       "seal": 114
     },
-    "253": {
+    "255": {
       "name": "Raven (Peerless Fighter)",
       "base_index": 414,
       "boon": "Spd",
@@ -22426,7 +22466,7 @@ var data = {
       "proc": 33,
       "seal": 114
     },
-    "254": {
+    "256": {
       "name": "Reinhardt (Lightning's Rondo)",
       "base_index": 416,
       "boon": "Atk",
@@ -22446,7 +22486,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "255": {
+    "257": {
       "name": "Reinhardt (Thunder's Fist)",
       "base_index": 417,
       "boon": "Atk",
@@ -22466,7 +22506,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "256": {
+    "258": {
       "name": "Reinhardt (Thunder's Sword)",
       "base_index": 418,
       "boon": "Atk",
@@ -22486,7 +22526,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "257": {
+    "259": {
       "name": "Reinhardt (Thunder's Sword)",
       "base_index": 418,
       "boon": "Atk",
@@ -22506,7 +22546,7 @@ var data = {
       "proc": 46,
       "seal": 55
     },
-    "258": {
+    "260": {
       "name": "Rinkah (Scion of Flame)",
       "base_index": 423,
       "boon": "Spd",
@@ -22526,7 +22566,7 @@ var data = {
       "proc": 10,
       "seal": 12
     },
-    "259": {
+    "261": {
       "name": "Rinkah (Scion of Flame)",
       "base_index": 423,
       "boon": "Spd",
@@ -22546,7 +22586,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "260": {
+    "262": {
       "name": "Robin (Fell Reincarnation)",
       "base_index": 424,
       "boon": "Atk",
@@ -22566,7 +22606,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "261": {
+    "263": {
       "name": "Ross (His Father's Son)",
       "base_index": 432,
       "boon": "Atk",
@@ -22586,7 +22626,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "262": {
+    "264": {
       "name": "Roy (Blazing Lion)",
       "base_index": 433,
       "boon": "Spd",
@@ -22606,7 +22646,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "263": {
+    "265": {
       "name": "Roy (Brave Lion)",
       "base_index": 434,
       "boon": "Spd",
@@ -22626,7 +22666,7 @@ var data = {
       "proc": 12,
       "seal": 114
     },
-    "264": {
+    "266": {
       "name": "Rudolf (Emperor of Rigel)",
       "base_index": 437,
       "boon": "Atk",
@@ -22646,7 +22686,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "265": {
+    "267": {
       "name": "Rudolf (Emperor of Rigel)",
       "base_index": 437,
       "boon": "Atk",
@@ -22666,7 +22706,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "266": {
+    "268": {
       "name": "Ryoma (Supreme Samurai)",
       "base_index": 442,
       "boon": "Spd",
@@ -22686,7 +22726,7 @@ var data = {
       "proc": 46,
       "seal": 67
     },
-    "267": {
+    "269": {
       "name": "Ryoma (Supreme Samurai)",
       "base_index": 442,
       "boon": "Spd",
@@ -22706,7 +22746,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "268": {
+    "270": {
       "name": "Seliph (Heir of Light)",
       "base_index": 454,
       "boon": "Atk",
@@ -22726,7 +22766,27 @@ var data = {
       "proc": 54,
       "seal": 83
     },
-    "269": {
+    "271": {
+      "name": "Seliph (Scion of Light)",
+      "base_index": 455,
+      "boon": "Atk",
+      "bane": "Spd",
+      "resplendent": 0,
+      "weap_name": "Virtuous Tyrfing",
+      "refine": "None",
+      "a_name": "Distant Counter",
+      "b_name": "Holy War's End",
+      "c_name": "Joint Drive Atk",
+      "special": "Ruptured Sky",
+      "seal_name": "Fierce Stance 3",
+      "weapon": 514,
+      "a": 65,
+      "b": 60,
+      "c": 80,
+      "proc": 46,
+      "seal": 55
+    },
+    "272": {
       "name": "Selkie (Free Spirit)",
       "base_index": 456,
       "boon": "Atk",
@@ -22746,7 +22806,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "270": {
+    "273": {
       "name": "Selkie (New Year's Spirit)",
       "base_index": 457,
       "boon": "Atk",
@@ -22766,7 +22826,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "271": {
+    "274": {
       "name": "Shannan (Wielder of Astra)",
       "base_index": 462,
       "boon": "Spd",
@@ -22786,7 +22846,7 @@ var data = {
       "proc": 31,
       "seal": 13
     },
-    "272": {
+    "275": {
       "name": "Shannan (Wielder of Astra)",
       "base_index": 462,
       "boon": "Spd",
@@ -22806,7 +22866,7 @@ var data = {
       "proc": 31,
       "seal": 83
     },
-    "273": {
+    "276": {
       "name": "Siegbert (Future King)",
       "base_index": 469,
       "boon": "Spd",
@@ -22826,7 +22886,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "274": {
+    "277": {
       "name": "Sigurd (Holy Knight)",
       "base_index": 472,
       "boon": "Atk",
@@ -22846,7 +22906,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "275": {
+    "278": {
       "name": "Silas (Loyal Knight)",
       "base_index": 473,
       "boon": "Def",
@@ -22866,7 +22926,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "276": {
+    "279": {
       "name": "Silas (Loyal Knight)",
       "base_index": 473,
       "boon": "Def",
@@ -22886,7 +22946,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "277": {
+    "280": {
       "name": "Sirius (Mysterious Knight)",
       "base_index": 477,
       "boon": "Spd",
@@ -22906,7 +22966,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "278": {
+    "281": {
       "name": "Sonya (Vengeful Mage)",
       "base_index": 479,
       "boon": "Atk",
@@ -22926,7 +22986,7 @@ var data = {
       "proc": 19,
       "seal": 84
     },
-    "279": {
+    "282": {
       "name": "Sophia (Nabata Prophet)",
       "base_index": 480,
       "boon": "Atk",
@@ -22946,7 +23006,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "280": {
+    "283": {
       "name": "Sothis (Girl on the Throne)",
       "base_index": 484,
       "boon": "Spd",
@@ -22966,7 +23026,7 @@ var data = {
       "proc": 48,
       "seal": 83
     },
-    "281": {
+    "284": {
       "name": "Sothis (Silver Specter)",
       "base_index": 485,
       "boon": "Spd",
@@ -22986,7 +23046,7 @@ var data = {
       "proc": 48,
       "seal": 83
     },
-    "282": {
+    "285": {
       "name": "Surtr (Ruler of Flame)",
       "base_index": 491,
       "boon": "Atk",
@@ -23006,7 +23066,7 @@ var data = {
       "proc": 46,
       "seal": 43
     },
-    "283": {
+    "286": {
       "name": "Tailtiu (Thunder Noble)",
       "base_index": 493,
       "boon": "Spd",
@@ -23026,7 +23086,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "284": {
+    "287": {
       "name": "Tana (Noble and Nimble)",
       "base_index": 498,
       "boon": "Spd",
@@ -23046,7 +23106,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "285": {
+    "288": {
       "name": "Tana (Winged Princess)",
       "base_index": 499,
       "boon": "Spd",
@@ -23066,7 +23126,7 @@ var data = {
       "proc": 46,
       "seal": 26
     },
-    "286": {
+    "289": {
       "name": "Tharja (\"Normal Girl\")",
       "base_index": 503,
       "boon": "Atk",
@@ -23086,7 +23146,7 @@ var data = {
       "proc": 46,
       "seal": 83
     },
-    "287": {
+    "290": {
       "name": "Tharja (Dark Shadow)",
       "base_index": 504,
       "boon": "Spd",
@@ -23106,7 +23166,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "288": {
+    "291": {
       "name": "Thrasir (Omnicidal Witch)",
       "base_index": 507,
       "boon": "Spd",
@@ -23126,7 +23186,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "289": {
+    "292": {
       "name": "Thrasir (Omnicidal Witch)",
       "base_index": 507,
       "boon": "Spd",
@@ -23146,7 +23206,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "290": {
+    "293": {
       "name": "Thrasir (Omnicidal Witch)",
       "base_index": 507,
       "boon": "Spd",
@@ -23166,7 +23226,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "291": {
+    "294": {
       "name": "Tibarn (Lord of the Air)",
       "base_index": 508,
       "boon": "Atk",
@@ -23177,16 +23237,16 @@ var data = {
       "a_name": "Sturdy Impact",
       "b_name": "Guard 3",
       "c_name": "Joint Drive Atk",
-      "special": "Ruptured Sky",
+      "special": "Moonbow",
       "seal_name": "Death Blow 3",
       "weapon": 243,
       "a": 126,
       "b": 57,
       "c": 80,
-      "proc": 46,
+      "proc": 37,
       "seal": 30
     },
-    "292": {
+    "295": {
       "name": "Tiki (Beachside Scion)",
       "base_index": 509,
       "boon": "Spd",
@@ -23206,7 +23266,7 @@ var data = {
       "proc": 29,
       "seal": 75
     },
-    "293": {
+    "296": {
       "name": "Tiki (Legendary Dragon)",
       "base_index": 511,
       "boon": "Spd",
@@ -23226,7 +23286,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "294": {
+    "297": {
       "name": "Tiki (Legendary Dragon)",
       "base_index": 511,
       "boon": "Atk",
@@ -23246,7 +23306,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "295": {
+    "298": {
       "name": "Tiki (Naga's Voice)",
       "base_index": 512,
       "boon": "Res",
@@ -23266,7 +23326,7 @@ var data = {
       "proc": 37,
       "seal": 83
     },
-    "296": {
+    "299": {
       "name": "Tiki (Torpid Dragon)",
       "base_index": 514,
       "boon": "Spd",
@@ -23286,7 +23346,7 @@ var data = {
       "proc": 29,
       "seal": 83
     },
-    "297": {
+    "300": {
       "name": "Tiki (Torpid Dragon)",
       "base_index": 514,
       "boon": "Atk",
@@ -23306,7 +23366,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "298": {
+    "301": {
       "name": "Tsubasa (Madcap Idol)",
       "base_index": 519,
       "boon": "Atk",
@@ -23326,7 +23386,7 @@ var data = {
       "proc": 46,
       "seal": 114
     },
-    "299": {
+    "302": {
       "name": "Ursula (Blue Crow)",
       "base_index": 520,
       "boon": "None",
@@ -23346,7 +23406,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "300": {
+    "303": {
       "name": "Ursula (Clear-Blue Crow)",
       "base_index": 521,
       "boon": "Spd",
@@ -23366,7 +23426,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "301": {
+    "304": {
       "name": "Ursula (Clear-Blue Crow)",
       "base_index": 521,
       "boon": "Spd",
@@ -23386,7 +23446,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "302": {
+    "305": {
       "name": "Velouria (Wolf Cub)",
       "base_index": 524,
       "boon": "Spd",
@@ -23406,7 +23466,7 @@ var data = {
       "proc": 33,
       "seal": 10
     },
-    "303": {
+    "306": {
       "name": "Veronica (Brave Princess)",
       "base_index": 525,
       "boon": "Spd",
@@ -23426,7 +23486,7 @@ var data = {
       "proc": 0,
       "seal": 10
     },
-    "304": {
+    "307": {
       "name": "Walhart (The Conqueror)",
       "base_index": 528,
       "boon": "None",
@@ -23446,7 +23506,7 @@ var data = {
       "proc": 10,
       "seal": 83
     },
-    "305": {
+    "308": {
       "name": "Yarne (Timid Taguel)",
       "base_index": 535,
       "boon": "Spd",
@@ -23466,7 +23526,7 @@ var data = {
       "proc": 37,
       "seal": 10
     },
-    "306": {
+    "309": {
       "name": "Ylgr (Fresh Snowfall)",
       "base_index": 537,
       "boon": "Spd",
@@ -23486,7 +23546,7 @@ var data = {
       "proc": 46,
       "seal": 10
     },
-    "307": {
+    "310": {
       "name": "Yune (Chaos Goddess)",
       "base_index": 538,
       "boon": "Atk",
@@ -23506,7 +23566,7 @@ var data = {
       "proc": 46,
       "seal": 30
     },
-    "308": {
+    "311": {
       "name": "Yune (Chaos Goddess)",
       "base_index": 538,
       "boon": "Atk",
@@ -23526,7 +23586,7 @@ var data = {
       "proc": 28,
       "seal": 83
     },
-    "309": {
+    "312": {
       "name": "Zelgius (Jet-Black General)",
       "base_index": 539,
       "boon": "Spd",
@@ -23546,7 +23606,7 @@ var data = {
       "proc": 4,
       "seal": 83
     },
-    "310": {
+    "313": {
       "name": "Zelgius (Jet-Black General)",
       "base_index": 539,
       "boon": "Atk",
@@ -23566,7 +23626,7 @@ var data = {
       "proc": 4,
       "seal": 30
     },
-    "311": {
+    "314": {
       "name": "Zelgius (Jet-Black General)",
       "base_index": 539,
       "boon": "Spd",
@@ -23586,27 +23646,7 @@ var data = {
       "proc": 4,
       "seal": 83
     },
-    "312": {
-      "name": "Zelgius (Jet-Black General)",
-      "base_index": 539,
-      "boon": "Atk",
-      "bane": "Res",
-      "resplendent": 0,
-      "weap_name": "Brave Sword+",
-      "refine": "None",
-      "a_name": "Death Blow 4",
-      "b_name": "Bold Fighter 3",
-      "c_name": "Joint Drive Atk",
-      "special": "Black Luna",
-      "seal_name": "Death Blow 3",
-      "weapon": 62,
-      "a": 56,
-      "b": 15,
-      "c": 80,
-      "proc": 4,
-      "seal": 30
-    },
-    "313": {
+    "315": {
       "name": "Zephiel (Winter's Crown)",
       "base_index": 541,
       "boon": "Atk",
@@ -23626,7 +23666,7 @@ var data = {
       "proc": 19,
       "seal": 83
     },
-    "314": {
+    "316": {
       "name": "Zephiel (Winter's Crown)",
       "base_index": 541,
       "boon": "Atk",
@@ -52036,7 +52076,7 @@ var data = {
       "def_mod": 0,
       "res_mod": 0,
       "cooldown_mod": 0,
-      "skill_definition": "{permanent_stat_boost(permanent_atk,2);[boolean_check(is_transformed,true)]}{stat_penalty(e_combat_atk,4&e_combat_def,4),e_follow_up_inhibitor;[boolean_check(is_transformed,true)&boolean_check(initiating,true)]}{flat_stat_boost(combat_atk,3&combat_spd,3&combat_def,3&combat_res,3);[boolean_check(weap_boolean_input,true)|comp(adj=0)]}",
+      "skill_definition": "{permanent_stat_boost(permanent_atk,2);[boolean_check(is_transformed,true)]}{mov_eff(C);[0]}{stat_penalty(e_combat_atk,4&e_combat_def,4),e_follow_up_inhibitor;[boolean_check(is_transformed,true)&boolean_check(initiating,true)]}{flat_stat_boost(combat_atk,3&combat_spd,3&combat_def,3&combat_res,3);[boolean_check(weap_boolean_input,true)|comp(adj=0)]}",
       "skill_desc_refine_base": "empty",
       "skill_desc_refine_eff": "empty",
       "has_refinements": 0,
