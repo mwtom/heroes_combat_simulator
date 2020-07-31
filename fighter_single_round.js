@@ -227,6 +227,7 @@ class Fighter {
     // Misc. effects
     this.activate_special_effect = null;
     this.adaptive_damage_effects = new Array();
+    this.targets_effects = new Array();
     this.pulse_effects = new Array();
     this.stat_ploy_effects = new Array();
     this.panic_ploy_effects = new Array();
@@ -316,6 +317,8 @@ class Fighter {
     this.has_triangle_amplifier = false;
     this.deals_adaptive_damage = false;
     this.deals_effective_damage = false;
+    this.targets_def = false;
+    this.targets_res = false;
     this.strikes_twice = false;
     this.prevents_counterattack = false;
     this.prevents_e_counterattack = false;
@@ -326,6 +329,7 @@ class Fighter {
     this.inhibits_special_charge = false;
     this.accelerates_special_charge = false;
     this.wrathful_staff_active = false;
+    this.skill_miracle_activated = false;
     this.atk_buff_neutralized = false;
     this.spd_buff_neutralized = false;
     this.def_buff_neutralized = false;
@@ -731,6 +735,9 @@ Fighter.prototype.sort_effect = function (effect) {
     case "adaptive_damage":
       this.adaptive_damage_effects.push(effect);
       break;
+    case "targets":
+      this.targets_effects.push(effect);
+      break;
     case "counterattack":
       this.counterattack_effects.push(effect);
       break;
@@ -768,6 +775,9 @@ Fighter.prototype.sort_effect = function (effect) {
       this.vantage_effects.push(effect);
       break;
     case "endure":
+      this.endure_effects.push(effect);
+      break;
+    case "endure_with_flag":
       this.endure_effects.push(effect);
       break;
     case "colorless_wta":
@@ -1110,6 +1120,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "in_combat":
       evaluated_boolean = in_combat;
+      break;
+    case "skill_miracle_flag":
+      evaluated_boolean = this.skill_miracle_activated;
       break;
     default:
       console.log("A check has been requested for an invalid boolean_value: " + boolean_value);
@@ -1946,6 +1959,8 @@ Fighter.prototype.reset_flags = function () {
   this.has_triangle_amplifier = false;
   this.deals_adaptive_damage = false;
   this.deals_effective_damage = false;
+  this.targets_def = false;
+  this.targets_res = false;
   this.strikes_twice = false;
   this.prevents_counterattack = false;
   this.prevents_e_counterattack = false;
@@ -1956,6 +1971,7 @@ Fighter.prototype.reset_flags = function () {
   this.inhibits_special_charge = false;
   this.accelerates_special_charge = false;
   this.wrathful_staff_active = false;
+  this.skill_miracle_activated = false;
   this.atk_buff_neutralized = false;
   this.spd_buff_neutralized = false;
   this.def_buff_neutralized = false;
@@ -2928,6 +2944,12 @@ Fighter.prototype.set_targeting_flag = function (e_def, e_res) {
     else
       this.targeting = "res";
   }
+  else if (this.targets_def) {
+    this.targeting = "def";
+  }
+  else if (this.targets_res) {
+    this.targeting = "res";
+  }
   else {
     if (physical_weapons.includes(this.weapon_type))
       this.targeting = "def";
@@ -2938,6 +2960,23 @@ Fighter.prototype.set_targeting_flag = function (e_def, e_res) {
 };
 Fighter.prototype.set_adaptive_damage_flag = function (value) {
   this.deals_adaptive_damage = value;
+};
+Fighter.prototype.set_targets_flag = function (effect_string) {
+  var reader = "";
+
+  // the first 8 characters of effect_string are "targets("
+  for (var i = 8; effect_string[i] != ")"; i++) {
+    reader += effect_string[i];
+  }
+
+  if (reader == "def") {
+    this.targets_def = true;
+    return "Def";
+  }
+  else if (reader == "res") {
+    this.targets_res = true;
+    return "Res";
+  }
 };
 Fighter.prototype.set_strike_twice_flag = function (value) {
   this.strikes_twice = value;
@@ -3126,6 +3165,9 @@ Fighter.prototype.set_neutralize_scaled_mitigation_flag = function (value) {
 };
 Fighter.prototype.set_next_atk_bonus_dmg = function (value) {
   this.next_atk_bonus_dmg = value;
+};
+Fighter.prototype.set_skill_miracle_activated_flag = function (value) {
+  this.skill_miracle_activated = value;
 };
 Fighter.prototype.set_extra_movement_flag = function (value) {
   this.bonus_mov_active = value;

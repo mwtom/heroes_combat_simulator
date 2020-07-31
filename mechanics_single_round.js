@@ -993,6 +993,20 @@ function execute_phase(player, enemy, player_initiating) {
     }
   }
 
+  // Evaluate any "targets" effects that affect which defensive stat the units target.
+  for (var i = 0; i < attacker.targets_effects.length; i++) {
+    if (attacker.eval_conditions(attacker.targets_effects[i].conditions, defender)) {
+      attacker.set_targets_flag(attacker.targets_effects[i].effect);
+      break;
+    }
+  }
+  for (var i = 0; i < defender.targets_effects.length; i++) {
+    if (defender.eval_conditions(defender.targets_effects[i].conditions, attacker)) {
+      defender.set_targets_flag(defender.targets_effects[i].effect);
+      break;
+    }
+  }
+
   // Handling for pre-combat AoEs. Just deal damage to the defender & ignore
   // the rest of the AoE.
   if (attacker.get_special_type() == "precombat") {
@@ -1184,6 +1198,20 @@ function execute_phase(player, enemy, player_initiating) {
         defender.set_adaptive_damage_flag(true);
         break;
       }
+    }
+  }
+
+  // Evaluate any "targets" effects that affect which defensive stat the units target.
+  for (var i = 0; i < attacker.targets_effects.length; i++) {
+    if (attacker.eval_conditions(attacker.targets_effects[i].conditions, defender)) {
+      combat_log += attacker.get_name() + " targets " + attacker.set_targets_flag(attacker.targets_effects[i].effect) + " due to " + attacker.targets_effects[i].source + "!<br>";
+      break;
+    }
+  }
+  for (var i = 0; i < defender.targets_effects.length; i++) {
+    if (defender.eval_conditions(defender.targets_effects[i].conditions, attacker)) {
+      combat_log += defender.get_name() + " targets " + defender.set_targets_flag(defender.targets_effects[i].effect) + " due to " + defender.targets_effects[i].source + "!<br>";
+      break;
     }
   }
 
@@ -1890,6 +1918,11 @@ function calculate_damage(attacker, defender) {
     if (defender.eval_conditions(defender.endure_effects[i].conditions, attacker)) {
       combat_log += defender.endure_effects[i].source + " allows " + defender.get_name() + " to endure the hit with 1 HP!<br />";
       damage = defender.get_hp() - 1;
+
+      if (defender.endure_effects[i].effect == "endure_with_flag") {
+        defender.set_skill_miracle_activated_flag(true);
+      }
+
       break;
     }
   }

@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
   // Show/Hide Enemy List
   $("#EnemyListHeader").click(function() {
-    $("#EnemyList").toggle();
+    $("#EnemyListBody").toggle();
   });
   // Show/Hide Enemy Filters
   $("#FiltersHeader").click(function() {
