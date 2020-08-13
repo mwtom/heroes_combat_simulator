@@ -161,7 +161,7 @@ class Fighter {
     this.scaled_stat_boost_effects = new Array
     this.stat_penalty_effects = new Array(); // Note: for combat debuffs, not field debuffs.
     this.scaled_stat_penalty_effects = new Array();
-    this.phantom_spd_effects = new Array();
+    this.phantom_effects = new Array();
     this.bonus_multiplier_effects = new Array();
 
     // Follow up guarantors and inhibitors.
@@ -372,6 +372,7 @@ class Fighter {
     this.combat_def = 0;
     this.combat_res = 0;
     this.phantom_spd = 0;
+    this.phantom_res = 0;
 
     // The unit's effective attack.
     this.effective_atk = 0;
@@ -708,8 +709,8 @@ Fighter.prototype.sort_effect = function (effect) {
     case "inflict_guard":
       this.inflict_guard_effects.push(effect);
       break;
-    case "phantom_spd":
-      this.phantom_spd_effects.push(effect);
+    case "phantom":
+      this.phantom_effects.push(effect);
       break;
     case "neutralize_bonuses":
       this.neutralize_bonus_effects.push(effect);
@@ -970,15 +971,15 @@ Fighter.prototype.comparison_evaluator = function(comparison_string, e) {
 
   switch(operator) {
     case "=":
-      return this.parse_num_expr(term1, e) == this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e, true) == this.parse_num_expr(term2, e, true);
     case ">":
-      return this.parse_num_expr(term1, e) > this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e, true) > this.parse_num_expr(term2, e, true);
     case "<":
-      return this.parse_num_expr(term1, e) < this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e, true) < this.parse_num_expr(term2, e, true);
     case ">=":
-      return this.parse_num_expr(term1, e) >= this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e, true) >= this.parse_num_expr(term2, e, true);
     case "<=":
-      return this.parse_num_expr(term1, e) <= this.parse_num_expr(term2, e);
+      return this.parse_num_expr(term1, e, true) <= this.parse_num_expr(term2, e, true);
     default:
       return false;
   }
@@ -1391,10 +1392,11 @@ Fighter.prototype.user_boolean_input_check = function(user_input_string) {
  * Inputs:
  *  -num_expr: [String] The numeric expression to process.
  *  -e:        [Fighter] The opposing fighter.
+ *  -skl_comp: [Boolean] Whether the function is being called on a skill comparison.
  * Outputs:
  *  -[Integer] The value of the numeric expression.
  */
-Fighter.prototype.parse_num_expr = function(num_expr, e) {
+Fighter.prototype.parse_num_expr = function(num_expr, e, skl_comp) {
   //console.log("parse_num_expr called on " + num_expr);
 
   // reader holds characters from the string, which help identify what to do next.
@@ -1419,7 +1421,7 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
   // Base case: if no parentheses or operators were encountered, the
   // function is dealing with a basic number or number substitution.
   if (i == num_expr.length)
-    return this.process_numeric_value(reader, e);
+    return this.process_numeric_value(reader, e, skl_comp);
 
   // If the reader's value is "max", the function is dealing with a "max" operation.
   // If the max operation is the last portion of the string, it should be processed and returned.
@@ -1444,9 +1446,9 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
       reader = num_expr[k] + reader;
 
     if (j == num_expr.length)
-      return Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader));
+      return Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader), skl_comp);
     else
-      return this.parse_num_expr(Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader)).toString() + num_expr.substring(j, num_expr.length), e);
+      return this.parse_num_expr(Math.max(this.parse_num_expr(num_expr.substring(i + 1, k), e, skl_comp), parseFloat(reader)).toString() + num_expr.substring(j, num_expr.length), e, skl_comp);
   }
 
   // If the reader's value is "min", the function is dealing with a "min" operation.
@@ -1471,10 +1473,10 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
       reader = num_expr[k] + reader;
 
     if (j == num_expr.length) {
-      return Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader)));
+      return Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e, skl_comp), parseFloat(reader)));
     }
     else {
-      return this.parse_num_expr(Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e), parseFloat(reader))).toString() + num_expr.substring(j, num_expr.length), e);
+      return this.parse_num_expr(Math.abs(Math.min(this.parse_num_expr(num_expr.substring(i + 1, k), e, skl_comp), parseFloat(reader))).toString() + num_expr.substring(j, num_expr.length), e, skl_comp);
     }
   }
 
@@ -1484,16 +1486,16 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
   if (operators.includes(num_expr[i])) {
     switch (num_expr[i]) {
       case "+":
-        return this.process_numeric_value(reader, e) + this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e);
+        return this.process_numeric_value(reader, e, skl_comp) + this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e, skl_comp);
       case "-":
-        return this.process_numeric_value(reader, e) - this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e);
+        return this.process_numeric_value(reader, e, skl_comp) - this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e, skl_comp);
       case "*":
-        return Math.floor(this.process_numeric_value(reader, e) * this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+        return Math.floor(this.process_numeric_value(reader, e, skl_comp) * this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e), skl_comp);
       case "/":
-        return Math.floor(this.process_numeric_value(reader, e) / this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+        return Math.floor(this.process_numeric_value(reader, e, skl_comp) / this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e), skl_comp);
       case "%":
         //console.log(Math.floor(this.process_numeric_value(reader, e) % this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e)));
-        return Math.floor(this.process_numeric_value(reader, e) % this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e));
+        return Math.floor(this.process_numeric_value(reader, e, skl_comp) % this.parse_num_expr(num_expr.substring(i + 1, num_expr.length), e), skl_comp);
       default:
         return 0;
     }
@@ -1513,13 +1515,13 @@ Fighter.prototype.parse_num_expr = function(num_expr, e) {
     }
 
     if (i == num_expr.length)
-      return this.parse_num_expr(num_expr.substring(1, num_expr.length - 1), e);
+      return this.parse_num_expr(num_expr.substring(1, num_expr.length - 1), e, skl_comp);
     else
-      return this.parse_num_expr(this.parse_num_expr(num_expr.substring(1, i - 1), e).toString() + num_expr.substring(i, num_expr.length));
+      return this.parse_num_expr(this.parse_num_expr(num_expr.substring(1, i - 1), e, skl_comp).toString() + num_expr.substring(i, num_expr.length), e, skl_comp);
   }
 };
 
-Fighter.prototype.process_numeric_value = function(reader, e) {
+Fighter.prototype.process_numeric_value = function(reader, e, skl_comp) {
   //console.log("process_numeric_value called on " + reader);
   switch (reader) {
     case "max_hp":
@@ -1549,11 +1551,17 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
     case "printed_atk":
       return this.printed_atk;
     case "printed_spd":
-      return this.printed_spd;// + this.phantom_spd;
+      if (skl_comp)
+        return this.printed_spd + this.phantom_spd;
+      else
+        return this.printed_spd;// + this.phantom_spd;
     case "printed_def":
       return this.printed_res;
     case "printed_res":
-      return this.printed_res;
+      if (skl_comp)
+        return this.printed_res + this.phantom_res;
+      else
+        return this.printed_res;
     case "permanent_atk":
       return this.permanent_atk;
     case "permanent_spd":
@@ -1561,7 +1569,10 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
     case "permanent_def":
       return this.permanent_def;
     case "permanent_res":
-      return this.permanent_res;
+      if (skl_comp)
+        return this.permanent_res + this.phantom_res;
+      else
+        return this.permanent_res;
     case "e_permanent_atk":
       return e.get_permanent_atk();
     case "e_permanent_spd":
@@ -1569,35 +1580,60 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
     case "e_permanent_def":
       return e.get_permanent_def();
     case "e_permanent_res":
-      return e.get_permanent_res();
+      if (skl_comp)
+        return e.get_permanent_res() + e.get_phantom_res();
+      else
+        return e.get_permanent_res();
     case "e_printed_atk":
       return e.get_printed_atk();
     case "e_printed_spd":
-      return e.get_printed_spd();// + e.get_phantom_spd();
+      if (skl_comp)
+        return e.get_printed_spd() + e.get_phantom_spd();
+      else
+        return e.get_printed_spd();// + e.get_phantom_spd();
     case "e_printed_def":
       return e.get_printed_def();
     case "e_printed_res":
-      return e.get_printed_res();
+      if (skl_comp)
+        return e.get_printed_res() + e.get_phantom_res();
+      else
+        return e.get_printed_res();
     case "combat_atk":
       if (in_combat)
         return this.combat_atk;
       else
         return this.printed_atk;
     case "combat_spd":
-      if (in_combat)
-        return this.combat_spd;// + this.phantom_spd();
-      else
-        return this.printed_spd;// + this.phantom_spd();
+      if (in_combat) {
+        if (skl_comp)
+          return this.combat_spd + this.phantom_spd;
+        else
+          return this.combat_spd;
+      }
+      else {
+        if (skl_comp)
+          return this.printed_spd + this.phantom_spd;
+        else
+          return this.printed_spd;
+      }
     case "combat_def":
       if (in_combat)
         return this.combat_def;
       else
         return this.printed_def;
     case "combat_res":
-      if (in_combat)
-        return this.combat_res;
-      else
-        return this.printed_res;
+      if (in_combat) {
+        if (skl_comp)
+          return this.combat_res + this.phantom_res;
+        else
+          return this.combat_res;
+      }
+      else {
+        if (skl_comp)
+          return this.printed_res + this.phantom_res;
+        else
+          return this.printed_res;
+      }
     case "combat_comparison_spd":
       return this.combat_spd + this.phantom_spd;
     case "printed_comparison_spd":
@@ -1608,20 +1644,36 @@ Fighter.prototype.process_numeric_value = function(reader, e) {
       else
         return e.get_printed_atk();
     case "e_combat_spd":
-      if (in_combat)
-        return e.get_combat_spd();// + e.get_phantom_spd();
-      else
-        return e.get_printed_spd();// + e.get_phantom_spd();
+      if (in_combat) {
+        if (skl_comp)
+          return e.get_combat_spd() + e.get_phantom_spd();
+        else
+          return e.get_combat_spd();
+      }
+      else {
+        if (skl_comp)
+          return e.get_printed_spd() + e.get_phantom_spd();
+        else
+          return e.get_printed_spd();
+      }
     case "e_combat_def":
       if (in_combat)
         return e.get_combat_def();
       else
         return e.get_printed_def();
     case "e_combat_res":
-      if (in_combat)
-        return e.get_combat_res();
-      else
-        return e.get_printed_res();
+      if (in_combat) {
+        if (skl_comp)
+          return e.get_combat_res() + e.get_phantom_res();
+        else
+          return e.get_combat_res();
+      }
+      else {
+        if (skl_comp)
+          return e.get_printed_res() + e.get_phantom_res();
+        else
+          return e.get_printed_res();
+      }
     case "e_combat_comparison_spd":
       return e.get_combat_spd() + e.get_phantom_spd();
     case "e_printed_comparison_spd":
@@ -1889,17 +1941,17 @@ Fighter.prototype.process_permanent_penalty = function (effect_string) {
 };
 // Calculates the unit's printed stats.
 Fighter.prototype.calculate_printed_stats = function () {
-  this.printed_atk = this.permanent_atk + this.get_buff_value("atk", "extant") - this.get_penalty_value("atk", "extant");
-  this.printed_spd = this.permanent_spd + this.get_buff_value("spd", "extant") - this.get_penalty_value("spd", "extant");
-  this.printed_def = this.permanent_def + this.get_buff_value("def", "extant") - this.get_penalty_value("def", "extant");
-  this.printed_res = this.permanent_res + this.get_buff_value("res", "extant") - this.get_penalty_value("res", "extant");
+  this.printed_atk = this.permanent_atk + this.get_buff_value("atk") - this.get_penalty_value("atk");
+  this.printed_spd = this.permanent_spd + this.get_buff_value("spd") - this.get_penalty_value("spd");
+  this.printed_def = this.permanent_def + this.get_buff_value("def") - this.get_penalty_value("def");
+  this.printed_res = this.permanent_res + this.get_buff_value("res") - this.get_penalty_value("res");
 };
 // Base combat stats are the sum of the printed stats and user-specified combat buffs.
 Fighter.prototype.calculate_base_combat_stats = function () {
-  this.combat_atk = this.permanent_atk + this.get_buff_value("atk", "active") + this.assumed_atk_boost - this.get_penalty_value("atk", "active");
-  this.combat_spd = this.permanent_spd + this.get_buff_value("spd", "active") + this.assumed_spd_boost - this.get_penalty_value("spd", "active");
-  this.combat_def = this.permanent_def + this.get_buff_value("def", "active") + this.assumed_def_boost - this.get_penalty_value("def", "active");
-  this.combat_res = this.permanent_res + this.get_buff_value("res", "active") + this.assumed_res_boost - this.get_penalty_value("res", "active");
+  this.combat_atk = this.permanent_atk + this.get_buff_value("atk") + this.assumed_atk_boost - this.get_penalty_value("atk");
+  this.combat_spd = this.permanent_spd + this.get_buff_value("spd") + this.assumed_spd_boost - this.get_penalty_value("spd");
+  this.combat_def = this.permanent_def + this.get_buff_value("def") + this.assumed_def_boost - this.get_penalty_value("def");
+  this.combat_res = this.permanent_res + this.get_buff_value("res") + this.assumed_res_boost - this.get_penalty_value("res");
 };
 // Apply user-specified values for field buffs and penalties.
 Fighter.prototype.apply_assumed_values = function () {
@@ -2032,6 +2084,7 @@ Fighter.prototype.reset_flags = function () {
   this.combat_def = 0;
   this.combat_res = 0;
   this.phantom_spd = 0;
+  this.phantom_res = 0;
 
   // The unit's effective attack.
   this.effective_atk = 0;
@@ -2055,14 +2108,22 @@ Fighter.prototype.splice_external_effects_from_array = function (arr) {
   }
 };
 // Adds the value of a numeric expression to the unit's Phantom Spd.
-Fighter.prototype.add_phantom_spd = function (effect_string, e) {
-  //phantom_spd			= "phantom_spd(", numeric_expression, ")"
-  var reader = "";
+Fighter.prototype.add_phantom_stat = function (effect_string, e) {
+  //"phantom(", user_combat_stat, ",", numeric_expression, ")"
+  var stat = "";
+  var value_string = "";
+  var i;
 
-  for (var i = 12; i < effect_string.length - 1; i++)
-    reader += effect_string[i];
+  // The first 8 characters of the effect_string are "phantom("
+  for (i = 8; effect_string[i] != ","; i++)
+    stat += effect_string[i];
+  for (i += 1; i < effect_string.length - 1; i++)
+    value_string += effect_string[i];
 
-  this.phantom_spd += this.parse_num_expr(reader, e);
+  if (stat == "spd")
+    this.phantom_spd += this.parse_num_expr(value_string, e, false);
+  if (stat == "res")
+    this.phantom_res += this.parse_num_expr(value_string, e, false);
 };
 // Populates the effective damage arrays.
 Fighter.prototype.apply_eff_damage_effects = function () {
@@ -2209,7 +2270,7 @@ Fighter.prototype.apply_flat_stat_boost = function (effect_string, e) {
     for (i += 1; effect_string[i] != "&" && i != effect_string.length - 1; i++)
       value_string += effect_string[i];
 
-    var value = this.parse_num_expr(value_string, e);
+    var value = this.parse_num_expr(value_string, e, false);
 
     switch (stat) {
       case "combat_atk":
@@ -2268,8 +2329,8 @@ Fighter.prototype.apply_scaled_stat_boost = function (effect_string, e) {
     for (i += 5; effect_string[i] != "&" && i != effect_string.length - 1; i++)
       max_string += effect_string[i];
 
-    base_value = this.parse_num_expr(base_value_string, e);
-    scale_factor = this.parse_num_expr(scale_factor_string, e);
+    base_value = this.parse_num_expr(base_value_string, e, false);
+    scale_factor = this.parse_num_expr(scale_factor_string, e, false);
     if (max_string != "none") {
       max = parseInt(max_string);
       value = Math.floor(Math.min((base_value * scale_factor), max));
@@ -2328,7 +2389,7 @@ Fighter.prototype.apply_stat_penalty = function (effect_string, e) {
     for (i += 1; effect_string[i] != "&" && i != effect_string.length - 1; i++)
       value_string += effect_string[i];
 
-    var value = e.parse_num_expr(value_string, this);
+    var value = e.parse_num_expr(value_string, this, false);
 
     switch(stat) {
       case "e_combat_atk":
@@ -2392,8 +2453,8 @@ Fighter.prototype.apply_scaled_stat_penalty = function (effect_string, e) {
     for (i += 5; effect_string[i] != "&" && i != effect_string.length - 1; i++)
       max_string += effect_string[i];
 
-    base_value = e.parse_num_expr(base_value_string, this);
-    scale_factor = e.parse_num_expr(scale_factor_string, this);
+    base_value = e.parse_num_expr(base_value_string, this, false);
+    scale_factor = e.parse_num_expr(scale_factor_string, this, false);
     if (max_string != "none") {
       max = parseInt(max_string);
       value = Math.floor(Math.min((base_value * scale_factor), max));
@@ -2446,7 +2507,7 @@ Fighter.prototype.apply_pulse = function (effect_string, e) {
   for (; i < effect_string.length - 1; i++)
     pulse_string += effect_string[i];
 
-  pulse_value = this.process_numeric_value(pulse_string);
+  pulse_value = this.process_numeric_value(pulse_string, false);
   this.cooldown -= pulse_value;
 
   return pulse_value;
@@ -2457,7 +2518,7 @@ Fighter.prototype.calculate_precombat_damage = function (effect_string, e) {
   for (var i = 17; i < effect_string.length - 1; i++)
     reader += effect_string[i];
 
-  return this.parse_num_expr(reader, e);
+  return this.parse_num_expr(reader, e, false);
 };
 // Calculates and returns extra damage from an effect.
 Fighter.prototype.calculate_extra_damage = function (effect_string, e) {
@@ -2472,9 +2533,9 @@ Fighter.prototype.calculate_extra_damage = function (effect_string, e) {
     max_string += effect_string[i];
 
   if (max_string != "none")
-    return Math.min(this.parse_num_expr(damage_string, e), parseInt(max_string));
+    return Math.min(this.parse_num_expr(damage_string, e, false), parseInt(max_string));
   else
-    return this.parse_num_expr(damage_string, e);
+    return this.parse_num_expr(damage_string, e, false);
 };
 // Calculates the effective attack of a unit, including effective damage,
 // weapon triangle, etc.
@@ -2508,7 +2569,7 @@ Fighter.prototype.calculate_flat_percent_mitigation = function (effect_string, e
   for (i += 1; i < effect_string.length - 1; i++)
     value += effect_string[i];
 
-  return this.parse_num_expr(value, e);
+  return this.parse_num_expr(value, e, false);
 };
 // Calculate and return the scaled percent damage mitigation value.
 Fighter.prototype.calculate_scaled_percent_mitigation = function (effect_string, e) {
@@ -2523,9 +2584,9 @@ Fighter.prototype.calculate_scaled_percent_mitigation = function (effect_string,
     max_string += effect_string[i];
 
   if (max_string != "none")
-    return Math.min(this.parse_num_expr(mitigation_string, e), parseInt(max_string));
+    return Math.min(this.parse_num_expr(mitigation_string, e, false), parseInt(max_string));
   else
-    return this.parse_num_expr(mitigation_string, e);
+    return this.parse_num_expr(mitigation_string, e, false);
 };
 Fighter.prototype.calculate_static_mitigation = function (effect_string, e) {
   var mitigation_string = "";
@@ -2535,7 +2596,7 @@ Fighter.prototype.calculate_static_mitigation = function (effect_string, e) {
   for (; i < effect_string.length - 1; i++)
     mitigation_string += effect_string[i];
 
-  return this.parse_num_expr(mitigation_string, e);
+  return this.parse_num_expr(mitigation_string, e, false);
 };
 Fighter.prototype.add_next_hit_damage = function (value) {
   this.next_atk_bonus_dmg += value;
@@ -2549,7 +2610,7 @@ Fighter.prototype.apply_heal = function (effect_string, e) {
   for (; i < effect_string.length - 1; i++)
     heal_string += effect_string[i];
 
-  this.hp += this.parse_num_expr(heal_string, e);
+  this.hp += this.parse_num_expr(heal_string, e, false);
   if (this.hp > this.max_hp)
     this.hp = this.max_hp;
 
@@ -2640,8 +2701,43 @@ Fighter.prototype.get_combat_res = function () {
 Fighter.prototype.get_phantom_spd = function () {
   return this.phantom_spd;
 };
+Fighter.prototype.get_phantom_res = function () {
+  return this.phantom_res;
+};
 Fighter.prototype.get_effective_atk = function () {
   return this.effective_atk;
+};
+Fighter.prototype.get_actual_atk_buff = function () {
+  if (this.panic_active)
+    return this.atk_buff * -1;
+  return this.atk_buff;
+};
+Fighter.prototype.get_actual_spd_buff = function () {
+  if (this.panic_active)
+    return this.spd_buff * -1;
+  return this.spd_buff;
+};
+Fighter.prototype.get_actual_def_buff = function () {
+  if (this.panic_active)
+    return this.def_buff * -1;
+  return this.def_buff;
+};
+Fighter.prototype.get_actual_res_buff = function () {
+  if (this.panic_active)
+    return this.res_buff * -1;
+  return this.res_buff;
+};
+Fighter.prototype.get_actual_atk_penalty = function () {
+  return this.atk_penalty;
+};
+Fighter.prototype.get_actual_spd_penalty = function () {
+  return this.spd_penalty;
+};
+Fighter.prototype.get_actual_def_penalty = function () {
+  return this.def_penalty;
+};
+Fighter.prototype.get_actual_res_penalty = function () {
+  return this.res_penalty;
 };
 Fighter.prototype.get_cooldown = function () {
   return this.cooldown;
@@ -3202,7 +3298,7 @@ Fighter.prototype.set_trilemma_flag = function (value) {
 Fighter.prototype.set_bonus_doubler_flag = function (value) {
   this.bonus_doubler_active = value;
   if (this.bonus_doubler_active) {
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,max(active_atk_buff,0)&combat_spd,max(active_spd_buff,0)&combat_def,max(active_def_buff,0)&combat_res,max(active_res_buff,0))", "[0]", "Bonus Doubler status", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,max(atk_buff,0)&combat_spd,max(spd_buff,0)&combat_def,max(def_buff,0)&combat_res,max(res_buff,0))", "[0]", "Bonus Doubler status", "external"));
   }
 };
 Fighter.prototype.set_divine_fang_flag = function (value) {

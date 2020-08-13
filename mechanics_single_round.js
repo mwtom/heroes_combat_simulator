@@ -211,9 +211,9 @@ function simulate() {
         Defender.set_assumed_res_boost(enemy_pool[i].assumed_res_boost);
 
         Defender.set_assumed_atk_penalty(enemy_pool[i].assumed_atk_penalty);
-        Defender.set_assumed_spd_penalty(enemy_pool[i].assumed_atk_penalty);
-        Defender.set_assumed_def_penalty(enemy_pool[i].assumed_atk_penalty);
-        Defender.set_assumed_res_penalty(enemy_pool[i].assumed_atk_penalty);
+        Defender.set_assumed_spd_penalty(enemy_pool[i].assumed_spd_penalty);
+        Defender.set_assumed_def_penalty(enemy_pool[i].assumed_def_penalty);
+        Defender.set_assumed_res_penalty(enemy_pool[i].assumed_res_penalty);
 
         Defender.set_nearby_allies(enemy_pool[i].adj, enemy_pool[i].two_space, enemy_pool[i].three_space);
       }
@@ -809,6 +809,7 @@ function execute_phase(player, enemy, player_initiating) {
   //console.log(enemy.get_name());
 
   var attacker, defender;
+  var pre_combat_log = "";
   in_combat = false;
 
   if (player_initiating) {
@@ -830,22 +831,18 @@ function execute_phase(player, enemy, player_initiating) {
   player.apply_assumed_values();
   enemy.apply_assumed_values();
 
-  combat_log += "Enemy Stats: +" + enemy.boon + "/-" + enemy.bane;
-  combat_log += ", " + enemy.get_max_hp() + " HP, " + enemy.get_permanent_atk() + " Atk, ";
-  combat_log += enemy.get_permanent_spd() + " Spd, " + enemy.get_permanent_def() + " Def, " + enemy.get_permanent_res() + " Res.<br>";
-
   // Apply pulse effects, if they're enabled.
   if (document.getElementById("Pulse").checked) {
     for (var i = 0; i < player.pulse_effects.length; i++) {
       if (player.eval_conditions(player.pulse_effects[i].conditions, enemy)) {
-        combat_log += player.get_name() + "'s " + player.pulse_effects[i].source + " reduces cooldown by " + player.apply_pulse(player.pulse_effects[i].effect, enemy) + "!<br />";
+        pre_combat_log += player.get_name() + "'s " + player.pulse_effects[i].source + " reduces cooldown by " + player.apply_pulse(player.pulse_effects[i].effect, enemy) + "!<br />";
       }
     }
   }
   if (document.getElementById("E_Pulse").checked) {
     for (var i = 0; i < enemy.pulse_effects.length; i++) {
       if (enemy.eval_conditions(enemy.pulse_effects[i].conditions, player)) {
-        combat_log += enemy.get_name() + "'s " + enemy.pulse_effects[i].source + " reduces cooldown by " + enemy.apply_pulse(enemy.pulse_effects[i].effect, player) + "!<br />";
+        pre_combat_log += enemy.get_name() + "'s " + enemy.pulse_effects[i].source + " reduces cooldown by " + enemy.apply_pulse(enemy.pulse_effects[i].effect, player) + "!<br />";
       }
     }
   }
@@ -871,13 +868,13 @@ function execute_phase(player, enemy, player_initiating) {
     }
   }
 
-  // Set Phantom Spd values.
-  for (var i = 0; i < player.phantom_spd_effects.length; i++)
-    if (player.eval_conditions(player.phantom_spd_effects[i].conditions, enemy))
-      player.add_phantom_spd(player.phantom_spd_effects[i].effect, enemy);
-  for (var i = 0; i < enemy.phantom_spd_effects.length; i++)
-    if (enemy.eval_conditions(enemy.phantom_spd_effects[i].conditions, player))
-      enemy.add_phantom_spd(enemy.phantom_spd_effects[i].effect, player);
+  // Set Phantom Stat values.
+  for (var i = 0; i < player.phantom_effects.length; i++)
+    if (player.eval_conditions(player.phantom_effects[i].conditions, enemy))
+      player.add_phantom_stat(player.phantom_effects[i].effect, enemy);
+  for (var i = 0; i < enemy.phantom_effects.length; i++)
+    if (enemy.eval_conditions(enemy.phantom_effects[i].conditions, player))
+      enemy.add_phantom_stat(enemy.phantom_effects[i].effect, player);
 
   // ploy_flag is true if ploys are applied.
   var ploy_flag = false;
@@ -886,7 +883,7 @@ function execute_phase(player, enemy, player_initiating) {
   if (this.document.getElementById("Ploys").checked) {
     for (var i = 0; i < player.stat_ploy_effects.length; i++) {
       if (player.eval_conditions(player.stat_ploy_effects[i].conditions, enemy)) {
-        combat_log += enemy.get_name() + " receives a " + enemy.apply_stat_ploy(player.stat_ploy_effects[i].effect) + " penalty from " + player.get_name() + "'s " + player.stat_ploy_effects[i].source + "!<br />";
+        pre_combat_log += enemy.get_name() + " receives a " + enemy.apply_stat_ploy(player.stat_ploy_effects[i].effect) + " penalty from " + player.get_name() + "'s " + player.stat_ploy_effects[i].source + "!<br />";
         ploy_flag = true;
       }
     }
@@ -894,7 +891,7 @@ function execute_phase(player, enemy, player_initiating) {
   if (this.document.getElementById("E_Ploys").checked) {
     for (var i = 0; i < enemy.stat_ploy_effects.length; i++) {
       if (enemy.eval_conditions(enemy.stat_ploy_effects[i].conditions, player)) {
-        combat_log += player.get_name() + " receives a " + player.apply_stat_ploy(enemy.stat_ploy_effects[i].effect) + " penalty from " + enemy.get_name() + "'s " + enemy.stat_ploy_effects[i].source + "!<br />";
+        pre_combat_log += player.get_name() + " receives a " + player.apply_stat_ploy(enemy.stat_ploy_effects[i].effect) + " penalty from " + enemy.get_name() + "'s " + enemy.stat_ploy_effects[i].source + "!<br />";
         ploy_flag = true;
       }
     }
@@ -905,7 +902,7 @@ function execute_phase(player, enemy, player_initiating) {
     for (var i = 0; i < player.panic_ploy_effects.length; i++) {
       if (player.eval_conditions(player.panic_ploy_effects[i].conditions, enemy)) {
         enemy.set_panic_flag(true);
-        combat_log += player.get_name() + "'s " + player.panic_ploy_effects[i].source + " inflicts Panic on " + enemy.get_name() + "!<br />";
+        pre_combat_log += player.get_name() + "'s " + player.panic_ploy_effects[i].source + " inflicts Panic on " + enemy.get_name() + "!<br />";
         ploy_flag = true;
         break;
       }
@@ -915,7 +912,7 @@ function execute_phase(player, enemy, player_initiating) {
     for (var i = 0; i < enemy.panic_ploy_effects.length; i++) {
       if (enemy.eval_conditions(enemy.panic_ploy_effects[i].conditions, player)) {
         player.set_panic_flag(true);
-        combat_log += enemy.get_name() + "'s " + enemy.panic_ploy_effects[i].source + " inflicts Panic on " + player.get_name() + "!<br />";
+        pre_combat_log += enemy.get_name() + "'s " + enemy.panic_ploy_effects[i].source + " inflicts Panic on " + player.get_name() + "!<br />";
         ploy_flag = true;
         break;
       }
@@ -927,7 +924,7 @@ function execute_phase(player, enemy, player_initiating) {
     for (var i = 0; i < player.inflict_guard_effects.length; i++) {
       if (player.eval_conditions(player.inflict_guard_effects[i].conditions, enemy)) {
         enemy.set_guard_flag(true);
-        combat_log += player.get_name() + "'s " + player.inflict_guard_effects[i].source + " inflicts Guard on " + enemy.get_name() + "!<br />";
+        pre_combat_log += player.get_name() + "'s " + player.inflict_guard_effects[i].source + " inflicts Guard on " + enemy.get_name() + "!<br />";
         break;
       }
     }
@@ -936,7 +933,7 @@ function execute_phase(player, enemy, player_initiating) {
     for (var i = 0; i < enemy.inflict_guard_effects.length; i++) {
       if (enemy.eval_conditions(enemy.inflict_guard_effects[i].conditions, player)) {
         player.set_guard_flag(true);
-        combat_log += enemy.get_name() + "'s " + enemy.inflict_guard_effects[i].source + " inflicts Guard on " + player.get_name() + "!<br />";
+        pre_combat_log += enemy.get_name() + "'s " + enemy.inflict_guard_effects[i].source + " inflicts Guard on " + player.get_name() + "!<br />";
       }
     }
   }
@@ -946,6 +943,49 @@ function execute_phase(player, enemy, player_initiating) {
     player.calculate_printed_stats();
     enemy.calculate_printed_stats();
   }
+
+  combat_log += "Enemy Stats: +" + enemy.boon + "/-" + enemy.bane;
+  combat_log += ", " + enemy.get_max_hp() + " HP, " + enemy.get_permanent_atk() + " Atk";
+  if (enemy.get_actual_atk_buff() > 0) {
+    combat_log += "<span class=\"buff\"> (+" + enemy.get_actual_atk_buff() + ")</span>";
+  }
+  if (enemy.get_actual_atk_buff() < 0) {
+    combat_log += "<span class=\"penalty\"> (" + enemy.get_actual_atk_buff() + ")</span>";
+  }
+  if (enemy.get_actual_atk_penalty() > 0) {
+    combat_log += "<span class=\"penalty\"> (-" + enemy.get_actual_atk_penalty() + ")</span>";
+  }
+  combat_log += ", " + enemy.get_permanent_spd() + " Spd";
+  if (enemy.get_actual_spd_buff() > 0) {
+    combat_log += "<span class=\"buff\"> (+" + enemy.get_actual_spd_buff() + ")</span>";
+  }
+  if (enemy.get_actual_spd_buff() < 0) {
+    combat_log += "<span class=\"penalty\"> (" + enemy.get_actual_spd_buff() + ")</span>";
+  }
+  if (enemy.get_actual_spd_penalty() > 0) {
+    combat_log += "<span class=\"penalty\"> (-" + enemy.get_actual_spd_penalty() + ")</span>";
+  }
+  combat_log += ", " + enemy.get_permanent_def() + " Def";
+  if (enemy.get_actual_def_buff() > 0) {
+    combat_log += "<span class=\"buff\"> (+" + enemy.get_actual_def_buff() + ")</span>";
+  }
+  if (enemy.get_actual_def_buff() < 0) {
+    combat_log += "<span class=\"penalty\"> (" + enemy.get_actual_def_buff() + ")</span>";
+  }
+  if (enemy.get_actual_def_penalty() > 0) {
+    combat_log += "<span class=\"penalty\"> (-" + enemy.get_actual_def_penalty() + ")</span>";
+  }
+  combat_log += ", " + enemy.get_permanent_res() + " Res";
+  if (enemy.get_actual_res_buff() > 0) {
+    combat_log += "<span class=\"buff\"> (+" + enemy.get_actual_res_buff() + ")</span>";
+  }
+  if (enemy.get_actual_res_buff() < 0) {
+    combat_log += "<span class=\"penalty\"> (" + enemy.get_actual_res_buff() + ")</span>";
+  }
+  if (enemy.get_actual_res_penalty() > 0) {
+    combat_log += "<span class=\"penalty\"> (-" + enemy.get_actual_res_penalty() + ")</span>";
+  }
+  combat_log += ".<br />" + pre_combat_log;
 
   skill_string = "<div class=\"result_cell\">";
   skill_string += "<img src=\"images/weapon_icon.png\" class=\"icon\" />" + enemy.get_weapon_name() + "</div>";

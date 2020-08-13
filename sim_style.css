@@ -103,6 +103,13 @@ body {
   margin: auto;
 }
 
+.buff {
+  color: cyan;
+}
+.penalty {
+  color: red;
+}
+
 /* Media queries */
 @media screen and (min-width: 80rem) {
   #Sim_Header {
