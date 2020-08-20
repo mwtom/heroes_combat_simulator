@@ -15,7 +15,7 @@ function loadUI() {
   fill_skill_menus("player");
   fill_skill_menus("enemy");
 
-  // Fills the options menus (Dragonflowers, etc.)
+  // Fills the options menus
   fill_options_menus("player");
   fill_options_menus("enemy");
 
@@ -306,16 +306,6 @@ function fill_options_menus(mode) {
 
   var Character;
   Character = Characters[char_index];
-
-  // The Enemy Dragonflower menu is populated by another UI function, so the
-  // Dragonflower menu should only be populated if the mode is "player".
-  if (mode == "player") {
-    var dragonflower_options = "";
-    for (var i = 0; i <= Character.df_maximum; i++)
-      dragonflower_options += "<option value=" + i + ">" + i + "</option>";
-
-    $("#Dragonflowers").html(dragonflower_options);
-  }
 }
 
 /* Inputs:
@@ -1185,17 +1175,17 @@ function load_enemy(element_id) {
   check_special_effects("enemy");
   document.getElementById("enemy_transformed_input").checked = foe.transformed;
   document.getElementById("enemy_weap_boolean_input").checked = foe.weap_bool;
-  document.getElementById("enemy_weap_number_input").value = foe.weap_num;
+  document.getElementById("enemy_weap_number_input").value = parseInt(foe.weap_num);
   document.getElementById("enemy_special_boolean_input").checked = foe.spec_bool;
-  document.getElementById("enemy_special_number_input").value = foe.spec_num;
+  document.getElementById("enemy_special_number_input").value = parseInt(foe.spec_num);
   document.getElementById("enemy_a_boolean_input").checked = foe.a_bool;
-  document.getElementById("enemy_a_number_input").value = foe.a_num;
+  document.getElementById("enemy_a_number_input").value = parseInt(foe.a_num);
   document.getElementById("enemy_b_boolean_input").checked = foe.b_bool;
-  document.getElementById("enemy_b_number_input").value = foe.b_num;
+  document.getElementById("enemy_b_number_input").value = parseInt(foe.b_num);
   document.getElementById("enemy_c_boolean_input").checked = foe.c_bool;
-  document.getElementById("enemy_c_number_input").value = foe.c_num;
+  document.getElementById("enemy_c_number_input").value = parseInt(foe.c_num);
   document.getElementById("enemy_seal_boolean_input").checked = foe.seal_bool;
-  document.getElementById("enemy_seal_number_input").value = foe.seal_num;
+  document.getElementById("enemy_seal_number_input").value = parseInt(foe.seal_num);
 
   // Load in Enemy Stat options, if the "Apply to all" setting is not checked.
   if (!document.getElementById("apply_to_all").checked) {
@@ -1214,6 +1204,7 @@ function load_enemy(element_id) {
     document.getElementById("EnemyMergeLv").value = foe.merge_lv;
     document.getElementById("EnemyDragonflowers").value = foe.dragonflowers;
     document.getElementById("EnemyResplendent").checked = foe.resplendent;
+    document.getElementById("EnemyBonusUnit").checked = foe.bonus_unit;
     document.getElementById("EnemyHPCut").value = foe.hp_cut;
     document.getElementById("EnemySpecCharge").value = foe.spec_charge;
     document.getElementById("EnemyAdjAllies").value = foe.adj;
@@ -1291,12 +1282,12 @@ function add_current_foe() {
   foe.b_bool = document.getElementById("enemy_b_boolean_input").checked;
   foe.c_bool = document.getElementById("enemy_c_boolean_input").checked;
   foe.seal_bool = document.getElementById("enemy_seal_boolean_input").checked;
-  foe.weap_num = parseInt(document.getElementById("enemy_weap_number_input").value);
-  foe.spec_num = parseInt(document.getElementById("enemy_special_number_input").value);
-  foe.a_num = parseInt(document.getElementById("enemy_a_number_input").value);
-  foe.b_num = parseInt(document.getElementById("enemy_b_number_input").value);
-  foe.c_num = parseInt(document.getElementById("enemy_c_number_input").value);
-  foe.seal_num = parseInt(document.getElementById("enemy_seal_number_input").value);
+  foe.weap_num = isNaN(parseInt(document.getElementById("enemy_weap_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_weap_number_input").value);
+  foe.spec_num = isNaN(parseInt(document.getElementById("enemy_special_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_special_number_input").value);
+  foe.a_num = isNaN(parseInt(document.getElementById("enemy_a_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_a_number_input").value);
+  foe.b_num = isNaN(parseInt(document.getElementById("enemy_b_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_b_number_input").value);
+  foe.c_num = isNaN(parseInt(document.getElementById("enemy_c_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_c_number_input").value);
+  foe.seal_num = isNaN(parseInt(document.getElementById("enemy_seal_number_input").value)) ? 0 : parseInt(document.getElementById("enemy_seal_number_input").value);
 
   if (!document.getElementById("apply_to_all").checked) {
     foe.assumed_atk_buff = parseInt(document.getElementById("EnemyAtkBuff").value);
@@ -1314,6 +1305,7 @@ function add_current_foe() {
     foe.merge_lv = parseInt(document.getElementById("EnemyMergeLv").value);
     foe.dragonflowers = parseInt(document.getElementById("EnemyDragonflowers").value);
     foe.resplendent = document.getElementById("EnemyResplendent").checked;
+    foe.bonus_unit = document.getElementById("EnemyBonusUnit").checked;
     foe.hp_cut = document.getElementById("EnemyHPCut").value;
     foe.spec_charge = document.getElementById("EnemySpecCharge").value;
     foe.adj = parseInt(document.getElementById("EnemyAdjAllies").value);

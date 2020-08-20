@@ -491,9 +491,7 @@
                   Dragonflowers:
                 </td>
                 <td>
-                  <select id="Dragonflowers" class="Select_Extras">
-                    <!-- This will be populated by functions in ui.js -->
-                  </select>
+                  <input type="number" id="Dragonflowers" class="Extras" value="0" />
               <tr>
                 <td>
                   Reduce HP by:
@@ -536,7 +534,12 @@
               </tr>
             </table>
             <input type="checkbox" id="summoner_support" name="summoner_support" />
-            <label for="summoner_support">Summoner Support</label>
+            <label for="summoner_support">
+              Summoner Support
+            </label>
+            <br />
+            <input type="checkbox" id="BonusUnit" name="bonus_unit" />
+            <label for="bonus_unit">Bonus Unit Boosts</label>
             <br>
             <span id="resplendent">
               <input type="checkbox" id="resplendent_input" />
@@ -1008,19 +1011,7 @@
                   Dragonflowers:
                 </td>
                 <td>
-                  <select id="EnemyDragonflowers" class="Select_Extras">
-                    <option value=0>0</option>
-                    <option value=1>1</option>
-                    <option value=2>2</option>
-                    <option value=3>3</option>
-                    <option value=4>4</option>
-                    <option value=5>5</option>
-                    <option value=6>6</option>
-                    <option value=7>7</option>
-                    <option value=8>8</option>
-                    <option value=9>9</option>
-                    <option value=10>10</option>
-                  </select>
+                  <input type="number" id="EnemyDragonflowers" class="Extras" value="0" />
               <tr>
                 <td>
                   Reduce HP by:
@@ -1065,6 +1056,11 @@
             <input type="checkbox" id="EnemyResplendent" name="enemy_resplendent" />
             <label for="enemy_resplendent">
               Resplendent (If Available)
+            </label>
+            <br />
+            <input type="checkbox" id="EnemyBonusUnit" name="enemy_bonus_unit" />
+            <label for="enemy_bonus_unit">
+              Bonus Unit Boosts
             </label>
             <br />
             <div class="row">

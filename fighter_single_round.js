@@ -1,7 +1,7 @@
 // The Fighter class, a fusion of the base stats of a character
 // and the stats & properties of their skills.
 class Fighter {
-  constructor(char, boon, bane, weap, refine, a, b, c, seal, special, summoner_support, resplendent, merge_lv, dragonflowers, blessings) {
+  constructor(char, boon, bane, weap, refine, a, b, c, seal, special, summoner_support, bonus_unit, resplendent, merge_lv, dragonflowers, blessings) {
     // Load properties from the character.
     this.name = char.name;
     this.color = char.color;
@@ -77,7 +77,7 @@ class Fighter {
       }
     }
 
-    // Apply Rank S Summoner Support bonuses.
+    // Apply Rank S Summoner Support stat bonuses.
     if (summoner_support) {
       this.hp += 5;
       this.atk += 2;
@@ -85,12 +85,21 @@ class Fighter {
       this.def += 2;
       this.res += 2;
     }
+    // Apply Resplendent stat bonuses.
     if (resplendent) {
       this.hp += 2;
       this.atk += 2;
       this.spd += 2;
       this.def += 2;
       this.res += 2;
+    }
+    // Apply Bonus Unit stat bonuses.
+    if (bonus_unit) {
+      this.hp += 10;
+      this.atk += 4;
+      this.spd += 4;
+      this.def += 4;
+      this.res += 4;
     }
 
     // Apply blessing bonuses.
@@ -307,6 +316,7 @@ class Fighter {
     this.attacking = false;
     this.first_hit = false;
     this.hitting_consecutively = false;
+    this.following_up = false;
     this.special_activating = false;
     this.control = "";
 
@@ -842,7 +852,6 @@ Fighter.prototype.eval_conditions = function(conditions, e) {
   var reader = "";
   var i = 1;
 
-  /* NEW CODE */
   var condition_groups = new Array();
   var operators = new Array();
 
@@ -873,20 +882,6 @@ Fighter.prototype.eval_conditions = function(conditions, e) {
   }
 
   return result;
-
-  /* End of NEW CODE */
-
-  // OLD CODE
-  /*for (; conditions[i] != "]" && i < conditions.length; i++)
-    reader += conditions[i];
-  i += 1;
-
-  if (i == conditions.length)
-    return this.eval_condition_group(reader, e);
-  else if (conditions[i + 1] == "&")
-    return this.eval_condition_group(reader, e) && this.eval_conditions(conditions.substring(i + 2, conditions.length), e);
-  else
-    return this.eval_condition_group(reader, e) || this.eval_conditions(conditions.substring(i + 2, conditions.length), e);*/
 };
 
 Fighter.prototype.eval_condition_group = function(condition_group, e) {
@@ -1156,6 +1151,8 @@ Fighter.prototype.state_evaluator = function(state_string, e) {
         return this.first_hit;
       else if (state_requirement == "consecutive")
         return this.hitting_consecutively;
+      else if (state_requirement == "follow-up")
+        return this.following_up;
       else
         return false;
     case "e_hit_type":
@@ -1163,6 +1160,8 @@ Fighter.prototype.state_evaluator = function(state_string, e) {
         return e.first_hit;
       else if (state_requirement == "consecutive")
         return e.hitting_consecutively;
+      else if (state_requirement == "follow-up")
+        return e.following_up;
       else
         return false;
     case "control":
@@ -1210,37 +1209,6 @@ Fighter.prototype.weap_check = function (weap_string) {
 
   return weapon_found;
 };
-/*Fighter.prototype.e_weap_check = function(weap_string, e) {
-  //console.log("e_weap_check called on " + weap_string);
-
-  var reader = "";
-  var weapon_list = [];
-  var i = 0;
-  var weapon_found = false;
-
-  for (; i < weap_string.length; i++) {
-    if (weap_string[i] == ",") {
-      weapon_list.push(reader);
-      reader = "";
-    }
-    else if (i == (weap_string.length - 1)) {
-      weapon_list.push(reader + weap_string[i]);
-      reader = "";
-    }
-    else
-      reader += weap_string[i];
-  }
-
-  weapon_list.forEach((item) => {
-    if ((item == "P" && physical_weapons.includes(e.weapon_type)) || (item == "M" && magical_weapons.includes(e.weapon_type)) ||
-        (item == "1rng" && one_range_weapons.includes(e.weapon_type)) || (item == "2rng" && two_range_weapons.includes(e.weapon_type)))
-      weapon_found = true;
-    else if (e.weapon_type == item)
-      weapon_found = true;
-  });
-
-  return weapon_found;
-};*/
 
 Fighter.prototype.mov_check = function (mov_string) {
   var reader = "";
@@ -1262,28 +1230,6 @@ Fighter.prototype.mov_check = function (mov_string) {
 
   return mov_list.includes(this.movement_type);
 };
-/*Fighter.prototype.e_mov_check = function(mov_string, e) {
-  //console.log("e_mov_check called on " + mov_string);
-
-  var reader = "";
-  var mov_list = [];
-  var i = 0;
-
-  for (; i < mov_string.length; i++) {
-    if (mov_string[i] == ",") {
-      mov_list.push(reader);
-      reader = "";
-    }
-    else if (i == (mov_string.length - 1)) {
-      mov_list.push(reader + mov_string[i]);
-      reader = "";
-    }
-    else
-      reader += mov_string[i];
-  }
-
-  return mov_list.includes(e.get_movement_type());
-};*/
 
 Fighter.prototype.e_weap_eff_check = function(effective_string, e) {
   //console.log("e_weap_eff_check called on " + effective_string);
@@ -1366,27 +1312,6 @@ Fighter.prototype.eff_susc_check = function (susc_string) {
 
   return false;
 };
-
-/*
-Fighter.prototype.user_boolean_input_check = function(user_input_string) {
-  switch(user_input_string) {
-    case "weap_boolean_input":
-      return this.weap_user_boolean_input;
-    case "a_boolean_input":
-      return this.a_user_boolean_input;
-    case "b_boolean_input":
-      return this.b_user_boolean_input;
-    case "c_boolean_input":
-      return this.c_user_boolean_input;
-    case "seal_boolean_input":
-      return this.seal_user_boolean_input;
-    case "spec_boolean_input":
-      return this.spec_user_boolean_input";
-    default:
-      console.log("Unidentified user_input_string in user_boolean_input_check: " + user_input_string);
-      return false;
-  }
-}; */
 
 /* Function parse_num_expr
  * Inputs:
@@ -1551,17 +1476,11 @@ Fighter.prototype.process_numeric_value = function(reader, e, skl_comp) {
     case "printed_atk":
       return this.printed_atk;
     case "printed_spd":
-      if (skl_comp)
-        return this.printed_spd + this.phantom_spd;
-      else
-        return this.printed_spd;// + this.phantom_spd;
+      return skl_comp ? (this.printed_spd + this.phantom_spd) : this.printed_spd;
     case "printed_def":
       return this.printed_res;
     case "printed_res":
-      if (skl_comp)
-        return this.printed_res + this.phantom_res;
-      else
-        return this.printed_res;
+      return skl_comp ? (this.printed_res + this.phantom_res) : this.printed_res;
     case "permanent_atk":
       return this.permanent_atk;
     case "permanent_spd":
@@ -1569,10 +1488,7 @@ Fighter.prototype.process_numeric_value = function(reader, e, skl_comp) {
     case "permanent_def":
       return this.permanent_def;
     case "permanent_res":
-      if (skl_comp)
-        return this.permanent_res + this.phantom_res;
-      else
-        return this.permanent_res;
+      return skl_comp ? (this.permanent_res + this.phantom_res) : this.permanent_res;
     case "e_permanent_atk":
       return e.get_permanent_atk();
     case "e_permanent_spd":
@@ -1580,100 +1496,47 @@ Fighter.prototype.process_numeric_value = function(reader, e, skl_comp) {
     case "e_permanent_def":
       return e.get_permanent_def();
     case "e_permanent_res":
-      if (skl_comp)
-        return e.get_permanent_res() + e.get_phantom_res();
-      else
-        return e.get_permanent_res();
+      return skl_comp ? (e.get_permanent_res() + e.get_phantom_res()) : e.get_permanent_res();
     case "e_printed_atk":
       return e.get_printed_atk();
     case "e_printed_spd":
-      if (skl_comp)
-        return e.get_printed_spd() + e.get_phantom_spd();
-      else
-        return e.get_printed_spd();// + e.get_phantom_spd();
+      return skl_comp ? (e.get_printed_spd() + e.get_phantom_spd()) : e.get_printed_spd();
     case "e_printed_def":
       return e.get_printed_def();
     case "e_printed_res":
-      if (skl_comp)
-        return e.get_printed_res() + e.get_phantom_res();
-      else
-        return e.get_printed_res();
+      return skl_comp ? (e.get_printed_res() + e.get_phantom_res()) : e.get_printed_res();
     case "combat_atk":
-      if (in_combat)
-        return this.combat_atk;
-      else
-        return this.printed_atk;
+      return in_combat ? this.combat_atk : this.printed_atk;
     case "combat_spd":
-      if (in_combat) {
-        if (skl_comp)
-          return this.combat_spd + this.phantom_spd;
-        else
-          return this.combat_spd;
-      }
-      else {
-        if (skl_comp)
-          return this.printed_spd + this.phantom_spd;
-        else
-          return this.printed_spd;
-      }
-    case "combat_def":
       if (in_combat)
-        return this.combat_def;
+        return skl_comp ? (this.combat_spd + this.phantom_spd) : this.combat_spd;
       else
-        return this.printed_def;
+        return skl_comp ? (this.printed_spd + this.phantom_spd) : this.printed_spd;
+    case "combat_def":
+      return in_combat ? this.combat_def : this.printed_def;
     case "combat_res":
-      if (in_combat) {
-        if (skl_comp)
-          return this.combat_res + this.phantom_res;
-        else
-          return this.combat_res;
-      }
-      else {
-        if (skl_comp)
-          return this.printed_res + this.phantom_res;
-        else
-          return this.printed_res;
-      }
+      if (in_combat)
+        return skl_comp ? (this.combat_res + this.phantom_res) : this.combat_res;
+      else
+        return skl_comp ? (this.printed_res + this.phantom_res) : this.printed_res;
     case "combat_comparison_spd":
       return this.combat_spd + this.phantom_spd;
     case "printed_comparison_spd":
         return this.printed_spd + this.phantom_spd;
     case "e_combat_atk":
-      if (in_combat)
-        return e.get_combat_atk();
-      else
-        return e.get_printed_atk();
+      return in_combat ? e.get_combat_atk() : e.get_printed_atk();
     case "e_combat_spd":
-      if (in_combat) {
-        if (skl_comp)
-          return e.get_combat_spd() + e.get_phantom_spd();
-        else
-          return e.get_combat_spd();
-      }
-      else {
-        if (skl_comp)
-          return e.get_printed_spd() + e.get_phantom_spd();
-        else
-          return e.get_printed_spd();
-      }
-    case "e_combat_def":
       if (in_combat)
-        return e.get_combat_def();
+        return skl_comp ? (e.get_combat_spd() + e.get_phantom_spd()) : e.get_combat_spd();
       else
-        return e.get_printed_def();
+        return skl_comp ? (e.get_printed_spd() + e.get_phantom_spd()) : e.get_printed_spd();
+    case "e_combat_def":
+      return in_combat ? e.get_combat_def() : e.get_printed_def();
     case "e_combat_res":
-      if (in_combat) {
-        if (skl_comp)
-          return e.get_combat_res() + e.get_phantom_res();
-        else
-          return e.get_combat_res();
-      }
-      else {
-        if (skl_comp)
-          return e.get_printed_res() + e.get_phantom_res();
-        else
-          return e.get_printed_res();
-      }
+      if (in_combat)
+        return skl_comp ? (e.get_combat_res() + e.get_phantom_res()) : e.get_combat_res();
+      else
+        return skl_comp ? (e.get_printed_res() + e.get_phantom_res()) : e.get_printed_res();
     case "e_combat_comparison_spd":
       return e.get_combat_spd() + e.get_phantom_spd();
     case "e_printed_comparison_spd":
@@ -2002,6 +1865,7 @@ Fighter.prototype.reset_flags = function () {
   this.attacking = false;
   this.first_hit = false;
   this.hitting_consecutively = false;
+  this.following_up = false;
   this.special_activating = false;
 
   this.can_counterattack = false;
@@ -3026,6 +2890,9 @@ Fighter.prototype.set_first_hit_flag = function (value) {
 };
 Fighter.prototype.set_hitting_consecutively_flag = function (value) {
   this.hitting_consecutively = value;
+};
+Fighter.prototype.set_following_up_flag = function (value) {
+  this.following_up = value;
 };
 Fighter.prototype.set_special_activating_flag = function (value) {
   this.special_activating = value;

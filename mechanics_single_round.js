@@ -28,6 +28,7 @@ function simulate() {
                             Seals[document.getElementById("Seal").value],
                             Procs[document.getElementById("Special").value],
                             document.getElementById("summoner_support").checked,
+                            document.getElementById("BonusUnit").checked,
                             document.getElementById("resplendent_input").checked,
                             parseInt(document.getElementById("MergeLv").value),
                             Math.min(parseInt(document.getElementById("Dragonflowers").value), Characters[document.getElementById("Character").value].df_maximum),
@@ -73,7 +74,7 @@ function simulate() {
   document.getElementById("CharRes").innerHTML = Attacker.get_permanent_res();
 
   // Prep & logging variables
-  var boon, bane, weap, weap_selected, refine, respl, merge_lv, flower_lv, a, b, c, proc, seal;
+  var boon, bane, weap, weap_selected, refine, bonus, respl, merge_lv, flower_lv, a, b, c, proc, seal;
   var Defender;
   var orko = new Array();
   var orko_dealt = new Array();
@@ -119,6 +120,7 @@ function simulate() {
       // dragonflower settings directly from the UI. Otherwise, use the settings specified
       // on each individual foe.
       if (mass_override) {
+        bonus = document.getElementById("EnemyBonusUnit").checked;
         respl = document.getElementById("EnemyResplendent").checked && Characters[enemy_pool[i].base_index].has_resplendent;
         merge_lv = document.getElementById("EnemyMergeLv").value;
         flower_lv = Math.min(document.getElementById("EnemyDragonflowers").value, enemy_pool[i].df_maximum);
@@ -139,6 +141,7 @@ function simulate() {
         }
       }
       else {
+        bonus = enemy_pool[i].bonus_unit;
         respl = enemy_pool[i].resplendent && Characters[enemy_pool[i].base_index].has_resplendent;
         merge_lv = enemy_pool[i].merge_lv;
         flower_lv = Math.min(enemy_pool[i].dragonflowers, enemy_pool[i].df_maximum);
@@ -171,6 +174,7 @@ function simulate() {
                              seal,
                              proc,
                              false,
+                             bonus,
                              respl,
                              parseInt(merge_lv),
                              Math.min(parseInt(flower_lv), enemy_pool[i].df_maximum),
@@ -1453,8 +1457,10 @@ function execute_phase(player, enemy, player_initiating) {
     combat_log += (defender.get_name() + "'s follow up occurs immediately!<br />");
 
     defender.set_hitting_consecutively_flag(true);
+    defender.set_following_up_flag(true);
     calculate_damage(defender, attacker);
     defender.set_hitting_consecutively_flag(false);
+    defender.set_following_up_flag(false);
 
     if (attacker.get_hp() == 0) {
       return combat_log;
@@ -1464,8 +1470,10 @@ function execute_phase(player, enemy, player_initiating) {
       combat_log += defender.get_name() + " performs an immediate second strike!<br />";
 
       defender.set_hitting_consecutively_flag(true);
+      defender.set_following_up_flag(true);
       calculate_damage(defender, attacker);
       defender.set_hitting_consecutively_flag(false);
+      defender.set_following_up_flag(false);
 
       if (attacker.get_hp() == 0) {
         return combat_log;
@@ -1500,8 +1508,10 @@ function execute_phase(player, enemy, player_initiating) {
     combat_log += (attacker.get_name() + "'s follow up occurs immediately!<br />");
 
     attacker.set_hitting_consecutively_flag(true);
+    attacker.set_following_up_flag(true);
     calculate_damage(attacker, defender);
     attacker.set_hitting_consecutively_flag(false);
+    attacker.set_following_up_flag(false);
 
     if (defender.get_hp() == 0) {
       return combat_log;
@@ -1511,8 +1521,10 @@ function execute_phase(player, enemy, player_initiating) {
       combat_log += attacker.get_name() + " performs an immediate second strike!<br />";
 
       attacker.set_hitting_consecutively_flag(true);
+      attacker.set_following_up_flag(true);
       calculate_damage(attacker, defender);
       attacker.set_hitting_consecutively_flag(false);
+      attacker.set_following_up_flag(false);
 
       if (defender.get_hp() == 0) {
         return combat_log;
@@ -1527,7 +1539,10 @@ function execute_phase(player, enemy, player_initiating) {
       if (defender.get_follow_up_flag()) {
         combat_log += defender.get_name() + " performs a follow up attack!<br />";
 
+        defender.set_following_up_flag(true);
         calculate_damage(defender, attacker);
+        defender.set_following_up_flag(false);
+
         if (attacker.get_hp() == 0) {
           return combat_log;
         }
@@ -1535,8 +1550,10 @@ function execute_phase(player, enemy, player_initiating) {
           combat_log += defender.get_name() + " performs an immediate second strike!<br />";
 
           defender.set_hitting_consecutively_flag(true);
+          defender.set_following_up_flag(true);
           calculate_damage(defender, attacker);
           defender.set_hitting_consecutively_flag(false);
+          defender.set_following_up_flag(false);
         }
         if (attacker.get_hp() == 0) {
           return combat_log;
@@ -1569,8 +1586,10 @@ function execute_phase(player, enemy, player_initiating) {
         combat_log += defender.get_name() + "'s follow up occurs immediately!<br />";
 
         defender.set_hitting_consecutively_flag(true);
+        defender.set_following_up_flag(true);
         calculate_damage(defender, attacker);
         defender.set_hitting_consecutively_flag(false);
+        defender.set_following_up_flag(false);
 
         if (attacker.get_hp() == 0) {
           return combat_log;
@@ -1580,8 +1599,10 @@ function execute_phase(player, enemy, player_initiating) {
           combat_log += defender.get_name() + " performs an immediate second strike!<br />";
 
           defender.set_hitting_consecutively_flag(true);
+          defender.set_following_up_flag(true);
           calculate_damage(defender, attacker);
           defender.set_hitting_consecutively_flag(false);
+          defender.set_following_up_flag(false);
 
           if (attacker.get_hp() == 0) {
             return combat_log;
@@ -1599,7 +1620,9 @@ function execute_phase(player, enemy, player_initiating) {
     if (!defender.get_counterattack_flag()) {
       attacker.set_hitting_consecutively_flag(true);
     }
+    attacker.set_following_up_flag(true);
     calculate_damage(attacker, defender);
+    attacker.set_following_up_flag(false);
     if (defender.get_hp() == 0) {
       return combat_log;
     }
@@ -1610,8 +1633,10 @@ function execute_phase(player, enemy, player_initiating) {
       combat_log += attacker.get_name() + " performs an immediate second strike!<br />";
 
       attacker.set_hitting_consecutively_flag(true);
+      attacker.set_following_up_flag(true);
       calculate_damage(attacker, defender);
       attacker.set_hitting_consecutively_flag(false);
+      attacker.set_following_up_flag(false);
       if (defender.get_hp() == 0) {
         return combat_log;
       }
@@ -1624,8 +1649,10 @@ function execute_phase(player, enemy, player_initiating) {
     combat_log += defender.get_name() + " performs a follow up attack!<br />";
 
     defender.set_hitting_consecutively_flag(!attacker.get_follow_up_flag());
+    defender.set_following_up_flag(true);
     calculate_damage(defender, attacker);
     defender.set_hitting_consecutively_flag(false);
+    defender.set_following_up_flag(false);
     if (attacker.get_hp() == 0) {
       return combat_log;
     }
@@ -1633,8 +1660,10 @@ function execute_phase(player, enemy, player_initiating) {
       combat_log += defender.get_name() + " performs an immediate second strike!<br />";
 
       defender.set_hitting_consecutively_flag(true);
+      defender.set_following_up_flag(true);
       calculate_damage(defender, attacker);
       defender.set_hitting_consecutively_flag(false);
+      defender.set_following_up_flag(false);
     }
     if (attacker.get_hp() == 0) {
       return combat_log;
@@ -2011,7 +2040,7 @@ function calculate_damage(attacker, defender) {
     }
 
     // Decrement the cooldown if the defender does not inhibit the attacker's special charge.
-    if (!defender.get_inhibit_special_charge_flag()) {
+    if (!defender.get_inhibit_special_charge_flag() && !attacker.get_guard_flag()) {
       attacker.decrement_cooldown();
     }
 
@@ -2064,7 +2093,7 @@ function calculate_damage(attacker, defender) {
     }
 
     // Decrement the cooldown if the attacker does not inhibit the defender's special charge.
-    if (!attacker.get_inhibit_special_charge_flag()) {
+    if (!attacker.get_inhibit_special_charge_flag() && !defender.get_guard_flag()) {
       defender.decrement_cooldown();
     }
 

@@ -89,6 +89,7 @@ function load_data() {
     optimized_unit.b_num = 0;
     optimized_unit.c_num = 0;
     optimized_unit.seal_num = 0;
+    optimized_unit.bonus_unit = false;
     Optimized_Chars.push(optimized_unit);
   }
   for (item in data.Weapons) {
