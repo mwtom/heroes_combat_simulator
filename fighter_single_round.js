@@ -15,6 +15,11 @@ class Fighter {
     this.spd_base = char.spd_base;
     this.def_base = char.def_base;
     this.res_base = char.res_base;
+    this.hp_raw = char.hp_base;
+    this.atk_raw = char.atk_base;
+    this.spd_raw = char.spd_base;
+    this.def_raw = char.def_base;
+    this.res_raw = char.res_base;
     if (char.n_lock == 1) {
       this.boon = "None";
       this.bane = "None";
@@ -110,7 +115,7 @@ class Fighter {
     this.res += blessings[0].res_mod + blessings[1].res_mod + blessings[2].res_mod + blessings[3].res_mod;
 
     var labels = ["hp", "atk", "spd", "def", "res"];
-    var stats = [this.hp_base, this.atk_base, this.spd_base, this.def_base, this.res_base];
+    var stats = [this.hp_raw, this.atk_raw, this.spd_raw, this.def_raw, this.res_raw];
     var sorted_labels = this.two_array_sort(labels, stats);
     var j = 0;
 
@@ -190,6 +195,7 @@ class Fighter {
     // Additional damage effects
     this.bonus_damage_effects = new Array();
     this.damage_boost_effects = new Array();
+    this.next_atk_damage_boost_effects = new Array();
     this.precombat_damage_effects = new Array();
 
     // Mitigation effects
@@ -508,9 +514,9 @@ Fighter.prototype.increment_stat = function (stat) {
 Fighter.prototype.process_weapon_refinement = function () {
   if (this.weapon.type == "ST") {
     if (this.refinement == "D")
-      this.e_counterattack_preventer_effects.push(new Effect("e_counterattack_preventer", "[0]", this.get_weapon_name(), "e_counterattack_preventer"));
+      this.e_counterattack_preventer_effects.push(new Effect("e_counterattack_preventer", "[0]", this.get_weapon_name(), "weapon", "e_counterattack_preventer"));
     if (this.refinement == "W")
-      this.wrathful_staff_effects.push(new Effect("wrathful_staff", "[0]", this.get_weapon_name(), "wrathful_staff"));
+      this.wrathful_staff_effects.push(new Effect("wrathful_staff", "[0]", this.get_weapon_name(), "weapon", "wrathful_staff"));
   }
   else if (this.weapon.range == 1) {
     switch (this.refinement) {
@@ -564,19 +570,19 @@ Fighter.prototype.process_skill_effects = function () {
   //console.log(skills);
 
   if (this.refinement == "Eff")
-    this.add_to_array(this.weapon.skill_desc_refine_eff, this.get_weapon_name());
+    this.add_to_array(this.weapon.skill_desc_refine_eff, "weapon", this.get_weapon_name());
   else if (this.refinement != "None")
-    this.add_to_array(this.weapon.skill_desc_refine_base, this.get_weapon_name());
+    this.add_to_array(this.weapon.skill_desc_refine_base, "weapon", this.get_weapon_name());
   else
-    this.add_to_array(this.weapon.skill_definition, this.get_weapon_name());
+    this.add_to_array(this.weapon.skill_definition, "weapon", this.get_weapon_name());
 
   for (var i = 0; i < skills.length; i++) {
     if (skills[i].skill_definition != "empty")
-      this.add_to_array(skills[i].skill_definition, skills[i].name);
+      this.add_to_array(skills[i].skill_definition, skills[i].type, skills[i].name);
   }
 };
 // Processes the skill description strings and sorts effects into the proper arrays.
-Fighter.prototype.add_to_array = function (sd, n) {
+Fighter.prototype.add_to_array = function (sd, st, n) {
   var reader = "";
   var identifier = "";
   var effects = new Array();
@@ -591,7 +597,7 @@ Fighter.prototype.add_to_array = function (sd, n) {
     // condition string in preparation for the next set of effects (if any).
     if (sd[i] == ";") {
       if (reader != "") {
-        effects.push(new Effect(reader, "", n, reader));
+        effects.push(new Effect(reader, "", n, st, reader));
         reader = "";
       }
 
@@ -622,7 +628,7 @@ Fighter.prototype.add_to_array = function (sd, n) {
           unclosed_parentheses -= 1;
       }
 
-      effects.push(new Effect(reader, "", n, identifier));
+      effects.push(new Effect(reader, "", n, st, identifier));
 
       reader = "";
       identifier = "";
@@ -637,7 +643,7 @@ Fighter.prototype.add_to_array = function (sd, n) {
     // in fact identical to the effect string. Push the effect to the effects array, and clear out the
     // reader in preparation for the next effect.
     else if (sd[i] == ",") {
-      effects.push(new Effect(reader, "", n, reader));
+      effects.push(new Effect(reader, "", n, st, reader));
       reader = "";
     }
     else if (sd[i] != "{")
@@ -670,6 +676,9 @@ Fighter.prototype.sort_effect = function (effect) {
       break;
     case "damage_boost":
       this.damage_boost_effects.push(effect);
+      break;
+    case "next_atk_damage_boost":
+      this.next_atk_damage_boost_effects.push(effect);
       break;
     case "precombat_damage":
       this.precombat_damage_effects.push(effect);
@@ -1078,6 +1087,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
     case "has_extra_movement":
       evaluated_boolean = this.bonus_mov_active;
       break;
+    case "can_counterattack":
+      evaluated_boolean = this.can_follow_up;
+      break;
     case "e_has_penalty":
       evaluated_boolean = e.has_penalty();
       break;
@@ -1089,6 +1101,9 @@ Fighter.prototype.boolean_evaluator = function(boolean_string, e) {
       break;
     case "e_has_extra_movement":
       evaluated_boolean = e.bonus_mov_active;
+      break;
+    case "e_can_follow_up":
+      evaluated_boolean = e.get_follow_up_flag();
       break;
     case "e_can_counterattack":
       evaluated_boolean = e.can_counterattack;
@@ -2465,6 +2480,17 @@ Fighter.prototype.calculate_static_mitigation = function (effect_string, e) {
 Fighter.prototype.add_next_hit_damage = function (value) {
   this.next_atk_bonus_dmg += value;
 };
+Fighter.prototype.get_next_atk_damage_boost = function (effect_string, e) {
+  var damage_string = "";
+
+  // The first 22 characters of effect_string are "next_atk_damage_boost("
+  var i = 22;
+
+  for (; i < effect_string.length - 1; i++)
+    damage_string += effect_string[i];
+
+  return this.parse_num_expr(damage_string, e, false);
+};
 Fighter.prototype.apply_heal = function (effect_string, e) {
   var prev_hp = this.hp;
   var heal_string = "";
@@ -3153,91 +3179,91 @@ Fighter.prototype.set_gravity_flag = function (value) {
 Fighter.prototype.set_flash_flag = function (value) {
   this.flash_active = value;
   if (this.flash_active) {
-    this.counterattack_preventer_effects.push(new Effect("counterattack_preventer", "[0]", "Flash status", "external"));
+    this.counterattack_preventer_effects.push(new Effect("counterattack_preventer", "[0]", "Flash status", "status", "external"));
   }
 };
 Fighter.prototype.set_trilemma_flag = function (value) {
   this.trilemma_active = value;
   if (this.trilemma_active) {
-    this.triangle_amplifier_effects.push(new Effect("triangle_amplifier", "[0]", "Trilemma status", "external"));
+    this.triangle_amplifier_effects.push(new Effect("triangle_amplifier", "[0]", "Trilemma status", "status", "external"));
   }
 };
 Fighter.prototype.set_bonus_doubler_flag = function (value) {
   this.bonus_doubler_active = value;
   if (this.bonus_doubler_active) {
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,max(atk_buff,0)&combat_spd,max(spd_buff,0)&combat_def,max(def_buff,0)&combat_res,max(res_buff,0))", "[0]", "Bonus Doubler status", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,max(atk_buff,0)&combat_spd,max(spd_buff,0)&combat_def,max(def_buff,0)&combat_res,max(res_buff,0))", "[0]", "Bonus Doubler status", "status", "external"));
   }
 };
 Fighter.prototype.set_divine_fang_flag = function (value) {
   this.divine_fang_active = value;
   if (this.divine_fang_active) {
-    this.weapon_eff_effects.push(new Effect("weap_eff(RD,BD,GD,ND)", "[0]", "Divine Fang status", "external"));
+    this.weapon_eff_effects.push(new Effect("weap_eff(RD,BD,GD,ND)", "[0]", "Divine Fang status", "status", "external"));
   }
 };
 Fighter.prototype.set_neutralize_dragon_armor_eff_flag = function (value) {
   this.neutralize_dragon_armor_effective_active = value;
   if (this.neutralize_dragon_armor_effective_active) {
-    this.neutralize_weap_eff_effects.push(new Effect("neutralize_weapon_effective", "[weap_check(RD,BD,GD,ND)|eff_susc_check(RD,BD,GD,ND)]", "Neutralize Dragon/Armor Effective Status", "external"));
-    this.neutralize_mov_eff_effects.push(new Effect("neutralize_movement_effective", "[mov_check(A)]", "Neutralize Dragon/Armor Effective Status", "external"));
+    this.neutralize_weap_eff_effects.push(new Effect("neutralize_weapon_effective", "[weap_check(RD,BD,GD,ND)|eff_susc_check(RD,BD,GD,ND)]", "Neutralize Dragon/Armor Effective Status", "status", "external"));
+    this.neutralize_mov_eff_effects.push(new Effect("neutralize_movement_effective", "[mov_check(A)]", "Neutralize Dragon/Armor Effective Status", "status", "external"));
   }
 };
 Fighter.prototype.set_dominance_flag = function (value) {
   this.dominance_active = value;
   if (this.dominance_active) {
-    this.bonus_damage_effects.push(new Effect("bonus_damage(e_penalty_sum;max=none)", "[0]", "Dominance Status", "external"));
+    this.bonus_damage_effects.push(new Effect("bonus_damage(e_penalty_sum;max=none)", "[0]", "Dominance Status", "status", "external"));
   }
 };
 Fighter.prototype.set_desperation_status_flag = function (value) {
   this.desperation_status_active = value;
   if (this.desperation_status_active) {
-    this.desperation_effects.push(new Effect("desperation", "[boolean_check(initiating,true)]", "Desperation Status", "external"));
+    this.desperation_effects.push(new Effect("desperation", "[boolean_check(initiating,true)]", "Desperation Status", "status", "external"));
   }
 };
 Fighter.prototype.set_geirskogul_support_flag = function (value) {
   this.geirskogul_support_active = value;
   if (this.geirskogul_support_active) {
-    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[weap_check(P)&boolean_check(initiating,false)]", "Geirsk\xF6gul support", "external"));
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,3&combat_spd,3&combat_def,3&combat_res,3)", "[weap_check(P)]", "Geirsk\xF6gul support", "external"));
+    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[weap_check(P)&boolean_check(initiating,false)]", "Geirsk\xF6gul support", "support", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,3&combat_spd,3&combat_def,3&combat_res,3)", "[weap_check(P)]", "Geirsk\xF6gul support", "support", "external"));
   }
 };
 Fighter.prototype.set_inf_breath_support_flag = function (value) {
   this.inf_breath_support_active = value;
   if (this.inf_breath_support_active) {
-    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(initiating,false)]", "Infantry Breath support", "external"));
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def,2&combat_res,2)", "[mov_check(I)&boolean_check(initiating,false)]", "Infantry Breath support", "external"));
+    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(initiating,false)]", "Infantry Breath support", "support", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def,2&combat_res,2)", "[mov_check(I)&boolean_check(initiating,false)]", "Infantry Breath support", "support", "external"));
   }
 };
 Fighter.prototype.set_inf_rush_support_flag = function (value) {
   this.inf_rush_support_active = value;
   if (this.inf_rush_support_active) {
-    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(attacking,true)&comp(combat_atk>e_combat_atk)]", "Infantry Rush support", "external"));
+    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(attacking,true)&comp(combat_atk>e_combat_atk)]", "Infantry Rush support", "support", "external"));
   }
 };
 Fighter.prototype.set_inf_flash_support_flag = function (value) {
   this.inf_flash_support_active = value;
   if (this.inf_flash_support_active) {
-    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(attacking,true)&comp(combat_comparison_spd>e_combat_comparison_spd)]", "Infantry Flash support", "external"));
+    this.special_charge_accelerator_effects.push(new Effect("special_charge_accelerator", "[mov_check(I)&boolean_check(attacking,true)&comp(combat_comparison_spd>e_combat_comparison_spd)]", "Infantry Flash support", "support", "external"));
   }
 };
 Fighter.prototype.set_inf_hexblade_support_flag = function (value) {
   this.inf_hexblade_support_active = value;
   if (this.inf_hexblade_support_active) {
-    this.adaptive_damage_effects.push(new Effect("adaptive_damage", "[mov_check(I)&weap_check(S,L,A,RB,BB,GB,NB,RK,BK,GK,NK)]", "Infantry Hexblade support", "external"));
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,2&combat_spd,2)", "[mov_check(I)&weap_check(S,L,A,RB,BB,GB,NB,RK,BK,GK,NK)]", "Infantry Hexblade support", "external"));
+    this.adaptive_damage_effects.push(new Effect("adaptive_damage", "[mov_check(I)&weap_check(S,L,A,RB,BB,GB,NB,RK,BK,GK,NK)]", "Infantry Hexblade support", "support", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_atk,2&combat_spd,2)", "[mov_check(I)&weap_check(S,L,A,RB,BB,GB,NB,RK,BK,GK,NK)]", "Infantry Hexblade support", "support", "external"));
   }
 };
 Fighter.prototype.set_cg_stacks = function (value) {
   this.cg_stacks = parseInt(value);
   if (this.cg_stacks > 0) {
     var stack_value = this.cg_stacks * 4;
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def," + stack_value + "&combat_res," + stack_value + ")", "[e_weap_check(1rng)]", "Close Guard support", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def," + stack_value + "&combat_res," + stack_value + ")", "[e_weap_check(1rng)]", "Close Guard support", "support", "external"));
   }
 };
 Fighter.prototype.set_dg_stacks = function (value) {
   this.dg_stacks = parseInt(value);
   if (this.dg_stacks > 0) {
     var stack_value = this.dg_stacks * 4;
-    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def," + stack_value + "&combat_res," + stack_value + ")", "[e_weap_check(2rng)]", "Distant Guard support", "external"));
+    this.flat_stat_boost_effects.push(new Effect("flat_stat_boost(combat_def," + stack_value + "&combat_res," + stack_value + ")", "[e_weap_check(2rng)]", "Distant Guard support", "support", "external"));
   }
 };
 Fighter.prototype.set_nearby_allies = function (one, two, three) {

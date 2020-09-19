@@ -1867,6 +1867,9 @@ function calculate_damage(attacker, defender) {
   var mitigation = 0;
   var damage_boost = 0;
 
+  var mitigation_mirror_dmg = 0;
+  var mitigation_mirror_source = "";
+
   if (attacker.get_targeting_flag() == "def")
     damage = attacker.get_effective_atk() - defender.get_combat_def();
   else
@@ -1926,11 +1929,11 @@ function calculate_damage(attacker, defender) {
     }
   }
 
-  // Determine whether the attacker neutralizes %-based mitigation.
+  // Determine whether the attacker neutralizes non-special %-based mitigation.
   for (var i = 0; i < attacker.neutralize_scaled_mitigation_effects.length; i++) {
     if (attacker.eval_conditions(attacker.neutralize_scaled_mitigation_effects[i].conditions, defender)) {
       attacker.set_neutralize_scaled_mitigation_flag(true);
-      combat_log += attacker.get_name() + "'s " + attacker.neutralize_scaled_mitigation_effects[i].source + " will neutralize percent-based mitigation this attack!<br />";
+      combat_log += attacker.get_name() + "'s " + attacker.neutralize_scaled_mitigation_effects[i].source + " will neutralize non-Special-based X% mitigation this attack!<br />";
       break;
     }
   }
@@ -1939,31 +1942,36 @@ function calculate_damage(attacker, defender) {
   for (var i = 0; i < defender.mitigation_mirror_effects.length; i++) {
     if (defender.eval_conditions(defender.mitigation_mirror_effects[i].conditions, attacker)) {
       defender.set_mitigation_mirror_flag(true);
+      mitigation_mirror_source = defender.mitigation_mirror_effects[i].source;
       break;
     }
   }
 
   // Apply %-based mitigation, if applicable and not neutralized.
-  if (!attacker.get_neutralize_scaled_mitigation_flag()) {
-    for (var i = 0; i < defender.flat_percent_mitigation_effects.length; i++) {
-      if (defender.eval_conditions(defender.flat_percent_mitigation_effects[i].conditions, attacker)) {
-        mitigation = Math.floor(damage * defender.calculate_flat_percent_mitigation(defender.flat_percent_mitigation_effects[i].effect, attacker) / 100);
-        combat_log += defender.get_name() + "'s " + defender.flat_percent_mitigation_effects[i].source + " reduces damage by " + mitigation + ".<br />";
-        if (defender.get_mitigation_mirror_flag()) {
-          defender.add_next_hit_damage(mitigation);
-        }
-        damage -= mitigation;
+  // Mitigation effects are applied in the order B -> Special -> Weapon. I strongly suspect that X% mitigation effects
+  // are loaded into a stack and popped off during combat in-game. Loading effects from the arrays starting from the end
+  // mirrors this behavior; note that the Fighter method "process_skill_effects" adds skills to the arrays in the order
+  // weapon -> special -> a -> b -> c -> seal.
+  for (var i = defender.flat_percent_mitigation_effects.length - 1; i >= 0; i--) {
+    if (defender.eval_conditions(defender.flat_percent_mitigation_effects[i].conditions, attacker) && (!attacker.get_neutralize_scaled_mitigation_flag() || defender.flat_percent_mitigation_effects[i].source_skill_type == "special")) {
+      mitigation = Math.floor(damage * defender.calculate_flat_percent_mitigation(defender.flat_percent_mitigation_effects[i].effect, attacker) / 100);
+      combat_log += defender.get_name() + "'s " + defender.flat_percent_mitigation_effects[i].source + " reduces damage by " + mitigation + ".<br />";
+      if (defender.get_mitigation_mirror_flag()) {
+        defender.add_next_hit_damage(mitigation);
+        mitigation_mirror_dmg += mitigation;
       }
+      damage -= mitigation;
     }
-    for (var i = 0; i < defender.scaled_percent_mitigation_effects.length; i++) {
-      if (defender.eval_conditions(defender.scaled_percent_mitigation_effects[i].conditions, attacker)) {
-        mitigation -= Math.floor(damage * defender.calculate_scaled_percent_mitigation(defender.scaled_percent_mitigation_effects[i].effect, attacker) / 100);
-        combat_log += defender.get_name() + "'s " + defender.scaled_percent_mitigation_effects[i].source + " reduces damage by " + mitigation + ".<br />";
-        if (defender.get_mitigation_mirror_flag()) {
-          defender.add_next_hit_damage(mitigation);
-        }
-        damage -= mitigation;
+  }
+  for (var i = defender.scaled_percent_mitigation_effects.length - 1; i >= 0; i--) {
+    if (defender.eval_conditions(defender.scaled_percent_mitigation_effects[i].conditions, attacker) && (!attacker.get_neutralize_scaled_mitigation_flag() || defender.scaled_percent_mitigation_effects[i].source_skill_type == "special")) {
+      mitigation -= Math.floor(damage * defender.calculate_scaled_percent_mitigation(defender.scaled_percent_mitigation_effects[i].effect, attacker) / 100);
+      combat_log += defender.get_name() + "'s " + defender.scaled_percent_mitigation_effects[i].source + " reduces damage by " + mitigation + ".<br />";
+      if (defender.get_mitigation_mirror_flag()) {
+        defender.add_next_hit_damage(mitigation);
+        mitigation_mirror_dmg += mitigation;
       }
+      damage -= mitigation;
     }
   }
 
@@ -1975,8 +1983,21 @@ function calculate_damage(attacker, defender) {
       if (defender.get_mitigation_mirror_flag()) {
         // Next hit damage should be capped at the amount of damage the hit deals.
         defender.add_next_hit_damage(Math.min(damage, mitigation));
+        mitigation_mirror_dmg += Math.min(damage, mitigation);
       }
       damage -= mitigation;
+    }
+  }
+
+  if (defender.get_mitigation_mirror_flag()) {
+    combat_log += defender.get_name() + "'s " + mitigation_mirror_source + " will add +" + mitigation_mirror_dmg + " to their next attack.<br />";
+  }
+
+  // Add damage that applies to the defender's next attack.
+  for (var i = 0; i < defender.next_atk_damage_boost_effects.length; i++) {
+    if (defender.eval_conditions(defender.next_atk_damage_boost_effects[i].conditions, attacker)) {
+      combat_log += defender.get_name() + "'s " + defender.next_atk_damage_boost_effects[i].source + " will add +" + defender.get_next_atk_damage_boost(defender.next_atk_damage_boost_effects[i].effect, attacker) + " damage to their next attack this combat.<br />";
+      defender.add_next_hit_damage(defender.get_next_atk_damage_boost(defender.next_atk_damage_boost_effects[i].effect, attacker));
     }
   }
 

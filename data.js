@@ -93,21 +93,27 @@ function load_data() {
     Optimized_Chars.push(optimized_unit);
   }
   for (item in data.Weapons) {
+    data.Weapons[item].type = "weapon";
     Weapons.push(data.Weapons[item]);
   }
   for (item in data.A_Passives) {
+    data.A_Passives[item].type = "a";
     A_Passives.push(data.A_Passives[item]);
   }
   for (item in data.B_Passives) {
+    data.B_Passives[item].type = "b";
     B_Passives.push(data.B_Passives[item]);
   }
   for (item in data.C_Passives) {
+    data.C_Passives[item].type = "c";
     C_Passives.push(data.C_Passives[item]);
   }
   for (item in data.Seals) {
+    data.Seals[item].type = "seal";
     Seals.push(data.Seals[item]);
   }
   for (item in data.Specials) {
+    data.Specials[item].type = "special";
     Procs.push(data.Specials[item]);
   }
   for (item in data.Blessings) {
